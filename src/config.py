@@ -19,7 +19,7 @@ class Settings:
     GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
     # ── News / Market Sourcing ──────────────────────────────────────────────
-    SERPAPI_KEY: str = os.getenv("SERPAPI_KEY", "b8906f93f638b596fb6ef15e4086e0eebcfc3372a0d293b2977224b92a7d4ecf")
+    SERPAPI_KEY: str = os.getenv("SERPAPI_KEY", "")
 
     # ── Meta (Instagram & Facebook) ─────────────────────────────────────────
     INSTAGRAM_USER_ID: str = os.getenv("INSTAGRAM_USER_ID", "17841476402324907")
