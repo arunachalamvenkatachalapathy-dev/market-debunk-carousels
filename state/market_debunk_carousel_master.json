@@ -1,27 +1,26 @@
 {
   "topic": {
-    "title": "The 1% Expense Ratio Illusion: How Direct Plans Save ₹34 Lakhs",
-    "archetype": "myth_vs_reality_math",
-    "archetype_name": "Myth vs. Reality Math Comparison",
-    "source": "SEBI Mutual Fund Regulations & Compounding Math",
-    "raw_text": "Retail investors assume a 1% distributor commission is negligible. On a ₹15,000 monthly SIP compounding at 12% over 25 years, a Regular Plan yields ₹2.42 Crore while a Direct Plan yields ₹2.76 Crore. That 1% fee quietly transferred ₹34 Lakhs of your compounding wealth to distributors without adding a single percentage point of performance.",
+    "title": "The Credit Card Minimum Due Trap: ₹50,000 Ballooning to ₹1.8 Lakhs",
+    "archetype": "hidden_fee_audit",
+    "archetype_name": "The Hidden Fee & Deduction Audit",
+    "source": "RBI Master Direction on Credit Card Operations & Compound Interest",
+    "raw_text": "Paying only the 5% 'Minimum Amount Due' on your credit card triggers compound interest of 42% to 48% annualized. An unpaid balance of ₹50,000 takes over 14 years to clear if you pay only minimums, costing more than ₹1,80,000 in pure interest and GST. Interest-free grace periods are instantly revoked on all new transactions the moment you leave a single rupee unpaid.",
     "numbers_detected": [
-      "1%",
-      "₹15,000",
-      "12%",
-      "25 years",
-      "₹2.42 Crore",
-      "₹2.76 Crore",
-      "₹34 Lakhs"
+      "5%",
+      "42%",
+      "48%",
+      "₹50,000",
+      "14 years",
+      "₹1,80,000"
     ],
     "date": "05 Sep 2026",
     "from_live_api": false
   },
   "plan": {
-    "hook_headline": "The Hidden Math Behind The 1% Expense Ratio Illusion: How Direc",
+    "hook_headline": "The Hidden Math Behind The Credit Card Minimum Due Trap: ₹50,00",
     "core_illusion": "Retail investors assume small percentage fees are negligible over time.",
     "hidden_reality": "Compound deduction mathematically extracts up to 30% of total lifetime gains.",
-    "citable_metric": "1%",
+    "citable_metric": "5%",
     "actionable_rule": "Audit all ongoing expense ratios, platform charges, and spread costs before investing.",
     "lead_magnet": {
       "trigger_word": "GUIDE",
@@ -34,17 +33,17 @@
     ]
   },
   "deck": {
-    "caption": "🚨 The 1% Expense Ratio Illusion: How Direct Plans Save ₹34 Lakhs\n\nMost retail investors believe small fees don't matter, but compound math tells a completely different story.\n\nSwipe through the 6-slide breakdown to audit your capital.\n\n💬 Comment 'GUIDE' below to receive our complete Retail Risk Checklist!\n\n#StockMarket #Investing #MutualFunds #Nifty50 #PersonalFinance",
+    "caption": "🚨 The Credit Card Minimum Due Trap: ₹50,000 Ballooning to ₹1.8 Lakhs\n\nMost retail investors believe small fees don't matter, but compound math tells a completely different story.\n\nSwipe through the 6-slide breakdown to audit your capital.\n\n💬 Comment 'GUIDE' below to receive our complete Retail Risk Checklist!\n\n#StockMarket #Investing #MutualFunds #Nifty50 #PersonalFinance",
     "slides": [
       {
         "role": "hook",
-        "title": "The Hidden Math <span class='highlight-box'>Behind The 1% Expense Ratio Illusion:</span>",
+        "title": "The Hidden Math <span class='highlight-box'>Behind The Credit Card Minimum Due Tr</span>",
         "deliverable": "📖 Inside: 5-Point Mathematical Breakdown",
         "tag": "#MUTUALFUNDS",
         "slide_index": 1,
         "title_lines": [
-          "The Hidden Math Behind",
-          "<span class='highlight-box'>The 1% Expense Ratio Illusion:</span>"
+          "The Hidden Math Behind The",
+          "<span class='highlight-box'>Credit Card Minimum Due Tr</span>"
         ],
         "body_html": "<div class='slide-body-paragraphs'><p class='body-para'></p></div>"
       },
@@ -172,7 +171,7 @@
       }
     ]
   },
-  "run_id": "20260905_034641",
+  "run_id": "20260905_041129",
   "slide_count": 6,
-  "exported_at": "2026-09-05T03:47:16.079341+00:00"
+  "exported_at": "2026-09-05T04:11:32.814113+00:00"
 }
