@@ -5,6 +5,7 @@ from typing import Optional, List, Dict, Tuple
 from google import genai
 
 from src.config import settings
+from src.thinker_engine import ThinkerEngine
 
 logger = logging.getLogger(__name__)
 
@@ -17,6 +18,7 @@ class EditorialEngine:
     def __init__(self, api_key: Optional[str] = None):
         self.api_key = api_key or settings.GEMINI_API_KEY
         self.client = genai.Client(api_key=self.api_key) if self.api_key else None
+        self.thinker = ThinkerEngine(api_key=self.api_key)
 
     def compose_carousel(self, topic_data: dict, brief: str) -> dict:
         """
@@ -47,25 +49,38 @@ class EditorialEngine:
                 logger.info("✅ Repaired deck passed Numeric Fact-Checking Gate.")
                 deck["fact_check_status"] = "verified_after_repair"
             else:
-                # ── CIRCUIT BREAKER: Halt loop and engage pre-vetted evergreen topic ──
-                logger.error("🚨 CONSECUTIVE FACT-CHECK FAILURE: Verification failed twice (%s).", report_retry)
-                logger.info("🛡️ Engaging Fact-Check Circuit Breaker: Falling back immediately to pre-vetted evergreen topic.")
-                
-                from src.research_engine import CURATED_FALLBACKS
-                arc_id = topic_data.get("archetype", "myth_vs_reality_math")
-                fallback = CURATED_FALLBACKS.get(arc_id, CURATED_FALLBACKS["myth_vs_reality_math"])
-                
-                # Update topic_data in place so master package reflects the verified reality
-                topic_data["circuit_breaker_engaged"] = True
-                topic_data["circuit_breaker_reason"] = report_retry
-                topic_data["title"] = fallback["title"]
-                topic_data["source"] = fallback["source"]
-                topic_data["raw_text"] = fallback["raw_text"]
-                topic_data["numbers_detected"] = fallback["numbers_detected"]
-                topic_data["from_live_api"] = False
-                
-                deck = self._generate_fallback_deck(topic_data)
-                deck["fact_check_status"] = "circuit_breaker_evergreen_fallback"
+                # ── Pass 3: Invoke ThinkerEngine with Gemini Thinking Mode for Auto-Repair ──
+                logger.warning("🧠 Invoking Schematic Thinker Layer for numeric auto-repair...")
+                source_full = f"{topic_data.get('raw_text', '')} {topic_data.get('title', '')} {topic_data.get('source_snippet', '')}"
+                is_th_repaired, th_deck, diag = self.thinker.diagnose_and_repair_editorial_failure(
+                    source_text=source_full,
+                    failing_deck=deck,
+                    validation_report=report_retry
+                )
+                if is_th_repaired and th_deck:
+                    logger.info("✅ ThinkerEngine auto-repaired slide deck facts successfully!")
+                    deck = th_deck
+                    deck["fact_check_status"] = "thinker_auto_repaired"
+                else:
+                    # ── CIRCUIT BREAKER: Halt loop and engage pre-vetted evergreen topic ──
+                    logger.error("🚨 CONSECUTIVE FACT-CHECK FAILURE: Verification failed twice (%s).", report_retry)
+                    logger.info("🛡️ Engaging Fact-Check Circuit Breaker: Falling back immediately to pre-vetted evergreen topic.")
+                    
+                    from src.research_engine import CURATED_FALLBACKS
+                    arc_id = topic_data.get("archetype", "myth_vs_reality_math")
+                    fallback = CURATED_FALLBACKS.get(arc_id, CURATED_FALLBACKS["myth_vs_reality_math"])
+                    
+                    # Update topic_data in place so master package reflects the verified reality
+                    topic_data["circuit_breaker_engaged"] = True
+                    topic_data["circuit_breaker_reason"] = report_retry
+                    topic_data["title"] = fallback["title"]
+                    topic_data["source"] = fallback["source"]
+                    topic_data["raw_text"] = fallback["raw_text"]
+                    topic_data["numbers_detected"] = fallback["numbers_detected"]
+                    topic_data["from_live_api"] = False
+                    
+                    deck = self._generate_fallback_deck(topic_data)
+                    deck["fact_check_status"] = "circuit_breaker_evergreen_fallback"
         else:
             logger.info("✅ %s", report)
             deck["fact_check_status"] = "verified_pass"

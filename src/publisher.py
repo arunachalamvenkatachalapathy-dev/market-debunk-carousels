@@ -7,6 +7,7 @@ from typing import List, Dict, Optional
 import requests
 
 from src.config import settings
+from src.thinker_engine import ThinkerEngine
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +24,7 @@ class Publisher:
 
     def __init__(self):
         self.base_url = f"https://graph.facebook.com/{settings.INSTAGRAM_GRAPH_VERSION}"
+        self.thinker = ThinkerEngine()
 
     def publish_all(
         self,
@@ -117,6 +119,21 @@ class Publisher:
         token = settings.INSTAGRAM_ACCESS_TOKEN.strip()
         user_id = settings.INSTAGRAM_USER_ID.strip()
 
+        # Pre-flight check: verify image URLs return HTTP 200 before submitting to Meta
+        for i, url in enumerate(image_urls):
+            is_ready = False
+            for attempt in range(1, 4):
+                try:
+                    head_res = requests.head(url, timeout=10)
+                    if head_res.status_code == 200:
+                        is_ready = True
+                        break
+                except Exception:
+                    pass
+                time.sleep(2)
+            if not is_ready:
+                logger.warning("Image %d (%s) not returning HTTP 200 yet. Proceeding with caution...", i + 1, url)
+
         try:
             # Step 1: Create child image containers
             children_ids = []
@@ -173,6 +190,11 @@ class Publisher:
 
         except Exception as e:
             logger.error("Instagram carousel publishing failed: %s", e)
+            self.thinker.diagnose_publish_failure(
+                platform="Instagram",
+                error_details=str(e),
+                payload_meta={"image_urls": image_urls, "caption_len": len(caption)}
+            )
             return {"success": False, "error": str(e)}
 
     def get_instagram_permalink(self, media_id: str, token: str) -> Optional[str]:
@@ -249,6 +271,11 @@ class Publisher:
 
         except Exception as e:
             logger.error("Facebook post publishing failed: %s", e)
+            self.thinker.diagnose_publish_failure(
+                platform="Facebook",
+                error_details=str(e),
+                payload_meta={"slide_count": len(slide_paths), "caption_len": len(caption)}
+            )
             return {"success": False, "error": str(e)}
 
     # ── Telegram Staggered Notifier ─────────────────────────────────────────
@@ -284,6 +311,11 @@ class Publisher:
 
         except Exception as e:
             logger.error("Telegram notification failed: %s", e)
+            self.thinker.diagnose_publish_failure(
+                platform="Telegram",
+                error_details=str(e),
+                payload_meta={"title": title, "has_pdf": bool(pdf_path)}
+            )
             return {"success": False, "error": str(e)}
 
     # ── LinkedIn Document Carousel ──────────────────────────────────────────

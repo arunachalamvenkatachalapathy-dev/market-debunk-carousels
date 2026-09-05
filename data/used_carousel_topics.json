@@ -9,10 +9,52 @@
       "title": "The Credit Card Minimum Due Trap: ₹50,000 Ballooning to ₹1.8 Lakhs",
       "archetype": "hidden_fee_audit",
       "timestamp": "2026-09-05T04:11:29.490485+00:00"
+    },
+    {
+      "title": "SEBI's ₹15 Lakh F&O Rule: The Real Math Behind Retail Option Wipeouts",
+      "archetype": "institutional_playbook",
+      "timestamp": "2026-09-05T04:24:13.219979+00:00"
+    },
+    {
+      "title": "The 1% Expense Ratio Illusion: How Direct Plans Save ₹34 Lakhs",
+      "archetype": "myth_vs_reality_math",
+      "timestamp": "2026-09-05T04:26:10.308753+00:00"
+    },
+    {
+      "title": "Flat vs Reducing Rate Interest Calculator",
+      "archetype": "hidden_fee_audit",
+      "timestamp": "2026-09-05T04:28:05.059105+00:00"
+    },
+    {
+      "title": "New SEBI F&O Rules: Key Changes Traders Should Know",
+      "archetype": "institutional_playbook",
+      "timestamp": "2026-09-05T04:37:52.051734+00:00"
+    },
+    {
+      "title": "Lumpsum Investment Calculator",
+      "archetype": "myth_vs_reality_math",
+      "timestamp": "2026-09-05T04:39:57.788008+00:00"
+    },
+    {
+      "title": "What are the hidden charges in No-Cost EMIs?",
+      "archetype": "hidden_fee_audit",
+      "timestamp": "2026-09-05T04:42:13.324522+00:00"
+    },
+    {
+      "title": "What is IPO Oversubscription? Factors & How it Works",
+      "archetype": "institutional_playbook",
+      "timestamp": "2026-09-05T04:44:11.101371+00:00"
     }
   ],
   "used_archetypes": [
     "myth_vs_reality_math",
-    "hidden_fee_audit"
+    "hidden_fee_audit",
+    "institutional_playbook",
+    "myth_vs_reality_math",
+    "hidden_fee_audit",
+    "institutional_playbook",
+    "myth_vs_reality_math",
+    "hidden_fee_audit",
+    "institutional_playbook"
   ]
 }
