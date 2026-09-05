@@ -40,6 +40,7 @@ class ThinkerEngine:
             logger.warning("ThinkerEngine: GenAI client unavailable.")
             return None
 
+        # Stage 1: Gemini Thinking Models
         models_to_try = [self.model, "gemini-3.7-flash", "gemini-flash-latest"]
         for m in models_to_try:
             try:
@@ -61,7 +62,26 @@ class ThinkerEngine:
                         clean_text = clean_text[:-3]
                     return json.loads(clean_text.strip())
             except Exception as e:
-                logger.warning("ThinkerEngine: Model %s call failed: %s. Trying fallback...", m, e)
+                logger.warning("ThinkerEngine: Gemini model %s call failed: %s. Trying next...", m, e)
+
+        # Stage 2: First Fallback to Gemma Models
+        gemma_models = [settings.GEMMA_FALLBACK_MODEL, "gemma-4-26b-a4b-it"]
+        for gm in gemma_models:
+            try:
+                logger.info("🤖 ThinkerEngine: Falling back to Gemma model: %s...", gm)
+                response = self.client.models.generate_content(
+                    model=gm,
+                    contents=prompt + "\nCRITICAL: Output valid JSON only with no markdown or explanation."
+                )
+                if response.text:
+                    clean_text = response.text.strip()
+                    if "```json" in clean_text:
+                        clean_text = clean_text.split("```json")[1].split("```")[0].strip()
+                    elif "```" in clean_text:
+                        clean_text = clean_text.split("```")[1].split("```")[0].strip()
+                    return json.loads(clean_text)
+            except Exception as ge:
+                logger.warning("ThinkerEngine: Gemma model %s call failed: %s.", gm, ge)
 
         return None
 

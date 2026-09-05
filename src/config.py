@@ -17,6 +17,7 @@ class Settings:
     # ── AI Keys ─────────────────────────────────────────────────────────────
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
     GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
+    GEMMA_FALLBACK_MODEL: str = os.getenv("GEMMA_FALLBACK_MODEL", "gemma-4-31b-it")
 
     # ── News / Market Sourcing ──────────────────────────────────────────────
     SERPAPI_KEY: str = os.getenv("SERPAPI_KEY", "")

@@ -26,9 +26,19 @@ class EditorialEngine:
         Pass 2: Run the Numeric Fact-Checking Gate to verify all numbers against source context.
         Circuit Breaker: On 2nd consecutive failure, fall back immediately to pre-vetted evergreen archetype.
         """
-        # ── Pass 1: Generation ──────────────────────────────────────────────
-        logger.info("═══ Editorial Pass 1: Drafting 6-Slide Carousel Deck ═══")
-        deck = self._generate_draft(topic_data, brief)
+        # ── Pass 1: Draft Composition ───────────────────────────────────────
+        logger.info("═══ Editorial Pass 1: Drafting 6-Slide Carousel & Caption ═══")
+        try:
+            deck = self._generate_draft(topic_data, brief)
+        except Exception as draft_err:
+            logger.warning("Primary Gemini draft failed (%s); attempting Gemma model fallback...", draft_err)
+            deck = self._generate_draft_gemma(topic_data, brief)
+            if not deck:
+                logger.error("Gemma draft failed; falling back to pre-reserved topic templates.")
+                deck = self._generate_fallback_deck(topic_data)
+                deck["fact_check_status"] = "circuit_breaker_evergreen_fallback"
+                deck["slides"] = self._normalize_slides(deck.get("slides", []), topic_data)
+                return deck
 
         # ── Pass 2: Numeric Fact-Checking Gate ──────────────────────────────
         logger.info("═══ Editorial Pass 2: Running Numeric Fact-Checking Gate ═══")
@@ -62,25 +72,39 @@ class EditorialEngine:
                     deck = th_deck
                     deck["fact_check_status"] = "thinker_auto_repaired"
                 else:
-                    # ── CIRCUIT BREAKER: Halt loop and engage pre-vetted evergreen topic ──
-                    logger.error("🚨 CONSECUTIVE FACT-CHECK FAILURE: Verification failed twice (%s).", report_retry)
-                    logger.info("🛡️ Engaging Fact-Check Circuit Breaker: Falling back immediately to pre-vetted evergreen topic.")
-                    
-                    from src.research_engine import CURATED_FALLBACKS
-                    arc_id = topic_data.get("archetype", "myth_vs_reality_math")
-                    fallback = CURATED_FALLBACKS.get(arc_id, CURATED_FALLBACKS["myth_vs_reality_math"])
-                    
-                    # Update topic_data in place so master package reflects the verified reality
-                    topic_data["circuit_breaker_engaged"] = True
-                    topic_data["circuit_breaker_reason"] = report_retry
-                    topic_data["title"] = fallback["title"]
-                    topic_data["source"] = fallback["source"]
-                    topic_data["raw_text"] = fallback["raw_text"]
-                    topic_data["numbers_detected"] = fallback["numbers_detected"]
-                    topic_data["from_live_api"] = False
-                    
-                    deck = self._generate_fallback_deck(topic_data)
-                    deck["fact_check_status"] = "circuit_breaker_evergreen_fallback"
+                    # ── Pass 4: Fallback to Gemma Model ──
+                    logger.warning("🤖 Primary drafting/repair unverified; falling back to Gemma model (%s)...", settings.GEMMA_FALLBACK_MODEL)
+                    gemma_deck = self._generate_draft_gemma(topic_data, brief)
+                    if gemma_deck and len(gemma_deck.get("slides", [])) == 6:
+                        is_gm_valid, gm_report = self._verify_numeric_facts(gemma_deck, topic_data)
+                        if is_gm_valid:
+                            logger.info("✅ Gemma fallback deck passed Fact-Checking Gate!")
+                            deck = gemma_deck
+                            deck["fact_check_status"] = "gemma_fallback_verified"
+                        else:
+                            logger.warning("Gemma deck failed numeric fact check (%s). Moving to pre-reserved templates...", gm_report)
+                            gemma_deck = None
+
+                    if not gemma_deck:
+                        # ── FINAL CIRCUIT BREAKER: Move to pre-reserved evergreen topic templates ──
+                        logger.error("🚨 GEMMA FALLBACK FAILED. Engaging Circuit Breaker -> Moving to pre-reserved topic templates.")
+                        logger.info("🛡️ Engaging Fact-Check Circuit Breaker: Falling back immediately to pre-vetted evergreen topic.")
+                        
+                        from src.research_engine import CURATED_FALLBACKS
+                        arc_id = topic_data.get("archetype", "myth_vs_reality_math")
+                        fallback = CURATED_FALLBACKS.get(arc_id, CURATED_FALLBACKS["myth_vs_reality_math"])
+                        
+                        # Update topic_data in place so master package reflects the verified reality
+                        topic_data["circuit_breaker_engaged"] = True
+                        topic_data["circuit_breaker_reason"] = report_retry
+                        topic_data["title"] = fallback["title"]
+                        topic_data["source"] = fallback["source"]
+                        topic_data["raw_text"] = fallback["raw_text"]
+                        topic_data["numbers_detected"] = fallback["numbers_detected"]
+                        topic_data["from_live_api"] = False
+                        
+                        deck = self._generate_fallback_deck(topic_data)
+                        deck["fact_check_status"] = "circuit_breaker_evergreen_fallback"
         else:
             logger.info("✅ %s", report)
             deck["fact_check_status"] = "verified_pass"
@@ -88,6 +112,56 @@ class EditorialEngine:
         # Normalize and ensure visual consistency
         deck["slides"] = self._normalize_slides(deck.get("slides", []), topic_data)
         return deck
+
+    def _generate_draft_gemma(self, topic_data: dict, brief: str) -> Optional[dict]:
+        """
+        First fallback model: Gemma (gemma-4-31b-it / gemma-4-26b-a4b-it).
+        Attempts generation using Gemma before moving to pre-reserved topic templates.
+        """
+        if not self.client:
+            return None
+
+        title = topic_data.get("title", "")
+        raw_text = topic_data.get("raw_text", "")
+
+        prompt = f"""You are a financial content strategist for 'Market Debunk'.
+Create a high-density 6-slide financial carousel debunking a retail investing trap.
+TOPIC: {title}
+SOURCE CONTEXT: {raw_text}
+BRIEF: {brief}
+
+STRICT SPECIFICATIONS:
+- Slide 1 (hook): 2-3 short lines, shocking words in <span class="highlight-box">...</span>
+- Slide 2 (friction): card_a_text (myth), card_b_text (reality with exact numbers), takeaway
+- Slide 3 (breakdown): 3 numbered points
+- Slide 4 (playbook): steps 1 & 2
+- Slide 5 (concept): 3 actionable rules
+- Slide 6 (cta): Save this post, comment 'GUIDE'
+
+CRITICAL: Return valid JSON ONLY with keys "caption" and "slides" (array of 6 objects). Do NOT include explanation."""
+
+        gemma_models = [settings.GEMMA_FALLBACK_MODEL, "gemma-4-26b-a4b-it"]
+        for gm in gemma_models:
+            try:
+                logger.info("🤖 Attempting draft generation with Gemma model: %s...", gm)
+                response = self.client.models.generate_content(
+                    model=gm,
+                    contents=prompt
+                )
+                if response.text:
+                    clean_text = response.text.strip()
+                    if "```json" in clean_text:
+                        clean_text = clean_text.split("```json")[1].split("```")[0].strip()
+                    elif "```" in clean_text:
+                        clean_text = clean_text.split("```")[1].split("```")[0].strip()
+                    data = json.loads(clean_text)
+                    if len(data.get("slides", [])) == 6:
+                        logger.info("✓ Gemma model %s successfully generated 6-slide draft.", gm)
+                        return data
+            except Exception as e:
+                logger.warning("Gemma model %s draft failed: %s", gm, e)
+
+        return None
 
     def _generate_draft(self, topic_data: dict, brief: str) -> dict:
         title = topic_data.get("title", "")
