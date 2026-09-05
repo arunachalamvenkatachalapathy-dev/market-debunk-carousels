@@ -1,26 +1,29 @@
 {
   "topic": {
-    "title": "The Credit Card Minimum Due Trap: ₹50,000 Ballooning to ₹1.8 Lakhs",
-    "archetype": "hidden_fee_audit",
-    "archetype_name": "The Hidden Fee & Deduction Audit",
-    "source": "RBI Master Direction on Credit Card Operations & Compound Interest",
-    "raw_text": "Paying only the 5% 'Minimum Amount Due' on your credit card triggers compound interest of 42% to 48% annualized. An unpaid balance of ₹50,000 takes over 14 years to clear if you pay only minimums, costing more than ₹1,80,000 in pure interest and GST. Interest-free grace periods are instantly revoked on all new transactions the moment you leave a single rupee unpaid.",
+    "title": "FD Real Returns After Inflation India – The Hard Truth",
+    "archetype": "myth_vs_reality_math",
+    "archetype_name": "Myth vs. Reality Math Comparison",
+    "source": "inflationcalculator.in",
+    "source_snippet": "For a 7% FD in the 30% bracket: Post-tax = 7% × (1 - 0.30) = 4.9%. Real return = (1.049 / 1.06) - 1 = -1.04%. The negative sign means your FD is destroying ...",
+    "source_url": "https://inflationcalculator.in/learn/fd-real-returns-after-inflation/",
+    "raw_text": "FD Real Returns After Inflation India – The Hard Truth. For a 7% FD in the 30% bracket: Post-tax = 7% × (1 - 0.30) = 4.9%. Real return = (1.049 / 1.06) - 1 = -1.04%. The negative sign means your FD is destroying ...",
     "numbers_detected": [
-      "5%",
-      "42%",
-      "48%",
-      "₹50,000",
-      "14 years",
-      "₹1,80,000"
+      "7%",
+      "30%",
+      "7%",
+      "0.30",
+      "4.9%"
     ],
+    "retrieved_at": "2026-09-05T05:42:48.626553+00:00",
     "date": "05 Sep 2026",
-    "from_live_api": false
+    "from_live_api": true,
+    "evidence_snapshot": "Source: inflationcalculator.in | Retrieved: 2026-09-05T05:42:48.626553+00:00 | Raw: FD Real Returns After Inflation India – The Hard Truth. For a 7% FD in the 30% bracket: Post-tax = 7% × (1 - 0.30) = 4.9%. Real return = (1.049 / 1.06) - 1 = -1.04%. The negative sign means your FD is destroying ..."
   },
   "plan": {
-    "hook_headline": "The Hidden Math Behind The Credit Card Minimum Due Trap: ₹50,00",
+    "hook_headline": "The Hidden Math Behind FD Real Returns After Inflation India – ",
     "core_illusion": "Retail investors assume small percentage fees are negligible over time.",
     "hidden_reality": "Compound deduction mathematically extracts up to 30% of total lifetime gains.",
-    "citable_metric": "5%",
+    "citable_metric": "7%",
     "actionable_rule": "Audit all ongoing expense ratios, platform charges, and spread costs before investing.",
     "lead_magnet": {
       "trigger_word": "GUIDE",
@@ -33,145 +36,145 @@
     ]
   },
   "deck": {
-    "caption": "🚨 The Credit Card Minimum Due Trap: ₹50,000 Ballooning to ₹1.8 Lakhs\n\nMost retail investors believe small fees don't matter, but compound math tells a completely different story.\n\nSwipe through the 6-slide breakdown to audit your capital.\n\n💬 Comment 'GUIDE' below to receive our complete Retail Risk Checklist!\n\n#StockMarket #Investing #MutualFunds #Nifty50 #PersonalFinance",
+    "caption": "Think a 7% Fixed Deposit is safely growing your money? Think again.\n\nHere is the brutal math for anyone in the 30% tax bracket:\n\n• Gross FD Return: 7.0%\n• Post-Tax Return (30% Tax): 4.9%\n• Headline Inflation: 6.0%\n• Actual Real Return: -1.04%\n\nEvery year your money sits in an FD, you are losing purchasing power to taxation and inflation.\n\nWant to protect your wealth from silent financial leaks?\n\nComment 'GUIDE' below and I'll DM you 'The Retail Risk Checklist' for free.\n\n#FixedDeposit #PersonalFinanceIndia #Investing #FinancialLiteracy #MarketDebunk #Inflation",
     "slides": [
       {
-        "role": "hook",
-        "title": "The Hidden Math <span class='highlight-box'>Behind The Credit Card Minimum Due Tr</span>",
-        "deliverable": "📖 Inside: 5-Point Mathematical Breakdown",
-        "tag": "#MUTUALFUNDS",
+        "layout": "hook",
+        "title": "The Hidden Math Behind <span class=\"highlight-box\">7% FD Returns</span>",
+        "deliverable": "Inside: The Post-Tax Inflation Breakdown",
+        "tag": "#FIXEDDEPOSIT",
         "slide_index": 1,
         "title_lines": [
-          "The Hidden Math Behind The",
-          "<span class='highlight-box'>Credit Card Minimum Due Tr</span>"
+          "The Hidden Math",
+          "<span class='highlight-box'>Behind 7% FD Returns</span>"
         ],
         "body_html": "<div class='slide-body-paragraphs'><p class='body-para'></p></div>"
       },
       {
-        "role": "friction",
-        "title": "The Illusion of Negligible Fees",
-        "card_a_text": "Retail investors assume a 1% distributor commission is negligible over time.",
-        "card_b_text": "On a ₹15,000 monthly SIP over 25 years, that 1% fee quietly extracts ₹34 Lakhs from your wealth.",
-        "takeaway": "Never confuse percentage fees with absolute rupee compounding.",
-        "tag": "#MARKETTRUTH",
+        "layout": "friction",
+        "title": "The Illusion of Safe 7% FDs",
+        "card_a_text": "Retail investors assume a 7% FD guarantees risk-free wealth accumulation and absolute safety.",
+        "card_b_text": "In the 30% tax slab with 6% inflation, your real return is -1.04% per year.",
+        "takeaway": "Nominal yield creates comfort. Real yield creates wealth.",
         "slide_index": 2,
+        "tag": "#MARKETTRUTH",
         "title_lines": [
-          "The Illusion",
-          "of Negligible Fees"
+          "The Illusion of",
+          "Safe 7% FDs"
         ],
-        "body_html": "\n            <div class=\"slide-body-paragraphs\">\n              <p class=\"body-para\"><strong>The Myth:</strong> Retail investors assume a 1% distributor commission is negligible over time.</p>\n              <p class=\"body-para\"><strong>The Reality:</strong> On a ₹15,000 monthly SIP over 25 years, that 1% fee quietly extracts ₹34 Lakhs from your wealth.</p>\n              <p class=\"takeaway-para\"><strong>Core Rule:</strong> Never confuse percentage fees with absolute rupee compounding.</p>\n            </div>"
+        "body_html": "\n            <div class=\"slide-body-paragraphs\">\n              <p class=\"body-para\"><strong>The Myth:</strong> Retail investors assume a 7% FD guarantees risk-free wealth accumulation and absolute safety.</p>\n              <p class=\"body-para\"><strong>The Reality:</strong> In the 30% tax slab with 6% inflation, your real return is -1.04% per year.</p>\n              <p class=\"takeaway-para\"><strong>Core Rule:</strong> Nominal yield creates comfort. Real yield creates wealth.</p>\n            </div>"
       },
       {
-        "role": "breakdown",
-        "title": "3 Silent Wealth Leakages",
+        "layout": "breakdown",
+        "title": "3 Silent Leaks in FD Returns",
         "points": [
           {
             "num": "1",
-            "title": "Distributor Trailing Commissions",
-            "desc": "Paid every single month out of your net asset value whether the fund gains or loses."
+            "title": "Tax Slice",
+            "desc": "A 30% tax slab reduces a 7% nominal yield down to a post-tax return of just 4.9%."
           },
           {
             "num": "2",
-            "title": "Opportunity Cost Compounding",
-            "desc": "Money paid as fees cannot compound for your retirement over the next decade."
+            "title": "Inflation Drag",
+            "desc": "Subtracting a 6% inflation rate leaves your capital with an actual real yield of -1.04%."
           },
           {
             "num": "3",
-            "title": "Zero Extra Alpha",
-            "desc": "Regular plans hold the exact same stocks as direct plans with zero added performance."
+            "title": "Compound Decay",
+            "desc": "Negative real returns silently erode over 30% of your capital's real purchasing power over time."
           }
         ],
-        "tag": "#HIDDENMATH",
         "slide_index": 3,
+        "tag": "#HIDDENMATH",
         "title_lines": [
-          "3 Silent Wealth Leakages"
+          "3 Silent Leaks",
+          "in FD Returns"
         ],
-        "body_html": "<div class='slide-body-list'><div class='point-item'><strong>1. Distributor Trailing Commissions:</strong> Paid every single month out of your net asset value whether the fund gains or loses.</div><div class='point-item'><strong>2. Opportunity Cost Compounding:</strong> Money paid as fees cannot compound for your retirement over the next decade.</div><div class='point-item'><strong>3. Zero Extra Alpha:</strong> Regular plans hold the exact same stocks as direct plans with zero added performance.</div></div>"
+        "body_html": "<div class='slide-body-list'><div class='point-item'><strong>1. Tax Slice:</strong> A 30% tax slab reduces a 7% nominal yield down to a post-tax return of just 4.9%.</div><div class='point-item'><strong>2. Inflation Drag:</strong> Subtracting a 6% inflation rate leaves your capital with an actual real yield of -1.04%.</div><div class='point-item'><strong>3. Compound Decay:</strong> Negative real returns silently erode over 30% of your capital's real purchasing power over time.</div></div>"
       },
       {
-        "role": "architecture",
         "layout": "step_diagram",
+        "headline": "The 3-Step Real Yield Audit",
         "steps": [
           {
             "number": 1,
-            "icon_concept": "search",
+            "icon_concept": "calculator",
             "color": "#A8D5BA",
-            "label": "AUDIT",
-            "sublabel": "Check portfolio for Regular"
+            "label": "TAX DEDUCTION",
+            "sublabel": "Post-tax = 7% x (1 - 0.30)"
           },
           {
             "number": 2,
-            "icon_concept": "calculator",
+            "icon_concept": "bar chart",
             "color": "#F5D782",
-            "label": "CALCULATE",
-            "sublabel": "Run Direct vs Regular cost"
+            "label": "INFLATION",
+            "sublabel": "Real = (1.049 / 1.06) - 1"
           },
           {
             "number": 3,
             "icon_concept": "shield",
             "color": "#A8C8E8",
-            "label": "SWITCH",
-            "sublabel": "Switch SIP to Direct Zero-Fee"
+            "label": "REAL RESULT",
+            "sublabel": "Net yield = -1.04%"
           }
         ],
-        "headline": "The 3-Step Capital Recovery Loop",
         "body_lines": [
-          "Distributors sell convenience to retail investors.",
-          "Direct mutual fund platforms preserve compounding capital."
+          "Nominal yields mask systemic loss.",
+          "Always calculate net purchasing power after tax and inflation."
         ],
-        "closing_line": "Audit your expense ratio before adding fresh capital.",
-        "tag": "#PLAYBOOK",
+        "closing_line": "Audit all ongoing expense ratios, platform charges, and spread costs before investing.",
         "slide_index": 4,
+        "tag": "#PLAYBOOK",
         "title_lines": [
           "The 3-Step",
-          "Capital Recovery Loop"
+          "Real Yield Audit"
         ],
-        "body_html": "<div class=\"step-diagram-container\"><div class=\"steps-row\">\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #A8D5BA;\">\n                    <span class=\"step-number\">1</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">AUDIT</span>\n                    <span class=\"step-sublabel\">Check portfolio for Regular</span>\n                  </div>\n                </div>\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #F5D782;\">\n                    <span class=\"step-number\">2</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">CALCULATE</span>\n                    <span class=\"step-sublabel\">Run Direct vs Regular cost</span>\n                  </div>\n                </div>\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #A8C8E8;\">\n                    <span class=\"step-number\">3</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">SWITCH</span>\n                    <span class=\"step-sublabel\">Switch SIP to Direct Zero-Fee</span>\n                  </div>\n                </div></div><div class=\"step-body-content\"><p class='body-para'>Distributors sell convenience to retail investors.</p><p class='body-para'>Direct mutual fund platforms preserve compounding capital.</p><p class='takeaway-para'><strong>Takeaway:</strong> Audit your expense ratio before adding fresh capital.</p></div></div>"
+        "body_html": "<div class=\"step-diagram-container\"><div class=\"steps-row\">\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #A8D5BA;\">\n                    <span class=\"step-number\">1</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">TAX DEDUCTION</span>\n                    <span class=\"step-sublabel\">Post-tax = 7% x (1 - 0.30)</span>\n                  </div>\n                </div>\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #F5D782;\">\n                    <span class=\"step-number\">2</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">INFLATION</span>\n                    <span class=\"step-sublabel\">Real = (1.049 / 1.06) - 1</span>\n                  </div>\n                </div>\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #A8C8E8;\">\n                    <span class=\"step-number\">3</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">REAL RESULT</span>\n                    <span class=\"step-sublabel\">Net yield = -1.04%</span>\n                  </div>\n                </div></div><div class=\"step-body-content\"><p class='body-para'>Nominal yields mask systemic loss.</p><p class='body-para'>Always calculate net purchasing power after tax and inflation.</p><p class='takeaway-para'><strong>Takeaway:</strong> Audit all ongoing expense ratios, platform charges, and spread costs before investing.</p></div></div>"
       },
       {
-        "role": "concept",
-        "title": "3 Rules for Retail Investors",
+        "layout": "concept",
+        "title": "3 Rules Before Locking Capital",
         "rules": [
           {
-            "title": "Audit Nav Direct vs Regular",
-            "desc": "Always verify that every fund scheme in your portfolio explicitly has 'Direct' in its name."
+            "title": "Calculate Post-Tax Yield First",
+            "desc": "Never evaluate an instrument on gross nominal returns alone."
           },
           {
-            "title": "Automate STP Where Applicable",
-            "desc": "Do not leave idle cash in distributor savings accounts when switching schemes."
+            "title": "Benchmark Against CPI",
+            "desc": "Ensure your net yield beats headline inflation consistently."
           },
           {
-            "title": "Verify Total Expense Ratio",
-            "desc": "Cap equity fund TER under 0.8% and passive index fund TER under 0.2%."
+            "title": "Audit Hidden Friction",
+            "desc": "Audit all ongoing expense ratios, platform charges, and spread costs before investing."
           }
         ],
-        "tag": "#STRATEGY",
         "slide_index": 5,
+        "tag": "#STRATEGY",
         "title_lines": [
           "3 Rules",
-          "for Retail Investors"
+          "Before Locking Capital"
         ],
-        "body_html": "<div class='slide-body-list'><div class='point-item'><strong>1. Audit Nav Direct vs Regular:</strong> Always verify that every fund scheme in your portfolio explicitly has 'Direct' in its name.</div><div class='point-item'><strong>2. Automate STP Where Applicable:</strong> Do not leave idle cash in distributor savings accounts when switching schemes.</div><div class='point-item'><strong>3. Verify Total Expense Ratio:</strong> Cap equity fund TER under 0.8% and passive index fund TER under 0.2%.</div></div>"
+        "body_html": "<div class='slide-body-list'><div class='point-item'><strong>1. Calculate Post-Tax Yield First:</strong> Never evaluate an instrument on gross nominal returns alone.</div><div class='point-item'><strong>2. Benchmark Against CPI:</strong> Ensure your net yield beats headline inflation consistently.</div><div class='point-item'><strong>3. Audit Hidden Friction:</strong> Audit all ongoing expense ratios, platform charges, and spread costs before investing.</div></div>"
       },
       {
-        "role": "cta",
-        "title": "Don't <span class='highlight-box'>forget to</span> save this <span class='highlight-box'>post</span>",
-        "discussion_question": "Have you audited your mutual fund portfolio for regular plans? Drop your thoughts below 👇",
+        "layout": "cta",
+        "title_lines": [
+          "Don't <span class=\"highlight-box\">lose money to</span>",
+          "silent <span class=\"highlight-box\">inflation</span>"
+        ],
+        "discussion_question": "Are you factoring post-tax real inflation into your conservative portfolio?",
         "lead_magnet": {
           "trigger_word": "GUIDE",
-          "resource_name": "The Mutual Fund Risk Checklist"
+          "resource_name": "The Retail Risk Checklist"
         },
-        "tag": "#SAVETHIS",
         "slide_index": 6,
-        "title_lines": [
-          "Don't forget to",
-          "save this post"
-        ],
+        "tag": "#SAVETHIS",
         "body_html": "<div class='slide-body-paragraphs'><p class='body-para'></p></div>"
       }
-    ]
+    ],
+    "fact_check_status": "verified_pass"
   },
-  "run_id": "20260905_041129",
+  "run_id": "20260905_054304",
   "slide_count": 6,
-  "exported_at": "2026-09-05T04:11:32.814113+00:00"
+  "exported_at": "2026-09-05T05:43:06.933699+00:00"
 }
