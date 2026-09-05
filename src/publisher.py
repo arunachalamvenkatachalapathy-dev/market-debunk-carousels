@@ -47,39 +47,67 @@ class Publisher:
             results["telegram"] = {"success": True, "status": "dry_run_simulated"}
             return results
 
-        # ── 1. Instagram Carousel ───────────────────────────────────────────
+        # ── 1. Instagram Carousel (Primary Anchor) ──────────────────────────
         ig_permalink = None
         if settings.ENABLE_INSTAGRAM and settings.INSTAGRAM_ACCESS_TOKEN and settings.INSTAGRAM_USER_ID:
             logger.info("Publishing Instagram Carousel for '%s'...", title[:40])
-            ig_res = self.publish_instagram_carousel(image_urls, caption)
-            results["instagram"] = ig_res
-            if ig_res.get("success"):
-                ig_permalink = ig_res.get("permalink")
+            try:
+                ig_res = self.publish_instagram_carousel(image_urls, caption)
+                results["instagram"] = ig_res
+                if ig_res.get("success"):
+                    ig_permalink = ig_res.get("permalink")
+                    logger.info("✓ Instagram published successfully: %s", ig_permalink or ig_res.get("id"))
+                else:
+                    logger.error("❌ Instagram publish failed: %s", ig_res.get("error"))
+            except Exception as ig_err:
+                logger.error("Instagram publish encountered exception: %s", ig_err)
+                results["instagram"] = {"success": False, "status": "failed", "error": str(ig_err)}
         else:
             logger.info("Instagram publishing disabled or missing credentials.")
 
-        # ── 2. Facebook Page Multi-Photo Post ───────────────────────────────
+        # ── 2. Facebook Page Multi-Photo Post (Secondary - Non-blocking) ─────
+        # Runs sequentially after Instagram. If Facebook fails, it logs a warning and DOES NOT halt Telegram.
         if settings.ENABLE_FACEBOOK and (settings.FACEBOOK_ACCESS_TOKEN or settings.INSTAGRAM_ACCESS_TOKEN) and settings.FACEBOOK_PAGE_ID:
             logger.info("Publishing Facebook Page Multi-Photo Post...")
-            fb_res = self.publish_facebook_photos(slide_paths, caption)
-            results["facebook"] = fb_res
+            try:
+                fb_res = self.publish_facebook_photos(slide_paths, caption)
+                results["facebook"] = fb_res
+                if fb_res.get("success"):
+                    logger.info("✓ Facebook post published: %s", fb_res.get("post_id"))
+                else:
+                    logger.warning("⚠️ Facebook publish failed non-fatally: %s. Continuing to Telegram...", fb_res.get("error"))
+            except Exception as fb_err:
+                logger.warning("⚠️ Facebook publish threw non-fatal exception: %s. Continuing to Telegram...", fb_err)
+                results["facebook"] = {"success": False, "status": "failed", "error": str(fb_err)}
         else:
             logger.info("Facebook publishing disabled or missing credentials.")
 
-        # ── 3. Staggered Telegram Notification (Instagram Permalink) ────────
-        # As per optimization plan: shares Instagram link to drive initial save velocity!
+        # ── 3. Telegram Notification (Save-Velocity Push - Non-blocking) ─────
+        # Fires with the Instagram permalink regardless of Facebook's success or failure!
         if settings.ENABLE_TELEGRAM and settings.TELEGRAM_BOT_TOKEN and settings.TELEGRAM_CHAT_ID:
-            logger.info("Sending Telegram update with Instagram permalink...")
-            tg_res = self.send_telegram_notification(title, caption, ig_permalink, pdf_path)
-            results["telegram"] = tg_res
+            logger.info("Sending Telegram update (Save-Velocity funnel to Instagram: %s)...", ig_permalink or "N/A")
+            try:
+                tg_res = self.send_telegram_notification(title, caption, ig_permalink, pdf_path)
+                results["telegram"] = tg_res
+                if tg_res.get("success"):
+                    logger.info("✓ Telegram notification dispatched successfully.")
+                else:
+                    logger.warning("⚠️ Telegram notification failed non-fatally: %s", tg_res.get("error"))
+            except Exception as tg_err:
+                logger.warning("⚠️ Telegram notification threw non-fatal exception: %s", tg_err)
+                results["telegram"] = {"success": False, "status": "failed", "error": str(tg_err)}
         else:
             logger.info("Telegram notification disabled or missing credentials.")
 
         # ── 4. Optional LinkedIn Document Post ──────────────────────────────
         if settings.ENABLE_LINKEDIN and settings.LINKEDIN_ACCESS_TOKEN and settings.LINKEDIN_ORGANIZATION_URN:
             logger.info("Publishing LinkedIn PDF Document post...")
-            li_res = self.publish_linkedin_document(pdf_path, title, caption)
-            results["linkedin"] = li_res
+            try:
+                li_res = self.publish_linkedin_document(pdf_path, title, caption)
+                results["linkedin"] = li_res
+            except Exception as li_err:
+                logger.warning("LinkedIn publish failed non-fatally: %s", li_err)
+                results["linkedin"] = {"success": False, "status": "failed", "error": str(li_err)}
 
         return results
 

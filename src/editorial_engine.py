@@ -22,6 +22,7 @@ class EditorialEngine:
         """
         Pass 1: Draft the 6-slide carousel deck and caption.
         Pass 2: Run the Numeric Fact-Checking Gate to verify all numbers against source context.
+        Circuit Breaker: On 2nd consecutive failure, fall back immediately to pre-vetted evergreen archetype.
         """
         # ── Pass 1: Generation ──────────────────────────────────────────────
         logger.info("═══ Editorial Pass 1: Drafting 6-Slide Carousel Deck ═══")
@@ -32,15 +33,42 @@ class EditorialEngine:
         is_valid, report = self._verify_numeric_facts(deck, topic_data)
         
         if not is_valid:
-            logger.warning("❌ Numeric Fact-Checking Gate failed: %s. Retrying with repair prompt...", report)
-            deck = self._generate_draft(topic_data, f"{brief}\n\nSTRICT FACT-CHECK REPAIR INSTRUCTION: {report}")
+            logger.warning("❌ Numeric Fact-Checking Gate failed (Attempt 1): %s. Regenerating once with strict corrective instructions...", report)
+            repair_prompt = (
+                f"{brief}\n\n"
+                f"STRICT FACT-CHECK REPAIR INSTRUCTION:\n{report}\n"
+                f"EVIDENCE SNAPSHOT: {topic_data.get('evidence_snapshot', '')}\n"
+                f"Preserve the exact numerical anchors from the snapshot."
+            )
+            deck = self._generate_draft(topic_data, repair_prompt)
             is_valid_retry, report_retry = self._verify_numeric_facts(deck, topic_data)
+            
             if is_valid_retry:
                 logger.info("✅ Repaired deck passed Numeric Fact-Checking Gate.")
+                deck["fact_check_status"] = "verified_after_repair"
             else:
-                logger.warning("⚠️ Deck still has numeric discrepancies (%s); normalizing cautiously.", report_retry)
+                # ── CIRCUIT BREAKER: Halt loop and engage pre-vetted evergreen topic ──
+                logger.error("🚨 CONSECUTIVE FACT-CHECK FAILURE: Verification failed twice (%s).", report_retry)
+                logger.info("🛡️ Engaging Fact-Check Circuit Breaker: Falling back immediately to pre-vetted evergreen topic.")
+                
+                from src.research_engine import CURATED_FALLBACKS
+                arc_id = topic_data.get("archetype", "myth_vs_reality_math")
+                fallback = CURATED_FALLBACKS.get(arc_id, CURATED_FALLBACKS["myth_vs_reality_math"])
+                
+                # Update topic_data in place so master package reflects the verified reality
+                topic_data["circuit_breaker_engaged"] = True
+                topic_data["circuit_breaker_reason"] = report_retry
+                topic_data["title"] = fallback["title"]
+                topic_data["source"] = fallback["source"]
+                topic_data["raw_text"] = fallback["raw_text"]
+                topic_data["numbers_detected"] = fallback["numbers_detected"]
+                topic_data["from_live_api"] = False
+                
+                deck = self._generate_fallback_deck(topic_data)
+                deck["fact_check_status"] = "circuit_breaker_evergreen_fallback"
         else:
             logger.info("✅ %s", report)
+            deck["fact_check_status"] = "verified_pass"
 
         # Normalize and ensure visual consistency
         deck["slides"] = self._normalize_slides(deck.get("slides", []), topic_data)
@@ -122,7 +150,7 @@ Return JSON ONLY:
         Extracts all numeric and financial claims across the 6 slides and verifies
         whether they are consistent with the source text.
         """
-        source_text = topic_data.get("raw_text", "") + " " + topic_data.get("title", "")
+        source_text = f"{topic_data.get('raw_text', '')} {topic_data.get('title', '')} {topic_data.get('source_snippet', '')}"
         slides = deck.get("slides", [])
         
         # Collect all text from all slides
@@ -130,26 +158,38 @@ Return JSON ONLY:
         for s in slides:
             all_slide_text += f" {s.get('title', '')} {s.get('card_a_text', '')} {s.get('card_b_text', '')} {s.get('takeaway', '')} "
             for p in s.get("points", []):
-                all_slide_text += f" {p.get('title', '')} {p.get('desc', '')} "
+                p_text = f"{p.get('title', '')} {p.get('desc', '')}" if isinstance(p, dict) else str(p)
+                all_slide_text += f" {p_text} "
             for r in s.get("rules", []):
-                all_slide_text += f" {r.get('title', '')} {r.get('desc', '')} "
+                r_text = f"{r.get('title', '')} {r.get('desc', '')}" if isinstance(r, dict) else str(r)
+                all_slide_text += f" {r_text} "
             for b in s.get("body_lines", []):
                 all_slide_text += f" {b} "
             all_slide_text += f" {s.get('headline', '')} {s.get('closing_line', '')} "
 
-        # Extract specific figures: e.g. ₹X, X%, X Lakh, X Crore, X years
-        slide_numbers = re.findall(r"(?:₹|\$)?\b\d+(?:[\.,]\d+)?\s?(?:%|Cr|Lakh|Lakhs|Crore|Crores|years|months|bps)?\b", all_slide_text)
-        clean_slide_nums = set(n.strip() for n in slide_numbers if len(n.strip()) > 1 and not n.strip().isdigit())
+        # Financial regex: currency, %, Lakh, Crore, bps, years, months (ignoring decimal timestamp artifacts)
+        pattern = r"(?:₹|\$)\s?\d+(?:[,\.]\d+)?(?:\s?(?:Cr|Lakh|Lakhs|Crore|Crores|k|M|B))?|\b\d+(?:[,\.]\d+)?\s?%|\b\d+\s?(?:Lakh|Lakhs|Crore|Crores|Cr|bps|years|months)\b"
+        
+        raw_source_matches = re.findall(pattern, source_text, flags=re.IGNORECASE)
+        clean_source_nums = set()
+        for m in raw_source_matches:
+            cleaned = m.strip()
+            if not re.search(r"\.\d{4,}", cleaned):  # Exclude microsecond timestamps
+                clean_source_nums.add(cleaned)
 
-        source_numbers = re.findall(r"(?:₹|\$)?\b\d+(?:[\.,]\d+)?\s?(?:%|Cr|Lakh|Lakhs|Crore|Crores|years|months|bps)?\b", source_text)
-        clean_source_nums = set(n.strip() for n in source_numbers if len(n.strip()) > 1 and not n.strip().isdigit())
-
-        # If source has no numbers detected, pass gracefully
+        # If source has no specific financial numbers detected, pass gracefully
         if not clean_source_nums:
-            return True, "Source context has no specific numbers; qualitative validation passed."
+            return True, "Source context has no specific financial metrics; qualitative validation passed."
 
-        # Check if at least one anchor metric from source is preserved in slides
-        anchor_match = clean_slide_nums.intersection(clean_source_nums)
+        # Check if at least one anchor metric digits/value from source is preserved in slides
+        anchor_match = []
+        for src_num in clean_source_nums:
+            digits_match = re.search(r"\d+(?:[,\.]\d+)?", src_num)
+            if digits_match:
+                d = digits_match.group(0)
+                if d in all_slide_text:
+                    anchor_match.append(src_num)
+
         if not anchor_match and clean_source_nums:
             return False, f"Missing source anchor metric! Expected at least one of {clean_source_nums} in slide deck."
 
@@ -243,10 +283,13 @@ Return JSON ONLY:
             points = slide.get("points", [])
             items = []
             for i, p in enumerate(points):
-                num = p.get("num", str(i + 1))
-                t = p.get("title", "")
-                d = p.get("desc", "")
-                items.append(f"<div class='point-item'><strong>{num}. {t}:</strong> {d}</div>")
+                if isinstance(p, dict):
+                    num = p.get("num", str(i + 1))
+                    t = p.get("title", "")
+                    d = p.get("desc", "")
+                    items.append(f"<div class='point-item'><strong>{num}. {t}:</strong> {d}</div>")
+                else:
+                    items.append(f"<div class='point-item'><strong>{i + 1}.</strong> {p}</div>")
             return f"<div class='slide-body-list'>{''.join(items)}</div>"
 
         # Role: Concept / Rules (Slide 4 or 5)
@@ -254,9 +297,12 @@ Return JSON ONLY:
             rules = slide.get("rules", [])
             items = []
             for i, r in enumerate(rules):
-                t = r.get("title", "")
-                d = r.get("desc", "")
-                items.append(f"<div class='point-item'><strong>{i+1}. {t}:</strong> {d}</div>")
+                if isinstance(r, dict):
+                    t = r.get("title", "")
+                    d = r.get("desc", "")
+                    items.append(f"<div class='point-item'><strong>{i+1}. {t}:</strong> {d}</div>")
+                else:
+                    items.append(f"<div class='point-item'><strong>{i+1}.</strong> {r}</div>")
             return f"<div class='slide-body-list'>{''.join(items)}</div>"
 
         return f"<div class='slide-body-paragraphs'><p class='body-para'>{slide.get('text', '')}</p></div>"

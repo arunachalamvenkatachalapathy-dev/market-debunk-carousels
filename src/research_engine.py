@@ -141,18 +141,23 @@ class ResearchEngine:
                     nums = re.findall(r"(?:₹|\$)?\d+(?:[\.,]\d+)?(?:\s?(?:%|Cr|Lakh|Lakhs|Crore|Crores|bps|x|years|months))?", f"{title} {snippet}")
                     clean_nums = [n.strip() for n in nums if len(n.strip()) > 1]
                     
+                    retrieved_at = datetime.now(timezone.utc).isoformat()
                     topic_data = {
                         "title": title,
                         "archetype": archetype["id"],
                         "archetype_name": archetype["name"],
                         "source": source,
+                        "source_snippet": snippet,
+                        "source_url": item.get("link", ""),
                         "raw_text": f"{title}. {snippet}",
                         "numbers_detected": clean_nums[:5],
+                        "retrieved_at": retrieved_at,
                         "date": datetime.now(timezone.utc).strftime("%d %b %Y"),
-                        "from_live_api": True
+                        "from_live_api": True,
+                        "evidence_snapshot": f"Source: {source} | Retrieved: {retrieved_at} | Raw: {title}. {snippet}"
                     }
                     self._record_topic(title, archetype["id"])
-                    logger.info("✓ Discovered fresh market topic: '%s'", title)
+                    logger.info("✓ Discovered fresh market topic (retrieved at %s): '%s'", retrieved_at, title)
                     return topic_data
 
             except Exception as e:
@@ -160,18 +165,23 @@ class ResearchEngine:
 
         # Use curated fallback for selected archetype
         fallback = CURATED_FALLBACKS.get(archetype["id"], CURATED_FALLBACKS["myth_vs_reality_math"])
+        retrieved_at = datetime.now(timezone.utc).isoformat()
         topic_data = {
             "title": fallback["title"],
             "archetype": archetype["id"],
             "archetype_name": archetype["name"],
             "source": fallback["source"],
+            "source_snippet": fallback["raw_text"],
+            "source_url": "curated://internal-reference",
             "raw_text": fallback["raw_text"],
             "numbers_detected": fallback["numbers_detected"],
+            "retrieved_at": retrieved_at,
             "date": datetime.now(timezone.utc).strftime("%d %b %Y"),
-            "from_live_api": False
+            "from_live_api": False,
+            "evidence_snapshot": f"Source: {fallback['source']} | Retrieved: {retrieved_at} | Raw: {fallback['raw_text']}"
         }
         self._record_topic(fallback["title"], archetype["id"])
-        logger.info("✓ Using curated archetype topic: '%s'", fallback["title"])
+        logger.info("✓ Using curated archetype topic (snapshot %s): '%s'", retrieved_at, fallback["title"])
         return topic_data
 
     def _is_repetitive(self, title: str) -> bool:
