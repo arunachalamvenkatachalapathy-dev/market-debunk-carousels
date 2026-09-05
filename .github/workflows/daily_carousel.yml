@@ -123,5 +123,9 @@ jobs:
 
           gh workflow run daily_carousel.yml \
             --repo arunachalamvenkatachalapathy-dev/market-debunk-tamil-carousels \
-            --ref master $EXTRA_ARGS
-          echo "✅ Tamil workflow successfully triggered upon English completion."
+            --ref master $EXTRA_ARGS || {
+              echo "⚠️ Could not dispatch Tamil workflow automatically."
+              echo "👉 Note: Ensure the Personal Access Token (PAT) has 'Actions: Read and write' permission enabled on 'market-debunk-tamil-carousels'."
+              echo "ℹ️ Tamil pipeline will still run automatically on its daily 7:15 PM IST cron and sync the master package."
+            }
+          echo "✅ Tamil trigger step processed."
