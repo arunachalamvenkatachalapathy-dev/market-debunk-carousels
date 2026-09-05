@@ -44,6 +44,11 @@
       "title": "What is IPO Oversubscription? Factors & How it Works",
       "archetype": "institutional_playbook",
       "timestamp": "2026-09-05T04:44:11.101371+00:00"
+    },
+    {
+      "title": "FD Real Returns After Inflation India – The Hard Truth",
+      "archetype": "myth_vs_reality_math",
+      "timestamp": "2026-09-05T05:50:25.407852+00:00"
     }
   ],
   "used_archetypes": [
@@ -55,6 +60,7 @@
     "institutional_playbook",
     "myth_vs_reality_math",
     "hidden_fee_audit",
-    "institutional_playbook"
+    "institutional_playbook",
+    "myth_vs_reality_math"
   ]
 }
