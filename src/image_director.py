@@ -11,12 +11,13 @@ from src.config import settings, TEMPLATES_DIR, STATE_DIR
 
 logger = logging.getLogger(__name__)
 
-ASPECT_1X1 = {"width": 1080, "height": 1080}
+ASPECT_4X5 = {"width": 1080, "height": 1350}
 
 
 class ImageDirector:
     """
     Playwright-powered batch slide renderer and PDF compiler with cache-busting filenames.
+    Renders into native Instagram 4:5 portrait resolution (1080x1350 px).
     """
 
     def __init__(self):
@@ -25,7 +26,7 @@ class ImageDirector:
 
     def render_carousel(self, deck: dict, run_id: Optional[str] = None) -> Dict[str, any]:
         """
-        Renders the 6-slide deck to 1080x1080 retina PNGs with unique run_id filenames,
+        Renders the 6-slide deck to 1080x1350 retina PNGs with unique run_id filenames,
         and compiles them into a single multi-page PDF.
         """
         slides = deck.get("slides", [])
@@ -38,7 +39,7 @@ class ImageDirector:
         pdf_path = str(STATE_DIR / f"market_debunk_carousel_{run_id}.pdf")
         latest_pdf_path = str(STATE_DIR / "latest_carousel.pdf")
 
-        logger.info("🎨 Rendering %d carousel slides via Playwright (Run ID: %s)...", total_slides, run_id)
+        logger.info("🎨 Rendering %d carousel slides via Playwright (4:5 Portrait 1080x1350, Run ID: %s)...", total_slides, run_id)
 
         try:
             from playwright.sync_api import sync_playwright
@@ -67,7 +68,7 @@ class ImageDirector:
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
                 page = browser.new_page(
-                    viewport={"width": ASPECT_1X1["width"], "height": ASPECT_1X1["height"]},
+                    viewport={"width": ASPECT_4X5["width"], "height": ASPECT_4X5["height"]},
                     device_scale_factor=2
                 )
 

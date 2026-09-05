@@ -15,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from src.config import settings, STATE_DIR
 from src.research_engine import ResearchEngine
+from src.news_comprehension_agent import NewsComprehensionAgent
 from src.workflow_agents import PlannerAgent, PromptEngineer
 from src.editorial_engine import EditorialEngine
 from src.image_director import ImageDirector
@@ -32,40 +33,48 @@ def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
     logger.info("=" * 60)
     logger.info("🚀 MARKET DEBUNK FINANCIAL CAROUSEL ENGINE (7:00 PM DAILY)")
     logger.info("   Mode: %s", "DRY RUN (No live publishing)" if dry_run else "LIVE PRODUCTION")
+    logger.info("   Format: Instagram Native 4:5 (1080x1350 px)")
     logger.info("=" * 60)
 
     thinker = ThinkerEngine()
 
     try:
-        # ── Phase 1: Research & Archetype Sourcing ─────────────────────────────
-        logger.info("═══ Phase 1: Market & Regulatory Research Sourcing ═══")
+        # ── Phase 1: Real-Time Financial News Ingestion (Max 48h Freshness) ──────
+        logger.info("═══ Phase 1: Real-Time Market News Ingestion (Max 48h Freshness) ═══")
         research_engine = ResearchEngine()
-        topic_data = research_engine.fetch_market_topic(override_query=override_query)
-        logger.info("📌 Topic: '%s' | Archetype: [%s]", topic_data.get("title"), topic_data.get("archetype_name"))
+        topic_data = research_engine.fetch_fresh_market_news(max_age_hours=48, override_query=override_query)
+        logger.info("📌 Sourced: '%s' | Age: %sh | Source: [%s]", topic_data.get("title"), topic_data.get("age_hours"), topic_data.get("source"))
 
-        # ── Phase 2: Financial Planning & Brief ────────────────────────────────
-        logger.info("═══ Phase 2: Financial Planning & Creative Brief ═══")
+        # ── Phase 2: Deep Financial Comprehension & Debunk Extraction ────────────
+        logger.info("═══ Phase 2: Deep Financial News Comprehension & Debunk Extraction ═══")
+        comprehension_agent = NewsComprehensionAgent()
+        news_analysis = comprehension_agent.analyze_news_item(topic_data)
+        topic_data["news_analysis"] = news_analysis
+        logger.info("🎯 Debunk Angle: '%s' | Category: [%s]", news_analysis.get("headline_hook"), news_analysis.get("debunk_category"))
+
+        # ── Phase 3: Financial Planning & Creative Brief ────────────────────────
+        logger.info("═══ Phase 3: Financial Planning & Creative Brief ═══")
         planner = PlannerAgent(llm_client=EditorialEngine().client)
         plan = planner.plan(topic_data)
         prompt_eng = PromptEngineer()
         brief = prompt_eng.build_brief(plan)
 
-        # ── Phase 3: Two-Pass Composition & Fact-Checking Gate ─────────────────
-        logger.info("═══ Phase 3: Two-Pass Slide Composition & Numeric Fact-Check ═══")
+        # ── Phase 4: Two-Pass Composition & Fact-Checking Gate ─────────────────
+        logger.info("═══ Phase 4: Two-Pass Slide Composition & Numeric Fact-Check ═══")
         editorial_engine = EditorialEngine()
         deck = editorial_engine.compose_carousel(topic_data, brief)
         slides = deck.get("slides", [])
         logger.info("✓ Composed %d slides with verified anchor metrics.", len(slides))
 
-        # ── Phase 4: Playwright Visual Rendering & PDF Compilation ─────────────
-        logger.info("═══ Phase 4: Playwright 1080x1080 Retina Rendering ═══")
+        # ── Phase 5: Playwright 1080x1350 Retina Rendering & PDF Compilation ───
+        logger.info("═══ Phase 5: Playwright 1080x1350 (4:5) Retina Rendering ═══")
         image_director = ImageDirector()
         run_id = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
         visual_pkg = image_director.render_carousel(deck, run_id=run_id)
         slide_paths = visual_pkg["slide_paths"]
         pdf_path = visual_pkg["pdf_path"]
 
-        # ── Phase 5: Export Master Package for Tamil Companion ────────────────
+        # ── Phase 6: Export Master Package for Tamil Companion ────────────────
         master_pkg_path = STATE_DIR / "market_debunk_carousel_master.json"
         master_package = {
             "topic": topic_data,
@@ -79,7 +88,7 @@ def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
             json.dump(master_package, f, indent=2, ensure_ascii=False)
         logger.info("✓ Exported Tamil Master Package to: %s", master_pkg_path)
 
-        # ── Phase 6: Prepare Direct Raw Image URLs for Instagram ───────────────
+        # ── Phase 7: Prepare Direct Raw Image URLs for Instagram ───────────────
         repo_owner = "arunachalamvenkatachalapathy-dev"
         repo_name = "market-debunk-carousels"
         image_urls = [
@@ -98,8 +107,8 @@ def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
             import time
             time.sleep(3)
 
-        # ── Phase 7: Multi-Platform Publishing ────────────────────────────────
-        logger.info("═══ Phase 7: Multi-Platform Distribution ═══")
+        # ── Phase 8: Multi-Platform Publishing ────────────────────────────────
+        logger.info("═══ Phase 8: Multi-Platform Distribution ═══")
         publisher = Publisher()
         results = publisher.publish_all(
             image_urls=image_urls,
