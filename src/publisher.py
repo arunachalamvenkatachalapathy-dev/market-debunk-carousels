@@ -287,10 +287,37 @@ class Publisher:
         if not bot_token or not chat_id:
             return {"success": False, "reason": "missing_credentials"}
 
+        # Auto-normalize supergroup / channel chat ID
+        if not chat_id.startswith("-") and not chat_id.startswith("@"):
+            chat_id = f"-100{chat_id}"
+
         try:
-            # Build high-converting Telegram blurb
-            link_callout = f"\n\n👉 <b>Swipe the full 6-slide breakdown on Instagram:</b>\n{instagram_url}" if instagram_url else ""
-            tg_text = f"📊 <b>{title}</b>\n\n{caption[:350]}...{link_callout}\n\n💬 <i>Comment 'GUIDE' on our Instagram post to receive the complete checklist!</i>"
+            import html
+
+            # Clean and extract a concise description (1-2 sentences) from the caption
+            desc_lines = []
+            for line in caption.split("\n"):
+                stripped = line.strip()
+                if not stripped:
+                    continue
+                # Skip hashtags, CTAs, and slide callouts
+                if stripped.startswith("#") or any(kw in stripped.lower() for kw in ["comment '", "comment \"", "swipe through", "slide breakdown"]):
+                    continue
+                desc_lines.append(stripped)
+
+            raw_desc = " ".join(desc_lines) if desc_lines else caption
+            if len(raw_desc) > 280:
+                raw_desc = raw_desc[:277].rsplit(" ", 1)[0] + "..."
+
+            safe_title = html.escape(title.strip())
+            safe_desc = html.escape(raw_desc.strip())
+
+            link_callout = ""
+            if instagram_url:
+                safe_url = html.escape(instagram_url.strip())
+                link_callout = f"\n\n🔗 <b>Swipe full 6-slide breakdown on Instagram:</b>\n{safe_url}"
+
+            tg_text = f"📊 <b>{safe_title}</b>\n\n{safe_desc}{link_callout}"
 
             res = requests.post(
                 f"https://api.telegram.org/bot{bot_token}/sendMessage",

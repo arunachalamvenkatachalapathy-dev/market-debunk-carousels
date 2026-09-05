@@ -106,11 +106,11 @@ jobs:
       - name: Trigger Tamil Carousel Pipeline
         if: success()
         env:
-          GH_TOKEN: ${{ secrets.TAMIL_WORKFLOW_TOKEN }}
+          GH_TOKEN: ${{ secrets.TAMIL_C_WORKFLOW_TOKEN || secrets.TAMIL_WORKFLOW_TOKEN }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
-            echo "ℹ️ TAMIL_WORKFLOW_TOKEN secret is not set in market-debunk-carousels."
-            echo "To enable instant cross-repo trigger on completion, add a GitHub PAT named TAMIL_WORKFLOW_TOKEN with Actions:Write permissions on market-debunk-tamil-carousels."
+            echo "ℹ️ Neither TAMIL_C_WORKFLOW_TOKEN nor TAMIL_WORKFLOW_TOKEN secret is set in market-debunk-carousels."
+            echo "To enable instant cross-repo trigger on completion, add a GitHub PAT named TAMIL_C_WORKFLOW_TOKEN with Actions:Write permissions on market-debunk-tamil-carousels."
             echo "Tamil pipeline will continue to run automatically on its scheduled 7:15 PM IST cron."
             exit 0
           fi
@@ -121,7 +121,7 @@ jobs:
             EXTRA_ARGS="-f dry_run=true"
           fi
 
-          gh workflow run "Daily Tamil Financial Carousel Pipeline (7:15 PM IST)" \
+          gh workflow run daily_carousel.yml \
             --repo arunachalamvenkatachalapathy-dev/market-debunk-tamil-carousels \
             --ref master $EXTRA_ARGS
           echo "✅ Tamil workflow successfully triggered upon English completion."
