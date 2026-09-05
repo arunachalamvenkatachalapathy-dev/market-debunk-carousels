@@ -119,7 +119,7 @@ class ResearchEngine:
                     "hl": "en",
                     "api_key": settings.SERPAPI_KEY.strip(),
                 }
-                res = requests.get("https://serpapi.com/search", params=params, timeout=15)
+                res = requests.get("https://serpapi.com/search", params=params, timeout=30)
                 res.raise_for_status()
                 data = res.json()
                 news_results = data.get("news_results", [])
