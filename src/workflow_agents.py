@@ -6,6 +6,8 @@ import logging
 import re
 from typing import Optional
 
+from src.config import settings
+
 logger = logging.getLogger(__name__)
 
 

@@ -79,7 +79,7 @@ jobs:
           # Keep branch clean by pruning older generated slides
           find state/carousel_slides/ -name "*.png" -mtime +2 -delete || true
           git add -u state/carousel_slides/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: prune older carousel slides [skip ci]" && git push origin master)
+          git diff --staged --quiet || (git commit -m "chore: prune older carousel slides [skip ci]" && git push origin master)
 
       - name: Upload Carousel PDF Artifact
         uses: actions/upload-artifact@v4
