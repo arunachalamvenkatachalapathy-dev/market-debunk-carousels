@@ -113,21 +113,22 @@ class ResearchEngine:
             logger.info("Querying SerpApi for market topic: '%s'...", query)
             try:
                 params = {
-                    "engine": "google_news",
+                    "engine": "google",
                     "q": query,
                     "gl": "in",
                     "hl": "en",
                     "api_key": settings.SERPAPI_KEY.strip(),
                 }
-                res = requests.get("https://serpapi.com/search", params=params, timeout=30)
+                res = requests.get("https://serpapi.com/search", params=params, timeout=25)
                 res.raise_for_status()
                 data = res.json()
-                news_results = data.get("news_results", [])
+                items = data.get("organic_results", []) + data.get("news_results", [])
                 
-                for item in news_results:
+                for item in items:
                     title = item.get("title", "").strip()
                     snippet = item.get("snippet", "").strip()
-                    source = item.get("source", {}).get("name", "Market Financial Sources")
+                    src_val = item.get("source", "")
+                    source = src_val.get("name", "Market Financial Sources") if isinstance(src_val, dict) else (src_val or "Market Financial Sources")
                     
                     if not title or len(title) < 15:
                         continue
