@@ -216,19 +216,39 @@ Return JSON ONLY:
   "slides": [ ... 6 slide objects ... ]
 }}"""
 
+        models_to_try = [
+            settings.GEMINI_MODEL,
+            "gemini-3.7-flash",
+            "gemini-2.5-flash",
+            settings.GEMMA_FALLBACK_MODEL,
+            "gemma-4-26b-a4b-it",
+        ]
+
         if self.client:
-            try:
-                response = self.client.models.generate_content(
-                    model=settings.GEMINI_MODEL,
-                    contents=prompt,
-                    config={"response_mime_type": "application/json", "temperature": 0.4}
-                )
-                if response.text:
-                    data = json.loads(response.text)
-                    if len(data.get("slides", [])) == 6:
-                        return data
-            except Exception as e:
-                logger.warning("Gemini carousel drafting failed (%s); building deterministic deck.", e)
+            for model_name in models_to_try:
+                try:
+                    logger.info("Attempting carousel draft with model %s...", model_name)
+                    config = {"temperature": 0.4}
+                    if not model_name.startswith("gemma"):
+                        config["response_mime_type"] = "application/json"
+                    
+                    response = self.client.models.generate_content(
+                        model=model_name,
+                        contents=prompt,
+                        config=config
+                    )
+                    if response.text:
+                        clean_text = response.text.strip()
+                        if "```json" in clean_text:
+                            clean_text = clean_text.split("```json")[1].split("```")[0].strip()
+                        elif "```" in clean_text:
+                            clean_text = clean_text.split("```")[1].split("```")[0].strip()
+                        data = json.loads(clean_text)
+                        if len(data.get("slides", [])) == 6:
+                            logger.info("✓ Model %s successfully generated 6-slide draft.", model_name)
+                            return data
+                except Exception as e:
+                    logger.warning("Model %s draft attempt failed: %s", model_name, e)
 
         return self._generate_fallback_deck(topic_data)
 
@@ -397,13 +417,95 @@ Return JSON ONLY:
         return f"<div class='slide-body-paragraphs'><p class='body-para'>{slide.get('text', '')}</p></div>"
 
     def _generate_fallback_deck(self, topic_data: dict) -> dict:
-        title = topic_data.get("title", "The 1% Expense Ratio Illusion")
+        news_analysis = topic_data.get("news_analysis")
+        title = topic_data.get("title", "Market Debunk")
+
+        if news_analysis:
+            hook = news_analysis.get("headline_hook") or title
+            illusion = news_analysis.get("retail_illusion", "Retail investors mistake marketing narratives for institutional reality.")
+            reality = news_analysis.get("institutional_reality", "Institutions value intrinsic risk-adjusted returns, ignoring retail sentiment.")
+            actionable_rule = news_analysis.get("actionable_retail_rule", "Never commit capital based on unverified market sentiment.")
+            lead_magnet = news_analysis.get("lead_magnet") or {"trigger_word": "AUDIT", "resource_name": "The Market Debunk Risk Checklist"}
+            trigger = lead_magnet.get("trigger_word", "AUDIT")
+            resource = lead_magnet.get("resource_name", "The Market Debunk Risk Checklist")
+
+            words = hook.split()
+            if len(words) > 4:
+                hook_title = f"{' '.join(words[:2])} <span class='highlight-box'>{' '.join(words[2:5])}</span> {' '.join(words[5:])}".strip()
+            else:
+                hook_title = f"<span class='highlight-box'>{hook}</span>"
+
+            return {
+                "caption": f"🚨 {hook}\n\n{news_analysis.get('breaking_event_summary', '')}\n\nSwipe through the 6-slide breakdown to audit the institutional math.\n\n💬 Comment '{trigger}' below to receive our free '{resource}'!\n\n#StockMarket #Investing #NSE #SEBI #FinancialLiteracy #PersonalFinance",
+                "slides": [
+                    {
+                        "role": "hook",
+                        "title": hook_title,
+                        "deliverable": "📖 Inside: 5-Point Institutional Breakdown",
+                        "tag": "#MARKETDEBUNK"
+                    },
+                    {
+                        "role": "friction",
+                        "title": "The Retail Illusion vs Institutional Reality",
+                        "card_a_text": illusion,
+                        "card_b_text": reality,
+                        "takeaway": "Retail chases headline sentiment. Institutions trade on verified math.",
+                        "tag": "#MARKETTRUTH"
+                    },
+                    {
+                        "role": "breakdown",
+                        "title": "3 Institutional Mechanisms",
+                        "points": [
+                            {"num": "1", "title": "Information Asymmetry", "desc": "Retail sees headline hype while institutional desks hedge systemic and liquidity risks."},
+                            {"num": "2", "title": "Valuation Reality", "desc": "Price-to-earnings multiples and regulatory approvals dictate returns, not speculation."},
+                            {"num": "3", "title": "Exit Liquidity Trap", "desc": "Unregulated market sentiment is often weaponized to distribute shares to late retail entrants."}
+                        ],
+                        "tag": "#HIDDENMATH"
+                    },
+                    {
+                        "role": "architecture",
+                        "layout": "step_diagram",
+                        "steps": [
+                            {"number": 1, "icon_concept": "search", "color": "#A8D5BA", "label": "DISSECT", "sublabel": "Audit official DRHP/filings"},
+                            {"number": 2, "icon_concept": "calculator", "color": "#F5D782", "label": "VALUATION", "sublabel": "Calculate peer multiples"},
+                            {"number": 3, "icon_concept": "shield", "color": "#A8C8E8", "label": "PROTECT", "sublabel": "Refuse speculative hype"}
+                        ],
+                        "headline": "The 3-Step Capital Protection Framework",
+                        "body_lines": [
+                            "Hype cycles distribute risk to uninformed retail.",
+                            "Systematic valuation protects principal capital."
+                        ],
+                        "closing_line": "Never deploy capital where you lack mathematical edge.",
+                        "tag": "#PLAYBOOK"
+                    },
+                    {
+                        "role": "concept",
+                        "title": "Actionable Rules for Retail Investors",
+                        "rules": [
+                            {"title": "Verify Before Allocation", "desc": actionable_rule},
+                            {"title": "Disregard Unregulated Metrics", "desc": "Never buy based on unofficial grey market figures or unvetted social media sentiment."},
+                            {"title": "Protect Downside First", "desc": "Only invest in what you can independently value and audit."}
+                        ],
+                        "tag": "#STRATEGY"
+                    },
+                    {
+                        "role": "cta",
+                        "title": "Don't <span class='highlight-box'>forget to</span> save this <span class='highlight-box'>post</span>",
+                        "discussion_question": "Are you avoiding this retail trap in your portfolio? Share your perspective below 👇",
+                        "lead_magnet": lead_magnet,
+                        "tag": "#SAVETHIS"
+                    }
+                ]
+            }
+
+        words = title.split()
+        clean_title = " ".join(words[:4]) if len(words) > 4 else title
         return {
             "caption": f"🚨 {title}\n\nMost retail investors believe small fees don't matter, but compound math tells a completely different story.\n\nSwipe through the 6-slide breakdown to audit your capital.\n\n💬 Comment 'GUIDE' below to receive our complete Retail Risk Checklist!\n\n#StockMarket #Investing #MutualFunds #Nifty50 #PersonalFinance",
             "slides": [
                 {
                     "role": "hook",
-                    "title": f"The Hidden Math <span class='highlight-box'>Behind {title[:30]}</span>",
+                    "title": f"The Hidden Math <span class='highlight-box'>Behind {clean_title}</span>",
                     "deliverable": "📖 Inside: 5-Point Mathematical Breakdown",
                     "tag": "#MUTUALFUNDS"
                 },
