@@ -1,0 +1,105 @@
+name: Daily Financial Carousel Pipeline (7:00 PM IST)
+
+on:
+  schedule:
+    # 7:00 PM IST = 13:30 UTC every day
+    - cron: '30 13 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Run in Dry-Run mode (no live publishing)"
+        type: boolean
+        default: false
+      query:
+        description: "Optional custom market topic search query"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  run-carousel-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Run Carousel Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ENABLE_INSTAGRAM: ${{ secrets.ENABLE_INSTAGRAM || 'true' }}
+          ENABLE_FACEBOOK: ${{ secrets.ENABLE_FACEBOOK || 'true' }}
+          ENABLE_TELEGRAM: ${{ secrets.ENABLE_TELEGRAM || 'true' }}
+          ENABLE_LINKEDIN: ${{ secrets.ENABLE_LINKEDIN || 'false' }}
+        run: |
+          EXTRA_ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --dry-run"
+          fi
+          if [ -n "${{ inputs.query }}" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --query '${{ inputs.query }}'"
+          fi
+          python engine.py $EXTRA_ARGS
+
+      - name: Commit Deduplication Data & Unique Slides
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/used_carousel_topics.json state/carousel_slides/ state/latest_carousel.pdf state/market_debunk_carousel_master.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update carousel slides and topic history [skip ci]" && git push)
+
+      - name: Prune Slide Images Older Than 48 Hours
+        run: |
+          # Keep branch clean by pruning older generated slides
+          find state/carousel_slides/ -name "*.png" -mtime +2 -delete || true
+          git add -u state/carousel_slides/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: prune older carousel slides [skip ci]" && git push)
+
+      - name: Upload Carousel PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-debunk-carousel-pdf
+          path: state/latest_carousel.pdf
+          if-no-files-found: warn
+
+      - name: Upload Tamil Master Carousel Package
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-debunk-carousel-master
+          path: state/market_debunk_carousel_master.json
+          if-no-files-found: warn
+
+      - name: Trigger Tamil Carousel Pipeline
+        if: inputs.dry_run != true
+        env:
+          GH_TOKEN: ${{ secrets.TAMIL_WORKFLOW_TOKEN || github.token }}
+        run: |
+          echo "Triggering Tamil companion carousel pipeline..."
+          gh workflow run "Daily Tamil Financial Carousel Pipeline (7:15 PM IST)" \
+            --repo arunachalamvenkatachalapathy-dev/market-debunk-tamil-carousels \
+            --ref master || echo "Tamil workflow trigger skipped or repo pending."

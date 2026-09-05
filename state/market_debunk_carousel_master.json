@@ -1,0 +1,178 @@
+{
+  "topic": {
+    "title": "The 1% Expense Ratio Illusion: How Direct Plans Save ₹34 Lakhs",
+    "archetype": "myth_vs_reality_math",
+    "archetype_name": "Myth vs. Reality Math Comparison",
+    "source": "SEBI Mutual Fund Regulations & Compounding Math",
+    "raw_text": "Retail investors assume a 1% distributor commission is negligible. On a ₹15,000 monthly SIP compounding at 12% over 25 years, a Regular Plan yields ₹2.42 Crore while a Direct Plan yields ₹2.76 Crore. That 1% fee quietly transferred ₹34 Lakhs of your compounding wealth to distributors without adding a single percentage point of performance.",
+    "numbers_detected": [
+      "1%",
+      "₹15,000",
+      "12%",
+      "25 years",
+      "₹2.42 Crore",
+      "₹2.76 Crore",
+      "₹34 Lakhs"
+    ],
+    "date": "05 Sep 2026",
+    "from_live_api": false
+  },
+  "plan": {
+    "hook_headline": "The Hidden Math Behind The 1% Expense Ratio Illusion: How Direc",
+    "core_illusion": "Retail investors assume small percentage fees are negligible over time.",
+    "hidden_reality": "Compound deduction mathematically extracts up to 30% of total lifetime gains.",
+    "citable_metric": "1%",
+    "actionable_rule": "Audit all ongoing expense ratios, platform charges, and spread costs before investing.",
+    "lead_magnet": {
+      "trigger_word": "GUIDE",
+      "resource_name": "The Retail Risk Checklist"
+    },
+    "banned_phrases": [
+      "guaranteed wealth",
+      "quick money",
+      "easy passive income"
+    ]
+  },
+  "deck": {
+    "caption": "🚨 The 1% Expense Ratio Illusion: How Direct Plans Save ₹34 Lakhs\n\nMost retail investors believe small fees don't matter, but compound math tells a completely different story.\n\nSwipe through the 6-slide breakdown to audit your capital.\n\n💬 Comment 'GUIDE' below to receive our complete Retail Risk Checklist!\n\n#StockMarket #Investing #MutualFunds #Nifty50 #PersonalFinance",
+    "slides": [
+      {
+        "role": "hook",
+        "title": "The Hidden Math <span class='highlight-box'>Behind The 1% Expense Ratio Illusion:</span>",
+        "deliverable": "📖 Inside: 5-Point Mathematical Breakdown",
+        "tag": "#MUTUALFUNDS",
+        "slide_index": 1,
+        "title_lines": [
+          "The Hidden Math Behind",
+          "<span class='highlight-box'>The 1% Expense Ratio Illusion:</span>"
+        ],
+        "body_html": "<div class='slide-body-paragraphs'><p class='body-para'></p></div>"
+      },
+      {
+        "role": "friction",
+        "title": "The Illusion of Negligible Fees",
+        "card_a_text": "Retail investors assume a 1% distributor commission is negligible over time.",
+        "card_b_text": "On a ₹15,000 monthly SIP over 25 years, that 1% fee quietly extracts ₹34 Lakhs from your wealth.",
+        "takeaway": "Never confuse percentage fees with absolute rupee compounding.",
+        "tag": "#MARKETTRUTH",
+        "slide_index": 2,
+        "title_lines": [
+          "The Illusion",
+          "of Negligible Fees"
+        ],
+        "body_html": "\n            <div class=\"slide-body-paragraphs\">\n              <p class=\"body-para\"><strong>The Myth:</strong> Retail investors assume a 1% distributor commission is negligible over time.</p>\n              <p class=\"body-para\"><strong>The Reality:</strong> On a ₹15,000 monthly SIP over 25 years, that 1% fee quietly extracts ₹34 Lakhs from your wealth.</p>\n              <p class=\"takeaway-para\"><strong>Core Rule:</strong> Never confuse percentage fees with absolute rupee compounding.</p>\n            </div>"
+      },
+      {
+        "role": "breakdown",
+        "title": "3 Silent Wealth Leakages",
+        "points": [
+          {
+            "num": "1",
+            "title": "Distributor Trailing Commissions",
+            "desc": "Paid every single month out of your net asset value whether the fund gains or loses."
+          },
+          {
+            "num": "2",
+            "title": "Opportunity Cost Compounding",
+            "desc": "Money paid as fees cannot compound for your retirement over the next decade."
+          },
+          {
+            "num": "3",
+            "title": "Zero Extra Alpha",
+            "desc": "Regular plans hold the exact same stocks as direct plans with zero added performance."
+          }
+        ],
+        "tag": "#HIDDENMATH",
+        "slide_index": 3,
+        "title_lines": [
+          "3 Silent Wealth Leakages"
+        ],
+        "body_html": "<div class='slide-body-list'><div class='point-item'><strong>1. Distributor Trailing Commissions:</strong> Paid every single month out of your net asset value whether the fund gains or loses.</div><div class='point-item'><strong>2. Opportunity Cost Compounding:</strong> Money paid as fees cannot compound for your retirement over the next decade.</div><div class='point-item'><strong>3. Zero Extra Alpha:</strong> Regular plans hold the exact same stocks as direct plans with zero added performance.</div></div>"
+      },
+      {
+        "role": "architecture",
+        "layout": "step_diagram",
+        "steps": [
+          {
+            "number": 1,
+            "icon_concept": "search",
+            "color": "#A8D5BA",
+            "label": "AUDIT",
+            "sublabel": "Check portfolio for Regular"
+          },
+          {
+            "number": 2,
+            "icon_concept": "calculator",
+            "color": "#F5D782",
+            "label": "CALCULATE",
+            "sublabel": "Run Direct vs Regular cost"
+          },
+          {
+            "number": 3,
+            "icon_concept": "shield",
+            "color": "#A8C8E8",
+            "label": "SWITCH",
+            "sublabel": "Switch SIP to Direct Zero-Fee"
+          }
+        ],
+        "headline": "The 3-Step Capital Recovery Loop",
+        "body_lines": [
+          "Distributors sell convenience to retail investors.",
+          "Direct mutual fund platforms preserve compounding capital."
+        ],
+        "closing_line": "Audit your expense ratio before adding fresh capital.",
+        "tag": "#PLAYBOOK",
+        "slide_index": 4,
+        "title_lines": [
+          "The 3-Step",
+          "Capital Recovery Loop"
+        ],
+        "body_html": "<div class=\"step-diagram-container\"><div class=\"steps-row\">\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #A8D5BA;\">\n                    <span class=\"step-number\">1</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">AUDIT</span>\n                    <span class=\"step-sublabel\">Check portfolio for Regular</span>\n                  </div>\n                </div>\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #F5D782;\">\n                    <span class=\"step-number\">2</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">CALCULATE</span>\n                    <span class=\"step-sublabel\">Run Direct vs Regular cost</span>\n                  </div>\n                </div>\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #A8C8E8;\">\n                    <span class=\"step-number\">3</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">SWITCH</span>\n                    <span class=\"step-sublabel\">Switch SIP to Direct Zero-Fee</span>\n                  </div>\n                </div></div><div class=\"step-body-content\"><p class='body-para'>Distributors sell convenience to retail investors.</p><p class='body-para'>Direct mutual fund platforms preserve compounding capital.</p><p class='takeaway-para'><strong>Takeaway:</strong> Audit your expense ratio before adding fresh capital.</p></div></div>"
+      },
+      {
+        "role": "concept",
+        "title": "3 Rules for Retail Investors",
+        "rules": [
+          {
+            "title": "Audit Nav Direct vs Regular",
+            "desc": "Always verify that every fund scheme in your portfolio explicitly has 'Direct' in its name."
+          },
+          {
+            "title": "Automate STP Where Applicable",
+            "desc": "Do not leave idle cash in distributor savings accounts when switching schemes."
+          },
+          {
+            "title": "Verify Total Expense Ratio",
+            "desc": "Cap equity fund TER under 0.8% and passive index fund TER under 0.2%."
+          }
+        ],
+        "tag": "#STRATEGY",
+        "slide_index": 5,
+        "title_lines": [
+          "3 Rules",
+          "for Retail Investors"
+        ],
+        "body_html": "<div class='slide-body-list'><div class='point-item'><strong>1. Audit Nav Direct vs Regular:</strong> Always verify that every fund scheme in your portfolio explicitly has 'Direct' in its name.</div><div class='point-item'><strong>2. Automate STP Where Applicable:</strong> Do not leave idle cash in distributor savings accounts when switching schemes.</div><div class='point-item'><strong>3. Verify Total Expense Ratio:</strong> Cap equity fund TER under 0.8% and passive index fund TER under 0.2%.</div></div>"
+      },
+      {
+        "role": "cta",
+        "title": "Don't <span class='highlight-box'>forget to</span> save this <span class='highlight-box'>post</span>",
+        "discussion_question": "Have you audited your mutual fund portfolio for regular plans? Drop your thoughts below 👇",
+        "lead_magnet": {
+          "trigger_word": "GUIDE",
+          "resource_name": "The Mutual Fund Risk Checklist"
+        },
+        "tag": "#SAVETHIS",
+        "slide_index": 6,
+        "title_lines": [
+          "Don't forget to",
+          "save this post"
+        ],
+        "body_html": "<div class='slide-body-paragraphs'><p class='body-para'></p></div>"
+      }
+    ]
+  },
+  "run_id": "20260905_034641",
+  "slide_count": 6,
+  "exported_at": "2026-09-05T03:47:16.079341+00:00"
+}
