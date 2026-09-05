@@ -70,15 +70,16 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/used_carousel_topics.json state/carousel_slides/ state/latest_carousel.pdf state/market_debunk_carousel_master.json state/thinker_incident_report.json || true
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update carousel slides, master package, and thinker logs [skip ci]" && git push)
+          git pull origin master --rebase || true
+          git add data/used_carousel_topics.json state/
+          git diff --staged --quiet || (git commit -m "chore: update carousel slides, master package, and topic history [skip ci]" && git push origin master)
 
       - name: Prune Slide Images Older Than 48 Hours
         run: |
           # Keep branch clean by pruning older generated slides
           find state/carousel_slides/ -name "*.png" -mtime +2 -delete || true
           git add -u state/carousel_slides/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: prune older carousel slides [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: prune older carousel slides [skip ci]" && git push origin master)
 
       - name: Upload Carousel PDF Artifact
         uses: actions/upload-artifact@v4
