@@ -1,85 +1,87 @@
 {
   "topic": {
-    "title": "Instagram IPO Scam Among Four Cyber Frauds Reported in Sikar - The420.in",
+    "title": "Wall Street Week Ahead: US inflation data and Oracle earnings in focus",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "source": "The420.in",
-    "source_snippet": "Instagram IPO Scam Among Four Cyber Frauds Reported in Sikar&nbsp;&nbsp;The420.in",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mM3lTQ0xLQXN3amg4UV9UaVRrdEZnZU80Q2FRZDg3bDc3SW40Tm15MklQazBrZ3ZjbGV2TlZvSF9jbmRtaWVmTDFwV2hacHh4T2ZfVTgtbG5KbnJlM1Bxck5hTlZzd3ZJc3FFWXJoM21wMlVWWVZz?oc=5",
-    "raw_text": "Instagram IPO Scam Among Four Cyber Frauds Reported in Sikar - The420.in. Instagram IPO Scam Among Four Cyber Frauds Reported in Sikar&nbsp;&nbsp;The420.in",
+    "source": "Livemint Markets",
+    "source_snippet": "The market will closely track the latest Consumer Price Index (CPI) and Producer Price Index (PPI) reports, which are due before the Fed's September 15-16 meeting",
+    "source_url": "https://www.livemint.com/market/wall-street-week-ahead-us-inflation-data-and-oracle-earnings-in-focus-11788715708966.html",
+    "raw_text": "Wall Street Week Ahead: US inflation data and Oracle earnings in focus. The market will closely track the latest Consumer Price Index (CPI) and Producer Price Index (PPI) reports, which are due before the Fed's September 15-16 meeting",
     "numbers_detected": [
-      "420",
-      "420"
+      "15",
+      "16"
     ],
-    "published_at": "2026-09-06T16:00:58+00:00",
-    "age_hours": 0.4,
-    "retrieved_at": "2026-09-06T16:23:46.077726+00:00",
+    "published_at": "2026-09-07T00:02:57+05:30",
+    "age_hours": 0.3,
+    "retrieved_at": "2026-09-06T18:53:53.238915+00:00",
     "date": "06 Sep 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: The420.in | Published: 2026-09-06T16:00:58+00:00 (0.4h ago) | Headline: Instagram IPO Scam Among Four Cyber Frauds Reported in Sikar - The420.in | Context: Instagram IPO Scam Among Four Cyber Frauds Reported in Sikar - The420.in. Instagram IPO Scam Among Four Cyber Frauds Reported in Sikar&nbsp;&nbsp;The420.in",
+    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-07T00:02:57+05:30 (0.3h ago) | Headline: Wall Street Week Ahead: US inflation data and Oracle earnings in focus | Context: Wall Street Week Ahead: US inflation data and Oracle earnings in focus. The market will closely track the latest Consumer Price Index (CPI) and Producer Price Index (PPI) reports, which are due before the Fed's September 15-16 meeting",
     "news_analysis": {
-      "headline_hook": "The 'Instagram IPO' Trap: How Cyber Criminals Are Exploiting Retail Pre-IPO Greed",
-      "breaking_event_summary": "Police in Sikar have registered four major cyber fraud cases, including a prominent scam where victims were tricked into sending funds for fake 'Instagram IPO' allocations.",
-      "retail_illusion": "Retail investors falsely believe that private social media groups, Instagram ads, or grey-market brokers can grant 'guaranteed early access' or 'VIP allotments' to upcoming high-profile IPOs.",
-      "institutional_reality": "No legitimate IPO allotment in India occurs outside SEBI-mandated ASBA (Application Supported by Blocked Amount) via certified bank/broker channels. Private UPI transfers to third parties for IPO shares are 100% illicit fraud mechanisms.",
+      "headline_hook": "The US CPI & Oracle Trap: Why Front-Running Wall Street News Destroys Retail Capital",
+      "breaking_event_summary": "Global markets are bracing for critical US CPI and PPI inflation reports alongside Oracle earnings ahead of the Federal Reserve's September 15-16 policy meeting.",
+      "retail_illusion": "Retail investors believe they can front-run positive inflation or tech earnings news to capture massive overnight gaps in IT stocks and global indices.",
+      "institutional_reality": "Institutional algos use event-driven liquidity surrounding CPI/PPI releases to distribute overextended tech shares and execute cross-currency hedges, trapping retail option buyers in severe IV crushes before the September 15-16 Fed meeting.",
       "citable_metrics": [
-        "4 Cyber Frauds",
-        "Sikar"
+        "September 15-16",
+        "CPI",
+        "PPI"
       ],
       "debunk_category": "LIQUIDITY_TRAP",
-      "actionable_retail_rule": "Never transfer capital to any personal or corporate UPI/bank account for an IPO; legitimate IPO funds are only blocked in your own bank account via SEBI-ASBA.",
+      "actionable_retail_rule": "Never buy unhedged directional options or front-run macro data prints ahead of binary central bank windows; await post-event price settlement and implied volatility normalization.",
       "lead_magnet": {
         "trigger_word": "AUDIT",
-        "resource_name": "The Pre-IPO & IPO Fraud Verification Checklist"
+        "resource_name": "Macro Event Risk & Volatility Survival Checklist"
       },
       "carousel_outline": [
         {
           "slide": 1,
           "role": "hook",
-          "focus": "The Instagram IPO Fraud Exposed: How Sikar Investors Lost Millions to Fake Allotments"
+          "focus": "The US CPI Trap: Why Front-Running Wall Street News Destroys Retail Capital"
         },
         {
           "slide": 2,
           "role": "friction",
-          "focus": "Retail Illusion vs Reality: Why social media 'pre-IPO' links are complete fabrications"
+          "focus": "Retail hype around US CPI and Oracle earnings vs the stark reality of institutional liquidity hunting"
         },
         {
           "slide": 3,
           "role": "math_reality",
-          "focus": "The SEBI ASBA Mechanism: How real IPO allotments actually process liquidity"
+          "focus": "The math of Implied Volatility crush ahead of the September 15-16 Fed decision"
         },
         {
           "slide": 4,
           "role": "breakdown",
-          "focus": "Anatomy of the scam: Fake trading apps, spoofed dashboards, and irreversible UPI payments"
+          "focus": "How overnight gaps and currency spreads strip profits from retail momentum traders"
         },
         {
           "slide": 5,
           "role": "actionable_rule",
-          "focus": "The Ironclad ASBA Rule: Keep your money blocked in your own account or walk away"
+          "focus": "The 48-Hour Macro Rule: Freeze leveraged positions before key economic data prints"
         },
         {
           "slide": 6,
           "role": "cta",
-          "focus": "Comment AUDIT to get our 1-page IPO Scam Detection Guide sent directly to your DMs"
+          "focus": "Comment AUDIT to get our 1-Page Macro Event Risk Checklist sent straight to your DMs"
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "The 'Instagram IPO' Trap: How Cyber Criminals Are Exploiting Retail Pre-IPO Greed",
-    "core_illusion": "Retail investors falsely believe that private social media groups, Instagram ads, or grey-market brokers can grant 'guaranteed early access' or 'VIP allotments' to upcoming high-profile IPOs.",
-    "hidden_reality": "No legitimate IPO allotment in India occurs outside SEBI-mandated ASBA (Application Supported by Blocked Amount) via certified bank/broker channels. Private UPI transfers to third parties for IPO shares are 100% illicit fraud mechanisms.",
-    "citable_metric": "4 Cyber Frauds",
+    "hook_headline": "The US CPI & Oracle Trap: Why Front-Running Wall Street News Destroys Retail Capital",
+    "core_illusion": "Retail investors believe they can front-run positive inflation or tech earnings news to capture massive overnight gaps in IT stocks and global indices.",
+    "hidden_reality": "Institutional algos use event-driven liquidity surrounding CPI/PPI releases to distribute overextended tech shares and execute cross-currency hedges, trapping retail option buyers in severe IV crushes before the September 15-16 Fed meeting.",
+    "citable_metric": "September 15-16",
     "all_metrics": [
-      "4 Cyber Frauds",
-      "Sikar"
+      "September 15-16",
+      "CPI",
+      "PPI"
     ],
-    "actionable_rule": "Never transfer capital to any personal or corporate UPI/bank account for an IPO; legitimate IPO funds are only blocked in your own bank account via SEBI-ASBA.",
-    "breaking_event": "Police in Sikar have registered four major cyber fraud cases, including a prominent scam where victims were tricked into sending funds for fake 'Instagram IPO' allocations.",
+    "actionable_rule": "Never buy unhedged directional options or front-run macro data prints ahead of binary central bank windows; await post-event price settlement and implied volatility normalization.",
+    "breaking_event": "Global markets are bracing for critical US CPI and PPI inflation reports alongside Oracle earnings ahead of the Federal Reserve's September 15-16 policy meeting.",
     "lead_magnet": {
       "trigger_word": "AUDIT",
-      "resource_name": "The Pre-IPO & IPO Fraud Verification Checklist"
+      "resource_name": "Macro Event Risk & Volatility Survival Checklist"
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -89,86 +91,90 @@
     ]
   },
   "deck": {
-    "caption": "🚨 The Fake Instagram IPO Trap\n\nMost retail traders get caught on the wrong side of headline surges because they don't audit institutional positioning.\n\nSwipe through this 8-slide breakdown:\n• The Pre-IPO Allotment Myth\n• How Fake VIP Allotments Work\n• How Scammers Capture Capital\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#StockMarket #Investing #PersonalFinance #MarketDebunk #FinancialLiteracy #Trading",
+    "caption": "🚨 Wall Street Week Ahead: US inflation data and Oracle earnings in focus\n\nMost retail traders get caught on the wrong side of headline surges because they don't audit institutional positioning.\n\nSwipe through this 8-slide breakdown:\n• The Illusion Of Easy Overnight Earnings Gaps\n• The Hidden Math Of Implied Volatility Crush\n• How Institutions Use Event Liquidity To Exit\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#StockMarket #Investing #PersonalFinance #MarketDebunk #FinancialLiteracy #Trading",
     "slides": [
       {
         "role": "hook",
         "tag": "#MARKETDEBUNK",
-        "title": "The Fake <span class=\"highlight-box\">Instagram IPO</span> Trap",
-        "subtitle": "How cyber criminals exploit retail pre-IPO greed.",
+        "headline": "Stop front-running <span class=\"highlight-box\">CPI data</span> traps.",
         "slide_index": 1,
         "title_lines": [
-          "The Fake",
-          "<span class='highlight-box'>Instagram IPO</span>",
-          "Trap"
+          "Stop front-running",
+          "<span class='highlight-box'>CPI data</span>",
+          "traps."
         ],
         "card_text": ""
       },
       {
         "role": "value_1",
         "tag": "#MARKETDEBUNK",
-        "title": "The Pre-IPO <span class=\"highlight-box\">Allotment Myth</span>",
-        "card_text": "Retail investors believe private messaging groups or social ads offer exclusive IPO access. In Sikar, <strong>4 cyber frauds</strong> exposed this illusion. Legitimate Indian IPO allocations occur exclusively via SEBI-mandated ASBA channels, where capital remains blocked in your personal bank account.",
+        "title": "The Illusion Of <span class=\"highlight-box\">Easy Overnight</span> Earnings Gaps",
+        "card_text": "Retail traders attempt to front-run CPI prints and Oracle earnings for quick spikes. In reality, institutional algos exploit this retail volume to distribute overextended tech shares into binary liquidity events, trapping long positions ahead of the <strong>September 15-16</strong> Fed meeting.",
         "slide_index": 2,
         "title_lines": [
-          "The Pre-IPO",
-          "<span class='highlight-box'>Allotment Myth</span>"
+          "The Illusion",
+          "<span class='highlight-box'>Of Easy</span>",
+          "Overnight Earnings Gaps"
         ]
       },
       {
         "role": "value_2",
         "tag": "#MARKETDEBUNK",
-        "title": "How Fake <span class=\"highlight-box\">VIP Allotments</span> Work",
-        "card_text": "Fraudulent brokers direct victims to transfer funds into personal or corporate UPI accounts under the guise of <strong>100% guaranteed allocation</strong>. Once capital leaves your personal bank via direct transfer, it bypasses clearing corporations and is immediately laundered across untraceable accounts.",
+        "title": "The Hidden Math Of <span class=\"highlight-box\">Implied Volatility</span> Crush",
+        "card_text": "Buying directional calls right before major macro events forces you to pay peak volatility premiums. Once Oracle earnings or CPI prints release, implied volatility collapses instantly. Options lose up to <strong>60% of extrinsic value</strong> in minutes, regardless of price direction.",
         "slide_index": 3,
         "title_lines": [
-          "How Fake",
-          "<span class='highlight-box'>VIP Allotments</span>",
-          "Work"
+          "The Hidden",
+          "<span class='highlight-box'>Math Of</span>",
+          "Implied Volatility Crush"
         ]
       },
       {
         "role": "value_3",
         "tag": "#MARKETDEBUNK",
-        "title": "How Scammers <span class=\"highlight-box\">Capture Capital</span>",
-        "card_text": "Real pre-IPO secondary transactions require unlisted share demat transfers via regulated depository participants. Scammers spoof institutional order books using fake dashboards, capturing <strong>100% principal loss</strong> before trading ever occurs on registered exchanges like NSE or BSE.",
+        "title": "How Institutions Use <span class=\"highlight-box\">Event Liquidity</span> To Exit",
+        "card_text": "Macro events produce brief surges in order flow. Smart money utilizes these high-volume windows surrounding CPI and PPI data to fill large institutional sell orders and execute cross-currency hedges, leaving retail traders absorbing <strong>overextended tech distribution</strong> at structural market peaks.",
         "slide_index": 4,
         "title_lines": [
-          "How Scammers",
-          "<span class='highlight-box'>Capture Capital</span>"
+          "How Institutions",
+          "<span class='highlight-box'>Use Event</span>",
+          "Liquidity To Exit"
         ]
       },
       {
         "role": "value_4",
         "tag": "#MARKETDEBUNK",
-        "title": "Understanding Total <span class=\"highlight-box\">Capital Loss</span>",
-        "card_text": "Yield chasers seeking speculative gains face a complete downside asymmetry: a <strong>100% loss</strong> on unverified IPO transfers requires an impossible infinity return to recover lost principal. Fraudulent transfers completely destroy long-term portfolio compounding velocity instantly.",
+        "title": "The Compounding Cost Of <span class=\"highlight-box\">Binary Gambling</span>",
+        "card_text": "Repeatedly buying unhedged options into high-volatility announcements generates massive drawdown drag. A <strong>50% account loss</strong> requires a 100% gain just to break even. Front-running binary prints systematically erodes capital, rendering long-term compounding mathematically impossible over consecutive macro cycles.",
         "slide_index": 5,
         "title_lines": [
-          "Understanding Total",
-          "<span class='highlight-box'>Capital Loss</span>"
+          "The Compounding",
+          "<span class='highlight-box'>Cost Of</span>",
+          "Binary Gambling"
         ]
       },
       {
         "role": "value_5",
         "tag": "#MARKETDEBUNK",
-        "title": "The Mandatory <span class=\"highlight-box\">ASBA Rule</span>",
-        "card_text": "Never transfer capital directly to third-party UPI or corporate bank accounts for primary equity offerings. Legitimate IPO funds are <strong>strictly blocked</strong> inside your own bank account using SEBI-ASBA until final allotment confirmation occurs.",
+        "title": "The Non-Negotiable <span class=\"highlight-box\">Post-Event Settlement</span> Rule",
+        "card_text": "Never execute unhedged directional options before binary macro data releases or Fed policy windows. Institutional capital waits for post-event price settlement and implied volatility normalization. Capital preservation requires trading the <strong>confirmed trend</strong>, not gambling on unpredictable macro headlines.",
         "slide_index": 6,
         "title_lines": [
-          "The Mandatory",
-          "<span class='highlight-box'>ASBA Rule</span>"
+          "The Non-Negotiable",
+          "<span class='highlight-box'>Post-Event Settlement</span>",
+          "Rule"
         ]
       },
       {
         "role": "value_6",
         "tag": "#MARKETDEBUNK",
-        "title": "The Pre-Trade <span class=\"highlight-box\">Verification Protocol</span>",
-        "card_text": "Before allocating capital to any public offer: <strong>1. Verify SEBI registration</strong> of the intermediary; <strong>2. Demand ASBA blocking</strong> through your bank net-banking portal; <strong>3. Reject external UPI links</strong> or private account transfer requests outright.",
+        "title": "Audit Your Risk With <span class=\"highlight-box\">Pre-Trade Rules</span>",
+        "card_text": "First, verify options IV percentile before taking exposure. Second, confirm institutional order flow direction post-release rather than pre-positioning. Third, limit event exposure to strictly <strong>defined-risk spreads</strong>. Execute this 3-step risk audit prior to allocating capital into volatile event windows.",
         "slide_index": 7,
         "title_lines": [
-          "The Pre-Trade",
-          "<span class='highlight-box'>Verification Protocol</span>"
+          "Audit Your",
+          "<span class='highlight-box'>Risk With</span>",
+          "Pre-Trade Rules"
         ]
       },
       {
@@ -181,31 +187,30 @@
           "post for",
           "later"
         ],
-        "action_prompt": "Comment 'AUDIT' to receive 'The Pre-IPO & IPO Fraud Verification Checklist' PDF directly in your DMs.",
-        "cta_detail": "Save this framework to safeguard your capital. Review these critical pre-trade verification rules before participating in any primary market allotment to protect against scam syndicates.",
+        "cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital.",
         "slide_index": 8,
         "card_text": ""
       }
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Solitude (Dark Academic Finance)",
-      "artist": "M83 / Felsmann + Tiley",
-      "bpm": 110,
-      "vibe": "Institutional Truth / Whistleblower",
-      "reels_boost_tier": "Viral Editorial",
-      "search_query": "M83 Solitude Felsmann Tiley"
+      "title": "Cornfield Chase (Interstellar Piano/Synth)",
+      "artist": "Hans Zimmer / Dorian Marko",
+      "bpm": 100,
+      "vibe": "Cinematic Tension & Focus",
+      "reels_boost_tier": "High Velocity",
+      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
     }
   },
   "audio": {
-    "title": "Solitude (Dark Academic Finance)",
-    "artist": "M83 / Felsmann + Tiley",
-    "bpm": 110,
-    "vibe": "Institutional Truth / Whistleblower",
-    "reels_boost_tier": "Viral Editorial",
-    "search_query": "M83 Solitude Felsmann Tiley"
+    "title": "Cornfield Chase (Interstellar Piano/Synth)",
+    "artist": "Hans Zimmer / Dorian Marko",
+    "bpm": 100,
+    "vibe": "Cinematic Tension & Focus",
+    "reels_boost_tier": "High Velocity",
+    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
   },
-  "run_id": "20260906_162430",
+  "run_id": "20260906_185443",
   "slide_count": 8,
-  "exported_at": "2026-09-06T16:24:33.774447+00:00"
+  "exported_at": "2026-09-06T18:54:46.880233+00:00"
 }
