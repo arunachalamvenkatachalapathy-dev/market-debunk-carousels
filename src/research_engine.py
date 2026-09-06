@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 RSS_FEEDS = [
     {
         "name": "Google News India Finance (Past 2 Days)",
-        "url": "https://news.google.com/rss/search?q=(SEBI+OR+RBI+OR+Nifty+OR+Sensex+OR+IPO+OR+%22Mutual+Fund%22+OR+%22Stock+Market%22)+when:2d&hl=en-IN&gl=IN&ceid=IN:en",
+        "url": "https://news.google.com/rss/search?q=(SEBI+OR+RBI+OR+Nifty+OR+Sensex+OR+IPO+OR+%22Stock+Market%22)+when:2d&hl=en-IN&gl=IN&ceid=IN:en",
         "priority": 1
     },
     {
@@ -198,7 +198,7 @@ class ResearchEngine:
 
         # ── Source 3: SerpApi Google News (if key configured) ────────────────
         if settings.SERPAPI_KEY and settings.SERPAPI_KEY.strip():
-            query = override_query or "SEBI OR RBI OR Nifty OR Sensex OR 'Stock Market' OR 'Mutual Fund'"
+            query = override_query or "SEBI OR RBI OR Nifty OR Sensex OR 'Stock Market' OR IPO"
             logger.info("Querying SerpApi Google News for: '%s'...", query)
             try:
                 params = {
@@ -382,6 +382,16 @@ class ResearchEngine:
     def _is_repetitive(self, title: str) -> bool:
         """Checks if key significant terms were already debunked in the last 14 days."""
         past_topics = [t.get("title", "").lower() for t in self.memory.get("topics", [])[-25:]]
+
+        # Strict ban on repeated Mutual Fund / SIP topics if one was used in the last 14 days
+        mf_keywords = {"mutual fund", "mutual funds", "sip", "sips", "expense ratio"}
+        is_mf = any(k in title.lower() for k in mf_keywords)
+        if is_mf:
+            for past in past_topics:
+                if any(k in past for k in mf_keywords):
+                    logger.info("Skipping topic '%s' to prevent Mutual Fund/SIP repetition.", title)
+                    return True
+
         # Ignore common filler terms
         filler = {"the", "a", "an", "in", "to", "for", "of", "and", "or", "is", "how", "what", "why", "india", "market", "stocks"}
         title_words = set(re.findall(r"\w{4,}", title.lower())) - filler

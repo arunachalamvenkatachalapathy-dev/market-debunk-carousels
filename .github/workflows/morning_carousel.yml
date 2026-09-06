@@ -10,10 +10,6 @@ on:
         description: "Run in Dry-Run mode (no live publishing)"
         type: boolean
         default: false
-      trigger_tamil:
-        description: "Also trigger Tamil morning companion pipeline immediately (Manual only)"
-        type: boolean
-        default: false
       query:
         description: "Optional custom market topic search query"
         type: string
@@ -103,33 +99,3 @@ jobs:
           path: state/thinker_incident_report.json
           if-no-files-found: ignore
 
-      - name: Upload Tamil Master Carousel Package
-        uses: actions/upload-artifact@v4
-        with:
-          name: market-debunk-carousel-master
-          path: state/market_debunk_carousel_master.json
-          if-no-files-found: warn
-
-      - name: Trigger Tamil Morning Carousel Pipeline (Manual Dispatch Only)
-        if: success() && github.event_name == 'workflow_dispatch' && inputs.trigger_tamil == true
-        env:
-          GH_TOKEN: ${{ secrets.TAMIL_C_WORKFLOW_TOKEN }}
-        run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "ℹ️ TAMIL_C_WORKFLOW_TOKEN secret is not set in market-debunk-carousels."
-            echo "Tamil morning pipeline will continue to run automatically on its scheduled 7:15 AM IST cron."
-            exit 0
-          fi
-
-          echo "🚀 English morning pipeline completed! Dispatching Tamil morning companion pipeline..."
-          EXTRA_ARGS=""
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
-            EXTRA_ARGS="$EXTRA_ARGS -f dry_run=true"
-          fi
-
-          gh workflow run morning_carousel.yml \
-            --repo arunachalamvenkatachalapathy-dev/market-debunk-tamil-carousels \
-            --ref master $EXTRA_ARGS || {
-              echo "ℹ️ Tamil morning pipeline will run on its scheduled 7:15 AM IST cron."
-            }
-          echo "✅ Tamil morning trigger step processed."
