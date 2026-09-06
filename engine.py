@@ -29,10 +29,12 @@ logging.basicConfig(
 logger = logging.getLogger("market_debunk_carousel")
 
 
-def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
+def run_pipeline(dry_run: bool = False, draft_music: bool = False, override_query: str = None) -> bool:
+    is_draft_music = draft_music or getattr(settings, "DRAFT_MUSIC_MODE", False)
+    mode_str = "DRY RUN (No live publishing)" if dry_run else ("DRAFT MUSIC (Staging for Instagram music attachment)" if is_draft_music else "LIVE PRODUCTION")
     logger.info("=" * 60)
     logger.info("🚀 MARKET DEBUNK FINANCIAL CAROUSEL ENGINE (7:00 PM DAILY)")
-    logger.info("   Mode: %s", "DRY RUN (No live publishing)" if dry_run else "LIVE PRODUCTION")
+    logger.info("   Mode: %s", mode_str)
     logger.info("   Format: Instagram Native 4:5 (1080x1350 px)")
     logger.info("=" * 60)
 
@@ -149,6 +151,8 @@ def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
             pdf_path=pdf_path,
             caption=deck.get("caption", ""),
             title=topic_data.get("title", "Market Debunk"),
+            audio_track=audio_track,
+            draft_music=is_draft_music,
             dry_run=dry_run
         )
 
@@ -163,7 +167,7 @@ def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
         thinker.diagnose_pipeline_crash(
             phase="PIPELINE_ORCHESTRATION",
             error=e,
-            context={"dry_run": dry_run, "override_query": override_query}
+            context={"dry_run": dry_run, "draft_music": draft_music, "override_query": override_query}
         )
         return False
 
@@ -171,8 +175,9 @@ def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Market Debunk Carousel Engine")
     parser.add_argument("--dry-run", action="store_true", help="Generate visuals and PDF without publishing")
+    parser.add_argument("--draft-music", action="store_true", help="Stage carousel and dispatch to Telegram with trending audio guidance to add music on Instagram")
     parser.add_argument("--query", type=str, default=None, help="Override search query for market topic")
     args = parser.parse_args()
 
-    success = run_pipeline(dry_run=args.dry_run, override_query=args.query)
+    success = run_pipeline(dry_run=args.dry_run, draft_music=args.draft_music, override_query=args.query)
     sys.exit(0 if success else 1)

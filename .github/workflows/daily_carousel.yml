@@ -10,6 +10,10 @@ on:
         description: "Run in Dry-Run mode (no live publishing)"
         type: boolean
         default: false
+      draft_music:
+        description: "Draft Music Option (Stage carousel to add Instagram trending music)"
+        type: boolean
+        default: false
       query:
         description: "Optional custom market topic search query"
         type: string
@@ -60,6 +64,9 @@ jobs:
           EXTRA_ARGS=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             EXTRA_ARGS="$EXTRA_ARGS --dry-run"
+          fi
+          if [ "${{ inputs.draft_music }}" = "true" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --draft-music"
           fi
           if [ -n "${{ inputs.query }}" ]; then
             EXTRA_ARGS="$EXTRA_ARGS --query '${{ inputs.query }}'"
@@ -118,7 +125,10 @@ jobs:
           echo "🚀 English pipeline completed successfully! Dispatching Tamil companion pipeline..."
           EXTRA_ARGS=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then
-            EXTRA_ARGS="-f dry_run=true"
+            EXTRA_ARGS="$EXTRA_ARGS -f dry_run=true"
+          fi
+          if [ "${{ inputs.draft_music }}" = "true" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS -f draft_music=true"
           fi
 
           gh workflow run daily_carousel.yml \

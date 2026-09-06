@@ -69,6 +69,7 @@ class Settings:
     ENABLE_FACEBOOK: bool = os.getenv("ENABLE_FACEBOOK", "true").lower() == "true"
     ENABLE_TELEGRAM: bool = os.getenv("ENABLE_TELEGRAM", "true").lower() == "true"
     ENABLE_LINKEDIN: bool = os.getenv("ENABLE_LINKEDIN", "true").lower() == "true"
+    DRAFT_MUSIC_MODE: bool = os.getenv("DRAFT_MUSIC_MODE", "false").lower() == "true"
 
     # ── Branding ────────────────────────────────────────────────────────────
     BRAND_NAME: str = "Market Debunk"
