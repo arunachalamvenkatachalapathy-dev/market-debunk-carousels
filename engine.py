@@ -33,7 +33,7 @@ def run_pipeline(dry_run: bool = False, draft_music: bool = False, override_quer
     is_draft_music = draft_music or getattr(settings, "DRAFT_MUSIC_MODE", False)
     mode_str = "DRY RUN (No live publishing)" if dry_run else ("DRAFT MUSIC (Staging for Instagram music attachment)" if is_draft_music else "LIVE PRODUCTION")
     logger.info("=" * 60)
-    logger.info("🚀 MARKET DEBUNK FINANCIAL CAROUSEL ENGINE (7:00 PM DAILY)")
+    logger.info("🚀 MARKET DEBUNK FINANCIAL CAROUSEL ENGINE (7:00 AM DAILY)")
     logger.info("   Mode: %s", mode_str)
     logger.info("   Format: Instagram Native 4:5 (1080x1350 px)")
     logger.info("=" * 60)
