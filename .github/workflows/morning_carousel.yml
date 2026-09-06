@@ -10,10 +10,6 @@ on:
         description: "Run in Dry-Run mode (no live publishing)"
         type: boolean
         default: false
-      draft_music:
-        description: "Draft Music Option (Stage carousel to add Instagram trending music)"
-        type: boolean
-        default: false
       trigger_tamil:
         description: "Also trigger Tamil morning companion pipeline immediately (Manual only)"
         type: boolean
@@ -54,7 +50,7 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
 
-      - name: Run Carousel Pipeline (Morning Edition)
+      - name: Run Carousel Pipeline (Morning Edition - Direct Live Publish)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
@@ -72,9 +68,6 @@ jobs:
           EXTRA_ARGS="--edition morning"
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             EXTRA_ARGS="$EXTRA_ARGS --dry-run"
-          fi
-          if [ "${{ inputs.draft_music }}" = "true" ]; then
-            EXTRA_ARGS="$EXTRA_ARGS --draft-music"
           fi
           if [ -n "${{ inputs.query }}" ]; then
             EXTRA_ARGS="$EXTRA_ARGS --query '${{ inputs.query }}'"
@@ -132,9 +125,6 @@ jobs:
           EXTRA_ARGS=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             EXTRA_ARGS="$EXTRA_ARGS -f dry_run=true"
-          fi
-          if [ "${{ inputs.draft_music }}" = "true" ]; then
-            EXTRA_ARGS="$EXTRA_ARGS -f draft_music=true"
           fi
 
           gh workflow run morning_carousel.yml \

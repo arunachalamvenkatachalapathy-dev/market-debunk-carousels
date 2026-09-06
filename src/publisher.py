@@ -33,10 +33,8 @@ class Publisher:
         pdf_path: str,
         caption: str,
         title: str,
-        audio_track: Optional[Dict[str, Any]] = None,
-        draft_music: bool = False,
         dry_run: bool = False
-    ) -> Dict[str, any]:
+    ) -> Dict[str, Any]:
         results = {
             "instagram": {"success": False, "status": "skipped"},
             "facebook": {"success": False, "status": "skipped"},
@@ -46,23 +44,16 @@ class Publisher:
 
         if dry_run:
             logger.info("🧪 [DRY RUN ACTIVE] Skipping all live platform uploads.")
-            results["instagram"] = {"success": True, "status": "dry_run_simulated" if not draft_music else "draft_music_staged_simulated"}
+            results["instagram"] = {"success": True, "status": "dry_run_simulated"}
             results["facebook"] = {"success": True, "status": "dry_run_simulated"}
             results["telegram"] = {"success": True, "status": "dry_run_simulated"}
             results["linkedin"] = {"success": True, "status": "dry_run_simulated"}
             return results
 
-        # ── 1. Instagram Carousel (Primary Anchor or Draft Staging) ──────────
+        # ── 1. Instagram Carousel (Direct Live Publishing) ───────────────────
         ig_permalink = None
-        if draft_music:
-            logger.info("🎵 [DRAFT MUSIC MODE] Staging carousel so trending music can be attached on Instagram before publishing.")
-            results["instagram"] = {
-                "success": True,
-                "status": "staged_for_music",
-                "message": "Carousel staged for manual music attachment. Dispatched to Telegram with all 8 slides."
-            }
-        elif settings.ENABLE_INSTAGRAM and settings.INSTAGRAM_ACCESS_TOKEN and settings.INSTAGRAM_USER_ID:
-            logger.info("Publishing Instagram Carousel for '%s'...", title[:40])
+        if settings.ENABLE_INSTAGRAM and settings.INSTAGRAM_ACCESS_TOKEN and settings.INSTAGRAM_USER_ID:
+            logger.info("Publishing Instagram Carousel directly for '%s'...", title[:40])
             try:
                 ig_res = self.publish_instagram_carousel(image_urls, caption)
                 results["instagram"] = ig_res
@@ -93,28 +84,19 @@ class Publisher:
         else:
             logger.info("Facebook publishing disabled or missing credentials.")
 
-        # ── 3. Telegram Notification (Direct Link OR Draft Music Staging) ───
+        # ── 3. Telegram Notification (Save-Velocity Push with Instagram Link)
         if settings.ENABLE_TELEGRAM and settings.TELEGRAM_BOT_TOKEN and settings.TELEGRAM_CHAT_ID:
-            if draft_music:
-                logger.info("Dispatching Telegram Draft Music Staging album with %d slides & audio guide...", len(slide_paths))
-                try:
-                    tg_res = self.send_telegram_draft_music_staging(slide_paths, title, caption, audio_track)
-                    results["telegram"] = tg_res
-                except Exception as tg_err:
-                    logger.warning("⚠️ Telegram draft music staging failed non-fatally: %s", tg_err)
-                    results["telegram"] = {"success": False, "status": "failed", "error": str(tg_err)}
-            else:
-                logger.info("Sending Telegram update (Save-Velocity funnel to Instagram: %s)...", ig_permalink or "N/A")
-                try:
-                    tg_res = self.send_telegram_notification(title, caption, ig_permalink, pdf_path)
-                    results["telegram"] = tg_res
-                    if tg_res.get("success"):
-                        logger.info("✓ Telegram notification dispatched successfully.")
-                    else:
-                        logger.warning("⚠️ Telegram notification failed non-fatally: %s", tg_res.get("error"))
-                except Exception as tg_err:
-                    logger.warning("⚠️ Telegram notification threw non-fatal exception: %s", tg_err)
-                    results["telegram"] = {"success": False, "status": "failed", "error": str(tg_err)}
+            logger.info("Sending Telegram update (Save-Velocity funnel to Instagram: %s)...", ig_permalink or "N/A")
+            try:
+                tg_res = self.send_telegram_notification(title, caption, ig_permalink, pdf_path)
+                results["telegram"] = tg_res
+                if tg_res.get("success"):
+                    logger.info("✓ Telegram notification dispatched successfully.")
+                else:
+                    logger.warning("⚠️ Telegram notification failed non-fatally: %s", tg_res.get("error"))
+            except Exception as tg_err:
+                logger.warning("⚠️ Telegram notification threw non-fatal exception: %s", tg_err)
+                results["telegram"] = {"success": False, "status": "failed", "error": str(tg_err)}
         else:
             logger.info("Telegram notification disabled or missing credentials.")
 
