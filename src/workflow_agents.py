@@ -244,25 +244,32 @@ Return JSON ONLY:
         hook_text = slides[0].get("title", title) if slides else title
         clean_hook = re.sub(r"<[^>]+>", "", hook_text).strip()
 
-        trigger = "DEBUNK"
+        trigger = "GUIDE"
         for s in slides:
             lm = s.get("lead_magnet")
             if lm and lm.get("trigger_word"):
                 trigger = lm.get("trigger_word")
                 break
 
-        audio_str = ""
-        if audio_track:
-            audio_str = f"\n\n🎵 Recommended Audio: '{audio_track.get('title')}' by {audio_track.get('artist')} (Tap 'Add Music' before posting for Reels algorithm boost)"
+        bullets = []
+        for s in slides[1:4]:
+            t = s.get("title") or ""
+            t_clean = re.sub(r"<[^>]+>", "", t).strip()
+            if t_clean:
+                bullets.append(f"• {t_clean}")
+        if not bullets:
+            bullets = [
+                "• Structural traps behind headline market surges",
+                "• How smart capital extracts exit liquidity",
+                "• Complete pre-trade risk audit checkpoints"
+            ]
 
         caption = (
             f"🚨 {clean_hook}\n\n"
             f"Most retail traders get caught on the wrong side of headline surges because they don't audit institutional positioning.\n\n"
-            f"Swipe through this 8-slide breakdown to see:\n"
-            f"• The structural traps behind the headline move\n"
-            f"• How smart capital extracts exit liquidity\n"
-            f"• The complete pre-trade risk audit checklist\n\n"
-            f"💬 Comment '{trigger}' and our system will DM you the complete pre-trade Risk Playbook in 10 seconds.{audio_str}\n\n"
-            f"#Commodities #StockMarket #TradingTruth #MarketDebunk #InstitutionalMath"
+            f"Swipe through this 8-slide breakdown:\n"
+            f"{chr(10).join(bullets)}\n\n"
+            f"💬 Follow @Market_Debunk and comment '{trigger}' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n"
+            f"#StockMarket #Investing #PersonalFinance #MarketDebunk #FinancialLiteracy #Trading"
         )
         return caption
