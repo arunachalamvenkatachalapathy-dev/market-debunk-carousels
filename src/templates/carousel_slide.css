@@ -4,417 +4,275 @@
   padding: 0;
 }
 
-body {
+html, body {
   width: 1080px;
   height: 1350px;
-  background-color: #ffffff;
+  background-color: #f8f8f9;
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color: #111111;
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.slide-container {
+.slide-canvas {
   width: 1080px;
   height: 1350px;
-  padding: 75px 80px 70px 80px;
+  padding: 72px 80px 72px 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #f8f8f9;
   position: relative;
-  background-color: #ffffff;
 }
 
-/* Header */
+/* ── Header: Logo + Brand Name on Left, Tag/Year on Right ── */
 .slide-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  min-height: 58px;
 }
 
-.author-profile {
+.header-brand {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
 }
 
-.author-avatar-small {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
+.header-logo {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
   object-fit: cover;
-  border: 2px solid #e5e5e5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
-.author-meta {
-  display: flex;
-  flex-direction: column;
-}
-
-.author-name-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.author-name {
-  font-size: 24px;
+.header-brand-text {
+  font-size: 34px;
   font-weight: 800;
   color: #111111;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
 }
 
-.verified-badge {
-  display: flex;
-  align-items: center;
-}
-
-.author-role {
-  font-size: 16px;
-  font-weight: 600;
-  color: #666666;
-}
-
-.slide-tag {
-  font-size: 24px;
+.header-tag {
+  font-size: 28px;
   font-weight: 800;
-  color: #c59e35;
+  color: #16a34a;
   letter-spacing: -0.01em;
 }
 
-/* Slide 1 - Cover */
-.cover-container {
+/* ── Slide Content Area ── */
+.slide-content {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px 0;
+  width: 100%;
 }
 
-.cover-title {
-  font-size: 76px;
-  font-weight: 900;
-  line-height: 1.15;
-  letter-spacing: -0.035em;
-  color: #000000;
-  margin-bottom: 24px;
+.content-hook {
+  justify-content: center;
+  padding: 0;
 }
 
-.cover-title .title-line {
+.content-cta {
+  justify-content: center;
+  padding: 0;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 28px;
+}
+
+.cta-guide-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px 38px;
+  border: 1.5px solid rgba(22, 163, 74, 0.22);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.07), 0 2px 8px rgba(0, 0, 0, 0.02);
+  width: 100%;
+}
+
+.cta-guide-badge {
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 800;
+  color: #16a34a;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.cover-deliverable {
-  font-size: 26px;
+.cta-guide-title {
+  font-size: 27px;
   font-weight: 700;
-  color: #555555;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  color: #111827;
+  line-height: 1.35;
+  margin-bottom: 16px;
+  letter-spacing: -0.015em;
 }
 
-/* Content Slides (2-5) */
-.content-container {
-  flex: 1;
+.cta-guide-steps {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 15px 0 25px 0;
+  gap: 10px;
+  margin-bottom: 14px;
 }
 
-.title-with-arrow {
+.cta-step-item {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 36px;
-  position: relative;
+  align-items: center;
+  gap: 14px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 14px;
+  padding: 12px 18px;
 }
 
-.slide-title {
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 1.15;
-  letter-spacing: -0.03em;
-  color: #000000;
-  flex: 1;
-}
-
-.slide-title .title-line {
-  margin-bottom: 8px;
-}
-.slide-title .title-line:last-child {
-  margin-bottom: 0;
-}
-
-.arrow-box {
-  width: 80px;
-  height: 80px;
+.cta-step-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 20px;
-  margin-top: 5px;
   flex-shrink: 0;
 }
 
-.slide-body {
-  font-size: 34px;
-  font-weight: 500;
-  line-height: 1.48;
-  color: #1a1a1a;
-  letter-spacing: -0.01em;
-  max-width: 940px;
-}
-
-.slide-body-list {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-}
-
-.point-item {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 1.42;
-  color: #222222;
-  letter-spacing: -0.01em;
-}
-
-.point-item strong {
-  font-weight: 800;
-  color: #000000;
-}
-
-.slide-body-paragraphs {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.body-para {
-  font-size: 34px;
-  font-weight: 500;
-  line-height: 1.48;
-  color: #222222;
-  letter-spacing: -0.01em;
-}
-
-.body-para strong {
-  font-weight: 800;
-  color: #000000;
-}
-
-.takeaway-para {
-  margin-top: 10px;
-  font-size: 32px;
-  font-weight: 600;
-  color: #111111;
-  background-color: #fbfbfb;
-  border-left: 4px solid #ffd84d;
-  padding: 10px 16px;
-  border-radius: 4px;
-}
-
-.takeaway-para strong {
-  font-weight: 800;
-  color: #000000;
-}
-
-/* Step Diagram Layout */
-.step-diagram-container {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.steps-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 12px;
-}
-
-.step-card {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: #fafafa;
-  border: 1px solid #f0f0f0;
-  padding: 18px 12px;
-  border-radius: 16px;
-}
-
-.step-circle {
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-
-.step-number {
+.cta-step-text {
   font-size: 26px;
-  font-weight: 900;
-  color: #111111;
-}
-
-.step-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.step-label {
-  font-size: 22px;
-  font-weight: 800;
-  color: #000000;
-  letter-spacing: 0.02em;
-}
-
-.step-sublabel {
-  font-size: 17px;
   font-weight: 600;
-  color: #666666;
-  line-height: 1.25;
+  color: #1f2937;
+  letter-spacing: -0.01em;
 }
 
-/* Slide 6 - CTA */
-.cta-container {
-  flex: 1;
+.cta-step-text strong {
+  font-weight: 800;
+  color: #16a34a;
+}
+
+.cta-guide-note {
+  font-size: 22px;
+  font-weight: 500;
+  color: #4b5563;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.content-value {
+  justify-content: center;
+  padding: 0;
+}
+
+/* Value Container: Headline + generous 48px gap + Green Card */
+.value-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 10px 0;
+  gap: 48px;
+  width: 100%;
 }
 
-.cta-title {
-  font-size: 74px;
-  font-weight: 900;
-  line-height: 1.15;
+/* ── Typography & Headlines ── */
+.editorial-headline {
+  color: #111111;
+  font-weight: 800;
   letter-spacing: -0.035em;
-  color: #000000;
-  margin-bottom: 24px;
+  text-align: left;
+  width: 100%;
 }
 
-.cta-title .title-line {
+.hook-headline {
+  font-size: 88px;
+  line-height: 1.15;
+}
+
+.hook-headline .title-line {
+  margin-bottom: 10px;
+}
+
+.cta-headline {
+  font-size: 80px;
+  line-height: 1.10;
+  letter-spacing: -0.035em;
+}
+
+.cta-headline .title-line {
+  margin-bottom: 4px;
+}
+
+.value-headline {
+  font-size: 74px;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.title-line {
   margin-bottom: 8px;
 }
-.cta-title .title-line:last-child {
+
+.title-line:last-child {
   margin-bottom: 0;
 }
 
-.cta-prompt {
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 1.42;
-  color: #333333;
-  margin-bottom: 24px;
-}
-
-.lead-magnet-box {
-  background-color: #fff9e6;
-  border: 1.5px dashed #ffd84d;
-  padding: 16px 20px;
-  border-radius: 12px;
-  font-size: 24px;
-  font-weight: 600;
-  color: #222222;
-  line-height: 1.4;
-  margin-bottom: 24px;
-}
-
-.lead-magnet-box strong {
-  color: #000000;
-  font-weight: 800;
-}
-
-.cta-author-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #f8f8f8;
-  border: 1px solid #eeeeee;
-  padding: 18px 24px;
-  border-radius: 16px;
-}
-
-.cta-author-left {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.cta-avatar {
-  width: 68px;
-  height: 68px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #ffd84d;
-}
-
-.cta-author-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.cta-name-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.cta-author-name {
-  font-size: 24px;
-  font-weight: 800;
-  color: #000000;
-}
-
-.cta-author-title {
-  font-size: 18px;
-  font-weight: 600;
-  color: #666666;
-}
-
-.cta-follow-btn {
-  background-color: #ffd84d;
-  color: #000000;
-  font-size: 20px;
-  font-weight: 800;
-  padding: 12px 26px;
-  border-radius: 30px;
-  letter-spacing: 0.02em;
-}
-
-/* Canary Highlighter Box */
+/* ── The Signature Green Highlight Box ── */
 .highlight-box {
-  background-color: #ffd84d;
-  color: #000000;
-  padding: 0px 14px 2px 14px;
+  background-color: #16a34a;
+  color: #ffffff !important;
+  font-style: italic;
+  font-weight: 800;
+  padding: 4px 18px 8px 18px;
   display: inline-block;
-  border-radius: 4px;
-  line-height: 1.05;
+  border-radius: 8px;
+  line-height: 1.10;
+  margin: 2px 0;
 }
 
-/* Footer */
+/* ── Tactile Green Content Card (Matches Reference PDF Pages 2–6) ── */
+.green-card {
+  background: linear-gradient(160deg, #16a34a 0%, #15803d 100%);
+  border-radius: 26px;
+  padding: 48px 52px;
+  box-shadow: 0 20px 42px -10px rgba(22, 163, 74, 0.35), 0 4px 14px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  width: 100%;
+}
+
+.green-card-text {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.52;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.green-card-text strong {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* ── Footer ── */
 .slide-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  min-height: 40px;
+  min-height: 52px;
 }
 
 .footer-left {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 600;
-  color: #777777;
+  color: #333333;
   letter-spacing: -0.01em;
 }
 
@@ -423,11 +281,11 @@ body {
   align-items: center;
 }
 
-.swipe-btn {
-  font-size: 24px;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-  color: #000000;
+.swipe-text {
+  font-size: 26px;
+  font-weight: 800;
+  color: #111111;
+  letter-spacing: 0.02em;
 }
 
 .bookmark-ribbon {

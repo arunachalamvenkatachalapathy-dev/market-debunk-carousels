@@ -1,0 +1,13 @@
+{
+  "media_id": "",
+  "swipe_through_rate": 0.42,
+  "completion_rate": 0.58,
+  "saves": 0,
+  "shares": 0,
+  "impressions": 0,
+  "status": "active",
+  "diagnostics": {
+    "slide_1_hook": "\u2705 Healthy swipe-through (>=30%). Hook earned the swipe effectively.",
+    "mid_carousel_pacing": "\u2705 Strong completion rate (>=50%). Audience commited through the final conversion and save slides."
+  }
+}

@@ -117,3 +117,152 @@ class PromptEngineer:
             f"LEAD MAGNET TRIGGER: Comment '{trigger}' for '{resource}'\n"
             f"AVOID: {', '.join(plan.get('banned_phrases', []))}"
         )
+
+
+class GrammarAgent:
+    """
+    Grammar & Stylistic Verification Agent:
+    1. Cross-checks spelling, grammar, punctuation, and sentence flow across all slides.
+    2. Strips any leaked markdown artifacts (e.g. raw '**', '#', leading numbers inside text).
+    3. Intelligently selects punchy words/phrases to wrap with '<span class="highlight-box">...</span>' (#010a20 background + white text).
+    4. Ensures vertical density and clarity without forcing or rushing content.
+    """
+
+    def __init__(self, llm_client=None):
+        self.llm = llm_client
+
+    def sanitize_text(self, text: str) -> str:
+        """Removes markdown syntax, website URLs/domains, leaked publish dates, and messy quotes."""
+        if not text:
+            return ""
+        t = str(text)
+        # Remove website domains like indianexpress.com, moneycontrol.com, etc.
+        t = re.sub(r"\s*[-|–—]\s*(?:indianexpress\.com|moneycontrol|economic times|ndtv profit|reuters|bloomberg|livemint|[a-zA-Z0-9.-]+\.(?:com|in|org|net)).*$", "", t, flags=re.I)
+        t = re.sub(r"https?://\S+", "", t)
+        t = re.sub(r"\b[a-zA-Z0-9.-]+\.(?:com|in|org|net)\b", "", t, flags=re.I)
+        t = re.sub(r"Published:\s*\d{4}-\d{2}-\d{2}\s*[-—:]*\s*", "", t, flags=re.IGNORECASE)
+        t = re.sub(r"^[‘'\"“]+|[’'\"”]+$", "", t)
+        t = re.sub(r"^[‘'\"“][^:’'\"]+[:’'\"]\s*", "", t)
+        t = re.sub(r"\*\*([^*]+)\*\*", r"\1", t)
+        t = re.sub(r"\*([^*]+)\*", r"\1", t)
+        t = re.sub(r"`([^`]+)`", r"\1", t)
+        t = re.sub(r":([^\s])", r": \1", t)
+        t = re.sub(r"\s+", " ", t).strip()
+        return t
+
+    def clean_text(self, text: str) -> str:
+        return self.sanitize_text(text)
+
+    def review_and_polish_deck(self, deck: dict, topic_data: Optional[dict] = None) -> dict:
+        """
+        AI-Powered Grammar & Sentence Formation Gate:
+        1. Formulates a concise 4-6 word hook (NOT huge, zero websites).
+        2. Ensures Slides 2-7 have contextual 3-5 word titles (NO '#1' on a separate line).
+        3. Fills Slide 8 with complete takeaway text so it never feels limited or empty.
+        """
+        topic_data = topic_data or {}
+        topic_title = self.sanitize_text(topic_data.get("title", ""))
+        slides = deck.get("slides", [])
+
+        # Attempt LLM-assisted sentence refinement for maximum punchiness
+        if self.llm and slides:
+            try:
+                prompt = f"""You are the Lead Editorial Grammar & Sentence Formation Agent for 'Market Debunk'.
+Refine the headlines and titles for this 8-slide Instagram carousel to ensure premium editorial flow.
+
+TOPIC: {topic_title}
+SLIDES OVERVIEW:
+{json.dumps([{"role": s.get("role"), "title": s.get("title"), "card_text": s.get("card_text", "")[:120]} for s in slides], indent=2)}
+
+STRICT RULES:
+1. Slide 1 (hook): Must be punchy and concise (4 to 6 words MAXIMUM). NEVER huge, NEVER include website names, URLs, or news domains. Include exactly ONE <span class="highlight-box">...</span> around 1-2 powerful words.
+2. Slides 2 to 7 (value): Titles must be 3 to 5 words MAXIMUM. Contextual to the card content (e.g. 'The False Safety <span class="highlight-box">Of Bail Orders</span>'). NEVER use numbers like '#1', '#2' or generic 'Institutional Reality'.
+3. Slide 8 (save CTA): Provide 'cta_detail' (20-30 words) explaining WHY investors must save this framework for their next trade review (fills space with valuable advice).
+
+Return JSON ONLY:
+{{
+  "slide_1_hook": "Why Bail Orders <span class='highlight-box'>Trap Retail</span> Traders",
+  "slide_titles": [
+    "The Core Illusion <span class='highlight-box'>Exposed By Math</span>",
+    "How Syndicates <span class='highlight-box'>Dump Liquidity</span>",
+    "The Legal Delay <span class='highlight-box'>Capital Trap</span>",
+    "The Compounding <span class='highlight-box'>Opportunity Loss</span>",
+    "The Golden Rule: <span class='highlight-box'>Exit Instantly</span>",
+    "The 3-Point <span class='highlight-box'>Pre-Trade Audit</span>"
+  ],
+  "slide_8_cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before taking your next trade to protect your capital from operator traps."
+}}"""
+                resp = self.llm.models.generate_content(
+                    model=settings.GEMINI_MODEL,
+                    contents=prompt,
+                    config={"response_mime_type": "application/json", "temperature": 0.2}
+                )
+                if resp.text:
+                    refined = json.loads(resp.text)
+                    if refined.get("slide_1_hook"):
+                        slides[0]["title"] = refined["slide_1_hook"]
+                    titles = refined.get("slide_titles", [])
+                    for i, t in enumerate(titles):
+                        if i + 1 < len(slides) - 1:
+                            slides[i + 1]["title"] = t
+                    if refined.get("slide_8_cta_detail") and len(slides) >= 8:
+                        slides[-1]["cta_detail"] = refined["slide_8_cta_detail"]
+            except Exception as e:
+                logger.warning("LLM sentence formation fallback to deterministic: %s", e)
+
+        # Deterministic cleanup across all slides
+        for i, s in enumerate(slides):
+            raw_title = s.get("title", "")
+            cleaned = self.sanitize_text(raw_title)
+            # Remove isolated numbers like #1, #2 from title
+            cleaned = re.sub(r"\s*#\d+\b", "", cleaned).strip()
+            if cleaned:
+                s["title"] = cleaned
+
+            if "card_text" in s:
+                ct = str(s["card_text"])
+                ct = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", ct)
+                ct = re.sub(r"`([^`]+)`", r"\1", ct)
+                s["card_text"] = ct.strip()
+
+            if i == len(slides) - 1 and not s.get("cta_detail"):
+                s["cta_detail"] = "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital."
+
+        return deck
+
+    def format_converting_caption(self, deck: dict, topic_data: dict, audio_track: Optional[dict] = None) -> str:
+        """
+        Formats a high-converting caption based on the 2026 Instagram Carousel Bible:
+        1. Opening Hook (1-2 sentences creating curiosity gap)
+        2. Value Preview (3 bullet points teasing what is inside)
+        3. Clear single CTA with keyword trigger
+        4. Reels Algorithm Audio recommendation
+        5. 3-5 relevant hashtags
+        """
+        title = topic_data.get("title", "")
+        slides = deck.get("slides", [])
+        hook_text = slides[0].get("title", title) if slides else title
+        clean_hook = re.sub(r"<[^>]+>", "", hook_text).strip()
+
+        trigger = "DEBUNK"
+        for s in slides:
+            lm = s.get("lead_magnet")
+            if lm and lm.get("trigger_word"):
+                trigger = lm.get("trigger_word")
+                break
+
+        audio_str = ""
+        if audio_track:
+            audio_str = f"\n\n🎵 Recommended Audio: '{audio_track.get('title')}' by {audio_track.get('artist')} (Tap 'Add Music' before posting for Reels algorithm boost)"
+
+        caption = (
+            f"🚨 {clean_hook}\n\n"
+            f"Most retail traders get caught on the wrong side of headline surges because they don't audit institutional positioning.\n\n"
+            f"Swipe through this 8-slide breakdown to see:\n"
+            f"• The structural traps behind the headline move\n"
+            f"• How smart capital extracts exit liquidity\n"
+            f"• The complete pre-trade risk audit checklist\n\n"
+            f"💬 Comment '{trigger}' and our system will DM you the complete pre-trade Risk Playbook in 10 seconds.{audio_str}\n\n"
+            f"#Commodities #StockMarket #TradingTruth #MarketDebunk #InstitutionalMath"
+        )
+        return caption

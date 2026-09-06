@@ -64,7 +64,22 @@ def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
         editorial_engine = EditorialEngine()
         deck = editorial_engine.compose_carousel(topic_data, brief)
         slides = deck.get("slides", [])
-        logger.info("✓ Composed %d slides with verified anchor metrics.", len(slides))
+        from src.validator import CarouselValidator
+        is_valid, content_report = CarouselValidator.validate_content(deck)
+        if not is_valid:
+            raise ValueError(f"Deck failed content validation gate: {content_report}")
+        logger.info("✅ %s", content_report)
+
+        # Audio Automation: Select trending Reels audio track
+        from src.audio_director import AudioDirector
+        audio_director = AudioDirector()
+        audio_track = audio_director.select_audio_recommendation()
+        deck["audio_recommendation"] = audio_track
+
+        # Caption Engineering: Apply 4-part formula with audio note and keyword trigger
+        from src.workflow_agents import GrammarAgent
+        grammar_agent = GrammarAgent()
+        deck["caption"] = grammar_agent.format_converting_caption(deck, topic_data, audio_track)
 
         # ── Phase 5: Playwright 1080x1350 Retina Rendering & PDF Compilation ───
         logger.info("═══ Phase 5: Playwright 1080x1350 (4:5) Retina Rendering ═══")
@@ -74,12 +89,30 @@ def run_pipeline(dry_run: bool = False, override_query: str = None) -> bool:
         slide_paths = visual_pkg["slide_paths"]
         pdf_path = visual_pkg["pdf_path"]
 
-        # ── Phase 6: Export Master Package for Tamil Companion ────────────────
+        # ── Phase 5b: Mandatory Per-Slide and PDF Validation Gate ────────────
+        logger.info("═══ Phase 5b: Automated Render & Dimension Quality Gate ═══")
+        for sp in slide_paths:
+            is_png_valid, png_report = CarouselValidator.validate_slide_png(sp)
+            if not is_png_valid:
+                raise ValueError(f"Slide PNG validation failed: {png_report}")
+            logger.info("✓ %s", png_report)
+
+        is_pdf_valid, pdf_report = CarouselValidator.validate_pdf(pdf_path)
+        if not is_pdf_valid:
+            raise ValueError(f"Multi-page PDF validation failed: {pdf_report}")
+        logger.info("✅ %s", pdf_report)
+
+        # ── Phase 6: Export Master Package for Tamil Companion & Analytics ───
+        from src.analytics_tracker import AnalyticsFeedbackEngine
+        analytics_engine = AnalyticsFeedbackEngine(state_dir=STATE_DIR)
+        analytics_engine.record_or_fetch_metrics()
+
         master_pkg_path = STATE_DIR / "market_debunk_carousel_master.json"
         master_package = {
             "topic": topic_data,
             "plan": plan,
             "deck": deck,
+            "audio": audio_track,
             "run_id": run_id,
             "slide_count": len(slide_paths),
             "exported_at": datetime.now(timezone.utc).isoformat()

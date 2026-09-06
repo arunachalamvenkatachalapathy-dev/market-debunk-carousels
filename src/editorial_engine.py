@@ -90,17 +90,9 @@ class EditorialEngine:
                         logger.error("🚨 GEMMA FALLBACK FAILED. Engaging Circuit Breaker -> Moving to pre-reserved topic templates.")
                         logger.info("🛡️ Engaging Fact-Check Circuit Breaker: Falling back immediately to pre-vetted evergreen topic.")
                         
-                        from src.research_engine import CURATED_FALLBACKS
-                        arc_id = topic_data.get("archetype", "myth_vs_reality_math")
-                        fallback = CURATED_FALLBACKS.get(arc_id, CURATED_FALLBACKS["myth_vs_reality_math"])
-                        
                         # Update topic_data in place so master package reflects the verified reality
                         topic_data["circuit_breaker_engaged"] = True
                         topic_data["circuit_breaker_reason"] = report_retry
-                        topic_data["title"] = fallback["title"]
-                        topic_data["source"] = fallback["source"]
-                        topic_data["raw_text"] = fallback["raw_text"]
-                        topic_data["numbers_detected"] = fallback["numbers_detected"]
                         topic_data["from_live_api"] = False
                         
                         deck = self._generate_fallback_deck(topic_data)
@@ -108,6 +100,15 @@ class EditorialEngine:
         else:
             logger.info("✅ %s", report)
             deck["fact_check_status"] = "verified_pass"
+
+        # ── Pass 3: Grammar & Polish Verification Gate ──
+        logger.info("═══ Editorial Pass 3: Grammar & Polish Verification Gate ═══")
+        try:
+            from src.workflow_agents import GrammarAgent
+            grammar_agent = GrammarAgent(llm_client=self.client)
+            deck = grammar_agent.review_and_polish_deck(deck, topic_data)
+        except Exception as g_err:
+            logger.warning("GrammarAgent review skipped: %s", g_err)
 
         # Normalize and ensure visual consistency
         deck["slides"] = self._normalize_slides(deck.get("slides", []), topic_data)
@@ -166,72 +167,49 @@ CRITICAL: Return valid JSON ONLY with keys "caption" and "slides" (array of 6 ob
     def _generate_draft(self, topic_data: dict, brief: str) -> dict:
         title = topic_data.get("title", "")
         raw_text = topic_data.get("raw_text", "")
-        archetype = topic_data.get("archetype", "")
 
-        prompt = f"""You are a master financial content strategist for 'Market Debunk'.
-Create an agency-grade, high-density 6-slide Instagram/LinkedIn carousel debunking a retail investing trap.
+        prompt = f"""You are a senior quantitative financial editor for 'Market Debunk'.
+Create an authoritative, high-density 8-slide Instagram carousel debunking a retail investing trap.
+The design language is strictly modeled after an ultra-clean, spacious editorial template:
+- Large, bold headlines with exactly ONE phrase highlighted in <span class="highlight-box">...</span>.
+- On content slides (Slides 2–7): exactly ONE tactile green card with concise, authoritative text.
+- NO extra boxes, NO checklist badges, NO mini KPI widgets.
 
 TOPIC: {title}
 SOURCE CONTEXT: {raw_text}
 CREATIVE BRIEF:
 {brief}
 
-DESIGN SPECIFICATIONS (EXACTLY 6 SLIDES):
-- Slide 1 (role: "hook"):
-  - title: 2-3 short lines. Put the most shocking 1-3 words inside <span class="highlight-box">...</span> (canary yellow marker).
-  - deliverable: e.g. "Inside: 5-Point Mathematical Breakdown"
-  - tag: e.g. "#MUTUALFUNDS", "#SEBIRULES", "#CREDITCARDS", "#INVESTING"
-
-- Slide 2 (role: "friction"):
-  - title: e.g. "The Illusion of Safe 12% SIPs"
-  - card_a_text: What retail investors are told or believe (1-2 sentences).
-  - card_b_text: The operational reality or hidden cost (1-2 sentences).
-  - takeaway: Core rule stated as contrast: "X creates familiarity. Y creates wealth."
-
-- Slide 3 (role: "breakdown"):
-  - title: e.g. "3 Silent Leakages in Your Returns"
-  - points: Exactly 3 numbered items. Each item: {{"num": "1", "title": "2-3 word title", "desc": "Concrete explanation with real mechanism"}}
-
-- Slide 4 (role: "architecture" OR "step_diagram"):
-  - If the concept has a 3-4 step framework, use layout "step_diagram":
-    {{"layout": "step_diagram", "steps": [
-      {{"number": 1, "icon_concept": "calculator", "color": "#A8D5BA", "label": "AUDIT", "sublabel": "Check expense ratio"}},
-      {{"number": 2, "icon_concept": "bar chart", "color": "#F5D782", "label": "COMPARE", "sublabel": "Run direct vs regular"}},
-      {{"number": 3, "icon_concept": "shield", "color": "#A8C8E8", "label": "SWITCH", "sublabel": "Move to zero-commission"}}
-    ], "headline": "The 3-Step Clean Capital Loop", "body_lines": ["Distributors sell convenience.", "Direct plans preserve compounding."], "closing_line": "Audit your expense ratio before adding fresh capital."}}
-  - Otherwise, provide 3-4 structured process steps with a strict execution rule.
-
-- Slide 5 (role: "concept"):
-  - title: e.g. "3 Rules Before Making Your Next Move"
-  - rules: Exactly 3 actionable rules for retail investors with bold titles.
-
-- Slide 6 (role: "cta"):
-  - title_lines: ["Don't <span class=\\"highlight-box\\">forget to</span>", "save this <span class=\\"highlight-box\\">post</span>"]
-  - discussion_question: A thoughtful prompt for the comments.
-  - lead_magnet: {{"trigger_word": "GUIDE", "resource_name": "The Retail Risk Checklist"}}
+DESIGN SPECIFICATIONS (EXACTLY 8 SLIDES):
+- Slide 1 (role: "hook"): 4-8 words maximum. Bold curiosity gap. 1-2 words in <span class="highlight-box">...</span>. tag: "#2026".
+- Slide 2 (role: "value_1"): The Core Illusion vs Reality. title: 2-3 lines with highlight box. card_text: 35-50 words explaining the myth vs institutional truth. Bold key metrics using <strong>...</strong>.
+- Slide 3 (role: "value_2"): The Primary Hidden Trap / Mechanism. title: 2-3 lines with highlight box. card_text: 35-50 words explaining how capital is quietly extracted or risk shifted.
+- Slide 4 (role: "value_3"): Distribution / Liquidity Trap. title: 2-3 lines with highlight box. card_text: 35-50 words detailing institutional exit liquidity or order flow reality.
+- Slide 5 (role: "value_4"): Mathematical Compounding Drag. title: 2-3 lines with highlight box. card_text: 35-50 words breaking down the long-term rupee loss or fee erosion with exact figures.
+- Slide 6 (role: "value_5"): The Non-Negotiable Institutional Rule. title: 2-3 lines with highlight box. card_text: 35-50 words presenting the golden execution rule to protect retail principal.
+- Slide 7 (role: "value_6"): The Pre-Trade Verification Checklist. title: 2-3 lines with highlight box. card_text: 35-50 words outlining the 3-point audit every investor must run before allocating capital.
+- Slide 8 (role: "bookmark_save"): Standard Save & Lead Magnet CTA. title_lines: ["Don’t", "forget to", "<span class=\\"highlight-box\\">save this</span>", "post for", "later"]. tag: "#MARKETDEBUNK".
 
 Return JSON ONLY:
 {{
-  "caption": "High-converting Instagram/LinkedIn caption (hook, bullet points, CTA, hashtags)",
-  "slides": [ ... 6 slide objects ... ]
+  "caption": "High-converting Instagram caption (hook, 3-bullet value preview, keyword CTA 'Follow @Market_Debunk and comment GUIDE for the full Investor Playbook PDF', 3-5 relevant hashtags)",
+  "slides": [ ... exactly 8 slide objects ... ]
 }}"""
 
         models_to_try = [
             settings.GEMINI_MODEL,
+            "gemini-3.6-flash",
             "gemini-3.7-flash",
-            "gemini-2.5-flash",
-            settings.GEMMA_FALLBACK_MODEL,
-            "gemma-4-26b-a4b-it",
         ]
 
         if self.client:
             for model_name in models_to_try:
                 try:
                     logger.info("Attempting carousel draft with model %s...", model_name)
-                    config = {"temperature": 0.4}
+                    config = {"temperature": 0.3}
                     if not model_name.startswith("gemma"):
                         config["response_mime_type"] = "application/json"
-                    
+
                     response = self.client.models.generate_content(
                         model=model_name,
                         contents=prompt,
@@ -244,8 +222,8 @@ Return JSON ONLY:
                         elif "```" in clean_text:
                             clean_text = clean_text.split("```")[1].split("```")[0].strip()
                         data = json.loads(clean_text)
-                        if len(data.get("slides", [])) == 6:
-                            logger.info("✓ Model %s successfully generated 6-slide draft.", model_name)
+                        if len(data.get("slides", [])) >= 7:
+                            logger.info("✓ Model %s successfully generated draft with %d slides.", model_name, len(data["slides"]))
                             return data
                 except Exception as e:
                     logger.warning("Model %s draft attempt failed: %s", model_name, e)
@@ -256,29 +234,22 @@ Return JSON ONLY:
 
     def _verify_numeric_facts(self, deck: dict, topic_data: dict) -> Tuple[bool, str]:
         """
-        Extracts all numeric and financial claims across the 6 slides and verifies
+        Extracts all numeric and financial claims across the 8 slides and verifies
         whether they are consistent with the source text.
         """
         source_text = f"{topic_data.get('raw_text', '')} {topic_data.get('title', '')} {topic_data.get('source_snippet', '')}"
         slides = deck.get("slides", [])
-        
+
         # Collect all text from all slides
         all_slide_text = ""
         for s in slides:
-            all_slide_text += f" {s.get('title', '')} {s.get('card_a_text', '')} {s.get('card_b_text', '')} {s.get('takeaway', '')} "
-            for p in s.get("points", []):
-                p_text = f"{p.get('title', '')} {p.get('desc', '')}" if isinstance(p, dict) else str(p)
-                all_slide_text += f" {p_text} "
-            for r in s.get("rules", []):
-                r_text = f"{r.get('title', '')} {r.get('desc', '')}" if isinstance(r, dict) else str(r)
-                all_slide_text += f" {r_text} "
-            for b in s.get("body_lines", []):
-                all_slide_text += f" {b} "
-            all_slide_text += f" {s.get('headline', '')} {s.get('closing_line', '')} "
+            all_slide_text += f" {s.get('title', '')} {s.get('card_text', '')} "
+            for tl in s.get("title_lines", []):
+                all_slide_text += f" {tl} "
 
-        # Financial regex: currency, %, Lakh, Crore, bps, years, months (ignoring decimal timestamp artifacts)
+        # Financial regex: currency, %, Lakh, Crore, bps, years, months
         pattern = r"(?:₹|\$)\s?\d+(?:[,\.]\d+)?(?:\s?(?:Cr|Lakh|Lakhs|Crore|Crores|k|M|B))?|\b\d+(?:[,\.]\d+)?\s?%|\b\d+\s?(?:Lakh|Lakhs|Crore|Crores|Cr|bps|years|months)\b"
-        
+
         raw_source_matches = re.findall(pattern, source_text, flags=re.IGNORECASE)
         clean_source_nums = set()
         for m in raw_source_matches:
@@ -286,11 +257,9 @@ Return JSON ONLY:
             if not re.search(r"\.\d{4,}", cleaned):  # Exclude microsecond timestamps
                 clean_source_nums.add(cleaned)
 
-        # If source has no specific financial numbers detected, pass gracefully
         if not clean_source_nums:
             return True, "Source context has no specific financial metrics; qualitative validation passed."
 
-        # Check if at least one anchor metric digits/value from source is preserved in slides
         anchor_match = []
         for src_num in clean_source_nums:
             digits_match = re.search(r"\d+(?:[,\.]\d+)?", src_num)
@@ -308,260 +277,187 @@ Return JSON ONLY:
 
     def _normalize_slides(self, slides: list, topic_data: dict) -> list:
         normalized = []
-        default_tags = ["#INVESTING", "#MARKETTRUTH", "#HIDDENMATH", "#PLAYBOOK", "#STRATEGY", "#SAVETHIS"]
+        expected_count = settings.EXPECTED_SLIDE_COUNT
 
-        for idx, slide in enumerate(slides[:6]):
-            s = dict(slide)
+        for idx in range(expected_count):
+            if idx < len(slides):
+                s = dict(slides[idx])
+            else:
+                s = {}
+
             s["slide_index"] = idx + 1
-            s["tag"] = s.get("tag") or default_tags[idx]
+            s["tag"] = "#MARKETDEBUNK"
 
-            # Ensure title_lines with yellow highlight box
-            raw_title = s.get("title") or s.get("headline") or ""
-            if not s.get("title_lines"):
-                s["title_lines"] = self._format_title_lines(raw_title, is_hook=(idx == 0))
+            if idx == 0:
+                s["role"] = "hook"
+                raw_title = s.get("title") or s.get("headline") or topic_data.get("title", "Market Debunk")
+                # Strip all websites, domains, quotes, and legal boilerplate
+                raw_title = re.sub(r"\s*[-|–—]\s*(?:indianexpress\.com|moneycontrol|economic times|ndtv profit|reuters|bloomberg|livemint|[a-zA-Z0-9.-]+\.(?:com|in|org|net)).*$", "", str(raw_title), flags=re.I)
+                raw_title = re.sub(r"https?://\S+", "", raw_title)
+                raw_title = re.sub(r"\b[a-zA-Z0-9.-]+\.(?:com|in|org|net)\b", "", raw_title, flags=re.I)
+                raw_title = re.sub(r"^[‘'\"“]+|[’'\"”]+$", "", raw_title)
+                raw_title = re.sub(r"^[‘'\"“][^:’'\"]+[:’'\"]\s*", "", raw_title)
+                s["title_lines"] = self._format_title_lines(raw_title, is_hook=True, slide_index=1)
+                s["card_text"] = ""
+            elif idx == expected_count - 1:
+                s["role"] = "bookmark_save"
+                s["title_lines"] = ["Don’t", "forget to", "<span class='highlight-box'>save this</span>", "post for", "later"]
+                s["card_text"] = ""
+                if not s.get("cta_detail"):
+                    s["cta_detail"] = "Save this framework to your private collection. Review these institutional risk checkpoints before taking your next trade to protect your capital from market traps."
+            else:
+                s["role"] = s.get("role") or f"value_{idx}"
+                raw_title = s.get("title") or s.get("headline")
+                if not raw_title or "Institutional Reality" in str(raw_title):
+                    defaults = [
+                        "The Core Illusion <span class='highlight-box'>Exposed By Math</span>",
+                        "How Syndicates <span class='highlight-box'>Dump Liquidity</span>",
+                        "The Hidden Regulatory <span class='highlight-box'>Capital Trap</span>",
+                        "The Compounding <span class='highlight-box'>Opportunity Loss</span>",
+                        "The Golden Rule: <span class='highlight-box'>Exit Instantly</span>",
+                        "The 3-Point <span class='highlight-box'>Pre-Trade Audit</span>",
+                    ]
+                    raw_title = defaults[(idx - 1) % len(defaults)]
+                # Strip trailing numbers like #1, #2
+                raw_title = re.sub(r"\s*#\d+\b", "", str(raw_title)).strip()
+                s["title_lines"] = self._format_title_lines(raw_title, is_hook=False, slide_index=idx + 1)
+                card_text = s.get("card_text") or s.get("mechanism") or s.get("card_b_text") or s.get("takeaway") or ""
+                if not card_text:
+                    card_text = "Institutions trade on verified balance sheet quality and liquidity margins, while retail investors chase short-term headline hype."
+                card_text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", card_text)
+                s["card_text"] = card_text
 
-            # Build HTML body representation
-            s["body_html"] = self._build_slide_body_html(s, idx)
             normalized.append(s)
 
         return normalized
 
-    def _format_title_lines(self, raw_title: str, is_hook: bool = False) -> List[str]:
+    def _format_title_lines(self, raw_title: str, is_hook: bool = False, slide_index: int = 1) -> List[str]:
+        # If raw_title already has highlight-box markup
+        if "highlight-box" in raw_title:
+            # Handle hook with highlight box: break into clean 3-4 lines with at most 2 words highlighted
+            if slide_index == 1 or is_hook:
+                m = re.search(r"<span class=['\"]highlight-box['\"]>([^<]+)</span>", raw_title)
+                if m:
+                    hl_words = m.group(1).strip().split()
+                    hl_text = " ".join(hl_words[:2]) if len(hl_words) > 2 else " ".join(hl_words)
+                    before = re.sub(r"<[^>]+>", "", raw_title[:m.start()]).strip()
+                    after = re.sub(r"<[^>]+>", "", raw_title[m.end():]).strip()
+                    lines = []
+                    if before:
+                        b_words = before.split()
+                        if len(b_words) > 2:
+                            lines.append(" ".join(b_words[:2]))
+                            lines.append(" ".join(b_words[2:4]))
+                        else:
+                            lines.append(" ".join(b_words))
+                    lines.append(f"<span class='highlight-box'>{hl_text}</span>")
+                    if after:
+                        a_words = after.split()
+                        lines.append(" ".join(a_words[:2]))
+                    return [l for l in lines if l.strip()]
+
+            # Non-hook slides with highlight box
+            lines = [l.strip() for l in re.split(r"<br\s*/?>|\n", raw_title) if l.strip()]
+            filtered = [l for l in lines if not re.match(r"^#?\d+[\.\)]?$", l)]
+            if len(filtered) > 1:
+                return filtered
+
         clean = re.sub(r"<[^>]+>", "", raw_title).strip()
+        # Remove any leading or trailing isolated numbers
+        clean = re.sub(r"\s*#\d+\b", "", clean).strip()
         words = clean.split()
         if not words:
             return ["Market Debunk"]
 
-        if len(words) <= 4:
-            if is_hook:
-                return [f"<span class='highlight-box'>{clean}</span>"]
-            return [clean]
+        # Slide 1 (Hook - strictly 4 to 6 words, punchy 3-4 lines, not huge!)
+        if slide_index == 1 or is_hook:
+            words = words[:6]
+            if len(words) <= 3:
+                return [" ".join(words[:1]), f"<span class='highlight-box'>{' '.join(words[1:])}</span>"]
+            elif len(words) == 4:
+                return [" ".join(words[:2]), f"<span class='highlight-box'>{' '.join(words[2:])}</span>"]
+            elif len(words) == 5:
+                return [" ".join(words[:2]), f"<span class='highlight-box'>{' '.join(words[2:4])}</span>", words[4]]
+            else:
+                return [" ".join(words[:2]), f"<span class='highlight-box'>{' '.join(words[2:4])}</span>", " ".join(words[4:])]
 
-        # Break into 2-3 lines
-        mid = len(words) // 2
+        # Content Slides: 2–3 clean lines, strictly NO lone numbers or lone symbols
+        words = [w for w in words if not re.match(r"^#?\d+$", w)]
+        if len(words) <= 3:
+            return [f"<span class='highlight-box'>{' '.join(words[:2])}</span>", " ".join(words[2:])] if len(words) > 2 else [f"<span class='highlight-box'>{' '.join(words)}</span>"]
+        
+        mid = min(2, len(words) // 2)
         line1 = " ".join(words[:mid])
-        line2 = " ".join(words[mid:])
-
-        if is_hook:
-            # Highlight the second half or punchy words
-            return [line1, f"<span class='highlight-box'>{line2}</span>"]
-        return [line1, line2]
-
-    def _build_slide_body_html(self, slide: dict, index: int) -> str:
-        role = slide.get("role", "")
-        layout = slide.get("layout", "")
-
-        # Layout: Step Diagram
-        if layout == "step_diagram" or slide.get("steps"):
-            steps = slide.get("steps", [])
-            step_cards = []
-            for st in steps:
-                color = st.get("color", "#A8D5BA")
-                num = st.get("number", 1)
-                lbl = st.get("label", "")
-                sub = st.get("sublabel", "")
-                step_cards.append(f"""
-                <div class="step-card">
-                  <div class="step-circle" style="background-color: {color};">
-                    <span class="step-number">{num}</span>
-                  </div>
-                  <div class="step-meta">
-                    <span class="step-label">{lbl}</span>
-                    <span class="step-sublabel">{sub}</span>
-                  </div>
-                </div>""")
-            steps_html = "".join(step_cards)
-            body_lines = "".join(f"<p class='body-para'>{l}</p>" for l in slide.get("body_lines", []))
-            closing = f"<p class='takeaway-para'><strong>Takeaway:</strong> {slide.get('closing_line', '')}</p>" if slide.get("closing_line") else ""
-            return f"""<div class="step-diagram-container"><div class="steps-row">{steps_html}</div><div class="step-body-content">{body_lines}{closing}</div></div>"""
-
-        # Role: Friction (Slide 2)
-        if index == 1 or role == "friction":
-            card_a = slide.get("card_a_text", "Retail belief: Small recurring fees don't impact wealth.")
-            card_b = slide.get("card_b_text", "Operational reality: Compounding fees extract up to 30% of total wealth.")
-            takeaway = slide.get("takeaway", "Never confuse percentage points with absolute rupee compounding.")
-            return f"""
-            <div class="slide-body-paragraphs">
-              <p class="body-para"><strong>The Myth:</strong> {card_a}</p>
-              <p class="body-para"><strong>The Reality:</strong> {card_b}</p>
-              <p class="takeaway-para"><strong>Core Rule:</strong> {takeaway}</p>
-            </div>"""
-
-        # Role: Breakdown / Points (Slide 3)
-        if index == 2 or role == "breakdown":
-            points = slide.get("points", [])
-            items = []
-            for i, p in enumerate(points):
-                if isinstance(p, dict):
-                    num = p.get("num", str(i + 1))
-                    t = p.get("title", "")
-                    d = p.get("desc", "")
-                    items.append(f"<div class='point-item'><strong>{num}. {t}:</strong> {d}</div>")
-                else:
-                    items.append(f"<div class='point-item'><strong>{i + 1}.</strong> {p}</div>")
-            return f"<div class='slide-body-list'>{''.join(items)}</div>"
-
-        # Role: Concept / Rules (Slide 4 or 5)
-        if slide.get("rules"):
-            rules = slide.get("rules", [])
-            items = []
-            for i, r in enumerate(rules):
-                if isinstance(r, dict):
-                    t = r.get("title", "")
-                    d = r.get("desc", "")
-                    items.append(f"<div class='point-item'><strong>{i+1}. {t}:</strong> {d}</div>")
-                else:
-                    items.append(f"<div class='point-item'><strong>{i+1}.</strong> {r}</div>")
-            return f"<div class='slide-body-list'>{''.join(items)}</div>"
-
-        return f"<div class='slide-body-paragraphs'><p class='body-para'>{slide.get('text', '')}</p></div>"
+        line2 = " ".join(words[mid:mid+2])
+        rest = " ".join(words[mid+2:])
+        
+        res = [line1, f"<span class='highlight-box'>{line2}</span>"]
+        if rest:
+            res.append(rest)
+        return [r for r in res if r.strip()]
 
     def _generate_fallback_deck(self, topic_data: dict) -> dict:
-        news_analysis = topic_data.get("news_analysis")
-        title = topic_data.get("title", "Market Debunk")
-
-        if news_analysis:
-            hook = news_analysis.get("headline_hook") or title
-            illusion = news_analysis.get("retail_illusion", "Retail investors mistake marketing narratives for institutional reality.")
-            reality = news_analysis.get("institutional_reality", "Institutions value intrinsic risk-adjusted returns, ignoring retail sentiment.")
-            actionable_rule = news_analysis.get("actionable_retail_rule", "Never commit capital based on unverified market sentiment.")
-            lead_magnet = news_analysis.get("lead_magnet") or {"trigger_word": "AUDIT", "resource_name": "The Market Debunk Risk Checklist"}
-            trigger = lead_magnet.get("trigger_word", "AUDIT")
-            resource = lead_magnet.get("resource_name", "The Market Debunk Risk Checklist")
-
-            words = hook.split()
-            if len(words) > 4:
-                hook_title = f"{' '.join(words[:2])} <span class='highlight-box'>{' '.join(words[2:5])}</span> {' '.join(words[5:])}".strip()
-            else:
-                hook_title = f"<span class='highlight-box'>{hook}</span>"
-
-            return {
-                "caption": f"🚨 {hook}\n\n{news_analysis.get('breaking_event_summary', '')}\n\nSwipe through the 6-slide breakdown to audit the institutional math.\n\n💬 Comment '{trigger}' below to receive our free '{resource}'!\n\n#StockMarket #Investing #NSE #SEBI #FinancialLiteracy #PersonalFinance",
-                "slides": [
-                    {
-                        "role": "hook",
-                        "title": hook_title,
-                        "deliverable": "📖 Inside: 5-Point Institutional Breakdown",
-                        "tag": "#MARKETDEBUNK"
-                    },
-                    {
-                        "role": "friction",
-                        "title": "The Retail Illusion vs Institutional Reality",
-                        "card_a_text": illusion,
-                        "card_b_text": reality,
-                        "takeaway": "Retail chases headline sentiment. Institutions trade on verified math.",
-                        "tag": "#MARKETTRUTH"
-                    },
-                    {
-                        "role": "breakdown",
-                        "title": "3 Institutional Mechanisms",
-                        "points": [
-                            {"num": "1", "title": "Information Asymmetry", "desc": "Retail sees headline hype while institutional desks hedge systemic and liquidity risks."},
-                            {"num": "2", "title": "Valuation Reality", "desc": "Price-to-earnings multiples and regulatory approvals dictate returns, not speculation."},
-                            {"num": "3", "title": "Exit Liquidity Trap", "desc": "Unregulated market sentiment is often weaponized to distribute shares to late retail entrants."}
-                        ],
-                        "tag": "#HIDDENMATH"
-                    },
-                    {
-                        "role": "architecture",
-                        "layout": "step_diagram",
-                        "steps": [
-                            {"number": 1, "icon_concept": "search", "color": "#A8D5BA", "label": "DISSECT", "sublabel": "Audit official DRHP/filings"},
-                            {"number": 2, "icon_concept": "calculator", "color": "#F5D782", "label": "VALUATION", "sublabel": "Calculate peer multiples"},
-                            {"number": 3, "icon_concept": "shield", "color": "#A8C8E8", "label": "PROTECT", "sublabel": "Refuse speculative hype"}
-                        ],
-                        "headline": "The 3-Step Capital Protection Framework",
-                        "body_lines": [
-                            "Hype cycles distribute risk to uninformed retail.",
-                            "Systematic valuation protects principal capital."
-                        ],
-                        "closing_line": "Never deploy capital where you lack mathematical edge.",
-                        "tag": "#PLAYBOOK"
-                    },
-                    {
-                        "role": "concept",
-                        "title": "Actionable Rules for Retail Investors",
-                        "rules": [
-                            {"title": "Verify Before Allocation", "desc": actionable_rule},
-                            {"title": "Disregard Unregulated Metrics", "desc": "Never buy based on unofficial grey market figures or unvetted social media sentiment."},
-                            {"title": "Protect Downside First", "desc": "Only invest in what you can independently value and audit."}
-                        ],
-                        "tag": "#STRATEGY"
-                    },
-                    {
-                        "role": "cta",
-                        "title": "Don't <span class='highlight-box'>forget to</span> save this <span class='highlight-box'>post</span>",
-                        "discussion_question": "Are you avoiding this retail trap in your portfolio? Share your perspective below 👇",
-                        "lead_magnet": lead_magnet,
-                        "tag": "#SAVETHIS"
-                    }
-                ]
-            }
-
+        title = topic_data.get("title", "The Compounding Drag Retail Investors Ignore")
         words = title.split()
-        clean_title = " ".join(words[:4]) if len(words) > 4 else title
+        clean_hook = " ".join(words[:4]) if len(words) > 4 else title
+
         return {
-            "caption": f"🚨 {title}\n\nMost retail investors believe small fees don't matter, but compound math tells a completely different story.\n\nSwipe through the 6-slide breakdown to audit your capital.\n\n💬 Comment 'GUIDE' below to receive our complete Retail Risk Checklist!\n\n#StockMarket #Investing #MutualFunds #Nifty50 #PersonalFinance",
+            "caption": (
+                f"🚨 The Hidden Math Behind {clean_hook}\n\n"
+                f"Most retail investors assume small recurring fees don't matter, but compound mathematics tells a completely different story.\n\n"
+                f"Swipe through this 8-slide breakdown to audit your capital:\n"
+                f"• The silent trailing fee structure\n"
+                f"• Real terminal compounding loss\n"
+                f"• The 3-point pre-trade audit checklist\n\n"
+                f"💬 Follow @Market_Debunk and comment 'GUIDE' below to receive our complete detailed Investor Playbook & Risk Checklist directly in your DMs!\n\n"
+                f"#StockMarket #Investing #MutualFunds #Nifty50 #PersonalFinance"
+            ),
             "slides": [
                 {
                     "role": "hook",
-                    "title": f"The Hidden Math <span class='highlight-box'>Behind {clean_title}</span>",
-                    "deliverable": "📖 Inside: 5-Point Mathematical Breakdown",
-                    "tag": "#MUTUALFUNDS"
+                    "title": f"The Hidden Math <span class='highlight-box'>Behind {clean_hook}</span>",
+                    "tag": "#2026"
                 },
                 {
-                    "role": "friction",
-                    "title": "The Illusion of Negligible Fees",
-                    "card_a_text": "Retail investors assume a 1% distributor commission is negligible over time.",
-                    "card_b_text": "On a ₹15,000 monthly SIP over 25 years, that 1% fee quietly extracts ₹34 Lakhs from your wealth.",
-                    "takeaway": "Never confuse percentage fees with absolute rupee compounding.",
-                    "tag": "#MARKETTRUTH"
+                    "role": "value_1",
+                    "title": "Think Smart <span class='highlight-box'>Always For Better</span> Decisions",
+                    "card_text": "Retail investors assume a <strong>1% distributor commission</strong> is negligible over time. On a ₹15,000 monthly SIP over 25 years, that 1% fee quietly extracts <strong>₹34 Lakhs</strong> from your wealth.",
+                    "tag": "#MARKETDEBUNK"
                 },
                 {
-                    "role": "breakdown",
-                    "title": "3 Silent Wealth Leakages",
-                    "points": [
-                        {"num": "1", "title": "Distributor Trailing Commissions", "desc": "Paid every single month out of your net asset value whether the fund gains or loses."},
-                        {"num": "2", "title": "Opportunity Cost Compounding", "desc": "Money paid as fees cannot compound for your retirement over the next decade."},
-                        {"num": "3", "title": "Zero Extra Alpha", "desc": "Regular plans hold the exact same stocks as direct plans with zero added performance."}
-                    ],
-                    "tag": "#HIDDENMATH"
+                    "role": "value_2",
+                    "title": "Distributor Trailing <span class='highlight-box'>Commissions Extract</span> Wealth",
+                    "card_text": "Trailing commissions are deducted <strong>every single month</strong> directly from your net asset value. Even during major market corrections, distributors earn guaranteed annuities from your portfolio.",
+                    "tag": "#MARKETDEBUNK"
                 },
                 {
-                    "role": "architecture",
-                    "layout": "step_diagram",
-                    "steps": [
-                        {"number": 1, "icon_concept": "search", "color": "#A8D5BA", "label": "AUDIT", "sublabel": "Check portfolio for Regular"},
-                        {"number": 2, "icon_concept": "calculator", "color": "#F5D782", "label": "CALCULATE", "sublabel": "Run Direct vs Regular cost"},
-                        {"number": 3, "icon_concept": "shield", "color": "#A8C8E8", "label": "SWITCH", "sublabel": "Switch SIP to Direct Zero-Fee"}
-                    ],
-                    "headline": "The 3-Step Capital Recovery Loop",
-                    "body_lines": [
-                        "Distributors sell convenience to retail investors.",
-                        "Direct mutual fund platforms preserve compounding capital."
-                    ],
-                    "closing_line": "Audit your expense ratio before adding fresh capital.",
-                    "tag": "#PLAYBOOK"
+                    "role": "value_3",
+                    "title": "The Compounding <span class='highlight-box'>Multiplier Effect</span> In Action",
+                    "card_text": "Money lost to fees cannot compound. A <strong>₹1 Lakh</strong> fee paid today robs you of <strong>₹10+ Lakhs</strong> in terminal retirement returns. Compounding works both ways: gains multiply, fees multiply exponentially.",
+                    "tag": "#MARKETDEBUNK"
                 },
                 {
-                    "role": "concept",
-                    "title": "3 Rules for Retail Investors",
-                    "rules": [
-                        {"title": "Audit Nav Direct vs Regular", "desc": "Always verify that every fund scheme in your portfolio explicitly has 'Direct' in its name."},
-                        {"title": "Automate STP Where Applicable", "desc": "Do not leave idle cash in distributor savings accounts when switching schemes."},
-                        {"title": "Verify Total Expense Ratio", "desc": "Cap equity fund TER under 0.8% and passive index fund TER under 0.2%."}
-                    ],
-                    "tag": "#STRATEGY"
+                    "role": "value_4",
+                    "title": "Regular Plans Offer <span class='highlight-box'>Zero Incremental</span> Alpha",
+                    "card_text": "Regular mutual fund schemes hold the <strong>exact same stocks</strong>, follow the same fund managers, and carry identical market risk as Direct plans. You pay recurring fees for zero added performance.",
+                    "tag": "#MARKETDEBUNK"
                 },
                 {
-                    "role": "cta",
-                    "title": "Don't <span class='highlight-box'>forget to</span> save this <span class='highlight-box'>post</span>",
-                    "discussion_question": "Have you audited your mutual fund portfolio for regular plans? Drop your thoughts below 👇",
-                    "lead_magnet": {
-                        "trigger_word": "GUIDE",
-                        "resource_name": "The Mutual Fund Risk Checklist"
-                    },
-                    "tag": "#SAVETHIS"
+                    "role": "value_5",
+                    "title": "Institutional Rules <span class='highlight-box'>To Protect Your</span> Principal",
+                    "card_text": "Verify every mutual fund in your portfolio has <strong>'Direct' explicitly in its name</strong>. Cap active equity expense ratios under <strong>0.80%</strong> and passive index funds under <strong>0.20%</strong>.",
+                    "tag": "#MARKETDEBUNK"
+                },
+                {
+                    "role": "value_6",
+                    "title": "The Pre-Trade <span class='highlight-box'>Capital Audit</span> Checklist",
+                    "card_text": "Audit your Total Expense Ratio quarterly. Calculate the <strong>exact rupee commission</strong> paid per year, and switch accumulated units to direct zero-commission platforms to preserve 100% of your compounding capital.",
+                    "tag": "#MARKETDEBUNK"
+                },
+                {
+                    "role": "bookmark_save",
+                    "title_lines": ["Don’t", "forget to", "<span class='highlight-box'>save this</span>", "post for", "later"],
+                    "tag": "#MARKETDEBUNK"
                 }
             ]
         }

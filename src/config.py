@@ -8,12 +8,29 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = ROOT_DIR / "src" / "templates"
 DATA_DIR = ROOT_DIR / "data"
 STATE_DIR = ROOT_DIR / "state"
+ASSETS_DIR = ROOT_DIR / "assets"
+FONTS_DIR = ASSETS_DIR / "fonts"
 
 TEMPLATES_DIR.mkdir(parents=True, exist_ok=True)
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 STATE_DIR.mkdir(parents=True, exist_ok=True)
+FONTS_DIR.mkdir(parents=True, exist_ok=True)
 
 class Settings:
+    # ── Authoritative Carousel Contract ─────────────────────────────────────
+    EXPECTED_SLIDE_COUNT: int = 8
+    SLIDE_WIDTH: int = 1080
+    SLIDE_HEIGHT: int = 1350
+    PDF_DPI: int = 300
+
+    # ── Design Tokens ───────────────────────────────────────────────────────
+    BG_COLOR: str = "#f8f8f9"
+    BRAND_NAVY: str = "#111111"
+    BRAND_GREEN: str = "#16a34a"
+    CARD_GREEN: str = "#15803d"
+    TEXT_WHITE: str = "#ffffff"
+    TEXT_MUTED: str = "#333333"
+
     # ── AI Keys ─────────────────────────────────────────────────────────────
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
     GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
@@ -47,6 +64,7 @@ class Settings:
     # ── Branding ────────────────────────────────────────────────────────────
     BRAND_NAME: str = "Market Debunk"
     BRAND_SUBTITLE: str = "Exposing Retail Traps & Institutional Math"
-    BRAND_HANDLE: str = "@marketdebunk"
+    BRAND_HANDLE: str = "@Market_Debunk"
+    BRAND_URL: str = "www.marketdebunk.com"
 
 settings = Settings()
