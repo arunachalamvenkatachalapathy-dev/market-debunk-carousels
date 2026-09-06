@@ -1,83 +1,106 @@
 {
   "topic": {
-    "title": "INDIA’S IPO STORY: A TALE OF TWO HALVES After a slow first half, India’s IPO markets are now in TOP GEAR 🚀 Retail appetite has surged, with average retail subscription at 30x for IPOs since June. So, what changed? HAVE THE MARKETS CONTRIBUTE - LinkedIn",
+    "title": "HUL share price target: From  ₹1973 to  ₹2820 in 12 months - Buy rating from Nuvama for Hindustan Unilever stock",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "source": "LinkedIn",
-    "source_snippet": "INDIA’S IPO STORY: A TALE OF TWO HALVES After a slow first half, India’s IPO markets are now in TOP GEAR 🚀 Retail appetite has surged, with average retail subscription at 30x for IPOs since June. So, what changed? HAVE THE MARKETS CONTRIBUTE&nbsp;&nbsp;LinkedIn",
-    "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYS1BcmNMalhjZ1FIb2dzQkg4N1RCdDdzSWgzWDdYNHRNNC1hcGREQWEyRU44amJFblotd0VyUktfa3VFelBuTWxxX0ZCcHBnSUVfbUxDNDhjZGJCQ2ZCS2FWWGRZQzdqT2Y4WlhPRGVQQVJ2TV93aDNHSWVQeFRPM3pLVzRKdzVZSlJkVFJHRTdNZjFtZHFmdnpkSkZiN01hdjdzRnNJTQ?oc=5",
-    "raw_text": "INDIA’S IPO STORY: A TALE OF TWO HALVES After a slow first half, India’s IPO markets are now in TOP GEAR 🚀 Retail appetite has surged, with average retail subscription at 30x for IPOs since June. So, what changed? HAVE THE MARKETS CONTRIBUTE - LinkedIn. INDIA’S IPO STORY: A TALE OF TWO HALVES After a slow first half, India’s IPO markets are now in TOP GEAR 🚀 Retail appetite has surged, with average retail subscription at 30x for IPOs since June. So, what changed? HAVE THE MARKETS CONTRIBUTE&nbsp;&nbsp;LinkedIn",
+    "source": "Livemint Markets",
+    "source_snippet": "HUL share price has remained under pressure amid weak market sentiments. The FMCG stock has fallen 5.28% in a month and 13% in six months.",
+    "source_url": "https://www.livemint.com/market/stock-market-news/hul-share-price-target-from-1973-to-2820-in-12-months-buy-rating-from-nuvama-for-hindustan-unilever-stock-11788690020408.html",
+    "raw_text": "HUL share price target: From  ₹1973 to  ₹2820 in 12 months - Buy rating from Nuvama for Hindustan Unilever stock. HUL share price target: Brokerage firm Nuvama Institutional Equities has given a ‘buy’ call on Hindustan Unilever share price, with a target price of  ₹2,820 per share. The brokerage firm said that the company expects medium-term EBITDA margin guidance in the range of 22–24% and aims to generate 500bp of savings through premium mix improvement, operating leverage, the Future Savings Lab (100bp savings) and AI-led media effectiveness (10% improvement). The firm further said that incremental revenue growth is expected to be driven by 40% from consumption and premiumisation, 40% from market making and the remaining 20% from new spaces. “Capex is planned to increase from 2% to 3% of sales over the medium term. The share of capex allocated towards growth and savings will increase to 85% (from 75% over the last five years),” it said in a note.",
     "numbers_detected": [
-      "30x",
-      "30x"
+      "₹1973",
+      "₹2820",
+      "12",
+      "5.28%",
+      "13%"
     ],
-    "published_at": "2026-09-06T08:39:02+00:00",
-    "age_hours": 0.5,
-    "retrieved_at": "2026-09-06T09:06:22.984288+00:00",
+    "published_at": "2026-09-06T16:30:23+05:30",
+    "age_hours": 0.2,
+    "retrieved_at": "2026-09-06T11:15:03.627105+00:00",
     "date": "06 Sep 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: LinkedIn | Published: 2026-09-06T08:39:02+00:00 (0.5h ago) | Headline: INDIA’S IPO STORY: A TALE OF TWO HALVES After a slow first half, India’s IPO markets are now in TOP GEAR 🚀 Retail appetite has surged, with average retail subscription at 30x for IPOs since June. So, what changed? HAVE THE MARKETS CONTRIBUTE - LinkedIn | Context: INDIA’S IPO STORY: A TALE OF TWO HALVES After a slow first half, India’s IPO markets are now in TOP GEAR 🚀 Retail appetite has surged, with average retail subscription at 30x for IPOs since June. So, what changed? HAVE THE MARKETS CONTRIBUTE - LinkedIn. INDIA’S IPO STORY: A TALE OF TWO HALVES After a slow first half, India’s IPO markets are now in TOP GEAR 🚀 Retail appetite has surged, with averag",
+    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-06T16:30:23+05:30 (0.2h ago) | Headline: HUL share price target: From  ₹1973 to  ₹2820 in 12 months - Buy rating from Nuvama for Hindustan Unilever stock | Context: HUL share price target: From  ₹1973 to  ₹2820 in 12 months - Buy rating from Nuvama for Hindustan Unilever stock. HUL share price target: Brokerage firm Nuvama Institutional Equities has given a ‘buy’ call on Hindustan Unilever share price, with a target price of  ₹2,820 per share. The brokerage firm said that the company expects medium-term EBITDA margin guidance in the range of 22–24% and aims t",
     "news_analysis": {
-      "headline_hook": "The 30x Subscription Mirage: Why High IPO Demand is a Retail Trap",
-      "breaking_event_summary": "India's IPO market has shifted into 'top gear' since June, characterized by a massive surge in retail appetite with average subscriptions reaching 30x.",
-      "retail_illusion": "Retail investors falsely equate high subscription numbers (30x) with 'guaranteed quality' or 'sure-shot listing gains,' believing that massive demand validates the company's valuation.",
-      "institutional_reality": "Subscription rates are a measure of sentiment and liquidity, not fundamental value. In a 30x oversubscribed retail category, the mathematical probability of allotment is abysmal (approx. 3.3%), creating a 'lottery effect' that drives FOMO. Institutions use this retail-induced frenzy to ensure a successful exit or to inflate listing prices, often leaving the few retail winners to sell into a secondary market that is fundamentally overvalued.",
+      "headline_hook": "The ₹2,820 HUL Target Trap: Why 'AI Savings' Promises Can't Hide Slowing Growth",
+      "breaking_event_summary": "Nuvama Institutional Equities issued a 'Buy' rating on Hindustan Unilever (HUL) stock with an upgraded target price of ₹2,820, citing a 500 bps margin savings plan, AI-led efficiency, and capex expansion.",
+      "retail_illusion": "Retail investors assume a guaranteed ~43% rally driven by AI tech optimization and safe FMCG margin compounding, prompting FOMO buying.",
+      "institutional_reality": "Institutions recognize that achieving a 500 bps margin expansion requires aggressive operational execution, while increasing capex from 2% to 3% of sales will temporarily compress Free Cash Flow (FCF) in a sluggish consumer volume environment.",
       "citable_metrics": [
-        "30x"
+        "₹1973",
+        "₹2820",
+        "22–24%",
+        "500bp",
+        "100bp",
+        "10%",
+        "40%",
+        "20%",
+        "2% to 3%",
+        "85%",
+        "75%"
       ],
-      "debunk_category": "LIQUIDITY_TRAP",
-      "actionable_retail_rule": "Never use 'Subscription Figures' as a proxy for 'Company Value'; if the P/E ratio exceeds the industry average by 20%+, ignore the hype regardless of the subscription multiple.",
+      "debunk_category": "VALUATION_MYTH",
+      "actionable_retail_rule": "Never buy large-cap FMCG stocks solely on broker target upgrades driven by margin efficiency guidance; demand underlying Underlying Volume Growth (UVG) above 6% before entering.",
       "lead_magnet": {
         "trigger_word": "AUDIT",
-        "resource_name": "The IPO Valuation vs. Hype Checklist"
+        "resource_name": "The FMCG Valuation & FCF Quality Checklist"
       },
       "carousel_outline": [
         {
           "slide": 1,
           "role": "hook",
-          "focus": "30x Subscription: A Sign of Strength or a Retail Trap?"
+          "focus": "The ₹2,820 HUL Target Trap: Why 'AI Savings' Promises Can't Hide Slowing Growth"
         },
         {
           "slide": 2,
           "role": "friction",
-          "focus": "The Illusion: 'Everyone is applying, so it must be a great company.' vs. The Truth: 'High demand just means high hype.'"
+          "focus": "Retail hears '₹2,820 target' and 'AI efficiency' and expects an instant 43% upside."
         },
         {
           "slide": 3,
           "role": "math_reality",
-          "focus": "The Allotment Math: At 30x, 96.7% of retail applicants get NOTHING. You aren't investing; you're playing a lottery."
+          "focus": "The Math: Capex increases to 3% of sales while 500 bps savings rely heavily on speculative operational leverage and premiumisation."
         },
         {
           "slide": 4,
           "role": "breakdown",
-          "focus": "The Institutional Playbook: Use retail FOMO $\rightarrow$ Drive Listing Gains $\rightarrow$ Exit Positions $\rightarrow$ Retail holds the bag at peak valuation."
+          "focus": "How chasing analyst targets during capex ramps traps retail capital in long time-corrections."
         },
         {
           "slide": 5,
           "role": "actionable_rule",
-          "focus": "The Golden Rule: Valuation > Volume. Check the DRHP fundamentals, not the subscription ticker."
+          "focus": "The Golden Rule: Require real Underlying Volume Growth (UVG) over paper margin targets."
         },
         {
           "slide": 6,
           "role": "cta",
-          "focus": "Stop gambling on IPOs. Comment 'AUDIT' to get the 1-page Valuation Checklist."
+          "focus": "Comment AUDIT to get our 1-page FMCG Valuation & FCF Quality Checklist."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "The 30x Subscription Mirage: Why High IPO Demand is a Retail Trap",
-    "core_illusion": "Retail investors falsely equate high subscription numbers (30x) with 'guaranteed quality' or 'sure-shot listing gains,' believing that massive demand validates the company's valuation.",
-    "hidden_reality": "Subscription rates are a measure of sentiment and liquidity, not fundamental value. In a 30x oversubscribed retail category, the mathematical probability of allotment is abysmal (approx. 3.3%), creating a 'lottery effect' that drives FOMO. Institutions use this retail-induced frenzy to ensure a successful exit or to inflate listing prices, often leaving the few retail winners to sell into a secondary market that is fundamentally overvalued.",
-    "citable_metric": "30x",
+    "hook_headline": "The ₹2,820 HUL Target Trap: Why 'AI Savings' Promises Can't Hide Slowing Growth",
+    "core_illusion": "Retail investors assume a guaranteed ~43% rally driven by AI tech optimization and safe FMCG margin compounding, prompting FOMO buying.",
+    "hidden_reality": "Institutions recognize that achieving a 500 bps margin expansion requires aggressive operational execution, while increasing capex from 2% to 3% of sales will temporarily compress Free Cash Flow (FCF) in a sluggish consumer volume environment.",
+    "citable_metric": "₹1973",
     "all_metrics": [
-      "30x"
+      "₹1973",
+      "₹2820",
+      "22–24%",
+      "500bp",
+      "100bp",
+      "10%",
+      "40%",
+      "20%",
+      "2% to 3%",
+      "85%",
+      "75%"
     ],
-    "actionable_rule": "Never use 'Subscription Figures' as a proxy for 'Company Value'; if the P/E ratio exceeds the industry average by 20%+, ignore the hype regardless of the subscription multiple.",
-    "breaking_event": "India's IPO market has shifted into 'top gear' since June, characterized by a massive surge in retail appetite with average subscriptions reaching 30x.",
+    "actionable_rule": "Never buy large-cap FMCG stocks solely on broker target upgrades driven by margin efficiency guidance; demand underlying Underlying Volume Growth (UVG) above 6% before entering.",
+    "breaking_event": "Nuvama Institutional Equities issued a 'Buy' rating on Hindustan Unilever (HUL) stock with an upgraded target price of ₹2,820, citing a 500 bps margin savings plan, AI-led efficiency, and capex expansion.",
     "lead_magnet": {
       "trigger_word": "AUDIT",
-      "resource_name": "The IPO Valuation vs. Hype Checklist"
+      "resource_name": "The FMCG Valuation & FCF Quality Checklist"
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -87,146 +110,119 @@
     ]
   },
   "deck": {
-    "caption": "🚨 The 30x Subscription Mirage: Why High IPO Demand is a Retail Trap\n\nIndia's IPO market has shifted into 'top gear' since June, characterized by a massive surge in retail appetite with average subscriptions reaching 30x.\n\nSwipe through the 6-slide breakdown to audit the institutional math.\n\n💬 Comment 'AUDIT' below to receive our free 'The IPO Valuation vs. Hype Checklist'!\n\n#StockMarket #Investing #NSE #SEBI #FinancialLiteracy #PersonalFinance",
+    "caption": "🚨 The ₹2,820 Target Trap\n\nMost retail traders get caught on the wrong side of headline surges because they don't audit institutional positioning.\n\nSwipe through this 8-slide breakdown:\n• Chasing Illusionary Margin Gains\n• The Capex Cash Drain\n• Brokerage Upgrade Exit Trap\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#StockMarket #Investing #PersonalFinance #MarketDebunk #FinancialLiteracy #Trading",
     "slides": [
       {
         "role": "hook",
-        "title": "The 30x <span class='highlight-box'>Subscription Mirage: Why</span> High IPO Demand is a Retail Trap",
-        "deliverable": "📖 Inside: 5-Point Institutional Breakdown",
         "tag": "#MARKETDEBUNK",
+        "title": "The ₹2,820 <span class='highlight-box'>Target Trap</span>",
         "slide_index": 1,
         "title_lines": [
-          "The 30x Subscription Mirage: Why High",
-          "<span class='highlight-box'>IPO Demand is a Retail Trap</span>"
+          "The ₹2,820",
+          "<span class='highlight-box'>Target Trap</span>"
         ],
-        "body_html": "<div class='slide-body-paragraphs'><p class='body-para'></p></div>"
+        "card_text": ""
       },
       {
-        "role": "friction",
-        "title": "The Retail Illusion vs Institutional Reality",
-        "card_a_text": "Retail investors falsely equate high subscription numbers (30x) with 'guaranteed quality' or 'sure-shot listing gains,' believing that massive demand validates the company's valuation.",
-        "card_b_text": "Subscription rates are a measure of sentiment and liquidity, not fundamental value. In a 30x oversubscribed retail category, the mathematical probability of allotment is abysmal (approx. 3.3%), creating a 'lottery effect' that drives FOMO. Institutions use this retail-induced frenzy to ensure a successful exit or to inflate listing prices, often leaving the few retail winners to sell into a secondary market that is fundamentally overvalued.",
-        "takeaway": "Retail chases headline sentiment. Institutions trade on verified math.",
-        "tag": "#MARKETTRUTH",
+        "role": "value_1",
+        "tag": "#MARKETDEBUNK",
+        "title": "Chasing Illusionary <span class='highlight-box'>Margin Gains</span>",
+        "card_text": "Retail buyers see Nuvama’s upgrade from <strong>₹1973 to ₹2820</strong> as guaranteed 43% upside driven by <strong>500 bps</strong> AI savings. Reality: Institutions know expanding capex to <strong>3% of sales</strong> compresses short-term FCF while volume growth stays sluggish.",
         "slide_index": 2,
         "title_lines": [
-          "The Retail Illusion",
-          "vs Institutional Reality"
-        ],
-        "body_html": "\n            <div class=\"slide-body-paragraphs\">\n              <p class=\"body-para\"><strong>The Myth:</strong> Retail investors falsely equate high subscription numbers (30x) with 'guaranteed quality' or 'sure-shot listing gains,' believing that massive demand validates the company's valuation.</p>\n              <p class=\"body-para\"><strong>The Reality:</strong> Subscription rates are a measure of sentiment and liquidity, not fundamental value. In a 30x oversubscribed retail category, the mathematical probability of allotment is abysmal (approx. 3.3%), creating a 'lottery effect' that drives FOMO. Institutions use this retail-induced frenzy to ensure a successful exit or to inflate listing prices, often leaving the few retail winners to sell into a secondary market that is fundamentally overvalued.</p>\n              <p class=\"takeaway-para\"><strong>Core Rule:</strong> Retail chases headline sentiment. Institutions trade on verified math.</p>\n            </div>"
+          "Chasing Illusionary",
+          "<span class='highlight-box'>Margin Gains</span>"
+        ]
       },
       {
-        "role": "breakdown",
-        "title": "3 Institutional Mechanisms",
-        "points": [
-          {
-            "num": "1",
-            "title": "Information Asymmetry",
-            "desc": "Retail sees headline hype while institutional desks hedge systemic and liquidity risks."
-          },
-          {
-            "num": "2",
-            "title": "Valuation Reality",
-            "desc": "Price-to-earnings multiples and regulatory approvals dictate returns, not speculation."
-          },
-          {
-            "num": "3",
-            "title": "Exit Liquidity Trap",
-            "desc": "Unregulated market sentiment is often weaponized to distribute shares to late retail entrants."
-          }
-        ],
-        "tag": "#HIDDENMATH",
+        "role": "value_2",
+        "tag": "#MARKETDEBUNK",
+        "title": "The Capex <span class='highlight-box'>Cash Drain</span>",
+        "card_text": "Increasing capex from <strong>2% to 3%</strong> of sales drains cash flow before AI efficiencies deliver. While guidance promises <strong>22–24% EBITDA</strong>, real underlying earnings quality degrades if price hikes, not volume, drive top-line numbers in competitive FMCG markets.",
         "slide_index": 3,
         "title_lines": [
-          "3 Institutional Mechanisms"
-        ],
-        "body_html": "<div class='slide-body-list'><div class='point-item'><strong>1. Information Asymmetry:</strong> Retail sees headline hype while institutional desks hedge systemic and liquidity risks.</div><div class='point-item'><strong>2. Valuation Reality:</strong> Price-to-earnings multiples and regulatory approvals dictate returns, not speculation.</div><div class='point-item'><strong>3. Exit Liquidity Trap:</strong> Unregulated market sentiment is often weaponized to distribute shares to late retail entrants.</div></div>"
+          "The Capex",
+          "<span class='highlight-box'>Cash Drain</span>"
+        ]
       },
       {
-        "role": "architecture",
-        "layout": "step_diagram",
-        "steps": [
-          {
-            "number": 1,
-            "icon_concept": "search",
-            "color": "#A8D5BA",
-            "label": "DISSECT",
-            "sublabel": "Audit official DRHP/filings"
-          },
-          {
-            "number": 2,
-            "icon_concept": "calculator",
-            "color": "#F5D782",
-            "label": "VALUATION",
-            "sublabel": "Calculate peer multiples"
-          },
-          {
-            "number": 3,
-            "icon_concept": "shield",
-            "color": "#A8C8E8",
-            "label": "PROTECT",
-            "sublabel": "Refuse speculative hype"
-          }
-        ],
-        "headline": "The 3-Step Capital Protection Framework",
-        "body_lines": [
-          "Hype cycles distribute risk to uninformed retail.",
-          "Systematic valuation protects principal capital."
-        ],
-        "closing_line": "Never deploy capital where you lack mathematical edge.",
-        "tag": "#PLAYBOOK",
+        "role": "value_3",
+        "tag": "#MARKETDEBUNK",
+        "title": "Brokerage Upgrade <span class='highlight-box'>Exit Trap</span>",
+        "card_text": "Brokerage targets often create retail FOMO at key support levels like <strong>₹1973</strong>. Smart money uses public target upgrades to offload large cap allocations into retail buying pressure while volume growth remains weak across key consumer segments.",
         "slide_index": 4,
         "title_lines": [
-          "The 3-Step",
-          "Capital Protection Framework"
-        ],
-        "body_html": "<div class=\"step-diagram-container\"><div class=\"steps-row\">\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #A8D5BA;\">\n                    <span class=\"step-number\">1</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">DISSECT</span>\n                    <span class=\"step-sublabel\">Audit official DRHP/filings</span>\n                  </div>\n                </div>\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #F5D782;\">\n                    <span class=\"step-number\">2</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">VALUATION</span>\n                    <span class=\"step-sublabel\">Calculate peer multiples</span>\n                  </div>\n                </div>\n                <div class=\"step-card\">\n                  <div class=\"step-circle\" style=\"background-color: #A8C8E8;\">\n                    <span class=\"step-number\">3</span>\n                  </div>\n                  <div class=\"step-meta\">\n                    <span class=\"step-label\">PROTECT</span>\n                    <span class=\"step-sublabel\">Refuse speculative hype</span>\n                  </div>\n                </div></div><div class=\"step-body-content\"><p class='body-para'>Hype cycles distribute risk to uninformed retail.</p><p class='body-para'>Systematic valuation protects principal capital.</p><p class='takeaway-para'><strong>Takeaway:</strong> Never deploy capital where you lack mathematical edge.</p></div></div>"
+          "Brokerage Upgrade",
+          "<span class='highlight-box'>Exit Trap</span>"
+        ]
       },
       {
-        "role": "concept",
-        "title": "Actionable Rules for Retail Investors",
-        "rules": [
-          {
-            "title": "Verify Before Allocation",
-            "desc": "Never use 'Subscription Figures' as a proxy for 'Company Value'; if the P/E ratio exceeds the industry average by 20%+, ignore the hype regardless of the subscription multiple."
-          },
-          {
-            "title": "Disregard Unregulated Metrics",
-            "desc": "Never buy based on unofficial grey market figures or unvetted social media sentiment."
-          },
-          {
-            "title": "Protect Downside First",
-            "desc": "Only invest in what you can independently value and audit."
-          }
-        ],
-        "tag": "#STRATEGY",
+        "role": "value_4",
+        "tag": "#MARKETDEBUNK",
+        "title": "The Free <span class='highlight-box'>Cash Crunch</span>",
+        "card_text": "Reinvesting <strong>85% of capex</strong> into growth initiatives temporarily reduces distributable free cash flow. Assuming <strong>10% media savings</strong> offsets structural volume stagnation is a mathematical gamble that historically underperforms baseline market returns.",
         "slide_index": 5,
         "title_lines": [
-          "Actionable Rules",
-          "for Retail Investors"
-        ],
-        "body_html": "<div class='slide-body-list'><div class='point-item'><strong>1. Verify Before Allocation:</strong> Never use 'Subscription Figures' as a proxy for 'Company Value'; if the P/E ratio exceeds the industry average by 20%+, ignore the hype regardless of the subscription multiple.</div><div class='point-item'><strong>2. Disregard Unregulated Metrics:</strong> Never buy based on unofficial grey market figures or unvetted social media sentiment.</div><div class='point-item'><strong>3. Protect Downside First:</strong> Only invest in what you can independently value and audit.</div></div>"
+          "The Free",
+          "<span class='highlight-box'>Cash Crunch</span>"
+        ]
       },
       {
-        "role": "cta",
-        "title": "Don't <span class='highlight-box'>forget to</span> save this <span class='highlight-box'>post</span>",
-        "discussion_question": "Are you avoiding this retail trap in your portfolio? Share your perspective below 👇",
-        "lead_magnet": {
-          "trigger_word": "AUDIT",
-          "resource_name": "The IPO Valuation vs. Hype Checklist"
-        },
-        "tag": "#SAVETHIS",
+        "role": "value_5",
+        "tag": "#MARKETDEBUNK",
+        "title": "Demand Volume <span class='highlight-box'>Growth First</span>",
+        "card_text": "Never buy FMCG stocks purely on target price upgrades or margin guidance. Require <strong>Underlying Volume Growth (UVG) > 6%</strong> alongside solid cash conversion before entering large-cap consumer plays like HUL above baseline support valuations.",
         "slide_index": 6,
         "title_lines": [
-          "Don't forget to",
-          "save this post"
+          "Demand Volume",
+          "<span class='highlight-box'>Growth First</span>"
+        ]
+      },
+      {
+        "role": "value_6",
+        "tag": "#MARKETDEBUNK",
+        "title": "The FMCG <span class='highlight-box'>Pre-Trade Audit</span>",
+        "card_text": "Verify <strong>UVG > 6%</strong>, ensure FCF yields exceed <strong>3.5%</strong> post-capex, and confirm margin gains stem from operational scale rather than speculative <strong>100 bps</strong> internal savings assumptions before entering any major stock position.",
+        "slide_index": 7,
+        "title_lines": [
+          "The FMCG",
+          "<span class='highlight-box'>Pre-Trade Audit</span>"
+        ]
+      },
+      {
+        "role": "bookmark_save",
+        "tag": "#MARKETDEBUNK",
+        "title_lines": [
+          "Don’t",
+          "forget to",
+          "<span class='highlight-box'>save this</span>",
+          "post for",
+          "later"
         ],
-        "body_html": "<div class='slide-body-paragraphs'><p class='body-para'></p></div>"
+        "card_text": "",
+        "cta_detail": "Save this framework to analyze analyst price target upgrades. Review these FCF and volume growth checkpoints before buying consumer stocks to protect your portfolio from institutional liquidity traps.",
+        "slide_index": 8
       }
     ],
-    "fact_check_status": "verified_pass"
+    "fact_check_status": "verified_pass",
+    "audio_recommendation": {
+      "title": "Cornfield Chase (Interstellar Piano/Synth)",
+      "artist": "Hans Zimmer / Dorian Marko",
+      "bpm": 100,
+      "vibe": "Cinematic Tension & Focus",
+      "reels_boost_tier": "High Velocity",
+      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
+    }
   },
-  "run_id": "20260906_091050",
-  "slide_count": 6,
-  "exported_at": "2026-09-06T09:10:53.805140+00:00"
+  "audio": {
+    "title": "Cornfield Chase (Interstellar Piano/Synth)",
+    "artist": "Hans Zimmer / Dorian Marko",
+    "bpm": 100,
+    "vibe": "Cinematic Tension & Focus",
+    "reels_boost_tier": "High Velocity",
+    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
+  },
+  "run_id": "20260906_111647",
+  "slide_count": 8,
+  "exported_at": "2026-09-06T11:17:29.869193+00:00"
 }

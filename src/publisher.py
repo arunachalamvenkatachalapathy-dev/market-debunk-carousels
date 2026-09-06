@@ -47,6 +47,7 @@ class Publisher:
             results["instagram"] = {"success": True, "status": "dry_run_simulated"}
             results["facebook"] = {"success": True, "status": "dry_run_simulated"}
             results["telegram"] = {"success": True, "status": "dry_run_simulated"}
+            results["linkedin"] = {"success": True, "status": "dry_run_simulated"}
             return results
 
         # ── 1. Instagram Carousel (Primary Anchor) ──────────────────────────
@@ -101,15 +102,21 @@ class Publisher:
         else:
             logger.info("Telegram notification disabled or missing credentials.")
 
-        # ── 4. Optional LinkedIn Document Post ──────────────────────────────
-        if settings.ENABLE_LINKEDIN and settings.LINKEDIN_ACCESS_TOKEN and settings.LINKEDIN_ORGANIZATION_URN:
-            logger.info("Publishing LinkedIn PDF Document post...")
+        # ── 4. LinkedIn Document Carousel (English Channel Only) ────────────
+        if settings.ENABLE_LINKEDIN and settings.LINKEDIN_ACCESS_TOKEN:
+            logger.info("Publishing LinkedIn PDF Document post for '%s'...", title[:40])
             try:
                 li_res = self.publish_linkedin_document(pdf_path, title, caption)
                 results["linkedin"] = li_res
+                if li_res.get("success"):
+                    logger.info("✓ LinkedIn document carousel published: %s", li_res.get("url") or li_res.get("post_urn"))
+                else:
+                    logger.warning("⚠️ LinkedIn publish failed non-fatally: %s", li_res.get("error"))
             except Exception as li_err:
                 logger.warning("LinkedIn publish failed non-fatally: %s", li_err)
                 results["linkedin"] = {"success": False, "status": "failed", "error": str(li_err)}
+        else:
+            logger.info("LinkedIn publishing disabled or missing access token.")
 
         return results
 
@@ -345,9 +352,151 @@ class Publisher:
             )
             return {"success": False, "error": str(e)}
 
-    # ── LinkedIn Document Carousel ──────────────────────────────────────────
+    # ── LinkedIn Document Carousel (PDF) ────────────────────────────────────
 
     def publish_linkedin_document(self, pdf_path: str, title: str, caption: str) -> dict:
-        # Placeholder for LinkedIn Company Page API integration
-        logger.info("LinkedIn document publishing enabled — staging PDF upload.")
-        return {"success": True, "status": "staged"}
+        """
+        Publishes an authoritative multi-page PDF as a native LinkedIn Document Carousel.
+        1. Resolves Author URN (Company Page urn:li:organization:... or Member urn:li:person:...).
+        2. Initializes document upload via REST API (/rest/documents?action=initializeUpload).
+        3. Uploads raw PDF binary to signed upload URL.
+        4. Publishes LinkedIn post referencing document URN via /rest/posts.
+        """
+        token = settings.LINKEDIN_ACCESS_TOKEN.strip()
+        if not token:
+            return {"success": False, "error": "missing_linkedin_access_token"}
+
+        if not pdf_path or not Path(pdf_path).exists():
+            return {"success": False, "error": f"PDF file not found at {pdf_path}"}
+
+        # Resolve author URN (Company page or personal member)
+        author_urn = (getattr(settings, "LINKEDIN_AUTHOR_URN", "") or getattr(settings, "LINKEDIN_ORGANIZATION_URN", "") or "").strip()
+        if not author_urn:
+            # Attempt auto-discovery via /v2/userinfo (if token has openid scope)
+            try:
+                ui_res = requests.get(
+                    "https://api.linkedin.com/v2/userinfo",
+                    headers={"Authorization": f"Bearer {token}"},
+                    timeout=10
+                ).json()
+                sub = ui_res.get("sub")
+                if sub:
+                    author_urn = f"urn:li:person:{sub}"
+                    logger.info("✓ Auto-discovered LinkedIn author URN: %s", author_urn)
+            except Exception:
+                pass
+
+        if not author_urn:
+            err_msg = (
+                "LinkedIn author URN not configured in .env. Please specify either "
+                "LINKEDIN_AUTHOR_URN=urn:li:organization:YOUR_PAGE_ID (for company pages) or "
+                "LINKEDIN_AUTHOR_URN=urn:li:person:YOUR_MEMBER_ID (for personal profiles)."
+            )
+            logger.warning("⚠️ %s", err_msg)
+            return {"success": False, "error": err_msg}
+
+        api_headers = {
+            "Authorization": f"Bearer {token}",
+            "LinkedIn-Version": "202603",
+            "X-Restli-Protocol-Version": "2.0.0",
+            "Content-Type": "application/json"
+        }
+
+        try:
+            # Step 1: Initialize Document Upload
+            logger.info("Initializing LinkedIn document upload for owner '%s'...", author_urn)
+            init_body = {
+                "initializeUploadRequest": {
+                    "owner": author_urn
+                }
+            }
+            init_res = requests.post(
+                "https://api.linkedin.com/rest/documents?action=initializeUpload",
+                headers=api_headers,
+                json=init_body,
+                timeout=30
+            )
+
+            if init_res.status_code != 200:
+                err_text = init_res.text
+                if "Organization permissions must be used" in err_text:
+                    logger.error(
+                        "❌ LinkedIn Error: Your token has personal permissions (w_member_social) but owner is '%s'. "
+                        "To post to your Company Page, re-generate your token in LinkedIn Developer Portal with 'w_organization_social' scope.",
+                        author_urn
+                    )
+                raise RuntimeError(f"LinkedIn initializeUpload failed ({init_res.status_code}): {err_text}")
+
+            upload_data = init_res.json().get("value", {})
+            upload_url = upload_data.get("uploadUrl")
+            document_urn = upload_data.get("document")
+
+            if not upload_url or not document_urn:
+                raise RuntimeError(f"LinkedIn initializeUpload response missing uploadUrl or document: {init_res.text}")
+
+            logger.info("✓ Initialized LinkedIn document asset: %s", document_urn)
+
+            # Step 2: Upload PDF binary
+            logger.info("Uploading PDF carousel (%s) to LinkedIn storage...", Path(pdf_path).name)
+            with open(pdf_path, "rb") as pdf_file:
+                pdf_bytes = pdf_file.read()
+
+            upload_headers = {
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/pdf"
+            }
+            put_res = requests.put(upload_url, headers=upload_headers, data=pdf_bytes, timeout=60)
+            if put_res.status_code not in (200, 201):
+                raise RuntimeError(f"LinkedIn PDF binary upload failed ({put_res.status_code}): {put_res.text}")
+
+            logger.info("✓ PDF successfully uploaded to LinkedIn asset storage.")
+
+            # Step 3: Create Feed Post with Document Carousel
+            post_payload = {
+                "author": author_urn,
+                "commentary": caption[:3000],
+                "visibility": "PUBLIC",
+                "distribution": {
+                    "feedDistribution": "MAIN_FEED",
+                    "targetEntities": [],
+                    "thirdPartyDistributionChannels": []
+                },
+                "content": {
+                    "media": {
+                        "title": title[:200],
+                        "id": document_urn
+                    }
+                },
+                "lifecycleState": "PUBLISHED",
+                "isReshareDisabledByAuthor": False
+            }
+
+            post_res = requests.post(
+                "https://api.linkedin.com/rest/posts",
+                headers=api_headers,
+                json=post_payload,
+                timeout=30
+            )
+
+            if post_res.status_code not in (200, 201):
+                raise RuntimeError(f"LinkedIn post creation failed ({post_res.status_code}): {post_res.text}")
+
+            post_urn = post_res.headers.get("x-restli-id") or post_res.json().get("id", "published")
+            post_url = f"https://www.linkedin.com/feed/update/{post_urn}/"
+            logger.info("🎉 LINKEDIN DOCUMENT CAROUSEL PUBLISHED SUCCESSFULLY (URN: %s)", post_urn)
+
+            return {
+                "success": True,
+                "post_urn": post_urn,
+                "url": post_url,
+                "document_urn": document_urn
+            }
+
+        except Exception as e:
+            logger.error("LinkedIn document carousel publishing failed: %s", e)
+            self.thinker.diagnose_publish_failure(
+                platform="LinkedIn",
+                error_details=str(e),
+                payload_meta={"title": title, "author_urn": author_urn, "pdf_path": pdf_path}
+            )
+            return {"success": False, "error": str(e)}

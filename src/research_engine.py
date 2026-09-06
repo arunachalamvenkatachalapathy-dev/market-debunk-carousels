@@ -90,6 +90,91 @@ class ResearchEngine:
 
         return None
 
+    def fetch_marketaux_news(self, now: datetime, cutoff: datetime) -> List[Dict[str, Any]]:
+        """Queries Marketaux API for real-time Indian stock market news."""
+        api_token = settings.MARKETAUX_API_TOKEN.strip()
+        if not api_token:
+            return []
+
+        candidates = []
+        try:
+            logger.info("📡 Querying Marketaux API for Indian stock market news...")
+            url = f"https://api.marketaux.com/v1/news/all?countries=in&filter_entities=true&language=en&api_token={api_token}"
+            res = requests.get(url, timeout=12)
+            if res.status_code == 200:
+                data = res.json()
+                for art in data.get("data", []):
+                    title = (art.get("title") or "").strip()
+                    snippet = (art.get("description") or art.get("snippet") or "").strip()
+                    link = (art.get("url") or "").strip()
+                    source = (art.get("source") or "Marketaux").strip()
+                    pub_str = art.get("published_at")
+                    pub_date = self._parse_published_date(pub_str)
+                    if not pub_date:
+                        pub_date = now - timedelta(hours=3)
+
+                    if pub_date >= cutoff:
+                        age_hours = (now - pub_date).total_seconds() / 3600
+                        candidates.append({
+                            "title": title,
+                            "snippet": snippet,
+                            "source": source,
+                            "link": link,
+                            "published_at": pub_date.isoformat(),
+                            "age_hours": round(age_hours, 1),
+                            "source_engine": "marketaux_api"
+                        })
+                logger.info("✓ Marketaux returned %d fresh articles.", len(candidates))
+            else:
+                logger.warning("Marketaux API returned status %d: %s", res.status_code, res.text[:100])
+        except Exception as e:
+            logger.warning("Marketaux API error: %s", e)
+        return candidates
+
+    def fetch_indianapi_news(self, now: datetime, cutoff: datetime) -> List[Dict[str, Any]]:
+        """Queries Indian Stock Market API (IndianAPI) for live market news."""
+        api_key = settings.INDIAN_API_KEY.strip()
+        if not api_key:
+            return []
+
+        candidates = []
+        try:
+            logger.info("📡 Querying Indian Stock Market API (IndianAPI)...")
+            url = "https://stock.indianapi.in/news"
+            headers = {"X-Api-Key": api_key, "User-Agent": "MarketDebunk/1.0"}
+            res = requests.get(url, headers=headers, timeout=10)
+            if res.status_code == 200:
+                items = res.json()
+                if isinstance(items, list):
+                    for idx, art in enumerate(items):
+                        title = (art.get("title") or "").strip()
+                        summary = (art.get("summary") or art.get("description") or "").strip()
+                        link = (art.get("url") or "").strip()
+                        source = (art.get("source") or "Indian Stock Market Live").strip()
+
+                        pub_str = art.get("published_at") or art.get("date") or art.get("time")
+                        pub_date = self._parse_published_date(pub_str) if pub_str else None
+                        if not pub_date:
+                            pub_date = now - timedelta(hours=1 + (idx * 0.2))
+
+                        if pub_date >= cutoff:
+                            age_hours = (now - pub_date).total_seconds() / 3600
+                            candidates.append({
+                                "title": title,
+                                "snippet": summary,
+                                "source": source,
+                                "link": link,
+                                "published_at": pub_date.isoformat(),
+                                "age_hours": round(age_hours, 1),
+                                "source_engine": "indianapi_stock"
+                            })
+                logger.info("✓ IndianAPI returned %d fresh articles.", len(candidates))
+            else:
+                logger.warning("IndianAPI returned status %d: %s", res.status_code, res.text[:100])
+        except Exception as e:
+            logger.warning("IndianAPI error: %s", e)
+        return candidates
+
     def fetch_fresh_market_news(
         self,
         max_age_hours: int = 48,
@@ -97,7 +182,7 @@ class ResearchEngine:
     ) -> Dict[str, Any]:
         """
         Ingests real-time Indian financial news published within the last max_age_hours (default 48h).
-        Evaluates SerpApi and multi-feed RSS with strict age filtering and deduplication.
+        Evaluates Marketaux, IndianAPI, SerpApi, and multi-feed RSS with strict age filtering and deduplication.
         """
         now = datetime.now(timezone.utc)
         cutoff = now - timedelta(hours=max_age_hours)
@@ -105,7 +190,13 @@ class ResearchEngine:
 
         logger.info("🔍 Scanning for Indian financial news (Max Freshness: %dh, Cutoff: %s)", max_age_hours, cutoff.strftime("%Y-%m-%d %H:%M UTC"))
 
-        # ── Source 1: SerpApi Google News (if key configured) ────────────────
+        # ── Source 1: Marketaux Financial API ───────────────────────────────
+        candidates.extend(self.fetch_marketaux_news(now, cutoff))
+
+        # ── Source 2: Indian Stock Market API (IndianAPI) ───────────────────
+        candidates.extend(self.fetch_indianapi_news(now, cutoff))
+
+        # ── Source 3: SerpApi Google News (if key configured) ────────────────
         if settings.SERPAPI_KEY and settings.SERPAPI_KEY.strip():
             query = override_query or "SEBI OR RBI OR Nifty OR Sensex OR 'Stock Market' OR 'Mutual Fund'"
             logger.info("Querying SerpApi Google News for: '%s'...", query)
@@ -144,7 +235,7 @@ class ResearchEngine:
             except Exception as se:
                 logger.warning("SerpApi news query encountered non-fatal error: %s", se)
 
-        # ── Source 2: High-Quality Real-Time Financial RSS Feeds ────────────
+        # ── Source 4: High-Quality Real-Time Financial RSS Feeds (Fallback) ──
         for feed_cfg in RSS_FEEDS:
             feed_name = feed_cfg["name"]
             feed_url = feed_cfg["url"]

@@ -38,6 +38,8 @@ class Settings:
 
     # ── News / Market Sourcing ──────────────────────────────────────────────
     SERPAPI_KEY: str = os.getenv("SERPAPI_KEY", "")
+    MARKETAUX_API_TOKEN: str = os.getenv("MARKETAUX_API_TOKEN", "bZ1PVR803PweIGinKuMa1r6Zk4kPn4v8xikQvUkC")
+    INDIAN_API_KEY: str = os.getenv("INDIAN_API_KEY", "sk-live-Ca1EJj4XFo61nRpchb93tlGrs0IyVEC5cl4A6iF5")
 
     # ── Meta (Instagram & Facebook) ─────────────────────────────────────────
     INSTAGRAM_USER_ID: str = os.getenv("INSTAGRAM_USER_ID", "17841476402324907")
@@ -51,15 +53,22 @@ class Settings:
     TELEGRAM_BOT_TOKEN: str = os.getenv("TELEGRAM_BOT_TOKEN", "")
     TELEGRAM_CHAT_ID: str = os.getenv("TELEGRAM_CHAT_ID", "")
 
-    # ── LinkedIn ────────────────────────────────────────────────────────────
-    LINKEDIN_ACCESS_TOKEN: str = os.getenv("LINKEDIN_ACCESS_TOKEN", "")
-    LINKEDIN_ORGANIZATION_URN: str = os.getenv("LINKEDIN_ORGANIZATION_URN", "")
+    # ── LinkedIn (English Channel Only) ─────────────────────────────────────
+    LINKEDIN_ACCESS_TOKEN: str = os.getenv(
+        "LINKEDIN_ACCESS_TOKEN",
+        "AQXymIB5XIOlwPKRw8jCvXQIK4pstiF6EN_9pA8zhB8hjYLVAztqAuxYj7my_oXMuhRorCgi_vftJpcqiTtVVjWLP_lolqCPaY5ry1G78IZ3zu2x7sgU7eYuTxTbcCvsX99hYX9V0UnkfYHgLY_r_DJt1SbqlZoc4R7mP5JMM5CSxZHK5zB2ltX1EpiYRgOi3JsjhvDMHiNgtKVqTiXyJf9KZkah1Rm-zwX_k37mcGISv5ZO44Hn1rSnpkLfGIPjboulukqyN2w64-aq-kIhA2Po4kK9UpgSrfILUhAbIsuoYaqAz0wkfJb6aDonZ6NINANTawAJob19n42swMZFd1Rj8yrizw"
+    )
+    LINKEDIN_AUTHOR_URN: str = os.getenv(
+        "LINKEDIN_AUTHOR_URN",
+        os.getenv("LINKEDIN_ORGANIZATION_URN", "urn:li:organization:143659978")
+    )
+    LINKEDIN_ORGANIZATION_URN: str = LINKEDIN_AUTHOR_URN
 
     # ── Feature Flags ───────────────────────────────────────────────────────
     ENABLE_INSTAGRAM: bool = os.getenv("ENABLE_INSTAGRAM", "true").lower() == "true"
     ENABLE_FACEBOOK: bool = os.getenv("ENABLE_FACEBOOK", "true").lower() == "true"
     ENABLE_TELEGRAM: bool = os.getenv("ENABLE_TELEGRAM", "true").lower() == "true"
-    ENABLE_LINKEDIN: bool = os.getenv("ENABLE_LINKEDIN", "false").lower() == "true"
+    ENABLE_LINKEDIN: bool = os.getenv("ENABLE_LINKEDIN", "true").lower() == "true"
 
     # ── Branding ────────────────────────────────────────────────────────────
     BRAND_NAME: str = "Market Debunk"
