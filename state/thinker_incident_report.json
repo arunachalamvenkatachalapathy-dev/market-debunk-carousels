@@ -1,18 +1,17 @@
 {
-  "timestamp": "2026-09-05T16:12:42.060135+00:00",
+  "timestamp": "2026-09-06T16:25:20.280335+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "RECOVERABLE",
   "error_code": "ERR_META_API",
-  "root_cause_analysis": "Instagram Graph API media container creation/processing has not completed prior to triggering the publish endpoint (Error Code 9007, Subcode 2207027: Media ID is not available / media not ready).",
+  "root_cause_analysis": "Asynchronous processing delay on Meta servers. The media container IDs were generated, but the images had not finished processing/optimizing before the final publishing request was initiated.",
   "reproducibility": "RATE_LIMIT",
   "automated_remediation": {
     "action": "RETRY_AFTER_DELAY",
-    "retry_delay_seconds": 30
+    "retry_delay_seconds": 60
   },
   "operator_action_required": false,
   "actionable_instructions": [
-    "Poll the media container status ID until the status_code returns 'FINISHED' before executing the publish call.",
-    "Implement an explicit exponential backoff delay when publishing multi-item carousels to allow Meta servers to process media assets completely."
+    "Introduce a polling check on the media container status to ensure it is 'FINISHED' before calling the media_publish endpoint."
   ]
 }
