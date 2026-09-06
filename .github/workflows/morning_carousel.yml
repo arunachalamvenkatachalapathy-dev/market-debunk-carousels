@@ -1,0 +1,145 @@
+name: Daily Financial Carousel - Morning Edition (7:00 AM IST)
+
+on:
+  schedule:
+    # 7:00 AM IST = 01:30 UTC every day (Morning pre-market edition)
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Run in Dry-Run mode (no live publishing)"
+        type: boolean
+        default: false
+      draft_music:
+        description: "Draft Music Option (Stage carousel to add Instagram trending music)"
+        type: boolean
+        default: false
+      trigger_tamil:
+        description: "Also trigger Tamil morning companion pipeline immediately (Manual only)"
+        type: boolean
+        default: false
+      query:
+        description: "Optional custom market topic search query"
+        type: string
+        default: ""
+
+concurrency:
+  group: english-morning-carousel-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run-carousel-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Run Carousel Pipeline (Morning Edition)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ENABLE_INSTAGRAM: ${{ secrets.ENABLE_INSTAGRAM || 'true' }}
+          ENABLE_FACEBOOK: ${{ secrets.ENABLE_FACEBOOK || 'true' }}
+          ENABLE_TELEGRAM: ${{ secrets.ENABLE_TELEGRAM || 'true' }}
+          ENABLE_LINKEDIN: ${{ secrets.ENABLE_LINKEDIN || 'false' }}
+        run: |
+          EXTRA_ARGS="--edition morning"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --dry-run"
+          fi
+          if [ "${{ inputs.draft_music }}" = "true" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --draft-music"
+          fi
+          if [ -n "${{ inputs.query }}" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --query '${{ inputs.query }}'"
+          fi
+          python engine.py $EXTRA_ARGS
+
+      - name: Commit Deduplication Data & Unique Slides
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull origin master --rebase || true
+          git add data/used_carousel_topics.json state/
+          git diff --staged --quiet || (git commit -m "chore: update morning carousel slides, master package, and topic history [skip ci]" && git push origin master)
+
+      - name: Prune Slide Images Older Than 48 Hours
+        run: |
+          find state/carousel_slides/ -name "*.png" -mtime +2 -delete || true
+          git add -u state/carousel_slides/
+          git diff --staged --quiet || (git commit -m "chore: prune older carousel slides [skip ci]" && git push origin master)
+
+      - name: Upload Carousel PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-debunk-carousel-pdf-morning
+          path: state/latest_carousel.pdf
+          if-no-files-found: warn
+
+      - name: Upload Thinker Incident Report (if exists)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thinker-incident-report-morning
+          path: state/thinker_incident_report.json
+          if-no-files-found: ignore
+
+      - name: Upload Tamil Master Carousel Package
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-debunk-carousel-master
+          path: state/market_debunk_carousel_master.json
+          if-no-files-found: warn
+
+      - name: Trigger Tamil Morning Carousel Pipeline (Manual Dispatch Only)
+        if: success() && github.event_name == 'workflow_dispatch' && inputs.trigger_tamil == true
+        env:
+          GH_TOKEN: ${{ secrets.TAMIL_C_WORKFLOW_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "ℹ️ TAMIL_C_WORKFLOW_TOKEN secret is not set in market-debunk-carousels."
+            echo "Tamil morning pipeline will continue to run automatically on its scheduled 7:15 AM IST cron."
+            exit 0
+          fi
+
+          echo "🚀 English morning pipeline completed! Dispatching Tamil morning companion pipeline..."
+          EXTRA_ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS -f dry_run=true"
+          fi
+          if [ "${{ inputs.draft_music }}" = "true" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS -f draft_music=true"
+          fi
+
+          gh workflow run morning_carousel.yml \
+            --repo arunachalamvenkatachalapathy-dev/market-debunk-tamil-carousels \
+            --ref master $EXTRA_ARGS || {
+              echo "ℹ️ Tamil morning pipeline will run on its scheduled 7:15 AM IST cron."
+            }
+          echo "✅ Tamil morning trigger step processed."
