@@ -40,15 +40,22 @@ class ThinkerEngine:
             logger.warning("ThinkerEngine: GenAI client unavailable.")
             return None
 
-        # Stage 1: Gemini Thinking Models
-        models_to_try = [self.model, "gemini-3.7-flash", "gemini-flash-latest"]
+        # Stage 1: Gemini Thinking & Modern Flash Models
+        models_to_try = [self.model, "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]
+        candidate_models = []
         for m in models_to_try:
+            if m and m not in candidate_models:
+                candidate_models.append(m)
+
+        for m in candidate_models:
             try:
                 cfg = types.GenerateContentConfig(
-                    thinking_config=types.ThinkingConfig(thinking_budget=512),
                     response_mime_type="application/json",
                     temperature=0.2
                 )
+                if "3.7" in m:
+                    cfg.thinking_config = types.ThinkingConfig(thinking_budget=512)
+
                 response = self.client.models.generate_content(
                     model=m,
                     contents=prompt,
@@ -62,15 +69,15 @@ class ThinkerEngine:
                         clean_text = clean_text[:-3]
                     return json.loads(clean_text.strip())
             except Exception as e:
-                logger.warning("ThinkerEngine: Gemini model %s call failed: %s. Trying next...", m, e)
+                logger.warning("ThinkerEngine: Model %s call failed: %s. Trying next...", m, e)
 
-        # Stage 2: First Fallback to Gemma Models
-        gemma_models = [settings.GEMMA_FALLBACK_MODEL, "gemma-4-26b-a4b-it"]
-        for gm in gemma_models:
+        # Stage 2: Secondary Resilient Fallback (Standard text extraction)
+        fallback_models = ["gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]
+        for fm in fallback_models:
             try:
-                logger.info("🤖 ThinkerEngine: Falling back to Gemma model: %s...", gm)
+                logger.info("🤖 ThinkerEngine: Falling back to secondary model: %s...", fm)
                 response = self.client.models.generate_content(
-                    model=gm,
+                    model=fm,
                     contents=prompt + "\nCRITICAL: Output valid JSON only with no markdown or explanation."
                 )
                 if response.text:
@@ -80,8 +87,8 @@ class ThinkerEngine:
                     elif "```" in clean_text:
                         clean_text = clean_text.split("```")[1].split("```")[0].strip()
                     return json.loads(clean_text)
-            except Exception as ge:
-                logger.warning("ThinkerEngine: Gemma model %s call failed: %s.", gm, ge)
+            except Exception as fe:
+                logger.warning("ThinkerEngine: Secondary fallback model %s call failed: %s.", fm, fe)
 
         return None
 

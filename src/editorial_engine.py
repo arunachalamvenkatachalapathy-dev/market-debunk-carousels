@@ -141,13 +141,17 @@ STRICT SPECIFICATIONS:
 
 CRITICAL: Return valid JSON ONLY with keys "caption" and "slides" (array of 6 objects). Do NOT include explanation."""
 
-        gemma_models = [settings.GEMMA_FALLBACK_MODEL, "gemma-4-26b-a4b-it"]
-        for gm in gemma_models:
+        fallback_models = [settings.GEMMA_FALLBACK_MODEL, "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]
+        for gm in fallback_models:
             try:
-                logger.info("🤖 Attempting draft generation with Gemma model: %s...", gm)
+                logger.info("🤖 Attempting fallback draft generation with model: %s...", gm)
+                cfg = {"temperature": 0.3}
+                if not gm.startswith("gemma"):
+                    cfg["response_mime_type"] = "application/json"
                 response = self.client.models.generate_content(
                     model=gm,
-                    contents=prompt
+                    contents=prompt,
+                    config=cfg
                 )
                 if response.text:
                     clean_text = response.text.strip()
@@ -156,11 +160,11 @@ CRITICAL: Return valid JSON ONLY with keys "caption" and "slides" (array of 6 ob
                     elif "```" in clean_text:
                         clean_text = clean_text.split("```")[1].split("```")[0].strip()
                     data = json.loads(clean_text)
-                    if len(data.get("slides", [])) == 6:
-                        logger.info("✓ Gemma model %s successfully generated 6-slide draft.", gm)
+                    if len(data.get("slides", [])) >= 6:
+                        logger.info("✓ Model %s successfully generated fallback draft.", gm)
                         return data
             except Exception as e:
-                logger.warning("Gemma model %s draft failed: %s", gm, e)
+                logger.warning("Model %s fallback draft failed: %s", gm, e)
 
         return None
 
@@ -200,7 +204,8 @@ Return JSON ONLY:
             settings.GEMINI_MODEL,
             "gemini-3.7-flash",
             "gemini-3.6-flash",
-            "gemini-flash-latest",
+            "gemini-3.1-flash-lite",
+            "gemini-flash-lite-latest",
         ]
         candidate_models = []
         for m in models_to_try:

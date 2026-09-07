@@ -157,9 +157,17 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
             os.system("git config --global user.email 'github-actions[bot]@users.noreply.github.com'")
             os.system("git add state/carousel_slides/ state/latest_carousel.pdf state/market_debunk_carousel_master.json")
             os.system('git commit -m "chore: pre-push slides for live publishing [skip ci]" || true')
-            os.system("git push origin master || true")
+            for attempt in range(1, 4):
+                os.system("git pull origin master --rebase -X ours || true")
+                push_status = os.system("git push origin master")
+                if push_status == 0:
+                    logger.info("✓ Slides successfully pre-pushed to GitHub master (attempt %d).", attempt)
+                    break
+                logger.warning("⚠️ Pre-push attempt %d failed; retrying after rebase...", attempt)
+                import time
+                time.sleep(2)
             import time
-            time.sleep(3)
+            time.sleep(4)
 
         # ── Phase 8: Multi-Platform Publishing ────────────────────────────────
         logger.info("═══ Phase 8: Multi-Platform Distribution ═══")

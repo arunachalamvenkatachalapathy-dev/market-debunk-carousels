@@ -124,20 +124,25 @@ class Publisher:
         token = settings.INSTAGRAM_ACCESS_TOKEN.strip()
         user_id = settings.INSTAGRAM_USER_ID.strip()
 
-        # Pre-flight check: verify image URLs return HTTP 200 before submitting to Meta
-        for i, url in enumerate(image_urls):
-            is_ready = False
-            for attempt in range(1, 4):
+        # Pre-flight check: verify all image URLs return HTTP 200 before submitting to Meta
+        logger.info("Verifying all %d slide URLs are accessible on CDN (HTTP 200)...", len(image_urls))
+        max_preflight_rounds = 12  # 12 rounds * 3s = 36s max window for Fastly propagation
+        for round_idx in range(1, max_preflight_rounds + 1):
+            unready_urls = []
+            for i, url in enumerate(image_urls):
                 try:
                     head_res = requests.head(url, timeout=10)
-                    if head_res.status_code == 200:
-                        is_ready = True
-                        break
-                except Exception:
-                    pass
-                time.sleep(2)
-            if not is_ready:
-                logger.warning("Image %d (%s) not returning HTTP 200 yet. Proceeding with caution...", i + 1, url)
+                    if head_res.status_code != 200:
+                        unready_urls.append((i + 1, url, head_res.status_code))
+                except Exception as e:
+                    unready_urls.append((i + 1, url, str(e)))
+            if not unready_urls:
+                logger.info("✓ All %d slide URLs verified accessible on CDN (HTTP 200) on check round %d.", len(image_urls), round_idx)
+                break
+            logger.info("  CDN propagation pending for %d/%d images (round %d/%d). Sleeping 3s...", len(unready_urls), len(image_urls), round_idx, max_preflight_rounds)
+            time.sleep(3)
+        else:
+            logger.warning("⚠️ Some image URLs still returning non-200 after 36s: %s. Attempting container creation with caution...", unready_urls)
 
         try:
             # Step 1: Create child image containers
@@ -173,6 +178,27 @@ class Publisher:
             
             creation_id = parent_res["id"]
             logger.info("✓ Created IG Carousel parent container (ID: %s)", creation_id)
+
+            # Step 2b: Poll parent carousel container status until FINISHED (prevents code 9007)
+            logger.info("Polling Meta carousel container status for creation_id %s...", creation_id)
+            max_status_polls = 20  # 20 * 4s = 80s
+            for poll_attempt in range(1, max_status_polls + 1):
+                time.sleep(4)
+                status_res = requests.get(
+                    f"{self.base_url}/{creation_id}",
+                    params={"fields": "status_code,status", "access_token": token},
+                    timeout=15
+                ).json()
+                status_code = status_res.get("status_code")
+                if status_code == "FINISHED":
+                    logger.info("✓ Meta carousel container processing FINISHED (ready to publish).")
+                    break
+                elif status_code == "IN_PROGRESS":
+                    logger.info("  Processing carousel in progress... (%d/%d)", poll_attempt, max_status_polls)
+                elif status_code in {"ERROR", "EXPIRED"}:
+                    raise RuntimeError(f"Meta carousel container processing failed: {status_code}. Details: {status_res}")
+            else:
+                logger.warning("⚠️ Meta status polling reached max attempts without explicit FINISHED; attempting publish...")
 
             # Step 3: Publish carousel
             pub_res = requests.post(

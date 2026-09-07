@@ -78,7 +78,7 @@ Return valid JSON ONLY matching this exact schema:
   ]
 }}
 """
-        models_to_try = [settings.GEMINI_MODEL, "gemini-3.7-flash", "gemini-flash-latest"]
+        models_to_try = [settings.GEMINI_MODEL, "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.1-flash-lite"]
         for m in models_to_try:
             try:
                 response = self.client.models.generate_content(
@@ -101,7 +101,7 @@ Return valid JSON ONLY matching this exact schema:
 
         # Fallback to deterministic if models unavailable
         try:
-            fallback_model = getattr(settings, "GEMMA_FALLBACK_MODEL", "gemini-2.5-flash")
+            fallback_model = getattr(settings, "GEMMA_FALLBACK_MODEL", "gemini-3.6-flash")
             logger.info("Attempting fallback model for news analysis: %s...", fallback_model)
             response = self.client.models.generate_content(
                 model=fallback_model,
