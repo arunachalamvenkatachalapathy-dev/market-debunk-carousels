@@ -1,10 +1,8 @@
-name: Daily Financial Carousel - Evening Edition (Manual Dispatch)
+name: Daily Financial Carousel - Evening Edition (7:30 PM IST)
 
 on:
-  # Automated schedule decommissioned per 2-post/day directive (1 morning carousel + 1 evening video).
-  # Kept for on-demand manual dispatch.
-  # schedule:
-  #   - cron: '30 13 * * *'
+  schedule:
+    - cron: '45 13 * * *'  # 13:45 UTC = 19:15 IST -> Lands organically at 19:25 - 19:35 IST (7:30 PM IST)
   workflow_dispatch:
     inputs:
       dry_run:

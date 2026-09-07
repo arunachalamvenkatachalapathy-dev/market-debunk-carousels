@@ -50,9 +50,9 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
         analytics_engine.audit_mature_posts(min_age_hours=48.0)
         editorial_biases = analytics_engine.get_editorial_guidance()
 
-        # ── Phase 0b: Organic Timing Jitter (14 to 28 mins) ────────────────────
+        # ── Phase 0b: Organic Timing Jitter (Target Window Math) ──────────────
         logger.info("═══ Phase 0b: Programmatic Jitter Verification ═══")
-        jitter_mgr.inject_jitter(min_seconds=14*60, max_seconds=28*60, skip_jitter=no_jitter, dry_run=dry_run)
+        jitter_mgr.inject_jitter(edition=edition, skip_jitter=no_jitter, dry_run=dry_run)
 
         # ── Phase 0c: Mandatory 4-Hour Cooldown Guard ─────────────────────────
         if not dry_run:
