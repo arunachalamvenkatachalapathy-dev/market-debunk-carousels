@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-07T07:51:44.227312+00:00",
+  "data_points_analyzed": 0,
+  "historical_avg_save_rate_pct": 2.5,
+  "prioritized_categories": [
+    "SMART_MONEY",
+    "MARKET_TRAPS",
+    "VALUATION"
+  ],
+  "deprecated_categories": [],
+  "high_performing_hooks": [],
+  "deprecated_hooks": [],
+  "video_finetuning_directive": {
+    "opening_3s_hook": "Mandatory contrarian contrast with numerical anchor. Avoid greeting or headline recitation. Open immediately with the hidden institutional liquidity mechanism (e.g. 'What the TV anchors didn't tell you about today's breakout').",
+    "pacing_calibration": "Introduce hard mathematical friction between seconds 4 and 10 (e.g. 'A 1% fee difference erodes ₹34 Lakhs'). This forces algorithmic dwell and repeat watches.",
+    "visual_friction": "Use split amber-teal photoreal lighting with blurred terminal/order-book background; zero static text inside image.",
+    "retention_cta": "End with an explicit bookmark save trigger: 'Bookmark this risk checkpoint before taking your next trade.'"
+  },
+  "carousel_finetuning_directive": {
+    "slide_1_hook_bias": "Contrarian curiosity gap with exactly one <span class='highlight-box'>...</span> tag around 1-2 friction words.",
+    "slide_2_3_mechanism": "Lead with the exact citable mathematical formula or institutional orderflow disparity on Slide 2.",
+    "slide_8_dual_cta": "Explicitly split personal bookmarking (Save) from peer distribution (DM Share)."
+  },
+  "prompt_injection_snippet": "ALGORITHMIC REINFORCEMENT DIRECTIVE: Historical performance shows audiences respond to institutional order flow and hidden fee debunks with an average save rate of 2.5%. Prioritize topics covering Smart Money, Market Traps. Ensure the opening 3 seconds / Slide 1 deliver immediate contrarian friction rather than standard market reporting."
+}

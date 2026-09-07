@@ -99,11 +99,12 @@ Return valid JSON ONLY matching this exact schema:
             except Exception as e:
                 logger.warning("Gemini news analysis model %s failed: %s. Trying next...", m, e)
 
-        # Fallback to Gemma
+        # Fallback to deterministic if models unavailable
         try:
-            logger.info("Falling back to Gemma for news analysis: %s...", settings.GEMMA_FALLBACK_MODEL)
+            fallback_model = getattr(settings, "GEMMA_FALLBACK_MODEL", "gemini-2.5-flash")
+            logger.info("Attempting fallback model for news analysis: %s...", fallback_model)
             response = self.client.models.generate_content(
-                model=settings.GEMMA_FALLBACK_MODEL,
+                model=fallback_model,
                 contents=prompt + "\nCRITICAL: Output valid JSON only."
             )
             if response.text:
@@ -114,7 +115,7 @@ Return valid JSON ONLY matching this exact schema:
                     clean = clean.split("```")[1].split("```")[0].strip()
                 return json.loads(clean)
         except Exception as ge:
-            logger.warning("Gemma news analysis failed: %s.", ge)
+            logger.warning("Fallback news analysis note: %s. Using deterministic analysis.", ge)
 
         return self._build_deterministic_analysis(news_item)
 

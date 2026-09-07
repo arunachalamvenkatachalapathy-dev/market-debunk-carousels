@@ -311,10 +311,10 @@ Return JSON ONLY:
                 s["card_text"] = ""
             elif idx == expected_count - 1:
                 s["role"] = "bookmark_save"
-                s["title_lines"] = ["Don’t", "forget to", "<span class='highlight-box'>save this</span>", "post for", "later"]
+                s["title_lines"] = ["Don’t", "forget to", "<span class='highlight-box'>save & share</span>", "this for", "later"]
                 s["card_text"] = ""
                 if not s.get("cta_detail"):
-                    s["cta_detail"] = "Save this framework to your private collection. Review these institutional risk checkpoints before taking your next trade to protect your capital from market traps."
+                    s["cta_detail"] = "Bookmark this framework for your pre-trade audit. Share it with an investor friend before they risk capital on unconfirmed headlines."
             else:
                 s["role"] = s.get("role") or f"value_{idx}"
                 raw_title = s.get("title") or s.get("headline")
@@ -491,7 +491,7 @@ Return JSON ONLY:
                 },
                 {
                     "role": "bookmark_save",
-                    "title_lines": ["Don’t", "forget to", "<span class='highlight-box'>save this</span>", "post for", "later"],
+                    "title_lines": ["Don’t", "forget to", "<span class='highlight-box'>save & share</span>", "this for", "later"],
                     "tag": "#MARKETDEBUNK"
                 }
             ]

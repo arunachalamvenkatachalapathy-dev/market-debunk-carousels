@@ -1,0 +1,32 @@
+{
+  "uploads": [
+    {
+      "title": "Prasol Chemicals IPO opens tomorrow at ₹643-676 price band, brokerages recommend subscribing for long-term - BusinessLine",
+      "media_id": "simulated_id",
+      "timestamp": "2026-09-07T07:55:24.811553+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "angle_4",
+      "hashtag_cluster": "cluster_4",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "status": "dry_run_simulated"
+        },
+        "facebook": {
+          "success": true,
+          "status": "dry_run_simulated"
+        },
+        "telegram": {
+          "success": true,
+          "status": "dry_run_simulated"
+        },
+        "linkedin": {
+          "success": true,
+          "status": "dry_run_simulated"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    }
+  ]
+}

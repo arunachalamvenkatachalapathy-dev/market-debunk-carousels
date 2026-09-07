@@ -4,7 +4,9 @@ Transforms real-time financial market news and deep comprehension into structure
 """
 import json
 import logging
+import random
 import re
+from datetime import datetime
 from typing import Optional
 
 from src.config import settings
@@ -232,12 +234,12 @@ Return JSON ONLY:
 
     def format_converting_caption(self, deck: dict, topic_data: dict, audio_track: Optional[dict] = None) -> str:
         """
-        Formats a high-converting caption based on the 2026 Instagram Carousel Bible:
-        1. Opening Hook (1-2 sentences creating curiosity gap)
-        2. Value Preview (3 bullet points teasing what is inside)
-        3. Clear single CTA with keyword trigger
-        4. Reels Algorithm Audio recommendation
-        5. 3-5 relevant hashtags
+        Formats a high-converting, organically diverse caption based on the 2026 Algorithmic Directive:
+        1. Curiosity Hook (rotates across 5 distinct opening archetypes)
+        2. Progressive Value Preview (3 slide teasers)
+        3. Double Algorithmic Engagement Signal: Bookmark Save + DM Share CTA
+        4. Lead Magnet keyword comment trigger
+        5. Rotating non-repetitive hashtag cluster (anti-spam diversity)
         """
         title = topic_data.get("title", "")
         slides = deck.get("slides", [])
@@ -264,12 +266,60 @@ Return JSON ONLY:
                 "• Complete pre-trade risk audit checkpoints"
             ]
 
+        # ── 1. Rotate Dynamic Curiosity-Driven Opening Hooks ──────────────────
+        opening_angles = [
+            "What looks like a routine market headline on the surface is quietly an institutional liquidity trap underneath.",
+            "The real financial math behind this move tells a completely different story than television commentary.",
+            "Before allocating risk capital to this narrative, here is what institutional order flow is actually doing.",
+            "While retail traders chase this breakout, smart money is using the volume surge to systematically hedge risk.",
+            "Headline FOMO is the fastest way to erode compounding wealth. Audit the real data before making your next move."
+        ]
+
+        # ── 2. Rotate Across 5 Thematic Hashtag Clusters ──────────────────────
+        hashtag_clusters = [
+            ["#Nifty50", "#IndianStockMarket", "#SEBI", "#MacroEconomics", "#MarketDebunk"],
+            ["#InstitutionalTrading", "#SmartMoney", "#PriceAction", "#OptionFlow", "#TradingStrategy"],
+            ["#WealthPreservation", "#PersonalFinanceIndia", "#FinancialLiteracy", "#Compounding", "#Investing"],
+            ["#RetailTrap", "#TradingPsychology", "#MarketDebunk", "#RiskManagement", "#TraderMindset"],
+            ["#FundamentalAnalysis", "#StockValuation", "#EquityResearch", "#IndianEconomy", "#StockPicks"]
+        ]
+
+        # Inspect last upload history to guarantee zero back-to-back cluster or angle repetition
+        last_cluster_id = None
+        last_angle_id = None
+        try:
+            from src.config import STATE_DIR
+            history_file = STATE_DIR / "upload_history.json"
+            if history_file.exists():
+                with open(history_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    uploads = data.get("uploads", []) if isinstance(data, dict) else data
+                    if uploads:
+                        last_cluster_id = uploads[-1].get("hashtag_cluster")
+                        last_angle_id = uploads[-1].get("hook_archetype")
+        except Exception:
+            pass
+
+        available_angle_indices = [i for i in range(len(opening_angles)) if f"angle_{i+1}" != last_angle_id]
+        angle_idx = random.choice(available_angle_indices) if available_angle_indices else random.randint(0, len(opening_angles) - 1)
+        chosen_opening = opening_angles[angle_idx]
+
+        available_cluster_indices = [i for i in range(len(hashtag_clusters)) if f"cluster_{i+1}" != last_cluster_id]
+        cluster_idx = random.choice(available_cluster_indices) if available_cluster_indices else random.randint(0, len(hashtag_clusters) - 1)
+        chosen_hashtags = " ".join(hashtag_clusters[cluster_idx])
+
+        # Record cluster name in deck metadata
+        deck["hashtag_cluster_id"] = f"cluster_{cluster_idx + 1}"
+        deck["hook_archetype_id"] = f"angle_{angle_idx + 1}"
+
         caption = (
             f"🚨 {clean_hook}\n\n"
-            f"Most retail traders get caught on the wrong side of headline surges because they don't audit institutional positioning.\n\n"
+            f"{chosen_opening}\n\n"
             f"Swipe through this 8-slide breakdown:\n"
             f"{chr(10).join(bullets)}\n\n"
+            f"📌 Save this post to audit your next trade.\n"
+            f"✈️ Share this with a fellow investor before they take their next position.\n\n"
             f"💬 Follow @Market_Debunk and comment '{trigger}' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n"
-            f"#StockMarket #Investing #PersonalFinance #MarketDebunk #FinancialLiteracy #Trading"
+            f"{chosen_hashtags}"
         )
         return caption

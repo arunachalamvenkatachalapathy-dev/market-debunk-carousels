@@ -1,9 +1,10 @@
-name: Daily Financial Carousel - Evening Edition (7:00 PM IST)
+name: Daily Financial Carousel - Evening Edition (Manual Dispatch)
 
 on:
-  schedule:
-    # 7:00 PM IST = 13:30 UTC every day (Evening post-market edition)
-    - cron: '30 13 * * *'
+  # Automated schedule decommissioned per 2-post/day directive (1 morning carousel + 1 evening video).
+  # Kept for on-demand manual dispatch.
+  # schedule:
+  #   - cron: '30 13 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -25,7 +26,7 @@ permissions:
 jobs:
   run-carousel-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 60
 
     steps:
       - name: Checkout Repository
@@ -70,15 +71,21 @@ jobs:
           fi
           python engine.py $EXTRA_ARGS
 
-      - name: Commit Deduplication Data & Unique Slides
+      - name: Commit Deduplication Data, Unique Slides & State Ledgers
+        if: always()
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git pull origin master --rebase || true
           git add data/used_carousel_topics.json state/
-          git diff --staged --quiet || (git commit -m "chore: update evening carousel slides, master package, and topic history [skip ci]" && git push origin master)
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(state): persist upload history, analytics ledgers, and evening slides [skip ci]"
+            for i in {1..5}; do
+              git pull origin master --rebase -X ours && git push origin master && break || sleep 3
+            done
+          fi
 
       - name: Prune Slide Images Older Than 48 Hours
+        if: always()
         run: |
           find state/carousel_slides/ -name "*.png" -mtime +2 -delete || true
           git add -u state/carousel_slides/
