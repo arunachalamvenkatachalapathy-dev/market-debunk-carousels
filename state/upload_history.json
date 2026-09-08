@@ -85,6 +85,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "NSE Set to Price India IPO at 1,700 to 1,785 Rupees a Share - Bloomberg.com",
+      "media_id": "18042489842820436",
+      "timestamp": "2026-09-08T17:35:17.052650+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "angle_4",
+      "hashtag_cluster": "cluster_2",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18042489842820436",
+          "permalink": "https://www.instagram.com/p/DdCO_ejDESG/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122097919803474347",
+          "url": "https://www.facebook.com/1247247545146839_122097919803474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }
