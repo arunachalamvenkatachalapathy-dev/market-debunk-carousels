@@ -2,9 +2,9 @@ name: Daily Financial Carousel - Morning Edition (9:15 AM IST)
 
 on:
   schedule:
-    # 08:30 AM IST = 03:00 UTC every day.
+    # 08:48 AM IST = 03:18 UTC every day (off-peak minute avoids GitHub Actions :00 queue delays).
     # Programmatic Target-Window Math absorbs runner queue delays to land organically at 09:15 AM IST ± 10m.
-    - cron: '0 3 * * *'
+    - cron: '18 3 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
