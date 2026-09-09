@@ -25,8 +25,16 @@
           "status": "dry_run_simulated"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "success"
+      },
+      "age_at_audit_hours": 48.1
     },
     {
       "title": "Sebi eases compliance norms for FPIs investing only in Gsecs - The New Indian Express",
