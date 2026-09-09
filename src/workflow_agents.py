@@ -245,6 +245,7 @@ Return JSON ONLY:
         slides = deck.get("slides", [])
         hook_text = slides[0].get("title", title) if slides else title
         clean_hook = re.sub(r"<[^>]+>", "", hook_text).strip()
+        clean_hook = re.sub(r"\s*[-|]\s*(Bloomberg(\.com)?|Reuters|Mint|Moneycontrol|The Economic Times|NDTV Profit|CNBC-TV18|Business Standard|Financial Express).*", "", clean_hook, flags=re.IGNORECASE).strip()
 
         trigger = "GUIDE"
         for s in slides:

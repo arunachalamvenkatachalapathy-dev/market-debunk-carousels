@@ -145,24 +145,28 @@ class Publisher:
             logger.warning("⚠️ Some image URLs still returning non-200 after 36s: %s. Attempting container creation with caution...", unready_urls)
 
         try:
-            # Step 1: Create child image containers
+            # Step 1: Create child image containers (with paced 2.5s backoff to avoid Meta velocity spam trigger 2207051)
             children_ids = []
             for i, url in enumerate(image_urls):
+                child_payload = {
+                    "image_url": url,
+                    "is_carousel_item": "true",
+                    "access_token": token,
+                }
                 res = requests.post(
                     f"{self.base_url}/{user_id}/media",
-                    data={
-                        "image_url": url,
-                        "is_carousel_item": "true",
-                        "access_token": token,
-                    },
+                    data=child_payload,
                     timeout=30
                 ).json()
                 if "error" in res:
                     raise RuntimeError(f"Child container {i+1} failed: {res['error']}")
                 children_ids.append(res["id"])
                 logger.info("  ✓ Created IG child container %d/%d (ID: %s)", i + 1, len(image_urls), res["id"])
+                if i < len(image_urls) - 1:
+                    time.sleep(2.5)
 
             # Step 2: Create parent carousel container
+            time.sleep(3.0)
             parent_res = requests.post(
                 f"{self.base_url}/{user_id}/media",
                 data={
@@ -200,7 +204,8 @@ class Publisher:
             else:
                 logger.warning("⚠️ Meta status polling reached max attempts without explicit FINISHED; attempting publish...")
 
-            # Step 3: Publish carousel
+            # Step 3: Publish carousel with defensive backoff
+            time.sleep(3.0)
             pub_res = requests.post(
                 f"{self.base_url}/{user_id}/media_publish",
                 data={
@@ -210,7 +215,15 @@ class Publisher:
                 timeout=30
             ).json()
             if "error" in pub_res:
-                raise RuntimeError(f"Publish failed: {pub_res['error']}")
+                err_dict = pub_res["error"]
+                err_code = err_dict.get("code")
+                err_subcode = err_dict.get("error_subcode")
+                if err_subcode == 2207051 or err_code == 4:
+                    logger.critical(
+                        "🚨 Meta Action Block Detected (Error %s:%s - %s). Account is temporarily velocity-throttled.",
+                        err_code, err_subcode, err_dict.get("error_user_title", "Action is blocked")
+                    )
+                raise RuntimeError(f"Publish failed: {err_dict}")
 
             media_id = pub_res["id"]
             logger.info("🎉 INSTAGRAM CAROUSEL PUBLISHED SUCCESSFULLY (ID: %s)", media_id)
