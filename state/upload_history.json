@@ -114,6 +114,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "Battery X Metals files amended IPO registration statement with SEC By Investing.com - Investing.com India",
+      "media_id": "18174425935443484",
+      "timestamp": "2026-09-09T07:36:37.216068+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "angle_1",
+      "hashtag_cluster": "cluster_3",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18174425935443484",
+          "permalink": "https://www.instagram.com/p/DdDvR79mwmB/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122098288311474347",
+          "url": "https://www.facebook.com/1247247545146839_122098288311474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }
