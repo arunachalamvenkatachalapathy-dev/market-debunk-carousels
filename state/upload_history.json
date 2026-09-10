@@ -99,8 +99,16 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "success"
+      },
+      "age_at_audit_hours": 48.2
     },
     {
       "title": "NSE Set to Price India IPO at 1,700 to 1,785 Rupees a Share - Bloomberg.com",
@@ -177,6 +185,35 @@
           "success": true,
           "post_id": "1247247545146839_122098628673474347",
           "url": "https://www.facebook.com/1247247545146839_122098628673474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    },
+    {
+      "title": "Coforge eyes industry-leading growth. Will chairman’s exit derail the story?",
+      "media_id": "18085856369695901",
+      "timestamp": "2026-09-10T08:15:40.404505+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "angle_1",
+      "hashtag_cluster": "cluster_4",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18085856369695901",
+          "permalink": "https://www.instagram.com/p/DdGYjBPG0t_/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122099072169474347",
+          "url": "https://www.facebook.com/1247247545146839_122099072169474347"
         },
         "telegram": {
           "success": true
