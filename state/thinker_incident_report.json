@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-06T16:25:20.280335+00:00",
+  "timestamp": "2026-09-10T17:17:18.233705+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "RECOVERABLE",
   "error_code": "ERR_META_API",
-  "root_cause_analysis": "Asynchronous processing delay on Meta servers. The media container IDs were generated, but the images had not finished processing/optimizing before the final publishing request was initiated.",
+  "root_cause_analysis": "Meta Graph API returned a transient OAuthException (code 2) during the processing of child container 8 in the carousel payload. The error is flagged as temporary by Meta ('is_transient': True).",
   "reproducibility": "RATE_LIMIT",
   "automated_remediation": {
     "action": "RETRY_AFTER_DELAY",
@@ -12,6 +12,7 @@
   },
   "operator_action_required": false,
   "actionable_instructions": [
-    "Introduce a polling check on the media container status to ensure it is 'FINISHED' before calling the media_publish endpoint."
+    "Allow automated exponential backoff retry to process child container 8.",
+    "Inspect GitHub raw URL availability for slide_8_20260910_171612.png if repeated transient failures occur."
   ]
 }

@@ -225,6 +225,34 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT - The Hindu",
+      "media_id": "simulated_id",
+      "timestamp": "2026-09-10T17:17:56.470917+00:00",
+      "topic_category": "REGULATORY_SHIFT",
+      "hook_archetype": "angle_3",
+      "hashtag_cluster": "cluster_2",
+      "publish_results": {
+        "instagram": {
+          "success": false,
+          "error": "Child container 8 failed: {'message': 'An unexpected error has occurred. Please retry your request later.', 'type': 'OAuthException', 'is_transient': True, 'code': 2, 'fbtrace_id': 'AFSCN2JH0xFrAlsYd-osDp2'}"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122099380221474347",
+          "url": "https://www.facebook.com/1247247545146839_122099380221474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }
