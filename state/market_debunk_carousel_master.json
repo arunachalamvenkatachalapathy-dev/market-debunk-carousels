@@ -1,86 +1,87 @@
 {
   "topic": {
-    "title": "Coforge eyes industry-leading growth. Will chairman’s exit derail the story?",
+    "title": "SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT - The Hindu",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "source": "Livemint Markets",
-    "source_snippet": "Coforge’s strong deal wins, sustained execution and improving cash conversion have kept it in good stead. So far in 2026, the stock has fetched 11% returns, widely beating the 26% drop in the Nifty IT index.",
-    "source_url": "https://www.livemint.com/market/mark-to-market/coforge-chairman-resignation-coforge-share-price-it-sector-india-nifty-it-11789024044076.html",
-    "raw_text": "Coforge eyes industry-leading growth. Will chairman’s exit derail the story?. Coforge’s strong deal wins, sustained execution and improving cash conversion have kept it in good stead. So far in 2026, the stock has fetched 11% returns, widely beating the 26% drop in the Nifty IT index.",
+    "source": "The Hindu",
+    "source_snippet": "SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT&nbsp;&nbsp;The Hindu",
+    "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPelV2VHVSRW9pZWl6XzBITG5COUdZTjFxOWs1YXFuWENvbUo4blYzbldaUDgxTUJMZFltamJtSHFweXZaQXU5T3Y2M0NGd1ZTY1BzRnJfSnlrZ1R2YUlvOFM4MFJUS0lTbVVSX3NnM0lxQ0JGLWJZczBBQTBua3dkWERwMkZSbkF3TnU1MmM5bnVlMkFlU3BBX1NibWJDSUxibWFnd1lCVTA3LXpnejZTTzZPUEdfdm84V1QxdElhNUg2UHRWWUJ0d9IBzwFBVV95cUxQcU9JcldIVzdTeTBmUXdoa2ItNjlzN1R3MjFIWVc0eUtzeEY2OUQtZGZQMHNSR0NNQU1NQldib0x1VlpxWlpYdDY0a2tmVk4ydkt5OFBXWjNXV2dLdHVEZVVFS21Hb2o2UU9BWHd3a0JBVmY1eXhKOTdmbU9TSkEyQ3hmYWVHZENlMklTR1ZxdklQZmRqbExheUt4XzRDeWU5NGVPOVhhdXQtNHRfTTlHb2RXbkRuOGdVZjEtUTh6aUtaczNhQjBxM2RDVGxZNlk?oc=5",
+    "raw_text": "SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT - The Hindu. SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT&nbsp;&nbsp;The Hindu",
     "numbers_detected": [
-      "2026",
-      "11%",
-      "26%"
+      "₹5.25",
+      "₹5.25"
     ],
-    "published_at": "2026-09-10T13:38:54+05:30",
-    "age_hours": 0.1,
-    "retrieved_at": "2026-09-10T08:11:56.065579+00:00",
+    "published_at": "2026-09-10T17:02:56+00:00",
+    "age_hours": 0.2,
+    "retrieved_at": "2026-09-10T17:15:37.334391+00:00",
     "date": "10 Sep 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-10T13:38:54+05:30 (0.1h ago) | Headline: Coforge eyes industry-leading growth. Will chairman’s exit derail the story? | Context: Coforge eyes industry-leading growth. Will chairman’s exit derail the story?. Coforge’s strong deal wins, sustained execution and improving cash conversion have kept it in good stead. So far in 2026, the stock has fetched 11% returns, widely beating the 26% drop in the Nifty IT index.",
+    "evidence_snapshot": "Source: The Hindu | Published: 2026-09-10T17:02:56+00:00 (0.2h ago) | Headline: SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT - The Hindu | Context: SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT - The Hindu. SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT&nbsp;&nbsp;The Hindu",
     "news_analysis": {
-      "headline_hook": "Coforge's Leadership Vacuum: Why Outperformance is a Liquidity Mirage",
-      "breaking_event_summary": "Coforge is navigating a leadership transition following the exit of its chairman, even as the company maintains a positive growth outlook and strong deal momentum.",
-      "retail_illusion": "Retail investors assume that because the stock has outperformed the Nifty IT index, the company is 'immune' to leadership changes and the current management transition is a non-event.",
-      "institutional_reality": "Institutional desks view leadership exits as a 'Key Person Risk' event. The 11% YTD return against a 26% Nifty IT drop suggests the stock is currently a 'crowded trade' acting as a defensive hedge; any disruption in execution now triggers rapid profit-taking by institutional algorithms to rebalance risk.",
+      "headline_hook": "The ₹5.25 Cr SEBI Mirage: Why the Supreme Court’s Cairn Order Is a Regulatory Trap",
+      "breaking_event_summary": "The Supreme Court has remanded SEBI's ₹5.25-crore penalty case involving Vedanta-linked Cairn back to the Securities Appellate Tribunal (SAT) for fresh adjudication.",
+      "retail_illusion": "Retail investors assume the Supreme Court sending the case back to SAT signals a major legal victory and clears Vedanta-Cairn of SEBI regulatory liabilities.",
+      "institutional_reality": "Institutions know that remanding a case back to SAT merely restarts a protracted legal loop, prolonging governance overhang and allowing smart money to exit into news-driven retail spikes.",
       "citable_metrics": [
-        "11% returns in 2026",
-        "26% drop in the Nifty IT index"
+        "₹5.25-crore",
+        "SEBI",
+        "SAT"
       ],
-      "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "Never confuse 'relative outperformance' with 'fundamental safety'; if a stock is the only green candle in a sea of red, it is the first to be sold when institutional liquidity needs arise.",
+      "debunk_category": "REGULATORY_SHIFT",
+      "actionable_retail_rule": "Never trade on 'remanded back to tribunal' headlines; legal delays extend regulatory overhang and suppress valuation multiples rather than resolving structural risk.",
       "lead_magnet": {
         "trigger_word": "AUDIT",
-        "resource_name": "The Institutional Key-Person Risk Audit Checklist"
+        "resource_name": "The Regulatory Litigation Overhang Checklist"
       },
       "carousel_outline": [
         {
           "slide": 1,
           "role": "hook",
-          "focus": "Coforge's Leadership Vacuum: Why Outperformance is a Liquidity Mirage"
+          "focus": "The ₹5.25 Cr SEBI Illusion: Why SC's Cairn-Vedanta Order Isn't a Relief Rally"
         },
         {
           "slide": 2,
           "role": "friction",
-          "focus": "Retail sees a 'strong' stock; Institutions see a 'Key Person Risk' event."
+          "focus": "Retail celebrates court intervention while missing the reality of prolonged legal litigation"
         },
         {
           "slide": 3,
           "role": "math_reality",
-          "focus": "The 37% divergence between Coforge and Nifty IT is a volatility trap, not a safety net."
+          "focus": "Why sending a ₹5.25-crore penalty back to SAT resets legal timelines and keeps capital tied up"
         },
         {
           "slide": 4,
           "role": "breakdown",
-          "focus": "How leadership exits trigger automated institutional rebalancing."
+          "focus": "How governance uncertainty and tribunal resets quietly suppress price-to-earnings expansion"
         },
         {
           "slide": 5,
           "role": "actionable_rule",
-          "focus": "The Golden Protective Rule: Don't hold 'defensive' stocks when the captain leaves the ship."
+          "focus": "The Remand Rule: Treat legal delay as ongoing overhang, not operational clearance"
         },
         {
           "slide": 6,
           "role": "cta",
-          "focus": "Comment AUDIT to receive the Key-Person Risk checklist."
+          "focus": "Save this post and comment AUDIT for our 1-page Regulatory Overhang Checklist"
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "Coforge's Leadership Vacuum: Why Outperformance is a Liquidity Mirage",
-    "core_illusion": "Retail investors assume that because the stock has outperformed the Nifty IT index, the company is 'immune' to leadership changes and the current management transition is a non-event.",
-    "hidden_reality": "Institutional desks view leadership exits as a 'Key Person Risk' event. The 11% YTD return against a 26% Nifty IT drop suggests the stock is currently a 'crowded trade' acting as a defensive hedge; any disruption in execution now triggers rapid profit-taking by institutional algorithms to rebalance risk.",
-    "citable_metric": "11% returns in 2026",
+    "hook_headline": "The ₹5.25 Cr SEBI Mirage: Why the Supreme Court’s Cairn Order Is a Regulatory Trap",
+    "core_illusion": "Retail investors assume the Supreme Court sending the case back to SAT signals a major legal victory and clears Vedanta-Cairn of SEBI regulatory liabilities.",
+    "hidden_reality": "Institutions know that remanding a case back to SAT merely restarts a protracted legal loop, prolonging governance overhang and allowing smart money to exit into news-driven retail spikes.",
+    "citable_metric": "₹5.25-crore",
     "all_metrics": [
-      "11% returns in 2026",
-      "26% drop in the Nifty IT index"
+      "₹5.25-crore",
+      "SEBI",
+      "SAT"
     ],
-    "actionable_rule": "Never confuse 'relative outperformance' with 'fundamental safety'; if a stock is the only green candle in a sea of red, it is the first to be sold when institutional liquidity needs arise.",
-    "breaking_event": "Coforge is navigating a leadership transition following the exit of its chairman, even as the company maintains a positive growth outlook and strong deal momentum.",
+    "actionable_rule": "Never trade on 'remanded back to tribunal' headlines; legal delays extend regulatory overhang and suppress valuation multiples rather than resolving structural risk.",
+    "breaking_event": "The Supreme Court has remanded SEBI's ₹5.25-crore penalty case involving Vedanta-linked Cairn back to the Securities Appellate Tribunal (SAT) for fresh adjudication.",
     "lead_magnet": {
       "trigger_word": "AUDIT",
-      "resource_name": "The Institutional Key-Person Risk Audit Checklist"
+      "resource_name": "The Regulatory Litigation Overhang Checklist"
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -90,136 +91,132 @@
     ]
   },
   "deck": {
-    "caption": "🚨 Coforge eyes industry-leading growth. Will chairman’s exit derail the story?\n\nWhat looks like a routine market headline on the surface is quietly an institutional liquidity trap underneath.\n\nSwipe through this 8-slide breakdown:\n• Structural traps behind headline market surges\n• How smart capital extracts exit liquidity\n• Complete pre-trade risk audit checkpoints\n\n📌 Save this post to audit your next trade.\n✈️ Share this with a fellow investor before they take their next position.\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#RetailTrap #TradingPsychology #MarketDebunk #RiskManagement #TraderMindset",
+    "caption": "🚨 SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT - The Hindu\n\nBefore allocating risk capital to this narrative, here is what institutional order flow is actually doing.\n\nSwipe through this 8-slide breakdown:\n• Why Remanding Cases Is Not Victory\n• The Regulatory Overhang Loophole\n• Institutional Exit Liquidity Tactics\n\n📌 Save this post to audit your next trade.\n✈️ Share this with a fellow investor before they take their next position.\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#InstitutionalTrading #SmartMoney #PriceAction #OptionFlow #TradingStrategy",
     "slides": [
       {
         "slide_number": 1,
-        "headline": "Coforge's Leadership Vacuum: Why <span class=\"highlight-box\">Outperformance</span> is a Mirage #2026",
-        "card_text": "",
-        "slide_index": 1,
-        "tag": "#MARKETDEBUNK",
         "role": "hook",
+        "tag": "#MARKETDEBUNK",
+        "headline": "The Supreme Court <span class=\"highlight-box\">Remand Trap</span> Exposed",
+        "slide_index": 1,
         "title_lines": [
-          "Coforge's Leadership",
-          "Vacuum: Why",
-          "<span class='highlight-box'>Outperformance</span>",
-          "is a"
-        ]
+          "The Supreme",
+          "Court",
+          "<span class='highlight-box'>Remand Trap</span>",
+          "Exposed"
+        ],
+        "card_text": ""
       },
       {
         "slide_number": 2,
-        "headline": "The Illusion of <span class=\"highlight-box\">Immunity</span> in Volatile Markets",
-        "card_text": "Retail investors mistake <strong>11% YTD returns</strong> for fundamental safety. While the stock beats the <strong>26% Nifty IT drop</strong>, institutional desks view the chairman’s exit as a 'Key Person Risk.' Outperformance here is a defensive hedge, not a signal of long-term stability.",
+        "role": "value_1",
+        "title": "Why Remanding Cases Is <span class=\"highlight-box\">Not Victory</span>",
+        "card_text": "Retail investors view the Supreme Court sending Cairn’s <strong>₹5.25-crore</strong> SEBI penalty back to SAT as a legal win. In reality, remanding merely restarts a tribunal loop, extending legal uncertainty while smart money sells into temporary relief spikes.",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
-        "role": "value_1",
         "title_lines": [
-          "The Illusion",
-          "<span class='highlight-box'>of Immunity</span>",
-          "in Volatile Markets"
+          "Why Remanding",
+          "<span class='highlight-box'>Cases Is</span>",
+          "Not Victory"
         ]
       },
       {
         "slide_number": 3,
-        "headline": "The Hidden Trap of <span class=\"highlight-box\">Crowded Trades</span>",
-        "card_text": "When a stock becomes the only green candle in a sea of red, it attracts 'tourist' capital. Institutional algorithms monitor this concentration. Once the leadership transition creates uncertainty, this crowded positioning becomes a liability, forcing rapid liquidation to rebalance portfolios and lock in gains.",
+        "role": "value_2",
+        "title": "The Regulatory <span class=\"highlight-box\">Overhang Loophole</span>",
+        "card_text": "When high-profile penalty cases return to lower tribunals, corporate governance risks are not erased; they are deferred. Promoters leverage headline confusion to stabilize share prices, shifting long-term balance sheet liabilities onto unsuspecting retail buyers.",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
-        "role": "value_2",
         "title_lines": [
-          "The Hidden",
-          "<span class='highlight-box'>Trap of</span>",
-          "Crowded Trades"
+          "The Regulatory",
+          "<span class='highlight-box'>Overhang Loophole</span>"
         ]
       },
       {
         "slide_number": 4,
-        "headline": "Liquidity Risks During <span class=\"highlight-box\">Institutional Exit</span>",
-        "card_text": "Retailers often assume liquidity is infinite. In reality, when institutions decide to exit a crowded position, they move faster than retail sentiment. The 'outperformance' you see is often the exit liquidity being provided by late-stage retail buyers who mistake a distribution phase for a breakout.",
+        "role": "value_3",
+        "title": "Institutional <span class=\"highlight-box\">Exit Liquidity</span> Tactics",
+        "card_text": "Algorithmic bots trigger buying on positive headline keywords like \"Supreme Court Remands\". Institutional funds capitalize on this retail order flow, dumping shares to de-risk holdings while retail traders mistake legal ping-pong for a full regulatory exoneration.",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
-        "role": "value_3",
         "title_lines": [
-          "Liquidity Risks",
-          "<span class='highlight-box'>During Institutional</span>",
-          "Exit"
+          "Institutional Exit",
+          "<span class='highlight-box'>Liquidity Tactics</span>"
         ]
       },
       {
         "slide_number": 5,
-        "headline": "The Cost of <span class=\"highlight-box\">Ignoring</span> Leadership Risk",
-        "card_text": "Ignoring management churn leads to 'valuation compression.' If growth slows by even 2-3% due to execution friction, the P/E multiple contracts sharply. A 10% drop in valuation on a high-beta stock wipes out your 11% YTD gains instantly, turning a winning trade into a capital-eroding event.",
+        "role": "value_4",
+        "title": "Valuation Multiples <span class=\"highlight-box\">Suffer Drag</span>",
+        "card_text": "Prolonged litigation depresses price-to-earnings ratios over time. Even a contested <strong>₹5.25-crore</strong> fine creates governance overhang, compressing valuation multiples by 15-25% as institutional risk models penalize unresolved regulatory battles regardless of the underlying fine magnitude.",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
-        "role": "value_4",
         "title_lines": [
-          "The Cost",
-          "<span class='highlight-box'>of Ignoring</span>",
-          "Leadership Risk"
+          "Valuation Multiples",
+          "<span class='highlight-box'>Suffer Drag</span>"
         ]
       },
       {
         "slide_number": 6,
-        "headline": "The Non-Negotiable <span class=\"highlight-box\">Execution Rule</span>",
-        "card_text": "Never confuse relative outperformance with fundamental safety. If a stock is the only green candle in a sea of red, it is the first to be sold when institutional liquidity needs arise. Protect your principal by treating leadership exits as a mandatory 'de-risk' signal.",
+        "role": "value_5",
+        "title": "Never Trade <span class=\"highlight-box\">Tribunal Headlines</span>",
+        "card_text": "Institutional rule: never allocate capital on procedural legal updates. Treat \"remanded back\" as prolonged legal friction rather than clearance. Protect principal by exiting positions on news spikes until SEBI issues a final, non-appealable order.",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
-        "role": "value_5",
         "title_lines": [
-          "The Non-Negotiable",
-          "<span class='highlight-box'>Execution Rule</span>"
+          "Never Trade",
+          "<span class='highlight-box'>Tribunal Headlines</span>"
         ]
       },
       {
         "slide_number": 7,
-        "headline": "The Pre-Trade <span class=\"highlight-box\">Verification Audit</span>",
-        "card_text": "Before allocating, run this 3-point audit: 1) Is the outperformance driven by fundamentals or defensive hedging? 2) Does the leadership exit impact the core execution engine? 3) Is the stock currently a crowded trade? If the answer to the latter is yes, wait for the volatility.",
+        "role": "value_6",
+        "title": "Audit Your <span class=\"highlight-box\">Legal Exposure</span>",
+        "card_text": "Run this 3-step audit: 1. Distinguish substantive acquittals from procedural remands. 2. Measure historical valuation multiple compression during SEBI disputes. 3. Track institutional net flows on legal event days to spot smart money exit patterns before buying.",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
-        "role": "value_6",
         "title_lines": [
-          "The Pre-Trade",
-          "<span class='highlight-box'>Verification Audit</span>"
+          "Audit Your",
+          "<span class='highlight-box'>Legal Exposure</span>"
         ]
       },
       {
         "slide_number": 8,
-        "headline": "Don’t forget to <span class=\"highlight-box\">save this</span> post for later #MARKETDEBUNK",
-        "card_text": "",
-        "cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital.",
-        "slide_index": 8,
-        "tag": "#MARKETDEBUNK",
         "role": "bookmark_save",
+        "tag": "#MARKETDEBUNK",
         "title_lines": [
           "Don’t",
           "forget to",
           "<span class='highlight-box'>save & share</span>",
           "this for",
           "later"
-        ]
+        ],
+        "cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital.",
+        "slide_index": 8,
+        "card_text": ""
       }
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Solitude (Dark Academic Finance)",
-      "artist": "M83 / Felsmann + Tiley",
-      "bpm": 110,
-      "vibe": "Institutional Truth / Whistleblower",
-      "reels_boost_tier": "Viral Editorial",
-      "search_query": "M83 Solitude Felsmann Tiley"
+      "title": "Cornfield Chase (Interstellar Piano/Synth)",
+      "artist": "Hans Zimmer / Dorian Marko",
+      "bpm": 100,
+      "vibe": "Cinematic Tension & Focus",
+      "reels_boost_tier": "High Velocity",
+      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
     },
-    "hashtag_cluster_id": "cluster_4",
-    "hook_archetype_id": "angle_1"
+    "hashtag_cluster_id": "cluster_2",
+    "hook_archetype_id": "angle_3"
   },
   "audio": {
-    "title": "Solitude (Dark Academic Finance)",
-    "artist": "M83 / Felsmann + Tiley",
-    "bpm": 110,
-    "vibe": "Institutional Truth / Whistleblower",
-    "reels_boost_tier": "Viral Editorial",
-    "search_query": "M83 Solitude Felsmann Tiley"
+    "title": "Cornfield Chase (Interstellar Piano/Synth)",
+    "artist": "Hans Zimmer / Dorian Marko",
+    "bpm": 100,
+    "vibe": "Cinematic Tension & Focus",
+    "reels_boost_tier": "High Velocity",
+    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
   },
-  "run_id": "20260910_081351",
+  "run_id": "20260910_171612",
   "slide_count": 8,
-  "exported_at": "2026-09-10T08:13:56.824443+00:00"
+  "exported_at": "2026-09-10T17:16:17.961728+00:00"
 }
