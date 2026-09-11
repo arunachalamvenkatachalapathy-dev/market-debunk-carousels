@@ -1,15 +1,23 @@
 {
-  "generated_at": "2026-09-10T17:15:14.333154+00:00",
-  "data_points_analyzed": 3,
+  "generated_at": "2026-09-11T08:05:55.292692+00:00",
+  "data_points_analyzed": 5,
   "historical_avg_save_rate_pct": 0.0,
   "prioritized_categories": [
     "SMART_MONEY",
     "MARKET_TRAPS",
     "VALUATION"
   ],
-  "deprecated_categories": [],
+  "deprecated_categories": [
+    "VALUATION_MYTH"
+  ],
   "high_performing_hooks": [],
-  "deprecated_hooks": [],
+  "deprecated_hooks": [
+    {
+      "hook": "angle_4",
+      "avg_save_rate": "0.00%",
+      "reason": "Low dwell & bookmark retention"
+    }
+  ],
   "video_finetuning_directive": {
     "opening_3s_hook": "Mandatory contrarian contrast with numerical anchor. Avoid greeting or headline recitation. Open immediately with the hidden institutional liquidity mechanism (e.g. 'What the TV anchors didn't tell you about today's breakout').",
     "pacing_calibration": "Introduce hard mathematical friction between seconds 4 and 10 (e.g. 'A 1% fee difference erodes ₹34 Lakhs'). This forces algorithmic dwell and repeat watches.",
