@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 1,
+  "total_cycles_recorded": 2,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.2,
-    "MATHEMATICAL_FRICTION": 1.35,
+    "MATHEMATICAL_FRICTION": 1.4,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -31,7 +31,8 @@
     "Slide 1 must highlight strictly 1 or 2 high-friction words with <span class='highlight-box'>.",
     "Slide 2 must expose the hidden mathematical mechanism before giving advice.",
     "Slide 8 must split personal bookmarking (Save) from peer distribution (DM Share).",
-    "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent"
+    "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent",
+    "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di"
   ],
   "cycle_history": [
     {
@@ -42,6 +43,15 @@
       "critic_score": 9.4,
       "visual_score": 9.2,
       "key_learning": "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent"
+    },
+    {
+      "cycle": 2,
+      "timestamp": "2026-09-12T16:32:46.090634+00:00",
+      "topic": "Tata Sons faces mandatory listing after RBI rejects deregistration bid - The Tim",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.4,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di"
     }
   ]
 }
