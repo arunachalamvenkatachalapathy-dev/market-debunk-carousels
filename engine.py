@@ -44,6 +44,13 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
     jitter_mgr = JitterManager()
     analytics_engine = AnalyticsFeedbackEngine()
 
+    from src.evolutionary_memory import EvolutionaryMemory
+    from src.creative_critic_agent import CreativeCriticAgent
+    from src.visual_inspector_agent import VisualInspectorAgent
+
+    evolutionary_memory = EvolutionaryMemory()
+    evolutionary_directives = evolutionary_memory.get_prompt_directives()
+
     try:
         # ── Phase 0a: 48-Hour Closed-Loop Analytics Audit ─────────────────────
         logger.info("═══ Phase 0a: 48-Hour Feedback Sensor Audit ═══")
@@ -73,7 +80,22 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
         comprehension_agent = NewsComprehensionAgent()
         news_analysis = comprehension_agent.analyze_news_item(topic_data)
         topic_data["news_analysis"] = news_analysis
-        logger.info("🎯 Debunk Angle: '%s' | Category: [%s]", news_analysis.get("headline_hook"), news_analysis.get("debunk_category"))
+        logger.info("🎯 Initial Debunk Angle: '%s' | Category: [%s]", news_analysis.get("headline_hook"), news_analysis.get("debunk_category"))
+
+        # ── Phase 2b: Multi-Candidate Creative Darwinism & Critic Selection ──────
+        logger.info("═══ Phase 2b: Multi-Candidate Creative Darwinism & Critic Selection ═══")
+        critic_agent = CreativeCriticAgent()
+        darwin_result = critic_agent.generate_and_evaluate(topic_data, evolutionary_directives=evolutionary_directives)
+        topic_data["darwin_result"] = darwin_result
+        winning_candidate = darwin_result.get("winning_candidate", {})
+        critic_score = darwin_result.get("critic_score", 8.5)
+        winning_archetype = darwin_result.get("archetype", "CONTRARIAN_TRAP")
+        if winning_candidate.get("headline_hook"):
+            news_analysis["headline_hook"] = winning_candidate["headline_hook"]
+        if winning_candidate.get("highlight_word"):
+            news_analysis["highlight_word"] = winning_candidate["highlight_word"]
+        if darwin_result.get("final_editorial_directive"):
+            news_analysis["editorial_directive"] = darwin_result["final_editorial_directive"]
 
         # ── Phase 3: Financial Planning & Creative Brief ────────────────────────
         logger.info("═══ Phase 3: Financial Planning & Creative Brief ═══")
@@ -125,7 +147,22 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
             raise ValueError(f"Multi-page PDF validation failed: {pdf_report}")
         logger.info("✅ %s", pdf_report)
 
-        # ── Phase 6: Export Master Package for Tamil Companion & Analytics ───
+        # ── Phase 5c: Multimodal Vision Quality Inspection ─────────────────────
+        logger.info("═══ Phase 5c: Multimodal Vision Quality Inspection & Contrast Audit ═══")
+        visual_inspector = VisualInspectorAgent()
+        visual_audit = visual_inspector.audit_carousel_visuals(slide_paths)
+        visual_score = visual_audit.get("average_score", 8.5)
+        logger.info("👁️ Visual Inspection Verdict: %.1f/10 | Passed: %s", visual_score, visual_audit.get("passed", True))
+
+        # ── Phase 6: Evolutionary Memory Mutation & Master Package Export ─────
+        evolutionary_memory.record_cycle(
+            winning_archetype=winning_archetype,
+            critic_score=critic_score,
+            visual_score=visual_score,
+            topic_title=topic_data.get("title", ""),
+            key_learning=darwin_result.get("selection_rationale", "")[:120] if darwin_result.get("selection_rationale") else None
+        )
+
         analytics_engine.record_or_fetch_metrics()
 
         master_pkg_path = STATE_DIR / "market_debunk_carousel_master.json"
@@ -136,11 +173,13 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
             "audio": audio_track,
             "run_id": run_id,
             "slide_count": len(slide_paths),
+            "darwin_result": darwin_result,
+            "visual_audit": visual_audit,
             "exported_at": datetime.now(timezone.utc).isoformat()
         }
         with open(master_pkg_path, "w", encoding="utf-8") as f:
             json.dump(master_package, f, indent=2, ensure_ascii=False)
-        logger.info("✓ Exported Tamil Master Package to: %s", master_pkg_path)
+        logger.info("✓ Exported Master Package to: %s", master_pkg_path)
 
         # ── Phase 7: Prepare Direct Raw Image URLs for Instagram ───────────────
         repo_owner = "arunachalamvenkatachalapathy-dev"
@@ -155,7 +194,7 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
             logger.info("🚀 Pre-pushing generated slides to GitHub master before live publishing...")
             os.system("git config --global user.name 'github-actions[bot]'")
             os.system("git config --global user.email 'github-actions[bot]@users.noreply.github.com'")
-            os.system("git add state/carousel_slides/ state/latest_carousel.pdf state/market_debunk_carousel_master.json")
+            os.system("git add state/carousel_slides/ state/latest_carousel.pdf state/market_debunk_carousel_master.json state/evolutionary_playbook.json")
             os.system('git commit -m "chore: pre-push slides for live publishing [skip ci]" || true')
             for attempt in range(1, 4):
                 os.system("git pull origin master --rebase -X ours || true")
