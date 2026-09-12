@@ -247,8 +247,16 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "success"
+      },
+      "age_at_audit_hours": 56.3
     },
     {
       "title": "SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT - The Hindu",
@@ -353,6 +361,35 @@
           "success": true,
           "post_id": "1247247545146839_122100588321474347",
           "url": "https://www.facebook.com/1247247545146839_122100588321474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    },
+    {
+      "title": "Tata Sons faces mandatory listing after RBI rejects deregistration bid - The Times of India",
+      "media_id": "17895505080398943",
+      "timestamp": "2026-09-12T16:34:27.944064+00:00",
+      "topic_category": "REGULATORY_SHIFT",
+      "hook_archetype": "angle_5",
+      "hashtag_cluster": "cluster_1",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "17895505080398943",
+          "permalink": "https://www.instagram.com/p/DdMbNUSF1xd/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122100868239474347",
+          "url": "https://www.facebook.com/1247247545146839_122100868239474347"
         },
         "telegram": {
           "success": true
