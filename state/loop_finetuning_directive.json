@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T16:31:05.531049+00:00",
-  "data_points_analyzed": 7,
+  "generated_at": "2026-09-13T08:21:30.088773+00:00",
+  "data_points_analyzed": 9,
   "historical_avg_save_rate_pct": 0.0,
   "prioritized_categories": [
     "SMART_MONEY",
@@ -8,7 +8,9 @@
     "VALUATION"
   ],
   "deprecated_categories": [
-    "VALUATION_MYTH"
+    "VALUATION_MYTH",
+    "REGULATORY_SHIFT",
+    "LIQUIDITY_TRAP"
   ],
   "high_performing_hooks": [],
   "deprecated_hooks": [
@@ -19,6 +21,11 @@
     },
     {
       "hook": "angle_5",
+      "avg_save_rate": "0.00%",
+      "reason": "Low dwell & bookmark retention"
+    },
+    {
+      "hook": "angle_3",
       "avg_save_rate": "0.00%",
       "reason": "Low dwell & bookmark retention"
     },
