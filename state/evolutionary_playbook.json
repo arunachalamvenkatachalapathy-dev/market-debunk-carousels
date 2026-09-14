@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 5,
+  "total_cycles_recorded": 6,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.2,
-    "MATHEMATICAL_FRICTION": 1.55,
+    "MATHEMATICAL_FRICTION": 1.6,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -35,7 +35,8 @@
     "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di",
     "Candidate B perfectly aligns with the MATHEMATICAL_FRICTION archetype (weighted 1.4). It leverages exact numerical figur",
     "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
-    "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent"
+    "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent",
+    "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d"
   ],
   "cycle_history": [
     {
@@ -82,6 +83,15 @@
       "critic_score": 9.6,
       "visual_score": 9.4,
       "key_learning": "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent"
+    },
+    {
+      "cycle": 6,
+      "timestamp": "2026-09-14T17:15:02.312021+00:00",
+      "topic": "Nasdaq at Barclays conference: growth bets span ipo, ai and tokenization - Inves",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.6,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d"
     }
   ]
 }
