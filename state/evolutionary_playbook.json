@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 4,
+  "total_cycles_recorded": 5,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.2,
-    "MATHEMATICAL_FRICTION": 1.5,
+    "MATHEMATICAL_FRICTION": 1.55,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -34,7 +34,8 @@
     "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent",
     "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di",
     "Candidate B perfectly aligns with the MATHEMATICAL_FRICTION archetype (weighted 1.4). It leverages exact numerical figur",
-    "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1"
+    "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
+    "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent"
   ],
   "cycle_history": [
     {
@@ -72,6 +73,15 @@
       "critic_score": 9.4,
       "visual_score": 9.2,
       "key_learning": "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1"
+    },
+    {
+      "cycle": 5,
+      "timestamp": "2026-09-14T09:04:26.677730+00:00",
+      "topic": "Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO - Law.asia",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.6,
+      "visual_score": 9.4,
+      "key_learning": "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent"
     }
   ]
 }

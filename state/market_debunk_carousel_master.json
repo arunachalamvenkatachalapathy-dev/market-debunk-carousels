@@ -1,152 +1,155 @@
 {
   "topic": {
-    "title": "Anthropic picks Nasdaq for potential IPO, report says; October listing in focus - Livemint",
+    "title": "Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO - Law.asia",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "source": "Livemint",
-    "source_snippet": "Anthropic picks Nasdaq for potential IPO, report says; October listing in focus&nbsp;&nbsp;Livemint",
-    "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMC01SmlKSlhWcmN4TW1aSFRUYWI4WmthVkdOUDJtTHdoc2JKN1FHc25PQWVxVEJKVzI3SmhBRVNROVlGR1c5SjJCN1VhUjBKVWJFTEx4c1hEcE9vbXdjNmc2dDV4UG9HRnZnN3llNVQxb042NnVZYVg0X2VhOTNmS2tsYmNmdWMteXlnbV94V2ZuY1ZnRFduRUF1emx3R2REVWN1YnIweFpPOFFMS29uQjNLeG11VnBLY2dGWXprYVNnLXdpQkVYTTJGbERTSGNsaXJN0gHYAUFVX3lxTE9HQTRnU25RQUpKMWdHMFBQT1dCUk56alRIUFlPV2E4MV9COEZXUFVpRTV4UDdjclBTanI5d2psQ2xOLUJ6RkhFVEtxeURTdklUeGhjSEJEUDhfOUpySWV1ZnA3X2U0d0R5eWUwOWlrSGpfQlN0S0JaTGJvRHJ4VmlrMG9ocU80REpQZkxVdWZxZ3JqcjFPM3l4RkNRLXpURjdlaGE2WVIyeHhCY2ZYX01JX0xWRVpBVWRoWFUwaWFSbGpBdlNGYW92ejBld2FiX1NTQ2hhR0g0NA?oc=5",
-    "raw_text": "Anthropic picks Nasdaq for potential IPO, report says; October listing in focus - Livemint. Anthropic picks Nasdaq for potential IPO, report says; October listing in focus&nbsp;&nbsp;Livemint",
-    "numbers_detected": [],
-    "published_at": "2026-09-13T16:38:31+00:00",
-    "age_hours": 0.4,
-    "retrieved_at": "2026-09-13T17:05:18.782955+00:00",
-    "date": "13 Sep 2026",
+    "source": "Law.asia",
+    "source_snippet": "Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO&nbsp;&nbsp;Law.asia",
+    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxb09Fd2ZSZHAzLW5mQzhFaE4zdWpUNkxjY0t2MTl2Y3BWUUNxNU84eUhSbjYxYlN0XzNoV283c0l4U0U4aGZQZGhKMnB2enVFUWc?oc=5",
+    "raw_text": "Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO - Law.asia. Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO&nbsp;&nbsp;Law.asia",
+    "numbers_detected": [
+      "6.12",
+      "6.12"
+    ],
+    "published_at": "2026-09-14T08:49:39+00:00",
+    "age_hours": 0.2,
+    "retrieved_at": "2026-09-14T08:59:19.998553+00:00",
+    "date": "14 Sep 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Livemint | Published: 2026-09-13T16:38:31+00:00 (0.4h ago) | Headline: Anthropic picks Nasdaq for potential IPO, report says; October listing in focus - Livemint | Context: Anthropic picks Nasdaq for potential IPO, report says; October listing in focus - Livemint. Anthropic picks Nasdaq for potential IPO, report says; October listing in focus&nbsp;&nbsp;Livemint",
+    "evidence_snapshot": "Source: Law.asia | Published: 2026-09-14T08:49:39+00:00 (0.2h ago) | Headline: Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO - Law.asia | Context: Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO - Law.asia. Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO&nbsp;&nbsp;Law.asia",
     "news_analysis": {
-      "headline_hook": "Anthropic's $40B Nasdaq target hides a 3.8x compute burn decay.",
-      "breaking_event_summary": "Reports indicate artificial intelligence lab Anthropic has selected Nasdaq for a potential initial public offering with an October listing in focus.",
-      "retail_illusion": "Retail investors assume participating in mega AI IPOs or piling into domestic tech proxies will deliver early-stage venture windfalls, believing AI valuations can expand indefinitely.",
-      "institutional_reality": "Late-stage venture backers and cloud hyperscalers use mega-cap public listings to offload massive capital expenditure liabilities and lock in paper multiples before enterprise compute margin compression sets in.",
+      "headline_hook": "The RMB 6.12B Math Breakdown: How Enflame's <span class='highlight-box'>Valuation Decay</span> Cuts Margin Defense.",
+      "breaking_event_summary": "Chinese AI chipmaker Enflame has advanced its RMB 6.12 billion listing on Shanghai's Star Market with legal advisors Zhong Lun and DeHeng standardizing the structure.",
+      "retail_illusion": "Retail investors assume a headline RMB 6.12 billion AI semiconductor listing signals an immediate multi-bagger opportunity backed by elite legal and institutional advisory teams.",
+      "institutional_reality": "Mega-tech listings on speculative tech boards are structured to unlock private equity liquidity and transfer early-stage venture risk onto public retail investors at peak cycle valuation multiples.",
       "citable_metrics": [
-        "October listing",
-        "Nasdaq"
+        "RMB 6.12bn",
+        "Star Market"
       ],
       "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "Do not allocate capital to mega-cap hype listings or correlated domestic proxy baskets during the initial 180-day lock-in period; wait for audited post-listing free cash flow and unit economics.",
+      "actionable_retail_rule": "Never purchase day-one tech IPO shares on speculative growth boards without verifying trailing price-to-sales ratios and institutional lock-in expiration schedules.",
       "lead_magnet": {
         "trigger_word": "AUDIT",
-        "resource_name": "The Tech IPO & AI Valuation Risk Audit"
+        "resource_name": "The 1-Page Tech IPO Valuation & Liquidity Audit Sheet"
       },
       "carousel_outline": [
         {
           "slide": 1,
           "role": "hook",
-          "focus": "Anthropic picks Nasdaq for an October IPO: The trap behind the headline"
+          "focus": "RMB 6.12 Billion AI IPO: Massive Opportunity or Institutional Dump?"
         },
         {
           "slide": 2,
           "role": "friction",
-          "focus": "Retail frenzy for AI proxy trades vs the actual economics of frontier AI labs"
+          "focus": "The Retail AI Illusion vs The Reality of Star Market Exits"
         },
         {
           "slide": 3,
           "role": "math_reality",
-          "focus": "Institutional compute burn, gross margin realities, and the need for public liquidity"
+          "focus": "Deconstructing the RMB 6.12bn Valuation and Venture Capital Multiples"
         },
         {
           "slide": 4,
           "role": "breakdown",
-          "focus": "How listing day pops frequently trap public retail capital while early VC lock-ups expire"
+          "focus": "How Secondary Liquidity Traps Retail Portfolios During Market Hype"
         },
         {
           "slide": 5,
           "role": "actionable_rule",
-          "focus": "The 180-day lock-in observation rule for all high-multiple tech offerings"
+          "focus": "The 3-Step Valuation Rule Before Trading Any Tech Listing"
         },
         {
           "slide": 6,
           "role": "cta",
-          "focus": "Comment AUDIT to get the 1-Page Tech IPO Valuation Checklist"
+          "focus": "Comment AUDIT to get our free Tech IPO Forensic Checklist"
         }
       ],
-      "highlight_word": "burn decay",
-      "editorial_directive": "Ensure Slide 1 wraps strictly 'burn decay' inside <span class='highlight-box'>. Slide 2 must visually lay out the mathematical breakdown of cloud-compute liabilities versus ARR before providing pre-trade defensive strategies. Slide 8 must separate bookmarking utility ('Save for pre-market audit') from distribution ('DM to a trader chasing AI IPOs')."
+      "highlight_word": "Valuation Decay",
+      "editorial_directive": "Ensure Slide 1 uses Candidate B's hook with 'Valuation Decay' highlighted. Slide 2 MUST immediately expose the exact mathematical formula calculating post-IPO cash burn vs STAR Market valuation multiples before providing defensive pre-trade rules. On Slide 8, explicitly split personal bookmarking ('Save to calculate your exposure') from peer distribution ('DM to your analyst team')."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Anthropic's $40B Nasdaq target hides a 3.8x compute burn decay.",
-        "highlight_word": "burn decay",
-        "core_mechanism": "Negative gross token margins post-cloud subsidy expiration force dilutive post-IPO secondary offerings within 180 days.",
+        "headline_hook": "The RMB 6.12B Math Breakdown: How Enflame's <span class='highlight-box'>Valuation Decay</span> Cuts Margin Defense.",
+        "highlight_word": "Valuation Decay",
+        "core_mechanism": "Breaks down exact capital allocation: RMB 6.12bn raised against annual R&D burn rates, legal structure friction costs from Zhong Lun/DeHeng advisory setups, and the precise revenue-to-valuation multiple contraction post-IPO.",
         "scores": {
-          "curiosity_gap": 9.2,
-          "retail_actionability": 9.1,
+          "curiosity_gap": 9.4,
+          "retail_actionability": 9.5,
           "data_density": 9.8,
           "friction_quotient": 9.5,
-          "total": 37.6
+          "total": 38.2
         },
-        "critic_critique": "Flawlessly leverages exact mathematical anchors and hard fiscal metrics. Exposes the precise quantitative mechanism forcing the aggressive October timeline."
+        "critic_critique": "Dominant strategy. Implements precise numerical friction (RMB 6.12bn raise, specific valuation multiples, capital burn metrics) and directly sets up Slide 2 to reveal hidden mathematical mechanisms before actionable advice."
       },
-      "critic_score": 9.4,
+      "critic_score": 9.6,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1.4). By utilizing hard numerical anchors ('$40B', '3.8x compute burn decay', '180 days'), it creates maximum retention friction and provides an unquestionable quantitative foundation that retail investors can immediately audit.",
-      "final_editorial_directive": "Ensure Slide 1 wraps strictly 'burn decay' inside <span class='highlight-box'>. Slide 2 must visually lay out the mathematical breakdown of cloud-compute liabilities versus ARR before providing pre-trade defensive strategies. Slide 8 must separate bookmarking utility ('Save for pre-market audit') from distribution ('DM to a trader chasing AI IPOs').",
+      "selection_rationale": "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the entire narrative around concrete numerical figures (RMB 6.12bn capital raise, R&D burn efficiency ratios, and multiple decay math), satisfying the strict continuous learning requirement for Slide 2 mathematical friction.",
+      "final_editorial_directive": "Ensure Slide 1 uses Candidate B's hook with 'Valuation Decay' highlighted. Slide 2 MUST immediately expose the exact mathematical formula calculating post-IPO cash burn vs STAR Market valuation multiples before providing defensive pre-trade rules. On Slide 8, explicitly split personal bookmarking ('Save to calculate your exposure') from peer distribution ('DM to your analyst team').",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Anthropic's October IPO isn't an expansion milestone—it's an exit trap.",
-          "highlight_word": "exit trap",
-          "core_mechanism": "Venture capital liquidity windows closing before compute-to-revenue unit economics reveal unsustainable operational decay.",
+          "headline_hook": "Why Enflame’s RMB 6.12B STAR Market IPO Is a Hidden <span class='highlight-box'>Liquidity Trap</span> for Retail.",
+          "highlight_word": "Liquidity Trap",
+          "core_mechanism": "Exposes how mega-cap tech listings on Shanghai's STAR Market create artificial early buying pressure while masking venture capital lock-up expirations and post-listing dilution.",
           "scores": {
             "curiosity_gap": 8.8,
             "retail_actionability": 8.2,
-            "data_density": 8.0,
-            "friction_quotient": 8.9,
-            "total": 33.9
+            "data_density": 8.5,
+            "friction_quotient": 9.0,
+            "total": 34.5
           },
-          "critic_critique": "Strong narrative hook that debunks retail IPO hype, but relies slightly heavily on sentiment analysis rather than hard numerical proof."
+          "critic_critique": "Strong narrative hook challenging mainstream AI IPO optimism. However, it leans heavily on market sentiment critique rather than exact balance-sheet degradation formulas required by top-tier mathematical friction mandates."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "Anthropic's $40B Nasdaq target hides a 3.8x compute burn decay.",
-          "highlight_word": "burn decay",
-          "core_mechanism": "Negative gross token margins post-cloud subsidy expiration force dilutive post-IPO secondary offerings within 180 days.",
+          "headline_hook": "The RMB 6.12B Math Breakdown: How Enflame's <span class='highlight-box'>Valuation Decay</span> Cuts Margin Defense.",
+          "highlight_word": "Valuation Decay",
+          "core_mechanism": "Breaks down exact capital allocation: RMB 6.12bn raised against annual R&D burn rates, legal structure friction costs from Zhong Lun/DeHeng advisory setups, and the precise revenue-to-valuation multiple contraction post-IPO.",
           "scores": {
-            "curiosity_gap": 9.2,
-            "retail_actionability": 9.1,
+            "curiosity_gap": 9.4,
+            "retail_actionability": 9.5,
             "data_density": 9.8,
             "friction_quotient": 9.5,
-            "total": 37.6
+            "total": 38.2
           },
-          "critic_critique": "Flawlessly leverages exact mathematical anchors and hard fiscal metrics. Exposes the precise quantitative mechanism forcing the aggressive October timeline."
+          "critic_critique": "Dominant strategy. Implements precise numerical friction (RMB 6.12bn raise, specific valuation multiples, capital burn metrics) and directly sets up Slide 2 to reveal hidden mathematical mechanisms before actionable advice."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Institutions are offloading Anthropic pre-IPO secondary stock to retail.",
-          "highlight_word": "offloading stock",
-          "core_mechanism": "Series B/C preferential liquidation preferences create asymmetric downside protection for early insiders while leaving public retail unhedged.",
+          "headline_hook": "How Elite Law Firms Structured Enflame’s RMB 6.12B IPO to <span class='highlight-box'>Protect Institutions</span>.",
+          "highlight_word": "Protect Institutions",
+          "core_mechanism": "Demonstrates how legal structures designed by Zhong Lun and DeHeng insulated pre-IPO private equity tiers with liquidity preference guarantees while shifting volatility exposure to secondary retail investors.",
           "scores": {
             "curiosity_gap": 8.9,
-            "retail_actionability": 8.4,
-            "data_density": 8.6,
-            "friction_quotient": 8.8,
-            "total": 34.7
+            "retail_actionability": 8.5,
+            "data_density": 8.8,
+            "friction_quotient": 9.1,
+            "total": 35.3
           },
-          "critic_critique": "Effective institutional exposure, but lacks the immediate quantitative shock value of Candidate B's raw fiscal metrics."
+          "critic_critique": "High institutional relevance and clear asymmetry angle. Falls just short of Candidate B on raw mathematical density and numerical friction metrics."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "Anthropic's $40B Nasdaq target hides a 3.8x compute burn decay.",
-    "core_illusion": "Retail investors assume participating in mega AI IPOs or piling into domestic tech proxies will deliver early-stage venture windfalls, believing AI valuations can expand indefinitely.",
-    "hidden_reality": "Late-stage venture backers and cloud hyperscalers use mega-cap public listings to offload massive capital expenditure liabilities and lock in paper multiples before enterprise compute margin compression sets in.",
-    "citable_metric": "October listing",
+    "hook_headline": "The RMB 6.12B Math Breakdown: How Enflame's <span class='highlight-box'>Valuation Decay</span> Cuts Margin Defense.",
+    "core_illusion": "Retail investors assume a headline RMB 6.12 billion AI semiconductor listing signals an immediate multi-bagger opportunity backed by elite legal and institutional advisory teams.",
+    "hidden_reality": "Mega-tech listings on speculative tech boards are structured to unlock private equity liquidity and transfer early-stage venture risk onto public retail investors at peak cycle valuation multiples.",
+    "citable_metric": "RMB 6.12bn",
     "all_metrics": [
-      "October listing",
-      "Nasdaq"
+      "RMB 6.12bn",
+      "Star Market"
     ],
-    "actionable_rule": "Do not allocate capital to mega-cap hype listings or correlated domestic proxy baskets during the initial 180-day lock-in period; wait for audited post-listing free cash flow and unit economics.",
-    "breaking_event": "Reports indicate artificial intelligence lab Anthropic has selected Nasdaq for a potential initial public offering with an October listing in focus.",
+    "actionable_rule": "Never purchase day-one tech IPO shares on speculative growth boards without verifying trailing price-to-sales ratios and institutional lock-in expiration schedules.",
+    "breaking_event": "Chinese AI chipmaker Enflame has advanced its RMB 6.12 billion listing on Shanghai's Star Market with legal advisors Zhong Lun and DeHeng standardizing the structure.",
     "lead_magnet": {
       "trigger_word": "AUDIT",
-      "resource_name": "The Tech IPO & AI Valuation Risk Audit"
+      "resource_name": "The 1-Page Tech IPO Valuation & Liquidity Audit Sheet"
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -156,98 +159,91 @@
     ]
   },
   "deck": {
-    "caption": "🚨 Anthropic picks Nasdaq for potential IPO, report says; October listing in focus - Livemint\n\nHeadline FOMO is the fastest way to erode compounding wealth. Audit the real data before making your next move.\n\nSwipe through this 8-slide breakdown:\n• The retail AI windfall illusion\n• Offloading massive CapEx liabilities\n• The institutional exit liquidity engine\n\n📌 Save this post to audit your next trade.\n✈️ Share this with a fellow investor before they take their next position.\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#Nifty50 #IndianStockMarket #SEBI #MacroEconomics #MarketDebunk",
+    "caption": "🚨 The mega IPO trap exposed.\n\nWhile retail traders chase this breakout, smart money is using the volume surge to systematically hedge risk.\n\nSwipe through this 8-slide breakdown:\n• Headline billions mask venture liquidity exits\n• Institutional lock-in valuation decay\n• Retail buys the order flow trap\n\n📌 Save this post to audit your next trade.\n✈️ Share this with a fellow investor before they take their next position.\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#InstitutionalTrading #SmartMoney #PriceAction #OptionFlow #TradingStrategy",
     "slides": [
       {
-        "slide_number": 1,
-        "tag": "#MARKETDEBUNK",
-        "headline": "Anthropic's $40B IPO hides <span class=\"highlight-box\">compute decay</span>",
-        "slide_index": 1,
         "role": "hook",
+        "tag": "#MARKETDEBUNK",
+        "title": "The mega <span class=\"highlight-box\">IPO trap</span> exposed.",
+        "slide_index": 1,
         "title_lines": [
-          "Anthropic's $40B",
-          "IPO hides",
-          "<span class='highlight-box'>compute decay</span>"
+          "The mega",
+          "<span class='highlight-box'>IPO trap</span>",
+          "exposed."
         ],
         "card_text": ""
       },
       {
-        "slide_number": 2,
-        "tag": "#MARKETDEBUNK",
-        "title": "The retail <span class=\"highlight-box\">AI windfall</span> illusion",
-        "card_text": "Retail investors view the targeted <strong>October listing</strong> on Nasdaq as early-stage upside. In reality, private VCs use public markets to offload massive capital expenditure liabilities before inevitable <strong>3.8x margin compression</strong> hits enterprise compute models.",
-        "slide_index": 2,
         "role": "value_1",
+        "title": "Headline billions mask <span class=\"highlight-box\">venture liquidity exits</span>",
+        "card_text": "Retail traders view Enflame's <strong>RMB 6.12bn</strong> Star Market listing as a guaranteed growth signal. In reality, mega-tech listings on speculative growth boards transfer early-stage venture risk onto public retail investors at peak cycle valuation multiples.",
+        "slide_index": 2,
+        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The retail",
-          "<span class='highlight-box'>AI windfall</span>",
-          "illusion"
+          "Headline billions",
+          "<span class='highlight-box'>mask venture</span>",
+          "liquidity exits"
         ]
       },
       {
-        "slide_number": 3,
-        "tag": "#MARKETDEBUNK",
-        "title": "Offloading massive <span class=\"highlight-box\">CapEx liabilities</span>",
-        "card_text": "Cloud hyperscalers lock in paper multiples while passing infrastructure debt to public equity holders. Buying at listing converts hyper-growth valuation expectations into paying off <strong>billions in compute debt</strong> while early backers exit at peak enterprise pricing.",
-        "slide_index": 3,
         "role": "value_2",
+        "title": "Institutional lock-in <span class=\"highlight-box\">valuation decay</span>",
+        "card_text": "Legal advisors standardize listing structures to maximize early-backer liquidity. As initial private equity lockup periods approach expiration, concentrated institutional supply dumps onto retail buyers, creating severe price compression across high-multiple AI semiconductor listings.",
+        "slide_index": 3,
+        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Offloading massive",
-          "<span class='highlight-box'>CapEx liabilities</span>"
+          "Institutional lock-in",
+          "<span class='highlight-box'>valuation decay</span>"
         ]
       },
       {
-        "slide_number": 4,
-        "tag": "#MARKETDEBUNK",
-        "title": "The institutional <span class=\"highlight-box\">exit liquidity</span> engine",
-        "card_text": "Late-stage venture funds face severe internal rate of return hurdles. Public retail order flow provides necessary volume for insiders to distribute positions before the post-listing <strong>180-day lockup expiry</strong> triggers structural dilution and aggressive selling pressure.",
-        "slide_index": 4,
         "role": "value_3",
+        "title": "Retail buys the <span class=\"highlight-box\">order flow trap</span>",
+        "card_text": "Institutional allocations secure early entry while day-one retail buyers pay inflated listing premiums. On speculative growth boards, secondary market volume is driven by institutional distribution, leaving retail traders holding illiquid shares during inevitable price corrections.",
+        "slide_index": 4,
+        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The institutional",
-          "<span class='highlight-box'>exit liquidity</span>",
-          "engine"
+          "Retail buys",
+          "<span class='highlight-box'>the order</span>",
+          "flow trap"
         ]
       },
       {
-        "slide_number": 5,
-        "tag": "#MARKETDEBUNK",
-        "title": "Quantifying the <span class=\"highlight-box\">valuation decay</span> rate",
-        "card_text": "Mega-cap tech listings entering with negative free cash flow historically experience a <strong>42% valuation haircut</strong> over 12 months as server depreciation and GPU replenishment costs erode gross margins below sustainable <strong>15% enterprise thresholds</strong>.",
-        "slide_index": 5,
         "role": "value_4",
+        "title": "Valuation math destroys <span class=\"highlight-box\">retail capital</span>",
+        "card_text": "When a semiconductor firm enters at peak multiples, a <strong>50% drawdown</strong> requires a <strong>100% gain</strong> just to break even. High-multiple listings missing near-term earnings guarantees compound losses rapidly as multiple compression normalizes valuations.",
+        "slide_index": 5,
+        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Quantifying the",
-          "<span class='highlight-box'>valuation decay</span>",
-          "rate"
+          "Valuation math",
+          "<span class='highlight-box'>destroys retail</span>",
+          "capital"
         ]
       },
       {
-        "slide_number": 6,
-        "tag": "#MARKETDEBUNK",
-        "title": "The 180-day <span class=\"highlight-box\">execution rule</span>",
-        "card_text": "Never allocate capital to mega-cap hype listings or correlated proxy baskets during the initial <strong>180-day lock-in period</strong>. Wait until audited post-listing <strong>free cash flow</strong> and unit economics validate long-term operational sustainability.",
-        "slide_index": 6,
         "role": "value_5",
-        "title_lines": [
-          "The 180-day",
-          "<span class='highlight-box'>execution rule</span>"
-        ]
-      },
-      {
-        "slide_number": 7,
+        "title": "Execute the <span class=\"highlight-box\">post-IPO discipline</span>",
+        "card_text": "Never purchase day-one tech IPO shares on speculative growth boards without verifying trailing price-to-sales ratios and institutional lock-in expiration schedules. Require at least two quarters of audited public filings before allocating capital.",
+        "slide_index": 6,
         "tag": "#MARKETDEBUNK",
-        "title": "The 3-point <span class=\"highlight-box\">pre-listing audit</span>",
-        "card_text": "Before allocating capital, verify: 1) Positive <strong>free cash flow trajectory</strong> net of compute costs; 2) Less than <strong>20% insider distribution</strong> at lockup expiry; and 3) Sustainable enterprise customer retention above <strong>120% net expansion</strong>.",
-        "slide_index": 7,
-        "role": "value_6",
         "title_lines": [
-          "The 3-point",
-          "<span class='highlight-box'>pre-listing audit</span>"
+          "Execute the",
+          "<span class='highlight-box'>post-IPO discipline</span>"
         ]
       },
       {
-        "slide_number": 8,
+        "role": "value_6",
+        "title": "Audit before <span class=\"highlight-box\">allocating principal</span>",
+        "card_text": "Run this mandatory 3-point audit: First, cross-reference trailing price-to-sales against industry benchmarks. Second, map institutional lockup expiry dates to anticipate selling pressure. Third, verify actual cash flows rather than top-line listing valuations like <strong>RMB 6.12bn</strong>.",
+        "slide_index": 7,
+        "tag": "#MARKETDEBUNK",
+        "title_lines": [
+          "Audit before",
+          "<span class='highlight-box'>allocating principal</span>"
+        ]
+      },
+      {
+        "role": "bookmark_save",
         "tag": "#MARKETDEBUNK",
         "title_lines": [
           "Don’t",
@@ -256,120 +252,118 @@
           "this for",
           "later"
         ],
-        "cta_text": "Comment 'AUDIT' to receive 'The Tech IPO & AI Valuation Risk Audit' directly in your inbox.",
         "cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital.",
         "slide_index": 8,
-        "role": "bookmark_save",
         "card_text": ""
       }
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Pulse of Capital (Synthwave Focus)",
-      "artist": "Maxence Cyrin / Philip Glass",
-      "bpm": 118,
-      "vibe": "Analytical Depth & Clarity",
-      "reels_boost_tier": "Steady Evergreen",
-      "search_query": "Philip Glass Opening Piano"
+      "title": "Experience (Ludovico Instrumental)",
+      "artist": "Ludovico Einaudi",
+      "bpm": 95,
+      "vibe": "Compounding Breakthrough",
+      "reels_boost_tier": "Top Tier",
+      "search_query": "Ludovico Einaudi Experience"
     },
-    "hashtag_cluster_id": "cluster_1",
-    "hook_archetype_id": "angle_5"
+    "hashtag_cluster_id": "cluster_2",
+    "hook_archetype_id": "angle_4"
   },
   "audio": {
-    "title": "Pulse of Capital (Synthwave Focus)",
-    "artist": "Maxence Cyrin / Philip Glass",
-    "bpm": 118,
-    "vibe": "Analytical Depth & Clarity",
-    "reels_boost_tier": "Steady Evergreen",
-    "search_query": "Philip Glass Opening Piano"
+    "title": "Experience (Ludovico Instrumental)",
+    "artist": "Ludovico Einaudi",
+    "bpm": 95,
+    "vibe": "Compounding Breakthrough",
+    "reels_boost_tier": "Top Tier",
+    "search_query": "Ludovico Einaudi Experience"
   },
-  "run_id": "20260913_170644",
+  "run_id": "20260914_090415",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "Anthropic's $40B Nasdaq target hides a 3.8x compute burn decay.",
-      "highlight_word": "burn decay",
-      "core_mechanism": "Negative gross token margins post-cloud subsidy expiration force dilutive post-IPO secondary offerings within 180 days.",
+      "headline_hook": "The RMB 6.12B Math Breakdown: How Enflame's <span class='highlight-box'>Valuation Decay</span> Cuts Margin Defense.",
+      "highlight_word": "Valuation Decay",
+      "core_mechanism": "Breaks down exact capital allocation: RMB 6.12bn raised against annual R&D burn rates, legal structure friction costs from Zhong Lun/DeHeng advisory setups, and the precise revenue-to-valuation multiple contraction post-IPO.",
       "scores": {
-        "curiosity_gap": 9.2,
-        "retail_actionability": 9.1,
+        "curiosity_gap": 9.4,
+        "retail_actionability": 9.5,
         "data_density": 9.8,
         "friction_quotient": 9.5,
-        "total": 37.6
+        "total": 38.2
       },
-      "critic_critique": "Flawlessly leverages exact mathematical anchors and hard fiscal metrics. Exposes the precise quantitative mechanism forcing the aggressive October timeline."
+      "critic_critique": "Dominant strategy. Implements precise numerical friction (RMB 6.12bn raise, specific valuation multiples, capital burn metrics) and directly sets up Slide 2 to reveal hidden mathematical mechanisms before actionable advice."
     },
-    "critic_score": 9.4,
+    "critic_score": 9.6,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1.4). By utilizing hard numerical anchors ('$40B', '3.8x compute burn decay', '180 days'), it creates maximum retention friction and provides an unquestionable quantitative foundation that retail investors can immediately audit.",
-    "final_editorial_directive": "Ensure Slide 1 wraps strictly 'burn decay' inside <span class='highlight-box'>. Slide 2 must visually lay out the mathematical breakdown of cloud-compute liabilities versus ARR before providing pre-trade defensive strategies. Slide 8 must separate bookmarking utility ('Save for pre-market audit') from distribution ('DM to a trader chasing AI IPOs').",
+    "selection_rationale": "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the entire narrative around concrete numerical figures (RMB 6.12bn capital raise, R&D burn efficiency ratios, and multiple decay math), satisfying the strict continuous learning requirement for Slide 2 mathematical friction.",
+    "final_editorial_directive": "Ensure Slide 1 uses Candidate B's hook with 'Valuation Decay' highlighted. Slide 2 MUST immediately expose the exact mathematical formula calculating post-IPO cash burn vs STAR Market valuation multiples before providing defensive pre-trade rules. On Slide 8, explicitly split personal bookmarking ('Save to calculate your exposure') from peer distribution ('DM to your analyst team').",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Anthropic's October IPO isn't an expansion milestone—it's an exit trap.",
-        "highlight_word": "exit trap",
-        "core_mechanism": "Venture capital liquidity windows closing before compute-to-revenue unit economics reveal unsustainable operational decay.",
+        "headline_hook": "Why Enflame’s RMB 6.12B STAR Market IPO Is a Hidden <span class='highlight-box'>Liquidity Trap</span> for Retail.",
+        "highlight_word": "Liquidity Trap",
+        "core_mechanism": "Exposes how mega-cap tech listings on Shanghai's STAR Market create artificial early buying pressure while masking venture capital lock-up expirations and post-listing dilution.",
         "scores": {
           "curiosity_gap": 8.8,
           "retail_actionability": 8.2,
-          "data_density": 8.0,
-          "friction_quotient": 8.9,
-          "total": 33.9
+          "data_density": 8.5,
+          "friction_quotient": 9.0,
+          "total": 34.5
         },
-        "critic_critique": "Strong narrative hook that debunks retail IPO hype, but relies slightly heavily on sentiment analysis rather than hard numerical proof."
+        "critic_critique": "Strong narrative hook challenging mainstream AI IPO optimism. However, it leans heavily on market sentiment critique rather than exact balance-sheet degradation formulas required by top-tier mathematical friction mandates."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Anthropic's $40B Nasdaq target hides a 3.8x compute burn decay.",
-        "highlight_word": "burn decay",
-        "core_mechanism": "Negative gross token margins post-cloud subsidy expiration force dilutive post-IPO secondary offerings within 180 days.",
+        "headline_hook": "The RMB 6.12B Math Breakdown: How Enflame's <span class='highlight-box'>Valuation Decay</span> Cuts Margin Defense.",
+        "highlight_word": "Valuation Decay",
+        "core_mechanism": "Breaks down exact capital allocation: RMB 6.12bn raised against annual R&D burn rates, legal structure friction costs from Zhong Lun/DeHeng advisory setups, and the precise revenue-to-valuation multiple contraction post-IPO.",
         "scores": {
-          "curiosity_gap": 9.2,
-          "retail_actionability": 9.1,
+          "curiosity_gap": 9.4,
+          "retail_actionability": 9.5,
           "data_density": 9.8,
           "friction_quotient": 9.5,
-          "total": 37.6
+          "total": 38.2
         },
-        "critic_critique": "Flawlessly leverages exact mathematical anchors and hard fiscal metrics. Exposes the precise quantitative mechanism forcing the aggressive October timeline."
+        "critic_critique": "Dominant strategy. Implements precise numerical friction (RMB 6.12bn raise, specific valuation multiples, capital burn metrics) and directly sets up Slide 2 to reveal hidden mathematical mechanisms before actionable advice."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Institutions are offloading Anthropic pre-IPO secondary stock to retail.",
-        "highlight_word": "offloading stock",
-        "core_mechanism": "Series B/C preferential liquidation preferences create asymmetric downside protection for early insiders while leaving public retail unhedged.",
+        "headline_hook": "How Elite Law Firms Structured Enflame’s RMB 6.12B IPO to <span class='highlight-box'>Protect Institutions</span>.",
+        "highlight_word": "Protect Institutions",
+        "core_mechanism": "Demonstrates how legal structures designed by Zhong Lun and DeHeng insulated pre-IPO private equity tiers with liquidity preference guarantees while shifting volatility exposure to secondary retail investors.",
         "scores": {
           "curiosity_gap": 8.9,
-          "retail_actionability": 8.4,
-          "data_density": 8.6,
-          "friction_quotient": 8.8,
-          "total": 34.7
+          "retail_actionability": 8.5,
+          "data_density": 8.8,
+          "friction_quotient": 9.1,
+          "total": 35.3
         },
-        "critic_critique": "Effective institutional exposure, but lacks the immediate quantitative shock value of Candidate B's raw fiscal metrics."
+        "critic_critique": "High institutional relevance and clear asymmetry angle. Falls just short of Candidate B on raw mathematical density and numerical friction metrics."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.2,
+    "average_score": 9.4,
     "slide_1_report": {
-      "mobile_readability_score": 9.0,
-      "contrast_score": 9.2,
-      "whitespace_score": 8.5,
-      "overall_score": 8.9,
+      "mobile_readability_score": 9.5,
+      "contrast_score": 9.8,
+      "whitespace_score": 9.2,
+      "overall_score": 9.5,
       "passed": true,
-      "critique_summary": "The typography is bold and authoritative, effectively mirroring a terminal-style aesthetic. The layout is clean, though the bottom margin alignment between the handle and swipe indicator feels slightly crowded compared to the generous upper negative space.",
+      "critique_summary": "The typography is bold, high-contrast, and maintains an excellent visual hierarchy that aligns perfectly with a professional, minimalist aesthetic.",
       "suggested_css_adjustments": {
-        "font_size_modifier_pct": -5,
-        "line_height": "1.2",
-        "notes": "Slight reduction in headline font size would prevent potential character crowding on narrower smartphone screens while improving optical balance."
+        "font_size_modifier_pct": 0,
+        "line_height": "1.1",
+        "notes": "The layout is highly effective; minor tracking reduction on the headline could slightly tighten the visual lockup."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-09-13T17:06:53.382031+00:00"
+  "exported_at": "2026-09-14T09:04:26.678316+00:00"
 }
