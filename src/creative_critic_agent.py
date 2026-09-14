@@ -71,8 +71,8 @@ TASK:
 
 2. Act as a harsh editorial critic. Evaluate each candidate on a 0-10 scale:
    - curiosity_gap (0-10): Will a user immediately swipe slide 1?
+   - viral_potential (0-10): Does this trigger FOMO, outrage, or extreme greed?
    - retail_actionability (0-10): Does it deliver concrete pre-trade defense?
-   - data_density (0-10): Does it cite specific numbers, percentages, or mechanisms?
    - friction_quotient (0-10): Does it challenge comfortable assumptions?
 
 3. Calculate total_score (sum of 4 criteria, max 40) and pick the definitive winning candidate.
