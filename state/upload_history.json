@@ -357,8 +357,16 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "success"
+      },
+      "age_at_audit_hours": 63.7
     },
     {
       "title": "NSE IPO: GMP signals 12% listing premium ahead of September 17 opening - Fortune India",
@@ -386,8 +394,16 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "success"
+      },
+      "age_at_audit_hours": 48.9
     },
     {
       "title": "Tata Sons faces mandatory listing after RBI rejects deregistration bid - The Times of India",
@@ -464,6 +480,35 @@
           "success": true,
           "post_id": "1247247545146839_122101670505474347",
           "url": "https://www.facebook.com/1247247545146839_122101670505474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    },
+    {
+      "title": "Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO - Law.asia",
+      "media_id": "18118447871474215",
+      "timestamp": "2026-09-14T09:06:05.263813+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "angle_4",
+      "hashtag_cluster": "cluster_2",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18118447871474215",
+          "permalink": "https://www.instagram.com/p/DdQxf76G3K6/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122102149959474347",
+          "url": "https://www.facebook.com/1247247545146839_122102149959474347"
         },
         "telegram": {
           "success": true
