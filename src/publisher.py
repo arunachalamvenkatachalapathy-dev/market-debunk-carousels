@@ -223,6 +223,11 @@ class Publisher:
                         "🚨 Meta Action Block Detected (Error %s:%s - %s). Account is temporarily velocity-throttled.",
                         err_code, err_subcode, err_dict.get("error_user_title", "Action is blocked")
                     )
+                    self.send_telegram_emergency_alert(
+                        "INSTAGRAM ACTION BLOCK DETECTED",
+                        f"Account <b>@Market_Debunk</b> hit a Meta Action Block (Error {err_code}:{err_subcode}).\n\n"
+                        f"👉 <b>Action Required:</b> Open the Instagram app for @Market_Debunk on your mobile device, review the security prompt, and confirm 'This was me' to restore automated posting."
+                    )
                 raise RuntimeError(f"Publish failed: {err_dict}")
 
             media_id = pub_res["id"]
@@ -322,7 +327,26 @@ class Publisher:
             )
             return {"success": False, "error": str(e)}
 
-    # ── Telegram Staggered Notifier ─────────────────────────────────────────
+    # ── Telegram Emergency & Staggered Notifier ────────────────────────────
+
+    def send_telegram_emergency_alert(self, headline: str, message: str):
+        """Dispatches immediate high-priority diagnostic alert to operator via Telegram."""
+        bot_token = settings.TELEGRAM_BOT_TOKEN.strip()
+        chat_id = settings.TELEGRAM_CHAT_ID.strip()
+        if not bot_token or not chat_id:
+            return
+        if not chat_id.startswith("-") and not chat_id.startswith("@"):
+            chat_id = f"-100{chat_id}"
+        try:
+            alert_text = f"🚨 <b>{headline}</b>\n\n{message}\n\n<i>Timestamp: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}</i>"
+            requests.post(
+                f"https://api.telegram.org/bot{bot_token}/sendMessage",
+                json={"chat_id": chat_id, "text": alert_text, "parse_mode": "HTML"},
+                timeout=8
+            )
+            logger.info("✓ Dispatched Telegram emergency alert for Action Block.")
+        except Exception as e:
+            logger.warning("Failed to dispatch Telegram emergency alert: %s", e)
 
     def send_telegram_notification(self, title: str, caption: str, instagram_url: Optional[str], pdf_path: str) -> dict:
         bot_token = settings.TELEGRAM_BOT_TOKEN.strip()

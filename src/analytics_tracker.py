@@ -70,9 +70,10 @@ class AnalyticsFeedbackEngine:
 
                 if age_hours >= min_age_hours:
                     media_id = item.get("media_id")
-                    if media_id and token:
-                        logger.info("🔍 Pinging Meta Graph API 48h insights for post '%s' (Media ID: %s)...", item.get("title"), media_id)
-                        insights = self._fetch_graph_insights(media_id, token)
+                    fb_post_id = item.get("publish_results", {}).get("facebook", {}).get("post_id")
+                    if (media_id or fb_post_id) and (token or settings.FACEBOOK_ACCESS_TOKEN):
+                        logger.info("🔍 Pinging Meta Graph API 48h insights for post '%s' (Media ID: %s, FB ID: %s)...", item.get("title"), media_id, fb_post_id)
+                        insights = self._fetch_graph_insights(media_id, token, fb_post_id=fb_post_id)
                         item["insights"] = insights
                         item["insights_fetched_48h"] = True
                         item["age_at_audit_hours"] = round(age_hours, 1)
@@ -105,43 +106,80 @@ class AnalyticsFeedbackEngine:
 
         return uploads
 
-    def _fetch_graph_insights(self, media_id: str, token: str) -> Dict[str, Any]:
-        """Fetches live carousel metrics from Meta Graph API."""
+    def _fetch_graph_insights(self, media_id: str, token: str, fb_post_id: Optional[str] = None) -> Dict[str, Any]:
+        """Fetches live carousel and Facebook metrics using modern Graph API v19+ endpoints."""
         metrics = {
             "saves": 0,
             "shares": 0,
             "impressions": 0,
             "reach": 0,
+            "total_interactions": 0,
+            "fb_reach": 0,
+            "fb_engaged_users": 0,
             "save_to_reach_pct": 0.0,
             "status": "success"
         }
-        try:
-            url = f"https://graph.facebook.com/{settings.INSTAGRAM_GRAPH_VERSION}/{media_id}/insights"
-            params = {
-                "metric": "carousel_album_engagement,impressions,reach,saved",
-                "access_token": token
-            }
-            res = requests.get(url, params=params, timeout=15).json()
-            if "data" in res:
-                for entry in res["data"]:
-                    name = entry.get("name")
-                    val = entry.get("values", [{}])[0].get("value", 0)
-                    if name == "saved":
-                        metrics["saves"] = val
-                    elif name == "impressions":
-                        metrics["impressions"] = val
-                    elif name == "reach":
-                        metrics["reach"] = val
-                    elif name == "carousel_album_engagement":
-                        metrics["engagement"] = val
+        
+        # 1. Query Instagram Carousel Insights
+        if media_id and media_id != "simulated_id":
+            try:
+                url = f"https://graph.facebook.com/{settings.INSTAGRAM_GRAPH_VERSION}/{media_id}/insights"
+                # Modern v19+ metrics for Carousel Album (deprecated carousel_album_engagement replaced with total_interactions)
+                params = {
+                    "metric": "saved,reach,shares,total_interactions",
+                    "access_token": token
+                }
+                res = requests.get(url, params=params, timeout=15).json()
 
-                reach = metrics.get("reach", 0)
-                saves = metrics.get("saves", 0)
-                if reach > 0:
-                    metrics["save_to_reach_pct"] = round((saves / reach) * 100, 2)
-        except Exception as e:
-            logger.warning("Graph API query failed for media %s: %s", media_id, e)
-            metrics["status"] = f"error: {str(e)}"
+                if "error" in res:
+                    err_msg = res["error"].get("message", "unknown error")
+                    logger.warning("Meta Graph API Instagram insights warning for %s: %s", media_id, err_msg)
+                    # Fallback to minimal core metrics
+                    fallback_params = {"metric": "saved,reach", "access_token": token}
+                    fallback_res = requests.get(url, params=fallback_params, timeout=15).json()
+                    if "data" in fallback_res:
+                        res = fallback_res
+                    else:
+                        metrics["status"] = f"api_error: {err_msg}"
+
+                if "data" in res:
+                    for entry in res["data"]:
+                        name = entry.get("name")
+                        val = entry.get("values", [{}])[0].get("value", 0)
+                        if name == "saved":
+                            metrics["saves"] = val
+                        elif name == "reach":
+                            metrics["reach"] = val
+                        elif name == "shares":
+                            metrics["shares"] = val
+                        elif name == "total_interactions":
+                            metrics["total_interactions"] = val
+
+                    reach = metrics.get("reach", 0)
+                    saves = metrics.get("saves", 0)
+                    if reach > 0:
+                        metrics["save_to_reach_pct"] = round((saves / reach) * 100, 2)
+            except Exception as e:
+                logger.warning("Graph API query failed for media %s: %s", media_id, e)
+                metrics["status"] = f"error: {str(e)}"
+
+        # 2. Query Facebook Post Insights (if cross-posted to Facebook)
+        fb_token = settings.FACEBOOK_ACCESS_TOKEN.strip()
+        if fb_post_id and fb_token:
+            try:
+                fb_url = f"https://graph.facebook.com/{settings.INSTAGRAM_GRAPH_VERSION}/{fb_post_id}/insights"
+                fb_res = requests.get(fb_url, params={"metric": "post_impressions,post_engaged_users", "access_token": fb_token}, timeout=10).json()
+                if "data" in fb_res:
+                    for entry in fb_res["data"]:
+                        name = entry.get("name")
+                        val = entry.get("values", [{}])[0].get("value", 0)
+                        if name == "post_impressions":
+                            metrics["fb_reach"] = val
+                        elif name == "post_engaged_users":
+                            metrics["fb_engaged_users"] = val
+            except Exception as fbe:
+                logger.debug("Facebook post insights non-fatal note: %s", fbe)
+
         return metrics
 
     def _update_ledger(self, post_record: Dict[str, Any]):

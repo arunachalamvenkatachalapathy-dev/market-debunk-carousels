@@ -22,8 +22,8 @@ logger = logging.getLogger(__name__)
 # High-priority fresh Indian financial RSS endpoints
 RSS_FEEDS = [
     {
-        "name": "Google News India Finance (Past 2 Days)",
-        "url": "https://news.google.com/rss/search?q=(SEBI+OR+RBI+OR+Nifty+OR+Sensex+OR+IPO+OR+%22Stock+Market%22)+when:2d&hl=en-IN&gl=IN&ceid=IN:en",
+        "name": "Google News India Retail Financial Demand (Past 2 Days)",
+        "url": "https://news.google.com/rss/search?q=(%22Mutual+Fund%22+OR+%22Penny+Stock%22+OR+Multibagger+OR+Scam+OR+%22Options+Trading%22+OR+%22Stock+Market+Loss%22+OR+Nifty+OR+SEBI)+when:2d&hl=en-IN&gl=IN&ceid=IN:en",
         "priority": 1
     },
     {
@@ -32,16 +32,37 @@ RSS_FEEDS = [
         "priority": 2
     },
     {
-        "name": "Moneycontrol Economy & Policy",
-        "url": "https://www.moneycontrol.com/rss/economy.xml",
+        "name": "Livemint Markets",
+        "url": "https://www.livemint.com/rss/markets",
         "priority": 3
     },
     {
-        "name": "Livemint Markets",
-        "url": "https://www.livemint.com/rss/markets",
+        "name": "Economic Times Wealth & Personal Finance",
+        "url": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms",
         "priority": 4
     }
 ]
+
+
+# ── 2026 Viral Retail Demand & Intent Lexicon ──────────────────────────────
+RETAIL_DEMAND_KEYWORDS = {
+    "WEALTH_LEAK": [
+        "mutual fund", "sip", "expense ratio", "hidden fee", "hidden charges", "inflation",
+        "tax", "capital gains", "pf", "epfo", "fixed deposit", "fd rates", "drawdown", "portfolio loss"
+    ],
+    "MARKET_TRAP": [
+        "penny stock", "f&o", "options trading", "call option", "put option", "multibagger",
+        "scam", "telegram", "pump and dump", "operator", "crash", "trap", "fall", "losses", "sebi penalty"
+    ],
+    "SMART_MONEY_EDGE": [
+        "fii", "dii", "insider", "block deal", "bulk deal", "promoter", "dump", "valuation",
+        "bubble", "overvalued", "smart money", "institutional buying"
+    ],
+    "GOVERNMENT_SEBI_DEFENSE": [
+        "sebi circular", "sebi rule", "rbi mandate", "penalty", "new rule", "ban", "compliance",
+        "margin trading", "expiry rule"
+    ]
+}
 
 
 class ResearchEngine:
@@ -89,6 +110,80 @@ class ResearchEngine:
             pass
 
         return None
+
+    def fetch_trending_search_queries(self) -> List[str]:
+        """Scrapes real-time high-volume search queries from YouTube/Google Autocomplete."""
+        seed_terms = [
+            "share market loss",
+            "mutual fund scam",
+            "penny stocks to buy",
+            "options trading loss",
+            "nifty crash",
+            "f&o loss recovery"
+        ]
+        trends = []
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+        for seed in seed_terms:
+            try:
+                encoded = requests.utils.quote(seed)
+                url = f"http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q={encoded}"
+                res = requests.get(url, headers=headers, timeout=3).json()
+                if len(res) > 1 and isinstance(res[1], list):
+                    trends.extend(res[1][:4])
+            except Exception:
+                continue
+        return list(set(trends))
+
+    def calculate_viral_demand_score(self, cand: Dict[str, Any], search_trends: List[str]) -> Tuple[float, str]:
+        """
+        Calculates a quantitative Viral Demand Score (0-100) based on:
+        1. Retail Search Demand Keywords (40 pts)
+        2. Emotional Friction & Loss/Greed Triggers (30 pts)
+        3. Numeric Density (20 pts)
+        4. Freshness Recency (10 pts)
+        5. Trend Alignment Bonus (10 pts)
+        """
+        text = f"{cand.get('title', '')} {cand.get('snippet', '')}".lower()
+
+        # 1. Retail Intent Category matching
+        category = "MARKET_TRAP"
+        cat_matches = {}
+        for cat, kws in RETAIL_DEMAND_KEYWORDS.items():
+            count = sum(1 for kw in kws if kw in text)
+            cat_matches[cat] = count
+
+        best_cat = max(cat_matches, key=cat_matches.get)
+        category_score = min(cat_matches[best_cat] * 12.0, 40.0)
+        if cat_matches[best_cat] > 0:
+            category = best_cat
+
+        # 2. Emotional Friction Triggers
+        friction_words = [
+            "trap", "loss", "losses", "scam", "crash", "danger", "fake", "truth",
+            "exposed", "hidden", "fail", "shocking", "plunge", "beware", "cheat",
+            "bubble", "zero", "wipe", "illegal", "penalty"
+        ]
+        friction_matches = sum(1 for fw in friction_words if fw in text)
+        friction_score = min(friction_matches * 10.0, 30.0)
+
+        # 3. Numeric Specificity
+        num_count = len(cand.get("numbers_detected", []))
+        numeric_score = min(num_count * 5.0, 20.0)
+
+        # 4. Freshness (up to 10 pts)
+        age_hours = cand.get("age_hours", 24.0)
+        freshness_score = max(0.0, (48.0 - age_hours) / 48.0 * 10.0)
+
+        # 5. Search Trend Alignment Bonus (10 pts)
+        trend_bonus = 0.0
+        for trend in search_trends:
+            words = [w for w in trend.lower().split() if len(w) > 3]
+            if words and any(w in text for w in words):
+                trend_bonus = 10.0
+                break
+
+        total = category_score + friction_score + numeric_score + freshness_score + trend_bonus
+        return round(total, 1), category
 
     def fetch_marketaux_news(self, now: datetime, cutoff: datetime) -> List[Dict[str, Any]]:
         """Queries Marketaux API for real-time Indian stock market news."""
@@ -302,15 +397,20 @@ class ResearchEngine:
             cand["numbers_detected"] = clean_nums[:6]
             eligible.append(cand)
 
-        logger.info("Found %d eligible fresh news candidates within past %dh.", len(eligible), max_age_hours)
+        # ── Step 5: SEO Demand & Intent Scoring (Replacing Naive Freshness Sort) ──
+        search_trends = self.fetch_trending_search_queries()
+        logger.info("Mined %d real-time search demand trends from YouTube/Google Suggest.", len(search_trends))
 
-        if not eligible:
-            logger.warning("Zero fresh candidates passed strict 48h filter; re-querying Google News with broader market terms...")
-            return self._emergency_fresh_market_query(now)
+        for cand in eligible:
+            score, cat = self.calculate_viral_demand_score(cand, search_trends)
+            cand["viral_demand_score"] = score
+            cand["topic_category"] = cat
 
-        # Sort by freshness (newest first)
-        eligible.sort(key=lambda c: c["age_hours"])
+        # Sort strictly by Viral Demand Score (Highest Retail Intent First)
+        eligible.sort(key=lambda c: c["viral_demand_score"], reverse=True)
         selected = eligible[0]
+        logger.info("🏆 Winning Candidate: '%s' (Viral Demand Score: %.1f | Bucket: %s)", 
+                    selected["title"], selected["viral_demand_score"], selected["topic_category"])
 
         # Try to enrich article text if snippet is too sparse
         raw_text = self._enrich_article_context(selected)
@@ -320,6 +420,8 @@ class ResearchEngine:
             "title": selected["title"],
             "archetype": "market_breaking_news",
             "archetype_name": "Breaking Financial News Debunk",
+            "topic_category": selected["topic_category"],
+            "viral_demand_score": selected["viral_demand_score"],
             "source": selected["source"],
             "source_snippet": selected["snippet"],
             "source_url": selected["link"],

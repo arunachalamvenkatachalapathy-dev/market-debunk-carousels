@@ -192,11 +192,11 @@ DESIGN SPECIFICATIONS (EXACTLY 8 SLIDES):
 - Slide 5 (role: "value_4"): Mathematical Compounding Drag. title: 2-3 lines with highlight box. card_text: 35-50 words breaking down the long-term rupee loss or fee erosion with exact figures.
 - Slide 6 (role: "value_5"): The Non-Negotiable Institutional Rule. title: 2-3 lines with highlight box. card_text: 35-50 words presenting the golden execution rule to protect retail principal.
 - Slide 7 (role: "value_6"): The Pre-Trade Verification Checklist. title: 2-3 lines with highlight box. card_text: 35-50 words outlining the 3-point audit every investor must run before allocating capital.
-- Slide 8 (role: "bookmark_save"): Standard Save & Lead Magnet CTA. title_lines: ["Don’t", "forget to", "<span class=\\"highlight-box\\">save this</span>", "post for", "later"]. tag: "#MARKETDEBUNK".
+- Slide 8 (role: "bookmark_save"): High-Converting Peer DM-Share & Comment Trigger. title_lines: ["Send this to a", "<span class=\\"highlight-box\\">friend trading</span>", "in the market", "today."]. tag: "#MARKETDEBUNK".
 
 Return JSON ONLY:
 {{
-  "caption": "High-converting Instagram caption (hook, 3-bullet value preview, keyword CTA 'Follow @Market_Debunk and comment GUIDE for the full Investor Playbook PDF', 3-5 relevant hashtags)",
+  "caption": "High-converting Instagram caption (hook, 3-bullet value preview, keyword CTA 'Follow @Market_Debunk and comment AUDIT for the full Investor Playbook PDF', 3-5 relevant hashtags)",
   "slides": [ ... exactly 8 slide objects ... ]
 }}"""
 
@@ -496,7 +496,7 @@ Return JSON ONLY:
                 },
                 {
                     "role": "bookmark_save",
-                    "title_lines": ["Don’t", "forget to", "<span class='highlight-box'>save & share</span>", "this for", "later"],
+                    "title_lines": ["Send this to a", "<span class='highlight-box'>friend trading</span>", "in the market", "today."],
                     "tag": "#MARKETDEBUNK"
                 }
             ]
