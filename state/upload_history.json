@@ -468,8 +468,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 81.9
     },
     {
       "title": "Anthropic picks Nasdaq for potential IPO, report says; October listing in focus - Livemint",
@@ -497,8 +508,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 73.2
     },
     {
       "title": "Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO - Law.asia",
@@ -526,8 +548,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 57.3
     },
     {
       "title": "Nasdaq at Barclays conference: growth bets span ipo, ai and tokenization - Investing.com India",
@@ -546,6 +579,46 @@
           "success": true,
           "post_id": "1247247545146839_122102439651474347",
           "url": "https://www.facebook.com/1247247545146839_122102439651474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 49.1
+    },
+    {
+      "title": "South Korean retail traders’ scam losses rose to $250 million amid market swing - japantimes.co.jp",
+      "media_id": "18123800356844302",
+      "timestamp": "2026-09-16T18:29:43.832654+00:00",
+      "topic_category": "LIQUIDITY_TRAP",
+      "hook_archetype": "angle_5",
+      "hashtag_cluster": "cluster_1",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18123800356844302",
+          "permalink": "https://www.instagram.com/p/DdW7l-6mLO8/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122104704123474347",
+          "url": "https://www.facebook.com/1247247545146839_122104704123474347"
         },
         "telegram": {
           "success": true

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T18:53:25.679957+00:00",
-  "data_points_analyzed": 12,
+  "generated_at": "2026-09-16T18:21:53.479606+00:00",
+  "data_points_analyzed": 16,
   "historical_avg_save_rate_pct": 0.0,
   "prioritized_categories": [
     "SMART_MONEY",
@@ -31,6 +31,11 @@
     },
     {
       "hook": "angle_1",
+      "avg_save_rate": "0.00%",
+      "reason": "Low dwell & bookmark retention"
+    },
+    {
+      "hook": "angle_2",
       "avg_save_rate": "0.00%",
       "reason": "Low dwell & bookmark retention"
     }
