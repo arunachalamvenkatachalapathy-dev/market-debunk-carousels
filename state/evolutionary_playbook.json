@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 6,
+  "total_cycles_recorded": 7,
   "archetype_weights": {
-    "CONTRARIAN_TRAP": 1.2,
+    "CONTRARIAN_TRAP": 1.25,
     "MATHEMATICAL_FRICTION": 1.6,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
@@ -36,7 +36,8 @@
     "Candidate B perfectly aligns with the MATHEMATICAL_FRICTION archetype (weighted 1.4). It leverages exact numerical figur",
     "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
     "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent",
-    "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d"
+    "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d",
+    "Fallback contrarian anchor."
   ],
   "cycle_history": [
     {
@@ -92,6 +93,15 @@
       "critic_score": 9.6,
       "visual_score": 9.2,
       "key_learning": "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d"
+    },
+    {
+      "cycle": 7,
+      "timestamp": "2026-09-16T18:28:00.786759+00:00",
+      "topic": "South Korean retail traders’ scam losses rose to $250 million amid market swing ",
+      "winning_archetype": "CONTRARIAN_TRAP",
+      "critic_score": 8.5,
+      "visual_score": 9.4,
+      "key_learning": "Fallback contrarian anchor."
     }
   ]
 }
