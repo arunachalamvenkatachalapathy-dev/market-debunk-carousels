@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 7,
+  "total_cycles_recorded": 8,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.25,
-    "MATHEMATICAL_FRICTION": 1.6,
+    "MATHEMATICAL_FRICTION": 1.65,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -37,7 +37,8 @@
     "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
     "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent",
     "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d",
-    "Fallback contrarian anchor."
+    "Fallback contrarian anchor.",
+    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a dry regulatory crackdown into a tan"
   ],
   "cycle_history": [
     {
@@ -102,6 +103,15 @@
       "critic_score": 8.5,
       "visual_score": 9.4,
       "key_learning": "Fallback contrarian anchor."
+    },
+    {
+      "cycle": 8,
+      "timestamp": "2026-09-18T14:33:40.674801+00:00",
+      "topic": "Tax crackdown reveals US$137m expense inflation scam in insurance sector, implic",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.5,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a dry regulatory crackdown into a tan"
     }
   ]
 }
