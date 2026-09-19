@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 9,
+  "total_cycles_recorded": 10,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.25,
-    "MATHEMATICAL_FRICTION": 1.7,
+    "MATHEMATICAL_FRICTION": 1.75,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Slide 1 must highlight strictly 1 or 2 high-friction words with <span class='highlight-box'>.",
     "Slide 2 must expose the hidden mathematical mechanism before giving advice.",
     "Slide 8 must split personal bookmarking (Save) from peer distribution (DM Share).",
     "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent",
@@ -38,7 +37,8 @@
     "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d",
     "Fallback contrarian anchor.",
     "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a dry regulatory crackdown into a tan",
-    "Candidate B wins because it weaponizes data against the reader's own optimism. By framing the unlisted market as a 'math"
+    "Candidate B wins because it weaponizes data against the reader's own optimism. By framing the unlisted market as a 'math",
+    "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality o"
   ],
   "cycle_history": [
     {
@@ -121,6 +121,15 @@
       "critic_score": 9.2,
       "visual_score": 9.3,
       "key_learning": "Candidate B wins because it weaponizes data against the reader's own optimism. By framing the unlisted market as a 'math"
+    },
+    {
+      "cycle": 10,
+      "timestamp": "2026-09-19T16:51:52.861108+00:00",
+      "topic": "ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bulli",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.5,
+      "visual_score": 9.4,
+      "key_learning": "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality o"
     }
   ]
 }
