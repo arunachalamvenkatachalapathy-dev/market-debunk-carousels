@@ -699,6 +699,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish",
+      "media_id": "18467635054141149",
+      "timestamp": "2026-09-19T16:53:27.589717+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "angle_4",
+      "hashtag_cluster": "cluster_3",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18467635054141149",
+          "permalink": "https://www.instagram.com/p/Ddee92qGnAf/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122108177475474347",
+          "url": "https://www.facebook.com/1247247545146839_122108177475474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }
