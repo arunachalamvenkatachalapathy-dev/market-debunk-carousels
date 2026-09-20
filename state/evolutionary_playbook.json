@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 10,
+  "total_cycles_recorded": 11,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.25,
-    "MATHEMATICAL_FRICTION": 1.75,
+    "MATHEMATICAL_FRICTION": 1.8,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Slide 2 must expose the hidden mathematical mechanism before giving advice.",
     "Slide 8 must split personal bookmarking (Save) from peer distribution (DM Share).",
     "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent",
     "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di",
@@ -38,7 +37,8 @@
     "Fallback contrarian anchor.",
     "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a dry regulatory crackdown into a tan",
     "Candidate B wins because it weaponizes data against the reader's own optimism. By framing the unlisted market as a 'math",
-    "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality o"
+    "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality o",
+    "Candidate B overwhelmingly wins by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.8). It strip"
   ],
   "cycle_history": [
     {
@@ -130,6 +130,15 @@
       "critic_score": 9.5,
       "visual_score": 9.4,
       "key_learning": "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality o"
+    },
+    {
+      "cycle": 11,
+      "timestamp": "2026-09-20T08:39:44.977601+00:00",
+      "topic": "Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand R",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.4,
+      "visual_score": 9.3,
+      "key_learning": "Candidate B overwhelmingly wins by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.8). It strip"
     }
   ]
 }

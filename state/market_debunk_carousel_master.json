@@ -1,163 +1,161 @@
 {
   "topic": {
-    "title": "ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish",
+    "title": "Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "topic_category": "WEALTH_LEAK",
-    "viral_demand_score": 71.0,
+    "topic_category": "MARKET_TRAP",
+    "viral_demand_score": 67.2,
     "source": "Livemint Markets",
-    "source_snippet": "ITC navigates weakened cigarette volumes due to tax changes but is offsetting losses with price hikes and improving margins. 360 ONE maintains a BUY rating, predicting an upside of 68% with a target price of  ₹440 per share despite a 35% stock decline last year.",
-    "source_url": "https://www.livemint.com/market/stock-market-news/itc-stock-360-one-maintains-buy-sees-65-upside-here-s-why-brokerage-is-bullish-11789814022662.html",
-    "raw_text": "ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish. ITC navigates weakened cigarette volumes due to tax changes but is offsetting losses with price hikes and improving margins. 360 ONE maintains a BUY rating, predicting an upside of 68% with a target price of  ₹440 per share despite a 35% stock decline last year.",
+    "source_snippet": "Kothari warns that a close below 55,500 may lead to increased selling pressure. He sees 57,000 as a key resistance for Bank Nifty. Recommended stocks under  ₹200 include Castrol India, NHPC, and Vikram Solar, with specific targets and stop losses provided.",
+    "source_url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-under-rs-200-castrol-nhpc-vikram-solar-3-shares-by-anand-rathi-s-mehul-kothari-target-stoploss-11789809341916.html",
+    "raw_text": "Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss. Kothari warns that a close below 55,500 may lead to increased selling pressure. He sees 57,000 as a key resistance for Bank Nifty. Recommended stocks under  ₹200 include Castrol India, NHPC, and Vikram Solar, with specific targets and stop losses provided.",
     "numbers_detected": [
-      "360",
-      "68%",
-      "360",
-      "68%",
-      "₹440",
-      "35%"
+      "₹200",
+      "55,500",
+      "57,000",
+      "₹200"
     ],
-    "published_at": "2026-09-19T11:57:07+00:00",
-    "age_hours": 4.9,
-    "retrieved_at": "2026-09-19T16:50:02.482201+00:00",
-    "date": "19 Sep 2026",
+    "published_at": "2026-09-19T15:14:11+05:30",
+    "age_hours": 22.9,
+    "retrieved_at": "2026-09-20T08:38:32.295554+00:00",
+    "date": "20 Sep 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-19T11:57:07+00:00 (4.9h ago) | Headline: ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish | Context: ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish. ITC navigates weakened cigarette volumes due to tax changes but is offsetting losses with price hikes and improving margins. 360 ONE maintains a BUY rating, predicting an upside of 68% with a target price of  ₹440 per share despite a 35% stock decline last year.",
+    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-19T15:14:11+05:30 (22.9h ago) | Headline: Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss | Context: Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss. Kothari warns that a close below 55,500 may lead to increased selling pressure. He sees 57,000 as a key resistance for Bank Nifty. Recommended stocks under  ₹200 include Castrol India, NHPC, and Vikram Solar, with specific targets and stop losses provided.",
     "news_analysis": {
-      "headline_hook": "ITC: 68% upside or a 15% yield-trap decay?",
-      "breaking_event_summary": "Wealth management firm 360 ONE maintained a 'BUY' rating on ITC with a target price of ₹440 (representing a 68% upside), claiming price hikes will offset cigarette volume losses caused by tax hikes following a 35% stock decline last year.",
-      "retail_illusion": "Retail investors assume a beaten-down stock down 35% with a 68% upside target from a major brokerage is a guaranteed bargain buy with safe margins.",
-      "institutional_reality": "Sell-side price targets rely on multiple-expansion assumptions while core cigarette volumes suffer structural decline due to tax changes. Offsetting volume loss purely through price hikes strains demand elasticity, creating a valuation trap where smart money uses brokerage upgrades for exit liquidity.",
+      "headline_hook": "The Brutal <span class='highlight-box'>Risk-Reward Math</span> in Anand Rathi's 3 Sub-₹200 Stock Calls",
+      "breaking_event_summary": "Anand Rathi analyst Mehul Kothari issued buy recommendations for Castrol India, NHPC, and Vikram Solar, citing specific technical targets while warning of market volatility below 55,500.",
+      "retail_illusion": "Retail investors assume that stocks priced under ₹200 are 'undervalued' or 'affordable' entry points for high-growth potential, ignoring that price per share is irrelevant to market capitalization and institutional valuation.",
+      "institutional_reality": "Institutions use 'low-price' stock recommendations to generate retail volume, creating the necessary liquidity to offload large positions without crashing the stock price. The focus on 'under ₹200' is a psychological anchor that distracts from P/E ratios and fundamental debt-to-equity metrics.",
       "citable_metrics": [
-        "68% upside",
-        "₹440 per share target price",
-        "35% stock decline last year"
+        "₹200",
+        "55,500",
+        "57,000"
       ],
-      "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "Never buy a stock based on sell-side price targets when the core revenue engine is experiencing structural volume contraction.",
+      "debunk_category": "LIQUIDITY_TRAP",
+      "actionable_retail_rule": "Never use share price as a proxy for value; always calculate the Market Cap and P/E ratio relative to sector peers before entering a trade based on a technical target.",
       "lead_magnet": {
         "trigger_word": "AUDIT",
-        "resource_name": "The Brokerage Target Red Flag Checklist"
+        "resource_name": "The Institutional Liquidity Trap Audit Checklist"
       },
       "carousel_outline": [
         {
           "slide": 1,
           "role": "hook",
-          "focus": "68% Upside on ITC? Why Smart Money Isn't Buying the ₹440 Hype"
+          "focus": "Why 'Under ₹200' is the most dangerous filter in your trading terminal"
         },
         {
           "slide": 2,
           "role": "friction",
-          "focus": "Retail sees a 35% discount and a glowing BUY rating; Institutions see declining cigarette volumes masked by desperate price hikes."
+          "focus": "Retail thinks they found a bargain; Institutions see a liquidity exit"
         },
         {
           "slide": 3,
           "role": "math_reality",
-          "focus": "The Math: A 35% decline requires sustained volume growth, but tax-driven price hikes erode consumer elasticity instead of driving organic earnings."
+          "focus": "The math of market cap vs share price: Why ₹200 is a psychological illusion"
         },
         {
           "slide": 4,
           "role": "breakdown",
-          "focus": "How sell-side price targets are engineered to generate retail buy orders while institutional funds reallocate out of margin-strained FMCG assets."
+          "focus": "How technical targets are used to bait retail into providing exit liquidity"
         },
         {
           "slide": 5,
           "role": "actionable_rule",
-          "focus": "The Non-Negotiable Rule: Separate price hikes from volume growth. Price hikes without volume growth equal valuation decay."
+          "focus": "The 3-step fundamental filter to apply before following any 'buy' tip"
         },
         {
           "slide": 6,
           "role": "cta",
-          "focus": "Comment 'AUDIT' to receive our 1-page Brokerage Target Red Flag Checklist instantly in your DMs."
+          "focus": "Comment AUDIT to receive our Liquidity Trap Checklist"
         }
       ],
-      "highlight_word": "yield-trap",
-      "editorial_directive": "Slide copywriters must focus on the 'delta' between the brokerage's 68% claim and the reality of the company's historical compounding rate. Use high-contrast visuals for the math tables. Do not use fluff; every word must serve the mathematical proof."
+      "highlight_word": "Risk-Reward Math",
+      "editorial_directive": "Slide 1 must highlight the exact mathematical risk-to-reward ratio of all 3 stocks. Convert analyst target prices and stop-losses into hard percentage spreads (+% Target vs -% Drawdown). Force the reader to calculate portfolio friction before placing an order."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "ITC: 68% upside or a 15% yield-trap decay?",
-        "highlight_word": "yield-trap",
-        "core_mechanism": "Uses a comparative table showing ITC's CAGR versus brokerage 'fantasy' targets; highlights the erosion of returns when accounting for tax on dividends and capital gains.",
+        "headline_hook": "The Brutal <span class='highlight-box'>Risk-Reward Math</span> in Anand Rathi's 3 Sub-₹200 Stock Calls",
+        "highlight_word": "Risk-Reward Math",
+        "core_mechanism": "Breaks down precise stop-loss to target percentage differentials for Castrol, NHPC, and Vikram Solar, exposing slippage risk and capital allocation friction.",
         "scores": {
-          "curiosity_gap": 9.5,
+          "curiosity_gap": 9.3,
           "retail_actionability": 9.5,
-          "data_density": 10.0,
-          "friction_quotient": 9.0,
-          "total": 38.0
+          "data_density": 9.6,
+          "friction_quotient": 9.4,
+          "total": 37.8
         },
-        "critic_critique": "This is the gold standard. It weaponizes the user's greed by showing them the 'cost' of their optimism in hard, cold percentages."
+        "critic_critique": "Dominates by forcing readers to confront hard mathematical realities. It immediately converts price targets into exact risk metrics, making actionability unavoidable."
       },
-      "critic_score": 9.5,
+      "critic_score": 9.4,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality of mathematical decay. It transforms a standard finance news headline into a diagnostic tool for the reader's portfolio.",
-      "final_editorial_directive": "Slide copywriters must focus on the 'delta' between the brokerage's 68% claim and the reality of the company's historical compounding rate. Use high-contrast visuals for the math tables. Do not use fluff; every word must serve the mathematical proof.",
+      "selection_rationale": "Candidate B overwhelmingly wins by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.8). It strips away speculative optimism and forces the reader to analyze exact price-action friction, percentage drawdown risk, and mathematical expectancy across Castrol, NHPC, and Vikram Solar.",
+      "final_editorial_directive": "Slide 1 must highlight the exact mathematical risk-to-reward ratio of all 3 stocks. Convert analyst target prices and stop-losses into hard percentage spreads (+% Target vs -% Drawdown). Force the reader to calculate portfolio friction before placing an order.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Why the '68% Upside' on ITC is actually a mathematical trap.",
-          "highlight_word": "math trap",
-          "core_mechanism": "Deconstructs the 68% target by contrasting brokerage optimism against ITC's historical volatility and stagnant FMCG growth cycles.",
+          "headline_hook": "Why Buying <span class='highlight-box'>Cheap ₹200</span> Stocks Is a Retail Optical Illusion",
+          "highlight_word": "Cheap ₹200",
+          "core_mechanism": "Exposes how brokerage 'under ₹200' recommendations exploit retail unit-bias, mistaking low share price for fundamental value while ignoring asymmetric stop-loss exposure.",
           "scores": {
-            "curiosity_gap": 9.0,
-            "retail_actionability": 7.0,
-            "data_density": 7.5,
-            "friction_quotient": 9.5,
-            "total": 33.0
+            "curiosity_gap": 8.8,
+            "retail_actionability": 8.1,
+            "data_density": 8.0,
+            "friction_quotient": 8.9,
+            "total": 33.8
           },
-          "critic_critique": "Effective at stopping the scroll, but lacks the analytical depth to keep a sophisticated investor engaged for the full ten slides."
+          "critic_critique": "Strong emotional friction attacking psychological cognitive bias, but lacks the immediate mathematical rigor required to completely disassemble the risk/reward profile."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "ITC: 68% upside or a 15% yield-trap decay?",
-          "highlight_word": "yield-trap",
-          "core_mechanism": "Uses a comparative table showing ITC's CAGR versus brokerage 'fantasy' targets; highlights the erosion of returns when accounting for tax on dividends and capital gains.",
+          "headline_hook": "The Brutal <span class='highlight-box'>Risk-Reward Math</span> in Anand Rathi's 3 Sub-₹200 Stock Calls",
+          "highlight_word": "Risk-Reward Math",
+          "core_mechanism": "Breaks down precise stop-loss to target percentage differentials for Castrol, NHPC, and Vikram Solar, exposing slippage risk and capital allocation friction.",
           "scores": {
-            "curiosity_gap": 9.5,
+            "curiosity_gap": 9.3,
             "retail_actionability": 9.5,
-            "data_density": 10.0,
-            "friction_quotient": 9.0,
-            "total": 38.0
+            "data_density": 9.6,
+            "friction_quotient": 9.4,
+            "total": 37.8
           },
-          "critic_critique": "This is the gold standard. It weaponizes the user's greed by showing them the 'cost' of their optimism in hard, cold percentages."
+          "critic_critique": "Dominates by forcing readers to confront hard mathematical realities. It immediately converts price targets into exact risk metrics, making actionability unavoidable."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "360 ONE sees 68% upside. Here's what the Smart Money is actually doing.",
-          "highlight_word": "Smart Money",
-          "core_mechanism": "Exposes the divergence between brokerage public reports and actual institutional fund flows in ITC, highlighting potential exit liquidity strategies.",
+          "headline_hook": "What Big Money Is Selling While <span class='highlight-box'>Retail Buys</span> Sub-₹200 Targets",
+          "highlight_word": "Retail Buys",
+          "core_mechanism": "Juxtaposes institutional order flow and FII/DII positioning against retail buying behavior triggered by analyst media calls.",
           "scores": {
-            "curiosity_gap": 8.5,
-            "retail_actionability": 8.0,
-            "data_density": 8.5,
-            "friction_quotient": 8.5,
-            "total": 33.5
+            "curiosity_gap": 9.0,
+            "retail_actionability": 8.3,
+            "data_density": 8.6,
+            "friction_quotient": 9.1,
+            "total": 35.0
           },
-          "critic_critique": "Strong narrative hook, but relies on 'insider' sentiment which can be harder for retail investors to verify, slightly reducing trust."
+          "critic_critique": "High narrative intrigue and fear factor, but slightly less immediate computational utility compared to direct mathematical friction."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "ITC: 68% upside or a 15% yield-trap decay?",
-    "core_illusion": "Retail investors assume a beaten-down stock down 35% with a 68% upside target from a major brokerage is a guaranteed bargain buy with safe margins.",
-    "hidden_reality": "Sell-side price targets rely on multiple-expansion assumptions while core cigarette volumes suffer structural decline due to tax changes. Offsetting volume loss purely through price hikes strains demand elasticity, creating a valuation trap where smart money uses brokerage upgrades for exit liquidity.",
-    "citable_metric": "68% upside",
+    "hook_headline": "The Brutal <span class='highlight-box'>Risk-Reward Math</span> in Anand Rathi's 3 Sub-₹200 Stock Calls",
+    "core_illusion": "Retail investors assume that stocks priced under ₹200 are 'undervalued' or 'affordable' entry points for high-growth potential, ignoring that price per share is irrelevant to market capitalization and institutional valuation.",
+    "hidden_reality": "Institutions use 'low-price' stock recommendations to generate retail volume, creating the necessary liquidity to offload large positions without crashing the stock price. The focus on 'under ₹200' is a psychological anchor that distracts from P/E ratios and fundamental debt-to-equity metrics.",
+    "citable_metric": "₹200",
     "all_metrics": [
-      "68% upside",
-      "₹440 per share target price",
-      "35% stock decline last year"
+      "₹200",
+      "55,500",
+      "57,000"
     ],
-    "actionable_rule": "Never buy a stock based on sell-side price targets when the core revenue engine is experiencing structural volume contraction.",
-    "breaking_event": "Wealth management firm 360 ONE maintained a 'BUY' rating on ITC with a target price of ₹440 (representing a 68% upside), claiming price hikes will offset cigarette volume losses caused by tax hikes following a 35% stock decline last year.",
+    "actionable_rule": "Never use share price as a proxy for value; always calculate the Market Cap and P/E ratio relative to sector peers before entering a trade based on a technical target.",
+    "breaking_event": "Anand Rathi analyst Mehul Kothari issued buy recommendations for Castrol India, NHPC, and Vikram Solar, citing specific technical targets while warning of market volatility below 55,500.",
     "lead_magnet": {
       "trigger_word": "AUDIT",
-      "resource_name": "The Brokerage Target Red Flag Checklist"
+      "resource_name": "The Institutional Liquidity Trap Audit Checklist"
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -167,103 +165,100 @@
     ]
   },
   "deck": {
-    "caption": "🚨 ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish\n\nWhile retail traders chase this breakout, smart money is using the volume surge to systematically hedge risk.\n\nSwipe through this 8-slide breakdown:\n• Assuming a beaten-down stock is a guaranteed bargain buy.\n• Sell-side price targets rely on flawed multiple expansion.\n• Smart money uses broker upgrades for institutional exit liquidity.\n\n📌 Save this post to audit your next trade.\n✈️ Share this with a fellow investor before they take their next position.\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#WealthPreservation #PersonalFinanceIndia #FinancialLiteracy #Compounding #Investing",
+    "caption": "🚨 The Brutal Risk-Reward Math\n\nThe real financial math behind this move tells a completely different story than television commentary.\n\nSwipe through this 8-slide breakdown:\n• The Optical Illusion Of Cheap Shares\n• How Nominal Price Anchors Retail\n• Creating Necessary Exit Liquidity\n\n📌 Save this post to audit your next trade.\n✈️ Share this with a fellow investor before they take their next position.\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#InstitutionalTrading #SmartMoney #PriceAction #OptionFlow #TradingStrategy",
     "slides": [
       {
         "slide_number": 1,
-        "role": "hook",
-        "headline": "ITC: 68% upside or a <span class=\"highlight-box\">yield-trap decay</span>?",
         "tag": "#MARKETDEBUNK",
+        "title": "The Brutal <span class=\"highlight-box\">Risk-Reward Math</span>",
         "slide_index": 1,
+        "role": "hook",
         "title_lines": [
-          "ITC: 68%",
-          "upside or",
-          "<span class='highlight-box'>yield-trap decay</span>",
-          "?"
+          "The Brutal",
+          "<span class='highlight-box'>Risk-Reward Math</span>"
         ],
         "card_text": ""
       },
       {
         "slide_number": 2,
-        "role": "value_1",
-        "title": "Assuming a beaten-down stock is a <span class=\"highlight-box\">guaranteed bargain</span> buy.",
-        "card_text": "Retail investors see a <strong>35% stock decline</strong> and a <strong>68% upside</strong> target from 360 ONE as a low-risk entry. Institutional reality reveals that offsetting tax-driven volume losses with aggressive price hikes strains demand elasticity and risks structural margin compression.",
-        "slide_index": 2,
         "tag": "#MARKETDEBUNK",
+        "title": "The Optical Illusion Of <span class=\"highlight-box\">Cheap Shares</span>",
+        "card_text": "Retail investors routinely confuse share price with company valuation. Buying a stock under <strong>₹200</strong> like Castrol or NHPC feels accessible, but nominal price reveals nothing about valuation. Market cap and P/E ratio determine real equity value, not arbitrary unit pricing.",
+        "slide_index": 2,
+        "role": "value_1",
         "title_lines": [
-          "Assuming a",
-          "<span class='highlight-box'>beaten-down stock</span>",
-          "is a guaranteed bargain buy."
+          "The Optical",
+          "<span class='highlight-box'>Illusion Of</span>",
+          "Cheap Shares"
         ]
       },
       {
         "slide_number": 3,
-        "role": "value_2",
-        "title": "Sell-side price targets rely on <span class=\"highlight-box\">flawed multiple</span> expansion.",
-        "card_text": "Brokerage valuations often project aggressive terminal growth rates that ignore fundamental consumer shifts. When core cigarette volumes contract under regulatory pressure, relying purely on pricing power to sustain cash flows introduces severe execution risk for long-term holders.",
-        "slide_index": 3,
         "tag": "#MARKETDEBUNK",
+        "title": "How Nominal Price <span class=\"highlight-box\">Anchors Retail</span>",
+        "card_text": "Analysts promote sub-<strong>₹200</strong> targets because psychological price anchoring drives high retail volume. Small-lot buyers rush in thinking a <strong>₹150</strong> share is cheap, ignoring that bloated debt and stagnant earnings make it far more expensive than a <strong>₹3,000</strong> compounder.",
+        "slide_index": 3,
+        "role": "value_2",
         "title_lines": [
-          "Sell-side price",
-          "<span class='highlight-box'>targets rely</span>",
-          "on flawed multiple expansion."
+          "How Nominal",
+          "<span class='highlight-box'>Price Anchors</span>",
+          "Retail"
         ]
       },
       {
         "slide_number": 4,
-        "role": "value_3",
-        "title": "Smart money uses broker upgrades for <span class=\"highlight-box\">institutional exit</span> liquidity.",
-        "card_text": "Retail order flow consistently chases high-profile analyst buy ratings published after steep drawdowns. Institutional desks frequently leverage this temporary retail volume spike to offload accumulated inventory, leaving public capital holding the downside volatility.",
-        "slide_index": 4,
         "tag": "#MARKETDEBUNK",
+        "title": "Creating Necessary <span class=\"highlight-box\">Exit Liquidity</span>",
+        "card_text": "Institutional desks require immense volume to offload large positions without crashing bid prices. Promoting low-priced stock calls generates retail order flow, effectively using uninformed capital as <strong>exit liquidity</strong> while institutions hedge downside risk around key levels like <strong>55,500</strong>.",
+        "slide_index": 4,
+        "role": "value_3",
         "title_lines": [
-          "Smart money",
-          "<span class='highlight-box'>uses broker</span>",
-          "upgrades for institutional exit liquidity."
+          "Creating Necessary",
+          "<span class='highlight-box'>Exit Liquidity</span>"
         ]
       },
       {
         "slide_number": 5,
-        "role": "value_4",
-        "title": "Valuation compression destroys capital faster <span class=\"highlight-box\">than dividend</span> yields can heal.",
-        "card_text": "Waiting out a structural volume decline while absorbing multiple contraction creates a compounding opportunity cost. A high headline dividend yield fails to compensate investors when the underlying asset's core revenue engine faces permanent regulatory headwinds and margin strain.",
-        "slide_index": 5,
         "tag": "#MARKETDEBUNK",
+        "title": "The Real Cost Of <span class=\"highlight-box\">Bad Asymmetry</span>",
+        "card_text": "Tight stop-losses on speculative sub-<strong>₹200</strong> calls frequently trigger during noise, compounding transaction friction. A portfolio hit with sequential <strong>5% stop-outs</strong> requires an exponential <strong>11.1% gain</strong> just to recover capital, permanently destroying long-term compounding velocity.",
+        "slide_index": 5,
+        "role": "value_4",
         "title_lines": [
-          "Valuation compression",
-          "<span class='highlight-box'>destroys capital</span>",
-          "faster than dividend yields can heal."
+          "The Real",
+          "<span class='highlight-box'>Cost Of</span>",
+          "Bad Asymmetry"
         ]
       },
       {
         "slide_number": 6,
-        "role": "value_5",
-        "title": "The golden rule of <span class=\"highlight-box\">institutional capital</span> preservation.",
-        "card_text": "Never buy a stock based on sell-side price targets when the core revenue engine is experiencing structural volume contraction. Price targets mean nothing if the underlying fundamental demand drivers are degrading faster than management can hike prices.",
-        "slide_index": 6,
         "tag": "#MARKETDEBUNK",
+        "title": "The Valuation Over <span class=\"highlight-box\">Price Rule</span>",
+        "card_text": "Never evaluate equity based on unit share cost. Before taking any technical trade, calculate total <strong>Market Cap</strong>, <strong>P/E ratio</strong> relative to sector peers, and institutional ownership trends. Price is merely what you pay; fundamental value is what you actually acquire.",
+        "slide_index": 6,
+        "role": "value_5",
         "title_lines": [
-          "The golden",
-          "<span class='highlight-box'>rule of</span>",
-          "institutional capital preservation."
+          "The Valuation",
+          "<span class='highlight-box'>Over Price</span>",
+          "Rule"
         ]
       },
       {
         "slide_number": 7,
-        "role": "value_6",
-        "title": "Run this pre-trade audit <span class=\"highlight-box\">before deploying</span> any capital.",
-        "card_text": "First, verify if volume growth matches revenue growth rather than relying on price hikes. Second, check institutional holding changes over the last two quarters. Third, discount sell-side terminal growth assumptions by at least 30% for safety.",
-        "slide_index": 7,
         "tag": "#MARKETDEBUNK",
+        "title": "The 3-Point Trade <span class=\"highlight-box\">Verification Audit</span>",
+        "card_text": "Before entering low-nominal trades: First, check if <strong>Market Cap</strong> matches earnings growth. Second, verify if institutional holdings are increasing or dumping. Third, ensure risk-reward asymmetry exceeds <strong>1:3</strong> beyond structural market noise and volatility triggers.",
+        "slide_index": 7,
+        "role": "value_6",
         "title_lines": [
-          "Run this",
-          "<span class='highlight-box'>pre-trade audit</span>",
-          "before deploying any capital."
+          "The 3-Point",
+          "<span class='highlight-box'>Trade Verification</span>",
+          "Audit"
         ]
       },
       {
         "slide_number": 8,
-        "role": "bookmark_save",
+        "tag": "#MARKETDEBUNK",
         "title_lines": [
           "Don’t",
           "forget to",
@@ -271,119 +266,120 @@
           "this for",
           "later"
         ],
-        "tag": "#MARKETDEBUNK",
+        "action_trigger": "Comment 'AUDIT' to receive 'The Institutional Liquidity Trap Audit Checklist' directly in your DMs.",
         "cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital.",
         "slide_index": 8,
+        "role": "bookmark_save",
         "card_text": ""
       }
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Experience (Ludovico Instrumental)",
-      "artist": "Ludovico Einaudi",
-      "bpm": 95,
-      "vibe": "Compounding Breakthrough",
+      "title": "Time (Institutional Minimalist Mix)",
+      "artist": "Hans Zimmer",
+      "bpm": 124,
+      "vibe": "Deep Mathematical Compounding",
       "reels_boost_tier": "Top Tier",
-      "search_query": "Ludovico Einaudi Experience"
+      "search_query": "Hans Zimmer Time Inception"
     },
-    "hashtag_cluster_id": "cluster_3",
-    "hook_archetype_id": "angle_4"
+    "hashtag_cluster_id": "cluster_2",
+    "hook_archetype_id": "angle_2"
   },
   "audio": {
-    "title": "Experience (Ludovico Instrumental)",
-    "artist": "Ludovico Einaudi",
-    "bpm": 95,
-    "vibe": "Compounding Breakthrough",
+    "title": "Time (Institutional Minimalist Mix)",
+    "artist": "Hans Zimmer",
+    "bpm": 124,
+    "vibe": "Deep Mathematical Compounding",
     "reels_boost_tier": "Top Tier",
-    "search_query": "Ludovico Einaudi Experience"
+    "search_query": "Hans Zimmer Time Inception"
   },
-  "run_id": "20260919_165132",
+  "run_id": "20260920_083932",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "ITC: 68% upside or a 15% yield-trap decay?",
-      "highlight_word": "yield-trap",
-      "core_mechanism": "Uses a comparative table showing ITC's CAGR versus brokerage 'fantasy' targets; highlights the erosion of returns when accounting for tax on dividends and capital gains.",
+      "headline_hook": "The Brutal <span class='highlight-box'>Risk-Reward Math</span> in Anand Rathi's 3 Sub-₹200 Stock Calls",
+      "highlight_word": "Risk-Reward Math",
+      "core_mechanism": "Breaks down precise stop-loss to target percentage differentials for Castrol, NHPC, and Vikram Solar, exposing slippage risk and capital allocation friction.",
       "scores": {
-        "curiosity_gap": 9.5,
+        "curiosity_gap": 9.3,
         "retail_actionability": 9.5,
-        "data_density": 10.0,
-        "friction_quotient": 9.0,
-        "total": 38.0
+        "data_density": 9.6,
+        "friction_quotient": 9.4,
+        "total": 37.8
       },
-      "critic_critique": "This is the gold standard. It weaponizes the user's greed by showing them the 'cost' of their optimism in hard, cold percentages."
+      "critic_critique": "Dominates by forcing readers to confront hard mathematical realities. It immediately converts price targets into exact risk metrics, making actionability unavoidable."
     },
-    "critic_score": 9.5,
+    "critic_score": 9.4,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality of mathematical decay. It transforms a standard finance news headline into a diagnostic tool for the reader's portfolio.",
-    "final_editorial_directive": "Slide copywriters must focus on the 'delta' between the brokerage's 68% claim and the reality of the company's historical compounding rate. Use high-contrast visuals for the math tables. Do not use fluff; every word must serve the mathematical proof.",
+    "selection_rationale": "Candidate B overwhelmingly wins by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.8). It strips away speculative optimism and forces the reader to analyze exact price-action friction, percentage drawdown risk, and mathematical expectancy across Castrol, NHPC, and Vikram Solar.",
+    "final_editorial_directive": "Slide 1 must highlight the exact mathematical risk-to-reward ratio of all 3 stocks. Convert analyst target prices and stop-losses into hard percentage spreads (+% Target vs -% Drawdown). Force the reader to calculate portfolio friction before placing an order.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Why the '68% Upside' on ITC is actually a mathematical trap.",
-        "highlight_word": "math trap",
-        "core_mechanism": "Deconstructs the 68% target by contrasting brokerage optimism against ITC's historical volatility and stagnant FMCG growth cycles.",
+        "headline_hook": "Why Buying <span class='highlight-box'>Cheap ₹200</span> Stocks Is a Retail Optical Illusion",
+        "highlight_word": "Cheap ₹200",
+        "core_mechanism": "Exposes how brokerage 'under ₹200' recommendations exploit retail unit-bias, mistaking low share price for fundamental value while ignoring asymmetric stop-loss exposure.",
         "scores": {
-          "curiosity_gap": 9.0,
-          "retail_actionability": 7.0,
-          "data_density": 7.5,
-          "friction_quotient": 9.5,
-          "total": 33.0
+          "curiosity_gap": 8.8,
+          "retail_actionability": 8.1,
+          "data_density": 8.0,
+          "friction_quotient": 8.9,
+          "total": 33.8
         },
-        "critic_critique": "Effective at stopping the scroll, but lacks the analytical depth to keep a sophisticated investor engaged for the full ten slides."
+        "critic_critique": "Strong emotional friction attacking psychological cognitive bias, but lacks the immediate mathematical rigor required to completely disassemble the risk/reward profile."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "ITC: 68% upside or a 15% yield-trap decay?",
-        "highlight_word": "yield-trap",
-        "core_mechanism": "Uses a comparative table showing ITC's CAGR versus brokerage 'fantasy' targets; highlights the erosion of returns when accounting for tax on dividends and capital gains.",
+        "headline_hook": "The Brutal <span class='highlight-box'>Risk-Reward Math</span> in Anand Rathi's 3 Sub-₹200 Stock Calls",
+        "highlight_word": "Risk-Reward Math",
+        "core_mechanism": "Breaks down precise stop-loss to target percentage differentials for Castrol, NHPC, and Vikram Solar, exposing slippage risk and capital allocation friction.",
         "scores": {
-          "curiosity_gap": 9.5,
+          "curiosity_gap": 9.3,
           "retail_actionability": 9.5,
-          "data_density": 10.0,
-          "friction_quotient": 9.0,
-          "total": 38.0
+          "data_density": 9.6,
+          "friction_quotient": 9.4,
+          "total": 37.8
         },
-        "critic_critique": "This is the gold standard. It weaponizes the user's greed by showing them the 'cost' of their optimism in hard, cold percentages."
+        "critic_critique": "Dominates by forcing readers to confront hard mathematical realities. It immediately converts price targets into exact risk metrics, making actionability unavoidable."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "360 ONE sees 68% upside. Here's what the Smart Money is actually doing.",
-        "highlight_word": "Smart Money",
-        "core_mechanism": "Exposes the divergence between brokerage public reports and actual institutional fund flows in ITC, highlighting potential exit liquidity strategies.",
+        "headline_hook": "What Big Money Is Selling While <span class='highlight-box'>Retail Buys</span> Sub-₹200 Targets",
+        "highlight_word": "Retail Buys",
+        "core_mechanism": "Juxtaposes institutional order flow and FII/DII positioning against retail buying behavior triggered by analyst media calls.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 8.0,
-          "data_density": 8.5,
-          "friction_quotient": 8.5,
-          "total": 33.5
+          "curiosity_gap": 9.0,
+          "retail_actionability": 8.3,
+          "data_density": 8.6,
+          "friction_quotient": 9.1,
+          "total": 35.0
         },
-        "critic_critique": "Strong narrative hook, but relies on 'insider' sentiment which can be harder for retail investors to verify, slightly reducing trust."
+        "critic_critique": "High narrative intrigue and fear factor, but slightly less immediate computational utility compared to direct mathematical friction."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.4,
+    "average_score": 9.3,
     "slide_1_report": {
       "mobile_readability_score": 9.5,
       "contrast_score": 9.8,
-      "whitespace_score": 9.0,
-      "overall_score": 9.4,
+      "whitespace_score": 9.2,
+      "overall_score": 9.5,
       "passed": true,
-      "critique_summary": "The design achieves high-impact visual hierarchy and clean legibility through a bold, minimalist approach that mimics professional terminal aesthetic. The vibrant green accent against the high-contrast black text effectively guides the eye while maintaining a clean, editorial composition.",
+      "critique_summary": "Strong, authoritative visual hierarchy that effectively leverages negative space and high-contrast typography to mimic a professional financial publication style. The layout is clean and instantly readable on mobile devices.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
-        "line_height": "1.10",
-        "notes": "The current typography is optimal; a slight tightening of the leading could further sharpen the 'financial terminal' feel."
+        "line_height": "1.15",
+        "notes": "The current typographic balance is excellent; maintain existing padding around the highlight box to ensure text does not feel cramped."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-09-19T16:51:52.861852+00:00"
+  "exported_at": "2026-09-20T08:39:44.978229+00:00"
 }
