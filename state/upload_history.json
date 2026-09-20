@@ -728,6 +728,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss",
+      "media_id": "18082508447323865",
+      "timestamp": "2026-09-20T08:41:43.523075+00:00",
+      "topic_category": "LIQUIDITY_TRAP",
+      "hook_archetype": "angle_2",
+      "hashtag_cluster": "cluster_2",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18082508447323865",
+          "permalink": "https://www.instagram.com/p/DdgLcl4nI0M/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122109067113474347",
+          "url": "https://www.facebook.com/1247247545146839_122109067113474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }
