@@ -748,8 +748,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 50.0
     },
     {
       "title": "Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss",
@@ -826,6 +837,35 @@
           "success": true,
           "post_id": "1247247545146839_122110034451474347",
           "url": "https://www.facebook.com/1247247545146839_122110034451474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    },
+    {
+      "title": "65-Year-Old Woman In China Uses AI To Trap Man In $25,000 Dating Scam - NDTV",
+      "media_id": "18108681299147450",
+      "timestamp": "2026-09-21T18:58:33.362369+00:00",
+      "topic_category": "LIQUIDITY_TRAP",
+      "hook_archetype": "angle_1",
+      "hashtag_cluster": "cluster_2",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18108681299147450",
+          "permalink": "https://www.instagram.com/p/Ddj23OPjbNx/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122110388217474347",
+          "url": "https://www.facebook.com/1247247545146839_122110388217474347"
         },
         "telegram": {
           "success": true
