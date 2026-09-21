@@ -1,157 +1,163 @@
 {
   "topic": {
-    "title": "Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh - The420.in",
+    "title": "SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know - The Economic Times",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
     "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 60.0,
-    "source": "The420.in",
-    "source_snippet": "Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh&nbsp;&nbsp;The420.in",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94Yk5NaVBXNHhqYktjcHNNTWVBbDlXb05GVVE0RlhuT1prelJnTnY1Rjg3cjhwM2RWNE1WQ3VNRmpFX3BONWIxOEtsclVMYnk3c2lMMVNvcDZ6QUV3TVRDRlFRa2llYVJQcGx4Mw?oc=5",
-    "raw_text": "Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh - The420.in. Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh&nbsp;&nbsp;The420.in",
+    "viral_demand_score": 83.2,
+    "source": "The Economic Times",
+    "source_snippet": "SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know&nbsp;&nbsp;The Economic Times",
+    "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNLS1QTjlUODRON0tac0s2NXRJVHJSUjZUd0dyRks3SHJnT3ZrMk10Y3RabHZ2RTNLS0NyNmtSVW9XNnR0MGxCS2RkLVQwR291WG1ncy0yek03YTNCMURLNHV5NkxuLVQtZDRHcFl6NDdZZ0JNdnRpcHNNWUFEN0Q1c3BINmUwWnQtRTQ5TDBZN0Ita3hrbFhseEtwcHRwQ0w0SDNucG1Tb1ZaNEVLSTZLdEdSZG9mcDRYdUoyczcxeW96dXB1NzY5RGhyc2NTcTUtMGJFY1RxNHl0UU9fVXdFZlVPalFmS2hJS0FlWlY3YnlTVWVtNlB4UnRuNU1qZ0E?oc=5",
+    "raw_text": "SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know - The Economic Times. SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know&nbsp;&nbsp;The Economic Times",
     "numbers_detected": [
-      "₹14.94 Lakh",
-      "420",
-      "₹14.94 Lakh",
-      "420"
+      "2026",
+      "21",
+      "50%",
+      "2026",
+      "21",
+      "50%"
     ],
-    "published_at": "2026-09-20T07:20:22+00:00",
-    "age_hours": 9.7,
-    "retrieved_at": "2026-09-20T17:01:00.201315+00:00",
-    "date": "20 Sep 2026",
+    "published_at": "2026-09-21T05:01:00+00:00",
+    "age_hours": 4.0,
+    "retrieved_at": "2026-09-21T09:01:19.277578+00:00",
+    "date": "21 Sep 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: The420.in | Published: 2026-09-20T07:20:22+00:00 (9.7h ago) | Headline: Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh - The420.in | Context: Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh - The420.in. Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh&nbsp;&nbsp;The420.in",
+    "evidence_snapshot": "Source: The Economic Times | Published: 2026-09-21T05:01:00+00:00 (4.0h ago) | Headline: SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know - The Economic Times | Context: SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know - The Economic Times. SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know&nbsp;&nbsp;The Economic Times",
     "news_analysis": {
-      "headline_hook": "How ₹14.94 Lakh vanishes in 3 clicks: The math of the scam.",
-      "breaking_event_summary": "Two residents in Panipat were defrauded of ₹14.94 lakh after being lured into a fraudulent online trading scheme promising high returns.",
-      "retail_illusion": "Retail investors often assume that high-return 'trading platforms' advertised on social media are legitimate fintech innovations or regulated brokerage alternatives.",
-      "institutional_reality": "These scams exploit the 'Liquidity Illusion'—where victims see fake dashboard profits that cannot be withdrawn because no actual market execution occurs; it is a closed-loop ledger fraud, not a market trade.",
+      "headline_hook": "The math behind SME IPOs: Why a 50% loss wipes out 100% of your 'multibagger' gains.",
+      "breaking_event_summary": "Data from 2026 reveals that while 21 Indian SME IPOs delivered multibagger returns, several others inflicted devastating losses of up to 50% on retail investors.",
+      "retail_illusion": "Retail investors view SME IPOs as guaranteed lottery tickets, assuming every issue offers easy multibagger returns without downside risk.",
+      "institutional_reality": "SME platforms suffer from severe illiquidity and strict circuit filters; when momentum flips, retail investors get trapped in lower circuits with zero buy depth while institutional insiders exit early.",
       "citable_metrics": [
-        "₹14.94 Lakh"
+        "21 multibaggers",
+        "50% losses",
+        "2026"
       ],
       "debunk_category": "LIQUIDITY_TRAP",
-      "actionable_retail_rule": "Never trade on any platform not registered with SEBI; verify the entity's registration number on the official SEBI website before transferring a single rupee.",
+      "actionable_retail_rule": "Never allocate more than 2% of total equity portfolio to SME IPOs and avoid issues without strong institutional (QIB) oversubscription.",
       "lead_magnet": {
         "trigger_word": "AUDIT",
-        "resource_name": "The 5-Point SEBI Broker Verification Checklist"
+        "resource_name": "The 1-Page SME IPO Liquidity Risk & Red-Flag Checklist"
       },
       "carousel_outline": [
         {
           "slide": 1,
           "role": "hook",
-          "focus": "The ₹14.94 Lakh Illusion: Why Your 'Trading App' is a Digital Casino"
+          "focus": "21 Multibaggers vs 50% Capital Loss: The SME IPO Reality Check"
         },
         {
           "slide": 2,
           "role": "friction",
-          "focus": "Retailers think they are 'investing' in high-growth apps; in reality, they are depositing funds into a private wallet controlled by scammers."
+          "focus": "Retail celebrates headline winners while ignoring accounts wiped out by 50% declines"
         },
         {
           "slide": 3,
           "role": "math_reality",
-          "focus": "Institutional reality: Real markets require clearing houses and T+1 settlement. If your 'profit' appears instantly without a trade confirmation note, it is a database entry, not a market gain."
+          "focus": "How micro-floats and market maker lock-in periods create liquidity traps on the downside"
         },
         {
           "slide": 4,
           "role": "breakdown",
-          "focus": "How the trap works: 1. Social media bait, 2. Fake dashboard, 3. 'Tax' or 'Withdrawal Fee' extortion, 4. Total capital loss."
+          "focus": "The mechanics of locked lower circuits preventing retail exits in SME counters"
         },
         {
           "slide": 5,
           "role": "actionable_rule",
-          "focus": "The Golden Rule: If the platform isn't on the SEBI 'Recognized Stock Exchanges' list, it is not a trading platform—it is a crime scene."
+          "focus": "The QIB subscription rule and strict portfolio position sizing limits"
         },
         {
           "slide": 6,
           "role": "cta",
-          "focus": "Comment 'AUDIT' to receive our 5-Point SEBI Broker Verification Checklist."
+          "focus": "Comment AUDIT to receive the tactical SME Risk Audit Sheet"
         }
       ],
-      "highlight_word": "Vanishes",
-      "editorial_directive": "Slides must prioritize data visualization over text. Use a 'step-down' graph to show how the ₹14.94 Lakh was depleted. Keep copy sparse, aggressive, and focused on the hidden mathematical mechanics of the scam."
+      "highlight_word": "Math Reality",
+      "editorial_directive": "Focus on visual decay. Use a chart showing the 'Recovery Gap'—how a ₹1L investment dropping to ₹50k requires a 100% return just to break even. Keep copy minimal, punchy, and devoid of fluff."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "How ₹14.94 Lakh vanishes in 3 clicks: The math of the scam.",
-        "highlight_word": "Vanishes",
-        "core_mechanism": "Quantifies the 'fee decay' and 'phantom liquidity' trap, showing exactly how the scammers manipulate the spread to drain accounts before the victim realizes the trade is fraudulent.",
+        "headline_hook": "The math behind SME IPOs: Why a 50% loss wipes out 100% of your 'multibagger' gains.",
+        "highlight_word": "Math Reality",
+        "core_mechanism": "Exposing the asymmetry of loss: demonstrating that to recover from a 50% drop, you need a 100% gain, which is statistically improbable in the SME space.",
         "scores": {
-          "curiosity_gap": 9.0,
+          "curiosity_gap": 8.5,
           "retail_actionability": 9.5,
-          "data_density": 10.0,
-          "friction_quotient": 9.5,
-          "total": 38.0
+          "data_density": 9.5,
+          "friction_quotient": 9.0,
+          "total": 36.5
         },
-        "critic_critique": "Superior execution. By anchoring the narrative to the specific loss amount, it creates immediate cognitive dissonance. It forces the reader to calculate their own exposure."
+        "critic_critique": "This is the most lethal angle. It forces the reader to do mental math that contradicts their greed-driven optimism. Highly actionable."
       },
-      "critic_score": 9.5,
+      "critic_score": 9.1,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It weaponizes the specific loss figure (₹14.94 Lakh) as a focal point, stripping away emotional fluff and replacing it with the cold, hard mechanics of asset theft.",
-      "final_editorial_directive": "Slides must prioritize data visualization over text. Use a 'step-down' graph to show how the ₹14.94 Lakh was depleted. Keep copy sparse, aggressive, and focused on the hidden mathematical mechanics of the scam.",
+      "selection_rationale": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It moves beyond emotional outrage to provide a quantifiable reality check that investors cannot ignore. It uses the '50% loss' data point as a weapon against the reader's own confirmation bias.",
+      "final_editorial_directive": "Focus on visual decay. Use a chart showing the 'Recovery Gap'—how a ₹1L investment dropping to ₹50k requires a 100% return just to break even. Keep copy minimal, punchy, and devoid of fluff.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Why your 'safe' trading app is a digital minefield.",
-          "highlight_word": "Digital Minefield",
-          "core_mechanism": "Deconstructs the illusion of security provided by user-friendly interfaces, arguing that the simpler the UI, the more complex the backend scam architecture.",
+          "headline_hook": "Stop chasing 2026 SME IPO multibaggers: The 'lottery' trap is designed to break you.",
+          "highlight_word": "Lottery Trap",
+          "core_mechanism": "Reframing the '21 multibaggers' narrative as a statistical lure designed to ignore the systemic 50% drawdown risk.",
           "scores": {
-            "curiosity_gap": 9.5,
+            "curiosity_gap": 9.0,
             "retail_actionability": 7.0,
             "data_density": 7.5,
-            "friction_quotient": 9.0,
-            "total": 33.0
+            "friction_quotient": 8.5,
+            "total": 32.0
           },
-          "critic_critique": "High engagement potential due to the 'fear' factor, but lacks the analytical weight to retain sophisticated users. It relies too heavily on paranoia rather than evidence."
+          "critic_critique": "Strong hook, but risks sounding like a generic 'doom-scroller' warning. Needs more specific data to move from opinion to authority."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "How ₹14.94 Lakh vanishes in 3 clicks: The math of the scam.",
-          "highlight_word": "Vanishes",
-          "core_mechanism": "Quantifies the 'fee decay' and 'phantom liquidity' trap, showing exactly how the scammers manipulate the spread to drain accounts before the victim realizes the trade is fraudulent.",
+          "headline_hook": "The math behind SME IPOs: Why a 50% loss wipes out 100% of your 'multibagger' gains.",
+          "highlight_word": "Math Reality",
+          "core_mechanism": "Exposing the asymmetry of loss: demonstrating that to recover from a 50% drop, you need a 100% gain, which is statistically improbable in the SME space.",
           "scores": {
-            "curiosity_gap": 9.0,
+            "curiosity_gap": 8.5,
             "retail_actionability": 9.5,
-            "data_density": 10.0,
-            "friction_quotient": 9.5,
-            "total": 38.0
+            "data_density": 9.5,
+            "friction_quotient": 9.0,
+            "total": 36.5
           },
-          "critic_critique": "Superior execution. By anchoring the narrative to the specific loss amount, it creates immediate cognitive dissonance. It forces the reader to calculate their own exposure."
+          "critic_critique": "This is the most lethal angle. It forces the reader to do mental math that contradicts their greed-driven optimism. Highly actionable."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "The Panipat Protocol: Why retail traders are the target, not the clients.",
-          "highlight_word": "The Target",
-          "core_mechanism": "Exposes the structural gap between regulated institutional platforms and 'shadow' brokers, highlighting how retail victims are funneled into predatory environments by fake signals.",
+          "headline_hook": "The SME IPO game is rigged: Here is how insiders exit while you hold the bag.",
+          "highlight_word": "Rigged Game",
+          "core_mechanism": "Exposing the liquidity gap between institutional lock-in periods and retail exit windows during SME volatility.",
           "scores": {
-            "curiosity_gap": 8.5,
-            "retail_actionability": 8.0,
-            "data_density": 8.5,
-            "friction_quotient": 8.5,
-            "total": 33.5
+            "curiosity_gap": 9.5,
+            "retail_actionability": 7.5,
+            "data_density": 8.0,
+            "friction_quotient": 8.0,
+            "total": 33.0
           },
-          "critic_critique": "Strong narrative flow, but slightly abstract. It explains the 'who' and 'why' well, but needs more 'how' to satisfy the reader's need for self-protection."
+          "critic_critique": "High emotional engagement, but 'rigged' is an overused narrative. It requires heavy evidence to prevent being dismissed as conspiratorial."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "How ₹14.94 Lakh vanishes in 3 clicks: The math of the scam.",
-    "core_illusion": "Retail investors often assume that high-return 'trading platforms' advertised on social media are legitimate fintech innovations or regulated brokerage alternatives.",
-    "hidden_reality": "These scams exploit the 'Liquidity Illusion'—where victims see fake dashboard profits that cannot be withdrawn because no actual market execution occurs; it is a closed-loop ledger fraud, not a market trade.",
-    "citable_metric": "₹14.94 Lakh",
+    "hook_headline": "The math behind SME IPOs: Why a 50% loss wipes out 100% of your 'multibagger' gains.",
+    "core_illusion": "Retail investors view SME IPOs as guaranteed lottery tickets, assuming every issue offers easy multibagger returns without downside risk.",
+    "hidden_reality": "SME platforms suffer from severe illiquidity and strict circuit filters; when momentum flips, retail investors get trapped in lower circuits with zero buy depth while institutional insiders exit early.",
+    "citable_metric": "21 multibaggers",
     "all_metrics": [
-      "₹14.94 Lakh"
+      "21 multibaggers",
+      "50% losses",
+      "2026"
     ],
-    "actionable_rule": "Never trade on any platform not registered with SEBI; verify the entity's registration number on the official SEBI website before transferring a single rupee.",
-    "breaking_event": "Two residents in Panipat were defrauded of ₹14.94 lakh after being lured into a fraudulent online trading scheme promising high returns.",
+    "actionable_rule": "Never allocate more than 2% of total equity portfolio to SME IPOs and avoid issues without strong institutional (QIB) oversubscription.",
+    "breaking_event": "Data from 2026 reveals that while 21 Indian SME IPOs delivered multibagger returns, several others inflicted devastating losses of up to 50% on retail investors.",
     "lead_magnet": {
       "trigger_word": "AUDIT",
-      "resource_name": "The 5-Point SEBI Broker Verification Checklist"
+      "resource_name": "The 1-Page SME IPO Liquidity Risk & Red-Flag Checklist"
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -161,99 +167,104 @@
     ]
   },
   "deck": {
-    "caption": "🚨 Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh - The420.in\n\nWhat looks like a routine market headline on the surface is quietly an institutional liquidity trap underneath.\n\nSwipe through this 8-slide breakdown:\n• Structural traps behind headline market surges\n• How smart capital extracts exit liquidity\n• Complete pre-trade risk audit checkpoints\n\n📌 Save this post to audit your next trade.\n✈️ Share this with a fellow investor before they take their next position.\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#Nifty50 #IndianStockMarket #SEBI #MacroEconomics #MarketDebunk",
+    "caption": "🚨 SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know\n\nThe real financial math behind this move tells a completely different story than television commentary.\n\nSwipe through this 8-slide breakdown:\n• Structural traps behind headline market surges\n• How smart capital extracts exit liquidity\n• Complete pre-trade risk audit checkpoints\n\n📌 Save this post to audit your next trade.\n✈️ Share this with a fellow investor before they take their next position.\n\n💬 Follow @Market_Debunk and comment 'GUIDE' below — we'll send our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n#RetailTrap #TradingPsychology #MarketDebunk #RiskManagement #TraderMindset",
     "slides": [
       {
         "slide_number": 1,
-        "headline": "How ₹14.94 Lakh <span class=\"highlight-box\">vanishes instantly</span>.",
+        "headline": "SME IPOs: The <span class=\"highlight-box\">math</span> behind the trap.",
         "tag": "#MARKETDEBUNK",
         "slide_index": 1,
         "role": "hook",
         "title_lines": [
-          "How ₹14.94",
-          "Lakh",
-          "<span class='highlight-box'>vanishes instantly</span>",
-          "."
+          "SME IPOs:",
+          "The",
+          "<span class='highlight-box'>math</span>",
+          "behind the"
         ],
         "card_text": ""
       },
       {
         "slide_number": 2,
-        "headline": "The Illusion of <span class=\"highlight-box\">High Returns</span>.",
-        "card_text": "Retail investors often mistake fraudulent dashboards for fintech innovation. The reality is a closed-loop ledger fraud. No market execution occurs; the <strong>₹14.94 Lakh</strong> lost by Panipat residents never entered the exchange. You are trading against a ghost, not the market.",
+        "headline": "The Illusion of <span class=\"highlight-box\">Easy Gains</span>",
+        "card_text": "Retail investors often treat SME IPOs as lottery tickets, ignoring the asymmetric risk. While <strong>21 multibaggers</strong> made headlines in 2026, the reality is a binary outcome. Investors frequently mistake speculative momentum for fundamental value, failing to realize that for every winner, there is a hidden cohort suffering 50% losses.",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "role": "value_1",
         "title_lines": [
           "The Illusion",
-          "<span class='highlight-box'>of High</span>",
-          "Returns."
+          "<span class='highlight-box'>of Easy</span>",
+          "Gains"
         ]
       },
       {
         "slide_number": 3,
-        "headline": "The Mechanism of <span class=\"highlight-box\">Capital Extraction</span>.",
-        "card_text": "Scammers use psychological anchoring to keep victims engaged. By showing artificial 'profit' growth on a proprietary app, they trigger the greed response. Once the victim attempts a withdrawal, the platform demands 'taxes' or 'fees,' extracting further capital before the inevitable total blackout.",
+        "headline": "The Mechanism of <span class=\"highlight-box\">Capital Extraction</span>",
+        "card_text": "Risk is shifted to retail via aggressive valuation premiums. Institutional insiders often utilize the IPO window to offload positions, leaving retail holders to absorb the volatility. When the initial hype dissipates, the lack of fundamental support causes the stock to collapse, effectively transferring wealth from the public to early-stage promoters.",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "role": "value_2",
         "title_lines": [
           "The Mechanism",
           "<span class='highlight-box'>of Capital</span>",
-          "Extraction."
+          "Extraction"
         ]
       },
       {
         "slide_number": 4,
-        "headline": "The Fatal <span class=\"highlight-box\">Liquidity Trap</span>.",
-        "card_text": "Institutional markets rely on transparent order books and clearing houses. These scams operate in a vacuum where liquidity is simulated. Because no actual trades are routed to the exchange, the platform holds 100% of the risk, ensuring your capital is trapped from the first deposit.",
+        "headline": "The Brutal <span class=\"highlight-box\">Liquidity Trap</span>",
+        "card_text": "SME platforms suffer from severe illiquidity and strict circuit filters. When sentiment shifts, retail investors find themselves trapped in lower circuits with zero buy depth. You cannot exit your position, meaning your capital is held hostage while institutional players have already liquidated their holdings during the initial surge.",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "role": "value_3",
         "title_lines": [
-          "The Fatal",
-          "<span class='highlight-box'>Liquidity Trap.</span>"
+          "The Brutal",
+          "<span class='highlight-box'>Liquidity Trap</span>"
         ]
       },
       {
         "slide_number": 5,
-        "headline": "Mathematical <span class=\"highlight-box\">Principal Erosion</span>.",
-        "card_text": "The math is binary: 100% loss. Unlike legitimate market volatility, these scams offer zero recovery potential. The <strong>₹14.94 Lakh</strong> loss represents a total wipeout of principal. There is no compounding, no fee structure, and no market participation—only the systematic theft of retail savings.",
+        "headline": "Mathematical <span class=\"highlight-box\">Compounding Drag</span>",
+        "card_text": "A 50% loss requires a 100% gain just to break even. If your portfolio is heavily skewed toward speculative SME issues, one bad trade wipes out the gains of multiple winners. This volatility drag destroys long-term compounding, turning a 'multibagger' strategy into a net-negative wealth erosion machine over time.",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "role": "value_4",
         "title_lines": [
-          "<span class='highlight-box'>Mathematical Principal</span>",
-          "Erosion."
+          "<span class='highlight-box'>Mathematical Compounding</span>",
+          "Drag"
         ]
       },
       {
         "slide_number": 6,
-        "headline": "The Non-Negotiable <span class=\"highlight-box\">Institutional Rule</span>.",
-        "card_text": "Never trade on any platform not registered with SEBI. If the broker is not on the official SEBI database, they are not a broker; they are a counterparty to your loss. Verify the registration number on the official SEBI website before transferring a single rupee.",
+        "headline": "The Non-Negotiable <span class=\"highlight-box\">Institutional Rule</span>",
+        "card_text": "Never allocate more than 2% of your total equity portfolio to SME IPOs. Furthermore, strictly avoid any issue lacking strong institutional (QIB) oversubscription. If the 'smart money' is not participating in the book-building process, you are likely the liquidity provider for those looking to exit.",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "role": "value_5",
         "title_lines": [
           "The Non-Negotiable",
-          "<span class='highlight-box'>Institutional Rule.</span>"
+          "<span class='highlight-box'>Institutional Rule</span>"
         ]
       },
       {
         "slide_number": 7,
-        "headline": "The Pre-Trade <span class=\"highlight-box\">Audit Checklist</span>.",
-        "card_text": "Before allocating capital, perform these three steps: 1. Search the entity name on the SEBI portal. 2. Verify the registration number against the master list. 3. Confirm the broker is a member of a recognized stock exchange. If you cannot find them, do not deposit.",
+        "headline": "The Pre-Trade <span class=\"highlight-box\">Verification Audit</span>",
+        "card_text": "Before allocating, run this 3-point audit: 1) Verify QIB oversubscription levels to ensure institutional interest. 2) Analyze the promoter's track record for past regulatory red flags. 3) Assess the free-float liquidity to ensure you can actually exit the position during a market correction. If it fails one, do not bid.",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "role": "value_6",
         "title_lines": [
           "The Pre-Trade",
-          "<span class='highlight-box'>Audit Checklist.</span>"
+          "<span class='highlight-box'>Verification Audit</span>"
         ]
       },
       {
         "slide_number": 8,
-        "headline": "Send this to a <span class=\"highlight-box\">friend trading</span> in the market today.",
+        "headline_lines": [
+          "Send this to a",
+          "<span class=\"highlight-box\">friend trading</span>",
+          "in the market",
+          "today."
+        ],
         "tag": "#MARKETDEBUNK",
         "cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital.",
         "slide_index": 8,
@@ -270,111 +281,111 @@
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Cornfield Chase (Interstellar Piano/Synth)",
-      "artist": "Hans Zimmer / Dorian Marko",
-      "bpm": 100,
-      "vibe": "Cinematic Tension & Focus",
-      "reels_boost_tier": "High Velocity",
-      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
+      "title": "Experience (Ludovico Instrumental)",
+      "artist": "Ludovico Einaudi",
+      "bpm": 95,
+      "vibe": "Compounding Breakthrough",
+      "reels_boost_tier": "Top Tier",
+      "search_query": "Ludovico Einaudi Experience"
     },
-    "hashtag_cluster_id": "cluster_1",
-    "hook_archetype_id": "angle_1"
+    "hashtag_cluster_id": "cluster_4",
+    "hook_archetype_id": "angle_2"
   },
   "audio": {
-    "title": "Cornfield Chase (Interstellar Piano/Synth)",
-    "artist": "Hans Zimmer / Dorian Marko",
-    "bpm": 100,
-    "vibe": "Cinematic Tension & Focus",
-    "reels_boost_tier": "High Velocity",
-    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
+    "title": "Experience (Ludovico Instrumental)",
+    "artist": "Ludovico Einaudi",
+    "bpm": 95,
+    "vibe": "Compounding Breakthrough",
+    "reels_boost_tier": "Top Tier",
+    "search_query": "Ludovico Einaudi Experience"
   },
-  "run_id": "20260920_170153",
+  "run_id": "20260921_090615",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "How ₹14.94 Lakh vanishes in 3 clicks: The math of the scam.",
-      "highlight_word": "Vanishes",
-      "core_mechanism": "Quantifies the 'fee decay' and 'phantom liquidity' trap, showing exactly how the scammers manipulate the spread to drain accounts before the victim realizes the trade is fraudulent.",
+      "headline_hook": "The math behind SME IPOs: Why a 50% loss wipes out 100% of your 'multibagger' gains.",
+      "highlight_word": "Math Reality",
+      "core_mechanism": "Exposing the asymmetry of loss: demonstrating that to recover from a 50% drop, you need a 100% gain, which is statistically improbable in the SME space.",
       "scores": {
-        "curiosity_gap": 9.0,
+        "curiosity_gap": 8.5,
         "retail_actionability": 9.5,
-        "data_density": 10.0,
-        "friction_quotient": 9.5,
-        "total": 38.0
+        "data_density": 9.5,
+        "friction_quotient": 9.0,
+        "total": 36.5
       },
-      "critic_critique": "Superior execution. By anchoring the narrative to the specific loss amount, it creates immediate cognitive dissonance. It forces the reader to calculate their own exposure."
+      "critic_critique": "This is the most lethal angle. It forces the reader to do mental math that contradicts their greed-driven optimism. Highly actionable."
     },
-    "critic_score": 9.5,
+    "critic_score": 9.1,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It weaponizes the specific loss figure (₹14.94 Lakh) as a focal point, stripping away emotional fluff and replacing it with the cold, hard mechanics of asset theft.",
-    "final_editorial_directive": "Slides must prioritize data visualization over text. Use a 'step-down' graph to show how the ₹14.94 Lakh was depleted. Keep copy sparse, aggressive, and focused on the hidden mathematical mechanics of the scam.",
+    "selection_rationale": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It moves beyond emotional outrage to provide a quantifiable reality check that investors cannot ignore. It uses the '50% loss' data point as a weapon against the reader's own confirmation bias.",
+    "final_editorial_directive": "Focus on visual decay. Use a chart showing the 'Recovery Gap'—how a ₹1L investment dropping to ₹50k requires a 100% return just to break even. Keep copy minimal, punchy, and devoid of fluff.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Why your 'safe' trading app is a digital minefield.",
-        "highlight_word": "Digital Minefield",
-        "core_mechanism": "Deconstructs the illusion of security provided by user-friendly interfaces, arguing that the simpler the UI, the more complex the backend scam architecture.",
+        "headline_hook": "Stop chasing 2026 SME IPO multibaggers: The 'lottery' trap is designed to break you.",
+        "highlight_word": "Lottery Trap",
+        "core_mechanism": "Reframing the '21 multibaggers' narrative as a statistical lure designed to ignore the systemic 50% drawdown risk.",
         "scores": {
-          "curiosity_gap": 9.5,
+          "curiosity_gap": 9.0,
           "retail_actionability": 7.0,
           "data_density": 7.5,
-          "friction_quotient": 9.0,
-          "total": 33.0
+          "friction_quotient": 8.5,
+          "total": 32.0
         },
-        "critic_critique": "High engagement potential due to the 'fear' factor, but lacks the analytical weight to retain sophisticated users. It relies too heavily on paranoia rather than evidence."
+        "critic_critique": "Strong hook, but risks sounding like a generic 'doom-scroller' warning. Needs more specific data to move from opinion to authority."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "How ₹14.94 Lakh vanishes in 3 clicks: The math of the scam.",
-        "highlight_word": "Vanishes",
-        "core_mechanism": "Quantifies the 'fee decay' and 'phantom liquidity' trap, showing exactly how the scammers manipulate the spread to drain accounts before the victim realizes the trade is fraudulent.",
+        "headline_hook": "The math behind SME IPOs: Why a 50% loss wipes out 100% of your 'multibagger' gains.",
+        "highlight_word": "Math Reality",
+        "core_mechanism": "Exposing the asymmetry of loss: demonstrating that to recover from a 50% drop, you need a 100% gain, which is statistically improbable in the SME space.",
         "scores": {
-          "curiosity_gap": 9.0,
+          "curiosity_gap": 8.5,
           "retail_actionability": 9.5,
-          "data_density": 10.0,
-          "friction_quotient": 9.5,
-          "total": 38.0
+          "data_density": 9.5,
+          "friction_quotient": 9.0,
+          "total": 36.5
         },
-        "critic_critique": "Superior execution. By anchoring the narrative to the specific loss amount, it creates immediate cognitive dissonance. It forces the reader to calculate their own exposure."
+        "critic_critique": "This is the most lethal angle. It forces the reader to do mental math that contradicts their greed-driven optimism. Highly actionable."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "The Panipat Protocol: Why retail traders are the target, not the clients.",
-        "highlight_word": "The Target",
-        "core_mechanism": "Exposes the structural gap between regulated institutional platforms and 'shadow' brokers, highlighting how retail victims are funneled into predatory environments by fake signals.",
+        "headline_hook": "The SME IPO game is rigged: Here is how insiders exit while you hold the bag.",
+        "highlight_word": "Rigged Game",
+        "core_mechanism": "Exposing the liquidity gap between institutional lock-in periods and retail exit windows during SME volatility.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 8.0,
-          "data_density": 8.5,
-          "friction_quotient": 8.5,
-          "total": 33.5
+          "curiosity_gap": 9.5,
+          "retail_actionability": 7.5,
+          "data_density": 8.0,
+          "friction_quotient": 8.0,
+          "total": 33.0
         },
-        "critic_critique": "Strong narrative flow, but slightly abstract. It explains the 'who' and 'why' well, but needs more 'how' to satisfy the reader's need for self-protection."
+        "critic_critique": "High emotional engagement, but 'rigged' is an overused narrative. It requires heavy evidence to prevent being dismissed as conspiratorial."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.3,
+    "average_score": 9.2,
     "slide_1_report": {
-      "mobile_readability_score": 9.5,
-      "contrast_score": 9.8,
-      "whitespace_score": 9.0,
-      "overall_score": 9.4,
+      "mobile_readability_score": 9.0,
+      "contrast_score": 9.2,
+      "whitespace_score": 8.8,
+      "overall_score": 9.0,
       "passed": true,
-      "critique_summary": "The typography is bold, punchy, and highly effective for social feeds, using high-contrast color blocks to drive immediate attention. The layout effectively mimics modern financial media aesthetics while maintaining excellent mobile legibility.",
+      "critique_summary": "The typography is bold and punchy, offering excellent immediate legibility for mobile users. While the layout is clean, the line breaks create a slightly fragmented cadence that could be tightened to improve reading flow.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
-        "line_height": "1.1",
-        "notes": "The current setup is nearly perfect; a slight tightening of the leading on the headline text could further enhance the impact of the condensed font stack."
+        "line_height": "1.15",
+        "notes": "The current layout is effective; however, tightening the line-height slightly would create a more cohesive typographic lock-up for the headline."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-09-20T17:02:01.989929+00:00"
+  "exported_at": "2026-09-21T09:06:26.280256+00:00"
 }

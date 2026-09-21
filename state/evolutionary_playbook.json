@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 12,
+  "total_cycles_recorded": 13,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.25,
-    "MATHEMATICAL_FRICTION": 1.85,
+    "MATHEMATICAL_FRICTION": 1.9,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent",
     "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di",
     "Candidate B perfectly aligns with the MATHEMATICAL_FRICTION archetype (weighted 1.4). It leverages exact numerical figur",
     "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
@@ -38,7 +37,8 @@
     "Candidate B wins because it weaponizes data against the reader's own optimism. By framing the unlisted market as a 'math",
     "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality o",
     "Candidate B overwhelmingly wins by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.8). It strip",
-    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It weaponizes the specific loss figure (₹14.94 La"
+    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It weaponizes the specific loss figure (₹14.94 La",
+    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It moves beyond emotional outrage to provide a qu"
   ],
   "cycle_history": [
     {
@@ -148,6 +148,15 @@
       "critic_score": 9.5,
       "visual_score": 9.3,
       "key_learning": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It weaponizes the specific loss figure (₹14.94 La"
+    },
+    {
+      "cycle": 13,
+      "timestamp": "2026-09-21T09:06:26.279730+00:00",
+      "topic": "SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% l",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It moves beyond emotional outrage to provide a qu"
     }
   ]
 }
