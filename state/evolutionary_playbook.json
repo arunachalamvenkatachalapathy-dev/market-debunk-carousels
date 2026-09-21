@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 13,
+  "total_cycles_recorded": 14,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.25,
-    "MATHEMATICAL_FRICTION": 1.9,
+    "MATHEMATICAL_FRICTION": 1.95,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di",
     "Candidate B perfectly aligns with the MATHEMATICAL_FRICTION archetype (weighted 1.4). It leverages exact numerical figur",
     "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
     "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent",
@@ -38,7 +37,8 @@
     "Candidate B dominates by forcing the reader to confront the friction between brokerage 'price targets' and the reality o",
     "Candidate B overwhelmingly wins by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.8). It strip",
     "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It weaponizes the specific loss figure (₹14.94 La",
-    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It moves beyond emotional outrage to provide a qu"
+    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It moves beyond emotional outrage to provide a qu",
+    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a sensationalist news story into a da"
   ],
   "cycle_history": [
     {
@@ -157,6 +157,15 @@
       "critic_score": 9.1,
       "visual_score": 9.2,
       "key_learning": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It moves beyond emotional outrage to provide a qu"
+    },
+    {
+      "cycle": 14,
+      "timestamp": "2026-09-21T18:56:53.989780+00:00",
+      "topic": "65-Year-Old Woman In China Uses AI To Trap Man In $25,000 Dating Scam - NDTV",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a sensationalist news story into a da"
     }
   ]
 }
