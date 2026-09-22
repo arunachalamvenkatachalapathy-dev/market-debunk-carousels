@@ -788,8 +788,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 57.1
     },
     {
       "title": "Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh - The420.in",
@@ -817,8 +828,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 48.7
     },
     {
       "title": "SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know - The Economic Times",
@@ -895,6 +917,35 @@
           "success": true,
           "post_id": "1247247545146839_122110739109474347",
           "url": "https://www.facebook.com/1247247545146839_122110739109474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    },
+    {
+      "title": "Nifty falls 85 points, Sensex slips 330 points as IT stocks drag markets, easing crude limits losses - ANI News",
+      "media_id": "18425014480148531",
+      "timestamp": "2026-09-22T17:50:27.941445+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "angle_4",
+      "hashtag_cluster": "cluster_1",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18425014480148531",
+          "permalink": "https://www.instagram.com/p/DdmT3rAl7ri/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122111026995474347",
+          "url": "https://www.facebook.com/1247247545146839_122111026995474347"
         },
         "telegram": {
           "success": true
