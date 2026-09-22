@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 15,
+  "total_cycles_recorded": 16,
   "archetype_weights": {
-    "CONTRARIAN_TRAP": 1.25,
+    "CONTRARIAN_TRAP": 1.3,
     "MATHEMATICAL_FRICTION": 2.0,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
@@ -175,6 +175,15 @@
       "critic_score": 9.1,
       "visual_score": 9.4,
       "key_learning": "Candidate B dominates by weaponizing the ₹92 lakh figure. By converting a news headline into a 'cost-per-seat' analysis,"
+    },
+    {
+      "cycle": 16,
+      "timestamp": "2026-09-22T17:48:47.281265+00:00",
+      "topic": "Nifty falls 85 points, Sensex slips 330 points as IT stocks drag markets, easing",
+      "winning_archetype": "CONTRARIAN_TRAP",
+      "critic_score": 8.5,
+      "visual_score": 8.8,
+      "key_learning": "Fallback contrarian anchor."
     }
   ]
 }
