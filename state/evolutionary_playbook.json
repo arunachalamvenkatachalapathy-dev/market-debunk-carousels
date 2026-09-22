@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 14,
+  "total_cycles_recorded": 15,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.25,
-    "MATHEMATICAL_FRICTION": 1.95,
+    "MATHEMATICAL_FRICTION": 2.0,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B perfectly aligns with the MATHEMATICAL_FRICTION archetype (weighted 1.4). It leverages exact numerical figur",
     "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
     "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent",
     "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d",
@@ -38,7 +37,8 @@
     "Candidate B overwhelmingly wins by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.8). It strip",
     "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It weaponizes the specific loss figure (₹14.94 La",
     "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION directive. It moves beyond emotional outrage to provide a qu",
-    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a sensationalist news story into a da"
+    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a sensationalist news story into a da",
+    "Candidate B dominates by weaponizing the ₹92 lakh figure. By converting a news headline into a 'cost-per-seat' analysis,"
   ],
   "cycle_history": [
     {
@@ -166,6 +166,15 @@
       "critic_score": 9.1,
       "visual_score": 9.2,
       "key_learning": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype. It converts a sensationalist news story into a da"
+    },
+    {
+      "cycle": 15,
+      "timestamp": "2026-09-22T08:39:00.303215+00:00",
+      "topic": "KPSC exam scam: 40 candidates questioned as CID traces Rs 92 lakh money trail - ",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 9.4,
+      "key_learning": "Candidate B dominates by weaponizing the ₹92 lakh figure. By converting a news headline into a 'cost-per-seat' analysis,"
     }
   ]
 }
