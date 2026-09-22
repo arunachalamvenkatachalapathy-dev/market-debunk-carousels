@@ -184,6 +184,16 @@ class AnalyticsFeedbackEngine:
 
     def _update_ledger(self, post_record: Dict[str, Any]):
         """Appends performance metrics to the persistent analytics ledger."""
+        insights = post_record.get("insights", {})
+        status = insights.get("status", "success")
+        reach = insights.get("reach", 0)
+        # If API returned an error or reach is 0 (due to API permission error #10),
+        # do not contaminate the performance ledger with false zero-save rates!
+        if status != "success" or str(status).startswith("api_error") or str(status).startswith("error") or reach <= 0:
+            logger.info("ℹ️ Skipping ledger record for '%s': insights status='%s', reach=%s (unverified/error)",
+                        post_record.get("title"), status, reach)
+            return
+
         ledger = []
         if self.ledger_file.exists():
             try:
@@ -203,6 +213,7 @@ class AnalyticsFeedbackEngine:
             "reach": post_record.get("insights", {}).get("reach", 0),
             "impressions": post_record.get("insights", {}).get("impressions", 0),
             "save_to_reach_pct": post_record.get("insights", {}).get("save_to_reach_pct", 0.0),
+            "status": status,
             "recorded_at": datetime.now(timezone.utc).isoformat()
         }
         ledger.append(summary_entry)

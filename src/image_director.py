@@ -169,6 +169,7 @@ class ImageDirector:
 
         return {
             "slide_paths": slide_png_paths,
+            "slide_png_paths": slide_png_paths,
             "pdf_path": latest_pdf_path,
             "run_id": run_id,
             "total_slides": total_slides

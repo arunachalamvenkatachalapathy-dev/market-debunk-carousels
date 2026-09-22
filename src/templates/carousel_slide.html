@@ -37,7 +37,7 @@
         </div>
 
       {% elif slide.role == 'cta' or slide.role == 'bookmark_save' or slide_index == total_slides %}
-        <!-- ── SLIDE 8: DEDICATED BOOKMARK & SAVE CTA ── -->
+        <!-- ── SLIDE 8: DEDICATED BOOKMARK SAVE & SHARE CTA ── -->
         <div class="cta-container">
           <h1 class="editorial-headline cta-headline">
             {% if slide.title_lines %}
@@ -52,29 +52,33 @@
             {% endif %}
           </h1>
 
-          <div class="cta-guide-card">
-            <div class="cta-guide-badge">📘 FREE INVESTOR PLAYBOOK</div>
-            <div class="cta-guide-title">
-              Want the full step-by-step audit playbook & risk checklist?
-            </div>
-            <div class="cta-guide-steps">
-              <div class="cta-step-item">
-                <span class="cta-step-num">1</span>
-                <span class="cta-step-text"><strong>Follow</strong> {{ brand_handle or '@Market_Debunk' }}</span>
-              </div>
-              <div class="cta-step-item">
-                <span class="cta-step-num">2</span>
-                <span class="cta-step-text">Comment <strong>'GUIDE'</strong> below 👇</span>
+          <div class="cta-action-grid">
+            <div class="cta-action-card save-card">
+              <div class="cta-action-icon">📌</div>
+              <div class="cta-action-body">
+                <span class="cta-action-title">Save for Reference</span>
+                <span class="cta-action-desc">Bookmark this framework before taking your next trade or allocating capital.</span>
               </div>
             </div>
-            <p class="cta-guide-note">
-              We'll send the complete detailed Playbook PDF straight to your DMs!
+            <div class="cta-action-card share-card">
+              <div class="cta-action-icon">✈️</div>
+              <div class="cta-action-body">
+                <span class="cta-action-title">Share with a Peer</span>
+                <span class="cta-action-desc">Send this to a fellow investor before they allocate funds to this trap.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta-debate-card">
+            <span class="cta-debate-badge">💬 COMMUNITY DEBATE</span>
+            <p class="cta-debate-text">
+              {{ slide.cta_detail or 'Have you experienced this market trap? Let us know in the comments below 👇' }}
             </p>
           </div>
         </div>
 
       {% else %}
-        <!-- ── SLIDES 2–7: VALUE SLIDES (HEADLINE + ONE SOLID TACTILE GREEN CARD) ── -->
+        <!-- ── SLIDES 2–7: DYNAMIC VALUE SLIDES ── -->
         <div class="value-container">
           <h2 class="editorial-headline value-headline">
             {% if slide.title_lines %}
@@ -86,11 +90,61 @@
             {% endif %}
           </h2>
 
-          <div class="green-card">
-            <p class="green-card-text">
-              {{ slide.card_text | safe }}
-            </p>
-          </div>
+          {% if slide.comparison_data %}
+            <!-- Archetype 1: Side-by-Side Comparison Table -->
+            <div class="comparison-card">
+              <div class="comparison-box myth-box">
+                <span class="box-badge myth-badge">❌ RETAIL ILLUSION</span>
+                <p class="box-text">{{ slide.comparison_data.myth | safe }}</p>
+              </div>
+              <div class="comparison-box reality-box">
+                <span class="box-badge reality-badge">✅ INSTITUTIONAL TRUTH</span>
+                <p class="box-text">{{ slide.comparison_data.reality | safe }}</p>
+              </div>
+            </div>
+
+          {% elif slide.stat_data %}
+            <!-- Archetype 2: Hard Data Stat Callout -->
+            <div class="stat-card">
+              <div class="stat-badge">{{ slide.stat_data.badge or 'VERIFIED MARKET METRIC' }}</div>
+              <div class="stat-number">{{ slide.stat_data.metric | safe }}</div>
+              <div class="stat-label">{{ slide.stat_data.label | safe }}</div>
+              <p class="stat-context">{{ slide.stat_data.context | safe }}</p>
+            </div>
+
+          {% elif slide.flowchart_data %}
+            <!-- Archetype 3: Numbered Flowchart / Playbook -->
+            <div class="flowchart-container">
+              {% for step in slide.flowchart_data %}
+                <div class="flowchart-step">
+                  <span class="step-num">{{ step.step or loop.index }}</span>
+                  <div class="step-content">
+                    <strong class="step-title">{{ step.title | safe }}</strong>
+                    <span class="step-desc">{{ step.text | safe }}</span>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+          {% elif slide.checklist_data %}
+            <!-- Archetype 4: Pre-Trade Checklist -->
+            <div class="checklist-container">
+              {% for item in slide.checklist_data %}
+                <div class="checklist-item {% if item.status == 'pass' or item.pass %}item-pass{% else %}item-fail{% endif %}">
+                  <span class="checklist-icon">{% if item.status == 'pass' or item.pass %}✓{% else %}✕{% endif %}</span>
+                  <span class="checklist-text">{{ item.text | safe }}</span>
+                </div>
+              {% endfor %}
+            </div>
+
+          {% else %}
+            <!-- Default Archetype: Classic Solid Green Card (100% Backward Compatible) -->
+            <div class="green-card">
+              <p class="green-card-text">
+                {{ slide.card_text | safe }}
+              </p>
+            </div>
+          {% endif %}
         </div>
       {% endif %}
     </main>

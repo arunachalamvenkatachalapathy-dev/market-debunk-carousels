@@ -40,12 +40,18 @@ class FeedbackIntelligenceAgent:
         ledger_entries = self._load_ledger()
         upload_records = self._load_upload_history()
 
+        # Filter out corrupted or zero-reach entries caused by API permission failures (#10)
+        valid_entries = [
+            e for e in ledger_entries
+            if float(e.get("reach", 0)) > 0 and not str(e.get("status", "")).startswith("api_error")
+        ]
+
         # Aggregate metrics across categories and hook archetypes
         cat_performance = {}
         hook_performance = {}
         all_save_rates = []
 
-        for entry in ledger_entries:
+        for entry in valid_entries:
             cat = entry.get("topic_category", "GENERAL")
             hook = entry.get("hook_archetype", "CONTRARIAN")
             sr = float(entry.get("save_to_reach_pct", 0.0))
@@ -54,27 +60,31 @@ class FeedbackIntelligenceAgent:
             cat_performance.setdefault(cat, []).append(sr)
             hook_performance.setdefault(hook, []).append(sr)
 
-        avg_save_rate = (sum(all_save_rates) / len(all_save_rates)) if all_save_rates else 2.5
+        avg_save_rate = (sum(all_save_rates) / len(all_save_rates)) if all_save_rates else 2.8
 
-        # Classify high-performing vs low-performing
+        # Classify high-performing vs low-performing only if sufficient verified data exists (>= 5 valid posts)
         high_save_hooks = []
         deprecated_hooks = []
-        for hook, rates in hook_performance.items():
-            avg = sum(rates) / len(rates)
-            if avg >= 3.5:
-                high_save_hooks.append({"hook": hook, "avg_save_rate": f"{avg:.2f}%", "count": len(rates)})
-            elif avg < 1.5 and len(rates) >= 2:
-                deprecated_hooks.append({"hook": hook, "avg_save_rate": f"{avg:.2f}%", "reason": "Low dwell & bookmark retention"})
+        if len(valid_entries) >= 5:
+            for hook, rates in hook_performance.items():
+                avg = sum(rates) / len(rates)
+                if avg >= 3.5:
+                    high_save_hooks.append({"hook": hook, "avg_save_rate": f"{avg:.2f}%", "count": len(rates)})
+                elif avg < 1.5 and len(rates) >= 3:
+                    deprecated_hooks.append({"hook": hook, "avg_save_rate": f"{avg:.2f}%", "reason": "Low dwell & bookmark retention"})
 
-        high_save_cats = [cat for cat, rates in cat_performance.items() if (sum(rates) / len(rates)) >= 3.0]
-        low_save_cats = [cat for cat, rates in cat_performance.items() if (sum(rates) / len(rates)) < 1.5 and len(rates) >= 2]
+            high_save_cats = [cat for cat, rates in cat_performance.items() if (sum(rates) / len(rates)) >= 3.0]
+            low_save_cats = [cat for cat, rates in cat_performance.items() if (sum(rates) / len(rates)) < 1.5 and len(rates) >= 3]
+        else:
+            high_save_cats = []
+            low_save_cats = []
 
         # Formulate prescriptive directives for next Video and next Carousel
         directive = {
             "generated_at": datetime.now(timezone.utc).isoformat(),
-            "data_points_analyzed": len(ledger_entries),
+            "data_points_analyzed": len(valid_entries),
             "historical_avg_save_rate_pct": round(avg_save_rate, 2),
-            "prioritized_categories": high_save_cats or ["SMART_MONEY", "MARKET_TRAPS", "VALUATION"],
+            "prioritized_categories": high_save_cats or ["SMART_MONEY", "MARKET_TRAPS", "VALUATION_MYTH", "REGULATORY_SHIFT", "LIQUIDITY_TRAP"],
             "deprecated_categories": low_save_cats,
             "high_performing_hooks": high_save_hooks,
             "deprecated_hooks": deprecated_hooks,
@@ -96,17 +106,16 @@ class FeedbackIntelligenceAgent:
                 "slide_8_dual_cta": "Explicitly split personal bookmarking (Save) from peer distribution (DM Share)."
             },
             "prompt_injection_snippet": (
-                f"ALGORITHMIC REINFORCEMENT DIRECTIVE: Historical performance shows audiences respond to institutional order flow "
-                f"and hidden fee debunks with an average save rate of {avg_save_rate:.1f}%. "
-                f"Prioritize topics covering {', '.join(high_save_cats or ['Smart Money', 'Market Traps'])}. "
+                f"ALGORITHMIC REINFORCEMENT DIRECTIVE: Prioritize high-retention topics covering "
+                f"{', '.join(high_save_cats or ['Smart Money', 'Market Traps', 'Valuation Myths', 'Regulatory Shifts'])}. "
                 f"Ensure the opening 3 seconds / Slide 1 deliver immediate contrarian friction rather than standard market reporting."
             )
         }
 
         self._save_directive(directive)
         logger.info(
-            "✓ FeedbackIntelligenceAgent: Synthesized loop finetuning directive (Analyzed %d posts | Avg Save: %.2f%%).",
-            len(ledger_entries), avg_save_rate
+            "✓ FeedbackIntelligenceAgent: Synthesized loop finetuning directive (Analyzed %d valid posts | Avg Save: %.2f%%).",
+            len(valid_entries), avg_save_rate
         )
         return directive
 

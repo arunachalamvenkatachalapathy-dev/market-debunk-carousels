@@ -291,3 +291,286 @@ html, body {
 .bookmark-ribbon {
   display: block;
 }
+
+/* ── Dynamic Slide 8 Save & Share CTA ── */
+.cta-action-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.cta-action-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 22px 28px;
+  border: 1.5px solid rgba(22, 163, 74, 0.25);
+  box-shadow: 0 10px 24px -6px rgba(0, 0, 0, 0.05);
+}
+
+.cta-action-icon {
+  font-size: 38px;
+  flex-shrink: 0;
+}
+
+.cta-action-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cta-action-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: -0.01em;
+}
+
+.cta-action-desc {
+  font-size: 22px;
+  font-weight: 500;
+  color: #4b5563;
+  line-height: 1.35;
+}
+
+.cta-debate-card {
+  background: #f0fdf4;
+  border: 1.5px solid #86efac;
+  border-radius: 20px;
+  padding: 22px 28px;
+  width: 100%;
+}
+
+.cta-debate-badge {
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 800;
+  color: #16a34a;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.cta-debate-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #166534;
+  line-height: 1.35;
+}
+
+/* ── Archetype 1: Comparison Card (Myth vs Reality) ── */
+.comparison-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.comparison-box {
+  border-radius: 22px;
+  padding: 28px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.myth-box {
+  background: #fef2f2;
+  border: 1.5px solid #fca5a5;
+}
+
+.myth-badge {
+  font-size: 20px;
+  font-weight: 800;
+  color: #dc2626;
+  letter-spacing: 0.04em;
+}
+
+.myth-box .box-text {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.45;
+  color: #7f1d1d;
+}
+
+.reality-box {
+  background: linear-gradient(160deg, #16a34a 0%, #15803d 100%);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 16px 36px -8px rgba(22, 163, 74, 0.35);
+}
+
+.reality-badge {
+  font-size: 20px;
+  font-weight: 800;
+  color: #bbf7d0;
+  letter-spacing: 0.04em;
+}
+
+.reality-box .box-text {
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #ffffff;
+}
+
+.reality-box .box-text strong {
+  color: #fef08a;
+  font-weight: 800;
+}
+
+/* ── Archetype 2: Hard Data Stat Callout ── */
+.stat-card {
+  background: #ffffff;
+  border: 2px solid #16a34a;
+  border-radius: 26px;
+  padding: 44px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 20px 42px -10px rgba(22, 163, 74, 0.18);
+  width: 100%;
+  gap: 12px;
+}
+
+.stat-badge {
+  font-size: 20px;
+  font-weight: 800;
+  color: #16a34a;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.stat-number {
+  font-size: 96px;
+  font-weight: 900;
+  color: #111111;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.stat-label {
+  font-size: 32px;
+  font-weight: 700;
+  color: #16a34a;
+  letter-spacing: -0.015em;
+}
+
+.stat-context {
+  font-size: 26px;
+  font-weight: 500;
+  color: #4b5563;
+  line-height: 1.45;
+  margin-top: 8px;
+}
+
+/* ── Archetype 3: Numbered Flowchart ── */
+.flowchart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+}
+
+.flowchart-step {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  background: #ffffff;
+  border: 1.5px solid #e5e7eb;
+  border-left: 6px solid #16a34a;
+  border-radius: 18px;
+  padding: 22px 28px;
+  box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.04);
+}
+
+.step-num {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.step-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: -0.015em;
+}
+
+.step-desc {
+  font-size: 24px;
+  font-weight: 500;
+  color: #4b5563;
+  line-height: 1.35;
+}
+
+/* ── Archetype 4: Pre-Trade Checklist ── */
+.checklist-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 18px;
+  padding: 20px 26px;
+}
+
+.item-pass {
+  background: #f0fdf4;
+  border: 1.5px solid #86efac;
+}
+
+.item-fail {
+  background: #fef2f2;
+  border: 1.5px solid #fca5a5;
+}
+
+.checklist-icon {
+  font-size: 26px;
+  font-weight: 900;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.item-pass .checklist-icon {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.item-fail .checklist-icon {
+  background: #dc2626;
+  color: #ffffff;
+}
+
+.checklist-text {
+  font-size: 27px;
+  font-weight: 600;
+  color: #1f2937;
+  line-height: 1.35;
+}

@@ -9,3 +9,5 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+state/carousel_slides/
+state/market_debunk_carousel_*.pdf

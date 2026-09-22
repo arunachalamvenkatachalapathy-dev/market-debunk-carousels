@@ -174,29 +174,26 @@ CRITICAL: Return valid JSON ONLY with keys "caption" and "slides" (array of 6 ob
 
         prompt = f"""You are a senior quantitative financial editor for 'Market Debunk'.
 Create an authoritative, high-density 8-slide Instagram carousel debunking a retail investing trap.
-The design language is strictly modeled after an ultra-clean, spacious editorial template:
+The design language features clean typography and dynamic, high-contrast visual slide archetypes:
 - Large, bold headlines with exactly ONE phrase highlighted in <span class="highlight-box">...</span>.
-- On content slides (Slides 2–7): exactly ONE tactile green card with concise, authoritative text.
-- NO extra boxes, NO checklist badges, NO mini KPI widgets.
+- Dynamic visual layouts across content slides (Slides 2–7):
+  * Slide 1 (role: "hook"): 4-8 words maximum. Bold curiosity gap. 1-2 words in <span class="highlight-box">...</span>. tag: "#MARKETDEBUNK".
+  * Slide 2 (role: "value_1"): Comparison Table. title: 2-3 lines with highlight box. comparison_data: {{"myth": "Retail belief...", "reality": "Institutional truth with exact data..."}}.
+  * Slide 3 (role: "value_2"): Hard Data Stat Callout. title: 2-3 lines with highlight box. stat_data: {{"badge": "VERIFIED MARKET IMPACT", "metric": "₹34 Lakhs" (or exact figure), "label": "compounding loss / penalty", "context": "30-40 words explaining the mathematical friction."}}.
+  * Slide 4 (role: "value_3"): Distribution / Liquidity Mechanism. title: 2-3 lines with highlight box. card_text: 35-50 words detailing institutional order flow or flowchart_data: list of 3 numbered steps.
+  * Slide 5 (role: "value_4"): Mathematical Drag / Loss. title: 2-3 lines with highlight box. card_text: 35-50 words explaining how capital is quietly extracted.
+  * Slide 6 (role: "value_5"): The Non-Negotiable Institutional Rule. title: 2-3 lines with highlight box. card_text: 35-50 words presenting the golden execution rule.
+  * Slide 7 (role: "value_6"): Pre-Trade Risk Checklist. title: 2-3 lines with highlight box. checklist_data: list of 3 checklist items with "status": "pass" or "fail" and "text": "...".
+  * Slide 8 (role: "bookmark_save"): Peer DM-Share & Save Trigger. title_lines: ["Send this to a", "<span class=\\"highlight-box\\">friend trading</span>", "in the market", "today."]. cta_detail: "Have you experienced this trap? Drop your experience in the comments below 👇". tag: "#MARKETDEBUNK".
 
 TOPIC: {title}
 SOURCE CONTEXT: {raw_text}
 CREATIVE BRIEF:
 {brief}
 
-DESIGN SPECIFICATIONS (EXACTLY 8 SLIDES):
-- Slide 1 (role: "hook"): 4-8 words maximum. Bold curiosity gap. 1-2 words in <span class="highlight-box">...</span>. tag: "#2026".
-- Slide 2 (role: "value_1"): The Core Illusion vs Reality. title: 2-3 lines with highlight box. card_text: 35-50 words explaining the myth vs institutional truth. Bold key metrics using <strong>...</strong>.
-- Slide 3 (role: "value_2"): The Primary Hidden Trap / Mechanism. title: 2-3 lines with highlight box. card_text: 35-50 words explaining how capital is quietly extracted or risk shifted.
-- Slide 4 (role: "value_3"): Distribution / Liquidity Trap. title: 2-3 lines with highlight box. card_text: 35-50 words detailing institutional exit liquidity or order flow reality.
-- Slide 5 (role: "value_4"): Mathematical Compounding Drag. title: 2-3 lines with highlight box. card_text: 35-50 words breaking down the long-term rupee loss or fee erosion with exact figures.
-- Slide 6 (role: "value_5"): The Non-Negotiable Institutional Rule. title: 2-3 lines with highlight box. card_text: 35-50 words presenting the golden execution rule to protect retail principal.
-- Slide 7 (role: "value_6"): The Pre-Trade Verification Checklist. title: 2-3 lines with highlight box. card_text: 35-50 words outlining the 3-point audit every investor must run before allocating capital.
-- Slide 8 (role: "bookmark_save"): High-Converting Peer DM-Share & Comment Trigger. title_lines: ["Send this to a", "<span class=\\"highlight-box\\">friend trading</span>", "in the market", "today."]. tag: "#MARKETDEBUNK".
-
 Return JSON ONLY:
 {{
-  "caption": "High-converting Instagram caption (hook, 3-bullet value preview, keyword CTA 'Follow @Market_Debunk and comment AUDIT for the full Investor Playbook PDF', 3-5 relevant hashtags)",
+  "caption": "High-converting Instagram caption (hook, 3-bullet value preview, Save & Share prompt, debate question, 3-5 relevant hashtags)",
   "slides": [ ... exactly 8 slide objects ... ]
 }}"""
 
@@ -336,11 +333,31 @@ Return JSON ONLY:
                 # Strip trailing numbers like #1, #2
                 raw_title = re.sub(r"\s*#\d+\b", "", str(raw_title)).strip()
                 s["title_lines"] = self._format_title_lines(raw_title, is_hook=False, slide_index=idx + 1)
-                card_text = s.get("card_text") or s.get("mechanism") or s.get("card_b_text") or s.get("takeaway") or ""
-                if not card_text:
-                    card_text = "Institutions trade on verified balance sheet quality and liquidity margins, while retail investors chase short-term headline hype."
-                card_text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", card_text)
-                s["card_text"] = card_text
+
+                # Preserve polymorphic archetype structures
+                if s.get("comparison_data") and isinstance(s["comparison_data"], dict):
+                    comp = s["comparison_data"]
+                    comp["myth"] = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", str(comp.get("myth", "")))
+                    comp["reality"] = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", str(comp.get("reality", "")))
+                elif s.get("stat_data") and isinstance(s["stat_data"], dict):
+                    stat = s["stat_data"]
+                    stat["context"] = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", str(stat.get("context", "")))
+                    stat["metric"] = str(stat.get("metric", ""))
+                    stat["label"] = str(stat.get("label", ""))
+                elif s.get("flowchart_data") and isinstance(s["flowchart_data"], list):
+                    for step in s["flowchart_data"]:
+                        if isinstance(step, dict):
+                            step["text"] = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", str(step.get("text", "")))
+                elif s.get("checklist_data") and isinstance(s["checklist_data"], list):
+                    for item in s["checklist_data"]:
+                        if isinstance(item, dict):
+                            item["text"] = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", str(item.get("text", "")))
+                else:
+                    card_text = s.get("card_text") or s.get("mechanism") or s.get("card_b_text") or s.get("takeaway") or ""
+                    if not card_text:
+                        card_text = "Institutions trade on verified balance sheet quality and liquidity margins, while retail investors chase short-term headline hype."
+                    card_text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", card_text)
+                    s["card_text"] = card_text
 
             normalized.append(s)
 
@@ -448,8 +465,9 @@ Return JSON ONLY:
                 f"Swipe through this 8-slide breakdown:\n"
                 f"• The Core Retail Illusion vs Reality\n"
                 f"• Hidden Market Mechanics & Numbers\n"
-                f"• The 3-Point Pre-Trade Risk Audit\n\n"
-                f"💬 Follow @Market_Debunk and comment 'GUIDE' below to receive our complete Investor Playbook & Risk Checklist straight to your DMs!\n\n"
+                f"📌 Save this post for your next trade review.\n"
+                f"📤 Share this with a friend who trades in the market.\n\n"
+                f"💬 What's your rule when a stock hits headline news? Let us know in the comments below 👇\n\n"
                 f"#StockMarket #Investing #MarketDebunk #Nifty50 #FinancialLiteracy #Trading"
             ),
             "slides": [

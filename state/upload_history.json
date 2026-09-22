@@ -629,330 +629,59 @@
         }
       },
       "insights_fetched_48h": true,
-      "insights": {
-        "saves": 0,
-        "shares": 0,
-        "impressions": 0,
-        "reach": 0,
-        "total_interactions": 0,
-        "fb_reach": 0,
-        "fb_engaged_users": 0,
-        "save_to_reach_pct": 0.0,
-        "status": "api_error: (#10) Application does not have permission for this action"
-      },
-      "age_at_audit_hours": 61.6
+      "insights": {}
     },
     {
       "title": "Tax crackdown reveals US$137m expense inflation scam in insurance sector, implicating 303 insurance entities - Asia Insurance Review",
-      "media_id": "18131497702674749",
-      "timestamp": "2026-09-18T14:35:14.337259+00:00",
+      "media_id": "simulated_id",
+      "timestamp": "2026-09-18T14:27:53.444177+00:00",
       "topic_category": "VALUATION_MYTH",
       "hook_archetype": "angle_4",
-      "hashtag_cluster": "cluster_5",
-      "publish_results": {
-        "instagram": {
-          "success": true,
-          "media_id": "18131497702674749",
-          "permalink": "https://www.instagram.com/p/DdbqWVQm00K/"
-        },
-        "facebook": {
-          "success": true,
-          "post_id": "1247247545146839_122106769929474347",
-          "url": "https://www.facebook.com/1247247545146839_122106769929474347"
-        },
-        "telegram": {
-          "success": true
-        },
-        "linkedin": {
-          "success": false,
-          "status": "skipped"
-        }
-      },
-      "insights_fetched_48h": true,
-      "insights": {
-        "saves": 0,
-        "shares": 0,
-        "impressions": 0,
-        "reach": 0,
-        "total_interactions": 0,
-        "fb_reach": 0,
-        "fb_engaged_users": 0,
-        "save_to_reach_pct": 0.0,
-        "status": "api_error: (#10) Application does not have permission for this action"
-      },
-      "age_at_audit_hours": 50.4
-    },
-    {
-      "title": "Hero Motors, NSE show two realities of India’s unlisted market",
-      "media_id": "18125457688841496",
-      "timestamp": "2026-09-19T08:08:56.119766+00:00",
-      "topic_category": "VALUATION_MYTH",
-      "hook_archetype": "angle_5",
-      "hashtag_cluster": "cluster_2",
-      "publish_results": {
-        "instagram": {
-          "success": true,
-          "media_id": "18125457688841496",
-          "permalink": "https://www.instagram.com/p/Dddi7pCFkRu/"
-        },
-        "facebook": {
-          "success": true,
-          "post_id": "1247247545146839_122107626927474347",
-          "url": "https://www.facebook.com/1247247545146839_122107626927474347"
-        },
-        "telegram": {
-          "success": true
-        },
-        "linkedin": {
-          "success": false,
-          "status": "skipped"
-        }
-      },
-      "insights_fetched_48h": true,
-      "insights": {
-        "saves": 0,
-        "shares": 0,
-        "impressions": 0,
-        "reach": 0,
-        "total_interactions": 0,
-        "fb_reach": 0,
-        "fb_engaged_users": 0,
-        "save_to_reach_pct": 0.0,
-        "status": "api_error: (#10) Application does not have permission for this action"
-      },
-      "age_at_audit_hours": 48.9
-    },
-    {
-      "title": "ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish",
-      "media_id": "18467635054141149",
-      "timestamp": "2026-09-19T16:53:27.589717+00:00",
-      "topic_category": "VALUATION_MYTH",
-      "hook_archetype": "angle_4",
-      "hashtag_cluster": "cluster_3",
-      "publish_results": {
-        "instagram": {
-          "success": true,
-          "media_id": "18467635054141149",
-          "permalink": "https://www.instagram.com/p/Ddee92qGnAf/"
-        },
-        "facebook": {
-          "success": true,
-          "post_id": "1247247545146839_122108177475474347",
-          "url": "https://www.facebook.com/1247247545146839_122108177475474347"
-        },
-        "telegram": {
-          "success": true
-        },
-        "linkedin": {
-          "success": false,
-          "status": "skipped"
-        }
-      },
-      "insights_fetched_48h": true,
-      "insights": {
-        "saves": 0,
-        "shares": 0,
-        "impressions": 0,
-        "reach": 0,
-        "total_interactions": 0,
-        "fb_reach": 0,
-        "fb_engaged_users": 0,
-        "save_to_reach_pct": 0.0,
-        "status": "api_error: (#10) Application does not have permission for this action"
-      },
-      "age_at_audit_hours": 50.0
-    },
-    {
-      "title": "Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss",
-      "media_id": "18082508447323865",
-      "timestamp": "2026-09-20T08:41:43.523075+00:00",
-      "topic_category": "LIQUIDITY_TRAP",
-      "hook_archetype": "angle_2",
-      "hashtag_cluster": "cluster_2",
-      "publish_results": {
-        "instagram": {
-          "success": true,
-          "media_id": "18082508447323865",
-          "permalink": "https://www.instagram.com/p/DdgLcl4nI0M/"
-        },
-        "facebook": {
-          "success": true,
-          "post_id": "1247247545146839_122109067113474347",
-          "url": "https://www.facebook.com/1247247545146839_122109067113474347"
-        },
-        "telegram": {
-          "success": true
-        },
-        "linkedin": {
-          "success": false,
-          "status": "skipped"
-        }
-      },
-      "insights_fetched_48h": true,
-      "insights": {
-        "saves": 0,
-        "shares": 0,
-        "impressions": 0,
-        "reach": 0,
-        "total_interactions": 0,
-        "fb_reach": 0,
-        "fb_engaged_users": 0,
-        "save_to_reach_pct": 0.0,
-        "status": "api_error: (#10) Application does not have permission for this action"
-      },
-      "age_at_audit_hours": 57.1
-    },
-    {
-      "title": "Online Trading Scam Dupes Two Panipat Residents of ₹14.94 Lakh - The420.in",
-      "media_id": "17873259192586057",
-      "timestamp": "2026-09-20T17:03:24.872797+00:00",
-      "topic_category": "LIQUIDITY_TRAP",
-      "hook_archetype": "angle_1",
-      "hashtag_cluster": "cluster_1",
-      "publish_results": {
-        "instagram": {
-          "success": true,
-          "media_id": "17873259192586057",
-          "permalink": "https://www.instagram.com/p/DdhE5lVDQbo/"
-        },
-        "facebook": {
-          "success": true,
-          "post_id": "1247247545146839_122109546285474347",
-          "url": "https://www.facebook.com/1247247545146839_122109546285474347"
-        },
-        "telegram": {
-          "success": true
-        },
-        "linkedin": {
-          "success": false,
-          "status": "skipped"
-        }
-      },
-      "insights_fetched_48h": true,
-      "insights": {
-        "saves": 0,
-        "shares": 0,
-        "impressions": 0,
-        "reach": 0,
-        "total_interactions": 0,
-        "fb_reach": 0,
-        "fb_engaged_users": 0,
-        "save_to_reach_pct": 0.0,
-        "status": "api_error: (#10) Application does not have permission for this action"
-      },
-      "age_at_audit_hours": 48.7
-    },
-    {
-      "title": "SME IPOs returns in 2026: 21 became multibaggers, but investors also faced 50% losses: What to know - The Economic Times",
-      "media_id": "18367208323301032",
-      "timestamp": "2026-09-21T09:08:10.373004+00:00",
-      "topic_category": "LIQUIDITY_TRAP",
-      "hook_archetype": "angle_2",
       "hashtag_cluster": "cluster_4",
       "publish_results": {
         "instagram": {
           "success": true,
-          "media_id": "18367208323301032",
-          "permalink": "https://www.instagram.com/p/DdizTcXoO1_/"
+          "status": "dry_run_simulated"
         },
         "facebook": {
           "success": true,
-          "post_id": "1247247545146839_122110034451474347",
-          "url": "https://www.facebook.com/1247247545146839_122110034451474347"
+          "status": "dry_run_simulated"
         },
         "telegram": {
-          "success": true
+          "success": true,
+          "status": "dry_run_simulated"
         },
         "linkedin": {
-          "success": false,
-          "status": "skipped"
+          "success": true,
+          "status": "dry_run_simulated"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
-    },
-    {
-      "title": "65-Year-Old Woman In China Uses AI To Trap Man In $25,000 Dating Scam - NDTV",
-      "media_id": "18108681299147450",
-      "timestamp": "2026-09-21T18:58:33.362369+00:00",
-      "topic_category": "LIQUIDITY_TRAP",
-      "hook_archetype": "angle_1",
-      "hashtag_cluster": "cluster_2",
-      "publish_results": {
-        "instagram": {
-          "success": true,
-          "media_id": "18108681299147450",
-          "permalink": "https://www.instagram.com/p/Ddj23OPjbNx/"
-        },
-        "facebook": {
-          "success": true,
-          "post_id": "1247247545146839_122110388217474347",
-          "url": "https://www.facebook.com/1247247545146839_122110388217474347"
-        },
-        "telegram": {
-          "success": true
-        },
-        "linkedin": {
-          "success": false,
-          "status": "skipped"
-        }
-      },
-      "insights_fetched_48h": false,
-      "insights": {}
-    },
-    {
-      "title": "KPSC exam scam: 40 candidates questioned as CID traces Rs 92 lakh money trail - India Today",
-      "media_id": "18109848635130799",
-      "timestamp": "2026-09-22T08:40:43.115616+00:00",
-      "topic_category": "REGULATORY_SHIFT",
-      "hook_archetype": "angle_3",
-      "hashtag_cluster": "cluster_5",
-      "publish_results": {
-        "instagram": {
-          "success": true,
-          "media_id": "18109848635130799",
-          "permalink": "https://www.instagram.com/p/DdlU9QKHRVa/"
-        },
-        "facebook": {
-          "success": true,
-          "post_id": "1247247545146839_122110739109474347",
-          "url": "https://www.facebook.com/1247247545146839_122110739109474347"
-        },
-        "telegram": {
-          "success": true
-        },
-        "linkedin": {
-          "success": false,
-          "status": "skipped"
-        }
-      },
-      "insights_fetched_48h": false,
+      "insights_fetched_48h": true,
       "insights": {}
     },
     {
       "title": "Nifty falls 85 points, Sensex slips 330 points as IT stocks drag markets, easing crude limits losses - ANI News",
-      "media_id": "18425014480148531",
-      "timestamp": "2026-09-22T17:50:27.941445+00:00",
-      "topic_category": "VALUATION_MYTH",
-      "hook_archetype": "angle_4",
-      "hashtag_cluster": "cluster_1",
+      "media_id": "simulated_id",
+      "timestamp": "2026-09-22T18:57:11.987010+00:00",
+      "topic_category": "LIQUIDITY_TRAP",
+      "hook_archetype": "angle_5",
+      "hashtag_cluster": "cluster_3",
       "publish_results": {
         "instagram": {
           "success": true,
-          "media_id": "18425014480148531",
-          "permalink": "https://www.instagram.com/p/DdmT3rAl7ri/"
+          "status": "dry_run_simulated"
         },
         "facebook": {
           "success": true,
-          "post_id": "1247247545146839_122111026995474347",
-          "url": "https://www.facebook.com/1247247545146839_122111026995474347"
+          "status": "dry_run_simulated"
         },
         "telegram": {
-          "success": true
+          "success": true,
+          "status": "dry_run_simulated"
         },
         "linkedin": {
-          "success": false,
-          "status": "skipped"
+          "success": true,
+          "status": "dry_run_simulated"
         }
       },
       "insights_fetched_48h": false,

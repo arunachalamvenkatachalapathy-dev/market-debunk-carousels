@@ -32,8 +32,15 @@ class CarouselValidator:
             s = slides[i]
             if not s.get("title_lines"):
                 return False, f"Slide {i+1} content error: Missing title_lines."
-            if not s.get("card_text"):
-                return False, f"Slide {i+1} content error: Missing green card_text."
+            has_content = bool(
+                s.get("card_text")
+                or s.get("comparison_data")
+                or s.get("stat_data")
+                or s.get("flowchart_data")
+                or s.get("checklist_data")
+            )
+            if not has_content:
+                return False, f"Slide {i+1} content error: Missing slide body (card_text or archetype data)."
 
         # Check Final Slide (CTA)
         last_s = slides[-1]
