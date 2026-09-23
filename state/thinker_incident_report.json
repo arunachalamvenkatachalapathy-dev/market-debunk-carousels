@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-23T08:40:48.610064+00:00",
+  "timestamp": "2026-09-23T18:03:47.780328+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "CRITICAL",
   "error_code": "ERR_IMAGE_NOT_ACCESSIBLE",
-  "root_cause_analysis": "The Meta Graph API failed to fetch the image from the provided GitHub raw URL. The error subcode 2207052 indicates that the media URI does not meet Instagram's requirements, likely due to the server rejecting the request, incorrect MIME type headers, or the image being inaccessible to Meta's crawler.",
+  "root_cause_analysis": "The Instagram Graph API failed to download the image from the provided raw GitHub URI because the URL returned a 404 Not Found, timed out, or the raw file content was not publicly or immediately accessible by Meta's crawler servers.",
   "reproducibility": "URL_UNAVAILABLE",
   "automated_remediation": {
     "action": "ABORT",
@@ -12,9 +12,8 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Verify that the GitHub repository is public and the raw URLs are directly accessible without authentication.",
-    "Check if the images meet Instagram's aspect ratio (between 4:5 and 1.91:1) and file size requirements.",
-    "Ensure the server hosting the images allows requests from Meta's IP ranges (User-Agent: facebookexternalhit).",
-    "Consider hosting images on a CDN or a platform with more permissive CORS/crawling policies if the issue persists."
+    "Verify that the raw GitHub repository is public and the file paths actually exist.",
+    "Ensure the commit containing the carousel slides has been fully pushed and synced to the remote repository.",
+    "Switch to a more reliable, publicly accessible cloud storage provider or CDN (e.g., AWS S3, Cloudinary) instead of raw GitHub URLs for media hosting."
   ]
 }
