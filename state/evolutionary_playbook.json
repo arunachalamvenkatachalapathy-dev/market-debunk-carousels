@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 10,
+  "total_cycles_recorded": 11,
   "archetype_weights": {
-    "CONTRARIAN_TRAP": 1.3,
+    "CONTRARIAN_TRAP": 1.35,
     "MATHEMATICAL_FRICTION": 1.7,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
@@ -130,6 +130,15 @@
       "critic_score": 9.6,
       "visual_score": 9.3,
       "key_learning": "Candidate B dominant across all metrics, perfectly aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight"
+    },
+    {
+      "cycle": 11,
+      "timestamp": "2026-09-23T18:02:56.906829+00:00",
+      "topic": "Sebi weighs lower margins for longer-term derivatives as F&O losses stay high: T",
+      "winning_archetype": "CONTRARIAN_TRAP",
+      "critic_score": 8.5,
+      "visual_score": 9.3,
+      "key_learning": "Fallback contrarian anchor."
     }
   ]
 }
