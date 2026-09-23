@@ -1,18 +1,20 @@
 {
-  "timestamp": "2026-09-10T17:17:18.233705+00:00",
+  "timestamp": "2026-09-23T08:40:48.610064+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
-  "severity": "RECOVERABLE",
-  "error_code": "ERR_META_API",
-  "root_cause_analysis": "Meta Graph API returned a transient OAuthException (code 2) during the processing of child container 8 in the carousel payload. The error is flagged as temporary by Meta ('is_transient': True).",
-  "reproducibility": "RATE_LIMIT",
+  "severity": "CRITICAL",
+  "error_code": "ERR_IMAGE_NOT_ACCESSIBLE",
+  "root_cause_analysis": "The Meta Graph API failed to fetch the image from the provided GitHub raw URL. The error subcode 2207052 indicates that the media URI does not meet Instagram's requirements, likely due to the server rejecting the request, incorrect MIME type headers, or the image being inaccessible to Meta's crawler.",
+  "reproducibility": "URL_UNAVAILABLE",
   "automated_remediation": {
-    "action": "RETRY_AFTER_DELAY",
-    "retry_delay_seconds": 60
+    "action": "ABORT",
+    "retry_delay_seconds": 0
   },
-  "operator_action_required": false,
+  "operator_action_required": true,
   "actionable_instructions": [
-    "Allow automated exponential backoff retry to process child container 8.",
-    "Inspect GitHub raw URL availability for slide_8_20260910_171612.png if repeated transient failures occur."
+    "Verify that the GitHub repository is public and the raw URLs are directly accessible without authentication.",
+    "Check if the images meet Instagram's aspect ratio (between 4:5 and 1.91:1) and file size requirements.",
+    "Ensure the server hosting the images allows requests from Meta's IP ranges (User-Agent: facebookexternalhit).",
+    "Consider hosting images on a CDN or a platform with more permissive CORS/crawling policies if the issue persists."
   ]
 }
