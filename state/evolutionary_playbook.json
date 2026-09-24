@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 12,
+  "total_cycles_recorded": 13,
   "archetype_weights": {
-    "CONTRARIAN_TRAP": 1.35,
+    "CONTRARIAN_TRAP": 1.4,
     "MATHEMATICAL_FRICTION": 1.75,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
@@ -148,6 +148,15 @@
       "critic_score": 9.1,
       "visual_score": 9.2,
       "key_learning": "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the "
+    },
+    {
+      "cycle": 13,
+      "timestamp": "2026-09-24T18:00:49.677252+00:00",
+      "topic": "₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness h",
+      "winning_archetype": "CONTRARIAN_TRAP",
+      "critic_score": 8.5,
+      "visual_score": 8.5,
+      "key_learning": "Fallback contrarian anchor."
     }
   ]
 }
