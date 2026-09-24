@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 11,
+  "total_cycles_recorded": 12,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.35,
-    "MATHEMATICAL_FRICTION": 1.7,
+    "MATHEMATICAL_FRICTION": 1.75,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Slide 1 must highlight strictly 1 or 2 high-friction words with <span class='highlight-box'>.",
     "Slide 2 must expose the hidden mathematical mechanism before giving advice.",
     "Slide 8 must split personal bookmarking (Save) from peer distribution (DM Share).",
     "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent",
@@ -38,7 +37,8 @@
     "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d",
     "Fallback contrarian anchor.",
     "Candidate B adheres to the MATHEMATICAL_FRICTION archetype, which consistently outperforms by converting abstract sector",
-    "Candidate B dominant across all metrics, perfectly aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight"
+    "Candidate B dominant across all metrics, perfectly aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight",
+    "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the "
   ],
   "cycle_history": [
     {
@@ -139,6 +139,15 @@
       "critic_score": 8.5,
       "visual_score": 9.3,
       "key_learning": "Fallback contrarian anchor."
+    },
+    {
+      "cycle": 12,
+      "timestamp": "2026-09-24T08:32:46.535478+00:00",
+      "topic": "Why Is Stock Market Falling Today? Sensex, Nifty Tumble Over 1%; Rs 4 Lakh Crore",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the "
     }
   ]
 }
