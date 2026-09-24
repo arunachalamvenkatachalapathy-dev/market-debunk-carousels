@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-24T08:33:33.336214+00:00",
+  "timestamp": "2026-09-24T18:01:36.938145+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "CRITICAL",
   "error_code": "ERR_IMAGE_NOT_ACCESSIBLE",
-  "root_cause_analysis": "The Meta Graph API failed to fetch the image from the provided GitHub raw URL. This is typically caused by the Instagram server being unable to resolve the image format, file size limitations, or the URL being blocked by Meta's security filters/crawlers despite being publicly accessible.",
+  "root_cause_analysis": "The Instagram Graph API failed to fetch the media file from the provided raw GitHub URL (OAuthException code 9004, subcode 2207052). This typically happens when the image URI does not meet Meta's content/hosting requirements, is publicly inaccessible at the exact moment of the request, or the raw file link is invalid.",
   "reproducibility": "URL_UNAVAILABLE",
   "automated_remediation": {
     "action": "ABORT",
@@ -12,9 +12,8 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Verify the image file format (JPEG/PNG) and dimensions meet Instagram Graph API requirements.",
-    "Ensure the image file size is under the 8MB limit.",
-    "Consider hosting images on a CDN or a platform with more permissive headers for Meta's crawlers, as GitHub raw content sometimes triggers security blocks.",
-    "Test the image URL directly in a browser to ensure it loads without redirects or authentication prompts."
+    "Verify that the GitHub repository is public and the raw image URLs are directly reachable via a standard HTTP GET request without authentication.",
+    "Check if the images were successfully committed and pushed to the remote repository prior to triggering the publishing pipeline.",
+    "Consider utilizing a dedicated, highly available CDN or cloud storage bucket (e.g., AWS S3) instead of GitHub raw links to host carousel slides for the Instagram Graph API."
   ]
 }
