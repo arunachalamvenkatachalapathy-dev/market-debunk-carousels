@@ -1,167 +1,163 @@
 {
   "topic": {
-    "title": "Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss",
+    "title": "Four-day upper circuit streak drives this small-cap stock up 74%; here’s the key trigger behind the jump",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "topic_category": "SMART_MONEY_EDGE",
-    "viral_demand_score": 76.4,
+    "topic_category": "MARKET_TRAP",
+    "viral_demand_score": 88.1,
     "source": "Livemint Markets",
-    "source_snippet": "Hero Motors shares surged 20% on September 25, recovering from a weak debut. The stock climbed from an IPO price of  ₹84 to  ₹141.85, marking a total gain of nearly 69%. Analysts suggest investors wait for stabilization due to premium valuation concerns.",
-    "source_url": "https://www.livemint.com/market/stock-market-news/hero-motors-shares-up-17-whats-driving-the-stock-explained-with-target-stoploss-11790309428957.html",
-    "raw_text": "Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss. Hero Motors shares surged 20% on September 25, recovering from a weak debut. The stock climbed from an IPO price of  ₹84 to  ₹141.85, marking a total gain of nearly 69%. Analysts suggest investors wait for stabilization due to premium valuation concerns.",
+    "source_snippet": "Cubex Tubings has seen its shares hit an upper circuit limit, reflecting investor confidence, with a 74% gain over four days. The small-cap stock's market cap is  ₹210 crore, rising to an all-time high of  ₹152.24 after significant recent losses.",
+    "source_url": "https://www.livemint.com/market/stock-market-news/fourday-upper-circuit-streak-drives-this-small-cap-stock-up-74-here-s-the-key-trigger-behind-the-jump-11790331573614.html",
+    "raw_text": "Four-day upper circuit streak drives this small-cap stock up 74%; here’s the key trigger behind the jump. Cubex Tubings has seen its shares hit an upper circuit limit, reflecting investor confidence, with a 74% gain over four days. The small-cap stock's market cap is  ₹210 crore, rising to an all-time high of  ₹152.24 after significant recent losses.",
     "numbers_detected": [
-      "20%",
-      "20%",
-      "25",
-      "₹84",
-      "₹141.85",
-      "69%"
+      "74%",
+      "74%",
+      "₹210",
+      "₹152.24"
     ],
-    "published_at": "2026-09-25T09:57:09+05:30",
-    "age_hours": 4.4,
-    "retrieved_at": "2026-09-25T08:52:42.930627+00:00",
+    "published_at": "2026-09-25T16:21:12+05:30",
+    "age_hours": 7.2,
+    "retrieved_at": "2026-09-25T18:06:00.244269+00:00",
     "date": "25 Sep 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-25T09:57:09+05:30 (4.4h ago) | Headline: Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss | Context: Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss. Hero Motors shares surged 20% on September 25, recovering from a weak debut. The stock climbed from an IPO price of  ₹84 to  ₹141.85, marking a total gain of nearly 69%. Analysts suggest investors wait for stabilization due to premium valuation concerns.",
+    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-25T16:21:12+05:30 (7.2h ago) | Headline: Four-day upper circuit streak drives this small-cap stock up 74%; here’s the key trigger behind the jump | Context: Four-day upper circuit streak drives this small-cap stock up 74%; here’s the key trigger behind the jump. Cubex Tubings has seen its shares hit an upper circuit limit, reflecting investor confidence, with a 74% gain over four days. The small-cap stock's market cap is  ₹210 crore, rising to an all-time high of  ₹152.24 after significant recent losses.",
     "news_analysis": {
-      "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
-      "breaking_event_summary": "Hero Motors shares surged 20% in a single session to hit ₹141.85 on September 25, taking its total post-IPO gain to nearly 69% over the ₹84 issue price despite early listing weakness.",
-      "retail_illusion": "Retail traders believe the 20% upper-circuit style rally confirms strong fundamental discovery, triggering FOMO buying at the top under the belief of guaranteed momentum.",
-      "institutional_reality": "A rapid 69% vertical spike from ₹84 to ₹141.85 post-weak listing often reflects low float liquidity squeezes and institutional exit engineering, leaving late retail buyers holding overvalued stock right before stabilization and multiple compression.",
+      "headline_hook": "The 74% math trap: Why 4 days of upper circuits cost you more than you think.",
+      "breaking_event_summary": "Cubex Tubings shares surged 74% over four consecutive trading sessions, hitting an all-time high of ₹152.24 amid a sustained upper circuit streak.",
+      "retail_illusion": "Retail investors perceive the 74% gain as a fundamental breakout or a 'get-in-now' momentum play, assuming the stock has entered a new growth trajectory.",
+      "institutional_reality": "In low-float, small-cap stocks with a market cap of only ₹210 crore, upper circuits are often a symptom of 'artificial scarcity' where low volume allows a small amount of capital to manipulate the price upward, creating a liquidity trap where retail buyers cannot exit once the circuit reverses.",
       "citable_metrics": [
-        "20%",
-        "September 25",
-        "₹84",
-        "₹141.85",
-        "nearly 69%"
+        "74% gain",
+        "four-day streak",
+        "₹210 crore market cap",
+        "₹152.24 all-time high"
       ],
-      "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "Never chase vertical 20% rallies on newly listed IPOs without price stabilization and proven quarterly earnings support.",
+      "debunk_category": "LIQUIDITY_TRAP",
+      "actionable_retail_rule": "Never chase a stock locked in an upper circuit; if you cannot sell, you do not own an asset, you own a trap.",
       "lead_magnet": {
         "trigger_word": "AUDIT",
-        "resource_name": "The Post-IPO Valuation & Free-Float Trap Checklist"
+        "resource_name": "The Small-Cap Liquidity & Circuit Breaker Audit Checklist"
       },
       "carousel_outline": [
         {
           "slide": 1,
           "role": "hook",
-          "focus": "Hero Motors is up 20% in a day and 69% from its IPO—why smart money is preparing to exit."
+          "focus": "The 74% Mirage: Why Cubex Tubings' Upper Circuit Streak is a Liquidity Trap"
         },
         {
           "slide": 2,
           "role": "friction",
-          "focus": "Retail sees a runaway winner recovering from debut weakness; institutions see unsustainable valuation bloat."
+          "focus": "Retail sees a breakout; the market sees a low-float vacuum."
         },
         {
           "slide": 3,
           "role": "math_reality",
-          "focus": "The hard numbers: From ₹84 issue price to ₹141.85 on September 25 with no fundamental change in underlying earnings."
+          "focus": "How ₹210 Cr market cap stocks are manipulated with minimal volume."
         },
         {
           "slide": 4,
           "role": "breakdown",
-          "focus": "How low free-float dynamics and speculative momentum create artificial demand traps for retail buyers."
+          "focus": "The danger of 'Exit-less' trading when the circuit flips to lower."
         },
         {
           "slide": 5,
           "role": "actionable_rule",
-          "focus": "The 90-Day IPO Rule: Require minimum base-building and lock-in expiration before allocating capital."
+          "focus": "The Golden Rule: If there is no sell-side liquidity, there is no trade."
         },
         {
           "slide": 6,
           "role": "cta",
-          "focus": "Comment AUDIT to get our 1-Page Post-IPO Risk & Valuation Checklist before chasing newly listed momentum."
+          "focus": "Comment AUDIT to receive the Small-Cap Liquidity Checklist."
         }
       ],
-      "highlight_word": "Margin Decay",
-      "editorial_directive": "Slide copywriters: Focus on simplicity. Use bold, large-font numbers for the 4.2% cap. Ensure the 'Stop-Loss' section on the final slide is visually distinct, using a red-box aesthetic to signify immediate risk mitigation."
+      "highlight_word": "Math Trap",
+      "editorial_directive": "Slide 1 must lead with the 74% figure and the word 'Math Trap'. Slides 2-4 must contain a table showing the probability decay of a 5th consecutive circuit. Avoid jargon; use simple, brutal arithmetic to show how late-entry capital is cannibalized by early-stage profit-takers."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
-        "highlight_word": "Margin Decay",
-        "core_mechanism": "Uses precise percentage-based volatility contraction and margin-risk calculations to prove that the current entry price is mathematically inefficient.",
+        "headline_hook": "The 74% math trap: Why 4 days of upper circuits cost you more than you think.",
+        "highlight_word": "Math Trap",
+        "core_mechanism": "Deconstructing the cost basis of late-stage entries. We calculate the exact 'slippage tax' and the diminishing probability of a 5th circuit based on historical small-cap volatility decay.",
         "scores": {
-          "curiosity_gap": 9.5,
+          "curiosity_gap": 8.5,
           "retail_actionability": 9.5,
           "viral_potential": 8.0,
           "friction_quotient": 9.5,
-          "total": 36.5
+          "total": 35.5
         },
-        "critic_critique": "Superior execution. By providing a specific, counter-intuitive number (4.2%), it forces the user to verify the math, creating extreme high-intent engagement."
+        "critic_critique": "This is surgically precise. It forces the reader to confront their own greed with raw data. It doesn't just warn; it provides a financial 'stop-loss' for their decision-making process."
       },
-      "critic_score": 9.1,
+      "critic_score": 8.9,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' content, presenting a specific, calculated mathematical ceiling forces the reader to pause their emotional FOMO to process the logic, which is the gold standard for high-retention social content.",
-      "final_editorial_directive": "Slide copywriters: Focus on simplicity. Use bold, large-font numbers for the 4.2% cap. Ensure the 'Stop-Loss' section on the final slide is visually distinct, using a red-box aesthetic to signify immediate risk mitigation.",
+      "selection_rationale": "Candidate B is the definitive winner. By leveraging MATHEMATICAL_FRICTION, it moves beyond subjective market opinions and provides a quantitative framework that is intellectually impossible for the reader to ignore without feeling reckless.",
+      "final_editorial_directive": "Slide 1 must lead with the 74% figure and the word 'Math Trap'. Slides 2-4 must contain a table showing the probability decay of a 5th consecutive circuit. Avoid jargon; use simple, brutal arithmetic to show how late-entry capital is cannibalized by early-stage profit-takers.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Hero Motors is up 20%—and you're probably buying at the top.",
-          "highlight_word": "Retail Trap",
-          "core_mechanism": "Deconstructs the 'momentum bias' by highlighting historical post-rally retracements to trigger skepticism.",
+          "headline_hook": "Stop chasing the 74% rally: Why this small-cap is a classic exit trap.",
+          "highlight_word": "Exit Trap",
+          "core_mechanism": "Exploiting the psychological bias of 'missing out' by framing the 4-day upper circuit as a liquidity exhaustion event rather than a growth breakout.",
           "scores": {
             "curiosity_gap": 9.0,
-            "retail_actionability": 7.0,
+            "retail_actionability": 7.5,
             "viral_potential": 8.5,
             "friction_quotient": 9.0,
-            "total": 33.5
+            "total": 34.0
           },
-          "critic_critique": "Effective at stopping the scroll through fear, but lacks the technical depth to keep sophisticated traders engaged past slide 2."
+          "critic_critique": "Effective at stopping the scroll through fear, but lacks the technical backbone to prevent the user from eventually ignoring the warning. Strong emotional hook, weak structural defense."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
-          "highlight_word": "Margin Decay",
-          "core_mechanism": "Uses precise percentage-based volatility contraction and margin-risk calculations to prove that the current entry price is mathematically inefficient.",
+          "headline_hook": "The 74% math trap: Why 4 days of upper circuits cost you more than you think.",
+          "highlight_word": "Math Trap",
+          "core_mechanism": "Deconstructing the cost basis of late-stage entries. We calculate the exact 'slippage tax' and the diminishing probability of a 5th circuit based on historical small-cap volatility decay.",
           "scores": {
-            "curiosity_gap": 9.5,
+            "curiosity_gap": 8.5,
             "retail_actionability": 9.5,
             "viral_potential": 8.0,
             "friction_quotient": 9.5,
-            "total": 36.5
+            "total": 35.5
           },
-          "critic_critique": "Superior execution. By providing a specific, counter-intuitive number (4.2%), it forces the user to verify the math, creating extreme high-intent engagement."
+          "critic_critique": "This is surgically precise. It forces the reader to confront their own greed with raw data. It doesn't just warn; it provides a financial 'stop-loss' for their decision-making process."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Smart money is exiting Hero Motors while you're celebrating the 20% gain.",
-          "highlight_word": "Institutional Exit",
-          "core_mechanism": "Exposes the divergence between retail buying volume and institutional block-trade distributions to frame the rally as a liquidity trap.",
+          "headline_hook": "Institutions are dumping while you're buying: The 74% small-cap illusion.",
+          "highlight_word": "Retail Exit",
+          "core_mechanism": "Mapping the volume profile to show institutional distribution patterns masked by thin-float retail buying pressure during the upper circuit streak.",
           "scores": {
-            "curiosity_gap": 8.5,
-            "retail_actionability": 7.5,
+            "curiosity_gap": 9.5,
+            "retail_actionability": 7.0,
             "viral_potential": 9.0,
             "friction_quotient": 8.5,
-            "total": 33.5
+            "total": 34.0
           },
-          "critic_critique": "Strong narrative hook, but relies too heavily on 'them vs us' sentiment which can feel cliché unless backed by specific flow data."
+          "critic_critique": "High viral potential because it triggers 'us vs. them' outrage. However, it relies heavily on the user trusting the theory of institutional movement without providing enough granular evidence."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
-    "core_illusion": "Retail traders believe the 20% upper-circuit style rally confirms strong fundamental discovery, triggering FOMO buying at the top under the belief of guaranteed momentum.",
-    "hidden_reality": "A rapid 69% vertical spike from ₹84 to ₹141.85 post-weak listing often reflects low float liquidity squeezes and institutional exit engineering, leaving late retail buyers holding overvalued stock right before stabilization and multiple compression.",
-    "citable_metric": "20%",
+    "hook_headline": "The 74% math trap: Why 4 days of upper circuits cost you more than you think.",
+    "core_illusion": "Retail investors perceive the 74% gain as a fundamental breakout or a 'get-in-now' momentum play, assuming the stock has entered a new growth trajectory.",
+    "hidden_reality": "In low-float, small-cap stocks with a market cap of only ₹210 crore, upper circuits are often a symptom of 'artificial scarcity' where low volume allows a small amount of capital to manipulate the price upward, creating a liquidity trap where retail buyers cannot exit once the circuit reverses.",
+    "citable_metric": "74% gain",
     "all_metrics": [
-      "20%",
-      "September 25",
-      "₹84",
-      "₹141.85",
-      "nearly 69%"
+      "74% gain",
+      "four-day streak",
+      "₹210 crore market cap",
+      "₹152.24 all-time high"
     ],
-    "actionable_rule": "Never chase vertical 20% rallies on newly listed IPOs without price stabilization and proven quarterly earnings support.",
-    "breaking_event": "Hero Motors shares surged 20% in a single session to hit ₹141.85 on September 25, taking its total post-IPO gain to nearly 69% over the ₹84 issue price despite early listing weakness.",
+    "actionable_rule": "Never chase a stock locked in an upper circuit; if you cannot sell, you do not own an asset, you own a trap.",
+    "breaking_event": "Cubex Tubings shares surged 74% over four consecutive trading sessions, hitting an all-time high of ₹152.24 amid a sustained upper circuit streak.",
     "lead_magnet": {
       "trigger_word": "AUDIT",
-      "resource_name": "The Post-IPO Valuation & Free-Float Trap Checklist"
+      "resource_name": "The Small-Cap Liquidity & Circuit Breaker Audit Checklist"
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -171,123 +167,93 @@
     ]
   },
   "deck": {
-    "caption": "🚨 Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss\n\nHeadline FOMO is the fastest way to erode compounding wealth. Audit the real data before making your next move.\n\nSwipe through this 8-slide breakdown:\n• The Retail vs Institutional Reality Check\n• The 20% Friction Penalty\n• The Liquidity Trap Mechanism\n\n📌 Save this post for your next trade review.\n✈️ Share this with a fellow investor before they enter their next position.\n\n💬 What's the #1 mistake you see retail investors make during market rallies? Let us know below 👇\n\n#RetailTrap #TradingPsychology #MarketDebunk #RiskManagement #TraderMindset",
+    "caption": "🚨 The Hidden Reality Behind Four-day upper circuit streak drives\n\nWhat looks like a routine market headline on the surface is quietly an institutional liquidity trap underneath.\n\nSwipe through this 8-slide breakdown:\n• The Retail Illusion vs Actual Market Reality\n• The Hidden Mechanics Behind The Move\n• How Smart Money Uses Headline Liquidity\n\n📌 Save this post for your next trade review.\n✈️ Share this with a fellow investor before they enter their next position.\n\n💬 Have you ever been caught on the wrong side of this market trap? Share your experience in the comments 👇\n\n#Nifty50 #IndianStockMarket #SEBI #MacroEconomics #MarketDebunk",
     "slides": [
       {
-        "slide_number": 1,
         "role": "hook",
-        "headline": "Hero Motors +20%: Why your <span class=\"highlight-box\">upside is capped</span>.",
+        "title": "The Hidden Reality <span class='highlight-box'>Behind Four-day upper circuit streak drives</span>",
         "tag": "#MARKETDEBUNK",
         "slide_index": 1,
         "title_lines": [
-          "Hero Motors",
-          "+20%: Why",
-          "<span class='highlight-box'>upside is</span>",
-          "."
+          "The Hidden",
+          "Reality",
+          "<span class='highlight-box'>Behind Four-day</span>"
         ],
         "card_text": ""
       },
       {
-        "slide_number": 2,
         "role": "value_1",
-        "title": "The <span class=\"highlight-box\">Retail vs Institutional</span> Reality Check",
-        "comparison_data": {
-          "myth": "Retail belief: A 20% circuit confirms fundamental strength and guaranteed momentum.",
-          "reality": "Institutional truth: A 69% vertical spike from ₹84 to ₹141.85 often signals a low-float liquidity squeeze used for institutional exit engineering."
-        },
-        "slide_index": 2,
+        "title": "The Retail Illusion <span class='highlight-box'>vs Actual Market</span> Reality",
+        "card_text": "Retail investors perceive the 74% gain as a fundamental breakout or a 'get-in-now' momentum play, assuming the stock has entered a new growth trajectory.",
         "tag": "#MARKETDEBUNK",
+        "slide_index": 2,
         "title_lines": [
           "The Retail",
-          "<span class='highlight-box'>vs Institutional</span>",
-          "Reality Check"
+          "<span class='highlight-box'>Illusion vs</span>",
+          "Actual Market Reality"
         ]
       },
       {
-        "slide_number": 3,
         "role": "value_2",
-        "title": "The <span class=\"highlight-box\">20% Friction</span> Penalty",
-        "stat_data": {
-          "badge": "VERIFIED MARKET IMPACT",
-          "metric": "₹34 Lakhs",
-          "label": "Estimated retail capital erosion per high-volume exit",
-          "context": "When retail chases a 20% vertical rally, they absorb the liquidity provided by institutional sellers. This mathematical friction occurs as the stock hits premium valuation caps, leading to inevitable multiple compression."
-        },
+        "title": "The Hidden Mechanics <span class='highlight-box'>Behind The Move</span>",
+        "card_text": "According to Livemint Markets, market focus is locked on <strong>74%</strong>. Rapid headline swings often disguise smart money repositioning before retail can react.",
+        "tag": "#MARKETDEBUNK",
         "slide_index": 3,
-        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The 20%",
-          "<span class='highlight-box'>Friction Penalty</span>"
+          "The Hidden",
+          "<span class='highlight-box'>Mechanics Behind</span>",
+          "The Move"
         ]
       },
       {
-        "slide_number": 4,
         "role": "value_3",
-        "title": "The <span class=\"highlight-box\">Liquidity Trap</span> Mechanism",
-        "flowchart_data": [
-          "1. Low float creates artificial scarcity.",
-          "2. Retail FOMO triggers a 20% circuit.",
-          "3. Institutional players offload positions into the retail buying frenzy."
-        ],
+        "title": "How Smart Money <span class='highlight-box'>Uses Headline</span> Liquidity",
+        "card_text": "In low-float, small-cap stocks with a market cap of only ₹210 crore, upper circuits are often a symptom of 'artificial scarcity' where low volume allows a small amount of capital to manipulate the price upward, creating a liquidity trap where retail buyers cannot exit once the circuit reverses.",
+        "tag": "#MARKETDEBUNK",
         "slide_index": 4,
-        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Liquidity",
-          "<span class='highlight-box'>Trap Mechanism</span>"
+          "How Smart",
+          "<span class='highlight-box'>Money Uses</span>",
+          "Headline Liquidity"
         ]
       },
       {
-        "slide_number": 5,
         "role": "value_4",
-        "title": "How Capital is <span class=\"highlight-box\">Quietly Extracted</span>",
-        "card_text": "By buying at the peak of a 20% surge, you are purchasing at a premium valuation that lacks quarterly earnings support. As the stock stabilizes, the price reverts to the mean, effectively transferring your capital to early institutional investors who exited at the top.",
+        "title": "The Compounding <span class='highlight-box'>Cost Of Chasing</span> Breakouts",
+        "card_text": "Repeatedly buying into unconfirmed headline rallies leads to severe drawdown compounding. Preserving capital during high-volatility events is how professional portfolios build enduring wealth.",
+        "tag": "#MARKETDEBUNK",
         "slide_index": 5,
-        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How Capital",
-          "<span class='highlight-box'>is Quietly</span>",
-          "Extracted"
+          "The Compounding",
+          "<span class='highlight-box'>Cost Of</span>",
+          "Chasing Breakouts"
         ]
       },
       {
-        "slide_number": 6,
         "role": "value_5",
-        "title": "The Non-Negotiable <span class=\"highlight-box\">Institutional Rule</span>",
-        "card_text": "Never chase vertical 20% rallies on newly listed IPOs. Institutional pros wait for price stabilization and proven quarterly earnings support before entering. If the chart looks like a vertical line, the risk-to-reward ratio is mathematically broken.",
+        "title": "The Golden Rule: <span class='highlight-box'>Audit Before</span> Entering",
+        "card_text": "Never chase a stock locked in an upper circuit; if you cannot sell, you do not own an asset, you own a trap.",
+        "tag": "#MARKETDEBUNK",
         "slide_index": 6,
-        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Non-Negotiable",
-          "<span class='highlight-box'>Institutional Rule</span>"
+          "The Golden",
+          "<span class='highlight-box'>Rule: Audit</span>",
+          "Before Entering"
         ]
       },
       {
-        "slide_number": 7,
         "role": "value_6",
-        "title": "Your Pre-Trade <span class=\"highlight-box\">Risk Checklist</span>",
-        "checklist_data": [
-          {
-            "status": "fail",
-            "text": "Is the stock up 20% in a single session?"
-          },
-          {
-            "status": "fail",
-            "text": "Are there verified quarterly earnings to support this valuation?"
-          },
-          {
-            "status": "fail",
-            "text": "Has the stock price stabilized post-IPO?"
-          }
-        ],
-        "slide_index": 7,
+        "title": "The 3-Point <span class='highlight-box'>Pre-Trade Risk</span> Checklist",
+        "card_text": "1) Verify actual trade volume vs retail buzz. 2) Define non-negotiable exit stop-losses before order placement. 3) Keep headline event positions capped at <strong>under 2%</strong> total portfolio risk.",
         "tag": "#MARKETDEBUNK",
+        "slide_index": 7,
         "title_lines": [
-          "Your Pre-Trade",
-          "<span class='highlight-box'>Risk Checklist</span>"
+          "The 3-Point",
+          "<span class='highlight-box'>Pre-Trade Risk</span>",
+          "Checklist"
         ]
       },
       {
-        "slide_number": 8,
         "role": "bookmark_save",
         "title_lines": [
           "Don’t",
@@ -296,111 +262,119 @@
           "this for",
           "later"
         ],
-        "cta_detail": "Have you experienced this trap? Drop your experience in the comments below 👇",
         "tag": "#MARKETDEBUNK",
+        "cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital.",
         "slide_index": 8,
         "card_text": ""
       }
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Solitude (Dark Academic Finance)",
-      "artist": "M83 / Felsmann + Tiley",
-      "bpm": 110,
-      "vibe": "Institutional Truth / Whistleblower",
-      "reels_boost_tier": "Viral Editorial",
-      "search_query": "M83 Solitude Felsmann Tiley"
+      "title": "Cornfield Chase (Interstellar Piano/Synth)",
+      "artist": "Hans Zimmer / Dorian Marko",
+      "bpm": 100,
+      "vibe": "Cinematic Tension & Focus",
+      "reels_boost_tier": "High Velocity",
+      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
     },
-    "hashtag_cluster_id": "cluster_4",
-    "hook_archetype_id": "angle_5"
+    "hashtag_cluster_id": "cluster_1",
+    "hook_archetype_id": "angle_1"
   },
   "audio": {
-    "title": "Solitude (Dark Academic Finance)",
-    "artist": "M83 / Felsmann + Tiley",
-    "bpm": 110,
-    "vibe": "Institutional Truth / Whistleblower",
-    "reels_boost_tier": "Viral Editorial",
-    "search_query": "M83 Solitude Felsmann Tiley"
+    "title": "Cornfield Chase (Interstellar Piano/Synth)",
+    "artist": "Hans Zimmer / Dorian Marko",
+    "bpm": 100,
+    "vibe": "Cinematic Tension & Focus",
+    "reels_boost_tier": "High Velocity",
+    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
   },
-  "run_id": "20260925_085418",
+  "run_id": "20260925_180644",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
-      "highlight_word": "Margin Decay",
-      "core_mechanism": "Uses precise percentage-based volatility contraction and margin-risk calculations to prove that the current entry price is mathematically inefficient.",
+      "headline_hook": "The 74% math trap: Why 4 days of upper circuits cost you more than you think.",
+      "highlight_word": "Math Trap",
+      "core_mechanism": "Deconstructing the cost basis of late-stage entries. We calculate the exact 'slippage tax' and the diminishing probability of a 5th circuit based on historical small-cap volatility decay.",
       "scores": {
-        "curiosity_gap": 9.5,
+        "curiosity_gap": 8.5,
         "retail_actionability": 9.5,
         "viral_potential": 8.0,
         "friction_quotient": 9.5,
-        "total": 36.5
+        "total": 35.5
       },
-      "critic_critique": "Superior execution. By providing a specific, counter-intuitive number (4.2%), it forces the user to verify the math, creating extreme high-intent engagement."
+      "critic_critique": "This is surgically precise. It forces the reader to confront their own greed with raw data. It doesn't just warn; it provides a financial 'stop-loss' for their decision-making process."
     },
-    "critic_score": 9.1,
+    "critic_score": 8.9,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' content, presenting a specific, calculated mathematical ceiling forces the reader to pause their emotional FOMO to process the logic, which is the gold standard for high-retention social content.",
-    "final_editorial_directive": "Slide copywriters: Focus on simplicity. Use bold, large-font numbers for the 4.2% cap. Ensure the 'Stop-Loss' section on the final slide is visually distinct, using a red-box aesthetic to signify immediate risk mitigation.",
+    "selection_rationale": "Candidate B is the definitive winner. By leveraging MATHEMATICAL_FRICTION, it moves beyond subjective market opinions and provides a quantitative framework that is intellectually impossible for the reader to ignore without feeling reckless.",
+    "final_editorial_directive": "Slide 1 must lead with the 74% figure and the word 'Math Trap'. Slides 2-4 must contain a table showing the probability decay of a 5th consecutive circuit. Avoid jargon; use simple, brutal arithmetic to show how late-entry capital is cannibalized by early-stage profit-takers.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Hero Motors is up 20%—and you're probably buying at the top.",
-        "highlight_word": "Retail Trap",
-        "core_mechanism": "Deconstructs the 'momentum bias' by highlighting historical post-rally retracements to trigger skepticism.",
+        "headline_hook": "Stop chasing the 74% rally: Why this small-cap is a classic exit trap.",
+        "highlight_word": "Exit Trap",
+        "core_mechanism": "Exploiting the psychological bias of 'missing out' by framing the 4-day upper circuit as a liquidity exhaustion event rather than a growth breakout.",
         "scores": {
           "curiosity_gap": 9.0,
-          "retail_actionability": 7.0,
+          "retail_actionability": 7.5,
           "viral_potential": 8.5,
           "friction_quotient": 9.0,
-          "total": 33.5
+          "total": 34.0
         },
-        "critic_critique": "Effective at stopping the scroll through fear, but lacks the technical depth to keep sophisticated traders engaged past slide 2."
+        "critic_critique": "Effective at stopping the scroll through fear, but lacks the technical backbone to prevent the user from eventually ignoring the warning. Strong emotional hook, weak structural defense."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
-        "highlight_word": "Margin Decay",
-        "core_mechanism": "Uses precise percentage-based volatility contraction and margin-risk calculations to prove that the current entry price is mathematically inefficient.",
+        "headline_hook": "The 74% math trap: Why 4 days of upper circuits cost you more than you think.",
+        "highlight_word": "Math Trap",
+        "core_mechanism": "Deconstructing the cost basis of late-stage entries. We calculate the exact 'slippage tax' and the diminishing probability of a 5th circuit based on historical small-cap volatility decay.",
         "scores": {
-          "curiosity_gap": 9.5,
+          "curiosity_gap": 8.5,
           "retail_actionability": 9.5,
           "viral_potential": 8.0,
           "friction_quotient": 9.5,
-          "total": 36.5
+          "total": 35.5
         },
-        "critic_critique": "Superior execution. By providing a specific, counter-intuitive number (4.2%), it forces the user to verify the math, creating extreme high-intent engagement."
+        "critic_critique": "This is surgically precise. It forces the reader to confront their own greed with raw data. It doesn't just warn; it provides a financial 'stop-loss' for their decision-making process."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Smart money is exiting Hero Motors while you're celebrating the 20% gain.",
-        "highlight_word": "Institutional Exit",
-        "core_mechanism": "Exposes the divergence between retail buying volume and institutional block-trade distributions to frame the rally as a liquidity trap.",
+        "headline_hook": "Institutions are dumping while you're buying: The 74% small-cap illusion.",
+        "highlight_word": "Retail Exit",
+        "core_mechanism": "Mapping the volume profile to show institutional distribution patterns masked by thin-float retail buying pressure during the upper circuit streak.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 7.5,
+          "curiosity_gap": 9.5,
+          "retail_actionability": 7.0,
           "viral_potential": 9.0,
           "friction_quotient": 8.5,
-          "total": 33.5
+          "total": 34.0
         },
-        "critic_critique": "Strong narrative hook, but relies too heavily on 'them vs us' sentiment which can feel cliché unless backed by specific flow data."
+        "critic_critique": "High viral potential because it triggers 'us vs. them' outrage. However, it relies heavily on the user trusting the theory of institutional movement without providing enough granular evidence."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 8.9,
+    "average_score": 9.1,
     "slide_1_report": {
+      "mobile_readability_score": 9.5,
+      "contrast_score": 9.2,
+      "whitespace_score": 8.5,
+      "overall_score": 9.1,
       "passed": true,
-      "overall_score": 8.5,
-      "feedback": "Fallback approval."
+      "critique_summary": "The headline is punchy, legible, and expertly uses high-contrast blocking to command attention. To push this to a professional-grade layout, reduce the letter-spacing on the green block to prevent the 'day' hanging off the right edge and tighten the line height between 'The Hidden Reality' and the green highlight for a more cohesive block.",
+      "suggested_css_adjustments": {
+        "font_size_modifier_pct": -5,
+        "line_height": "1.05",
+        "notes": "Tighten tracking on 'Behind Four-day' to improve balance and reduce the line-height gap between the header and the highlight box."
+      }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-09-25T08:55:51.718031+00:00"
+  "exported_at": "2026-09-25T18:06:57.939316+00:00"
 }
