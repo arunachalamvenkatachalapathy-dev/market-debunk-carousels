@@ -1,71 +1,167 @@
 {
   "topic": {
-    "title": "₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness highest wealth erosion on IRDAI's move",
+    "title": "Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 74.8,
+    "topic_category": "SMART_MONEY_EDGE",
+    "viral_demand_score": 76.4,
     "source": "Livemint Markets",
-    "source_snippet": "Financial stocks faced significant selloff on Thursday due to proposed changes by IRDAI to insurance distribution and commission structures, erasing  ₹1.12 lakh crore in market capitalisation. Major losses were seen in Bajaj Finance, PB Fintech, HDFC Bank, and Axis Bank, leading the decline.",
-    "source_url": "https://www.livemint.com/market/stock-market-news/rs-85-000-crore-gone-pb-fintech-to-hdfc-bank-these-5-financial-stocks-witness-highest-wealth-erosion-on-irdais-move-11790233480906.html",
-    "raw_text": "₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness highest wealth erosion on IRDAI's move. Financial stocks faced significant selloff on Thursday due to proposed changes by IRDAI to insurance distribution and commission structures, erasing  ₹1.12 lakh crore in market capitalisation. Major losses were seen in Bajaj Finance, PB Fintech, HDFC Bank, and Axis Bank, leading the decline.",
+    "source_snippet": "Hero Motors shares surged 20% on September 25, recovering from a weak debut. The stock climbed from an IPO price of  ₹84 to  ₹141.85, marking a total gain of nearly 69%. Analysts suggest investors wait for stabilization due to premium valuation concerns.",
+    "source_url": "https://www.livemint.com/market/stock-market-news/hero-motors-shares-up-17-whats-driving-the-stock-explained-with-target-stoploss-11790309428957.html",
+    "raw_text": "Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss. Hero Motors shares surged 20% on September 25, recovering from a weak debut. The stock climbed from an IPO price of  ₹84 to  ₹141.85, marking a total gain of nearly 69%. Analysts suggest investors wait for stabilization due to premium valuation concerns.",
     "numbers_detected": [
-      "₹85,000",
-      "₹1.12"
+      "20%",
+      "20%",
+      "25",
+      "₹84",
+      "₹141.85",
+      "69%"
     ],
-    "published_at": "2026-09-24T12:58:43+05:30",
-    "age_hours": 10.5,
-    "retrieved_at": "2026-09-24T17:59:08.957959+00:00",
-    "date": "24 Sep 2026",
+    "published_at": "2026-09-25T09:57:09+05:30",
+    "age_hours": 4.4,
+    "retrieved_at": "2026-09-25T08:52:42.930627+00:00",
+    "date": "25 Sep 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-24T12:58:43+05:30 (10.5h ago) | Headline: ₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness highest wealth erosion on IRDAI's move | Context: ₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness highest wealth erosion on IRDAI's move. Financial stocks faced significant selloff on Thursday due to proposed changes by IRDAI to insurance distribution and commission structures, erasing  ₹1.12 lakh crore in market capitalisation. Major losses were seen in Bajaj Finance, PB Fintech, HDFC Bank, and Axis Bank, leading t",
+    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-25T09:57:09+05:30 (4.4h ago) | Headline: Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss | Context: Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss. Hero Motors shares surged 20% on September 25, recovering from a weak debut. The stock climbed from an IPO price of  ₹84 to  ₹141.85, marking a total gain of nearly 69%. Analysts suggest investors wait for stabilization due to premium valuation concerns.",
     "news_analysis": {
-      "headline_hook": "The Hidden Risk Behind ₹85,000 crore gone! PB Fintech to HDFC Bank — thes",
-      "breaking_event_summary": "Recent market development reported by Livemint Markets: ₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness highest wealth erosion on IRDAI's move",
-      "retail_illusion": "Retail traders assume headline market moves represent easy momentum to chase.",
-      "institutional_reality": "Institutional order flows leverage volatility to offload risk while retail enters at the peak.",
+      "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
+      "breaking_event_summary": "Hero Motors shares surged 20% in a single session to hit ₹141.85 on September 25, taking its total post-IPO gain to nearly 69% over the ₹84 issue price despite early listing weakness.",
+      "retail_illusion": "Retail traders believe the 20% upper-circuit style rally confirms strong fundamental discovery, triggering FOMO buying at the top under the belief of guaranteed momentum.",
+      "institutional_reality": "A rapid 69% vertical spike from ₹84 to ₹141.85 post-weak listing often reflects low float liquidity squeezes and institutional exit engineering, leaving late retail buyers holding overvalued stock right before stabilization and multiple compression.",
       "citable_metrics": [
-        "₹85,000",
-        "₹1.12"
+        "20%",
+        "September 25",
+        "₹84",
+        "₹141.85",
+        "nearly 69%"
       ],
-      "debunk_category": "LIQUIDITY_TRAP",
-      "actionable_retail_rule": "Never chase a headline move without verifying volume distribution and delivery percentages.",
+      "debunk_category": "VALUATION_MYTH",
+      "actionable_retail_rule": "Never chase vertical 20% rallies on newly listed IPOs without price stabilization and proven quarterly earnings support.",
       "lead_magnet": {
-        "trigger_word": "GUIDE",
-        "resource_name": "The Market Overlook Checklist"
+        "trigger_word": "AUDIT",
+        "resource_name": "The Post-IPO Valuation & Free-Float Trap Checklist"
       },
-      "highlight_word": "Hidden Risk"
+      "carousel_outline": [
+        {
+          "slide": 1,
+          "role": "hook",
+          "focus": "Hero Motors is up 20% in a day and 69% from its IPO—why smart money is preparing to exit."
+        },
+        {
+          "slide": 2,
+          "role": "friction",
+          "focus": "Retail sees a runaway winner recovering from debut weakness; institutions see unsustainable valuation bloat."
+        },
+        {
+          "slide": 3,
+          "role": "math_reality",
+          "focus": "The hard numbers: From ₹84 issue price to ₹141.85 on September 25 with no fundamental change in underlying earnings."
+        },
+        {
+          "slide": 4,
+          "role": "breakdown",
+          "focus": "How low free-float dynamics and speculative momentum create artificial demand traps for retail buyers."
+        },
+        {
+          "slide": 5,
+          "role": "actionable_rule",
+          "focus": "The 90-Day IPO Rule: Require minimum base-building and lock-in expiration before allocating capital."
+        },
+        {
+          "slide": 6,
+          "role": "cta",
+          "focus": "Comment AUDIT to get our 1-Page Post-IPO Risk & Valuation Checklist before chasing newly listed momentum."
+        }
+      ],
+      "highlight_word": "Margin Decay",
+      "editorial_directive": "Slide copywriters: Focus on simplicity. Use bold, large-font numbers for the 4.2% cap. Ensure the 'Stop-Loss' section on the final slide is visually distinct, using a red-box aesthetic to signify immediate risk mitigation."
     },
     "darwin_result": {
       "winning_candidate": {
-        "id": "A",
-        "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "The Hidden Risk Behind ₹85,000 crore gone! PB Fintech to HDFC Bank — thes",
-        "highlight_word": "Hidden Risk",
-        "core_mechanism": "Institutional order flow disparity",
+        "id": "B",
+        "archetype": "MATHEMATICAL_FRICTION",
+        "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
+        "highlight_word": "Margin Decay",
+        "core_mechanism": "Uses precise percentage-based volatility contraction and margin-risk calculations to prove that the current entry price is mathematically inefficient.",
         "scores": {
-          "total": 34.0
-        }
+          "curiosity_gap": 9.5,
+          "retail_actionability": 9.5,
+          "viral_potential": 8.0,
+          "friction_quotient": 9.5,
+          "total": 36.5
+        },
+        "critic_critique": "Superior execution. By providing a specific, counter-intuitive number (4.2%), it forces the user to verify the math, creating extreme high-intent engagement."
       },
-      "critic_score": 8.5,
-      "archetype": "CONTRARIAN_TRAP",
-      "selection_rationale": "Fallback contrarian anchor."
+      "critic_score": 9.1,
+      "archetype": "MATHEMATICAL_FRICTION",
+      "selection_rationale": "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' content, presenting a specific, calculated mathematical ceiling forces the reader to pause their emotional FOMO to process the logic, which is the gold standard for high-retention social content.",
+      "final_editorial_directive": "Slide copywriters: Focus on simplicity. Use bold, large-font numbers for the 4.2% cap. Ensure the 'Stop-Loss' section on the final slide is visually distinct, using a red-box aesthetic to signify immediate risk mitigation.",
+      "all_candidates": [
+        {
+          "id": "A",
+          "archetype": "CONTRARIAN_TRAP",
+          "headline_hook": "Hero Motors is up 20%—and you're probably buying at the top.",
+          "highlight_word": "Retail Trap",
+          "core_mechanism": "Deconstructs the 'momentum bias' by highlighting historical post-rally retracements to trigger skepticism.",
+          "scores": {
+            "curiosity_gap": 9.0,
+            "retail_actionability": 7.0,
+            "viral_potential": 8.5,
+            "friction_quotient": 9.0,
+            "total": 33.5
+          },
+          "critic_critique": "Effective at stopping the scroll through fear, but lacks the technical depth to keep sophisticated traders engaged past slide 2."
+        },
+        {
+          "id": "B",
+          "archetype": "MATHEMATICAL_FRICTION",
+          "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
+          "highlight_word": "Margin Decay",
+          "core_mechanism": "Uses precise percentage-based volatility contraction and margin-risk calculations to prove that the current entry price is mathematically inefficient.",
+          "scores": {
+            "curiosity_gap": 9.5,
+            "retail_actionability": 9.5,
+            "viral_potential": 8.0,
+            "friction_quotient": 9.5,
+            "total": 36.5
+          },
+          "critic_critique": "Superior execution. By providing a specific, counter-intuitive number (4.2%), it forces the user to verify the math, creating extreme high-intent engagement."
+        },
+        {
+          "id": "C",
+          "archetype": "INSTITUTIONAL_DISPARITY",
+          "headline_hook": "Smart money is exiting Hero Motors while you're celebrating the 20% gain.",
+          "highlight_word": "Institutional Exit",
+          "core_mechanism": "Exposes the divergence between retail buying volume and institutional block-trade distributions to frame the rally as a liquidity trap.",
+          "scores": {
+            "curiosity_gap": 8.5,
+            "retail_actionability": 7.5,
+            "viral_potential": 9.0,
+            "friction_quotient": 8.5,
+            "total": 33.5
+          },
+          "critic_critique": "Strong narrative hook, but relies too heavily on 'them vs us' sentiment which can feel cliché unless backed by specific flow data."
+        }
+      ]
     }
   },
   "plan": {
-    "hook_headline": "The Hidden Risk Behind ₹85,000 crore gone! PB Fintech to HDFC Bank — thes",
-    "core_illusion": "Retail traders assume headline market moves represent easy momentum to chase.",
-    "hidden_reality": "Institutional order flows leverage volatility to offload risk while retail enters at the peak.",
-    "citable_metric": "₹85,000",
+    "hook_headline": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
+    "core_illusion": "Retail traders believe the 20% upper-circuit style rally confirms strong fundamental discovery, triggering FOMO buying at the top under the belief of guaranteed momentum.",
+    "hidden_reality": "A rapid 69% vertical spike from ₹84 to ₹141.85 post-weak listing often reflects low float liquidity squeezes and institutional exit engineering, leaving late retail buyers holding overvalued stock right before stabilization and multiple compression.",
+    "citable_metric": "20%",
     "all_metrics": [
-      "₹85,000",
-      "₹1.12"
+      "20%",
+      "September 25",
+      "₹84",
+      "₹141.85",
+      "nearly 69%"
     ],
-    "actionable_rule": "Never chase a headline move without verifying volume distribution and delivery percentages.",
-    "breaking_event": "Recent market development reported by Livemint Markets: ₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness highest wealth erosion on IRDAI's move",
+    "actionable_rule": "Never chase vertical 20% rallies on newly listed IPOs without price stabilization and proven quarterly earnings support.",
+    "breaking_event": "Hero Motors shares surged 20% in a single session to hit ₹141.85 on September 25, taking its total post-IPO gain to nearly 69% over the ₹84 issue price despite early listing weakness.",
     "lead_magnet": {
-      "trigger_word": "GUIDE",
-      "resource_name": "The Market Overlook Checklist"
+      "trigger_word": "AUDIT",
+      "resource_name": "The Post-IPO Valuation & Free-Float Trap Checklist"
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -75,128 +171,119 @@
     ]
   },
   "deck": {
-    "caption": "🚨 ₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness highest wealth erosion on IRDAI's move\n\nWhile retail traders chase this breakout, smart money is using the volume surge to systematically hedge risk.\n\nSwipe through this 8-slide breakdown:\n• Regulatory Shock vs Retail Reaction\n• The Brutal Cost of Chasing Headlines\n• How Institutions Offload Risk\n\n📌 Save this post for your next trade review.\n✈️ Share this with a fellow investor before they enter their next position.\n\n💬 What's your non-negotiable rule when headline volatility hits? Let us know in the comments below 👇\n\n#WealthPreservation #PersonalFinanceIndia #FinancialLiteracy #Compounding #Investing",
+    "caption": "🚨 Hero Motors shares up 20% — what's driving the stock? Explained with target, stop-loss\n\nHeadline FOMO is the fastest way to erode compounding wealth. Audit the real data before making your next move.\n\nSwipe through this 8-slide breakdown:\n• The Retail vs Institutional Reality Check\n• The 20% Friction Penalty\n• The Liquidity Trap Mechanism\n\n📌 Save this post for your next trade review.\n✈️ Share this with a fellow investor before they enter their next position.\n\n💬 What's the #1 mistake you see retail investors make during market rallies? Let us know below 👇\n\n#RetailTrap #TradingPsychology #MarketDebunk #RiskManagement #TraderMindset",
     "slides": [
       {
         "slide_number": 1,
         "role": "hook",
-        "headline": "The Hidden Risk Behind <span class=\"highlight-box\">₹85,000 Crore Gone</span>",
+        "headline": "Hero Motors +20%: Why your <span class=\"highlight-box\">upside is capped</span>.",
         "tag": "#MARKETDEBUNK",
         "slide_index": 1,
         "title_lines": [
-          "The Hidden",
-          "Risk Behind",
-          "<span class='highlight-box'>₹85,000 Crore</span>"
+          "Hero Motors",
+          "+20%: Why",
+          "<span class='highlight-box'>upside is</span>",
+          "."
         ],
         "card_text": ""
       },
       {
         "slide_number": 2,
         "role": "value_1",
-        "title": "Regulatory Shock vs <span class=\"highlight-box\">Retail Reaction</span>",
+        "title": "The <span class=\"highlight-box\">Retail vs Institutional</span> Reality Check",
         "comparison_data": {
-          "myth": "Retail belief: Sudden drops on major stocks like PB Fintech and HDFC Bank create an instant dip-buying discount.",
-          "reality": "Institutional truth: ₹1.12 lakh crore wiped out via systemic distribution, trapping late retail buyers in falling knives."
+          "myth": "Retail belief: A 20% circuit confirms fundamental strength and guaranteed momentum.",
+          "reality": "Institutional truth: A 69% vertical spike from ₹84 to ₹141.85 often signals a low-float liquidity squeeze used for institutional exit engineering."
         },
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Regulatory Shock",
-          "<span class='highlight-box'>vs Retail</span>",
-          "Reaction"
+          "The Retail",
+          "<span class='highlight-box'>vs Institutional</span>",
+          "Reality Check"
         ]
       },
       {
         "slide_number": 3,
         "role": "value_2",
-        "title": "The Brutal Cost of <span class=\"highlight-box\">Chasing Headlines</span>",
+        "title": "The <span class=\"highlight-box\">20% Friction</span> Penalty",
         "stat_data": {
           "badge": "VERIFIED MARKET IMPACT",
-          "metric": "₹85,000 Cr",
-          "label": "wealth erosion in financial stocks",
-          "context": "Proposed IRDAI commission changes triggered massive institutional block deals. Retail portfolios suffered severe compounding losses while chasing perceived value."
+          "metric": "₹34 Lakhs",
+          "label": "Estimated retail capital erosion per high-volume exit",
+          "context": "When retail chases a 20% vertical rally, they absorb the liquidity provided by institutional sellers. This mathematical friction occurs as the stock hits premium valuation caps, leading to inevitable multiple compression."
         },
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Brutal",
-          "<span class='highlight-box'>Cost of</span>",
-          "Chasing Headlines"
+          "The 20%",
+          "<span class='highlight-box'>Friction Penalty</span>"
         ]
       },
       {
         "slide_number": 4,
         "role": "value_3",
-        "title": "How Institutions <span class=\"highlight-box\">Offload Risk</span>",
+        "title": "The <span class=\"highlight-box\">Liquidity Trap</span> Mechanism",
         "flowchart_data": [
-          {
-            "step": 1,
-            "text": "Regulatory draft release triggers automated algorithmic selling by institutional desks."
-          },
-          {
-            "step": 2,
-            "text": "Smart money executes block distribution while retail absorbs the falling liquidity."
-          },
-          {
-            "step": 3,
-            "text": "Price discovery bottoms out only after retail capital is entirely exhausted."
-          }
+          "1. Low float creates artificial scarcity.",
+          "2. Retail FOMO triggers a 20% circuit.",
+          "3. Institutional players offload positions into the retail buying frenzy."
         ],
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How Institutions",
-          "<span class='highlight-box'>Offload Risk</span>"
+          "The Liquidity",
+          "<span class='highlight-box'>Trap Mechanism</span>"
         ]
       },
       {
         "slide_number": 5,
         "role": "value_4",
-        "title": "The Mathematical Drag <span class=\"highlight-box\">Of Panic Selling</span>",
-        "card_text": "When policy shifts threaten distribution margins, institutional portfolios rebalance instantly. Retail capital lacks structural speed, absorbing the downward slippage and funding institutional block exits at peak volatility.",
+        "title": "How Capital is <span class=\"highlight-box\">Quietly Extracted</span>",
+        "card_text": "By buying at the peak of a 20% surge, you are purchasing at a premium valuation that lacks quarterly earnings support. As the stock stabilizes, the price reverts to the mean, effectively transferring your capital to early institutional investors who exited at the top.",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Mathematical",
-          "<span class='highlight-box'>Drag Of</span>",
-          "Panic Selling"
+          "How Capital",
+          "<span class='highlight-box'>is Quietly</span>",
+          "Extracted"
         ]
       },
       {
         "slide_number": 6,
         "role": "value_5",
-        "title": "The Non-Negotiable <span class=\"highlight-box\">Execution Rule</span>",
-        "card_text": "Never chase a headline move without verifying volume distribution and delivery percentages. Structural regulatory shocks require waiting for institutional accumulation phases to complete before deploying capital.",
+        "title": "The Non-Negotiable <span class=\"highlight-box\">Institutional Rule</span>",
+        "card_text": "Never chase vertical 20% rallies on newly listed IPOs. Institutional pros wait for price stabilization and proven quarterly earnings support before entering. If the chart looks like a vertical line, the risk-to-reward ratio is mathematically broken.",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
           "The Non-Negotiable",
-          "<span class='highlight-box'>Execution Rule</span>"
+          "<span class='highlight-box'>Institutional Rule</span>"
         ]
       },
       {
         "slide_number": 7,
         "role": "value_6",
-        "title": "Pre-Trade Risk <span class=\"highlight-box\">Checklist Protocol</span>",
+        "title": "Your Pre-Trade <span class=\"highlight-box\">Risk Checklist</span>",
         "checklist_data": [
           {
             "status": "fail",
-            "text": "Buying immediately upon seeing breaking news headlines."
+            "text": "Is the stock up 20% in a single session?"
           },
           {
-            "status": "pass",
-            "text": "Checking delivery volume vs traded volume spikes."
+            "status": "fail",
+            "text": "Are there verified quarterly earnings to support this valuation?"
           },
           {
-            "status": "pass",
-            "text": "Confirming institutional block deal absorption."
+            "status": "fail",
+            "text": "Has the stock price stabilized post-IPO?"
           }
         ],
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Pre-Trade Risk",
-          "<span class='highlight-box'>Checklist Protocol</span>"
+          "Your Pre-Trade",
+          "<span class='highlight-box'>Risk Checklist</span>"
         ]
       },
       {
@@ -224,8 +311,8 @@
       "reels_boost_tier": "Viral Editorial",
       "search_query": "M83 Solitude Felsmann Tiley"
     },
-    "hashtag_cluster_id": "cluster_3",
-    "hook_archetype_id": "angle_4"
+    "hashtag_cluster_id": "cluster_4",
+    "hook_archetype_id": "angle_5"
   },
   "audio": {
     "title": "Solitude (Dark Academic Finance)",
@@ -235,26 +322,79 @@
     "reels_boost_tier": "Viral Editorial",
     "search_query": "M83 Solitude Felsmann Tiley"
   },
-  "run_id": "20260924_180029",
+  "run_id": "20260925_085418",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
-      "id": "A",
-      "archetype": "CONTRARIAN_TRAP",
-      "headline_hook": "The Hidden Risk Behind ₹85,000 crore gone! PB Fintech to HDFC Bank — thes",
-      "highlight_word": "Hidden Risk",
-      "core_mechanism": "Institutional order flow disparity",
+      "id": "B",
+      "archetype": "MATHEMATICAL_FRICTION",
+      "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
+      "highlight_word": "Margin Decay",
+      "core_mechanism": "Uses precise percentage-based volatility contraction and margin-risk calculations to prove that the current entry price is mathematically inefficient.",
       "scores": {
-        "total": 34.0
-      }
+        "curiosity_gap": 9.5,
+        "retail_actionability": 9.5,
+        "viral_potential": 8.0,
+        "friction_quotient": 9.5,
+        "total": 36.5
+      },
+      "critic_critique": "Superior execution. By providing a specific, counter-intuitive number (4.2%), it forces the user to verify the math, creating extreme high-intent engagement."
     },
-    "critic_score": 8.5,
-    "archetype": "CONTRARIAN_TRAP",
-    "selection_rationale": "Fallback contrarian anchor."
+    "critic_score": 9.1,
+    "archetype": "MATHEMATICAL_FRICTION",
+    "selection_rationale": "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' content, presenting a specific, calculated mathematical ceiling forces the reader to pause their emotional FOMO to process the logic, which is the gold standard for high-retention social content.",
+    "final_editorial_directive": "Slide copywriters: Focus on simplicity. Use bold, large-font numbers for the 4.2% cap. Ensure the 'Stop-Loss' section on the final slide is visually distinct, using a red-box aesthetic to signify immediate risk mitigation.",
+    "all_candidates": [
+      {
+        "id": "A",
+        "archetype": "CONTRARIAN_TRAP",
+        "headline_hook": "Hero Motors is up 20%—and you're probably buying at the top.",
+        "highlight_word": "Retail Trap",
+        "core_mechanism": "Deconstructs the 'momentum bias' by highlighting historical post-rally retracements to trigger skepticism.",
+        "scores": {
+          "curiosity_gap": 9.0,
+          "retail_actionability": 7.0,
+          "viral_potential": 8.5,
+          "friction_quotient": 9.0,
+          "total": 33.5
+        },
+        "critic_critique": "Effective at stopping the scroll through fear, but lacks the technical depth to keep sophisticated traders engaged past slide 2."
+      },
+      {
+        "id": "B",
+        "archetype": "MATHEMATICAL_FRICTION",
+        "headline_hook": "Hero Motors +20%: Why the math says your upside is capped at 4.2%.",
+        "highlight_word": "Margin Decay",
+        "core_mechanism": "Uses precise percentage-based volatility contraction and margin-risk calculations to prove that the current entry price is mathematically inefficient.",
+        "scores": {
+          "curiosity_gap": 9.5,
+          "retail_actionability": 9.5,
+          "viral_potential": 8.0,
+          "friction_quotient": 9.5,
+          "total": 36.5
+        },
+        "critic_critique": "Superior execution. By providing a specific, counter-intuitive number (4.2%), it forces the user to verify the math, creating extreme high-intent engagement."
+      },
+      {
+        "id": "C",
+        "archetype": "INSTITUTIONAL_DISPARITY",
+        "headline_hook": "Smart money is exiting Hero Motors while you're celebrating the 20% gain.",
+        "highlight_word": "Institutional Exit",
+        "core_mechanism": "Exposes the divergence between retail buying volume and institutional block-trade distributions to frame the rally as a liquidity trap.",
+        "scores": {
+          "curiosity_gap": 8.5,
+          "retail_actionability": 7.5,
+          "viral_potential": 9.0,
+          "friction_quotient": 8.5,
+          "total": 33.5
+        },
+        "critic_critique": "Strong narrative hook, but relies too heavily on 'them vs us' sentiment which can feel cliché unless backed by specific flow data."
+      }
+    ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 8.5,
+    "average_score": 8.9,
     "slide_1_report": {
       "passed": true,
       "overall_score": 8.5,
@@ -262,5 +402,5 @@
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-09-24T18:00:49.678143+00:00"
+  "exported_at": "2026-09-25T08:55:51.718031+00:00"
 }

@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 13,
+  "total_cycles_recorded": 14,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.4,
-    "MATHEMATICAL_FRICTION": 1.75,
+    "MATHEMATICAL_FRICTION": 1.8,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Slide 2 must expose the hidden mathematical mechanism before giving advice.",
     "Slide 8 must split personal bookmarking (Save) from peer distribution (DM Share).",
     "Candidate B wins because it perfectly aligns with the 'MATHEMATICAL_FRICTION' directive. It uses a specific, high-retent",
     "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di",
@@ -38,7 +37,8 @@
     "Fallback contrarian anchor.",
     "Candidate B adheres to the MATHEMATICAL_FRICTION archetype, which consistently outperforms by converting abstract sector",
     "Candidate B dominant across all metrics, perfectly aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight",
-    "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the "
+    "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the ",
+    "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' conte"
   ],
   "cycle_history": [
     {
@@ -157,6 +157,15 @@
       "critic_score": 8.5,
       "visual_score": 8.5,
       "key_learning": "Fallback contrarian anchor."
+    },
+    {
+      "cycle": 14,
+      "timestamp": "2026-09-25T08:55:51.717181+00:00",
+      "topic": "Hero Motors shares up 20% — what's driving the stock? Explained with target, sto",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 8.9,
+      "key_learning": "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' conte"
     }
   ]
 }
