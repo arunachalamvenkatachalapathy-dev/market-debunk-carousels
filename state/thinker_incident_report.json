@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-24T18:01:36.938145+00:00",
+  "timestamp": "2026-09-25T08:56:42.346693+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "CRITICAL",
   "error_code": "ERR_IMAGE_NOT_ACCESSIBLE",
-  "root_cause_analysis": "The Instagram Graph API failed to fetch the media file from the provided raw GitHub URL (OAuthException code 9004, subcode 2207052). This typically happens when the image URI does not meet Meta's content/hosting requirements, is publicly inaccessible at the exact moment of the request, or the raw file link is invalid.",
+  "root_cause_analysis": "The Instagram Graph API failed to fetch the image from the provided GitHub raw URL. The error subcode 2207052 indicates that the media URI does not meet Instagram's requirements, likely due to the GitHub raw content-type headers, file size, or dimension constraints not being recognized as valid image media by the Meta ingestion engine.",
   "reproducibility": "URL_UNAVAILABLE",
   "automated_remediation": {
     "action": "ABORT",
@@ -12,8 +12,9 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Verify that the GitHub repository is public and the raw image URLs are directly reachable via a standard HTTP GET request without authentication.",
-    "Check if the images were successfully committed and pushed to the remote repository prior to triggering the publishing pipeline.",
-    "Consider utilizing a dedicated, highly available CDN or cloud storage bucket (e.g., AWS S3) instead of GitHub raw links to host carousel slides for the Instagram Graph API."
+    "Verify that the GitHub raw URLs are publicly accessible and return a standard image MIME type (image/jpeg or image/png).",
+    "Ensure the images meet Instagram's aspect ratio requirements (between 4:5 and 1.91:1).",
+    "Consider hosting images on a CDN or a dedicated image hosting service that provides stable, direct image headers instead of GitHub raw blobs.",
+    "Check if the images exceed the 8MB file size limit imposed by the Graph API."
   ]
 }
