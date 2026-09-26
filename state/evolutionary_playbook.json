@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 16,
+  "total_cycles_recorded": 17,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.4,
-    "MATHEMATICAL_FRICTION": 1.9,
+    "MATHEMATICAL_FRICTION": 1.95,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B dominant in mathematical friction (weight 1.4). It leverages exact numerical anchors ('₹11 Lakh Cr', '40% di",
     "Candidate B perfectly aligns with the MATHEMATICAL_FRICTION archetype (weighted 1.4). It leverages exact numerical figur",
     "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
     "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent",
@@ -38,7 +37,8 @@
     "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the ",
     "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' conte",
     "Candidate B is the definitive winner. By leveraging MATHEMATICAL_FRICTION, it moves beyond subjective market opinions an",
-    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype (weight 1.9). It transforms abstract price action "
+    "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype (weight 1.9). It transforms abstract price action ",
+    "Candidate B adheres strictly to the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.9). It strips the headline of"
   ],
   "cycle_history": [
     {
@@ -184,6 +184,15 @@
       "critic_score": 9.3,
       "visual_score": 9.4,
       "key_learning": "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype (weight 1.9). It transforms abstract price action "
+    },
+    {
+      "cycle": 17,
+      "timestamp": "2026-09-26T17:25:14.157003+00:00",
+      "topic": "Rs 6.80 crore fake director scam sees 12th arrest, accused arranged bank account",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.4,
+      "visual_score": 9.4,
+      "key_learning": "Candidate B adheres strictly to the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.9). It strips the headline of"
     }
   ]
 }
