@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "The 1% Expense Ratio Illusion: How Direct Plans Save ₹34 Lakhs",
-      "archetype": "myth_vs_reality_math",
-      "timestamp": "2026-09-05T03:46:35.076474+00:00"
-    },
-    {
       "title": "The Credit Card Minimum Due Trap: ₹50,000 Ballooning to ₹1.8 Lakhs",
       "archetype": "hidden_fee_audit",
       "timestamp": "2026-09-05T04:11:29.490485+00:00"
@@ -299,6 +294,11 @@
       "title": "Four-day upper circuit streak drives this small-cap stock up 74%; here’s the key trigger behind the jump",
       "url": "https://www.livemint.com/market/stock-market-news/fourday-upper-circuit-streak-drives-this-small-cap-stock-up-74-here-s-the-key-trigger-behind-the-jump-11790331573614.html",
       "timestamp": "2026-09-25T18:06:10.091887+00:00"
+    },
+    {
+      "title": "Gold price outlook: MCX gold slips for the week as US Fed rate hike bets rise; what’s next for the yellow metal?",
+      "url": "https://www.livemint.com/market/stock-market-news/gold-price-outlook-mcx-gold-slips-for-the-week-as-us-fed-rate-hike-bets-rise-what-s-next-for-the-yellow-metal-11790354545598.html",
+      "timestamp": "2026-09-26T08:39:06.810752+00:00"
     }
   ],
   "used_archetypes": [
@@ -368,6 +368,7 @@
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcUtfdE5pajlZNFZvODNfN0FoUjAycGxxaXIzTEN5TWtySTQzVFgxbUNrTjFDZmhLa2YtU0RjVVQwMVoycWxpamJoV2drY3VQLUlvcmJHNmlUV3VCemdwcktUNU1HQl9aci1NaFFaUzBzbjlsNUtzd1YzSzV5ZmZ4bWMzbFpMbXltZ1NQWkhLeENUV2lvdWZodHhIM0lpLTA3TE5WUktKRWZTUkFyRk1UUGhZZEFfbG9KR2JCQ3c0TU5QVVVQSDIwV2Y5c0lWeG9KTlp3RjQ5WQ?oc=5",
     "https://www.livemint.com/market/stock-market-news/rs-85-000-crore-gone-pb-fintech-to-hdfc-bank-these-5-financial-stocks-witness-highest-wealth-erosion-on-irdais-move-11790233480906.html",
     "https://www.livemint.com/market/stock-market-news/hero-motors-shares-up-17-whats-driving-the-stock-explained-with-target-stoploss-11790309428957.html",
-    "https://www.livemint.com/market/stock-market-news/fourday-upper-circuit-streak-drives-this-small-cap-stock-up-74-here-s-the-key-trigger-behind-the-jump-11790331573614.html"
+    "https://www.livemint.com/market/stock-market-news/fourday-upper-circuit-streak-drives-this-small-cap-stock-up-74-here-s-the-key-trigger-behind-the-jump-11790331573614.html",
+    "https://www.livemint.com/market/stock-market-news/gold-price-outlook-mcx-gold-slips-for-the-week-as-us-fed-rate-hike-bets-rise-what-s-next-for-the-yellow-metal-11790354545598.html"
   ]
 }

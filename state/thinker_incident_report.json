@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-25T18:07:47.783431+00:00",
+  "timestamp": "2026-09-26T08:41:00.543305+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "CRITICAL",
   "error_code": "ERR_IMAGE_NOT_ACCESSIBLE",
-  "root_cause_analysis": "The Meta Graph API failed to fetch the image from the provided GitHub raw URL. This is typically caused by the API's inability to resolve the URL, a 404/403 response from the server, or the image failing to meet Instagram's strict aspect ratio/file size/format requirements (e.g., non-standard PNG encoding or server-side blocking of the Meta crawler).",
+  "root_cause_analysis": "The Instagram Graph API failed to fetch the image from the provided GitHub raw URL. The error subcode 2207052 indicates that the media URI does not meet Instagram's strict requirements for public accessibility, content-type validation, or file size/dimension constraints.",
   "reproducibility": "URL_UNAVAILABLE",
   "automated_remediation": {
     "action": "ABORT",
@@ -13,8 +13,8 @@
   "operator_action_required": true,
   "actionable_instructions": [
     "Verify that the GitHub repository is public and the raw URLs are directly accessible without authentication.",
-    "Ensure the images meet Instagram's aspect ratio requirements (between 4:5 and 1.91:1).",
-    "Check if the GitHub server is rate-limiting the Meta Graph API crawler.",
-    "Consider hosting images on a CDN or a public S3 bucket with permissive CORS headers to ensure reliable access for Meta's servers."
+    "Ensure the images meet Instagram's aspect ratio requirements (between 4:5 and 1.91:1) and file size limits (under 8MB).",
+    "Check if the server hosting the images is blocking Meta's User-Agent or IP range.",
+    "Consider hosting images on a CDN or a dedicated image hosting service that provides stable, publicly accessible direct links."
   ]
 }
