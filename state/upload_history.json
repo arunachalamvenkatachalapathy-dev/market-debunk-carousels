@@ -926,6 +926,34 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "Rs 6.80 crore fake director scam sees 12th arrest, accused arranged bank accounts, SIMs - India Today",
+      "media_id": "simulated_id",
+      "timestamp": "2026-09-26T17:26:28.838658+00:00",
+      "topic_category": "REGULATORY_SHIFT",
+      "hook_archetype": "angle_4",
+      "hashtag_cluster": "cluster_2",
+      "publish_results": {
+        "instagram": {
+          "success": false,
+          "error": "Child container 1 failed: {'message': 'Only photo or video can be accepted as media type.', 'type': 'OAuthException', 'code': 9004, 'error_subcode': 2207052, 'is_transient': False, 'error_user_title': \"Media download has failed. The media URI doesn't meet our requirements.\", 'error_user_msg': 'The media could not be fetched from this URI: https://raw.githubusercontent.com/arunachalamvenkatachalapathy-dev/market-debunk-carousels/master/state/carousel_slides/slide_1_20260926_172506.png.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating', 'fbtrace_id': 'A6UVumcRUSGg83BxzhJhVCt'}"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122113317111474347",
+          "url": "https://www.facebook.com/1247247545146839_122113317111474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }

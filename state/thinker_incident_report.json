@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-26T08:41:00.543305+00:00",
+  "timestamp": "2026-09-26T17:26:06.283762+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "CRITICAL",
   "error_code": "ERR_IMAGE_NOT_ACCESSIBLE",
-  "root_cause_analysis": "The Instagram Graph API failed to fetch the image from the provided GitHub raw URL. The error subcode 2207052 indicates that the media URI does not meet Instagram's strict requirements for public accessibility, content-type validation, or file size/dimension constraints.",
+  "root_cause_analysis": "The Instagram Graph API failed to fetch the image from the provided GitHub raw URL. The error subcode 2207052 indicates that the media URI does not meet the platform's strict requirements for public accessibility, content-type validation, or image dimensions/format constraints.",
   "reproducibility": "URL_UNAVAILABLE",
   "automated_remediation": {
     "action": "ABORT",
@@ -13,8 +13,8 @@
   "operator_action_required": true,
   "actionable_instructions": [
     "Verify that the GitHub repository is public and the raw URLs are directly accessible without authentication.",
-    "Ensure the images meet Instagram's aspect ratio requirements (between 4:5 and 1.91:1) and file size limits (under 8MB).",
+    "Ensure the images meet Instagram's aspect ratio requirements (between 4:5 and 1.91:1) and file size limits.",
     "Check if the server hosting the images is blocking Meta's User-Agent or IP range.",
-    "Consider hosting images on a CDN or a dedicated image hosting service that provides stable, publicly accessible direct links."
+    "Consider hosting images on a CDN or a dedicated image hosting service that supports direct public linking with correct MIME types."
   ]
 }
