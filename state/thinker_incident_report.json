@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-27T09:22:11.912573+00:00",
+  "timestamp": "2026-09-27T17:59:31.279799+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "CRITICAL",
   "error_code": "ERR_IMAGE_NOT_ACCESSIBLE",
-  "root_cause_analysis": "The Meta Graph API failed to fetch the image from the provided GitHub raw URL. The error subcode 2207052 indicates that the media URI does not meet Instagram's requirements, likely due to restrictive headers, content-type mismatch, or the server blocking Meta's crawler/bot user-agent.",
+  "root_cause_analysis": "The Meta Graph API failed to fetch the image from the provided GitHub raw URL. This is typically caused by the API's inability to resolve the URL, a timeout during the fetch process, or the image failing to meet Instagram's strict aspect ratio/file size requirements for carousel containers.",
   "reproducibility": "URL_UNAVAILABLE",
   "automated_remediation": {
     "action": "ABORT",
@@ -12,9 +12,9 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Verify that the GitHub repository hosting the images is public and accessible without authentication.",
-    "Ensure the image files are served with the correct 'Content-Type: image/jpeg' or 'image/png' headers.",
-    "Consider hosting images on a CDN or a service like Imgur/Cloudinary that is optimized for Meta's media crawler.",
-    "Check if the GitHub raw URL is being throttled or blocked by GitHub's anti-abuse systems for automated requests."
+    "Verify the accessibility of the GitHub raw URLs from a public network.",
+    "Ensure the images meet Instagram's aspect ratio requirements (between 4:5 and 1.91:1).",
+    "Consider hosting images on a CDN with lower latency or a more stable public endpoint if GitHub raw continues to trigger fetch timeouts.",
+    "Check if the image file size exceeds the maximum allowed limit for the Graph API."
   ]
 }
