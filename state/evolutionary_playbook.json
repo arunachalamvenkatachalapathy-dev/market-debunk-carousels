@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 17,
+  "total_cycles_recorded": 18,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.4,
-    "MATHEMATICAL_FRICTION": 1.95,
+    "MATHEMATICAL_FRICTION": 2.0,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -193,6 +193,15 @@
       "critic_score": 9.4,
       "visual_score": 9.4,
       "key_learning": "Candidate B adheres strictly to the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.9). It strips the headline of"
+    },
+    {
+      "cycle": 18,
+      "timestamp": "2026-09-27T09:21:25.223848+00:00",
+      "topic": "He left studies after Class 12, suffered 1992 stock market scam; now Dinesh Thak",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B is the definitive winner. By leveraging MATHEMATICAL_FRICTION, it moves beyond subjective market opinions an"
     }
   ]
 }
