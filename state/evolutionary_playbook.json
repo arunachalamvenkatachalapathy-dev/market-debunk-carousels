@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 19,
+  "total_cycles_recorded": 20,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.4,
-    "MATHEMATICAL_FRICTION": 2.05,
+    "MATHEMATICAL_FRICTION": 2.1,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B dominates across all evaluation metrics, directly aligning with the MATHEMATICAL_FRICTION priority weight (1",
     "Candidate B dominates by aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.5). It anchors the ent",
     "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d",
     "Fallback contrarian anchor.",
@@ -38,7 +37,8 @@
     "Candidate B is the definitive winner. By leveraging MATHEMATICAL_FRICTION, it moves beyond subjective market opinions an",
     "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype (weight 1.9). It transforms abstract price action ",
     "Candidate B adheres strictly to the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.9). It strips the headline of",
-    "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.0). By translating an abstrac"
+    "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.0). By translating an abstrac",
+    "Candidate B wins because it weaponizes MATHEMATICAL_FRICTION. It bypasses subjective market narratives and forces the us"
   ],
   "cycle_history": [
     {
@@ -211,6 +211,15 @@
       "critic_score": 9.5,
       "visual_score": 9.2,
       "key_learning": "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.0). By translating an abstrac"
+    },
+    {
+      "cycle": 20,
+      "timestamp": "2026-09-28T09:53:11.225726+00:00",
+      "topic": "Bank Nifty crashes nearly 2%, trades near 54,500; check top losers: What lies ah",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 8.9,
+      "visual_score": 9.4,
+      "key_learning": "Candidate B wins because it weaponizes MATHEMATICAL_FRICTION. It bypasses subjective market narratives and forces the us"
     }
   ]
 }
