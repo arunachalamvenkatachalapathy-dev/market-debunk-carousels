@@ -68,15 +68,16 @@ Slide 1 must connect this source to a real Indian household money decision: EMI,
 card bill, FD, SIP, chit fund or another situation ONLY if supported by this source.
 Use plain language that a first-time investor can understand; no invented anecdotes,
 rupee examples, institutional plots, fear bait, or unsupported return promises.
-1. Generate THREE distinctly different creative carousel angles fitting THIS source:
-   - Candidate A (Archetype: CONTRARIAN_TRAP): Debunk mainstream optimism/panic.
-   - Candidate B (Archetype: MATHEMATICAL_FRICTION): Use exact source-supported numbers when available, otherwise a nonnumeric tradeoff.
-   - Candidate C (Archetype: INSTITUTIONAL_DISPARITY): Show who is affected and what to check; institutional positioning only if evidenced.
+1. Offer three DISTINCT, source-supported storytelling lenses; do not fill an unsupported lens:
+   - A: a named person's or founder's actual decision + surprising exact source number, ONLY when both the person and number are in the evidence and relevant. Do not imply an interview or personal encounter.
+   - B: a familiar assumption versus a documented counter-thesis, ONLY when the evidence supports the contrast; no sensational reversal invented for attention.
+   - C: a relatable Indian money choice and its mechanics, concrete consequence, and what to check. Use no invented family or return story. If A or B lacks evidence, replace it with another source-supported angle (timeline, comparison, caveat), not made-up claims.
+   Rotate among supported forms rather than forcing the same trap, number or founder template for every post. State uncertainty and preserve the strict numeric fact gate.
 
 2. Act as a harsh editorial critic. Evaluate each candidate on a 0-10 scale:
    - curiosity_gap (0-10): Will a user immediately swipe slide 1?
-   - viral_potential (0-10): Does this trigger FOMO, outrage, or extreme greed?
-   - retail_actionability (0-10): Does it deliver concrete pre-trade defense?
+   - evidence_integrity (0-10): Is every person, number and contrast supported by the source? Score unsupported claims ZERO.
+   - retail_actionability (0-10): Does it explain a real money consequence and check?
    - friction_quotient (0-10): Does it challenge comfortable assumptions?
 
 3. Calculate total_score (sum of 4 criteria, max 40) and pick the definitive winning candidate.
@@ -124,9 +125,9 @@ Return JSON strictly matching this schema:
                 "winning_candidate": {
                     "id": "A",
                     "archetype": "CONTRARIAN_TRAP",
-                    "headline_hook": f"The Hidden Risk Behind {title[:50]}",
-                    "highlight_word": "Hidden Risk",
-                    "core_mechanism": "Institutional order flow disparity",
+                    "headline_hook": title[:70],
+                    "highlight_word": "",
+                    "core_mechanism": summary[:240] or title,
                     "scores": {"total": 34.0}
                 },
                 "critic_score": 8.5,
