@@ -55,7 +55,16 @@ class JitterManager:
         if not uploads:
             return True, "No previous upload recorded; cooldown passed."
 
-        last_upload = uploads[-1]
+        # Legacy history includes failed and simulated runs. Only a real,
+        # successful IG/FB post should set the publishing cooldown.
+        successful = [item for item in uploads if any(
+            item.get("publish_results", {}).get(platform, {}).get("success") is True
+            and item.get("publish_results", {}).get(platform, {}).get("status") != "dry_run_simulated"
+            for platform in ("instagram", "facebook")
+        )]
+        if not successful:
+            return True, "No successful live upload recorded; cooldown passed."
+        last_upload = successful[-1]
         last_time_str = last_upload.get("timestamp")
         if not last_time_str:
             return True, "Last upload timestamp invalid; cooldown passed."

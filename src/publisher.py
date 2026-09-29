@@ -44,10 +44,10 @@ class Publisher:
 
         if dry_run:
             logger.info("🧪 [DRY RUN ACTIVE] Skipping all live platform uploads.")
-            results["instagram"] = {"success": True, "status": "dry_run_simulated"}
-            results["facebook"] = {"success": True, "status": "dry_run_simulated"}
-            results["telegram"] = {"success": True, "status": "dry_run_simulated"}
-            results["linkedin"] = {"success": True, "status": "dry_run_simulated"}
+            results["instagram"] = {"success": False, "status": "dry_run_not_published"}
+            results["facebook"] = {"success": False, "status": "dry_run_not_published"}
+            results["telegram"] = {"success": False, "status": "dry_run_not_published"}
+            results["linkedin"] = {"success": False, "status": "dry_run_not_published"}
             return results
 
         # ── 1. Instagram Carousel (Direct Live Publishing) ───────────────────
@@ -142,7 +142,7 @@ class Publisher:
             logger.info("  CDN propagation pending for %d/%d images (round %d/%d). Sleeping 3s...", len(unready_urls), len(image_urls), round_idx, max_preflight_rounds)
             time.sleep(3)
         else:
-            logger.warning("⚠️ Some image URLs still returning non-200 after 36s: %s. Attempting container creation with caution...", unready_urls)
+            return {"success": False, "status": "failed", "error": f"Slide URL preflight failed; no Meta request sent: {unready_urls}"}
 
         try:
             # Step 1: Create child image containers (with paced 2.5s backoff to avoid Meta velocity spam trigger 2207051)

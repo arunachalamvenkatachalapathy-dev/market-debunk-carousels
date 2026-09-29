@@ -22,12 +22,12 @@ class EditorialEngine:
 
     def compose_carousel(self, topic_data: dict, brief: str) -> dict:
         """
-        Pass 1: Draft the 6-slide carousel deck and caption.
+        Pass 1: Draft the 8-slide carousel deck and caption.
         Pass 2: Run the Numeric Fact-Checking Gate to verify all numbers against source context.
-        Circuit Breaker: On 2nd consecutive failure, fall back immediately to pre-vetted evergreen archetype.
+        Fail closed rather than publishing an unrelated fallback topic.
         """
         # ── Pass 1: Draft Composition ───────────────────────────────────────
-        logger.info("═══ Editorial Pass 1: Drafting 6-Slide Carousel & Caption ═══")
+        logger.info("═══ Editorial Pass 1: Drafting 8-Slide Carousel & Caption ═══")
         try:
             deck = self._generate_draft(topic_data, brief)
         except Exception as draft_err:
@@ -35,10 +35,7 @@ class EditorialEngine:
             deck = self._generate_draft_gemma(topic_data, brief)
             if not deck:
                 logger.error("Gemma draft failed; falling back to pre-reserved topic templates.")
-                deck = self._generate_fallback_deck(topic_data)
-                deck["fact_check_status"] = "circuit_breaker_evergreen_fallback"
-                deck["slides"] = self._normalize_slides(deck.get("slides", []), topic_data)
-                return deck
+                raise ValueError("Draft unavailable; refusing unrelated evergreen fallback")
 
         # ── Pass 2: Numeric Fact-Checking Gate ──────────────────────────────
         logger.info("═══ Editorial Pass 2: Running Numeric Fact-Checking Gate ═══")
@@ -70,12 +67,15 @@ class EditorialEngine:
                 if is_th_repaired and th_deck:
                     logger.info("✅ ThinkerEngine auto-repaired slide deck facts successfully!")
                     deck = th_deck
+                    repaired_ok, repaired_report = self._verify_numeric_facts(deck, topic_data)
+                    if not repaired_ok:
+                        raise ValueError(f"Thinker repair did not pass numeric gate: {repaired_report}")
                     deck["fact_check_status"] = "thinker_auto_repaired"
                 else:
                     # ── Pass 4: Fallback to Gemma Model ──
                     logger.warning("🤖 Primary drafting/repair unverified; falling back to Gemma model (%s)...", settings.GEMMA_FALLBACK_MODEL)
                     gemma_deck = self._generate_draft_gemma(topic_data, brief)
-                    if gemma_deck and len(gemma_deck.get("slides", [])) == 6:
+                    if gemma_deck and len(gemma_deck.get("slides", [])) == settings.EXPECTED_SLIDE_COUNT:
                         is_gm_valid, gm_report = self._verify_numeric_facts(gemma_deck, topic_data)
                         if is_gm_valid:
                             logger.info("✅ Gemma fallback deck passed Fact-Checking Gate!")
@@ -95,8 +95,7 @@ class EditorialEngine:
                         topic_data["circuit_breaker_reason"] = report_retry
                         topic_data["from_live_api"] = False
                         
-                        deck = self._generate_fallback_deck(topic_data)
-                        deck["fact_check_status"] = "circuit_breaker_evergreen_fallback"
+                        raise ValueError("No source-verified draft; refusing unrelated evergreen fallback")
         else:
             logger.info("✅ %s", report)
             deck["fact_check_status"] = "verified_pass"
@@ -110,6 +109,8 @@ class EditorialEngine:
         except Exception as g_err:
             logger.warning("GrammarAgent review skipped: %s", g_err)
 
+        if len(deck.get("slides", [])) != settings.EXPECTED_SLIDE_COUNT:
+            raise ValueError("English draft needs exactly eight topic-specific slides")
         # Normalize and ensure visual consistency
         deck["slides"] = self._normalize_slides(deck.get("slides", []), topic_data)
         return deck
@@ -125,21 +126,10 @@ class EditorialEngine:
         title = topic_data.get("title", "")
         raw_text = topic_data.get("raw_text", "")
 
-        prompt = f"""You are a financial content strategist for 'Market Debunk'.
-Create a high-density 6-slide financial carousel debunking a retail investing trap.
-TOPIC: {title}
-SOURCE CONTEXT: {raw_text}
-BRIEF: {brief}
-
-STRICT SPECIFICATIONS:
-- Slide 1 (hook): 2-3 short lines, shocking words in <span class="highlight-box">...</span>
-- Slide 2 (friction): card_a_text (myth), card_b_text (reality with exact numbers), takeaway
-- Slide 3 (breakdown): 3 numbered points
-- Slide 4 (playbook): steps 1 & 2
-- Slide 5 (concept): 3 actionable rules
-- Slide 6 (cta): Save this post, comment 'GUIDE'
-
-CRITICAL: Return valid JSON ONLY with keys "caption" and "slides" (array of 6 objects). Do NOT include explanation."""
+        prompt = f"""Create a source-grounded 8-slide Market Debunk carousel about {title}.
+Source: {raw_text}
+Brief: {brief}
+Return JSON with caption and exactly eight slides. Hook first, six topic-specific insights in an order that fits this article, save/share CTA last. For content slides use title and one of card_text, comparison_data, stat_data, flowchart_data, checklist_data. Use stat_data only for metrics exactly in the source; never invent numbers or rigid trading rules. Do not force myth/trap language on unrelated news. Every slide must be distinct and relevant. Roles: hook, value_1 through value_6, bookmark_save. Concise mobile-friendly headlines. JSON only."""
 
         fallback_models = [settings.GEMMA_FALLBACK_MODEL, "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]
         for gm in fallback_models:
@@ -160,7 +150,7 @@ CRITICAL: Return valid JSON ONLY with keys "caption" and "slides" (array of 6 ob
                     elif "```" in clean_text:
                         clean_text = clean_text.split("```")[1].split("```")[0].strip()
                     data = json.loads(clean_text)
-                    if len(data.get("slides", [])) >= 6:
+                    if len(data.get("slides", [])) == settings.EXPECTED_SLIDE_COUNT:
                         logger.info("✓ Model %s successfully generated fallback draft.", gm)
                         return data
             except Exception as e:
@@ -174,17 +164,8 @@ CRITICAL: Return valid JSON ONLY with keys "caption" and "slides" (array of 6 ob
 
         prompt = f"""You are a senior quantitative financial editor for 'Market Debunk'.
 Create an authoritative, high-density 8-slide Instagram carousel debunking a retail investing trap.
-The design language features clean typography and dynamic, high-contrast visual slide archetypes:
-- Large, bold headlines with exactly ONE phrase highlighted in <span class="highlight-box">...</span>.
-- Dynamic visual layouts across content slides (Slides 2–7):
-  * Slide 1 (role: "hook"): 4-8 words maximum. Bold curiosity gap. 1-2 words in <span class="highlight-box">...</span>. tag: "#MARKETDEBUNK".
-  * Slide 2 (role: "value_1"): Comparison Table. title: 2-3 lines with highlight box. comparison_data: {{"myth": "Retail belief...", "reality": "Institutional truth with exact data..."}}.
-  * Slide 3 (role: "value_2"): Hard Data Stat Callout. title: 2-3 lines with highlight box. stat_data: {{"badge": "VERIFIED MARKET IMPACT", "metric": "₹34 Lakhs" (or exact figure), "label": "compounding loss / penalty", "context": "30-40 words explaining the mathematical friction."}}.
-  * Slide 4 (role: "value_3"): Distribution / Liquidity Mechanism. title: 2-3 lines with highlight box. card_text: 35-50 words detailing institutional order flow or flowchart_data: list of 3 numbered steps.
-  * Slide 5 (role: "value_4"): Mathematical Drag / Loss. title: 2-3 lines with highlight box. card_text: 35-50 words explaining how capital is quietly extracted.
-  * Slide 6 (role: "value_5"): The Non-Negotiable Institutional Rule. title: 2-3 lines with highlight box. card_text: 35-50 words presenting the golden execution rule.
-  * Slide 7 (role: "value_6"): Pre-Trade Risk Checklist. title: 2-3 lines with highlight box. checklist_data: list of 3 checklist items with "status": "pass" or "fail" and "text": "...".
-  * Slide 8 (role: "bookmark_save"): Peer DM-Share & Save Trigger. title_lines: ["Send this to a", "<span class=\\"highlight-box\\">friend trading</span>", "in the market", "today."]. cta_detail: "Have you experienced this trap? Drop your experience in the comments below 👇". tag: "#MARKETDEBUNK".
+Create exactly 8 slides for the renderer: a topic-specific hook, six different insights in a logical narrative, and a useful save/share close. Choose the sequence based on THIS story, not a fixed myth/stat/trap/checklist formula. For a breaking news item, a timeline and implications may fit better than a made-up penalty. For an explainer, use mechanism and practical caveats. State uncertainty where the source is uncertain. Never invent numbers or universal investment rules.
+Slides 2-7 each use the role value_1 through value_6 and ONE fitting visual body: comparison_data (myth/reality), stat_data (metric/label/context, only if exact metric appears in source), flowchart_data (steps with text), checklist_data (items with text and pass/fail status), or card_text. Vary layouts where appropriate, without sacrificing substance. Each slide needs its own source-relevant headline. Hook has role hook and title; last has role bookmark_save, title and cta_detail. Keep typography concise and include a highlighted phrase where natural. Make the caption match this specific story.
 
 TOPIC: {title}
 SOURCE CONTEXT: {raw_text}
@@ -229,7 +210,7 @@ Return JSON ONLY:
                         elif "```" in clean_text:
                             clean_text = clean_text.split("```")[1].split("```")[0].strip()
                         data = json.loads(clean_text)
-                        if len(data.get("slides", [])) >= 7:
+                        if len(data.get("slides", [])) == settings.EXPECTED_SLIDE_COUNT:
                             logger.info("✓ Model %s successfully generated draft with %d slides.", model_name, len(data["slides"]))
                             return data
                 except Exception as e:
@@ -239,53 +220,26 @@ Return JSON ONLY:
                         logger.info("Encountered 429 quota throttle on %s; cooling down 2.5s...", model_name)
                         time.sleep(2.5)
 
-        return self._generate_fallback_deck(topic_data)
+        raise ValueError("All draft models unavailable; refusing unrelated evergreen fallback")
 
     # ── Numeric Fact-Checking Gate ──────────────────────────────────────────
 
     def _verify_numeric_facts(self, deck: dict, topic_data: dict) -> Tuple[bool, str]:
+        """Reject financial metrics in the deck that are absent from source evidence.
+
+        Exclude layout counters and hashtags; compare whole metric tokens, including
+        currency and units, to avoid treating 15% as evidence for 15 crore.
         """
-        Extracts all numeric and financial claims across the 8 slides and verifies
-        whether they are consistent with the source text.
-        """
-        source_text = f"{topic_data.get('raw_text', '')} {topic_data.get('title', '')} {topic_data.get('source_snippet', '')}"
-        slides = deck.get("slides", [])
+        from src.numeric_evidence import extract_metrics, collect_slide_copy
 
-        # Collect all text from all slides
-        all_slide_text = ""
-        for s in slides:
-            all_slide_text += f" {s.get('title', '')} {s.get('card_text', '')} "
-            for tl in s.get("title_lines", []):
-                all_slide_text += f" {tl} "
-
-        # Financial regex: currency, %, Lakh, Crore, bps, years, months
-        pattern = r"(?:₹|\$)\s?\d+(?:[,\.]\d+)?(?:\s?(?:Cr|Lakh|Lakhs|Crore|Crores|k|M|B))?|\b\d+(?:[,\.]\d+)?\s?%|\b\d+\s?(?:Lakh|Lakhs|Crore|Crores|Cr|bps|years|months)\b"
-
-        raw_source_matches = re.findall(pattern, source_text, flags=re.IGNORECASE)
-        clean_source_nums = set()
-        for m in raw_source_matches:
-            cleaned = m.strip()
-            if not re.search(r"\.\d{4,}", cleaned):  # Exclude microsecond timestamps
-                clean_source_nums.add(cleaned)
-
-        if not clean_source_nums:
-            return True, "Source context has no specific financial metrics; qualitative validation passed."
-
-        anchor_match = []
-        for src_num in clean_source_nums:
-            digits_match = re.search(r"\d+(?:[,\.]\d+)?", src_num)
-            if digits_match:
-                d = digits_match.group(0)
-                if d in all_slide_text:
-                    anchor_match.append(src_num)
-
-        if not anchor_match and clean_source_nums:
-            logger.warning("Numeric metric exact match not found for %s, passing qualitatively to preserve on-topic deck.", clean_source_nums)
-            return True, f"QUALITATIVE PASS: Slide deck covers core concept without exact numeral repetition of {list(clean_source_nums)[:3]}."
-
-        return True, f"FACT CHECK PASSED: Verified anchor metric(s) {list(anchor_match)} preserved across slide deck."
-
-    # ── Slide Normalization & Formatting ────────────────────────────────────
+        source = " ".join(str(topic_data.get(k) or "") for k in
+                          ("raw_text", "title", "source_snippet", "evidence_snapshot"))
+        source_metrics = extract_metrics(source)
+        deck_metrics = extract_metrics(collect_slide_copy(deck.get("slides", [])) + " " + str(deck.get("caption", "")))
+        unsupported = deck_metrics - source_metrics
+        if unsupported:
+            return False, f"Unsupported deck metrics: {sorted(unsupported)}; source metrics: {sorted(source_metrics)}"
+        return True, f"Verified {len(deck_metrics)} deck metrics against source text."
 
     def _normalize_slides(self, slides: list, topic_data: dict) -> list:
         normalized = []
@@ -321,15 +275,7 @@ Return JSON ONLY:
                 s["role"] = s.get("role") or f"value_{idx}"
                 raw_title = s.get("title") or s.get("headline")
                 if not raw_title or "Institutional Reality" in str(raw_title):
-                    defaults = [
-                        "The Core Illusion <span class='highlight-box'>Exposed By Math</span>",
-                        "How Syndicates <span class='highlight-box'>Dump Liquidity</span>",
-                        "The Hidden Regulatory <span class='highlight-box'>Capital Trap</span>",
-                        "The Compounding <span class='highlight-box'>Opportunity Loss</span>",
-                        "The Golden Rule: <span class='highlight-box'>Exit Instantly</span>",
-                        "The 3-Point <span class='highlight-box'>Pre-Trade Audit</span>",
-                    ]
-                    raw_title = defaults[(idx - 1) % len(defaults)]
+                    raise ValueError(f"English slide {idx + 1} needs a topic-specific headline")
                 # Strip trailing numbers like #1, #2
                 raw_title = re.sub(r"\s*#\d+\b", "", str(raw_title)).strip()
                 s["title_lines"] = self._format_title_lines(raw_title, is_hook=False, slide_index=idx + 1)
@@ -355,7 +301,7 @@ Return JSON ONLY:
                 else:
                     card_text = s.get("card_text") or s.get("mechanism") or s.get("card_b_text") or s.get("takeaway") or ""
                     if not card_text:
-                        card_text = "Institutions trade on verified balance sheet quality and liquidity margins, while retail investors chase short-term headline hype."
+                        raise ValueError(f"English slide {idx + 1} has no topic-specific body")
                     card_text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", card_text)
                     s["card_text"] = card_text
 

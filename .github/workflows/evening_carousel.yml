@@ -47,6 +47,8 @@ jobs:
 
       - name: Run Carousel Pipeline (Evening Edition - Direct Live Publish)
         env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          CUSTOM_QUERY: ${{ inputs.query }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
@@ -60,14 +62,14 @@ jobs:
           ENABLE_TELEGRAM: ${{ secrets.ENABLE_TELEGRAM || 'true' }}
           ENABLE_LINKEDIN: ${{ secrets.ENABLE_LINKEDIN || 'false' }}
         run: |
-          EXTRA_ARGS="--edition evening"
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
-            EXTRA_ARGS="$EXTRA_ARGS --dry-run"
+          args=(--edition evening)
+          if [ "$DRY_RUN" = "true" ]; then
+            args+=(--dry-run)
           fi
-          if [ -n "${{ inputs.query }}" ]; then
-            EXTRA_ARGS="$EXTRA_ARGS --query '${{ inputs.query }}'"
+          if [ -n "$CUSTOM_QUERY" ]; then
+            args+=(--query "$CUSTOM_QUERY")
           fi
-          python engine.py $EXTRA_ARGS
+          python engine.py "${args[@]}"
 
       - name: Commit Deduplication Data, Unique Slides & State Ledgers
         if: always()
