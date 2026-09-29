@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 21,
+  "total_cycles_recorded": 22,
   "archetype_weights": {
-    "CONTRARIAN_TRAP": 1.4,
+    "CONTRARIAN_TRAP": 1.45,
     "MATHEMATICAL_FRICTION": 2.15,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
@@ -229,6 +229,15 @@
       "critic_score": 9.4,
       "visual_score": 9.2,
       "key_learning": "Candidate B wins by weaponizing MATHEMATICAL_FRICTION. It strips away the 'hero narrative' of high returns and replaces "
+    },
+    {
+      "cycle": 22,
+      "timestamp": "2026-09-29T09:54:18.894640+00:00",
+      "topic": "PB Fintech shares extend losses for fourth straight session; loses 41% in four d",
+      "winning_archetype": "CONTRARIAN_TRAP",
+      "critic_score": 8.5,
+      "visual_score": 8.5,
+      "key_learning": "Fallback contrarian anchor."
     }
   ]
 }
