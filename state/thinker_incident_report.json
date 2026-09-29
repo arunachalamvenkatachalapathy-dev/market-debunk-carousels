@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-28T20:16:51.609691+00:00",
+  "timestamp": "2026-09-29T09:55:05.998944+00:00",
   "phase": "PUBLISHING",
   "platform": "Instagram",
   "severity": "CRITICAL",
   "error_code": "ERR_IMAGE_NOT_ACCESSIBLE",
-  "root_cause_analysis": "The Instagram Graph API failed to fetch the image from the provided GitHub raw URL. This is typically caused by the Meta server being unable to resolve the URL, a 403 Forbidden response due to GitHub's security headers, or the image format/size not meeting Instagram's strict technical requirements (e.g., aspect ratio or file size limits).",
+  "root_cause_analysis": "The Instagram Graph API rejected the child container media URI because it could not be fetched. The raw GitHub URL provided is either restricted, pointing to a non-public repository, returning a 404/403, or failing Meta's media download requirements (such as headers or content-type limitations).",
   "reproducibility": "URL_UNAVAILABLE",
   "automated_remediation": {
     "action": "ABORT",
@@ -12,9 +12,8 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Verify that the GitHub repository is public and the raw URLs are directly accessible without authentication.",
-    "Ensure the images meet Instagram's aspect ratio requirements (between 4:5 and 1.91:1).",
-    "Consider hosting images on a CDN or a dedicated image hosting service that provides stable, publicly accessible direct links without restrictive headers.",
-    "Check if the image file size exceeds the 8MB limit imposed by the Instagram Graph API."
+    "Verify that the GitHub repository hosting the carousel slides is public and accessible without authentication.",
+    "Ensure the image URLs return a direct 200 OK status with proper image content-types (image/jpeg or image/png).",
+    "Consider hosting the images on a dedicated public CDN or cloud storage provider (e.g., AWS S3, Cloudinary) that guarantees public accessibility and complies with Meta Graph API media fetching requirements."
   ]
 }

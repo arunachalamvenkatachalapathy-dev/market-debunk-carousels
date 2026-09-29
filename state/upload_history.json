@@ -1035,8 +1035,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "success"
+      },
+      "age_at_audit_hours": 48.5
     },
     {
       "title": "What 42.35 Lakh Crore in Fraud Losses Says About the Global Scam Economy - The420.in",
@@ -1110,6 +1121,34 @@
           "success": true,
           "post_id": "1247247545146839_122114474523474347",
           "url": "https://www.facebook.com/1247247545146839_122114474523474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    },
+    {
+      "title": "PB Fintech shares extend losses for fourth straight session; loses 41% in four days — what investors should do?",
+      "media_id": "simulated_id",
+      "timestamp": "2026-09-29T09:55:32.772101+00:00",
+      "topic_category": "REGULATORY_SHIFT",
+      "hook_archetype": "angle_2",
+      "hashtag_cluster": "cluster_3",
+      "publish_results": {
+        "instagram": {
+          "success": false,
+          "error": "Child container 1 failed: {'message': 'Only photo or video can be accepted as media type.', 'type': 'OAuthException', 'code': 9004, 'error_subcode': 2207052, 'is_transient': False, 'error_user_title': \"Media download has failed. The media URI doesn't meet our requirements.\", 'error_user_msg': 'The media could not be fetched from this URI: https://raw.githubusercontent.com/arunachalamvenkatachalapathy-dev/market-debunk-carousels/master/state/carousel_slides/slide_1_20260929_095409.png.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating', 'fbtrace_id': 'AK1vHcDikIfuRPPF8VAuxDU'}"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122114737773474347",
+          "url": "https://www.facebook.com/1247247545146839_122114737773474347"
         },
         "telegram": {
           "success": true
