@@ -58,6 +58,15 @@ def test_scoring():
     print(f"[TEST 4] Generic Business News -> Score: {score_gen}, Category: {cat_gen}")
     assert score_gen < 40.0, f"Generic news should be heavily penalized (<40), got {score_gen}"
 
+    # A grounded everyday money question should beat a generic market headline.
+    daily = {"title": "Credit card minimum due leaves interest on the remaining bill",
+             "snippet": "Indian households choosing EMI against credit card debt and salary",
+             "numbers_detected": [], "age_hours": 8.0}
+    generic = {"title": "Nifty markets show volatile trend this week",
+               "snippet": "Market sentiment and institutional buying continues",
+               "numbers_detected": [], "age_hours": 8.0}
+    assert engine.calculate_viral_demand_score(daily, [])[0] > engine.calculate_viral_demand_score(generic, [])[0]
+
     print("\n✅ ALL TOPIC SCORING UNIT TESTS PASSED!")
 
 if __name__ == "__main__":

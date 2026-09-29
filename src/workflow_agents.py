@@ -23,9 +23,9 @@ class PlannerAgent:
     def plan(self, topic_data: dict) -> dict:
         # Check if deep news analysis was already performed
         news_analysis = topic_data.get("news_analysis")
-        if news_analysis and news_analysis.get("headline_hook") and news_analysis.get("citable_metrics"):
+        if news_analysis and news_analysis.get("headline_hook"):
             metrics = news_analysis.get("citable_metrics", [])
-            primary_metric = metrics[0] if metrics else "5%"
+            primary_metric = metrics[0] if metrics else ""
             return {
                 "hook_headline": news_analysis.get("headline_hook"),
                 "core_illusion": news_analysis.get("retail_illusion"),
@@ -46,7 +46,7 @@ class PlannerAgent:
         raw_text = topic_data.get("raw_text", "")
 
         if self.llm:
-            prompt = f"""Act as a senior quantitative financial editor for 'Market Debunk' creating a 6-slide educational Instagram/LinkedIn carousel.
+            prompt = f"""Act as a clear financial editor for 'Market Debunk' creating a 6-slide educational Instagram/LinkedIn carousel.
 A financial market event occurred in India in the last 48 hours.
 
 Breaking News: {title}
@@ -55,7 +55,7 @@ Context: {raw_text[:2500]}
 
 Rules:
 1. Do not report breaking news like a news channel. Debunk the underlying mechanism or hidden math for retail investors.
-2. Provide at least one concrete citable number (e.g., fee %, ₹ amount lost, percentage of traders losing).
+2. Use only numbers in the source. If none appear, citable_metric is an empty string; do not invent a number.
 3. The carousel must deliver actionable risk management advice.
 
 Return JSON ONLY:
@@ -79,24 +79,21 @@ Return JSON ONLY:
                 )
                 if response.text:
                     plan = json.loads(response.text)
-                    if plan.get("hook_headline") and plan.get("citable_metric"):
+                    if plan.get("hook_headline") and "citable_metric" in plan:
                         return plan
             except Exception as e:
                 logger.warning("LLM planning failed (%s); using deterministic financial plan.", e)
 
         # Deterministic fallback plan
-        detected = topic_data.get("numbers_detected", ["₹34 Lakhs"])
-        metric = detected[0] if detected else "₹34 Lakhs"
+        detected = topic_data.get("numbers_detected", [])
+        metric = detected[0] if detected else ""
         return {
-            "hook_headline": f"The Real Risk Behind {title[:40]}",
-            "core_illusion": "Retail investors assume headline market moves represent easy momentum.",
-            "hidden_reality": "Institutional order flows leverage volatility to offload risk to retail.",
+            "hook_headline": title[:70],
+            "core_illusion": "What changes for the reader?",
+            "hidden_reality": topic_data.get("source_snippet", "") or title,
             "citable_metric": metric,
-            "actionable_rule": "Audit volume distribution, delivery percentages, and underlying leverage before entering.",
-            "lead_magnet": {
-                "trigger_word": "GUIDE",
-                "resource_name": "The Retail Risk Checklist"
-            },
+            "actionable_rule": "Read the original source and check whether this change applies to you.",
+            "lead_magnet": {},
             "banned_phrases": ["guaranteed wealth", "quick money", "easy passive income"]
         }
 
@@ -105,19 +102,15 @@ class PromptEngineer:
     """Converts the plan into an editorial brief for the two-pass slide composer."""
 
     def build_brief(self, plan: dict) -> str:
-        lead_magnet = plan.get("lead_magnet", {})
-        trigger = lead_magnet.get("trigger_word", "GUIDE")
-        resource = lead_magnet.get("resource_name", "The Retail Risk Checklist")
-
         return (
             f"HOOK HEADLINE: {plan.get('hook_headline', '')}\n"
-            f"BREAKING EVENT SUMMARY: {plan.get('breaking_event', '')}\n"
-            f"CORE ILLUSION (THE TRAP): {plan.get('core_illusion', '')}\n"
-            f"HIDDEN REALITY (INSTITUTIONAL TRUTH): {plan.get('hidden_reality', '')}\n"
-            f"MANDATORY CITABLE METRIC: {plan.get('citable_metric', '')}\n"
-            f"ACTIONABLE RULE: {plan.get('actionable_rule', '')}\n"
-            f"LEAD MAGNET TRIGGER: Comment '{trigger}' for '{resource}'\n"
-            f"AVOID: {', '.join(plan.get('banned_phrases', []))}"
+            f"EVENT SUMMARY: {plan.get('breaking_event', '')}\n"
+            f"READER QUESTION: {plan.get('core_illusion', '')}\n"
+            f"SOURCE-BACKED EXPLANATION: {plan.get('hidden_reality', '')}\n"
+            f"CITABLE METRIC (ONLY IF SUPPORTED): {plan.get('citable_metric', '')}\n"
+            f"PRACTICAL CHECK: {plan.get('actionable_rule', '')}\n"
+            f"AVOID: {', '.join(plan.get('banned_phrases', []))}\n"
+            "Do not promise guides or resources that the channel cannot deliver."
         )
 
 
@@ -173,26 +166,20 @@ class GrammarAgent:
 Refine the headlines and titles for this 8-slide Instagram carousel to ensure premium editorial flow.
 
 TOPIC: {topic_title}
+SOURCE CONTEXT: {str(topic_data.get("raw_text", ""))[:2200]}
 SLIDES OVERVIEW:
 {json.dumps([{"role": s.get("role"), "title": s.get("title"), "card_text": s.get("card_text", "")[:120]} for s in slides], indent=2)}
 
 STRICT RULES:
 1. Slide 1 (hook): Must be punchy and concise (4 to 6 words MAXIMUM). NEVER huge, NEVER include website names, URLs, or news domains. Include exactly ONE <span class="highlight-box">...</span> around 1-2 powerful words.
 2. Slides 2 to 7 (value): Titles must be 3 to 5 words MAXIMUM. Contextual to the card content (e.g. 'The False Safety <span class="highlight-box">Of Bail Orders</span>'). NEVER use numbers like '#1', '#2' or generic 'Institutional Reality'.
-3. Slide 8 (save CTA): Provide 'cta_detail' (20-30 words) explaining WHY investors must save this framework for their next trade review (fills space with valuable advice).
+3. Slide 8: Keep the source-backed practical takeaway in cta_detail, then a short save/share invitation. No generic trade checklist.
 
-Return JSON ONLY:
+Return JSON ONLY in this shape; use THIS SOURCE, not these field names as content:
 {{
-  "slide_1_hook": "Why Bail Orders <span class='highlight-box'>Trap Retail</span> Traders",
-  "slide_titles": [
-    "The Core Illusion <span class='highlight-box'>Exposed By Math</span>",
-    "How Syndicates <span class='highlight-box'>Dump Liquidity</span>",
-    "The Legal Delay <span class='highlight-box'>Capital Trap</span>",
-    "The Compounding <span class='highlight-box'>Opportunity Loss</span>",
-    "The Golden Rule: <span class='highlight-box'>Exit Instantly</span>",
-    "The 3-Point <span class='highlight-box'>Pre-Trade Audit</span>"
-  ],
-  "slide_8_cta_detail": "Save this framework to your private collection. Review these institutional risk checkpoints before taking your next trade to protect your capital from operator traps."
+  "slide_1_hook": "source-specific short hook with one highlight-box span",
+  "slide_titles": ["six short source-specific titles"],
+  "slide_8_cta_detail": "source-backed practical takeaway and save/share invitation"
 }}"""
                 resp = self.llm.models.generate_content(
                     model=settings.GEMINI_MODEL,
@@ -207,8 +194,6 @@ Return JSON ONLY:
                     for i, t in enumerate(titles):
                         if i + 1 < len(slides) - 1:
                             slides[i + 1]["title"] = t
-                    if refined.get("slide_8_cta_detail") and len(slides) >= 8:
-                        slides[-1]["cta_detail"] = refined["slide_8_cta_detail"]
             except Exception as e:
                 logger.warning("LLM sentence formation fallback to deterministic: %s", e)
 
@@ -260,7 +245,7 @@ Return JSON ONLY:
                         item["text"] = val.strip()
 
             if i == len(slides) - 1 and not s.get("cta_detail"):
-                s["cta_detail"] = "Save this framework to your private collection. Review these institutional risk checkpoints before entering your next trade to protect your capital."
+                raise ValueError("English takeaway missing")
 
         return deck
 

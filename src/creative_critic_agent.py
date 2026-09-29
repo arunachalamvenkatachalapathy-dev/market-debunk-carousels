@@ -55,7 +55,7 @@ class CreativeCriticAgent:
     def generate_and_evaluate(self, topic_data: Dict[str, Any], evolutionary_directives: str = "") -> Dict[str, Any]:
         """Generates 3 competing angles, scores them, and returns the selected winner."""
         title = topic_data.get("title", "")
-        summary = topic_data.get("summary", "") or topic_data.get("context", "")
+        summary = topic_data.get("raw_text", "") or topic_data.get("source_snippet", "")
 
         prompt = f"""You are an elite Viral Social Media Strategist and Quantitative Content Critic.
 Topic: "{title}"
@@ -64,10 +64,14 @@ Context: {summary[:1200]}
 {evolutionary_directives}
 
 TASK:
-1. Generate THREE distinctly different creative carousel angles:
+Slide 1 must connect this source to a real Indian household money decision: EMI,
+card bill, FD, SIP, chit fund or another situation ONLY if supported by this source.
+Use plain language that a first-time investor can understand; no invented anecdotes,
+rupee examples, institutional plots, fear bait, or unsupported return promises.
+1. Generate THREE distinctly different creative carousel angles fitting THIS source:
    - Candidate A (Archetype: CONTRARIAN_TRAP): Debunk mainstream optimism/panic.
-   - Candidate B (Archetype: MATHEMATICAL_FRICTION): Focus on hard numbers, hidden fee decay, or margin risk.
-   - Candidate C (Archetype: INSTITUTIONAL_DISPARITY): Expose institutional positioning vs. retail traps.
+   - Candidate B (Archetype: MATHEMATICAL_FRICTION): Use exact source-supported numbers when available, otherwise a nonnumeric tradeoff.
+   - Candidate C (Archetype: INSTITUTIONAL_DISPARITY): Show who is affected and what to check; institutional positioning only if evidenced.
 
 2. Act as a harsh editorial critic. Evaluate each candidate on a 0-10 scale:
    - curiosity_gap (0-10): Will a user immediately swipe slide 1?

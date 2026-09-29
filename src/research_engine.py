@@ -47,8 +47,11 @@ RSS_FEEDS = [
 # ── 2026 Viral Retail Demand & Intent Lexicon ──────────────────────────────
 RETAIL_DEMAND_KEYWORDS = {
     "WEALTH_LEAK": [
+        "emi", "loan interest", "credit card", "minimum due", "buy now pay later",
+        "personal loan", "home loan", "fixed deposit", "fd", "bank charges",
+        "chit fund", "insurance premium", "upi fraud", "pension", "salary",
         "mutual fund", "sip", "expense ratio", "hidden fee", "hidden charges", "inflation",
-        "tax", "capital gains", "pf", "epfo", "fixed deposit", "fd rates", "drawdown", "portfolio loss"
+        "tax", "capital gains", "pf", "epfo", "fd rates", "drawdown", "portfolio loss"
     ],
     "MARKET_TRAP": [
         "penny stock", "f&o", "options trading", "call option", "put option", "multibagger",
@@ -118,6 +121,7 @@ class ResearchEngine:
             "mutual fund scam",
             "penny stocks to buy",
             "options trading loss",
+            "emi interest", "fd inflation", "sip mistakes", "credit card minimum due",
             "nifty crash",
             "f&o loss recovery"
         ]
@@ -158,7 +162,7 @@ class ResearchEngine:
         category = "MARKET_TRAP"
         cat_matches = {}
         for cat, kws in RETAIL_DEMAND_KEYWORDS.items():
-            count = sum(1 for kw in kws if kw in text)
+            count = sum(1 for kw in kws if re.search(r"(?<!\w)" + re.escape(kw) + r"(?!\w)", text))
             cat_matches[cat] = count
 
         best_cat = max(cat_matches, key=cat_matches.get)
@@ -191,14 +195,25 @@ class ResearchEngine:
                 trend_bonus = 10.0
                 break
 
-        total = category_score + friction_score + numeric_score + freshness_score + trend_bonus
+        # A relatable money decision matters more than dramatic headline adjectives.
+        # Match phrases as whole terms to avoid substring accidents (e.g. "fd" in "fund").
+        daily_money_terms = (
+            "emi", "home loan", "personal loan", "credit card", "minimum due",
+            "chit fund", "fixed deposit", "fd", "sip", "mutual fund",
+            "insurance premium", "upi fraud", "salary", "inflation", "bank charges",
+        )
+        relatable_hits = sum(bool(re.search(r"(?<!\w)" + re.escape(term) + r"(?!\w)", text))
+                             for term in daily_money_terms)
+        relatable_bonus = min(relatable_hits * 9.0, 18.0)
+        total = category_score + friction_score + numeric_score + freshness_score + trend_bonus + relatable_bonus
 
         # Retail Priority Multiplier: Boost content directly impacting Indian retail personal portfolios
         retail_priority_terms = [
             "f&o", "option", "nifty", "bank nifty", "mutual fund", "sip", "zerodha",
-            "groww", "sebi", "retail", "loss", "scam", "hidden", "penalty", "tax", "capital gains"
+            "groww", "emi", "credit card", "minimum due", "chit fund",
+            "fixed deposit", "fd", "inflation", "upi fraud", "sebi", "retail", "loss", "scam", "hidden", "penalty", "tax", "capital gains"
         ]
-        if any(term in text for term in retail_priority_terms):
+        if any(re.search(r"(?<!\w)" + re.escape(term) + r"(?!\w)", text) for term in retail_priority_terms):
             total = min(total * 1.25, 100.0)
         else:
             total *= 0.5
@@ -336,7 +351,7 @@ class ResearchEngine:
 
         # ── Source 3: SerpApi Google News (if key configured) ────────────────
         if settings.SERPAPI_KEY and settings.SERPAPI_KEY.strip():
-            query = override_query or "'Mutual Fund' OR 'Penny Stock' OR Multibagger OR Scam OR 'Options Trading' OR 'F&O' OR 'Stock Crash' OR 'Nifty Crash'"
+            query = override_query or "'Mutual Fund' OR 'Penny Stock' OR Multibagger OR Scam OR 'Options Trading' OR 'F&O' OR 'Stock Crash' OR 'Nifty Crash' OR 'EMI' OR 'Credit Card' OR 'Fixed Deposit' OR 'SIP' OR 'Chit Fund'"
             logger.info("Querying SerpApi Google News for: '%s'...", query)
             try:
                 params = {

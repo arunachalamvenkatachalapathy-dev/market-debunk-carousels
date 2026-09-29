@@ -49,33 +49,25 @@ Published: {pub_date}
 Source Evidence / Text: {raw_text}
 
 CRITICAL DIRECTIVE:
-DO NOT simply summarize or regurgitate this news like a news ticker.
-Your job is to INVESTIGATE and DEBUNK the event for retail investors:
-1. What is the retail crowd or mainstream media falsely celebrating or fearing?
-2. What is the institutional reality, hidden mathematical truth, regulatory mechanism, or structural trap beneath this headline?
-3. What are the exact verifiable numbers, dates, ₹ figures, or percentages present in the news text?
+Explain why this verified event matters to an Indian retail reader's own money choice.
+Separate what the source says from an inference. A fee change, loan rule or market
+news need not be framed as a trap. Identify who is affected, what they can check,
+and what the source leaves unknown. Use plain language. Quote only exact metrics
+from the evidence. If no number is in the source, return an empty citable_metrics
+list, not a guessed number. Do not invent investor losses, institutions' motives,
+scams, guaranteed returns, or universal trading instructions.
 
 Return valid JSON ONLY matching this exact schema:
 {{
-  "headline_hook": "Punchy contrarian hook headline (e.g. 'The Real Trap Behind Today's 500-Point Nifty Rally')",
+  "headline_hook": "Short source-grounded hook about a real money decision or consequence",
   "breaking_event_summary": "1-2 sentence factual description of what actually happened in the last 48 hours",
-  "retail_illusion": "What retail investors falsely assume from this headline (The Trap)",
-  "institutional_reality": "The underlying math, liquidity flow, or regulatory rule that institutions know (The Reality)",
-  "citable_metrics": ["Exact numbers or percentages present in source text (e.g. '15 Lakhs', '2.4%', '₹450 Cr')"],
+  "retail_illusion": "A common misunderstanding only if evidenced; otherwise the reader question",
+  "institutional_reality": "The source-supported mechanism or relevant caveat",
+  "citable_metrics": ["Exact numbers from source text only; empty list if none"],
   "debunk_category": "REGULATORY_SHIFT or LIQUIDITY_TRAP or VALUATION_MYTH or FEE_EXTRACTION",
-  "actionable_retail_rule": "The non-negotiable risk management rule the retail investor must apply right now",
-  "lead_magnet": {{
-    "trigger_word": "CHECK or AUDIT or GUIDE",
-    "resource_name": "Specific 1-page tactical checklist title"
-  }},
-  "carousel_outline": [
-    {{"slide": 1, "role": "hook", "focus": "Attention-grabbing contrarian headline about this 48h event"}},
-    {{"slide": 2, "role": "friction", "focus": "The Retail Illusion vs What Actually Happened"}},
-    {{"slide": 3, "role": "math_reality", "focus": "The Institutional Mechanism & Hard Numbers"}},
-    {{"slide": 4, "role": "breakdown", "focus": "Step-by-step impact on retail portfolios"}},
-    {{"slide": 5, "role": "actionable_rule", "focus": "The Golden Protective Rule"}},
-    {{"slide": 6, "role": "cta", "focus": "Save prompt and lead magnet comment trigger"}}
-  ]
+  "actionable_retail_rule": "A source-supported practical check, not personal financial advice",
+  "lead_magnet": {{}},
+  "carousel_outline": []
 }}
 """
         models_to_try = [settings.GEMINI_MODEL, "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.1-flash-lite"]
@@ -93,7 +85,7 @@ Return valid JSON ONLY matching this exact schema:
                     if clean.endswith("```"):
                         clean = clean[:-3]
                     analysis = json.loads(clean.strip())
-                    if analysis.get("headline_hook") and analysis.get("citable_metrics"):
+                    if analysis.get("headline_hook") and "citable_metrics" in analysis:
                         logger.info("✓ Deep news analysis completed via Gemini [%s] for: '%s'", m, title[:40])
                         return analysis
             except Exception as e:
@@ -123,7 +115,16 @@ Return valid JSON ONLY matching this exact schema:
         """Deterministic analysis if AI models are temporarily unreachable."""
         title = news_item.get("title", "")
         nums = news_item.get("numbers_detected", [])
-        metric = nums[0] if nums else "5%"
+        return {
+            "headline_hook": title,
+            "breaking_event_summary": f"{news_item.get('source', 'Financial press')} reports: {title}",
+            "retail_illusion": "What changes for a reader's money decision?",
+            "institutional_reality": news_item.get("source_snippet", "") or title,
+            "citable_metrics": nums[:4],
+            "debunk_category": "GENERAL",
+            "actionable_retail_rule": "Read the full source and check whether this change applies to your situation.",
+            "lead_magnet": {},
+        }
 
         return {
             "headline_hook": f"The Real Story Behind Today's Market Move: {title[:40]}",
