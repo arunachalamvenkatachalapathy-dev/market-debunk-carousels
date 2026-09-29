@@ -171,7 +171,7 @@ SLIDES OVERVIEW:
 {json.dumps([{"role": s.get("role"), "title": s.get("title"), "card_text": s.get("card_text", "")[:120]} for s in slides], indent=2)}
 
 STRICT RULES:
-1. Slide 1 (hook): Must be punchy and concise (4 to 6 words MAXIMUM). NEVER huge, NEVER include website names, URLs, or news domains. Include exactly ONE <span class="highlight-box">...</span> around 1-2 powerful words.
+1. Slide 1: Short, source-specific and direct. Use a named person plus exact surprising number ONLY if both exist in the source; else a documented assumption-versus-reality contrast or a real reader money decision. Do not invent names, numbers, first-person experiences or interviews. NEVER include URLs or news domains. One <span class="highlight-box">...</span> around 1-2 words when natural.
 2. Slides 2 to 7 (value): Titles must be 3 to 5 words MAXIMUM. Contextual to the card content (e.g. 'The False Safety <span class="highlight-box">Of Bail Orders</span>'). NEVER use numbers like '#1', '#2' or generic 'Institutional Reality'.
 3. Slide 8: Keep the source-backed practical takeaway in cta_detail, then a short save/share invitation. No generic trade checklist.
 

@@ -15,3 +15,11 @@ except ValueError: pass
 assert PromptEngineer().build_brief({'hook_headline':'Loan terms'})
 assert NewsComprehensionAgent(api_key='')._build_deterministic_analysis({'title':'Loan term change','numbers_detected':[]})['citable_metrics']==[]
 print('editorial contracts OK:',p.name)
+
+# Source-less numeric claims must still be rejected after the style prompt changes.
+assert ed._verify_numeric_facts({'slides':[{'title':'₹50,000 from a ₹10,000 deposit'}], 'caption':''}, {'raw_text':'Deposit amount is ₹10,000.'})[0] is False
+# Do not force a numeric/person hook when evidence contains neither.
+from unittest.mock import Mock
+from src.creative_critic_agent import CreativeCriticAgent as Critic
+critic=Critic(api_key=''); critic._call_llm=Mock(return_value=None)
+assert critic.generate_and_evaluate({'title':'Bank changes a loan term','raw_text':'The bank revised its loan terms.'})['winning_candidate']['headline_hook']=='Bank changes a loan term'
