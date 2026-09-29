@@ -30,22 +30,53 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Duplicate-post guard
+        id: dupguard
+        env:
+          EDITION: evening
+        run: |
+          python3 << 'PYEOF'
+          import json, os, datetime
+          IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+          today = datetime.datetime.now(IST).date().isoformat()
+          edition = os.environ['EDITION']
+          path = 'state/edition_guard.json'
+          data = {}
+          if os.path.exists(path):
+              try:
+                  data = json.load(open(path))
+              except Exception:
+                  data = {}
+          done = data.get(today, {}).get(edition)
+          with open(os.environ.get('GITHUB_OUTPUT', '/dev/null'), 'a') as f:
+              f.write('duplicate=%s\n' % ('true' if done else 'false'))
+          if done:
+              print('::notice title=Duplicate guard::%s edition already completed on %s (run %s); skipping to prevent a duplicate post.' % (edition, today, done))
+          else:
+              print('No prior %s run recorded for %s; proceeding.' % (edition, today))
+          PYEOF
+
       - name: Set up Python 3.11
+        if: steps.dupguard.outputs.duplicate != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
       - name: Install Python Dependencies
+        if: steps.dupguard.outputs.duplicate != 'true'
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Install Playwright Chromium
+        if: steps.dupguard.outputs.duplicate != 'true'
         run: |
           python -m playwright install --with-deps chromium
 
       - name: Run Carousel Pipeline (Evening Edition - Direct Live Publish)
+        if: steps.dupguard.outputs.duplicate != 'true'
+        id: pipeline
         env:
           DRY_RUN: ${{ inputs.dry_run }}
           CUSTOM_QUERY: ${{ inputs.query }}
@@ -71,6 +102,32 @@ jobs:
           fi
           python engine.py "${args[@]}"
 
+
+      - name: Mark edition as completed today
+        if: steps.dupguard.outputs.duplicate != 'true' && steps.pipeline.outcome == 'success' && github.event.inputs.dry_run != 'true'
+        env:
+          EDITION: evening
+        run: |
+          python3 << 'PYEOF'
+          import json, os, datetime
+          IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+          today = datetime.datetime.now(IST).date().isoformat()
+          path = 'state/edition_guard.json'
+          data = {}
+          if os.path.exists(path):
+              try:
+                  data = json.load(open(path))
+              except Exception:
+                  data = {}
+          day = data.get(today, {})
+          day[os.environ['EDITION']] = os.environ.get('GITHUB_RUN_ID', 'unknown')
+          data[today] = day
+          for k in sorted(data.keys())[:-10]:
+              data.pop(k, None)
+          os.makedirs('state', exist_ok=True)
+          json.dump(data, open(path, 'w'), indent=2)
+          print('Marked', today, os.environ['EDITION'])
+          PYEOF
       - name: Commit Deduplication Data, Unique Slides & State Ledgers
         if: always()
         run: |
@@ -106,3 +163,74 @@ jobs:
           path: state/thinker_incident_report.json
           if-no-files-found: ignore
 
+
+      - name: Telegram run report
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          EDITION: evening
+          PIPELINE_OUTCOME: ${{ steps.pipeline.outcome }}
+          DUPLICATE: ${{ steps.dupguard.outputs.duplicate }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          REPO_NAME: ${{ github.repository }}
+        run: |
+          python3 << 'PYEOF'
+          import json, os, datetime, urllib.request
+          token = os.environ.get('TELEGRAM_BOT_TOKEN', '')
+          chat = os.environ.get('TELEGRAM_CHAT_ID', '')
+          if not token or not chat:
+              print('Telegram credentials not configured; skipping report.')
+              raise SystemExit(0)
+          IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+          now = datetime.datetime.now(IST)
+          today = now.date().isoformat()
+          edition = os.environ['EDITION']
+          lines = ['Market Debunk carousel - %s edition (%s)' % (edition, today),
+                   'Repo: %s' % os.environ['REPO_NAME']]
+          if os.environ.get('DUPLICATE') == 'true':
+              lines.append('Status: SKIPPED - already completed today (duplicate-post guard).')
+          elif os.environ.get('PIPELINE_OUTCOME') == 'success':
+              entry = None
+              try:
+                  hist = json.load(open('state/upload_history.json'))
+                  entries = hist.get('uploads', []) if isinstance(hist, dict) else hist
+                  for e in reversed(entries):
+                      try:
+                          d = datetime.datetime.fromisoformat(e.get('timestamp', '').replace('Z', '+00:00'))
+                      except Exception:
+                          continue
+                      if abs((now - d.astimezone(IST)).total_seconds()) < 3600:
+                          entry = e
+                          break
+              except Exception:
+                  entry = None
+              if entry:
+                  lines.append('Status: PUBLISHED')
+                  lines.append('Topic: %s' % str(entry.get('title', 'unknown'))[:120])
+                  pr = entry.get('publish_results', {})
+                  for platform in ('instagram', 'facebook', 'telegram', 'linkedin'):
+                      r = pr.get(platform) or {}
+                      if not r:
+                          continue
+                      if r.get('success'):
+                          extra = ' - ' + r['url'] if r.get('url') else ''
+                          lines.append('%s: OK%s' % (platform.capitalize(), extra))
+                      elif r.get('status') == 'skipped':
+                          lines.append('%s: skipped' % platform.capitalize())
+                      else:
+                          lines.append('%s: FAILED' % platform.capitalize())
+              else:
+                  lines.append('Status: pipeline completed (no new ledger entry found).')
+          else:
+              lines.append('Status: FAILED (%s)' % (os.environ.get('PIPELINE_OUTCOME') or 'unknown'))
+          lines.append('Run: %s' % os.environ['RUN_URL'])
+          text = '\n'.join(lines)
+          body = json.dumps({'chat_id': chat, 'text': text, 'disable_web_page_preview': True}).encode()
+          req = urllib.request.Request('https://api.telegram.org/bot%s/sendMessage' % token, data=body, headers={'Content-Type': 'application/json'})
+          try:
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  print('Telegram report sent:', resp.status)
+          except Exception as exc:
+              print('Telegram report failed:', exc)
+          PYEOF
