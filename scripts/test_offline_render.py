@@ -103,7 +103,7 @@ def test_offline_render():
     director = ImageDirector()
     result = director.render_carousel(deck, run_id="test_archetypes")
 
-    png_paths = result.get("slide_png_paths", [])
+    png_paths = result.get("slide_paths", [])
     pdf_path = result.get("pdf_path")
 
     print(f"Rendered {len(png_paths)} slides. PDF path: {pdf_path}")

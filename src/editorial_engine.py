@@ -129,7 +129,7 @@ class EditorialEngine:
         prompt = f"""Create a source-grounded 8-slide Market Debunk carousel about {title}.
 Source: {raw_text}
 Brief: {brief}
-Return JSON with caption and exactly eight slides. Hook first, six topic-specific insights in an order that fits this article, save/share CTA last. For content slides use title and one of card_text, comparison_data, stat_data, flowchart_data, checklist_data. Use stat_data only for metrics exactly in the source; never invent numbers or rigid trading rules. Do not force myth/trap language on unrelated news. Every slide must be distinct and relevant. Roles: hook, value_1 through value_6, bookmark_save. Concise mobile-friendly headlines. JSON only."""
+Return JSON with caption and exactly eight slides. Write plainly for Indian first-time investors. Slide 1: a source-grounded money decision in a short question; last slide: a source-backed check worth saving. Caption: concise takeaway, one real question, 3-5 relevant hashtags. Never invent household examples or metrics. Hook first, six topic-specific insights in an order that fits this article, save/share CTA last. For content slides use title and one of card_text, comparison_data, stat_data, flowchart_data, checklist_data. Use stat_data only for metrics exactly in the source; never invent numbers or rigid trading rules. Do not force myth/trap language on unrelated news. Every slide must be distinct and relevant. Roles: hook, value_1 through value_6, bookmark_save. Concise mobile-friendly headlines. JSON only."""
 
         fallback_models = [settings.GEMMA_FALLBACK_MODEL, "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]
         for gm in fallback_models:
@@ -163,9 +163,9 @@ Return JSON with caption and exactly eight slides. Hook first, six topic-specifi
         raw_text = topic_data.get("raw_text", "")
 
         prompt = f"""You are a senior quantitative financial editor for 'Market Debunk'.
-Create an authoritative, high-density 8-slide Instagram carousel debunking a retail investing trap.
+Create a clear, source-grounded 8-slide Instagram carousel for an Indian first-time investor. Write so a village investor can understand without knowing market jargon.
 Create exactly 8 slides for the renderer: a topic-specific hook, six different insights in a logical narrative, and a useful save/share close. Choose the sequence based on THIS story, not a fixed myth/stat/trap/checklist formula. For a breaking news item, a timeline and implications may fit better than a made-up penalty. For an explainer, use mechanism and practical caveats. State uncertainty where the source is uncertain. Never invent numbers or universal investment rules.
-Slides 2-7 each use the role value_1 through value_6 and ONE fitting visual body: comparison_data (myth/reality), stat_data (metric/label/context, only if exact metric appears in source), flowchart_data (steps with text), checklist_data (items with text and pass/fail status), or card_text. Vary layouts where appropriate, without sacrificing substance. Each slide needs its own source-relevant headline. Hook has role hook and title; last has role bookmark_save, title and cta_detail. Keep typography concise and include a highlighted phrase where natural. Make the caption match this specific story.
+Slide 1 must make the reader stop in two seconds with a concrete money decision or relatable question grounded in THIS source. Never invent a household anecdote or claim all stories are traps. Slides 2-7 build a real-world consequence, what changes, what remains uncertain, and a useful comparison or check someone could screenshot. Explain jargon the first time it appears, and use exact source numbers with their units and context only; do not manufacture an EMI, return, cost or performance example. Last slide must state a topic-specific useful takeaway before asking to save/share; no generic "pre-trade audit". Caption: name the dilemma, preview the useful answer, one honest question and 3-5 topic-specific hashtags. Do not promise a guide or DM delivery that does not exist. Slides 2-7 each use the role value_1 through value_6 and ONE fitting visual body: comparison_data (myth/reality), stat_data (metric/label/context, only if exact metric appears in source), flowchart_data (steps with text), checklist_data (items with text and pass/fail status), or card_text. Vary layouts where appropriate, without sacrificing substance. Each slide needs its own source-relevant headline. Hook has role hook and title; last has role bookmark_save, title and cta_detail. Keep typography concise and include a highlighted phrase where natural. Make the caption match this specific story.
 
 TOPIC: {title}
 SOURCE CONTEXT: {raw_text}
@@ -267,10 +267,11 @@ Return JSON ONLY:
                 s["card_text"] = ""
             elif idx == expected_count - 1:
                 s["role"] = "bookmark_save"
-                s["title_lines"] = ["Don’t", "forget to", "<span class='highlight-box'>save & share</span>", "this for", "later"]
+                raw_title = s.get("title") or "Check this before your next money decision"
+                s["title_lines"] = self._format_title_lines(str(raw_title), slide_index=idx + 1)
                 s["card_text"] = ""
                 if not s.get("cta_detail"):
-                    s["cta_detail"] = "Bookmark this framework for your pre-trade audit. Share it with an investor friend before they risk capital on unconfirmed headlines."
+                    raise ValueError("English final slide needs a topic-specific, useful takeaway")
             else:
                 s["role"] = s.get("role") or f"value_{idx}"
                 raw_title = s.get("title") or s.get("headline")
