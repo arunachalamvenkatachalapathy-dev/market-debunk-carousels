@@ -30,7 +30,7 @@ class VisualInspectorAgent:
         slide_path = Path(slide_path)
         if not self.client or not slide_path.exists():
             logger.warning("Visual inspector client or file unavailable: %s", slide_path)
-            return {"passed": True, "overall_score": 8.5, "feedback": "Visual audit bypassed."}
+            return {"passed": False, "overall_score": 0, "feedback": "Visual audit unavailable."}
 
         try:
             with open(slide_path, "rb") as f:
@@ -76,7 +76,7 @@ Evaluate and return JSON strictly matching:
                         if clean.endswith("```"):
                             clean = clean[:-3]
                         audit = json.loads(clean.strip())
-                        audit["passed"] = audit.get("overall_score", 8.0) >= 8.0
+                        audit["passed"] = audit.get("passed") is True and audit.get("overall_score", 0) >= 8.0
                         logger.info("👁️ Visual Inspector (%s) Slide #%d Score: %.1f/10 - %s",
                                     m, slide_number, audit.get("overall_score", 8.0), audit.get("critique_summary", "")[:70])
                         return audit
@@ -87,12 +87,12 @@ Evaluate and return JSON strictly matching:
         except Exception as e:
             logger.warning("Visual Inspector encountered exception: %s", e)
 
-        return {"passed": True, "overall_score": 8.5, "feedback": "Fallback approval."}
+        return {"passed": False, "overall_score": 0, "feedback": "Visual audit unavailable."}
 
     def audit_carousel_visuals(self, slide_paths: List[Path]) -> Dict[str, Any]:
         """Audits key slides (Slide 1 Hook and Slide 2 Anchor) and returns aggregated verdict."""
         if not slide_paths:
-            return {"passed": True, "average_score": 8.5}
+            return {"passed": False, "average_score": 0}
 
         scores = []
         slide1_audit = self.audit_slide_image(slide_paths[0], slide_number=1)
@@ -104,7 +104,7 @@ Evaluate and return JSON strictly matching:
 
         avg_score = round(sum(scores) / len(scores), 1)
         return {
-            "passed": avg_score >= 8.0,
+            "passed": avg_score >= 8.0 and slide1_audit.get("passed") is True and (len(slide_paths) < 2 or slide2_audit.get("passed") is True),
             "average_score": avg_score,
             "slide_1_report": slide1_audit,
             "slide_count_audited": len(scores)

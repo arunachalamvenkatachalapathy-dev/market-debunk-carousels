@@ -273,87 +273,14 @@ Return JSON ONLY:
         4. Organic community debate question (drives genuine comments instead of ghost DMs)
         5. Rotating non-repetitive hashtag cluster (anti-spam diversity)
         """
-        title = topic_data.get("title", "")
-        slides = deck.get("slides", [])
-        hook_text = slides[0].get("title", title) if slides else title
-        clean_hook = re.sub(r"<[^>]+>", "", hook_text).strip()
-        clean_hook = re.sub(r"\s*[-|]\s*(Bloomberg(\.com)?|Reuters|Mint|Moneycontrol|The Economic Times|NDTV Profit|CNBC-TV18|Business Standard|Financial Express).*", "", clean_hook, flags=re.IGNORECASE).strip()
-
-        bullets = []
-        for s in slides[1:4]:
-            t = s.get("title") or ""
-            t_clean = re.sub(r"<[^>]+>", "", t).strip()
-            if t_clean:
-                bullets.append(f"• {t_clean}")
-        if not bullets:
-            bullets = [
-                "• Structural traps behind headline market surges",
-                "• How smart capital extracts exit liquidity",
-                "• Complete pre-trade risk audit checkpoints"
-            ]
-
-        # ── 1. Rotate Dynamic Curiosity-Driven Opening Hooks ──────────────────
-        opening_angles = [
-            "What looks like a routine market headline on the surface is quietly an institutional liquidity trap underneath.",
-            "The real financial math behind this move tells a completely different story than television commentary.",
-            "Before allocating risk capital to this narrative, here is what institutional order flow is actually doing.",
-            "While retail traders chase this breakout, smart money is using the volume surge to systematically hedge risk.",
-            "Headline FOMO is the fastest way to erode compounding wealth. Audit the real data before making your next move."
-        ]
-
-        # ── 2. Rotate Across 5 Thematic Hashtag Clusters ──────────────────────
-        hashtag_clusters = [
-            ["#Nifty50", "#IndianStockMarket", "#SEBI", "#MacroEconomics", "#MarketDebunk"],
-            ["#InstitutionalTrading", "#SmartMoney", "#PriceAction", "#OptionFlow", "#TradingStrategy"],
-            ["#WealthPreservation", "#PersonalFinanceIndia", "#FinancialLiteracy", "#Compounding", "#Investing"],
-            ["#RetailTrap", "#TradingPsychology", "#MarketDebunk", "#RiskManagement", "#TraderMindset"],
-            ["#FundamentalAnalysis", "#StockValuation", "#EquityResearch", "#IndianEconomy", "#StockPicks"]
-        ]
-
-        # Inspect last upload history to guarantee zero back-to-back cluster or angle repetition
-        last_cluster_id = None
-        last_angle_id = None
-        try:
-            from src.config import STATE_DIR
-            history_file = STATE_DIR / "upload_history.json"
-            if history_file.exists():
-                with open(history_file, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    uploads = data.get("uploads", []) if isinstance(data, dict) else data
-                    if uploads:
-                        last_cluster_id = uploads[-1].get("hashtag_cluster")
-                        last_angle_id = uploads[-1].get("hook_archetype")
-        except Exception:
-            pass
-
-        available_angle_indices = [i for i in range(len(opening_angles)) if f"angle_{i+1}" != last_angle_id]
-        angle_idx = random.choice(available_angle_indices) if available_angle_indices else random.randint(0, len(opening_angles) - 1)
-        chosen_opening = opening_angles[angle_idx]
-
-        available_cluster_indices = [i for i in range(len(hashtag_clusters)) if f"cluster_{i+1}" != last_cluster_id]
-        cluster_idx = random.choice(available_cluster_indices) if available_cluster_indices else random.randint(0, len(hashtag_clusters) - 1)
-        chosen_hashtags = " ".join(hashtag_clusters[cluster_idx])
-
-        # Record cluster name in deck metadata
-        deck["hashtag_cluster_id"] = f"cluster_{cluster_idx + 1}"
-        deck["hook_archetype_id"] = f"angle_{angle_idx + 1}"
-
-        debate_questions = [
-            "What's your non-negotiable rule when headline volatility hits? Let us know in the comments below 👇",
-            "Have you ever been caught on the wrong side of this market trap? Share your experience in the comments 👇",
-            "Do you rely on stop-losses or volume confirmation before taking a position? Drop your approach below 👇",
-            "What's the #1 mistake you see retail investors make during market rallies? Let us know below 👇"
-        ]
-        debate_q = random.choice(debate_questions)
-
-        caption = (
-            f"🚨 {clean_hook}\n\n"
-            f"{chosen_opening}\n\n"
-            f"Swipe through this 8-slide breakdown:\n"
-            f"{chr(10).join(bullets)}\n\n"
-            f"📌 Save this post for your next trade review.\n"
-            f"✈️ Share this with a fellow investor before they enter their next position.\n\n"
-            f"💬 {debate_q}\n\n"
-            f"{chosen_hashtags}"
-        )
+        # Keep the source-specific caption composed with the carousel. Avoid a
+        # randomly assigned trading-trap narrative unrelated to this topic.
+        caption = (deck.get("caption") or "").strip()
+        if not caption:
+            hook = deck.get("slides", [{}])[0].get("title", topic_data.get("title", ""))
+            highlights = [re.sub(r"<[^>]+>", "", s.get("title", "")).strip()
+                          for s in deck.get("slides", [])[1:4]]
+            caption = "\n".join([re.sub(r"<[^>]+>", "", hook), *[f"• {t}" for t in highlights if t]])
+        if not caption:
+            raise ValueError("English caption is empty")
         return caption

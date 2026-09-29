@@ -126,6 +126,11 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
         grammar_agent = GrammarAgent()
         deck["caption"] = grammar_agent.format_converting_caption(deck, topic_data, audio_track)
 
+        # Validate the final deck, not only the earlier draft before rewriting/normalization.
+        fact_ok, fact_report = editorial_engine._verify_numeric_facts(deck, topic_data)
+        if not fact_ok:
+            raise ValueError(f"Final deck numeric fact check failed: {fact_report}")
+
         # ── Phase 5: Playwright 1080x1350 Retina Rendering & PDF Compilation ───
         logger.info("═══ Phase 5: Playwright 1080x1350 (4:5) Retina Rendering ═══")
         image_director = ImageDirector()
@@ -153,6 +158,9 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
         visual_audit = visual_inspector.audit_carousel_visuals(slide_paths)
         visual_score = visual_audit.get("average_score", 8.5)
         logger.info("👁️ Visual Inspection Verdict: %.1f/10 | Passed: %s", visual_score, visual_audit.get("passed", True))
+        if not visual_audit.get("passed", False):
+            raise ValueError(f"Visual inspection failed or was unavailable: {visual_audit}")
+
 
         # ── Phase 6: Evolutionary Memory Mutation & Master Package Export ─────
         evolutionary_memory.record_cycle(
@@ -184,29 +192,11 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
         # ── Phase 7: Prepare Direct Raw Image URLs for Instagram ───────────────
         repo_owner = "arunachalamvenkatachalapathy-dev"
         repo_name = "market-debunk-carousels"
-        image_urls = [
-            f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/master/state/carousel_slides/slide_{i+1}_{run_id}.png"
-            for i in range(len(slide_paths))
-        ]
-
-        # In CI, if live production run, pre-push slides so raw GitHub URLs are accessible
-        if not dry_run and os.getenv("GITHUB_ACTIONS") == "true":
-            logger.info("🚀 Pre-pushing generated slides to GitHub master before live publishing...")
-            os.system("git config --global user.name 'github-actions[bot]'")
-            os.system("git config --global user.email 'github-actions[bot]@users.noreply.github.com'")
-            os.system("git add state/carousel_slides/ state/latest_carousel.pdf state/market_debunk_carousel_master.json state/evolutionary_playbook.json")
-            os.system('git commit -m "chore: pre-push slides for live publishing [skip ci]" || true')
-            for attempt in range(1, 4):
-                os.system("git pull origin master --rebase -X ours || true")
-                push_status = os.system("git push origin master")
-                if push_status == 0:
-                    logger.info("✓ Slides successfully pre-pushed to GitHub master (attempt %d).", attempt)
-                    break
-                logger.warning("⚠️ Pre-push attempt %d failed; retrying after rebase...", attempt)
-                import time
-                time.sleep(2)
-            import time
-            time.sleep(4)
+        image_urls = []
+        if not dry_run and settings.ENABLE_INSTAGRAM:
+            # Instagram fetches a public URL. Never pass uncommitted or moving master URLs.
+            from src.slide_hosting import publish_slides
+            image_urls = publish_slides(slide_paths, repo_owner, repo_name)
 
         # ── Phase 8: Multi-Platform Publishing ────────────────────────────────
         logger.info("═══ Phase 8: Multi-Platform Distribution ═══")
@@ -220,20 +210,25 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
             dry_run=dry_run
         )
 
-        # Record upload in ledger for 48h analytics loop
-        media_id = results.get("instagram", {}).get("container_id") or results.get("instagram", {}).get("media_id") or "simulated_id"
-        jitter_mgr.record_successful_upload(
-            title=topic_data.get("title", "Market Debunk"),
-            media_id=media_id,
-            publish_results=results,
-            topic_category=news_analysis.get("debunk_category", "GENERAL"),
-            hook_archetype=deck.get("hook_archetype_id", "CONTRARIAN"),
-            caption_hashtag_cluster=deck.get("hashtag_cluster_id", "default")
-        )
+        # Do not record dry runs or all-platform failures as real uploads/cooldown.
+        if not dry_run and any(results[p].get("success") for p in ("instagram", "facebook")):
+            media_id = results.get("instagram", {}).get("media_id") or results.get("facebook", {}).get("post_id") or "partial_upload"
+            jitter_mgr.record_successful_upload(
+                title=topic_data.get("title", "Market Debunk"),
+                media_id=media_id,
+                publish_results=results,
+                topic_category=news_analysis.get("debunk_category", "GENERAL"),
+                hook_archetype=deck.get("hook_archetype_id", "CONTRARIAN"),
+                caption_hashtag_cluster=deck.get("hashtag_cluster_id", "default")
+            )
+        if not dry_run:
+            failures = [p for p in ("instagram", "facebook") if getattr(settings, f"ENABLE_{p.upper()}") and not results[p].get("success")]
+            if failures:
+                raise RuntimeError(f"Enabled platform publishing failed: {failures}; results={results}")
 
         logger.info("📢 Publishing Results: %s", json.dumps(results, indent=2))
         logger.info("=" * 60)
-        logger.info("🎉 CAROUSEL WORKFLOW COMPLETED SUCCESSFULLY")
+        logger.info("Carousel dry run completed without publishing" if dry_run else "Carousel publishing completed")
         logger.info("=" * 60)
         return True
 
