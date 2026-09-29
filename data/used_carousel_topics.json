@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "What is IPO Oversubscription? Factors & How it Works",
-      "archetype": "institutional_playbook",
-      "timestamp": "2026-09-05T04:44:11.101371+00:00"
-    },
-    {
       "title": "FD Real Returns After Inflation India – The Hard Truth",
       "archetype": "myth_vs_reality_math",
       "timestamp": "2026-09-05T05:50:25.407852+00:00"
@@ -299,6 +294,11 @@
       "title": "PB Fintech shares extend losses for fourth straight session; loses 41% in four days — what investors should do?",
       "url": "https://www.livemint.com/market/pb-fintech-shares-extend-losses-for-fourth-straight-session-loses-41-in-four-days-what-investors-should-do-11790654948645.html",
       "timestamp": "2026-09-29T09:53:23.684477+00:00"
+    },
+    {
+      "title": "5 rule changes from October 1: SBI ATM charges, MDR on UPI, bulk FD rates, KYC for LPG subsidy and more",
+      "url": "https://economictimes.indiatimes.com/wealth/invest/5-rule-changes-from-october-1-sbi-atm-charges-mdr-on-upi-bulk-fd-rates-kyc-for-lpg-subsidy-and-more/articleshow/134540677.cms",
+      "timestamp": "2026-09-29T18:53:47.982328+00:00"
     }
   ],
   "used_archetypes": [
@@ -375,6 +375,7 @@
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb1drWVFheHdzRlNXTHJSZ0xVWDdTNmFSdnAxU3BGeVNKbHhPV3J5NFNhUmMwazVTRDdyU0xuc0ZKZVBPNlNyalR3VjI4Q2xiYWpCRDBUVjlNdjF0TnVrbXBOMlYzb2pzS2E0QXMtc01kbTRMTXN1dDM0SHVzYU5SNVdvcw?oc=5",
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRXc2WTFfTk1DeHhscDJUWjl4VV93TWhmcmtxQmd2d19IcW5LR2tPUkZaelF0Q0ltaW9ZTlEyOGVYa2ZfTW5YbkR6OEEtWVE2U1ltc013UGFJd3VOSWo2V3FiSGtub3VuTkF1c2Q5RW1yN3V5dEU0WkdsaUxNOS1HWE5LdE85b1NFeFVkcFhiRDZveHlXOWZFX3VGTmlfSTVtdGZrQVF2Zmg3UDA2d29Tcll1ZW9UUmZEVVQwNVptbF9kODFzSlZNeXRDcGZCdTMyR2FySk9GaDY3VGJx0gHiAUFVX3lxTE5lVTRBVWFyNFktcnBjbjhXQVEzTHNMMzhoTFVhcFQ0SjVCQThkOFRpOElVcjJVUlhfcnlqNXhvSUpxLWdvVnhBRHo1aExoSTc0QTFmMjk1OW92YjVUMjVOTU1fekh5V2xERUxQYVk4Z1B6QjBWRzZuYmdyX1N3R1NTbXA0a0FmQlBqWWpXSWFSV1k5d1FhQk5lSGxYVjdhdWNRQ2dyX0MyM3lSUnhGRHJvX0RlUDBlZlFicmE2MGNSM1M2ai0wQU4xSUtCT2wyS3gwYmZLNnNfcHFJeUNld2dQcEE?oc=5",
     "https://news.google.com/rss/articles/CBMijAJBVV95cUxQSUZ3aGxyWExQSWd1N0RiUVRuU2doYkVNNFQ2d0tFN2pzLUk4VXlJdm1yay1yYTZobWZETkJuN09QckxUdlZudnFHcDdRelB1RFZtUGptRXFsMDhGVDgyaVNJVlBCUXNuckl4ZFVvVmNxQklZaHZ5bnlJcnozYlM5RlpwTDNIbDA5QlhhVU9iSlVzM2VscGg4VmgyYmtBYUZ0NGhwM1JTdFFGVHp1OHg4TDRNckc3dnlQNURZUXhsdHdnRHNXVXlDbTgtZlBEVExlX201djNSVENRU1Boa1U4RUYyT1V4UHl5Ylc4UnVFZVl1OEhldnBMS3cxRXNLcl8xdmJyQ254aXRPalRU0gGSAkFVX3lxTE1kSkRiWHhmVWdzeWFDWTlfRFFQa2QwZ2NkdzUzd29fZ3I4dHk0MktfRzEwQzRrWUhrNEJJQXlHVUxhS01TSGVQeE92bWlFTk5lak4yUFltWjhPLWhVTDB5SG5wd3IwSkwtMUtyQV9QWGk0MlVIc0ZoNlMxb2VrcDRCUXBZYUVCN2ZRZW9VVUh6R2dIdVczeXFWcExqZVJETGhqUE5tNG9vX1Fpc1kyX3NfQnFybkN3bkdfaFdCclg2NWgxS2FqVWJNNUYwY0hUdURDRUhrTFhESXFXN3NqbFNtVXF0MDJrb0h2eWxWV19tT0hZSnBpQTVpLVVGZFlsd1g0clFfdFpGaDV0Wk5tM2JtQkE?oc=5",
-    "https://www.livemint.com/market/pb-fintech-shares-extend-losses-for-fourth-straight-session-loses-41-in-four-days-what-investors-should-do-11790654948645.html"
+    "https://www.livemint.com/market/pb-fintech-shares-extend-losses-for-fourth-straight-session-loses-41-in-four-days-what-investors-should-do-11790654948645.html",
+    "https://economictimes.indiatimes.com/wealth/invest/5-rule-changes-from-october-1-sbi-atm-charges-mdr-on-upi-bulk-fd-rates-kyc-for-lpg-subsidy-and-more/articleshow/134540677.cms"
   ]
 }

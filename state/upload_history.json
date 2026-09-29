@@ -1074,8 +1074,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "success"
+      },
+      "age_at_audit_hours": 48.9
     },
     {
       "title": "Bank Nifty crashes nearly 2%, trades near 54,500; check top losers: What lies ahead? - Moneycontrol.com",
