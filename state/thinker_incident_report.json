@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-30T13:55:00.812948+00:00",
+  "timestamp": "2026-09-30T18:37:50.641442+00:00",
   "phase": "PIPELINE_ORCHESTRATION",
   "severity": "CRITICAL",
   "error_code": "ERR_PIPELINE_HALT",
-  "root_cause_analysis": "During carousel composition, `_normalize_slides` evaluated slide 2 (English) and detected that the required topic-specific body content was missing or empty. This occurs when the upstream text generation step returns placeholder or incomplete structural schema for the second slide, triggering an explicit validation failure in `editorial_engine.py`.",
+  "root_cause_analysis": "The editorial engine failed to locate a source-verified draft within the provided topic_data context. The system triggered a hard stop to prevent the injection of unverified or generic 'evergreen' content, which violates the integrity constraints of the Market Debunk carousel generation protocol.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
     "action": "SAFE_SHUTDOWN",
@@ -11,8 +11,8 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Inspect the LLM prompt completion output for the current topic to determine why slide 2 body text was missing or empty.",
-    "Verify that the prompt template in `editorial_engine.py` explicitly forces a populated body string field for every slide in the generated JSON schema.",
-    "Re-run the pipeline with explicit topic input or retry generation after updating prompt constraints."
+    "Verify that the upstream data ingestion service successfully populated the topic_data object with at least one verified source entry.",
+    "Inspect the editorial_engine.py logic to determine why the fallback mechanism was triggered despite the absence of valid source material.",
+    "Manually trigger a re-fetch of the source data for the current topic to ensure the cache is not stale or corrupted."
   ]
 }
