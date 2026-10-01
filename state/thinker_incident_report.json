@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-30T18:37:50.641442+00:00",
+  "timestamp": "2026-10-01T10:14:16.036115+00:00",
   "phase": "PIPELINE_ORCHESTRATION",
   "severity": "CRITICAL",
   "error_code": "ERR_PIPELINE_HALT",
-  "root_cause_analysis": "The editorial engine failed to locate a source-verified draft within the provided topic_data context. The system triggered a hard stop to prevent the injection of unverified or generic 'evergreen' content, which violates the integrity constraints of the Market Debunk carousel generation protocol.",
+  "root_cause_analysis": "Editorial composition failed during slide normalization in 'src/editorial_engine.py' at line 305. Slide index 2 (English slide 3) was generated or normalized without a required topic-specific body text, causing a strict validation ValueError.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
     "action": "SAFE_SHUTDOWN",
@@ -11,8 +11,8 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Verify that the upstream data ingestion service successfully populated the topic_data object with at least one verified source entry.",
-    "Inspect the editorial_engine.py logic to determine why the fallback mechanism was triggered despite the absence of valid source material.",
-    "Manually trigger a re-fetch of the source data for the current topic to ensure the cache is not stale or corrupted."
+    "Inspect the LLM completion prompt and output logs for slide 3 to verify if the body content generation was omitted or truncated.",
+    "Verify the input 'topic_data' schema and brief configuration passed to 'editorial_engine.compose_carousel' to ensure topic details for slide 3 are properly populated.",
+    "Re-run the pipeline with full trace logging enabled or adjust fallback generation logic in '_normalize_slides' to auto-populate missing slide body fields."
   ]
 }
