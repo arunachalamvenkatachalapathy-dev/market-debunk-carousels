@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-02T09:51:13.414222+00:00",
+  "timestamp": "2026-10-02T18:49:39.431008+00:00",
   "phase": "PIPELINE_ORCHESTRATION",
   "severity": "CRITICAL",
   "error_code": "ERR_PIPELINE_HALT",
-  "root_cause_analysis": "The editorial engine failed to locate a verified source draft for the current topic. The system logic explicitly forbids falling back to generic evergreen content when the primary source verification step fails, triggering a hard stop to prevent the dissemination of unverified market data.",
+  "root_cause_analysis": "The editorial engine encountered a validation failure during the slide normalization process. Specifically, the second slide in the English language deck lacks a 'body' attribute, violating the schema requirement for topic-specific content. This indicates a failure in the content generation or retrieval layer prior to the orchestration phase.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
     "action": "SAFE_SHUTDOWN",
@@ -11,8 +11,8 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Verify the integrity of the upstream data ingestion service to ensure source-verified drafts are being successfully persisted to the database.",
-    "Inspect the topic_data object passed to compose_carousel to determine if the source-verification flag was erroneously set to false or if the source URL is unreachable.",
-    "Manually trigger a re-fetch of the source material or update the editorial brief to point to a valid, verified data source."
+    "Inspect the source data provider for the current topic to ensure all slide objects contain a non-empty 'body' field.",
+    "Verify the editorial_engine.py logic to ensure that optional slide templates are correctly populated before reaching the _normalize_slides validation method.",
+    "Re-run the pipeline after patching the missing content in the source database or template configuration."
   ]
 }
