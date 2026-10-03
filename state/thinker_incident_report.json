@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-02T18:49:39.431008+00:00",
+  "timestamp": "2026-10-03T09:13:19.932793+00:00",
   "phase": "PIPELINE_ORCHESTRATION",
   "severity": "CRITICAL",
   "error_code": "ERR_PIPELINE_HALT",
-  "root_cause_analysis": "The editorial engine encountered a validation failure during the slide normalization process. Specifically, the second slide in the English language deck lacks a 'body' attribute, violating the schema requirement for topic-specific content. This indicates a failure in the content generation or retrieval layer prior to the orchestration phase.",
+  "root_cause_analysis": "The editorial engine failed during carousel composition (`compose_carousel` -> `_normalize_slides`). Slide 2 in the generated English deck missing required topic-specific body content, triggering a strict schema validation check in `src/editorial_engine.py` at line 305.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
     "action": "SAFE_SHUTDOWN",
@@ -11,8 +11,8 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Inspect the source data provider for the current topic to ensure all slide objects contain a non-empty 'body' field.",
-    "Verify the editorial_engine.py logic to ensure that optional slide templates are correctly populated before reaching the _normalize_slides validation method.",
-    "Re-run the pipeline after patching the missing content in the source database or template configuration."
+    "Inspect the LLM response payload or prompt template for slide generation to ensure required body text fields are present.",
+    "Verify topic data source context feeds to ensure slide 2 topic context is not empty or missing during normalization.",
+    "Consider implementing a fallback or prompt retry mechanism in `_normalize_slides` prior to raising a hard `ValueError`."
   ]
 }
