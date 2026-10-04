@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "How I plan to ride out my 7th stock market slump - The Times",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONS1OM1B2NXphejFVa3lDTG9QVVJpSGdIX1QxbjUzUVZFemgydy1jMENwWmF1RW1uTmJ6TUkxSlFKVnhROUlRNko5eV9mRTdMYldkY1BuLWkwVVptWWFiMlhLSXA5MmNybWh3Szl3cENOa1R1MjN0Mlo5UmU1NXY3X0VkU2RhcldyU2RlQ3JrUkQtelNiQVBFb0NwNWgxNkRvLVV6WklSOWVES1BVcUtyYlNEb1g?oc=5",
-      "timestamp": "2026-09-05T17:21:12.269162+00:00"
-    },
-    {
       "title": "Manipal Payment and Identity Solutions Ltd to enter stock market - Udayavani",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMncwWlZrSlJ6aU9sOXJ6TGNpdllSbnNUQWgyUGREQlJXcnp3TjBNZ2Vaa0xnRXhiSWJXSjdoRTExMnViR20xM2llX0ZJRDZBVkRHaDVPN19VM2tHLWJVd3JLelRJeGxubHdWT0JZMmZMU2JTUDBLMW9jdG1NVXZqY2JNd21kSGlZUUxPb0FSV1BtMHVaQVRRZVNLRUIxNFIxR21wYUMzWDQ2Z2lNNzE5ag?oc=5",
       "timestamp": "2026-09-05T17:23:15.140606+00:00"
@@ -299,6 +294,11 @@
       "title": "FD rates up to 8.50% for senior citizens on 5-year deposits; Check the list of banks",
       "url": "https://economictimes.indiatimes.com/wealth/invest/fd-rates-up-to-8-50-for-senior-citizens-on-5-year-deposits-check-the-list-of-banks/articleshow/134651543.cms",
       "timestamp": "2026-10-03T17:38:53.607678+00:00"
+    },
+    {
+      "title": "Woman, 23, cheated of over RM18,000 in online job scam - The Star",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZV9kUk5vNU0yalAwQ0dBM2N3RF9YblNJajhfQ3dNdDlvR3QtWGo4UlZNX3cxdllmR3dLZW5nczdmS2VMbktmWEdTMjVFVTNoeDgyUzNndXhoS2FoTHRrZlJHZEE2RzlEcHhsczQ4VFBSelVjSkhYOWtmTlJ0eFlyNXQybG4tWUNsT2NyXzJPNkpqZnFpSGV1WTUxaGF6cmtfSHg0?oc=5",
+      "timestamp": "2026-10-04T09:51:42.629697+00:00"
     }
   ],
   "used_archetypes": [
@@ -386,6 +386,7 @@
     "https://www.livemint.com/market/stock-market-news/investors-worried-over-bloodbath-as-nifty-50-sees-longest-weekly-losing-streak-in-25-yrs-outlook-for-h2-from-experts-11790922247662.html",
     "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-october-2026-repo-rate-hike-soon-date-announcement-time-members-monetary-policy-review-expectations-11790931729661.html",
     "https://www.livemint.com/market/stock-market-news/is-october-a-market-crash-month-1929-crash-to-black-monday-1987-why-october-scares-equities-stocks-investors-11790954995036.html",
-    "https://economictimes.indiatimes.com/wealth/invest/fd-rates-up-to-8-50-for-senior-citizens-on-5-year-deposits-check-the-list-of-banks/articleshow/134651543.cms"
+    "https://economictimes.indiatimes.com/wealth/invest/fd-rates-up-to-8-50-for-senior-citizens-on-5-year-deposits-check-the-list-of-banks/articleshow/134651543.cms",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZV9kUk5vNU0yalAwQ0dBM2N3RF9YblNJajhfQ3dNdDlvR3QtWGo4UlZNX3cxdllmR3dLZW5nczdmS2VMbktmWEdTMjVFVTNoeDgyUzNndXhoS2FoTHRrZlJHZEE2RzlEcHhsczQ4VFBSelVjSkhYOWtmTlJ0eFlyNXQybG4tWUNsT2NyXzJPNkpqZnFpSGV1WTUxaGF6cmtfSHg0?oc=5"
   ]
 }
