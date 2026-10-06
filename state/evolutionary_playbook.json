@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 22,
+  "total_cycles_recorded": 23,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.45,
-    "MATHEMATICAL_FRICTION": 2.15,
+    "MATHEMATICAL_FRICTION": 2.2,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B dominant in mathematical friction (weight 1.6). It anchors the entire pitch on exact dollar and percentage d",
     "Fallback contrarian anchor.",
     "Candidate B adheres to the MATHEMATICAL_FRICTION archetype, which consistently outperforms by converting abstract sector",
     "Candidate B dominant across all metrics, perfectly aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight",
@@ -38,7 +37,8 @@
     "Candidate B adheres strictly to the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.9). It strips the headline of",
     "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.0). By translating an abstrac",
     "Candidate B wins because it weaponizes MATHEMATICAL_FRICTION. It bypasses subjective market narratives and forces the us",
-    "Candidate B wins by weaponizing MATHEMATICAL_FRICTION. It strips away the 'hero narrative' of high returns and replaces "
+    "Candidate B wins by weaponizing MATHEMATICAL_FRICTION. It strips away the 'hero narrative' of high returns and replaces ",
+    "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This "
   ],
   "cycle_history": [
     {
@@ -238,6 +238,15 @@
       "critic_score": 8.5,
       "visual_score": 8.5,
       "key_learning": "Fallback contrarian anchor."
+    },
+    {
+      "cycle": 23,
+      "timestamp": "2026-10-06T14:57:57.159417+00:00",
+      "topic": "Hidden cost of travel: Visa fees, card markups, optional tours and tips that can",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 9.4,
+      "key_learning": "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This "
     }
   ]
 }

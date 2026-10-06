@@ -1,109 +1,121 @@
 {
   "topic": {
-    "title": "PB Fintech shares extend losses for fourth straight session; loses 41% in four days — what investors should do?",
+    "title": "Hidden cost of travel: Visa fees, card markups, optional tours and tips that can add 25-40% to budget; here's how to plan for them",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
     "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 88.6,
-    "source": "Livemint Markets",
-    "source_snippet": "PB Fintech shares fell over 5% on September 29, extending a 41% loss over four sessions. Bernstein retained an 'Outperform' rating with a target of  ₹2,310, despite anticipated regulatory changes potentially reducing earnings significantly.",
-    "source_url": "https://www.livemint.com/market/pb-fintech-shares-extend-losses-for-fourth-straight-session-loses-41-in-four-days-what-investors-should-do-11790654948645.html",
-    "raw_text": "PB Fintech shares extend losses for fourth straight session; loses 41% in four days — what investors should do?. PB Fintech shares fell over 5% on September 29, extending a 41% loss over four sessions. Bernstein retained an 'Outperform' rating with a target of  ₹2,310, despite anticipated regulatory changes potentially reducing earnings significantly.",
+    "viral_demand_score": 65.1,
+    "source": "Economic Times Wealth & Personal Finance",
+    "source_snippet": "Many travelers fail to account for hidden costs while planning international journeys, often only considering major expenses. These overlooked charges can hike trip costs by 25-40%, creating budget overruns. It's vital to include local transport, dining, and extra fees in your budget to avoid unexpected financial surprises. Employing effective budgeting techniques ensures a smoother and more enjoyable experience abroad.",
+    "source_url": "https://economictimes.indiatimes.com/wealth/spend/hidden-cost-of-travel-visa-fees-card-markups-optional-tours-and-tips-that-can-add-25-40-to-budget-heres-how-to-plan-for-them/articleshow/134651425.cms",
+    "raw_text": "Hidden cost of travel: Visa fees, card markups, optional tours and tips that can add 25-40% to budget; here's how to plan for them. Many travelers fail to account for hidden costs while planning international journeys, often only considering major expenses. These overlooked charges can hike trip costs by 25-40%, creating budget overruns. It's vital to include local transport, dining, and extra fees in your budget to avoid unexpected financial surprises. Employing effective budgeting techniques ensures a smoother and more enjoyable experience abroad.",
     "numbers_detected": [
-      "41%",
-      "5%",
-      "29",
-      "41%",
-      "₹2,310"
+      "25",
+      "40%",
+      "25",
+      "40%"
     ],
-    "published_at": "2026-09-29T04:41:34+00:00",
-    "age_hours": 5.2,
-    "retrieved_at": "2026-09-29T09:53:20.161410+00:00",
-    "date": "29 Sep 2026",
+    "published_at": "2026-10-05T06:30:00+05:30",
+    "age_hours": 37.9,
+    "retrieved_at": "2026-10-06T14:56:56.759428+00:00",
+    "date": "06 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Livemint Markets | Published: 2026-09-29T04:41:34+00:00 (5.2h ago) | Headline: PB Fintech shares extend losses for fourth straight session; loses 41% in four days — what investors should do? | Context: PB Fintech shares extend losses for fourth straight session; loses 41% in four days — what investors should do?. PB Fintech shares fell over 5% on September 29, extending a 41% loss over four sessions. Bernstein retained an 'Outperform' rating with a target of  ₹2,310, despite anticipated regulatory changes potentially reducing earnings significantly.",
+    "evidence_snapshot": "Source: Economic Times Wealth & Personal Finance | Published: 2026-10-05T06:30:00+05:30 (37.9h ago) | Headline: Hidden cost of travel: Visa fees, card markups, optional tours and tips that can add 25-40% to budget; here's how to plan for them | Context: Hidden cost of travel: Visa fees, card markups, optional tours and tips that can add 25-40% to budget; here's how to plan for them. Many travelers fail to account for hidden costs while planning international journeys, often only considering major expenses. These overlooked charges can hike trip costs by 25-40%, creating budget overruns. It's vital to include local transport, dining, and extra fee",
     "news_analysis": {
-      "headline_hook": "The Hidden Risk Behind PB Fintech shares extend losses for fourth straigh",
-      "breaking_event_summary": "PB Fintech shares have plummeted 41% over four consecutive trading sessions as of September 29, 2026, despite brokerage firms maintaining bullish price targets.",
-      "retail_illusion": "Retail investors often interpret a brokerage 'Outperform' rating and a high price target as a 'buy the dip' signal, assuming the 41% drop is merely a temporary market overreaction.",
-      "institutional_reality": "Institutions are pricing in a structural shift in regulatory policy that threatens the core unit economics of the insurance aggregator model, rendering historical 'Outperform' targets mathematically obsolete regardless of current price levels.",
+      "headline_hook": "Your international trip costs 40% more than you think; here is the math.",
+      "breaking_event_summary": "Economic Times Wealth reported on common overlooked international travel expenses, showing how secondary costs like card markups, visa fees, optional tours, and tips create budget overruns.",
+      "retail_illusion": "Travelers often assume that major upfront bookings like flights and hotels represent almost the entire cost of an international trip.",
+      "institutional_reality": "Ancillary expenses, foreign exchange card markups, local transit, and mandatory tips routinely compound to add substantial extra outlays.",
       "citable_metrics": [
-        "41% loss over four sessions",
-        "5% fall on September 29",
-        "₹2,310 target price"
+        "25-40%"
       ],
-      "debunk_category": "REGULATORY_SHIFT",
-      "actionable_retail_rule": "Never equate a brokerage target price with a fundamental floor; if regulatory headwinds threaten the business model, the price target is a lagging indicator, not a support level.",
-      "lead_magnet": {
-        "trigger_word": "AUDIT",
-        "resource_name": "The Regulatory Risk Exposure Audit Checklist"
-      },
-      "carousel_outline": [
-        {
-          "slide": 1,
-          "role": "hook",
-          "focus": "PB Fintech's 41% Plunge: Why 'Outperform' Ratings Are Your Biggest Risk"
-        },
-        {
-          "slide": 2,
-          "role": "friction",
-          "focus": "Retail thinks this is a discount; the market knows it is a structural repricing."
-        },
-        {
-          "slide": 3,
-          "role": "math_reality",
-          "focus": "Why a ₹2,310 target is irrelevant when regulatory changes slash future earnings power."
-        },
-        {
-          "slide": 4,
-          "role": "breakdown",
-          "focus": "The disconnect between brokerage 'Outperform' ratings and the reality of margin compression."
-        },
-        {
-          "slide": 5,
-          "role": "actionable_rule",
-          "focus": "Stop buying targets; start auditing the regulatory moat of your holdings."
-        },
-        {
-          "slide": 6,
-          "role": "cta",
-          "focus": "Comment AUDIT to receive our Regulatory Risk Exposure Checklist."
-        }
-      ],
-      "highlight_word": "Hidden Risk"
+      "debunk_category": "FEE_EXTRACTION",
+      "actionable_retail_rule": "Account explicitly for visa fees, card markup percentages, local transport, dining, and tips when calculating total trip costs.",
+      "lead_magnet": {},
+      "carousel_outline": [],
+      "highlight_word": "40% surcharge",
+      "editorial_directive": "Ensure all subsequent slides define the 'friction' components (visa, card markup, tips) as line items that must be subtracted from the total travel corpus before booking, mirroring the way one calculates take-home pay after EMI deductions."
     },
     "darwin_result": {
       "winning_candidate": {
-        "id": "A",
-        "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "The Hidden Risk Behind PB Fintech shares extend losses for fourth straigh",
-        "highlight_word": "Hidden Risk",
-        "core_mechanism": "Institutional order flow disparity",
+        "id": "B",
+        "archetype": "MATHEMATICAL_FRICTION",
+        "headline_hook": "Your international trip costs 40% more than you think; here is the math.",
+        "highlight_word": "40% surcharge",
+        "core_mechanism": "Applies the 25-40% friction coefficient to a standard travel fund. It treats travel expenses like an EMI—where the principal is the ticket/hotel, and the 'interest' is the accumulation of visa fees, card markups, and tips.",
         "scores": {
-          "total": 34.0
-        }
+          "curiosity_gap": 8.5,
+          "retail_actionability": 9.0,
+          "data_density": 9.5,
+          "friction_quotient": 9.5,
+          "total": 36.5
+        },
+        "critic_critique": "Excellent use of MATHEMATICAL_FRICTION. By framing 'unaccounted costs' as a surcharge equivalent to an unexpected interest rate on an EMI, it makes the abstract math of travel budgeting immediately relatable to Indian retail investors."
       },
-      "critic_score": 8.5,
-      "archetype": "CONTRARIAN_TRAP",
-      "selection_rationale": "Fallback contrarian anchor."
+      "critic_score": 9.1,
+      "archetype": "MATHEMATICAL_FRICTION",
+      "selection_rationale": "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This aligns perfectly with the MATHEMATICAL_FRICTION archetype, making the invisible 25-40% surcharge feel as tangible as a high-interest EMI burden.",
+      "final_editorial_directive": "Ensure all subsequent slides define the 'friction' components (visa, card markup, tips) as line items that must be subtracted from the total travel corpus before booking, mirroring the way one calculates take-home pay after EMI deductions.",
+      "all_candidates": [
+        {
+          "id": "A",
+          "archetype": "CONTRARIAN_TRAP",
+          "headline_hook": "Why your travel budget is leaking 40% of its value before you even land.",
+          "highlight_word": "hidden leak",
+          "core_mechanism": "Contrasts the popular assumption that flight/hotel costs are the total budget against the reality of mandatory 'friction' expenses like visa fees and card markups.",
+          "scores": {
+            "curiosity_gap": 9.0,
+            "retail_actionability": 7.0,
+            "data_density": 8.0,
+            "friction_quotient": 9.0,
+            "total": 33.0
+          },
+          "critic_critique": "Strong hook, but lacks a direct tie to the requested Indian household financial instrument. The focus is purely on travel mechanics rather than connecting it to an EMI or SIP context."
+        },
+        {
+          "id": "B",
+          "archetype": "MATHEMATICAL_FRICTION",
+          "headline_hook": "Your international trip costs 40% more than you think; here is the math.",
+          "highlight_word": "40% surcharge",
+          "core_mechanism": "Applies the 25-40% friction coefficient to a standard travel fund. It treats travel expenses like an EMI—where the principal is the ticket/hotel, and the 'interest' is the accumulation of visa fees, card markups, and tips.",
+          "scores": {
+            "curiosity_gap": 8.5,
+            "retail_actionability": 9.0,
+            "data_density": 9.5,
+            "friction_quotient": 9.5,
+            "total": 36.5
+          },
+          "critic_critique": "Excellent use of MATHEMATICAL_FRICTION. By framing 'unaccounted costs' as a surcharge equivalent to an unexpected interest rate on an EMI, it makes the abstract math of travel budgeting immediately relatable to Indian retail investors."
+        },
+        {
+          "id": "C",
+          "archetype": "INSTITUTIONAL_DISPARITY",
+          "headline_hook": "Stop planning travel like an FD: Why 'budget' planning fails.",
+          "highlight_word": "budget failure",
+          "core_mechanism": "Compares the rigid, predictable nature of an FD or SIP to the volatile, friction-heavy nature of international travel spending. It highlights how failing to account for 25-40% extra costs ruins the 'corpus' saved for the trip.",
+          "scores": {
+            "curiosity_gap": 9.0,
+            "retail_actionability": 8.0,
+            "data_density": 8.5,
+            "friction_quotient": 9.0,
+            "total": 34.5
+          },
+          "critic_critique": "Solid connection to personal finance instruments. It effectively uses the 'FD' comparison to show that while savings are disciplined, travel spending is often undisciplined due to hidden friction."
+        }
+      ]
     }
   },
   "plan": {
-    "hook_headline": "The Hidden Risk Behind PB Fintech shares extend losses for fourth straigh",
-    "core_illusion": "Retail investors often interpret a brokerage 'Outperform' rating and a high price target as a 'buy the dip' signal, assuming the 41% drop is merely a temporary market overreaction.",
-    "hidden_reality": "Institutions are pricing in a structural shift in regulatory policy that threatens the core unit economics of the insurance aggregator model, rendering historical 'Outperform' targets mathematically obsolete regardless of current price levels.",
-    "citable_metric": "41% loss over four sessions",
+    "hook_headline": "Your international trip costs 40% more than you think; here is the math.",
+    "core_illusion": "Travelers often assume that major upfront bookings like flights and hotels represent almost the entire cost of an international trip.",
+    "hidden_reality": "Ancillary expenses, foreign exchange card markups, local transit, and mandatory tips routinely compound to add substantial extra outlays.",
+    "citable_metric": "25-40%",
     "all_metrics": [
-      "41% loss over four sessions",
-      "5% fall on September 29",
-      "₹2,310 target price"
+      "25-40%"
     ],
-    "actionable_rule": "Never equate a brokerage target price with a fundamental floor; if regulatory headwinds threaten the business model, the price target is a lagging indicator, not a support level.",
-    "breaking_event": "PB Fintech shares have plummeted 41% over four consecutive trading sessions as of September 29, 2026, despite brokerage firms maintaining bullish price targets.",
-    "lead_magnet": {
-      "trigger_word": "AUDIT",
-      "resource_name": "The Regulatory Risk Exposure Audit Checklist"
-    },
+    "actionable_rule": "Account explicitly for visa fees, card markup percentages, local transport, dining, and tips when calculating total trip costs.",
+    "breaking_event": "Economic Times Wealth reported on common overlooked international travel expenses, showing how secondary costs like card markups, visa fees, optional tours, and tips create budget overruns.",
+    "lead_magnet": {},
     "banned_phrases": [
       "guaranteed wealth",
       "quick money",
@@ -112,184 +124,220 @@
     ]
   },
   "deck": {
-    "caption": "🚨 PB Fintech shares extend losses for fourth straight session; loses 41% in four days — what investors should do?\n\nThe real financial math behind this move tells a completely different story than television commentary.\n\nSwipe through this 8-slide breakdown:\n• Why Retail Investors Misread Brokerage Targets During A Collapse\n• The Brutal Math Of Catching Falling Knives\n• How Smart Money Exits While Retail Buys\n\n📌 Save this post for your next trade review.\n✈️ Share this with a fellow investor before they enter their next position.\n\n💬 What's the #1 mistake you see retail investors make during market rallies? Let us know below 👇\n\n#WealthPreservation #PersonalFinanceIndia #FinancialLiteracy #Compounding #Investing",
+    "caption": "Planning an international trip? You might be missing a massive chunk of your actual expenses. \n\n• Why flight and hotel bookings are only half the story.\n• The hidden 25-40% cost trap explained.\n• Simple steps to stop budget overruns before you leave.\n\nSave this post to check your math before you book your next flight. \n\nWhen you calculate your travel budget, do you include a buffer for currency conversion fees, or do you only look at the ticket price? \n\n#TravelBudget #SmartTravel #PersonalFinanceIndia #InternationalTravel #MoneyManagement",
     "slides": [
       {
-        "slide_number": 1,
         "role": "hook",
-        "headline": "The Hidden Risk Behind PB Fintech shares <span class=\"highlight-box\">extend losses</span>",
-        "tag": "#MARKETDEBUNK",
+        "title": "Your international trip costs 40% more than you think; here is the math.",
+        "body": "Most travelers focus only on flights and hotels. But the 'hidden' costs are what actually break your bank account.",
         "slide_index": 1,
+        "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Hidden",
-          "Risk Behind",
-          "<span class='highlight-box'>extend losses</span>"
+          "Your international",
+          "<span class='highlight-box'>trip costs</span>",
+          "40% more"
         ],
         "card_text": ""
       },
       {
-        "slide_number": 2,
         "role": "value_1",
-        "title": "Why Retail Investors <span class=\"highlight-box\">Misread Brokerage Targets</span> During A Collapse",
-        "comparison_data": {
-          "myth": "A 41% drop with an 'Outperform' rating and high target means the stock is heavily oversold and a safe dip-buy.",
-          "reality": "Institutions are repricing the entire aggregator model due to incoming regulatory shifts that render historical earnings multiples obsolete."
-        },
+        "type": "comparison_data",
+        "title": "The Budget Illusion",
+        "body": "Reality check: You see the price of the ticket and the hotel room. You assume that is the cost. The reality is that visa fees, card markups, and local tips are waiting to add 25-40% to your total bill.",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Why Retail",
-          "<span class='highlight-box'>Investors Misread</span>",
-          "Brokerage Targets During A Collapse"
-        ]
+          "<span class='highlight-box'>The Budget</span>",
+          "Illusion"
+        ],
+        "card_text": "comparison_data Reality check: You see the price of the ticket and the hotel room. You assume that is the cost. The reality is that visa fees, card markups, and local tips are waiting to add 25-40% to your total bill."
       },
       {
-        "slide_number": 3,
         "role": "value_2",
-        "title": "The Brutal Math Of <span class=\"highlight-box\">Catching Falling Knives</span>",
-        "stat_data": {
-          "badge": "VERIFIED MARKET IMPACT",
-          "metric": "41% Loss",
-          "label": "erased over four consecutive sessions",
-          "context": "Retail traders piling into a crashing asset based on lagging broker targets face extreme mathematical friction. A falling stock with broken fundamentals rarely rebounds without a base, resulting in rapid capital depletion."
-        },
+        "type": "stat_data",
+        "title": "The 25-40% Gap",
+        "body": "According to Economic Times Wealth, these overlooked charges—like foreign exchange markups and optional tours—can increase your total trip expenditure by 25-40%.",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Brutal",
-          "<span class='highlight-box'>Math Of</span>",
-          "Catching Falling Knives"
-        ]
+          "<span class='highlight-box'>The 25-40%</span>",
+          "Gap"
+        ],
+        "card_text": "stat_data According to Economic Times Wealth, these overlooked charges—like foreign exchange markups and optional tours—can increase your total trip expenditure by 25-40%."
       },
       {
-        "slide_number": 4,
         "role": "value_3",
-        "title": "How Smart Money Exits <span class=\"highlight-box\">While Retail Buys</span>",
-        "flowchart_data": [
-          "1. Regulatory draft or policy shift is signaled, threatening core unit economics.",
-          "2. Institutional block trades systematically liquidate long positions, creating high-volume drops.",
-          "3. Retail investors buy the perceived 'discount' as brokerages maintain legacy target prices."
-        ],
+        "type": "card_text",
+        "title": "What is a 'Card Markup'?",
+        "body": "When you swipe your card abroad, banks often charge a 'foreign exchange markup fee.' This is a hidden percentage added to every single transaction you make in a foreign currency.",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How Smart",
-          "<span class='highlight-box'>Money Exits</span>",
-          "While Retail Buys"
-        ]
+          "What is",
+          "<span class='highlight-box'>a 'Card</span>",
+          "Markup'?"
+        ],
+        "card_text": "card_text When you swipe your card abroad, banks often charge a 'foreign exchange markup fee.' This is a hidden percentage added to every single transaction you make in a foreign currency."
       },
       {
-        "slide_number": 5,
         "role": "value_4",
-        "title": "The Structural Drag Of <span class=\"highlight-box\">Obsolete Valuations</span>",
-        "card_text": "When regulatory changes threaten fee structures, historical cash flow projections become useless. Relying on an 'Outperform' rating without auditing the underlying policy risk creates a silent capital drain as the fundamental business model contracts permanently.",
+        "type": "checklist_data",
+        "title": "The Hidden Cost Checklist",
+        "body": "Check these off before you finalize your budget: Visa fees (Pass/Fail), Card markup fees (Pass/Fail), Local transport costs (Pass/Fail), Mandatory tips (Pass/Fail), Optional tours (Pass/Fail).",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Structural",
-          "<span class='highlight-box'>Drag Of</span>",
-          "Obsolete Valuations"
-        ]
+          "The Hidden",
+          "<span class='highlight-box'>Cost Checklist</span>"
+        ],
+        "card_text": "checklist_data Check these off before you finalize your budget: Visa fees (Pass/Fail), Card markup fees (Pass/Fail), Local transport costs (Pass/Fail), Mandatory tips (Pass/Fail), Optional tours (Pass/Fail)."
       },
       {
-        "slide_number": 6,
         "role": "value_5",
-        "title": "The Non-Negotiable <span class=\"highlight-box\">Execution Rule</span>",
-        "card_text": "Never equate a brokerage target price with a fundamental floor. If regulatory headwinds threaten the core business model, the price target is a lagging indicator—not a support level. Always prioritize structural shifts over sell-side analyst optimism.",
+        "type": "flowchart_data",
+        "title": "How to Plan Better",
+        "body": "Step 1: List major bookings. Step 2: Add 40% as a 'hidden cost' buffer. Step 3: Research local transport and dining costs. Step 4: Check your bank's foreign transaction fee.",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Non-Negotiable",
-          "<span class='highlight-box'>Execution Rule</span>"
-        ]
+          "How to",
+          "<span class='highlight-box'>Plan Better</span>"
+        ],
+        "card_text": "flowchart_data Step 1: List major bookings. Step 2: Add 40% as a 'hidden cost' buffer. Step 3: Research local transport and dining costs. Step 4: Check your bank's foreign transaction fee."
       },
       {
-        "slide_number": 7,
         "role": "value_6",
-        "title": "Pre-Trade <span class=\"highlight-box\">Risk Audit Checklist</span>",
-        "checklist_data": [
-          {
-            "status": "fail",
-            "text": "Buying purely because a stock dropped 40%+ in a few sessions."
-          },
-          {
-            "status": "fail",
-            "text": "Treating broker 'Outperform' ratings as guaranteed price floors."
-          },
-          {
-            "status": "pass",
-            "text": "Evaluating regulatory policy impacts on future unit economics first."
-          }
-        ],
+        "type": "card_text",
+        "title": "Why Uncertainty Matters",
+        "body": "Not every trip will hit the 40% mark, but failing to account for these variables creates the risk of a major financial surprise. It is better to over-budget than to run out of money mid-trip.",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Pre-Trade Risk",
-          "<span class='highlight-box'>Audit Checklist</span>"
-        ]
+          "<span class='highlight-box'>Why Uncertainty</span>",
+          "Matters"
+        ],
+        "card_text": "card_text Not every trip will hit the 40% mark, but failing to account for these variables creates the risk of a major financial surprise. It is better to over-budget than to run out of money mid-trip."
       },
       {
-        "slide_number": 8,
         "role": "bookmark_save",
-        "title_lines": [
-          "Don’t",
-          "forget to",
-          "<span class='highlight-box'>save & share</span>",
-          "this for",
-          "later"
-        ],
-        "cta_detail": "Comment 'AUDIT' below to receive our Regulatory Risk Exposure Checklist, and drop your thoughts in the comments.",
-        "tag": "#MARKETDEBUNK",
+        "title": "Takeaway: Plan for the 'Extra",
+        "body": "Always add a 40% buffer to your base travel budget to cover visa fees, tips, and currency markups. Save this post so you don't forget to include these costs in your next trip plan!",
+        "cta_detail": "Save this post to your 'Travel' folder for your next trip planning session.",
         "slide_index": 8,
+        "tag": "#MARKETDEBUNK",
+        "title_lines": [
+          "Takeaway: Plan",
+          "<span class='highlight-box'>for the</span>",
+          "'Extra"
+        ],
         "card_text": ""
       }
     ],
-    "fact_check_status": "verified_pass",
+    "fact_check_status": "verified_after_repair",
     "audio_recommendation": {
-      "title": "Experience (Ludovico Instrumental)",
-      "artist": "Ludovico Einaudi",
-      "bpm": 95,
-      "vibe": "Compounding Breakthrough",
-      "reels_boost_tier": "Top Tier",
-      "search_query": "Ludovico Einaudi Experience"
-    },
-    "hashtag_cluster_id": "cluster_3",
-    "hook_archetype_id": "angle_2"
+      "title": "Pulse of Capital (Synthwave Focus)",
+      "artist": "Maxence Cyrin / Philip Glass",
+      "bpm": 118,
+      "vibe": "Analytical Depth & Clarity",
+      "reels_boost_tier": "Steady Evergreen",
+      "search_query": "Philip Glass Opening Piano"
+    }
   },
   "audio": {
-    "title": "Experience (Ludovico Instrumental)",
-    "artist": "Ludovico Einaudi",
-    "bpm": 95,
-    "vibe": "Compounding Breakthrough",
-    "reels_boost_tier": "Top Tier",
-    "search_query": "Ludovico Einaudi Experience"
+    "title": "Pulse of Capital (Synthwave Focus)",
+    "artist": "Maxence Cyrin / Philip Glass",
+    "bpm": 118,
+    "vibe": "Analytical Depth & Clarity",
+    "reels_boost_tier": "Steady Evergreen",
+    "search_query": "Philip Glass Opening Piano"
   },
-  "run_id": "20260929_095409",
+  "run_id": "20261006_145742",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
-      "id": "A",
-      "archetype": "CONTRARIAN_TRAP",
-      "headline_hook": "The Hidden Risk Behind PB Fintech shares extend losses for fourth straigh",
-      "highlight_word": "Hidden Risk",
-      "core_mechanism": "Institutional order flow disparity",
+      "id": "B",
+      "archetype": "MATHEMATICAL_FRICTION",
+      "headline_hook": "Your international trip costs 40% more than you think; here is the math.",
+      "highlight_word": "40% surcharge",
+      "core_mechanism": "Applies the 25-40% friction coefficient to a standard travel fund. It treats travel expenses like an EMI—where the principal is the ticket/hotel, and the 'interest' is the accumulation of visa fees, card markups, and tips.",
       "scores": {
-        "total": 34.0
-      }
+        "curiosity_gap": 8.5,
+        "retail_actionability": 9.0,
+        "data_density": 9.5,
+        "friction_quotient": 9.5,
+        "total": 36.5
+      },
+      "critic_critique": "Excellent use of MATHEMATICAL_FRICTION. By framing 'unaccounted costs' as a surcharge equivalent to an unexpected interest rate on an EMI, it makes the abstract math of travel budgeting immediately relatable to Indian retail investors."
     },
-    "critic_score": 8.5,
-    "archetype": "CONTRARIAN_TRAP",
-    "selection_rationale": "Fallback contrarian anchor."
+    "critic_score": 9.1,
+    "archetype": "MATHEMATICAL_FRICTION",
+    "selection_rationale": "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This aligns perfectly with the MATHEMATICAL_FRICTION archetype, making the invisible 25-40% surcharge feel as tangible as a high-interest EMI burden.",
+    "final_editorial_directive": "Ensure all subsequent slides define the 'friction' components (visa, card markup, tips) as line items that must be subtracted from the total travel corpus before booking, mirroring the way one calculates take-home pay after EMI deductions.",
+    "all_candidates": [
+      {
+        "id": "A",
+        "archetype": "CONTRARIAN_TRAP",
+        "headline_hook": "Why your travel budget is leaking 40% of its value before you even land.",
+        "highlight_word": "hidden leak",
+        "core_mechanism": "Contrasts the popular assumption that flight/hotel costs are the total budget against the reality of mandatory 'friction' expenses like visa fees and card markups.",
+        "scores": {
+          "curiosity_gap": 9.0,
+          "retail_actionability": 7.0,
+          "data_density": 8.0,
+          "friction_quotient": 9.0,
+          "total": 33.0
+        },
+        "critic_critique": "Strong hook, but lacks a direct tie to the requested Indian household financial instrument. The focus is purely on travel mechanics rather than connecting it to an EMI or SIP context."
+      },
+      {
+        "id": "B",
+        "archetype": "MATHEMATICAL_FRICTION",
+        "headline_hook": "Your international trip costs 40% more than you think; here is the math.",
+        "highlight_word": "40% surcharge",
+        "core_mechanism": "Applies the 25-40% friction coefficient to a standard travel fund. It treats travel expenses like an EMI—where the principal is the ticket/hotel, and the 'interest' is the accumulation of visa fees, card markups, and tips.",
+        "scores": {
+          "curiosity_gap": 8.5,
+          "retail_actionability": 9.0,
+          "data_density": 9.5,
+          "friction_quotient": 9.5,
+          "total": 36.5
+        },
+        "critic_critique": "Excellent use of MATHEMATICAL_FRICTION. By framing 'unaccounted costs' as a surcharge equivalent to an unexpected interest rate on an EMI, it makes the abstract math of travel budgeting immediately relatable to Indian retail investors."
+      },
+      {
+        "id": "C",
+        "archetype": "INSTITUTIONAL_DISPARITY",
+        "headline_hook": "Stop planning travel like an FD: Why 'budget' planning fails.",
+        "highlight_word": "budget failure",
+        "core_mechanism": "Compares the rigid, predictable nature of an FD or SIP to the volatile, friction-heavy nature of international travel spending. It highlights how failing to account for 25-40% extra costs ruins the 'corpus' saved for the trip.",
+        "scores": {
+          "curiosity_gap": 9.0,
+          "retail_actionability": 8.0,
+          "data_density": 8.5,
+          "friction_quotient": 9.0,
+          "total": 34.5
+        },
+        "critic_critique": "Solid connection to personal finance instruments. It effectively uses the 'FD' comparison to show that while savings are disciplined, travel spending is often undisciplined due to hidden friction."
+      }
+    ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 8.5,
+    "average_score": 9.4,
     "slide_1_report": {
+      "mobile_readability_score": 9.5,
+      "contrast_score": 9.6,
+      "whitespace_score": 9.0,
+      "overall_score": 9.4,
       "passed": true,
-      "overall_score": 8.5,
-      "feedback": "Fallback approval."
+      "critique_summary": "Strong visual hierarchy and crisp contrast make this immediately legible on mobile feeds. The highlighted box creates a focal point without cluttering the layout.",
+      "suggested_css_adjustments": {
+        "font_size_modifier_pct": 0,
+        "line_height": "1.1",
+        "notes": "No structural or typographic adjustments needed."
+      }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-09-29T09:54:18.895699+00:00"
+  "exported_at": "2026-10-06T14:57:57.160321+00:00"
 }
