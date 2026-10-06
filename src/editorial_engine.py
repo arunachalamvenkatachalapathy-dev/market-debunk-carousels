@@ -306,6 +306,19 @@ Return JSON ONLY:
                 else:
                     card_text = s.get("card_text") or s.get("mechanism") or s.get("card_b_text") or s.get("takeaway") or ""
                     if not card_text:
+                        # The model sometimes uses another key (body, text, context, a non-dict
+                        # comparison, etc.). Collect its own non-meta string copy as the body.
+                        skip = {"slide_index", "role", "tag", "badge", "status", "archetype", "title", "headline", "title_lines", "cta_detail"}
+                        def _collect(v):
+                            if isinstance(v, str):
+                                return [v.strip()] if v.strip() else []
+                            if isinstance(v, dict):
+                                return [x for k2, v2 in v.items() if k2 not in skip for x in _collect(v2)]
+                            if isinstance(v, (list, tuple)):
+                                return [x for v2 in v for x in _collect(v2)]
+                            return []
+                        card_text = " ".join(x for k2, v2 in s.items() if k2 not in skip for x in _collect(v2))
+                    if not card_text:
                         raise ValueError(f"English slide {idx + 1} has no topic-specific body")
                     card_text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", card_text)
                     s["card_text"] = card_text
