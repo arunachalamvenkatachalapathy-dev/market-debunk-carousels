@@ -65,13 +65,15 @@ class EditorialEngine:
                     validation_report=report_retry
                 )
                 if is_th_repaired and th_deck:
-                    logger.info("✅ ThinkerEngine auto-repaired slide deck facts successfully!")
-                    deck = th_deck
-                    repaired_ok, repaired_report = self._verify_numeric_facts(deck, topic_data)
+                    repaired_ok, repaired_report = self._verify_numeric_facts(th_deck, topic_data)
                     if not repaired_ok:
-                        raise ValueError(f"Thinker repair did not pass numeric gate: {repaired_report}")
-                    deck["fact_check_status"] = "thinker_auto_repaired"
-                else:
+                        logger.warning("Thinker repair did not pass numeric gate (%s); trying Gemma fallback.", repaired_report)
+                        is_th_repaired = False
+                    else:
+                        logger.info("✅ ThinkerEngine auto-repaired slide deck facts successfully!")
+                        deck = th_deck
+                        deck["fact_check_status"] = "thinker_auto_repaired"
+                if not (is_th_repaired and th_deck):
                     # ── Pass 4: Fallback to Gemma Model ──
                     logger.warning("🤖 Primary drafting/repair unverified; falling back to Gemma model (%s)...", settings.GEMMA_FALLBACK_MODEL)
                     gemma_deck = self._generate_draft_gemma(topic_data, brief)
