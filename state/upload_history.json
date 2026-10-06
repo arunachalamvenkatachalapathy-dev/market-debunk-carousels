@@ -1204,6 +1204,35 @@
         "status": "success"
       },
       "age_at_audit_hours": 48.3
+    },
+    {
+      "title": "2 fall prey to fake credit card scam, lose Rs 7.2 lakh - The Times of India",
+      "media_id": "18143539048525984",
+      "timestamp": "2026-10-06T19:12:03.715568+00:00",
+      "topic_category": "LIQUIDITY_TRAP",
+      "hook_archetype": "CONTRARIAN",
+      "hashtag_cluster": "default",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18143539048525984",
+          "permalink": "https://www.instagram.com/p/DeKgVgFjNsZ/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122118653529474347",
+          "url": "https://www.facebook.com/1247247545146839_122118653529474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }

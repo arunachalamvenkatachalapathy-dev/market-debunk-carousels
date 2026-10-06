@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 24,
+  "total_cycles_recorded": 25,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.45,
-    "MATHEMATICAL_FRICTION": 2.25,
+    "MATHEMATICAL_FRICTION": 2.3,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B adheres to the MATHEMATICAL_FRICTION archetype, which consistently outperforms by converting abstract sector",
     "Candidate B dominant across all metrics, perfectly aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight",
     "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the ",
     "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' conte",
@@ -38,7 +37,8 @@
     "Candidate B wins because it weaponizes MATHEMATICAL_FRICTION. It bypasses subjective market narratives and forces the us",
     "Candidate B wins by weaponizing MATHEMATICAL_FRICTION. It strips away the 'hero narrative' of high returns and replaces ",
     "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This ",
-    "Candidate B is the strongest because it uses the specific Rs 2.60 lakh figure as a 'friction point'. By forcing the read"
+    "Candidate B is the strongest because it uses the specific Rs 2.60 lakh figure as a 'friction point'. By forcing the read",
+    "Candidate B is the definitive winner because it adheres strictly to the MATHEMATICAL_FRICTION archetype. By stripping aw"
   ],
   "cycle_history": [
     {
@@ -256,6 +256,15 @@
       "critic_score": 9.2,
       "visual_score": 9.3,
       "key_learning": "Candidate B is the strongest because it uses the specific Rs 2.60 lakh figure as a 'friction point'. By forcing the read"
+    },
+    {
+      "cycle": 25,
+      "timestamp": "2026-10-06T19:10:40.056583+00:00",
+      "topic": "2 fall prey to fake credit card scam, lose Rs 7.2 lakh - The Times of India",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.2,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B is the definitive winner because it adheres strictly to the MATHEMATICAL_FRICTION archetype. By stripping aw"
     }
   ]
 }
