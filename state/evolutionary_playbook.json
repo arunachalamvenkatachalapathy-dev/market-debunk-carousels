@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 23,
+  "total_cycles_recorded": 24,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.45,
-    "MATHEMATICAL_FRICTION": 2.2,
+    "MATHEMATICAL_FRICTION": 2.25,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Fallback contrarian anchor.",
     "Candidate B adheres to the MATHEMATICAL_FRICTION archetype, which consistently outperforms by converting abstract sector",
     "Candidate B dominant across all metrics, perfectly aligning with the prioritized MATHEMATICAL_FRICTION archetype (weight",
     "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the ",
@@ -38,7 +37,8 @@
     "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.0). By translating an abstrac",
     "Candidate B wins because it weaponizes MATHEMATICAL_FRICTION. It bypasses subjective market narratives and forces the us",
     "Candidate B wins by weaponizing MATHEMATICAL_FRICTION. It strips away the 'hero narrative' of high returns and replaces ",
-    "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This "
+    "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This ",
+    "Candidate B is the strongest because it uses the specific Rs 2.60 lakh figure as a 'friction point'. By forcing the read"
   ],
   "cycle_history": [
     {
@@ -247,6 +247,15 @@
       "critic_score": 9.1,
       "visual_score": 9.4,
       "key_learning": "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This "
+    },
+    {
+      "cycle": 24,
+      "timestamp": "2026-10-06T15:19:26.944897+00:00",
+      "topic": "Elderly woman loses Rs 2.60 lakh in dry fruits delivery cyber scam - Telangana T",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.2,
+      "visual_score": 9.3,
+      "key_learning": "Candidate B is the strongest because it uses the specific Rs 2.60 lakh figure as a 'friction point'. By forcing the read"
     }
   ]
 }
