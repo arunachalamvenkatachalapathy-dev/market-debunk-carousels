@@ -107,7 +107,17 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
         # ── Phase 4: Two-Pass Composition & Fact-Checking Gate ─────────────────
         logger.info("═══ Phase 4: Two-Pass Slide Composition & Numeric Fact-Check ═══")
         editorial_engine = EditorialEngine()
-        deck = editorial_engine.compose_carousel(topic_data, brief)
+        deck = None
+        last_compose_err = None
+        for _attempt in range(3):
+            try:
+                deck = editorial_engine.compose_carousel(topic_data, brief)
+                break
+            except ValueError as compose_err:
+                last_compose_err = compose_err
+                logger.warning("Compose attempt %d/3 failed the source gate: %s", _attempt + 1, compose_err)
+        if deck is None:
+            raise last_compose_err
         slides = deck.get("slides", [])
         from src.validator import CarouselValidator
         is_valid, content_report = CarouselValidator.validate_content(deck)
