@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-06T10:23:41.457327+00:00",
+  "timestamp": "2026-10-06T14:54:05.592718+00:00",
   "phase": "PIPELINE_ORCHESTRATION",
   "severity": "CRITICAL",
   "error_code": "ERR_PIPELINE_HALT",
-  "root_cause_analysis": "Numeric fact-checking validation failed during pipeline orchestration. The generated deck contains an unsupported metric ('₹1') that does not match the tokenized source metrics ('₹1crore', '₹5crore', etc.). This mismatch is caused either by aggressive or naive tokenization separating numerical currency values from their scale suffixes (e.g., 'crore') or hallucination during deck text generation.",
+  "root_cause_analysis": "The Thinker repair layer failed the strict numeric gate validation because the generated deck metrics contained an unsupported metric ('10year') that was not present in the allowed source metrics list (['1.2crore', '10', '2026', '30', '30lakh', '3year', '42', '43', '48', '90%']).",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
     "action": "SAFE_SHUTDOWN",
@@ -11,8 +11,7 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Inspect the text generation prompts to ensure metric expressions retain complete unit suffixes such as '₹1 crore' or '₹1crore' instead of isolated values like '₹1'.",
-    "Update the metric extraction and normalization parser in engine.py to handle Indian numbering suffixes (e.g., 'lakh', 'crore') alongside currency symbols uniformly across source and deck metrics.",
-    "Re-run the pipeline with the corrected metric extraction rules or prompt adjustments."
+    "Verify the editorial engine prompt logic to ensure generated metrics strictly conform to the provided source metrics pool.",
+    "Update the numeric gate validation rules or adjust the source metrics array to include '10year' if it is a valid expected metric."
   ]
 }
