@@ -38,15 +38,15 @@ class Settings:
 
     # ── News / Market Sourcing ──────────────────────────────────────────────
     SERPAPI_KEY: str = os.getenv("SERPAPI_KEY", "")
-    MARKETAUX_API_TOKEN: str = os.getenv("MARKETAUX_API_TOKEN", "bZ1PVR803PweIGinKuMa1r6Zk4kPn4v8xikQvUkC")
-    INDIAN_API_KEY: str = os.getenv("INDIAN_API_KEY", "sk-live-Ca1EJj4XFo61nRpchb93tlGrs0IyVEC5cl4A6iF5")
+    MARKETAUX_API_TOKEN: str = os.getenv("MARKETAUX_API_TOKEN", "")
+    INDIAN_API_KEY: str = os.getenv("INDIAN_API_KEY", "")
 
     # ── Meta (Instagram & Facebook) ─────────────────────────────────────────
-    INSTAGRAM_USER_ID: str = os.getenv("INSTAGRAM_USER_ID", "17841476402324907")
+    INSTAGRAM_USER_ID: str = os.getenv("INSTAGRAM_USER_ID", "")
     INSTAGRAM_ACCESS_TOKEN: str = os.getenv("INSTAGRAM_ACCESS_TOKEN", "")
     INSTAGRAM_GRAPH_VERSION: str = os.getenv("INSTAGRAM_GRAPH_VERSION", "v23.0")
 
-    FACEBOOK_PAGE_ID: str = os.getenv("FACEBOOK_PAGE_ID", "106828592534579")
+    FACEBOOK_PAGE_ID: str = os.getenv("FACEBOOK_PAGE_ID", "")
     FACEBOOK_ACCESS_TOKEN: str = os.getenv("FACEBOOK_ACCESS_TOKEN", "")
 
     # ── Telegram ────────────────────────────────────────────────────────────
