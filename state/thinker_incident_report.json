@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-05T21:16:49.635310+00:00",
+  "timestamp": "2026-10-06T10:23:41.457327+00:00",
   "phase": "PIPELINE_ORCHESTRATION",
   "severity": "CRITICAL",
   "error_code": "ERR_PIPELINE_HALT",
-  "root_cause_analysis": "The editorial engine failed during slide normalization in `_normalize_slides` (editorial_engine.py:305). Slide 2 in the generated English carousel deck was missing a topic-specific body content field, triggering a schema validation ValueError and halting pipeline orchestration.",
+  "root_cause_analysis": "Numeric fact-checking validation failed during pipeline orchestration. The generated deck contains an unsupported metric ('₹1') that does not match the tokenized source metrics ('₹1crore', '₹5crore', etc.). This mismatch is caused either by aggressive or naive tokenization separating numerical currency values from their scale suffixes (e.g., 'crore') or hallucination during deck text generation.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
     "action": "SAFE_SHUTDOWN",
@@ -11,8 +11,8 @@
   },
   "operator_action_required": true,
   "actionable_instructions": [
-    "Inspect the LLM generation prompt or template output for English slide 2 to ensure topic-specific body text is strictly required and generated.",
-    "Check the topic_data context passed to `compose_carousel` to confirm topic details are present for slide 2.",
-    "Re-run the pipeline once prompt schemas or source topic data are repaired."
+    "Inspect the text generation prompts to ensure metric expressions retain complete unit suffixes such as '₹1 crore' or '₹1crore' instead of isolated values like '₹1'.",
+    "Update the metric extraction and normalization parser in engine.py to handle Indian numbering suffixes (e.g., 'lakh', 'crore') alongside currency symbols uniformly across source and deck metrics.",
+    "Re-run the pipeline with the corrected metric extraction rules or prompt adjustments."
   ]
 }
