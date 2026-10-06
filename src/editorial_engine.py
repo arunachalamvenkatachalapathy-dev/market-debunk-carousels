@@ -237,6 +237,10 @@ Return JSON ONLY:
         source_metrics = extract_metrics(source)
         deck_metrics = extract_metrics(collect_slide_copy(deck.get("slides", [])) + " " + str(deck.get("caption", "")))
         unsupported = deck_metrics - source_metrics
+        # A unitless currency figure (e.g. "₹1" from "₹1 and ₹5 crore thresholds") is
+        # supported when the identical currency+number appears in the source with a unit.
+        source_bases = {re.match(r'[₹$]\d+(?:\.\d+)?', m).group(0) for m in source_metrics if re.match(r'[₹$]\d', m)}
+        unsupported = {m for m in unsupported if not (re.fullmatch(r'[₹$]\d+(?:\.\d+)?', m) and m in source_bases)}
         if unsupported:
             return False, f"Unsupported deck metrics: {sorted(unsupported)}; source metrics: {sorted(source_metrics)}"
         return True, f"Verified {len(deck_metrics)} deck metrics against source text."
