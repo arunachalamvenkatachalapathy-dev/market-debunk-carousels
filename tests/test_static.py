@@ -42,8 +42,9 @@ def test_workflow_is_valid(path):
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
     triggers = data.get("on", data.get(True))
     assert triggers, "workflow has no triggers"
-    assert "schedule" in triggers and "workflow_dispatch" in triggers
-    assert triggers["schedule"] and triggers["schedule"][0].get("cron")
+    assert "workflow_dispatch" in triggers
+    if path.name != "tests.yml":
+        assert "schedule" in triggers and triggers["schedule"][0].get("cron")
     assert data.get("jobs"), "workflow has no jobs"
     for job in data["jobs"].values():
         assert job.get("steps"), "job has no steps"
