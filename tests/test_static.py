@@ -59,3 +59,10 @@ def test_requirements_present():
 def test_templates_exist():
     assert (ROOT / "src/templates/carousel_slide.html").exists()
     assert (ROOT / "src/templates/carousel_slide.css").exists()
+
+
+def test_config_has_no_hardcoded_secret_defaults():
+    import re
+    text = (ROOT / "src" / "config.py").read_text(encoding="utf-8")
+    for m in re.finditer(r'os\.getenv\("([A-Z_]+)",\s*"([^"]{16,})"\)', text):
+        raise AssertionError(f"{m.group(1)} has a hardcoded default; use a GitHub secret")
