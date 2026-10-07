@@ -1,51 +1,60 @@
 {
   "topic": {
-    "title": "2 fall prey to fake credit card scam, lose Rs 7.2 lakh - The Times of India",
+    "title": "Soon, FD details will be part of your CAS statement; Here’s how it helps you",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 100.0,
-    "source": "The Times of India",
-    "source_snippet": "2 fall prey to fake credit card scam, lose Rs 7.2 lakh&nbsp;&nbsp;The Times of India",
-    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWDM4Z3RsbVJWU0ZwVW1EU3Jma01KZnFscE1Gc1MtbHVnTWNRNVc4MUk1d1ZsbHVvNURyMWlJX2NFbGF2MGhMX0FDcDJJdlR2bExNOHAwei1HTE5KNXhHRUJSeC05VjMtOUJ3XzhnWEYteS1HTnVhSFNVRW9Yay1Fbm1HUnBLZXdJQ2liekMwZC0wcTVkck5CaUJocmlpSTAxaUFxVTRvV19HY0RJbVBCOFlUd0E3eG05NHg4RV9FSTRyVVFqODZyUFdMY9IB0AFBVV95cUxNcktmMGdQT2VlXzA4bnB0N1E0ZUxHNXNoZ3ZFQ2RDYzBQYTFtYUcxYUk3MklmdEdGN3YxakREQ2F6TjBBN0ZYcTVlczFTblBtbjl1UWt1WkZaZ2swdm9Eb213NlFUVkFSUm5aeTdyRlVGTHZOcC1WbDZLbWFic3FoUGNfQWhGaThSRGJVRUs3ZWszX1pBa2FIWGp0SGdJbXhjMXBNc185UHdUNmd4LTVHQjlVUlZTV19CRHEwUW41Q3BvWC1DSlNnNmV3SUJOd3JU?oc=5",
-    "raw_text": "2 fall prey to fake credit card scam, lose Rs 7.2 lakh - The Times of India. 2 fall prey to fake credit card scam, lose Rs 7.2 lakh&nbsp;&nbsp;The Times of India",
-    "numbers_detected": [
-      "7.2",
-      "7.2"
-    ],
-    "published_at": "2026-10-06T18:53:00+00:00",
-    "age_hours": 0.3,
-    "retrieved_at": "2026-10-06T19:09:02.078619+00:00",
-    "date": "06 Oct 2026",
+    "topic_category": "WEALTH_LEAK",
+    "viral_demand_score": 74.0,
+    "source": "Economic Times Wealth & Personal Finance",
+    "source_snippet": "Soon you will get to see your fixed deposit (FD) details in CAS statements. CAS stands for consolidated account statements and it is usually sent by NSDL, CDSL, Karvy or CAMS. This CAS statement at present shows your demat and non-demat holdings including mutual funds, bonds, listed shares.",
+    "source_url": "https://economictimes.indiatimes.com/wealth/save/soon-fd-details-will-be-part-of-your-cas-statement-heres-how-it-helps-you/articleshow/134757204.cms",
+    "raw_text": "Soon, FD details will be part of your CAS statement; Here’s how it helps you. Soon you will get to see your fixed deposit (FD) details in CAS statements. CAS stands for consolidated account statements and it is usually sent by NSDL, CDSL, Karvy or CAMS. This CAS statement at present shows your demat and non-demat holdings including mutual funds, bonds, listed shares.",
+    "numbers_detected": [],
+    "published_at": "2026-10-07T11:26:40+05:30",
+    "age_hours": 13.6,
+    "retrieved_at": "2026-10-07T19:33:33.939346+00:00",
+    "date": "07 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: The Times of India | Published: 2026-10-06T18:53:00+00:00 (0.3h ago) | Headline: 2 fall prey to fake credit card scam, lose Rs 7.2 lakh - The Times of India | Context: 2 fall prey to fake credit card scam, lose Rs 7.2 lakh - The Times of India. 2 fall prey to fake credit card scam, lose Rs 7.2 lakh&nbsp;&nbsp;The Times of India",
+    "evidence_snapshot": "Source: Economic Times Wealth & Personal Finance | Published: 2026-10-07T11:26:40+05:30 (13.6h ago) | Headline: Soon, FD details will be part of your CAS statement; Here’s how it helps you | Context: Soon, FD details will be part of your CAS statement; Here’s how it helps you. Soon you will get to see your fixed deposit (FD) details in CAS statements. CAS stands for consolidated account statements and it is usually sent by NSDL, CDSL, Karvy or CAMS. This CAS statement at present shows your demat and non-demat holdings including mutual funds, bonds, listed shares.",
     "news_analysis": {
-      "headline_hook": "One Phone Call. Rs 7.2 Lakh Lost. The Math of Fraud.",
-      "breaking_event_summary": "Two victims were defrauded of a combined Rs 7.2 lakh in a fake credit card scam reported on October 6, 2026.",
-      "retail_illusion": "Are unsolicited credit card offers or 'urgent' verification calls from unknown sources legitimate?",
-      "institutional_reality": "Financial institutions do not request sensitive credentials or immediate fund transfers via unsolicited phone calls or unverified digital links.",
-      "citable_metrics": [
-        "7.2 lakh"
-      ],
-      "debunk_category": "LIQUIDITY_TRAP",
-      "actionable_retail_rule": "Verify the identity of any caller claiming to represent a bank by visiting the official branch or using the bank's verified mobile application, rather than following instructions provided over the phone.",
-      "lead_magnet": {},
+      "headline_hook": "Why your FD will soon disappear from your bank records",
+      "breaking_event_summary": "Fixed deposit (FD) details will soon be integrated into the monthly Consolidated Account Statement (CAS) issued by depositories and RTAs like NSDL, CDSL, CAMS, and Karvy. Currently, CAS only reflects demat and non-demat holdings such as listed equities, mutual funds, and bonds.",
+      "retail_illusion": "Will all bank and corporate fixed deposits automatically sync into my CAS immediately without any linking steps?",
+      "institutional_reality": "CAS is expanding its reporting scope beyond traditional securities (shares, mutual funds, bonds) to include fixed deposits, though the exact rollout timeline and bank coverage specifics remain to be fully detailed.",
+      "citable_metrics": [],
+      "debunk_category": "REGULATORY_SHIFT",
+      "actionable_retail_rule": "Review future CAS statements from NSDL, CDSL, or CAMS/Karvy to verify whether your active fixed deposit accounts are accurately mapped under your PAN.",
+      "lead_magnet": {
+        "title": "Consolidated Account Statement (CAS) Portfolio Checklist",
+        "description": "A straightforward guide on how to read your CAS, track across depositories, and spot missing asset classes."
+      },
       "carousel_outline": [
-        "The anatomy of a credit card scam",
-        "Red flags to watch for during unsolicited calls",
-        "Steps to take if you suspect financial fraud",
-        "How to verify official bank communication channels"
+        {
+          "slide_number": 1,
+          "slide_title": "FDs Coming to CAS",
+          "takeaway": "Your fixed deposit details will soon be tracked directly inside your Consolidated Account Statement."
+        },
+        {
+          "slide_number": 2,
+          "slide_title": "Current vs. New Coverage",
+          "takeaway": "CAS currently aggregates equities, mutual funds, and bonds from NSDL, CDSL, Karvy, and CAMS; FDs will expand this single-view tracking."
+        },
+        {
+          "slide_number": 3,
+          "slide_title": "What to Check",
+          "takeaway": "Ensure your PAN is consistently updated across all bank accounts and deposit folios to facilitate accurate consolidation."
+        }
       ],
-      "highlight_word": "Rs 7.2 lakh",
-      "editorial_directive": "Slide copywriters must lead with the raw loss figure. Avoid editorializing the 'how'. Focus exclusively on the 'what' (the loss) and the 'how to verify' (checking transaction settings) to maintain high evidence integrity."
+      "highlight_word": "disappear records",
+      "editorial_directive": "Focus on the 'Single Point of Truth' narrative. Avoid speculating on tax implications or interest rates. Keep the focus strictly on the procedural shift of FD data into the CAS ecosystem maintained by NSDL/CDSL."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "One Phone Call. Rs 7.2 Lakh Lost. The Math of Fraud.",
-        "highlight_word": "Rs 7.2 lakh",
-        "core_mechanism": "Uses the total loss as a friction point to force a re-evaluation of 'secure' credit card management. It highlights the gap between perceived safety and actual digital vulnerability.",
+        "headline_hook": "Why your FD will soon disappear from your bank records",
+        "highlight_word": "disappear records",
+        "core_mechanism": "By forcing FD data into the CAS (Consolidated Account Statement), the system shifts the reporting burden from individual banks to central depositories like NSDL and CDSL. This creates a single point of truth, eliminating the math friction of reconciling bank-specific passbooks against your total portfolio.",
         "scores": {
           "curiosity_gap": 9.0,
           "retail_actionability": 9.0,
@@ -53,34 +62,34 @@
           "friction_quotient": 9.5,
           "total": 37.0
         },
-        "critic_critique": "Weaponizes the specific loss amount to create immediate psychological friction. It moves past the 'scam' label into the 'math of loss', which is highly effective for retention."
+        "critic_critique": "Strongest candidate. It uses the shift to central depositories to highlight the move away from fragmented bank-level reporting. High utility for tracking dormant assets."
       },
       "critic_score": 9.2,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B is the definitive winner because it adheres strictly to the MATHEMATICAL_FRICTION archetype. By stripping away the narrative and focusing on the massive Rs 7.2 lakh figure, it creates a visceral response that forces the user to question their own digital security posture immediately.",
-      "final_editorial_directive": "Slide copywriters must lead with the raw loss figure. Avoid editorializing the 'how'. Focus exclusively on the 'what' (the loss) and the 'how to verify' (checking transaction settings) to maintain high evidence integrity.",
+      "selection_rationale": "Candidate B effectively leverages the 'MATHEMATICAL_FRICTION' archetype by framing the change as a systemic shift in how financial truth is recorded (centralized vs. fragmented). It challenges the user's reliance on disparate bank statements, which is a high-friction behavior in Indian retail finance.",
+      "final_editorial_directive": "Focus on the 'Single Point of Truth' narrative. Avoid speculating on tax implications or interest rates. Keep the focus strictly on the procedural shift of FD data into the CAS ecosystem maintained by NSDL/CDSL.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "The Rs 7.2 Lakh Trap: Why Your Bank Isn't Protecting You.",
-          "highlight_word": "Rs 7.2 lakh",
-          "core_mechanism": "Contrasts the public assumption that credit card fraud is purely a bank liability with the reality that victims are often misled into authorizing transactions themselves.",
+          "headline_hook": "Your bank is hiding your FD from your master statement",
+          "highlight_word": "hiding FD",
+          "core_mechanism": "Currently, your CAS (Consolidated Account Statement) from NSDL/CDSL tracks stocks and MFs, but FDs exist in a silo. This creates an 'asset blind spot' where your total net worth is never fully visible in one document.",
           "scores": {
-            "curiosity_gap": 8.5,
+            "curiosity_gap": 8.0,
             "retail_actionability": 7.0,
-            "data_density": 7.5,
+            "data_density": 6.0,
             "friction_quotient": 8.5,
-            "total": 31.5
+            "total": 29.5
           },
-          "critic_critique": "Solid hook, but lacks a specific person's name as none were provided in the source text. It relies on the generic 'victim' label which weakens the impact of the A-archetype requirements."
+          "critic_critique": "The 'hiding' narrative is slightly sensationalist but accurately points to the institutional fragmentation of financial data. Good friction, but weak on actual user utility."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "One Phone Call. Rs 7.2 Lakh Lost. The Math of Fraud.",
-          "highlight_word": "Rs 7.2 lakh",
-          "core_mechanism": "Uses the total loss as a friction point to force a re-evaluation of 'secure' credit card management. It highlights the gap between perceived safety and actual digital vulnerability.",
+          "headline_hook": "Why your FD will soon disappear from your bank records",
+          "highlight_word": "disappear records",
+          "core_mechanism": "By forcing FD data into the CAS (Consolidated Account Statement), the system shifts the reporting burden from individual banks to central depositories like NSDL and CDSL. This creates a single point of truth, eliminating the math friction of reconciling bank-specific passbooks against your total portfolio.",
           "scores": {
             "curiosity_gap": 9.0,
             "retail_actionability": 9.0,
@@ -88,37 +97,38 @@
             "friction_quotient": 9.5,
             "total": 37.0
           },
-          "critic_critique": "Weaponizes the specific loss amount to create immediate psychological friction. It moves past the 'scam' label into the 'math of loss', which is highly effective for retention."
+          "critic_critique": "Strongest candidate. It uses the shift to central depositories to highlight the move away from fragmented bank-level reporting. High utility for tracking dormant assets."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Your Credit Card Limit vs. Reality: The Rs 7.2 Lakh Lesson.",
-          "highlight_word": "Credit Card",
-          "core_mechanism": "Connects the credit card limit to a real financial decision: checking transaction alerts and disabling international/online usage features if not needed.",
+          "headline_hook": "Stop checking your FD status at the bank branch",
+          "highlight_word": "bank branch",
+          "core_mechanism": "The integration of FDs into CAS means that your fixed deposits will be treated as 'securities' alongside your listed shares and mutual funds. You will be able to verify your total holdings via CAMS or KFintech, reducing the reliance on bank-specific portals.",
           "scores": {
-            "curiosity_gap": 8.0,
-            "retail_actionability": 9.5,
+            "curiosity_gap": 7.5,
+            "retail_actionability": 8.5,
             "data_density": 8.0,
-            "friction_quotient": 8.0,
-            "total": 33.5
+            "friction_quotient": 7.5,
+            "total": 31.5
           },
-          "critic_critique": "Strong retail utility. It focuses on the 'what to check' aspect, making it highly actionable for the average cardholder, though it lacks the raw punch of Candidate B."
+          "critic_critique": "Very practical and grounded. It identifies the specific shift from bank-portal dependency to centralized reporting, which is a clear benefit for the retail investor."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "One Phone Call. Rs 7.2 Lakh Lost. The Math of Fraud.",
-    "core_illusion": "Are unsolicited credit card offers or 'urgent' verification calls from unknown sources legitimate?",
-    "hidden_reality": "Financial institutions do not request sensitive credentials or immediate fund transfers via unsolicited phone calls or unverified digital links.",
-    "citable_metric": "7.2 lakh",
-    "all_metrics": [
-      "7.2 lakh"
-    ],
-    "actionable_rule": "Verify the identity of any caller claiming to represent a bank by visiting the official branch or using the bank's verified mobile application, rather than following instructions provided over the phone.",
-    "breaking_event": "Two victims were defrauded of a combined Rs 7.2 lakh in a fake credit card scam reported on October 6, 2026.",
-    "lead_magnet": {},
+    "hook_headline": "Why your FD will soon disappear from your bank records",
+    "core_illusion": "Will all bank and corporate fixed deposits automatically sync into my CAS immediately without any linking steps?",
+    "hidden_reality": "CAS is expanding its reporting scope beyond traditional securities (shares, mutual funds, bonds) to include fixed deposits, though the exact rollout timeline and bank coverage specifics remain to be fully detailed.",
+    "citable_metric": "",
+    "all_metrics": [],
+    "actionable_rule": "Review future CAS statements from NSDL, CDSL, or CAMS/Karvy to verify whether your active fixed deposit accounts are accurately mapped under your PAN.",
+    "breaking_event": "Fixed deposit (FD) details will soon be integrated into the monthly Consolidated Account Statement (CAS) issued by depositories and RTAs like NSDL, CDSL, CAMS, and Karvy. Currently, CAS only reflects demat and non-demat holdings such as listed equities, mutual funds, and bonds.",
+    "lead_magnet": {
+      "title": "Consolidated Account Statement (CAS) Portfolio Checklist",
+      "description": "A straightforward guide on how to read your CAS, track across depositories, and spot missing asset classes."
+    },
     "banned_phrases": [
       "guaranteed wealth",
       "quick money",
@@ -127,163 +137,138 @@
     ]
   },
   "deck": {
-    "caption": "A single phone call cost two people Rs 7.2 lakh. In the world of digital banking, your biggest risk isn't the market—it's the person on the other end of the line. \n\n• Why 'urgent' bank calls are red flags\n• The truth about credit card verification\n• How to protect your savings from fake agents\n\nSave this to keep your bank account safe. If a bank representative calls you claiming your card is blocked, do you hang up and call the official number, or do you follow their instructions? \n\n#CyberSecurity #FinancialSafety #CreditCardScam #BankingAwareness #StayAlert",
+    "caption": "Your bank records are getting a major upgrade. Soon, your Fixed Deposits (FDs) will appear in your Consolidated Account Statement (CAS) alongside your stocks and mutual funds. \n\n• Why your FDs are moving to a central statement\n• How this helps you track your total wealth in one place\n• What you need to watch for as the rollout begins\n\nSave this post to remember where to find your updated financial summary. Do you think having all your FDs in one statement will make it easier to manage your savings, or do you prefer keeping them separate in your bank app? \n\n#FixedDeposit #PersonalFinanceIndia #FinancialPlanning #CAS #InvestingTips",
     "slides": [
       {
         "role": "hook",
-        "title": "One Phone Call. Rs 7.2 Lakh Lost. The Math of Fraud.",
-        "body": "Two individuals recently lost a combined Rs 7.2 lakh in a single, calculated credit card scam. Here is how it happened and how you can avoid being next.",
+        "title": "Why your FD will soon disappear from your bank records",
+        "body": "Your Fixed Deposits are moving to a new home. Soon, they will be visible in your Consolidated Account Statement (CAS), not just your bank passbook.",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "One Phone",
-          "<span class='highlight-box'>Call. Rs</span>",
-          "7.2 Lakh"
+          "Why your",
+          "<span class='highlight-box'>FD will</span>",
+          "soon disappear"
         ],
         "card_text": ""
       },
       {
         "role": "value_1",
-        "title": "The 'Urgent' Trap",
-        "comparison_data": {
-          "myth": "Banks call you to demand immediate action or fund transfers to 'verify' your credit card.",
-          "reality": "Legitimate banks never ask for sensitive credentials or money transfers over an unsolicited phone call."
-        },
+        "title": "What is a CAS?",
+        "body": "card_text",
+        "content": "A Consolidated Account Statement (CAS) is a single document that shows all your investments—like stocks, mutual funds, and bonds—in one place. It is currently issued by depositories like NSDL, CDSL, and agencies like CAMS or Karvy.",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>The 'Urgent'</span>",
-          "Trap"
-        ]
+          "What is",
+          "<span class='highlight-box'>a CAS?</span>"
+        ],
+        "card_text": "card_text A Consolidated Account Statement (CAS) is a single document that shows all your investments—like stocks, mutual funds, and bonds—in one place. It is currently issued by depositories like NSDL, CDSL, and agencies like CAMS or Karvy."
       },
       {
         "role": "value_2",
-        "title": "How the Scam Works",
-        "flowchart_data": [
-          "1. You receive a call from someone claiming to be a bank official.",
-          "2. They create a sense of panic regarding your credit card status.",
-          "3. They direct you to a fake link or ask for your OTP/PIN.",
-          "4. Your account is drained before you realize the fraud."
-        ],
+        "title": "The Big Change",
+        "body": "comparison_data",
+        "content": "Currently, your CAS shows: Mutual Funds, Listed Shares, and Bonds. Soon, it will also show: Your Fixed Deposits (FDs).",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How the",
-          "<span class='highlight-box'>Scam Works</span>"
-        ]
+          "<span class='highlight-box'>The Big</span>",
+          "Change"
+        ],
+        "card_text": "comparison_data Currently, your CAS shows: Mutual Funds, Listed Shares, and Bonds. Soon, it will also show: Your Fixed Deposits (FDs)."
       },
       {
         "role": "value_3",
-        "title": "The Cost of Trust",
-        "stat_data": {
-          "metric": "Rs 7.2 Lakh",
-          "label": "Total loss reported by two victims",
-          "context": "This amount represents the life savings or hard-earned capital of two individuals targeted by a single scam operation."
-        },
+        "title": "Why this matters",
+        "body": "card_text",
+        "content": "By bringing FDs into the CAS, you get a 'bird's eye view' of your total wealth. You won't have to log into multiple bank portals to see how much you have saved in different deposits.",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Cost",
-          "<span class='highlight-box'>of Trust</span>"
-        ]
+          "<span class='highlight-box'>Why this</span>",
+          "matters"
+        ],
+        "card_text": "card_text By bringing FDs into the CAS, you get a 'bird's eye view' of your total wealth. You won't have to log into multiple bank portals to see how much you have saved in different deposits."
       },
       {
         "role": "value_4",
-        "title": "Red Flags to Watch For",
-        "checklist_data": [
-          {
-            "item": "Caller demands immediate action",
-            "status": "FAIL",
-            "text": ""
-          },
-          {
-            "item": "Request for OTP or PIN",
-            "status": "FAIL",
-            "text": ""
-          },
-          {
-            "item": "Pressure to click a link sent via SMS",
-            "status": "FAIL",
-            "text": ""
-          },
-          {
-            "item": "Verifying identity via official branch/app",
-            "status": "PASS",
-            "text": ""
-          }
-        ],
+        "title": "The Integration Process",
+        "body": "flowchart_data",
+        "content": "Step 1: Depositories (NSDL/CDSL) receive data. Step 2: FDs are mapped to your PAN. Step 3: Your monthly CAS is updated. Step 4: You view your total holdings in one report.",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Red Flags",
-          "<span class='highlight-box'>to Watch</span>",
-          "For"
-        ]
+          "<span class='highlight-box'>The Integration</span>",
+          "Process"
+        ],
+        "card_text": "flowchart_data Step 1: Depositories (NSDL/CDSL) receive data. Step 2: FDs are mapped to your PAN. Step 3: Your monthly CAS is updated. Step 4: You view your total holdings in one report."
       },
       {
         "role": "value_5",
-        "title": "The Golden Rule of Banking",
-        "card_text": "If you receive a call about your credit card, hang up immediately. Do not provide information. Instead, open your bank's official mobile app or visit your nearest branch to check your account status.",
+        "title": "What remains uncertain",
+        "body": "card_text",
+        "content": "While the plan is confirmed, the exact rollout timeline and which specific banks will sync their data first have not been fully detailed yet. Keep an eye on your monthly statements for updates.",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Golden",
-          "<span class='highlight-box'>Rule of</span>",
-          "Banking"
-        ]
+          "<span class='highlight-box'>What remains</span>",
+          "uncertain"
+        ],
+        "card_text": "card_text While the plan is confirmed, the exact rollout timeline and which specific banks will sync their data first have not been fully detailed yet. Keep an eye on your monthly statements for updates."
       },
       {
         "role": "value_6",
-        "title": "Why Uncertainty is Your Shield",
-        "card_text": "Never assume a caller is who they say they are. Even if they know your name or card details, treat every unsolicited request for sensitive information as a potential threat to your financial security.",
+        "title": "Your Action Plan",
+        "body": "checklist_data",
+        "content": "1. Ensure your PAN is linked to all your bank accounts (Pass). 2. Check your email for monthly CAS from NSDL/CDSL/CAMS (Pending). 3. Verify if your active FDs appear in the new section (Pending).",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Why Uncertainty",
-          "<span class='highlight-box'>is Your</span>",
-          "Shield"
-        ]
+          "<span class='highlight-box'>Your Action</span>",
+          "Plan"
+        ],
+        "card_text": "checklist_data 1. Ensure your PAN is linked to all your bank accounts (Pass). 2. Check your email for monthly CAS from NSDL/CDSL/CAMS (Pending). 3. Verify if your active FDs appear in the new section (Pending)."
       },
       {
         "role": "bookmark_save",
-        "title": "Protect Your Hard-Earned Money",
-        "cta_detail": "Takeaway: Never share OTPs or click links from unknown callers. Always verify by calling the official bank number found on the back of your card. Save this post to remind your family.",
+        "title": "Stay Updated",
+        "cta_detail": "Save this post so you know exactly where to look for your FD details once the update goes live. Check your next CAS to see if your bank has started reporting.",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Protect Your",
-          "<span class='highlight-box'>Hard-Earned Money</span>"
+          "<span class='highlight-box'>Stay Updated</span>"
         ],
         "card_text": ""
       }
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Solitude (Dark Academic Finance)",
-      "artist": "M83 / Felsmann + Tiley",
-      "bpm": 110,
-      "vibe": "Institutional Truth / Whistleblower",
-      "reels_boost_tier": "Viral Editorial",
-      "search_query": "M83 Solitude Felsmann Tiley"
+      "title": "Pulse of Capital (Synthwave Focus)",
+      "artist": "Maxence Cyrin / Philip Glass",
+      "bpm": 118,
+      "vibe": "Analytical Depth & Clarity",
+      "reels_boost_tier": "Steady Evergreen",
+      "search_query": "Philip Glass Opening Piano"
     }
   },
   "audio": {
-    "title": "Solitude (Dark Academic Finance)",
-    "artist": "M83 / Felsmann + Tiley",
-    "bpm": 110,
-    "vibe": "Institutional Truth / Whistleblower",
-    "reels_boost_tier": "Viral Editorial",
-    "search_query": "M83 Solitude Felsmann Tiley"
+    "title": "Pulse of Capital (Synthwave Focus)",
+    "artist": "Maxence Cyrin / Philip Glass",
+    "bpm": 118,
+    "vibe": "Analytical Depth & Clarity",
+    "reels_boost_tier": "Steady Evergreen",
+    "search_query": "Philip Glass Opening Piano"
   },
-  "run_id": "20261006_191020",
+  "run_id": "20261007_193427",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "One Phone Call. Rs 7.2 Lakh Lost. The Math of Fraud.",
-      "highlight_word": "Rs 7.2 lakh",
-      "core_mechanism": "Uses the total loss as a friction point to force a re-evaluation of 'secure' credit card management. It highlights the gap between perceived safety and actual digital vulnerability.",
+      "headline_hook": "Why your FD will soon disappear from your bank records",
+      "highlight_word": "disappear records",
+      "core_mechanism": "By forcing FD data into the CAS (Consolidated Account Statement), the system shifts the reporting burden from individual banks to central depositories like NSDL and CDSL. This creates a single point of truth, eliminating the math friction of reconciling bank-specific passbooks against your total portfolio.",
       "scores": {
         "curiosity_gap": 9.0,
         "retail_actionability": 9.0,
@@ -291,34 +276,34 @@
         "friction_quotient": 9.5,
         "total": 37.0
       },
-      "critic_critique": "Weaponizes the specific loss amount to create immediate psychological friction. It moves past the 'scam' label into the 'math of loss', which is highly effective for retention."
+      "critic_critique": "Strongest candidate. It uses the shift to central depositories to highlight the move away from fragmented bank-level reporting. High utility for tracking dormant assets."
     },
     "critic_score": 9.2,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B is the definitive winner because it adheres strictly to the MATHEMATICAL_FRICTION archetype. By stripping away the narrative and focusing on the massive Rs 7.2 lakh figure, it creates a visceral response that forces the user to question their own digital security posture immediately.",
-    "final_editorial_directive": "Slide copywriters must lead with the raw loss figure. Avoid editorializing the 'how'. Focus exclusively on the 'what' (the loss) and the 'how to verify' (checking transaction settings) to maintain high evidence integrity.",
+    "selection_rationale": "Candidate B effectively leverages the 'MATHEMATICAL_FRICTION' archetype by framing the change as a systemic shift in how financial truth is recorded (centralized vs. fragmented). It challenges the user's reliance on disparate bank statements, which is a high-friction behavior in Indian retail finance.",
+    "final_editorial_directive": "Focus on the 'Single Point of Truth' narrative. Avoid speculating on tax implications or interest rates. Keep the focus strictly on the procedural shift of FD data into the CAS ecosystem maintained by NSDL/CDSL.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "The Rs 7.2 Lakh Trap: Why Your Bank Isn't Protecting You.",
-        "highlight_word": "Rs 7.2 lakh",
-        "core_mechanism": "Contrasts the public assumption that credit card fraud is purely a bank liability with the reality that victims are often misled into authorizing transactions themselves.",
+        "headline_hook": "Your bank is hiding your FD from your master statement",
+        "highlight_word": "hiding FD",
+        "core_mechanism": "Currently, your CAS (Consolidated Account Statement) from NSDL/CDSL tracks stocks and MFs, but FDs exist in a silo. This creates an 'asset blind spot' where your total net worth is never fully visible in one document.",
         "scores": {
-          "curiosity_gap": 8.5,
+          "curiosity_gap": 8.0,
           "retail_actionability": 7.0,
-          "data_density": 7.5,
+          "data_density": 6.0,
           "friction_quotient": 8.5,
-          "total": 31.5
+          "total": 29.5
         },
-        "critic_critique": "Solid hook, but lacks a specific person's name as none were provided in the source text. It relies on the generic 'victim' label which weakens the impact of the A-archetype requirements."
+        "critic_critique": "The 'hiding' narrative is slightly sensationalist but accurately points to the institutional fragmentation of financial data. Good friction, but weak on actual user utility."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "One Phone Call. Rs 7.2 Lakh Lost. The Math of Fraud.",
-        "highlight_word": "Rs 7.2 lakh",
-        "core_mechanism": "Uses the total loss as a friction point to force a re-evaluation of 'secure' credit card management. It highlights the gap between perceived safety and actual digital vulnerability.",
+        "headline_hook": "Why your FD will soon disappear from your bank records",
+        "highlight_word": "disappear records",
+        "core_mechanism": "By forcing FD data into the CAS (Consolidated Account Statement), the system shifts the reporting burden from individual banks to central depositories like NSDL and CDSL. This creates a single point of truth, eliminating the math friction of reconciling bank-specific passbooks against your total portfolio.",
         "scores": {
           "curiosity_gap": 9.0,
           "retail_actionability": 9.0,
@@ -326,42 +311,42 @@
           "friction_quotient": 9.5,
           "total": 37.0
         },
-        "critic_critique": "Weaponizes the specific loss amount to create immediate psychological friction. It moves past the 'scam' label into the 'math of loss', which is highly effective for retention."
+        "critic_critique": "Strongest candidate. It uses the shift to central depositories to highlight the move away from fragmented bank-level reporting. High utility for tracking dormant assets."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Your Credit Card Limit vs. Reality: The Rs 7.2 Lakh Lesson.",
-        "highlight_word": "Credit Card",
-        "core_mechanism": "Connects the credit card limit to a real financial decision: checking transaction alerts and disabling international/online usage features if not needed.",
+        "headline_hook": "Stop checking your FD status at the bank branch",
+        "highlight_word": "bank branch",
+        "core_mechanism": "The integration of FDs into CAS means that your fixed deposits will be treated as 'securities' alongside your listed shares and mutual funds. You will be able to verify your total holdings via CAMS or KFintech, reducing the reliance on bank-specific portals.",
         "scores": {
-          "curiosity_gap": 8.0,
-          "retail_actionability": 9.5,
+          "curiosity_gap": 7.5,
+          "retail_actionability": 8.5,
           "data_density": 8.0,
-          "friction_quotient": 8.0,
-          "total": 33.5
+          "friction_quotient": 7.5,
+          "total": 31.5
         },
-        "critic_critique": "Strong retail utility. It focuses on the 'what to check' aspect, making it highly actionable for the average cardholder, though it lacks the raw punch of Candidate B."
+        "critic_critique": "Very practical and grounded. It identifies the specific shift from bank-portal dependency to centralized reporting, which is a clear benefit for the retail investor."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.2,
+    "average_score": 9.3,
     "slide_1_report": {
       "mobile_readability_score": 9.5,
-      "contrast_score": 9.0,
-      "whitespace_score": 8.5,
-      "overall_score": 9.0,
+      "contrast_score": 9.8,
+      "whitespace_score": 9.0,
+      "overall_score": 9.4,
       "passed": true,
-      "critique_summary": "The design utilizes a highly effective high-contrast layout that captures attention immediately. While the typography is bold and legible, the bottom-right 'SWIPE' text feels slightly detached from the core visual hierarchy.",
+      "critique_summary": "Strong, bold typographic hierarchy that achieves immediate impact with excellent contrast on the green highlight box. The layout is clean and professional, perfectly suited for a high-end financial carousel.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
         "line_height": "1.1",
-        "notes": "Reduce line-height slightly on the main 'One Phone' headline to tighten the visual lockup, and consider adjusting the padding of the green callout box for better horizontal alignment."
+        "notes": "The current tracking and leading are well-balanced; no major CSS adjustments are required for this layout."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-06T19:10:40.057533+00:00"
+  "exported_at": "2026-10-07T19:34:36.295938+00:00"
 }
