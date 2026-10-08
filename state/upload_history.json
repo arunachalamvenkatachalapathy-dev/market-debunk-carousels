@@ -1262,6 +1262,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "Indian Markets Extend Losses as Oil Prices Rise; Nifty 50 Falls 1.71%, Sensex Down 1.57% - Dalal Street Investment Journal",
+      "media_id": "17901520494374944",
+      "timestamp": "2026-10-08T10:42:16.335007+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "CONTRARIAN",
+      "hashtag_cluster": "default",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "17901520494374944",
+          "permalink": "https://www.instagram.com/p/DeOvleuGARY/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122119450707474347",
+          "url": "https://www.facebook.com/1247247545146839_122119450707474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }

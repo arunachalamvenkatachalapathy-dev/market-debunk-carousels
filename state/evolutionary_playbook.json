@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 26,
+  "total_cycles_recorded": 27,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.45,
-    "MATHEMATICAL_FRICTION": 2.35,
+    "MATHEMATICAL_FRICTION": 2.4,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B is the definitive winner as it aligns perfectly with the MATHEMATICAL_FRICTION archetype. By converting the ",
     "Candidate B wins because it weaponizes the MATHEMATICAL_FRICTION archetype. In a market flooded with 'buy the dip' conte",
     "Candidate B is the definitive winner. By leveraging MATHEMATICAL_FRICTION, it moves beyond subjective market opinions an",
     "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype (weight 1.9). It transforms abstract price action ",
@@ -38,7 +37,8 @@
     "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This ",
     "Candidate B is the strongest because it uses the specific Rs 2.60 lakh figure as a 'friction point'. By forcing the read",
     "Candidate B is the definitive winner because it adheres strictly to the MATHEMATICAL_FRICTION archetype. By stripping aw",
-    "Candidate B effectively leverages the 'MATHEMATICAL_FRICTION' archetype by framing the change as a systemic shift in how"
+    "Candidate B effectively leverages the 'MATHEMATICAL_FRICTION' archetype by framing the change as a systemic shift in how",
+    "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It uses the exact data poi"
   ],
   "cycle_history": [
     {
@@ -274,6 +274,15 @@
       "critic_score": 9.2,
       "visual_score": 9.3,
       "key_learning": "Candidate B effectively leverages the 'MATHEMATICAL_FRICTION' archetype by framing the change as a systemic shift in how"
+    },
+    {
+      "cycle": 27,
+      "timestamp": "2026-10-08T10:40:36.205698+00:00",
+      "topic": "Indian Markets Extend Losses as Oil Prices Rise; Nifty 50 Falls 1.71%, Sensex Do",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 9.2,
+      "key_learning": "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It uses the exact data poi"
     }
   ]
 }
