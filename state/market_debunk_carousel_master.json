@@ -1,134 +1,126 @@
 {
   "topic": {
-    "title": "Stock Market Crash: Why Did Sensex Plunge Nearly 1,000 Pts & Nifty Cracked Below 22,300 - ETV Bharat",
+    "title": "FD rate hike calculator: Check extra maturity you can get on Rs 1 lakh-Rs 10 lakh deposits",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 87.1,
-    "source": "ETV Bharat",
-    "source_snippet": "Stock Market Crash: Why Did Sensex Plunge Nearly 1,000 Pts & Nifty Cracked Below 22,300&nbsp;&nbsp;ETV Bharat",
-    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNTh0Tm92NWdDLTlheVdBcGtQa1NtcFR6TzZQMmdXTTBkR2oxMzEzaFFyX3I4Z3F3S210emxSOUpfVVB0MzkxZDMzZEJSakxXNkxkS1JlVThPT25WZ25ycjFkOEt5Vjl1WDAzOWt6cVV1dEp3bmpfN2RQSzlQRGtsZXczV2gwTWY4bmhlYWZEeER0ZHdPTGdCZzBJSGprang4dUkyUkYtMTNLejlXZ1FZd2l4Q1dEUkJ4bEFNbklDRWxpV214cThnZDFUeUk1WVB50gHWAUFVX3lxTE1KTGlLM3M3dzE2djNBc3pfTEVZNmg1VHI0MTVhVEo5VTRmc1VYSUNGM2RRU05yRzBXdHJJMy15bHBpdURkVHpTSXZfdEY0d2c2UnNQUldQTlpiaEE2NXdjUXRPSlBqUjY4aTJJMWJnNjlUWXhLblBVWjJ2d3VJcml3X2pvMXRyZ3EwcWxqc2sxRThKRF9tSWZUY2pzNnJPb2VYVzBUTHVRYVF6bUhHQjhSRmpfYjZyWEsyY3YwNjdkNzRzc2VHVlVDT3BaM3BBUE9oMFRtUHc?oc=5",
-    "raw_text": "Stock Market Crash: Why Did Sensex Plunge Nearly 1,000 Pts & Nifty Cracked Below 22,300 - ETV Bharat. Stock Market Crash: Why Did Sensex Plunge Nearly 1,000 Pts & Nifty Cracked Below 22,300&nbsp;&nbsp;ETV Bharat",
+    "topic_category": "WEALTH_LEAK",
+    "viral_demand_score": 90.1,
+    "source": "Economic Times Wealth & Personal Finance",
+    "source_snippet": "The Reserve Bank of India has increased the repo rate from 5.25% to 5.50% during its recent meeting. This hike is expected to encourage banks to raise their fixed deposit interest rates soon. Customers could earn considerably more on their fixed deposits with even small increases in interest rates. Detailed calculations show potential increases in maturity amounts for varying deposit sizes.",
+    "source_url": "https://economictimes.indiatimes.com/wealth/invest/fd-interest-rate-return-maturity-calculator-extra-corpus-you-can-get-at-rs-1-lakh-10-lakh-investment-in-5-year-fixed-deposit/articleshow/134787504.cms",
+    "raw_text": "FD rate hike calculator: Check extra maturity you can get on Rs 1 lakh-Rs 10 lakh deposits. The Reserve Bank of India has increased the repo rate from 5.25% to 5.50% during its recent meeting. This hike is expected to encourage banks to raise their fixed deposit interest rates soon. Customers could earn considerably more on their fixed deposits with even small increases in interest rates. Detailed calculations show potential increases in maturity amounts for varying deposit sizes.",
     "numbers_detected": [
-      "1,000",
-      "22,300",
-      "1,000",
-      "22,300"
+      "10",
+      "5.25%",
+      "5.50%"
     ],
-    "published_at": "2026-10-08T08:15:55+00:00",
-    "age_hours": 11.2,
-    "retrieved_at": "2026-10-08T19:28:39.145306+00:00",
-    "date": "08 Oct 2026",
+    "published_at": "2026-10-08T16:29:43+05:30",
+    "age_hours": 23.6,
+    "retrieved_at": "2026-10-09T10:37:45.874393+00:00",
+    "date": "09 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: ETV Bharat | Published: 2026-10-08T08:15:55+00:00 (11.2h ago) | Headline: Stock Market Crash: Why Did Sensex Plunge Nearly 1,000 Pts & Nifty Cracked Below 22,300 - ETV Bharat | Context: Stock Market Crash: Why Did Sensex Plunge Nearly 1,000 Pts & Nifty Cracked Below 22,300 - ETV Bharat. Stock Market Crash: Why Did Sensex Plunge Nearly 1,000 Pts & Nifty Cracked Below 22,300&nbsp;&nbsp;ETV Bharat",
+    "evidence_snapshot": "Source: Economic Times Wealth & Personal Finance | Published: 2026-10-08T16:29:43+05:30 (23.6h ago) | Headline: FD rate hike calculator: Check extra maturity you can get on Rs 1 lakh-Rs 10 lakh deposits | Context: FD rate hike calculator: Check extra maturity you can get on Rs 1 lakh-Rs 10 lakh deposits. The Reserve Bank of India has increased the repo rate from 5.25% to 5.50% during its recent meeting. This hike is expected to encourage banks to raise their fixed deposit interest rates soon. Customers could earn considerably more on their fixed deposits with even small increases in interest rates. Detailed",
     "news_analysis": {
-      "headline_hook": "Sensex down 1,000 points and Nifty below 22,300: see how a single-day pull-back resets your SIP buying cost.",
-      "breaking_event_summary": "The Indian stock market experienced a significant downturn on October 8, 2026, with the Sensex falling by nearly 1,000 points and the Nifty index dropping below the 22,300 level.",
-      "retail_illusion": "Does a sudden market drop mean I should immediately sell my long-term investments to prevent further losses?",
-      "institutional_reality": "Market indices like the Sensex and Nifty reflect aggregate movements of large-cap stocks; significant point drops are often driven by broad-based selling pressure or macroeconomic sentiment rather than individual company performance.",
+      "headline_hook": "The 0.25% repo hike: How your Rs 10 lakh FD just changed its math",
+      "breaking_event_summary": "The Reserve Bank of India increased the repo rate from 5.25% to 5.50%, paving the way for commercial banks to potentially increase fixed deposit interest rates.",
+      "retail_illusion": "Assuming that existing deposits automatically adjust upward or that all banks will instantly raise FD rates by the same margin.",
+      "institutional_reality": "A repo rate change signals benchmark borrowing costs, but individual banks determine the timing, tenures, and deposit sizes—such as Rs 1 lakh to Rs 10 lakh—that receive higher interest rates.",
       "citable_metrics": [
-        "1,000 Pts",
-        "22,300"
+        "5.25%",
+        "5.50%",
+        "Rs 1 lakh",
+        "Rs 10 lakh"
       ],
-      "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "Review your asset allocation and investment horizon rather than reacting to short-term index volatility, and verify if the drop aligns with your original risk tolerance.",
-      "lead_magnet": {
-        "title": "Market Volatility Checklist",
-        "description": "A guide to assessing your portfolio health during index corrections."
-      },
-      "carousel_outline": [
-        "Understanding index points vs. portfolio value",
-        "Why Nifty 22,300 is a psychological support level",
-        "The difference between market correction and long-term trend reversal",
-        "Steps to re-evaluate your risk profile after a 1,000-point Sensex move"
-      ],
-      "highlight_word": "1,000 points",
-      "editorial_directive": "Focus Slide 1 entirely on the exact index data points (1,000 points and 22,300 level) and translate the crash into a practical mathematical evaluation of monthly SIP unit allocation, avoiding exaggerated doom narratives or unverified return promises."
+      "debunk_category": "REGULATORY_SHIFT",
+      "actionable_retail_rule": "Review specific bank rate schedules across different tenures before booking new deposits, keeping in mind that existing fixed deposits remain at their contracted rates until maturity.",
+      "lead_magnet": {},
+      "carousel_outline": [],
+      "highlight_word": "changed math",
+      "editorial_directive": "Slide copywriters must lead with the delta (0.25%) and apply it immediately to the Rs 1 lakh - Rs 10 lakh deposit range. Do not promise specific returns; frame the content as a 'check-your-bank' tool for depositors."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Sensex down 1,000 points and Nifty below 22,300: see how a single-day pull-back resets your SIP buying cost.",
-        "highlight_word": "1,000 points",
-        "core_mechanism": "Breaks down the exact structural numeric shift—Sensex cracking nearly 1,000 points and Nifty breaking 22,300—to reframe sharp market drops into unit allocation math for monthly SIP investors.",
+        "headline_hook": "The 0.25% repo hike: How your Rs 10 lakh FD just changed its math",
+        "highlight_word": "changed math",
+        "core_mechanism": "Forces the user to quantify the jump from 5.25% to 5.50% repo rate against their own deposit size, highlighting the friction between static savings and dynamic policy changes.",
         "scores": {
           "curiosity_gap": 9.0,
-          "retail_actionability": 9.0,
+          "retail_actionability": 9.5,
           "data_density": 9.5,
-          "friction_quotient": 9.5,
+          "friction_quotient": 9.0,
           "total": 37.0
         },
-        "critic_critique": "Dominates by strictly applying the MATHEMATICAL_FRICTION archetype. Uses verified numbers (1,000 pts drop, 22,300 level) directly from the source to replace market panic with concrete valuation math."
+        "critic_critique": "Strongest entry. It uses the exact repo rate figures (5.25% to 5.50%) to create immediate mathematical friction, forcing the reader to re-evaluate their current deposit yield."
       },
       "critic_score": 9.2,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It grounds the headline directly in verified numbers from the source (1,000-point Sensex drop and Nifty cracking below 22,300) and converts market noise into actionable portfolio math for household SIP investors.",
-      "final_editorial_directive": "Focus Slide 1 entirely on the exact index data points (1,000 points and 22,300 level) and translate the crash into a practical mathematical evaluation of monthly SIP unit allocation, avoiding exaggerated doom narratives or unverified return promises.",
+      "selection_rationale": "Candidate B is the definitive winner because it uses the 0.25% rate hike as a 'friction point' that compels the user to calculate the delta on their own capital. It avoids speculative narrative and sticks to the verifiable link between RBI policy and consumer FD maturity.",
+      "final_editorial_directive": "Slide copywriters must lead with the delta (0.25%) and apply it immediately to the Rs 1 lakh - Rs 10 lakh deposit range. Do not promise specific returns; frame the content as a 'check-your-bank' tool for depositors.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "When Nifty drops below 22,300, panic selling feels safe—until you compute the tax and exit load penalty.",
-          "highlight_word": "panic selling",
-          "core_mechanism": "Exposes the hidden friction of stopping long-term equity SIPs during a sharp market pullback instead of rebalancing risk.",
+          "headline_hook": "Why waiting for the next bank update could cost you on your Rs 1 lakh FD",
+          "highlight_word": "cost you",
+          "core_mechanism": "Contrasts the common belief that FD rates are static with the reality of repo rate-linked adjustments, using the 5.25% to 5.50% hike as a catalyst for potential maturity gains.",
           "scores": {
-            "curiosity_gap": 8.0,
+            "curiosity_gap": 7.0,
             "retail_actionability": 7.5,
-            "data_density": 7.5,
-            "friction_quotient": 8.0,
-            "total": 31.0
+            "data_density": 8.0,
+            "friction_quotient": 7.0,
+            "total": 29.5
           },
-          "critic_critique": "Solid contrarian narrative on retail panic response, but lacks the immediate mathematical punch of exact point drag."
+          "critic_critique": "A lacks a specific, named founder or person from the source text, making the 'A' archetype impossible to fulfill truthfully. It relies on a generic warning rather than evidence-backed narrative."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "Sensex down 1,000 points and Nifty below 22,300: see how a single-day pull-back resets your SIP buying cost.",
-          "highlight_word": "1,000 points",
-          "core_mechanism": "Breaks down the exact structural numeric shift—Sensex cracking nearly 1,000 points and Nifty breaking 22,300—to reframe sharp market drops into unit allocation math for monthly SIP investors.",
+          "headline_hook": "The 0.25% repo hike: How your Rs 10 lakh FD just changed its math",
+          "highlight_word": "changed math",
+          "core_mechanism": "Forces the user to quantify the jump from 5.25% to 5.50% repo rate against their own deposit size, highlighting the friction between static savings and dynamic policy changes.",
           "scores": {
             "curiosity_gap": 9.0,
-            "retail_actionability": 9.0,
+            "retail_actionability": 9.5,
             "data_density": 9.5,
-            "friction_quotient": 9.5,
+            "friction_quotient": 9.0,
             "total": 37.0
           },
-          "critic_critique": "Dominates by strictly applying the MATHEMATICAL_FRICTION archetype. Uses verified numbers (1,000 pts drop, 22,300 level) directly from the source to replace market panic with concrete valuation math."
+          "critic_critique": "Strongest entry. It uses the exact repo rate figures (5.25% to 5.50%) to create immediate mathematical friction, forcing the reader to re-evaluate their current deposit yield."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "While index benchmarks crack under 22,300, retail portfolios panic while institutional capital recalculates entry levels.",
-          "highlight_word": "recalculates entry",
-          "core_mechanism": "Highlights how market correction levels trigger institutional systematic rebalancing while retail investors pause monthly contributions.",
+          "headline_hook": "RBI hikes repo rate: Is your bank passing on the extra maturity?",
+          "highlight_word": "passing on",
+          "core_mechanism": "Focuses on the lag between central bank policy (repo rate) and commercial bank action (FD rates), prompting the user to check if their bank is adjusting their specific deposit bracket.",
           "scores": {
-            "curiosity_gap": 8.0,
-            "retail_actionability": 8.0,
-            "data_density": 8.0,
-            "friction_quotient": 8.5,
-            "total": 32.5
+            "curiosity_gap": 8.5,
+            "retail_actionability": 9.0,
+            "data_density": 8.5,
+            "friction_quotient": 8.0,
+            "total": 34.0
           },
-          "critic_critique": "Good framing on institutional vs retail behavior, but slightly less precise than Candidate B on raw numerical friction."
+          "critic_critique": "Excellent focus on the mechanic of institutional lag. It effectively turns a policy announcement into a concrete consumer check-list item."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "Sensex down 1,000 points and Nifty below 22,300: see how a single-day pull-back resets your SIP buying cost.",
-    "core_illusion": "Does a sudden market drop mean I should immediately sell my long-term investments to prevent further losses?",
-    "hidden_reality": "Market indices like the Sensex and Nifty reflect aggregate movements of large-cap stocks; significant point drops are often driven by broad-based selling pressure or macroeconomic sentiment rather than individual company performance.",
-    "citable_metric": "1,000 Pts",
+    "hook_headline": "The 0.25% repo hike: How your Rs 10 lakh FD just changed its math",
+    "core_illusion": "Assuming that existing deposits automatically adjust upward or that all banks will instantly raise FD rates by the same margin.",
+    "hidden_reality": "A repo rate change signals benchmark borrowing costs, but individual banks determine the timing, tenures, and deposit sizes—such as Rs 1 lakh to Rs 10 lakh—that receive higher interest rates.",
+    "citable_metric": "5.25%",
     "all_metrics": [
-      "1,000 Pts",
-      "22,300"
+      "5.25%",
+      "5.50%",
+      "Rs 1 lakh",
+      "Rs 10 lakh"
     ],
-    "actionable_rule": "Review your asset allocation and investment horizon rather than reacting to short-term index volatility, and verify if the drop aligns with your original risk tolerance.",
-    "breaking_event": "The Indian stock market experienced a significant downturn on October 8, 2026, with the Sensex falling by nearly 1,000 points and the Nifty index dropping below the 22,300 level.",
-    "lead_magnet": {
-      "title": "Market Volatility Checklist",
-      "description": "A guide to assessing your portfolio health during index corrections."
-    },
+    "actionable_rule": "Review specific bank rate schedules across different tenures before booking new deposits, keeping in mind that existing fixed deposits remain at their contracted rates until maturity.",
+    "breaking_event": "The Reserve Bank of India increased the repo rate from 5.25% to 5.50%, paving the way for commercial banks to potentially increase fixed deposit interest rates.",
+    "lead_magnet": {},
     "banned_phrases": [
       "guaranteed wealth",
       "quick money",
@@ -137,198 +129,194 @@
     ]
   },
   "deck": {
-    "caption": "Market indices like Sensex and Nifty just took a sharp turn, leaving many first-time investors worried about their savings. Before you panic, here is what you need to know:\n\n• Why big index drops happen (it’s not always about your specific stocks).\n• How a market dip actually changes your buying power.\n• Why your long-term plan is stronger than a single-day crash.\n\nSave this post to revisit when the market gets noisy. Share it with a friend who is checking their portfolio every hour today.\n\nDoes a sudden market drop mean you should sell your long-term investments to stop the bleeding, or is it a time to stay the course? \n\n#StockMarketIndia #Sensex #Nifty #InvestingForBeginners #MarketVolatility",
+    "caption": "The RBI just moved the repo rate from 5.25% to 5.5%. Does this mean your bank balance is about to grow? \n\nInside this post:\n• Why a repo hike doesn't mean an instant FD raise.\n• The truth about your existing deposits.\n• How to calculate your next move.\n\nSave this to check your bank's new rates before you book your next FD. \n\nIf your bank keeps your current FD rate the same despite this news, would you move your money to a bank offering a higher rate, or stay for the convenience? \n\n#FixedDeposit #RBI #PersonalFinanceIndia #BankingUpdates #SmartInvesting",
     "slides": [
       {
         "role": "hook",
-        "title": "Sensex down 1,000 points and Nifty below 22,300: see how a single-day pull-back resets your SIP buying cost.",
-        "body": "The Indian stock market saw a sharp decline on October 8, 2026. For a new investor, seeing a '1,000 point drop' can be scary, but here is what it actually means for your money.",
+        "title": "The Repo Rate Shift: How your Rs 1 lakh to Rs 10 lakh FD math just changed",
+        "body": "The Reserve Bank of India recently moved the repo rate from 5.25% to 5.5%. Here is what this means for your savings.",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Sensex down",
-          "<span class='highlight-box'>1,000 points</span>",
-          "and Nifty"
+          "The Repo",
+          "<span class='highlight-box'>Rate Shift:</span>",
+          "How your"
         ],
         "card_text": ""
       },
       {
         "role": "value_1",
-        "title": "What is an Index?",
-        "body": "card_text",
-        "content": "Think of the Sensex and Nifty as a 'report card' for the biggest companies in India. When they drop, it means the market as a whole is feeling pressure, not necessarily that your specific investments have failed.",
+        "title": "What is the Repo Rate?",
+        "comparison_data": "Think of the repo rate as the interest rate at which the RBI lends money to commercial banks. When this rate goes up, it becomes more expensive for banks to borrow, which often leads them to offer higher interest rates on your Fixed Deposits (FDs).",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
           "What is",
-          "<span class='highlight-box'>an Index?</span>"
+          "<span class='highlight-box'>the Repo</span>",
+          "Rate?"
         ],
-        "card_text": "card_text Think of the Sensex and Nifty as a 'report card' for the biggest companies in India. When they drop, it means the market as a whole is feeling pressure, not necessarily that your specific investments have failed."
+        "card_text": "Think of the repo rate as the interest rate at which the RBI lends money to commercial banks. When this rate goes up, it becomes more expensive for banks to borrow, which often leads them to offer higher interest rates on your Fixed Deposits (FDs)."
       },
       {
         "role": "value_2",
-        "title": "Why did the market drop?",
-        "body": "card_text",
-        "content": "Large drops are often caused by 'broad-based selling.' This happens when many investors react to global news or economic sentiment at the same time, causing a temporary dip in prices across the board.",
+        "title": "Does your existing FD change?",
+        "card_text": "Myth: My current FD interest rate will automatically increase because of the RBI announcement. \n\nReality: No. Your existing FD is locked at the interest rate you agreed upon when you opened it. It will not change until the deposit reaches its maturity date.",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Why did",
-          "<span class='highlight-box'>the market</span>",
-          "drop?"
-        ],
-        "card_text": "card_text Large drops are often caused by 'broad-based selling.' This happens when many investors react to global news or economic sentiment at the same time, causing a temporary dip in prices across the board."
+          "Does your",
+          "<span class='highlight-box'>existing FD</span>",
+          "change?"
+        ]
       },
       {
         "role": "value_3",
-        "title": "Myth vs. Reality",
-        "body": "comparison_data",
-        "content": "Myth: A 1,000 point drop means my investment is worthless. Reality: A drop in the index is a change in the current price, not a loss of your long-term value.",
+        "title": "Will all banks raise rates instantly?",
+        "stat_data": "Banks are independent. While the RBI moved the rate to 5.5%, each bank decides if, when, and by how much they will increase their specific FD rates. There is no 'automatic' rule for every bank.",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>Myth vs.</span>",
-          "Reality"
+          "Will all",
+          "<span class='highlight-box'>banks raise</span>",
+          "rates instantly?"
         ],
-        "card_text": "comparison_data Myth: A 1,000 point drop means my investment is worthless. Reality: A drop in the index is a change in the current price, not a loss of your long-term value."
+        "card_text": "Banks are independent. While the RBI moved the rate to 5.5%, each bank decides if, when, and by how much they will increase their specific FD rates. There is no 'automatic' rule for every bank."
       },
       {
         "role": "value_4",
-        "title": "The SIP Advantage",
-        "body": "card_text",
-        "content": "If you invest through an SIP (Systematic Investment Plan), a market drop is actually a chance to buy more units for the same amount of money. You are buying 'on sale' when prices are lower.",
+        "title": "The 'Wait and Watch' Strategy",
+        "flowchart_data": "Step 1: Check your bank's latest rate card. Step 2: Compare rates across different tenures. Step 3: Wait for banks to announce their updated FD interest schedules before locking in new money.",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>The SIP</span>",
-          "Advantage"
+          "The 'Wait",
+          "<span class='highlight-box'>and Watch'</span>",
+          "Strategy"
         ],
-        "card_text": "card_text If you invest through an SIP (Systematic Investment Plan), a market drop is actually a chance to buy more units for the same amount of money. You are buying 'on sale' when prices are lower."
+        "card_text": "Step 1: Check your bank's latest rate card. Step 2: Compare rates across different tenures. Step 3: Wait for banks to announce their updated FD interest schedules before locking in new money."
       },
       {
         "role": "value_5",
-        "title": "Should you sell now?",
-        "body": "checklist_data",
-        "content": "Panic selling: FAIL. Reviewing your original goal: PASS. Checking if your risk tolerance has changed: PASS. Staying invested for the long term: PASS.",
+        "title": "Checklist for your next FD",
+        "checklist_data": "1. Verify if the bank has updated rates (Pass/Fail). 2. Compare the interest rate for your specific tenure (Pass/Fail). 3. Confirm if the new rate applies to your deposit amount (Rs 1 lakh - Rs 10 lakh) (Pass/Fail).",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Should you",
-          "<span class='highlight-box'>sell now?</span>"
+          "Checklist for",
+          "<span class='highlight-box'>your next</span>",
+          "FD"
         ],
-        "card_text": "checklist_data Panic selling: FAIL. Reviewing your original goal: PASS. Checking if your risk tolerance has changed: PASS. Staying invested for the long term: PASS."
+        "card_text": "1. Verify if the bank has updated rates (Pass/Fail). 2. Compare the interest rate for your specific tenure (Pass/Fail). 3. Confirm if the new rate applies to your deposit amount (Rs 1 lakh - Rs 10 lakh) (Pass/Fail)."
       },
       {
         "role": "value_6",
-        "title": "Your Action Plan",
-        "body": "flowchart_data",
-        "content": "1. Take a breath. 2. Check your investment horizon (are you investing for 5+ years?). 3. Ignore the daily noise. 4. Stick to your original plan.",
+        "title": "Why small changes matter",
+        "card_text": "Even a small increase in the interest rate can lead to a noticeably higher maturity amount on deposits ranging from Rs 1 lakh to Rs 10 lakh. Always calculate the total interest earned over the full tenure before deciding.",
         "slide_index": 7,
+        "tag": "#MARKETDEBUNK",
+        "title_lines": [
+          "Why small",
+          "<span class='highlight-box'>changes matter</span>"
+        ]
+      },
+      {
+        "role": "bookmark_save",
+        "title": "Your Action Plan",
+        "cta_detail": "Before booking your next FD, visit your bank's website or branch to see their updated interest rate schedule. Save this post to remind yourself to compare rates before you lock your money away.",
+        "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
           "<span class='highlight-box'>Your Action</span>",
           "Plan"
         ],
-        "card_text": "flowchart_data 1. Take a breath. 2. Check your investment horizon (are you investing for 5+ years?). 3. Ignore the daily noise. 4. Stick to your original plan."
-      },
-      {
-        "role": "bookmark_save",
-        "title": "Stay calm, stay invested",
-        "cta_detail": "Market volatility is normal. Before making any changes, ask yourself: 'Has my long-term goal changed, or just the daily price?' Save this post to keep your focus on the long run.",
-        "slide_index": 8,
-        "tag": "#MARKETDEBUNK",
-        "title_lines": [
-          "Stay calm,",
-          "<span class='highlight-box'>stay invested</span>"
-        ],
         "card_text": ""
       }
     ],
-    "fact_check_status": "verified_pass",
+    "fact_check_status": "verified_after_repair",
     "audio_recommendation": {
-      "title": "Pulse of Capital (Synthwave Focus)",
-      "artist": "Maxence Cyrin / Philip Glass",
-      "bpm": 118,
-      "vibe": "Analytical Depth & Clarity",
-      "reels_boost_tier": "Steady Evergreen",
-      "search_query": "Philip Glass Opening Piano"
+      "title": "Time (Institutional Minimalist Mix)",
+      "artist": "Hans Zimmer",
+      "bpm": 124,
+      "vibe": "Deep Mathematical Compounding",
+      "reels_boost_tier": "Top Tier",
+      "search_query": "Hans Zimmer Time Inception"
     }
   },
   "audio": {
-    "title": "Pulse of Capital (Synthwave Focus)",
-    "artist": "Maxence Cyrin / Philip Glass",
-    "bpm": 118,
-    "vibe": "Analytical Depth & Clarity",
-    "reels_boost_tier": "Steady Evergreen",
-    "search_query": "Philip Glass Opening Piano"
+    "title": "Time (Institutional Minimalist Mix)",
+    "artist": "Hans Zimmer",
+    "bpm": 124,
+    "vibe": "Deep Mathematical Compounding",
+    "reels_boost_tier": "Top Tier",
+    "search_query": "Hans Zimmer Time Inception"
   },
-  "run_id": "20261008_192957",
+  "run_id": "20261009_103909",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "Sensex down 1,000 points and Nifty below 22,300: see how a single-day pull-back resets your SIP buying cost.",
-      "highlight_word": "1,000 points",
-      "core_mechanism": "Breaks down the exact structural numeric shift—Sensex cracking nearly 1,000 points and Nifty breaking 22,300—to reframe sharp market drops into unit allocation math for monthly SIP investors.",
+      "headline_hook": "The 0.25% repo hike: How your Rs 10 lakh FD just changed its math",
+      "highlight_word": "changed math",
+      "core_mechanism": "Forces the user to quantify the jump from 5.25% to 5.50% repo rate against their own deposit size, highlighting the friction between static savings and dynamic policy changes.",
       "scores": {
         "curiosity_gap": 9.0,
-        "retail_actionability": 9.0,
+        "retail_actionability": 9.5,
         "data_density": 9.5,
-        "friction_quotient": 9.5,
+        "friction_quotient": 9.0,
         "total": 37.0
       },
-      "critic_critique": "Dominates by strictly applying the MATHEMATICAL_FRICTION archetype. Uses verified numbers (1,000 pts drop, 22,300 level) directly from the source to replace market panic with concrete valuation math."
+      "critic_critique": "Strongest entry. It uses the exact repo rate figures (5.25% to 5.50%) to create immediate mathematical friction, forcing the reader to re-evaluate their current deposit yield."
     },
     "critic_score": 9.2,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It grounds the headline directly in verified numbers from the source (1,000-point Sensex drop and Nifty cracking below 22,300) and converts market noise into actionable portfolio math for household SIP investors.",
-    "final_editorial_directive": "Focus Slide 1 entirely on the exact index data points (1,000 points and 22,300 level) and translate the crash into a practical mathematical evaluation of monthly SIP unit allocation, avoiding exaggerated doom narratives or unverified return promises.",
+    "selection_rationale": "Candidate B is the definitive winner because it uses the 0.25% rate hike as a 'friction point' that compels the user to calculate the delta on their own capital. It avoids speculative narrative and sticks to the verifiable link between RBI policy and consumer FD maturity.",
+    "final_editorial_directive": "Slide copywriters must lead with the delta (0.25%) and apply it immediately to the Rs 1 lakh - Rs 10 lakh deposit range. Do not promise specific returns; frame the content as a 'check-your-bank' tool for depositors.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "When Nifty drops below 22,300, panic selling feels safe—until you compute the tax and exit load penalty.",
-        "highlight_word": "panic selling",
-        "core_mechanism": "Exposes the hidden friction of stopping long-term equity SIPs during a sharp market pullback instead of rebalancing risk.",
+        "headline_hook": "Why waiting for the next bank update could cost you on your Rs 1 lakh FD",
+        "highlight_word": "cost you",
+        "core_mechanism": "Contrasts the common belief that FD rates are static with the reality of repo rate-linked adjustments, using the 5.25% to 5.50% hike as a catalyst for potential maturity gains.",
         "scores": {
-          "curiosity_gap": 8.0,
+          "curiosity_gap": 7.0,
           "retail_actionability": 7.5,
-          "data_density": 7.5,
-          "friction_quotient": 8.0,
-          "total": 31.0
+          "data_density": 8.0,
+          "friction_quotient": 7.0,
+          "total": 29.5
         },
-        "critic_critique": "Solid contrarian narrative on retail panic response, but lacks the immediate mathematical punch of exact point drag."
+        "critic_critique": "A lacks a specific, named founder or person from the source text, making the 'A' archetype impossible to fulfill truthfully. It relies on a generic warning rather than evidence-backed narrative."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Sensex down 1,000 points and Nifty below 22,300: see how a single-day pull-back resets your SIP buying cost.",
-        "highlight_word": "1,000 points",
-        "core_mechanism": "Breaks down the exact structural numeric shift—Sensex cracking nearly 1,000 points and Nifty breaking 22,300—to reframe sharp market drops into unit allocation math for monthly SIP investors.",
+        "headline_hook": "The 0.25% repo hike: How your Rs 10 lakh FD just changed its math",
+        "highlight_word": "changed math",
+        "core_mechanism": "Forces the user to quantify the jump from 5.25% to 5.50% repo rate against their own deposit size, highlighting the friction between static savings and dynamic policy changes.",
         "scores": {
           "curiosity_gap": 9.0,
-          "retail_actionability": 9.0,
+          "retail_actionability": 9.5,
           "data_density": 9.5,
-          "friction_quotient": 9.5,
+          "friction_quotient": 9.0,
           "total": 37.0
         },
-        "critic_critique": "Dominates by strictly applying the MATHEMATICAL_FRICTION archetype. Uses verified numbers (1,000 pts drop, 22,300 level) directly from the source to replace market panic with concrete valuation math."
+        "critic_critique": "Strongest entry. It uses the exact repo rate figures (5.25% to 5.50%) to create immediate mathematical friction, forcing the reader to re-evaluate their current deposit yield."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "While index benchmarks crack under 22,300, retail portfolios panic while institutional capital recalculates entry levels.",
-        "highlight_word": "recalculates entry",
-        "core_mechanism": "Highlights how market correction levels trigger institutional systematic rebalancing while retail investors pause monthly contributions.",
+        "headline_hook": "RBI hikes repo rate: Is your bank passing on the extra maturity?",
+        "highlight_word": "passing on",
+        "core_mechanism": "Focuses on the lag between central bank policy (repo rate) and commercial bank action (FD rates), prompting the user to check if their bank is adjusting their specific deposit bracket.",
         "scores": {
-          "curiosity_gap": 8.0,
-          "retail_actionability": 8.0,
-          "data_density": 8.0,
-          "friction_quotient": 8.5,
-          "total": 32.5
+          "curiosity_gap": 8.5,
+          "retail_actionability": 9.0,
+          "data_density": 8.5,
+          "friction_quotient": 8.0,
+          "total": 34.0
         },
-        "critic_critique": "Good framing on institutional vs retail behavior, but slightly less precise than Candidate B on raw numerical friction."
+        "critic_critique": "Excellent focus on the mechanic of institutional lag. It effectively turns a policy announcement into a concrete consumer check-list item."
       }
     ]
   },
@@ -341,14 +329,14 @@
       "whitespace_score": 9.0,
       "overall_score": 9.3,
       "passed": true,
-      "critique_summary": "The design achieves high-impact minimalism with excellent contrast on the primary call-out. The composition is clean and effectively mimics a professional financial news alert style.",
+      "critique_summary": "The typography is excellent, utilizing strong weight contrast and effective color blocking that mimics premium financial editorial standards. The layout is clean and optimized for immediate cognitive absorption on mobile screens.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
         "line_height": "1.1",
-        "notes": "The alignment and spacing are already optimal for mobile consumption; no critical changes required."
+        "notes": "The current layout is highly effective; minor tightening of line-height could further sharpen the premium editorial aesthetic."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-08T19:30:05.741020+00:00"
+  "exported_at": "2026-10-09T10:39:17.298323+00:00"
 }

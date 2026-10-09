@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 28,
+  "total_cycles_recorded": 29,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.45,
-    "MATHEMATICAL_FRICTION": 2.45,
+    "MATHEMATICAL_FRICTION": 2.5,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
   "high_contrast_themes": [
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B is the definitive winner. By leveraging MATHEMATICAL_FRICTION, it moves beyond subjective market opinions an",
     "Candidate B aligns perfectly with the MATHEMATICAL_FRICTION archetype (weight 1.9). It transforms abstract price action ",
     "Candidate B adheres strictly to the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.9). It strips the headline of",
     "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.0). By translating an abstrac",
@@ -38,7 +37,8 @@
     "Candidate B is the definitive winner because it adheres strictly to the MATHEMATICAL_FRICTION archetype. By stripping aw",
     "Candidate B effectively leverages the 'MATHEMATICAL_FRICTION' archetype by framing the change as a systemic shift in how",
     "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It uses the exact data poi",
-    "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It grounds the headline di"
+    "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It grounds the headline di",
+    "Candidate B is the definitive winner because it uses the 0.25% rate hike as a 'friction point' that compels the user to "
   ],
   "cycle_history": [
     {
@@ -292,6 +292,15 @@
       "critic_score": 9.2,
       "visual_score": 9.4,
       "key_learning": "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It grounds the headline di"
+    },
+    {
+      "cycle": 29,
+      "timestamp": "2026-10-09T10:39:17.297409+00:00",
+      "topic": "FD rate hike calculator: Check extra maturity you can get on Rs 1 lakh-Rs 10 lak",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.2,
+      "visual_score": 9.4,
+      "key_learning": "Candidate B is the definitive winner because it uses the 0.25% rate hike as a 'friction point' that compels the user to "
     }
   ]
 }
