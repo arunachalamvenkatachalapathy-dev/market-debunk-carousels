@@ -1360,6 +1360,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "Ransomware Recovery Scam Nets $11M as AI Hits Banks [2026] - https://tech-insider.org/",
+      "media_id": "18176011912444839",
+      "timestamp": "2026-10-09T19:13:34.253509+00:00",
+      "topic_category": "LIQUIDITY_TRAP",
+      "hook_archetype": "CONTRARIAN",
+      "hashtag_cluster": "default",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18176011912444839",
+          "permalink": "https://www.instagram.com/p/DeSO5SjDFKf/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122120178561474347",
+          "url": "https://www.facebook.com/1247247545146839_122120178561474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }
