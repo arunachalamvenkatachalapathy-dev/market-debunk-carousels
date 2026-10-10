@@ -152,6 +152,7 @@ jobs:
 
       - name: Upload Carousel PDF Artifact
         uses: actions/upload-artifact@v4
+          retention-days: 2
         with:
           name: market-debunk-carousel-pdf-evening
           path: state/latest_carousel.pdf
@@ -160,6 +161,7 @@ jobs:
       - name: Upload Thinker Incident Report (if exists)
         if: always()
         uses: actions/upload-artifact@v4
+          retention-days: 2
         with:
           name: thinker-incident-report-evening
           path: state/thinker_incident_report.json
