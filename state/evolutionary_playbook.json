@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 30,
+  "total_cycles_recorded": 31,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.45,
     "MATHEMATICAL_FRICTION": 2.5,
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B adheres strictly to the prioritized MATHEMATICAL_FRICTION archetype (weight: 1.9). It strips the headline of",
     "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.0). By translating an abstrac",
     "Candidate B wins because it weaponizes MATHEMATICAL_FRICTION. It bypasses subjective market narratives and forces the us",
     "Candidate B wins by weaponizing MATHEMATICAL_FRICTION. It strips away the 'hero narrative' of high returns and replaces ",
@@ -38,7 +37,8 @@
     "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It uses the exact data poi",
     "Candidate B strictly adheres to the prioritized MATHEMATICAL_FRICTION archetype (weight 2.4). It grounds the headline di",
     "Candidate B is the definitive winner because it uses the 0.25% rate hike as a 'friction point' that compels the user to ",
-    "Candidate B adheres directly to MATHEMATICAL_FRICTION using the exact $11M figure from the source context. It establishe"
+    "Candidate B adheres directly to MATHEMATICAL_FRICTION using the exact $11M figure from the source context. It establishe",
+    "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the"
   ],
   "cycle_history": [
     {
@@ -310,6 +310,15 @@
       "critic_score": 8.9,
       "visual_score": 9.4,
       "key_learning": "Candidate B adheres directly to MATHEMATICAL_FRICTION using the exact $11M figure from the source context. It establishe"
+    },
+    {
+      "cycle": 31,
+      "timestamp": "2026-10-10T10:05:06.144790+00:00",
+      "topic": "A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked ",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.3,
+      "visual_score": 9.3,
+      "key_learning": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the"
     }
   ]
 }

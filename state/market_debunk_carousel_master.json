@@ -1,132 +1,120 @@
 {
   "topic": {
-    "title": "Ransomware Recovery Scam Nets $11M as AI Hits Banks [2026] - https://tech-insider.org/",
+    "title": "A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked no-cost EMI in festive sales – Who saved most after discounts?",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 77.3,
-    "source": "https://tech-insider.org/",
-    "source_snippet": "Ransomware Recovery Scam Nets $11M as AI Hits Banks [2026]&nbsp;&nbsp;https://tech-insider.org/",
-    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvUEpLa2lfZlFGeFB2ZnktR29jMW1sNDgyT0UtWUhIYlBEYm9fTERERTd2Wi1abExncW80Z3NSZ0hsMHpTSmxYNWpReEZDcTdnMm1ncFJsOFlrYzM1REllX1JUOGV5SFhsM3pxRW9hOXlSUXI5cDV3RVJ6OU16dw?oc=5",
-    "raw_text": "Ransomware Recovery Scam Nets $11M as AI Hits Banks [2026] - https://tech-insider.org/. Ransomware Recovery Scam Nets $11M as AI Hits Banks [2026]&nbsp;&nbsp;https://tech-insider.org/",
+    "topic_category": "WEALTH_LEAK",
+    "viral_demand_score": 94.9,
+    "source": "Economic Times Wealth & Personal Finance",
+    "source_snippet": "The biggest misconception about no-cost EMI is that the bank doesn't charge any interest. In a no-cost EMI, the seller readjusts the interest amount so that the sum of all the EMIs adds up to the price you would pay upfront. However, interest still exists, and interest attracts GST. So, among A, B, and C, who would end up saving the most? Find out here.",
+    "source_url": "https://economictimes.indiatimes.com/wealth/spend/iphone-18-pro-credit-card-emi-vs-no-cost-emi-vs-upfront-payment-festive-offers-deals-sale/articleshow/134833787.cms",
+    "raw_text": "A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked no-cost EMI in festive sales – Who saved most after discounts?. The biggest misconception about no-cost EMI is that the bank doesn't charge any interest. In a no-cost EMI, the seller readjusts the interest amount so that the sum of all the EMIs adds up to the price you would pay upfront. However, interest still exists, and interest attracts GST. So, among A, B, and C, who would end up saving the most? Find out here.",
     "numbers_detected": [
-      "$11",
-      "2026",
-      "$11",
-      "2026"
+      "1,64",
+      "900",
+      "18"
     ],
-    "published_at": "2026-10-09T18:22:26+00:00",
-    "age_hours": 0.7,
-    "retrieved_at": "2026-10-09T19:02:10.193316+00:00",
-    "date": "09 Oct 2026",
+    "published_at": "2026-10-10T10:10:00+05:30",
+    "age_hours": 5.2,
+    "retrieved_at": "2026-10-10T09:54:38.777153+00:00",
+    "date": "10 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: https://tech-insider.org/ | Published: 2026-10-09T18:22:26+00:00 (0.7h ago) | Headline: Ransomware Recovery Scam Nets $11M as AI Hits Banks [2026] - https://tech-insider.org/ | Context: Ransomware Recovery Scam Nets $11M as AI Hits Banks [2026] - https://tech-insider.org/. Ransomware Recovery Scam Nets $11M as AI Hits Banks [2026]&nbsp;&nbsp;https://tech-insider.org/",
+    "evidence_snapshot": "Source: Economic Times Wealth & Personal Finance | Published: 2026-10-10T10:10:00+05:30 (5.2h ago) | Headline: A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked no-cost EMI in festive sales – Who saved most after discounts? | Context: A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked no-cost EMI in festive sales – Who saved most after discounts?. The biggest misconception about no-cost EMI is that the bank doesn't charge any interest. In a no-cost EMI, the seller readjusts the interest amount so that the sum of all the EMIs adds up to the price you would pay upfront. However, interest still exists,",
     "news_analysis": {
-      "headline_hook": "When banks face AI attacks, paying third-party 'recovery agents' cost victims $11M in unrecoverable secondary losses.",
-      "breaking_event_summary": "A ransomware recovery scam has successfully extracted $11M from financial systems, highlighting vulnerabilities in banking infrastructure as of October 2026.",
-      "retail_illusion": "Are retail banking customers protected from the financial fallout of institutional ransomware attacks?",
-      "institutional_reality": "The source indicates that AI-enhanced threats are successfully bypassing existing security measures, resulting in significant capital loss for the targeted entities.",
+      "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
+      "breaking_event_summary": "An analysis of festive payment options for an Rs 1,64,900 purchase compared upfront cash, regular credit card EMI, and no-cost EMI options. The breakdown highlighted that no-cost EMIs still incorporate bank interest adjusted by seller discounts, which subsequently incurs Goods and Services Tax (GST).",
+      "retail_illusion": "Buyers frequently assume that a 'no-cost EMI' means the financing bank charges zero interest on the purchase.",
+      "institutional_reality": "Under a no-cost EMI structure, the retailer gives an upfront discount matching the bank's interest so the sum of EMIs equals the retail price; however, interest is still formally levied by the lender, and that interest component attracts GST payable by the customer.",
       "citable_metrics": [
-        "$11M"
+        "Rs 1,64,900"
       ],
-      "debunk_category": "LIQUIDITY_TRAP",
-      "actionable_retail_rule": "Review your bank's digital security disclosures and verify if your account insurance covers losses resulting from institutional cyber-breaches.",
-      "lead_magnet": {
-        "title": "Cyber-Security Checklist for Indian Retail Investors",
-        "description": "A guide to verifying your bank's digital safety protocols."
-      },
-      "carousel_outline": [
-        "The rise of AI in financial cyber-attacks",
-        "How $11M was lost in the recent ransomware event",
-        "Understanding the difference between bank-side and user-side security",
-        "Steps to audit your own digital banking footprint"
-      ],
-      "highlight_word": "$11M loss",
-      "editorial_directive": "Emphasize to retail depositors that legitimate banks and RBI ombudsman systems never require paying an outside agent to retrieve frozen or compromised balances. Any demand for upfront 'data recovery' fees is a secondary siphon."
+      "debunk_category": "FEE_EXTRACTION",
+      "actionable_retail_rule": "Before opting for a no-cost EMI, verify the loan breakdown at checkout to calculate the 18% GST charged on the interest component and any applicable processing fees against upfront payment discounts.",
+      "lead_magnet": {},
+      "carousel_outline": [],
+      "highlight_word": "GST on interest",
+      "editorial_directive": "On Slide 1, state the ₹1,64,900 comparison between upfront payment, regular credit card EMI, and no-cost EMI. On subsequent slides, mathematically demonstrate the ledger: the retailer provides an upfront discount equal to the bank interest, but the bank levies GST on that interest component, making the 'no-cost' EMI objectively more expensive than upfront payment."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "When banks face AI attacks, paying third-party 'recovery agents' cost victims $11M in unrecoverable secondary losses.",
-        "highlight_word": "$11M loss",
-        "core_mechanism": "Victims attempting to salvage compromised digital accounts pay private recovery desks instead of following statutory bank dispute grievance protocols, compounding net loss to 100% of the second fee.",
+        "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
+        "highlight_word": "GST on interest",
+        "core_mechanism": "Deconstructs the merchant discount offset mechanism: the lender still charges interest, and because interest is a financial service, it legally attracts 18% GST that the buyer pays.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 8.5,
-          "data_density": 9.5,
-          "friction_quotient": 9.0,
-          "total": 35.5
+          "curiosity_gap": 9.0,
+          "retail_actionability": 9.5,
+          "data_density": 9.3,
+          "friction_quotient": 9.4,
+          "total": 37.2
         },
-        "critic_critique": "Sticks strictly to the verifiable $11M figure provided in the prompt while grounding the friction in mathematical reality: zero rupee recovery plus a guaranteed secondary scam charge."
+        "critic_critique": "Flawlessly executes MATHEMATICAL_FRICTION. Directly targets the hidden friction point: interest exists under the hood to reconcile bank books, triggering statutory GST that isn't waived."
       },
-      "critic_score": 8.9,
+      "critic_score": 9.3,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B adheres directly to MATHEMATICAL_FRICTION using the exact $11M figure from the source context. It establishes strong evidence integrity without inventing unsupported Indian rupee estimates, founders, or fake family anecdotes, while directly educating users never to pay third-party recovery services.",
-      "final_editorial_directive": "Emphasize to retail depositors that legitimate banks and RBI ombudsman systems never require paying an outside agent to retrieve frozen or compromised balances. Any demand for upfront 'data recovery' fees is a secondary siphon.",
+      "selection_rationale": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the mathematical leak: even when the seller discounts the principal to make the sum match upfront cash, the bank must report interest, triggering mandatory GST that prevents C from saving more than A.",
+      "final_editorial_directive": "On Slide 1, state the ₹1,64,900 comparison between upfront payment, regular credit card EMI, and no-cost EMI. On subsequent slides, mathematically demonstrate the ledger: the retailer provides an upfront discount equal to the bank interest, but the bank levies GST on that interest component, making the 'no-cost' EMI objectively more expensive than upfront payment.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Paying upfront to recover hacked bank deposits? An $11M scam proves you are paying the attacker twice.",
-          "highlight_word": "paying twice",
-          "core_mechanism": "Fraudulent 'ransomware recovery' agencies use AI-generated credentials to impersonate cybersecurity experts, charging victims upfront recovery fees while delivering zero retrieved funds.",
+          "headline_hook": "A paid ₹1,64,900 upfront, while C chose 'No-Cost EMI'—who actually saved more?",
+          "highlight_word": "No-Cost EMI",
+          "core_mechanism": "Direct comparison between upfront cash payment of ₹1,64,900 and a zero-interest retail promo, breaking down who ends up paying extra.",
           "scores": {
-            "curiosity_gap": 8.0,
-            "retail_actionability": 7.5,
+            "curiosity_gap": 9.2,
+            "retail_actionability": 8.8,
             "data_density": 8.5,
-            "friction_quotient": 8.0,
-            "total": 32.0
+            "friction_quotient": 8.7,
+            "total": 35.2
           },
-          "critic_critique": "Avoids unsupported founder narratives since the context gives no personal names. However, the direct actionability for daily Indian retail banking is slightly abstract."
+          "critic_critique": "Solid curiosity and directly references the ₹1,64,900 figure and buyers A, B, and C. Effectively pits upfront cash against advertised retail zero-cost financing."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "When banks face AI attacks, paying third-party 'recovery agents' cost victims $11M in unrecoverable secondary losses.",
-          "highlight_word": "$11M loss",
-          "core_mechanism": "Victims attempting to salvage compromised digital accounts pay private recovery desks instead of following statutory bank dispute grievance protocols, compounding net loss to 100% of the second fee.",
+          "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
+          "highlight_word": "GST on interest",
+          "core_mechanism": "Deconstructs the merchant discount offset mechanism: the lender still charges interest, and because interest is a financial service, it legally attracts 18% GST that the buyer pays.",
           "scores": {
-            "curiosity_gap": 8.5,
-            "retail_actionability": 8.5,
-            "data_density": 9.5,
-            "friction_quotient": 9.0,
-            "total": 35.5
+            "curiosity_gap": 9.0,
+            "retail_actionability": 9.5,
+            "data_density": 9.3,
+            "friction_quotient": 9.4,
+            "total": 37.2
           },
-          "critic_critique": "Sticks strictly to the verifiable $11M figure provided in the prompt while grounding the friction in mathematical reality: zero rupee recovery plus a guaranteed secondary scam charge."
+          "critic_critique": "Flawlessly executes MATHEMATICAL_FRICTION. Directly targets the hidden friction point: interest exists under the hood to reconcile bank books, triggering statutory GST that isn't waived."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Banks automate fraud defense with AI, but retail victims lose $11M hiring fake private retrieval services.",
-          "highlight_word": "fake retrieval",
-          "core_mechanism": "Institutional banking systems deploy AI to manage breaches internally, while individual depositors panic and bypass formal ombudsman channels for unlicensed online recovery firms.",
+          "headline_hook": "How retailers and banks disguise loan interest inside upfront festive discounts.",
+          "highlight_word": "disguise loan interest",
+          "core_mechanism": "Exposes how sellers discount the principal so total installments equal sticker price, while banks book interest and pass GST to the consumer.",
           "scores": {
-            "curiosity_gap": 7.5,
-            "retail_actionability": 8.0,
-            "data_density": 8.0,
-            "friction_quotient": 8.0,
-            "total": 31.5
+            "curiosity_gap": 8.6,
+            "retail_actionability": 8.4,
+            "data_density": 8.2,
+            "friction_quotient": 8.5,
+            "total": 33.7
           },
-          "critic_critique": "Highlights institutional defense versus retail vulnerability cleanly, but has slightly softer numerical tension than Candidate B."
+          "critic_critique": "Good systemic perspective, but lacks the immediate punch of the exact ₹1,64,900 friction calculation present in Candidate B."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "When banks face AI attacks, paying third-party 'recovery agents' cost victims $11M in unrecoverable secondary losses.",
-    "core_illusion": "Are retail banking customers protected from the financial fallout of institutional ransomware attacks?",
-    "hidden_reality": "The source indicates that AI-enhanced threats are successfully bypassing existing security measures, resulting in significant capital loss for the targeted entities.",
-    "citable_metric": "$11M",
+    "hook_headline": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
+    "core_illusion": "Buyers frequently assume that a 'no-cost EMI' means the financing bank charges zero interest on the purchase.",
+    "hidden_reality": "Under a no-cost EMI structure, the retailer gives an upfront discount matching the bank's interest so the sum of EMIs equals the retail price; however, interest is still formally levied by the lender, and that interest component attracts GST payable by the customer.",
+    "citable_metric": "Rs 1,64,900",
     "all_metrics": [
-      "$11M"
+      "Rs 1,64,900"
     ],
-    "actionable_rule": "Review your bank's digital security disclosures and verify if your account insurance covers losses resulting from institutional cyber-breaches.",
-    "breaking_event": "A ransomware recovery scam has successfully extracted $11M from financial systems, highlighting vulnerabilities in banking infrastructure as of October 2026.",
-    "lead_magnet": {
-      "title": "Cyber-Security Checklist for Indian Retail Investors",
-      "description": "A guide to verifying your bank's digital safety protocols."
-    },
+    "actionable_rule": "Before opting for a no-cost EMI, verify the loan breakdown at checkout to calculate the 18% GST charged on the interest component and any applicable processing fees against upfront payment discounts.",
+    "breaking_event": "An analysis of festive payment options for an Rs 1,64,900 purchase compared upfront cash, regular credit card EMI, and no-cost EMI options. The breakdown highlighted that no-cost EMIs still incorporate bank interest adjusted by seller discounts, which subsequently incurs Goods and Services Tax (GST).",
+    "lead_magnet": {},
     "banned_phrases": [
       "guaranteed wealth",
       "quick money",
@@ -135,143 +123,161 @@
     ]
   },
   "deck": {
-    "caption": "When banking systems face AI-driven cyber attacks, panic creates an even bigger trap: fake recovery agents who took $11M without fixing anything.\n\nHere is what you need to know:\n• How the secondary scam extracted $11M from locked financial systems\n• Why third-party 'unlocking' promises are dangerous illusions\n• How everyday bank account holders can protect their funds during system outages\n\nSave this breakdown for your digital safety, and share it with family members using digital banking.\n\nIf your banking app freezes during an outage, do you wait for branch circulars or search online for customer helpline numbers?\n\n#BankingSecurity #CyberSafety #FinancialLiteracy #DigitalBanking",
+    "caption": "Three shoppers bought a phone for Rs 164900: one paid upfront, one took bank EMI, and one picked no-cost EMI. Who actually paid less?\n\n• In a no-cost EMI, the bank still charges interest, masked by a retailer discount\n• Bank loan interest attracts government tax (GST) added to your monthly bill\n• Paying upfront avoids financing taxes and hidden processing charges\n\nSave this post before your next sale purchase and share it with someone planning a big upgrade.\n\nWhen buying expensive electronics, do you prefer paying full cash upfront or spreading payments via installments?\n\n#NoCostEMI #ConsumerFinance #FestiveSales #SmartSpending",
     "slides": [
       {
         "role": "hook",
-        "title": "When banks face AI attacks, fake 'recovery agents' took $11M in extra losses",
-        "text": "Cyber thieves locked institutional systems with AI, but the biggest secondary loss came from hiring unverified 'fixers' who promised to restore data.",
+        "title": "A, B, and C bought an iPhone 18 Pro for Rs 164900. Who actually saved the most?",
+        "highlight": "Who actually saved the most?",
+        "body": {
+          "text": "Three buyers chose three different payment routes in festive sales: full upfront cash, regular credit card monthly installments (EMI), and a promotional no-cost EMI. The final bill reveals a hidden fee."
+        },
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "When banks",
-          "<span class='highlight-box'>face AI</span>",
-          "attacks, fake"
+          "A, B,",
+          "<span class='highlight-box'>and C</span>",
+          "bought an"
         ],
         "card_text": ""
       },
       {
         "role": "value_1",
-        "title": "How the two-step trap works",
-        "flowchart_data": [
-          {
-            "step": "1",
-            "text": "AI tools breach and lock institutional banking infrastructure"
-          },
-          {
-            "step": "2",
-            "text": "Panic causes entities to seek urgent outside data restoration"
-          },
-          {
-            "step": "3",
-            "text": "Unverified recovery agents collect fees and disappear"
-          }
-        ],
+        "title": "The three festive payment choices",
+        "highlight": "three payment choices",
+        "body": {
+          "text": "Buyer A paid Rs 164900 upfront in one go. Buyer B converted the Rs 164900 purchase into a standard bank credit card EMI. Buyer C chose the festive 'no-cost EMI' deal, expecting zero extra charges."
+        },
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How the",
-          "<span class='highlight-box'>two-step trap</span>",
-          "works"
-        ]
+          "The three",
+          "<span class='highlight-box'>festive payment</span>",
+          "choices"
+        ],
+        "card_text": "three payment choices Buyer A paid Rs 164900 upfront in one go. Buyer B converted the Rs 164900 purchase into a standard bank credit card EMI. Buyer C chose the festive 'no-cost EMI' deal, expecting zero extra charges."
       },
       {
         "role": "value_2",
-        "title": "The documented cost of fake recovery",
-        "stat_data": {
-          "metric": "$11M",
-          "label": "Paid to fraudulent recovery intermediaries",
-          "context": "Reported losses in 2026 where financial institutions paid third parties who failed to recover locked systems."
+        "title": "The big myth of zero interest",
+        "highlight": "zero interest",
+        "comparison_data": {
+          "myth": "The financing bank waives interest charges entirely during festive no-cost EMI schemes.",
+          "reality": "The seller offers an upfront discount equal to the interest, but the bank still books a loan with interest."
         },
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The documented",
-          "<span class='highlight-box'>cost of</span>",
-          "fake recovery"
+          "The big",
+          "<span class='highlight-box'>myth of</span>",
+          "zero interest"
         ]
       },
       {
         "role": "value_3",
-        "title": "Official restoration vs. quick fixes",
-        "comparison_data": {
-          "myth": "Third-party internet agents can safely unlock frozen bank databases.",
-          "reality": "Ransomware recovery scams pocket upfront payments, leaving data locked and funds gone."
+        "title": "How a no-cost EMI actually works",
+        "highlight": "no-cost EMI actually works",
+        "flowchart_data": {
+          "steps": [
+            {
+              "step": 1,
+              "text": "Retailer discounts the phone price by the exact interest amount"
+            },
+            {
+              "step": 2,
+              "text": "Bank finances the discounted amount and levies interest on the loan"
+            },
+            {
+              "step": 3,
+              "text": "Monthly installments add up to the original Rs 164900 sticker price"
+            }
+          ]
         },
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Official restoration",
-          "<span class='highlight-box'>vs. quick</span>",
-          "fixes"
-        ]
+          "How a",
+          "<span class='highlight-box'>no-cost EMI</span>",
+          "actually works"
+        ],
+        "card_text": "no-cost EMI actually works Retailer discounts the phone price by the exact interest amount Bank finances the discounted amount and levies interest on the loan Monthly installments add up to the original Rs 164900 sticker price"
       },
       {
         "role": "value_4",
-        "title": "What this means for everyday savers",
-        "card_text": "When institutional networks get hit, local ATMs and digital transfers can temporarily pause. Fraudsters use this window to call account holders posing as bank IT staff to 'verify' login pins. Real banks never ask for passwords to fix system downtime.",
+        "title": "The tax catch: GST on bank interest",
+        "highlight": "GST on bank interest",
+        "body": {
+          "text": "Goods and Services Tax (GST) is a mandatory government tax applied to financial services. Even though the retailer subsidized your interest upfront, the bank is legally required to levy GST on the interest component billed to you every month."
+        },
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "What this",
-          "<span class='highlight-box'>means for</span>",
-          "everyday savers"
-        ]
+          "The tax",
+          "<span class='highlight-box'>catch: GST</span>",
+          "on bank interest"
+        ],
+        "card_text": "GST on bank interest Goods and Services Tax (GST) is a mandatory government tax applied to financial services. Even though the retailer subsidized your interest upfront, the bank is legally required to levy GST on the interest component billed to you every month."
       },
       {
         "role": "value_5",
-        "title": "Safety checks during a banking outage",
-        "checklist_data": [
-          {
-            "item": "Rely only on official bank notices at your physical branch",
-            "status": "pass",
-            "text": ""
-          },
-          {
-            "item": "Never share OTPs with callers offering to 'speed up' transfers",
-            "status": "pass",
-            "text": ""
-          },
-          {
-            "item": "Search third-party social media numbers for branch helplines",
-            "status": "fail",
-            "text": ""
-          }
-        ],
+        "title": "Who ended up paying the least?",
+        "highlight": "paying the least",
+        "body": {
+          "text": "Buyer B paid the most due to standard bank interest plus GST. Buyer C paid Rs 164900 plus extra GST on the monthly interest component. Buyer A, paying upfront, incurred no loan interest and zero financing tax, paying the least overall."
+        },
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Safety checks",
-          "<span class='highlight-box'>during a</span>",
-          "banking outage"
-        ]
+          "Who ended",
+          "<span class='highlight-box'>up paying</span>",
+          "the least?"
+        ],
+        "card_text": "paying the least Buyer B paid the most due to standard bank interest plus GST. Buyer C paid Rs 164900 plus extra GST on the monthly interest component. Buyer A, paying upfront, incurred no loan interest and zero financing tax, paying the least overall."
       },
       {
         "role": "value_6",
-        "title": "What remains uncertain",
-        "card_text": "Regulators have not fully established how much retail insurance shields individual accounts if an institution suffers major capital loss from AI cyber attacks. The speed of system recovery without paying middlemen remains unstandardized.",
+        "title": "Checkout verification checklist",
+        "highlight": "verification checklist",
+        "checklist_data": {
+          "items": [
+            {
+              "text": "Compare upfront card discounts against total installment benefits",
+              "status": "pass"
+            },
+            {
+              "text": "Check checkout breakdown for GST charged on the interest component",
+              "status": "fail"
+            },
+            {
+              "text": "Verify one-time bank loan processing fees before finalizing EMI",
+              "status": "fail"
+            }
+          ]
+        },
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>What remains</span>",
-          "uncertain"
-        ]
+          "<span class='highlight-box'>Checkout verification</span>",
+          "checklist"
+        ],
+        "card_text": "verification checklist Compare upfront card discounts against total installment benefits Check checkout breakdown for GST charged on the interest component Verify one-time bank loan processing fees before finalizing EMI"
       },
       {
         "role": "bookmark_save",
-        "title": "Never trust outside 'agents' to unlock money",
-        "cta_detail": "Save this slide. If your banking services freeze, wait for verified notifications from your bank's registered office. Never send money or codes to anyone promising quick restoration.",
+        "title": "Always verify loan taxes before opting for EMI",
+        "highlight": "verify loan taxes",
+        "cta_detail": "Save this guide for festive sales and share it with family members planning an electronics purchase.",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Never trust",
-          "<span class='highlight-box'>outside 'agents'</span>",
-          "to unlock money"
+          "Always verify",
+          "<span class='highlight-box'>loan taxes</span>",
+          "before opting for EMI"
         ],
         "card_text": ""
       }
     ],
-    "fact_check_status": "verified_pass",
+    "fact_check_status": "verified_after_repair",
     "audio_recommendation": {
       "title": "Experience (Ludovico Instrumental)",
       "artist": "Ludovico Einaudi",
@@ -289,93 +295,93 @@
     "reels_boost_tier": "Top Tier",
     "search_query": "Ludovico Einaudi Experience"
   },
-  "run_id": "20261009_191206",
+  "run_id": "20261010_100449",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "When banks face AI attacks, paying third-party 'recovery agents' cost victims $11M in unrecoverable secondary losses.",
-      "highlight_word": "$11M loss",
-      "core_mechanism": "Victims attempting to salvage compromised digital accounts pay private recovery desks instead of following statutory bank dispute grievance protocols, compounding net loss to 100% of the second fee.",
+      "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
+      "highlight_word": "GST on interest",
+      "core_mechanism": "Deconstructs the merchant discount offset mechanism: the lender still charges interest, and because interest is a financial service, it legally attracts 18% GST that the buyer pays.",
       "scores": {
-        "curiosity_gap": 8.5,
-        "retail_actionability": 8.5,
-        "data_density": 9.5,
-        "friction_quotient": 9.0,
-        "total": 35.5
+        "curiosity_gap": 9.0,
+        "retail_actionability": 9.5,
+        "data_density": 9.3,
+        "friction_quotient": 9.4,
+        "total": 37.2
       },
-      "critic_critique": "Sticks strictly to the verifiable $11M figure provided in the prompt while grounding the friction in mathematical reality: zero rupee recovery plus a guaranteed secondary scam charge."
+      "critic_critique": "Flawlessly executes MATHEMATICAL_FRICTION. Directly targets the hidden friction point: interest exists under the hood to reconcile bank books, triggering statutory GST that isn't waived."
     },
-    "critic_score": 8.9,
+    "critic_score": 9.3,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B adheres directly to MATHEMATICAL_FRICTION using the exact $11M figure from the source context. It establishes strong evidence integrity without inventing unsupported Indian rupee estimates, founders, or fake family anecdotes, while directly educating users never to pay third-party recovery services.",
-    "final_editorial_directive": "Emphasize to retail depositors that legitimate banks and RBI ombudsman systems never require paying an outside agent to retrieve frozen or compromised balances. Any demand for upfront 'data recovery' fees is a secondary siphon.",
+    "selection_rationale": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the mathematical leak: even when the seller discounts the principal to make the sum match upfront cash, the bank must report interest, triggering mandatory GST that prevents C from saving more than A.",
+    "final_editorial_directive": "On Slide 1, state the ₹1,64,900 comparison between upfront payment, regular credit card EMI, and no-cost EMI. On subsequent slides, mathematically demonstrate the ledger: the retailer provides an upfront discount equal to the bank interest, but the bank levies GST on that interest component, making the 'no-cost' EMI objectively more expensive than upfront payment.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Paying upfront to recover hacked bank deposits? An $11M scam proves you are paying the attacker twice.",
-        "highlight_word": "paying twice",
-        "core_mechanism": "Fraudulent 'ransomware recovery' agencies use AI-generated credentials to impersonate cybersecurity experts, charging victims upfront recovery fees while delivering zero retrieved funds.",
+        "headline_hook": "A paid ₹1,64,900 upfront, while C chose 'No-Cost EMI'—who actually saved more?",
+        "highlight_word": "No-Cost EMI",
+        "core_mechanism": "Direct comparison between upfront cash payment of ₹1,64,900 and a zero-interest retail promo, breaking down who ends up paying extra.",
         "scores": {
-          "curiosity_gap": 8.0,
-          "retail_actionability": 7.5,
+          "curiosity_gap": 9.2,
+          "retail_actionability": 8.8,
           "data_density": 8.5,
-          "friction_quotient": 8.0,
-          "total": 32.0
+          "friction_quotient": 8.7,
+          "total": 35.2
         },
-        "critic_critique": "Avoids unsupported founder narratives since the context gives no personal names. However, the direct actionability for daily Indian retail banking is slightly abstract."
+        "critic_critique": "Solid curiosity and directly references the ₹1,64,900 figure and buyers A, B, and C. Effectively pits upfront cash against advertised retail zero-cost financing."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "When banks face AI attacks, paying third-party 'recovery agents' cost victims $11M in unrecoverable secondary losses.",
-        "highlight_word": "$11M loss",
-        "core_mechanism": "Victims attempting to salvage compromised digital accounts pay private recovery desks instead of following statutory bank dispute grievance protocols, compounding net loss to 100% of the second fee.",
+        "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
+        "highlight_word": "GST on interest",
+        "core_mechanism": "Deconstructs the merchant discount offset mechanism: the lender still charges interest, and because interest is a financial service, it legally attracts 18% GST that the buyer pays.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 8.5,
-          "data_density": 9.5,
-          "friction_quotient": 9.0,
-          "total": 35.5
+          "curiosity_gap": 9.0,
+          "retail_actionability": 9.5,
+          "data_density": 9.3,
+          "friction_quotient": 9.4,
+          "total": 37.2
         },
-        "critic_critique": "Sticks strictly to the verifiable $11M figure provided in the prompt while grounding the friction in mathematical reality: zero rupee recovery plus a guaranteed secondary scam charge."
+        "critic_critique": "Flawlessly executes MATHEMATICAL_FRICTION. Directly targets the hidden friction point: interest exists under the hood to reconcile bank books, triggering statutory GST that isn't waived."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Banks automate fraud defense with AI, but retail victims lose $11M hiring fake private retrieval services.",
-        "highlight_word": "fake retrieval",
-        "core_mechanism": "Institutional banking systems deploy AI to manage breaches internally, while individual depositors panic and bypass formal ombudsman channels for unlicensed online recovery firms.",
+        "headline_hook": "How retailers and banks disguise loan interest inside upfront festive discounts.",
+        "highlight_word": "disguise loan interest",
+        "core_mechanism": "Exposes how sellers discount the principal so total installments equal sticker price, while banks book interest and pass GST to the consumer.",
         "scores": {
-          "curiosity_gap": 7.5,
-          "retail_actionability": 8.0,
-          "data_density": 8.0,
-          "friction_quotient": 8.0,
-          "total": 31.5
+          "curiosity_gap": 8.6,
+          "retail_actionability": 8.4,
+          "data_density": 8.2,
+          "friction_quotient": 8.5,
+          "total": 33.7
         },
-        "critic_critique": "Highlights institutional defense versus retail vulnerability cleanly, but has slightly softer numerical tension than Candidate B."
+        "critic_critique": "Good systemic perspective, but lacks the immediate punch of the exact ₹1,64,900 friction calculation present in Candidate B."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.4,
+    "average_score": 9.3,
     "slide_1_report": {
       "mobile_readability_score": 9.5,
-      "contrast_score": 9.8,
+      "contrast_score": 9.5,
       "whitespace_score": 9.0,
-      "overall_score": 9.4,
+      "overall_score": 9.3,
       "passed": true,
-      "critique_summary": "The typography is bold, punchy, and adheres perfectly to modern high-end editorial standards. The high-contrast green highlight box effectively directs the eye, ensuring the core subject is immediately graspable.",
+      "critique_summary": "The typography is exceptionally clean and high-contrast, perfectly suited for rapid consumption on mobile devices. The deliberate use of the highlight box effectively guides the eye, mimicking a professional, editorial financial aesthetic.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
         "line_height": "1.1",
-        "notes": "The current layout is optimal; tight line-height increases the visual impact of the bold display font."
+        "notes": "The current line-height is optimal; minor tightening could enhance the 'punchiness' of the headline if text length increases in future slides."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-09T19:12:12.316288+00:00"
+  "exported_at": "2026-10-10T10:05:06.145765+00:00"
 }
