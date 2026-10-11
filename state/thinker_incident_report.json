@@ -1,81 +1,18 @@
 {
-  "timestamp": "2026-10-10T10:02:34.714601+00:00",
-  "phase": "EDITORIAL_FACT_CHECK",
-  "severity": "RECOVERABLE",
-  "error_code": "ERR_FACT_CHECK_MISMATCH",
-  "root_cause_analysis": "The deck hallucinated unsupported metric '0%' in slide 3 ('myth': 'No-cost EMI means the bank lends money for 0% interest.') which is absent from source evidence context. Valid numbers present in source include 164900, 18 (from iPhone 18 Pro), etc. Slide 3 must replace '0%' with verified narrative terminology or source numbers.",
+  "timestamp": "2026-10-11T10:10:11.550141+00:00",
+  "phase": "PIPELINE_ORCHESTRATION",
+  "severity": "CRITICAL",
+  "error_code": "ERR_PIPELINE_HALT",
+  "root_cause_analysis": "The numeric fact-checking engine failed due to a formatting mismatch between the generated slide deck and extracted source metrics. The slide deck formatted the metric with a currency symbol ('₹10lakh'), while the source metric extraction pipeline normalized the value as '10lakh'. The exact match validation failed to strip non-alphanumeric/currency prefixes before comparison in engine.py.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
-    "action": "AUTO_REPAIR_SUCCESS",
-    "repaired_payload": {
-      "caption": "Think 'No-Cost EMI' means zero interest costs? Here is how a Rs 164900 iPhone 18 Pro purchase actually gets billed during festive sales.\n\n• Buyer A pays Rs 164900 upfront.\n• Buyer B pays standard credit card interest on top.\n• Buyer C takes 'no-cost' EMI—where seller discounts the interest, but GST on bank interest remains payable.\n\nSave this breakdown before shopping the next festive sale.\n\nWhen buying big-ticket items, do you prefer paying full upfront or absorbing the hidden GST fee across EMIs?\n\n#PersonalFinance #NoCostEMI #CreditCardTips #SmartShopping",
-      "slides": [
-        {
-          "slide_number": 1,
-          "role": "hook",
-          "title": "Three buyers, one Rs 164900 phone: Who really saved the most?",
-          "highlighted_phrase": "Who really saved the most?"
-        },
-        {
-          "slide_number": 2,
-          "role": "value_1",
-          "headline": "The Three Festive Shoppers",
-          "card_text": "Buyer A paid Rs 164900 full upfront for iPhone 18 Pro.\nBuyer B picked standard credit card EMI.\nBuyer C chose festive no-cost EMI.",
-          "highlighted_phrase": "festive no-cost EMI"
-        },
-        {
-          "slide_number": 3,
-          "role": "value_2",
-          "headline": "The Common Assumption About No-Cost EMI",
-          "comparison_data": {
-            "myth": "No-cost EMI means the bank does not charge any interest.",
-            "reality": "The bank still charges interest; the seller readjusts the amount upfront so EMIs total the original price."
-          },
-          "highlighted_phrase": "bank still charges interest"
-        },
-        {
-          "slide_number": 4,
-          "role": "value_3",
-          "headline": "How the Math Is Rearranged",
-          "flowchart_data": [
-            "1. Seller readjusts interest to match total upfront tag",
-            "2. Bank converts balance into an interest-bearing EMI loan",
-            "3. Sum of all EMIs equals the original retail price"
-          ],
-          "highlighted_phrase": "Sum of all EMIs equals the original retail price"
-        },
-        {
-          "slide_number": 5,
-          "role": "value_4",
-          "headline": "The Hidden Catch: Tax on Interest",
-          "card_text": "Even though the seller readjusts the interest amount, interest still exists. Bank interest legally attracts GST, which is billed directly to Buyer C.",
-          "highlighted_phrase": "interest attracts GST"
-        },
-        {
-          "slide_number": 6,
-          "role": "value_5",
-          "headline": "Who Ended Up Paying What?",
-          "checklist_data": [
-            {
-              "text": "Buyer B: Paid retail tag + interest + GST",
-              "pass": false
-            },
-            {
-              "text": "Buyer C: Paid retail tag + GST on bank interest",
-              "pass": false
-            },
-            {
-              "text": "Buyer A: Paid exactly Rs 164900 upfront with zero extra tax on interest",
-              "pass": true
-            }
-          ],
-          "highlighted_phrase": "exactly Rs 164900 upfront"
-        }
-      ]
-    }
+    "action": "SAFE_SHUTDOWN",
+    "repaired_payload": null
   },
-  "operator_action_required": false,
+  "operator_action_required": true,
   "actionable_instructions": [
-    "Automated repair applied to match source evidence numbers."
+    "Update the metric extraction and sanitization utility in the numeric fact-checker to strip standard currency symbols (such as '₹', '$', '€') prior to metric comparison.",
+    "Verify that deck generation templates utilize unified metric normalization schemas matching source metric tokens.",
+    "Re-run the orchestration pipeline once metric normalization rules are patched."
   ]
 }
