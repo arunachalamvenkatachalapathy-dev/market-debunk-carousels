@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "NSE IPO could raise up to ₹30,000 crore through 6% dilution, sources say: All you need to know - CNBC TV18",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYTYtVFZyZDlYSjNIeFpmWFVLU3dZZGZ0MFBFSEZGMDFFQmdYMFpYSXprYTlVOHdvd1RCUmpoY0E2WklhVTdWNC1HQUZfQktpdUxWdWFHZ2FDbE1la2luQUdFMHdRSmVEanUzcWlVbVRkMXB6bXVhcy1YLS1WYWZtYVhiNTByb2tTaTgtNnlkQnBjV0lIS24yWUl5aEM0eDZqN2hpSnpuRzdkSUIxSnZRdEJSTHNfUUcxenJDRk9BZGMxenFKeWpqdWlUbjNLUdIB0wFBVV95cUxNQTZ6eUNkU3Rta0tnN1BkeEJrOVllODZmVHd4LXR6MDNDYlRhcUpwX1hlYzdYV2pZd3lpb0drOU1oUGF6WTgxeUlqbVNkbkpPek1TeGZpaXpGc1RIUHlyZUpuN0l2QVQ4dEpxVE1ldFlBQ0Q2ZGNWMTFUMVotcXFDaFQ1ZEk2alJqcEtJRDRuMUNpMm04M1I4NldaVVpwWXZJRFI0TEJSVnhPeDQ3aDVBNjhCVVR3SFhXSE81YWxKZXB6QVhCY2dQT2ZHbU01MVRldlVR?oc=5",
-      "timestamp": "2026-09-07T06:22:01.905229+00:00"
-    },
-    {
       "title": "Sebi eases compliance norms for FPIs investing only in Gsecs - The New Indian Express",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeWUtcEFDMmk4aVNuSWdyX193VDhMNUk3UVRDYnhxbElmRGRkU0lEZHNaSmpiZTRuRkczNTUwbmh2TkVfa2owZE50SGdVdnU3T0dqSnN0TGpORzFNa0lFak15UDNSQ0p1WmtUQnR1NS16RElfNEhvSHBNaFFzOFIyaGZDVjBEZ0V0T0xETmtyRDBWZ1Nyem9VbHFiaGZXUVNFbmU2MVBYVGJmc0VNNjgzQ1REdlPSAcIBQVVfeXFMTkVrQ2JVaGVNZnQxYkVJc2t4cFNTM3QzLTlnY0ZHeEVFMjlXMXh5eXRia19TbjBNLWdsUlZxenlaZHRRYml1d0xUVHRzUDd3a1o0bUhTWk9vT1NkV05SNWVVQTlJM0V3U3JidGJVS3F3b0luU3VxcWx0U0tHRUpmM0RWQzlNRXZOZDI4cXgxWmktOTNiOTNES2g0a3p4MzYyQUlvUzBaMXhQLXFYQzc4dW1xTzQ1STRRY3JWT05xRzlvdXc?oc=5",
       "timestamp": "2026-09-07T16:18:53.367264+00:00"
@@ -299,6 +294,11 @@
       "title": "How you can use FD laddering for Rs 10 lakh investment after RBI raises repo rate",
       "url": "https://economictimes.indiatimes.com/wealth/invest/fd-interest-maturity-fixed-deposit-calculator-how-you-can-use-fd-laddering-for-rs-10-lakh-investment-after-rbi-raises-repo-rate/articleshow/134842338.cms",
       "timestamp": "2026-10-11T10:08:28.964580+00:00"
+    },
+    {
+      "title": "Bank FD rates in October 2026: How pre- and post-tax fixed deposit returns differ across HDFC, ICICI, SBI and PNB",
+      "url": "https://www.livemint.com/money/personal-finance/bank-fd-rates-in-october-2026-how-pre-and-post-tax-fixed-deposit-returns-differ-across-hdfc-icici-sbi-and-pnb-11791729146868.html",
+      "timestamp": "2026-10-11T18:29:12.820728+00:00"
     }
   ],
   "used_archetypes": [
@@ -403,6 +403,7 @@
     "https://economictimes.indiatimes.com/wealth/invest/fd-interest-rate-return-maturity-calculator-extra-corpus-you-can-get-at-rs-1-lakh-10-lakh-investment-in-5-year-fixed-deposit/articleshow/134787504.cms",
     "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvUEpLa2lfZlFGeFB2ZnktR29jMW1sNDgyT0UtWUhIYlBEYm9fTERERTd2Wi1abExncW80Z3NSZ0hsMHpTSmxYNWpReEZDcTdnMm1ncFJsOFlrYzM1REllX1JUOGV5SFhsM3pxRW9hOXlSUXI5cDV3RVJ6OU16dw?oc=5",
     "https://economictimes.indiatimes.com/wealth/spend/iphone-18-pro-credit-card-emi-vs-no-cost-emi-vs-upfront-payment-festive-offers-deals-sale/articleshow/134833787.cms",
-    "https://economictimes.indiatimes.com/wealth/invest/fd-interest-maturity-fixed-deposit-calculator-how-you-can-use-fd-laddering-for-rs-10-lakh-investment-after-rbi-raises-repo-rate/articleshow/134842338.cms"
+    "https://economictimes.indiatimes.com/wealth/invest/fd-interest-maturity-fixed-deposit-calculator-how-you-can-use-fd-laddering-for-rs-10-lakh-investment-after-rbi-raises-repo-rate/articleshow/134842338.cms",
+    "https://www.livemint.com/money/personal-finance/bank-fd-rates-in-october-2026-how-pre-and-post-tax-fixed-deposit-returns-differ-across-hdfc-icici-sbi-and-pnb-11791729146868.html"
   ]
 }

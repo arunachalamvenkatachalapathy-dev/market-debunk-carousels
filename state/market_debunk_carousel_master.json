@@ -1,120 +1,130 @@
 {
   "topic": {
-    "title": "A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked no-cost EMI in festive sales – Who saved most after discounts?",
+    "title": "Bank FD rates in October 2026: How pre- and post-tax fixed deposit returns differ across HDFC, ICICI, SBI and PNB",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
     "topic_category": "WEALTH_LEAK",
-    "viral_demand_score": 94.9,
-    "source": "Economic Times Wealth & Personal Finance",
-    "source_snippet": "The biggest misconception about no-cost EMI is that the bank doesn't charge any interest. In a no-cost EMI, the seller readjusts the interest amount so that the sum of all the EMIs adds up to the price you would pay upfront. However, interest still exists, and interest attracts GST. So, among A, B, and C, who would end up saving the most? Find out here.",
-    "source_url": "https://economictimes.indiatimes.com/wealth/spend/iphone-18-pro-credit-card-emi-vs-no-cost-emi-vs-upfront-payment-festive-offers-deals-sale/articleshow/134833787.cms",
-    "raw_text": "A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked no-cost EMI in festive sales – Who saved most after discounts?. The biggest misconception about no-cost EMI is that the bank doesn't charge any interest. In a no-cost EMI, the seller readjusts the interest amount so that the sum of all the EMIs adds up to the price you would pay upfront. However, interest still exists, and interest attracts GST. So, among A, B, and C, who would end up saving the most? Find out here.",
+    "viral_demand_score": 100.0,
+    "source": "LiveMint",
+    "source_snippet": "Fixed deposits offer predictable returns, but taxes can reduce the interest you retain. A latest report compares FD rates across large banks and tenures. Here’s how to understand pre-tax and post-tax returns, FD taxation rules, and what a ₹5 lakh deposit could earn.",
+    "source_url": "https://www.livemint.com/money/personal-finance/bank-fd-rates-in-october-2026-how-pre-and-post-tax-fixed-deposit-returns-differ-across-hdfc-icici-sbi-and-pnb-11791729146868.html",
+    "raw_text": "Bank FD rates in October 2026: How pre- and post-tax fixed deposit returns differ across HDFC, ICICI, SBI and PNB. Fixed deposits offer predictable returns, but taxes can reduce the interest you retain. A latest report compares FD rates across large banks and tenures. Here’s how to understand pre-tax and post-tax returns, FD taxation rules, and what a ₹5 lakh deposit could earn.",
     "numbers_detected": [
-      "1,64",
-      "900",
-      "18"
+      "2026",
+      "₹5"
     ],
-    "published_at": "2026-10-10T10:10:00+05:30",
-    "age_hours": 5.2,
-    "retrieved_at": "2026-10-10T09:54:38.777153+00:00",
-    "date": "10 Oct 2026",
+    "published_at": "2026-10-11T14:05:04.822113+00:00",
+    "age_hours": 4.4,
+    "retrieved_at": "2026-10-11T18:29:04.822113+00:00",
+    "date": "11 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Economic Times Wealth & Personal Finance | Published: 2026-10-10T10:10:00+05:30 (5.2h ago) | Headline: A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked no-cost EMI in festive sales – Who saved most after discounts? | Context: A paid Rs 1,64,900 upfront for iPhone 18 Pro, B chose credit card EMI, C picked no-cost EMI in festive sales – Who saved most after discounts?. The biggest misconception about no-cost EMI is that the bank doesn't charge any interest. In a no-cost EMI, the seller readjusts the interest amount so that the sum of all the EMIs adds up to the price you would pay upfront. However, interest still exists,",
+    "evidence_snapshot": "Source: LiveMint | Published: 2026-10-11T14:05:04.822113+00:00 (4.4h ago) | Headline: Bank FD rates in October 2026: How pre- and post-tax fixed deposit returns differ across HDFC, ICICI, SBI and PNB | Context: Bank FD rates in October 2026: How pre- and post-tax fixed deposit returns differ across HDFC, ICICI, SBI and PNB. Fixed deposits offer predictable returns, but taxes can reduce the interest you retain. A latest report compares FD rates across large banks and tenures. Here’s how to understand pre-tax and post-tax returns, FD taxation rules, and what a ₹5 lakh deposit could earn.",
     "news_analysis": {
-      "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
-      "breaking_event_summary": "An analysis of festive payment options for an Rs 1,64,900 purchase compared upfront cash, regular credit card EMI, and no-cost EMI options. The breakdown highlighted that no-cost EMIs still incorporate bank interest adjusted by seller discounts, which subsequently incurs Goods and Services Tax (GST).",
-      "retail_illusion": "Buyers frequently assume that a 'no-cost EMI' means the financing bank charges zero interest on the purchase.",
-      "institutional_reality": "Under a no-cost EMI structure, the retailer gives an upfront discount matching the bank's interest so the sum of EMIs equals the retail price; however, interest is still formally levied by the lender, and that interest component attracts GST payable by the customer.",
+      "headline_hook": "Your ₹5 lakh deposit does not earn the headline rate: why pre-tax and post-tax returns diverge across HDFC, ICICI, SBI, and PNB.",
+      "breaking_event_summary": "A new report published on October 11, 2026, analyzes the pre-tax and post-tax returns of fixed deposits across major Indian banks including HDFC, ICICI, SBI, and PNB.",
+      "retail_illusion": "Do you assume the interest rate advertised by your bank is the exact amount that will be added to your net worth?",
+      "institutional_reality": "Fixed deposit interest is subject to taxation, which effectively lowers the actual yield an investor retains compared to the headline rate offered by the bank.",
       "citable_metrics": [
-        "Rs 1,64,900"
+        "₹5 lakh"
       ],
-      "debunk_category": "FEE_EXTRACTION",
-      "actionable_retail_rule": "Before opting for a no-cost EMI, verify the loan breakdown at checkout to calculate the 18% GST charged on the interest component and any applicable processing fees against upfront payment discounts.",
-      "lead_magnet": {},
-      "carousel_outline": [],
-      "highlight_word": "GST on interest",
-      "editorial_directive": "On Slide 1, state the ₹1,64,900 comparison between upfront payment, regular credit card EMI, and no-cost EMI. On subsequent slides, mathematically demonstrate the ledger: the retailer provides an upfront discount equal to the bank interest, but the bank levies GST on that interest component, making the 'no-cost' EMI objectively more expensive than upfront payment."
+      "debunk_category": "VALUATION_MYTH",
+      "actionable_retail_rule": "Calculate your post-tax yield by applying your applicable income tax slab to the interest earned on your deposit to determine the true return on your investment.",
+      "lead_magnet": {
+        "title": "FD Tax Calculator Guide",
+        "description": "A simple framework to estimate your post-tax earnings on fixed deposits."
+      },
+      "carousel_outline": [
+        "The difference between headline FD rates and actual take-home returns.",
+        "How tax slabs impact your specific FD earnings.",
+        "Comparing HDFC, ICICI, SBI, and PNB rate structures.",
+        "Step-by-step: How to calculate your post-tax yield."
+      ],
+      "highlight_word": "post-tax returns",
+      "editorial_directive": "Lead Slide 1 with Candidate B's headline hook. Ensure subsequent slides present the pre-tax vs post-tax calculation breakdown on a ₹5 lakh sum across the 4 banks without fabricating specific tax slabs not mentioned in the source context."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
-        "highlight_word": "GST on interest",
-        "core_mechanism": "Deconstructs the merchant discount offset mechanism: the lender still charges interest, and because interest is a financial service, it legally attracts 18% GST that the buyer pays.",
+        "headline_hook": "Your ₹5 lakh deposit does not earn the headline rate: why pre-tax and post-tax returns diverge across HDFC, ICICI, SBI, and PNB.",
+        "highlight_word": "post-tax returns",
+        "core_mechanism": "Directly contrasts the advertised pre-tax interest against net post-tax maturity returns for a specific ₹5 lakh corpus across listed lenders.",
         "scores": {
-          "curiosity_gap": 9.0,
-          "retail_actionability": 9.5,
-          "data_density": 9.3,
-          "friction_quotient": 9.4,
-          "total": 37.2
+          "curiosity_gap": 8.8,
+          "retail_actionability": 9.2,
+          "data_density": 9.5,
+          "friction_quotient": 9.0,
+          "total": 36.5
         },
-        "critic_critique": "Flawlessly executes MATHEMATICAL_FRICTION. Directly targets the hidden friction point: interest exists under the hood to reconcile bank books, triggering statutory GST that isn't waived."
+        "critic_critique": "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight 2.5). It uses the exact ₹5 lakh figure and all four named institutions directly from the context without inventing external tax percentages or yields."
       },
-      "critic_score": 9.3,
+      "critic_score": 9.1,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the mathematical leak: even when the seller discounts the principal to make the sum match upfront cash, the bank must report interest, triggering mandatory GST that prevents C from saving more than A.",
-      "final_editorial_directive": "On Slide 1, state the ₹1,64,900 comparison between upfront payment, regular credit card EMI, and no-cost EMI. On subsequent slides, mathematically demonstrate the ledger: the retailer provides an upfront discount equal to the bank interest, but the bank levies GST on that interest component, making the 'no-cost' EMI objectively more expensive than upfront payment.",
+      "selection_rationale": "Candidate B achieves the highest score (36.5/40) by aligning directly with the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the hook onto the exact ₹5 lakh deposit figure and explicitly addresses the pre-tax versus post-tax spread across all four sourced banks (HDFC, ICICI, SBI, PNB) without introducing unverified rates or fictional anecdotes.",
+      "final_editorial_directive": "Lead Slide 1 with Candidate B's headline hook. Ensure subsequent slides present the pre-tax vs post-tax calculation breakdown on a ₹5 lakh sum across the 4 banks without fabricating specific tax slabs not mentioned in the source context.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "A paid ₹1,64,900 upfront, while C chose 'No-Cost EMI'—who actually saved more?",
-          "highlight_word": "No-Cost EMI",
-          "core_mechanism": "Direct comparison between upfront cash payment of ₹1,64,900 and a zero-interest retail promo, breaking down who ends up paying extra.",
+          "headline_hook": "Locking ₹5 lakh in an FD looks safe until taxes silently cut your real payout across SBI, PNB, and private banks.",
+          "highlight_word": "silently cut",
+          "core_mechanism": "Pre-tax headline interest rates create the false comfort of guaranteed wealth accumulation, ignoring how income tax brackets erode actual retained yields.",
           "scores": {
-            "curiosity_gap": 9.2,
-            "retail_actionability": 8.8,
+            "curiosity_gap": 8.0,
+            "retail_actionability": 8.5,
             "data_density": 8.5,
-            "friction_quotient": 8.7,
-            "total": 35.2
+            "friction_quotient": 8.0,
+            "total": 33.0
           },
-          "critic_critique": "Solid curiosity and directly references the ₹1,64,900 figure and buyers A, B, and C. Effectively pits upfront cash against advertised retail zero-cost financing."
+          "critic_critique": "Solid conceptual framing using the exact ₹5 lakh context, but lacks the granular arithmetic tension present in Candidate B."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
-          "highlight_word": "GST on interest",
-          "core_mechanism": "Deconstructs the merchant discount offset mechanism: the lender still charges interest, and because interest is a financial service, it legally attracts 18% GST that the buyer pays.",
+          "headline_hook": "Your ₹5 lakh deposit does not earn the headline rate: why pre-tax and post-tax returns diverge across HDFC, ICICI, SBI, and PNB.",
+          "highlight_word": "post-tax returns",
+          "core_mechanism": "Directly contrasts the advertised pre-tax interest against net post-tax maturity returns for a specific ₹5 lakh corpus across listed lenders.",
           "scores": {
-            "curiosity_gap": 9.0,
-            "retail_actionability": 9.5,
-            "data_density": 9.3,
-            "friction_quotient": 9.4,
-            "total": 37.2
+            "curiosity_gap": 8.8,
+            "retail_actionability": 9.2,
+            "data_density": 9.5,
+            "friction_quotient": 9.0,
+            "total": 36.5
           },
-          "critic_critique": "Flawlessly executes MATHEMATICAL_FRICTION. Directly targets the hidden friction point: interest exists under the hood to reconcile bank books, triggering statutory GST that isn't waived."
+          "critic_critique": "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight 2.5). It uses the exact ₹5 lakh figure and all four named institutions directly from the context without inventing external tax percentages or yields."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "How retailers and banks disguise loan interest inside upfront festive discounts.",
-          "highlight_word": "disguise loan interest",
-          "core_mechanism": "Exposes how sellers discount the principal so total installments equal sticker price, while banks book interest and pass GST to the consumer.",
+          "headline_hook": "Choosing between SBI, PNB, HDFC, and ICICI for a ₹5 lakh FD? The deciding factor is tax drag, not just tenures.",
+          "highlight_word": "tax drag",
+          "core_mechanism": "Compares tenure options across public and private giants to explain how taxation rules alter net yields differently depending on investor brackets.",
           "scores": {
-            "curiosity_gap": 8.6,
-            "retail_actionability": 8.4,
-            "data_density": 8.2,
-            "friction_quotient": 8.5,
+            "curiosity_gap": 8.2,
+            "retail_actionability": 8.5,
+            "data_density": 8.8,
+            "friction_quotient": 8.2,
             "total": 33.7
           },
-          "critic_critique": "Good systemic perspective, but lacks the immediate punch of the exact ₹1,64,900 friction calculation present in Candidate B."
+          "critic_critique": "Strong retail utility focusing on the four banks, but frames the issue more as institutional comparison rather than immediate mathematical friction."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
-    "core_illusion": "Buyers frequently assume that a 'no-cost EMI' means the financing bank charges zero interest on the purchase.",
-    "hidden_reality": "Under a no-cost EMI structure, the retailer gives an upfront discount matching the bank's interest so the sum of EMIs equals the retail price; however, interest is still formally levied by the lender, and that interest component attracts GST payable by the customer.",
-    "citable_metric": "Rs 1,64,900",
+    "hook_headline": "Your ₹5 lakh deposit does not earn the headline rate: why pre-tax and post-tax returns diverge across HDFC, ICICI, SBI, and PNB.",
+    "core_illusion": "Do you assume the interest rate advertised by your bank is the exact amount that will be added to your net worth?",
+    "hidden_reality": "Fixed deposit interest is subject to taxation, which effectively lowers the actual yield an investor retains compared to the headline rate offered by the bank.",
+    "citable_metric": "₹5 lakh",
     "all_metrics": [
-      "Rs 1,64,900"
+      "₹5 lakh"
     ],
-    "actionable_rule": "Before opting for a no-cost EMI, verify the loan breakdown at checkout to calculate the 18% GST charged on the interest component and any applicable processing fees against upfront payment discounts.",
-    "breaking_event": "An analysis of festive payment options for an Rs 1,64,900 purchase compared upfront cash, regular credit card EMI, and no-cost EMI options. The breakdown highlighted that no-cost EMIs still incorporate bank interest adjusted by seller discounts, which subsequently incurs Goods and Services Tax (GST).",
-    "lead_magnet": {},
+    "actionable_rule": "Calculate your post-tax yield by applying your applicable income tax slab to the interest earned on your deposit to determine the true return on your investment.",
+    "breaking_event": "A new report published on October 11, 2026, analyzes the pre-tax and post-tax returns of fixed deposits across major Indian banks including HDFC, ICICI, SBI, and PNB.",
+    "lead_magnet": {
+      "title": "FD Tax Calculator Guide",
+      "description": "A simple framework to estimate your post-tax earnings on fixed deposits."
+    },
     "banned_phrases": [
       "guaranteed wealth",
       "quick money",
@@ -123,245 +133,229 @@
     ]
   },
   "deck": {
-    "caption": "Three shoppers bought a phone for Rs 164900: one paid upfront, one took bank EMI, and one picked no-cost EMI. Who actually paid less?\n\n• In a no-cost EMI, the bank still charges interest, masked by a retailer discount\n• Bank loan interest attracts government tax (GST) added to your monthly bill\n• Paying upfront avoids financing taxes and hidden processing charges\n\nSave this post before your next sale purchase and share it with someone planning a big upgrade.\n\nWhen buying expensive electronics, do you prefer paying full cash upfront or spreading payments via installments?\n\n#NoCostEMI #ConsumerFinance #FestiveSales #SmartSpending",
+    "caption": "Your fixed deposit might look safe on paper, but the return you see on the branch board is rarely the return that hits your bank account.\n\nHere is what you need to know about bank FD returns in October 2026:\n• Pre-tax rates across SBI, PNB, HDFC, and ICICI differ from what you actually keep\n• FD interest gets added to your total income and taxed at your slab rate\n• Why calculating net post-tax return on a ₹5 lakh deposit matters before locking in tenure\n\nSave this guide for your next bank visit and share it with someone planning an FD.\n\nWhen choosing a fixed deposit, do you factor in your income tax slab or do you simply pick the highest advertised rate?",
     "slides": [
       {
         "role": "hook",
-        "title": "A, B, and C bought an iPhone 18 Pro for Rs 164900. Who actually saved the most?",
-        "highlight": "Who actually saved the most?",
-        "body": {
-          "text": "Three buyers chose three different payment routes in festive sales: full upfront cash, regular credit card monthly installments (EMI), and a promotional no-cost EMI. The final bill reveals a hidden fee."
-        },
+        "title": "Your ₹5 lakh deposit does not earn the headline rate",
+        "card_text": "",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "A, B,",
-          "<span class='highlight-box'>and C</span>",
-          "bought an"
-        ],
-        "card_text": ""
+          "Your ₹5",
+          "<span class='highlight-box'>lakh deposit</span>",
+          "does not"
+        ]
       },
       {
         "role": "value_1",
-        "title": "The three festive payment choices",
-        "highlight": "three payment choices",
-        "body": {
-          "text": "Buyer A paid Rs 164900 upfront in one go. Buyer B converted the Rs 164900 purchase into a standard bank credit card EMI. Buyer C chose the festive 'no-cost EMI' deal, expecting zero extra charges."
+        "title": "Branch Poster Rate vs Cash In Hand",
+        "comparison_data": {
+          "myth": "The interest rate printed by the bank is the net money added to your wealth.",
+          "reality": "Income tax rules require you to pay tax on FD interest, reducing your net take-home return."
         },
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The three",
-          "<span class='highlight-box'>festive payment</span>",
-          "choices"
-        ],
-        "card_text": "three payment choices Buyer A paid Rs 164900 upfront in one go. Buyer B converted the Rs 164900 purchase into a standard bank credit card EMI. Buyer C chose the festive 'no-cost EMI' deal, expecting zero extra charges."
+          "Branch Poster",
+          "<span class='highlight-box'>Rate vs</span>",
+          "Cash In Hand"
+        ]
       },
       {
         "role": "value_2",
-        "title": "The big myth of zero interest",
-        "highlight": "zero interest",
-        "comparison_data": {
-          "myth": "The financing bank waives interest charges entirely during festive no-cost EMI schemes.",
-          "reality": "The seller offers an upfront discount equal to the interest, but the bank still books a loan with interest."
+        "title": "The ₹5 Lakh Deposit Benchmark",
+        "stat_data": {
+          "metric": "₹5 lakh",
+          "label": "Deposit size analyzed in the October 2026 report",
+          "context": "Across public lenders like SBI and PNB, and private banks like HDFC and ICICI, tax rules apply uniformly to interest payouts."
         },
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The big",
-          "<span class='highlight-box'>myth of</span>",
-          "zero interest"
+          "The ₹5",
+          "<span class='highlight-box'>Lakh Deposit</span>",
+          "Benchmark"
         ]
       },
       {
         "role": "value_3",
-        "title": "How a no-cost EMI actually works",
-        "highlight": "no-cost EMI actually works",
+        "title": "How Fixed Deposit Taxes Actually Work",
         "flowchart_data": {
           "steps": [
             {
               "step": 1,
-              "text": "Retailer discounts the phone price by the exact interest amount"
+              "text": "Your deposit earns gross interest across your selected tenure."
             },
             {
               "step": 2,
-              "text": "Bank finances the discounted amount and levies interest on the loan"
+              "text": "The earned interest is added directly to your annual taxable income."
             },
             {
               "step": 3,
-              "text": "Monthly installments add up to the original Rs 164900 sticker price"
+              "text": "You pay tax at your income slab, leaving your final post-tax yield."
             }
           ]
         },
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How a",
-          "<span class='highlight-box'>no-cost EMI</span>",
-          "actually works"
+          "How Fixed",
+          "<span class='highlight-box'>Deposit Taxes</span>",
+          "Actually Work"
         ],
-        "card_text": "no-cost EMI actually works Retailer discounts the phone price by the exact interest amount Bank finances the discounted amount and levies interest on the loan Monthly installments add up to the original Rs 164900 sticker price"
+        "card_text": "Your deposit earns gross interest across your selected tenure. The earned interest is added directly to your annual taxable income. You pay tax at your income slab, leaving your final post-tax yield."
       },
       {
         "role": "value_4",
-        "title": "The tax catch: GST on bank interest",
-        "highlight": "GST on bank interest",
-        "body": {
-          "text": "Goods and Services Tax (GST) is a mandatory government tax applied to financial services. Even though the retailer subsidized your interest upfront, the bank is legally required to levy GST on the interest component billed to you every month."
-        },
+        "title": "Public vs Private Lenders",
+        "card_text": "{'body': 'Whether you choose public sector giants like SBI and PNB or private banks like HDFC and ICICI, differences in advertised tenure rates can be completely overshadowed by the impact of your income tax bracket.'}",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The tax",
-          "<span class='highlight-box'>catch: GST</span>",
-          "on bank interest"
-        ],
-        "card_text": "GST on bank interest Goods and Services Tax (GST) is a mandatory government tax applied to financial services. Even though the retailer subsidized your interest upfront, the bank is legally required to levy GST on the interest component billed to you every month."
+          "Public vs",
+          "<span class='highlight-box'>Private Lenders</span>"
+        ]
       },
       {
         "role": "value_5",
-        "title": "Who ended up paying the least?",
-        "highlight": "paying the least",
-        "body": {
-          "text": "Buyer B paid the most due to standard bank interest plus GST. Buyer C paid Rs 164900 plus extra GST on the monthly interest component. Buyer A, paying upfront, incurred no loan interest and zero financing tax, paying the least overall."
-        },
-        "slide_index": 6,
-        "tag": "#MARKETDEBUNK",
-        "title_lines": [
-          "Who ended",
-          "<span class='highlight-box'>up paying</span>",
-          "the least?"
-        ],
-        "card_text": "paying the least Buyer B paid the most due to standard bank interest plus GST. Buyer C paid Rs 164900 plus extra GST on the monthly interest component. Buyer A, paying upfront, incurred no loan interest and zero financing tax, paying the least overall."
-      },
-      {
-        "role": "value_6",
-        "title": "Checkout verification checklist",
-        "highlight": "verification checklist",
+        "title": "Checks Before Locking Your Money",
         "checklist_data": {
           "items": [
             {
-              "text": "Compare upfront card discounts against total installment benefits",
+              "text": "Compare tenures across banks to find the peak gross card rate",
               "status": "pass"
             },
             {
-              "text": "Check checkout breakdown for GST charged on the interest component",
-              "status": "fail"
+              "text": "Deduct your applicable income tax rate to find the real in-hand return",
+              "status": "pass"
             },
             {
-              "text": "Verify one-time bank loan processing fees before finalizing EMI",
+              "text": "Assume the full maturity interest will enter your wallet tax-free",
               "status": "fail"
             }
           ]
         },
+        "slide_index": 6,
+        "tag": "#MARKETDEBUNK",
+        "title_lines": [
+          "Checks Before",
+          "<span class='highlight-box'>Locking Your</span>",
+          "Money"
+        ],
+        "card_text": "Compare tenures across banks to find the peak gross card rate Deduct your applicable income tax rate to find the real in-hand return Assume the full maturity interest will enter your wallet tax-free"
+      },
+      {
+        "role": "value_6",
+        "title": "Tenure Risk And Shifting Tax Brackets",
+        "card_text": "{'body': \"Locking ₹5 lakh for multiple years secures the bank's gross interest rate. However, if your total income rises into a higher tax bracket during that tenure, your real post-tax return will quietly drop.\"}",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>Checkout verification</span>",
-          "checklist"
-        ],
-        "card_text": "verification checklist Compare upfront card discounts against total installment benefits Check checkout breakdown for GST charged on the interest component Verify one-time bank loan processing fees before finalizing EMI"
+          "Tenure Risk",
+          "<span class='highlight-box'>And Shifting</span>",
+          "Tax Brackets"
+        ]
       },
       {
         "role": "bookmark_save",
-        "title": "Always verify loan taxes before opting for EMI",
-        "highlight": "verify loan taxes",
-        "cta_detail": "Save this guide for festive sales and share it with family members planning an electronics purchase.",
+        "title": "Always Calculate Post-Tax Returns First",
+        "cta_detail": "Save this post to calculate your real net yield before locking your next fixed deposit, and share it with family members who rely on bank interest.",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Always verify",
-          "<span class='highlight-box'>loan taxes</span>",
-          "before opting for EMI"
+          "Always Calculate",
+          "<span class='highlight-box'>Post-Tax Returns</span>",
+          "First"
         ],
         "card_text": ""
       }
     ],
     "fact_check_status": "verified_after_repair",
     "audio_recommendation": {
-      "title": "Experience (Ludovico Instrumental)",
-      "artist": "Ludovico Einaudi",
-      "bpm": 95,
-      "vibe": "Compounding Breakthrough",
-      "reels_boost_tier": "Top Tier",
-      "search_query": "Ludovico Einaudi Experience"
+      "title": "Cornfield Chase (Interstellar Piano/Synth)",
+      "artist": "Hans Zimmer / Dorian Marko",
+      "bpm": 100,
+      "vibe": "Cinematic Tension & Focus",
+      "reels_boost_tier": "High Velocity",
+      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
     }
   },
   "audio": {
-    "title": "Experience (Ludovico Instrumental)",
-    "artist": "Ludovico Einaudi",
-    "bpm": 95,
-    "vibe": "Compounding Breakthrough",
-    "reels_boost_tier": "Top Tier",
-    "search_query": "Ludovico Einaudi Experience"
+    "title": "Cornfield Chase (Interstellar Piano/Synth)",
+    "artist": "Hans Zimmer / Dorian Marko",
+    "bpm": 100,
+    "vibe": "Cinematic Tension & Focus",
+    "reels_boost_tier": "High Velocity",
+    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
   },
-  "run_id": "20261010_100449",
+  "run_id": "20261011_183656",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
-      "highlight_word": "GST on interest",
-      "core_mechanism": "Deconstructs the merchant discount offset mechanism: the lender still charges interest, and because interest is a financial service, it legally attracts 18% GST that the buyer pays.",
+      "headline_hook": "Your ₹5 lakh deposit does not earn the headline rate: why pre-tax and post-tax returns diverge across HDFC, ICICI, SBI, and PNB.",
+      "highlight_word": "post-tax returns",
+      "core_mechanism": "Directly contrasts the advertised pre-tax interest against net post-tax maturity returns for a specific ₹5 lakh corpus across listed lenders.",
       "scores": {
-        "curiosity_gap": 9.0,
-        "retail_actionability": 9.5,
-        "data_density": 9.3,
-        "friction_quotient": 9.4,
-        "total": 37.2
+        "curiosity_gap": 8.8,
+        "retail_actionability": 9.2,
+        "data_density": 9.5,
+        "friction_quotient": 9.0,
+        "total": 36.5
       },
-      "critic_critique": "Flawlessly executes MATHEMATICAL_FRICTION. Directly targets the hidden friction point: interest exists under the hood to reconcile bank books, triggering statutory GST that isn't waived."
+      "critic_critique": "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight 2.5). It uses the exact ₹5 lakh figure and all four named institutions directly from the context without inventing external tax percentages or yields."
     },
-    "critic_score": 9.3,
+    "critic_score": 9.1,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the mathematical leak: even when the seller discounts the principal to make the sum match upfront cash, the bank must report interest, triggering mandatory GST that prevents C from saving more than A.",
-    "final_editorial_directive": "On Slide 1, state the ₹1,64,900 comparison between upfront payment, regular credit card EMI, and no-cost EMI. On subsequent slides, mathematically demonstrate the ledger: the retailer provides an upfront discount equal to the bank interest, but the bank levies GST on that interest component, making the 'no-cost' EMI objectively more expensive than upfront payment.",
+    "selection_rationale": "Candidate B achieves the highest score (36.5/40) by aligning directly with the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the hook onto the exact ₹5 lakh deposit figure and explicitly addresses the pre-tax versus post-tax spread across all four sourced banks (HDFC, ICICI, SBI, PNB) without introducing unverified rates or fictional anecdotes.",
+    "final_editorial_directive": "Lead Slide 1 with Candidate B's headline hook. Ensure subsequent slides present the pre-tax vs post-tax calculation breakdown on a ₹5 lakh sum across the 4 banks without fabricating specific tax slabs not mentioned in the source context.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "A paid ₹1,64,900 upfront, while C chose 'No-Cost EMI'—who actually saved more?",
-        "highlight_word": "No-Cost EMI",
-        "core_mechanism": "Direct comparison between upfront cash payment of ₹1,64,900 and a zero-interest retail promo, breaking down who ends up paying extra.",
+        "headline_hook": "Locking ₹5 lakh in an FD looks safe until taxes silently cut your real payout across SBI, PNB, and private banks.",
+        "highlight_word": "silently cut",
+        "core_mechanism": "Pre-tax headline interest rates create the false comfort of guaranteed wealth accumulation, ignoring how income tax brackets erode actual retained yields.",
         "scores": {
-          "curiosity_gap": 9.2,
-          "retail_actionability": 8.8,
+          "curiosity_gap": 8.0,
+          "retail_actionability": 8.5,
           "data_density": 8.5,
-          "friction_quotient": 8.7,
-          "total": 35.2
+          "friction_quotient": 8.0,
+          "total": 33.0
         },
-        "critic_critique": "Solid curiosity and directly references the ₹1,64,900 figure and buyers A, B, and C. Effectively pits upfront cash against advertised retail zero-cost financing."
+        "critic_critique": "Solid conceptual framing using the exact ₹5 lakh context, but lacks the granular arithmetic tension present in Candidate B."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Buying a ₹1,64,900 phone on No-Cost EMI still incurs GST on interest.",
-        "highlight_word": "GST on interest",
-        "core_mechanism": "Deconstructs the merchant discount offset mechanism: the lender still charges interest, and because interest is a financial service, it legally attracts 18% GST that the buyer pays.",
+        "headline_hook": "Your ₹5 lakh deposit does not earn the headline rate: why pre-tax and post-tax returns diverge across HDFC, ICICI, SBI, and PNB.",
+        "highlight_word": "post-tax returns",
+        "core_mechanism": "Directly contrasts the advertised pre-tax interest against net post-tax maturity returns for a specific ₹5 lakh corpus across listed lenders.",
         "scores": {
-          "curiosity_gap": 9.0,
-          "retail_actionability": 9.5,
-          "data_density": 9.3,
-          "friction_quotient": 9.4,
-          "total": 37.2
+          "curiosity_gap": 8.8,
+          "retail_actionability": 9.2,
+          "data_density": 9.5,
+          "friction_quotient": 9.0,
+          "total": 36.5
         },
-        "critic_critique": "Flawlessly executes MATHEMATICAL_FRICTION. Directly targets the hidden friction point: interest exists under the hood to reconcile bank books, triggering statutory GST that isn't waived."
+        "critic_critique": "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight 2.5). It uses the exact ₹5 lakh figure and all four named institutions directly from the context without inventing external tax percentages or yields."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "How retailers and banks disguise loan interest inside upfront festive discounts.",
-        "highlight_word": "disguise loan interest",
-        "core_mechanism": "Exposes how sellers discount the principal so total installments equal sticker price, while banks book interest and pass GST to the consumer.",
+        "headline_hook": "Choosing between SBI, PNB, HDFC, and ICICI for a ₹5 lakh FD? The deciding factor is tax drag, not just tenures.",
+        "highlight_word": "tax drag",
+        "core_mechanism": "Compares tenure options across public and private giants to explain how taxation rules alter net yields differently depending on investor brackets.",
         "scores": {
-          "curiosity_gap": 8.6,
-          "retail_actionability": 8.4,
-          "data_density": 8.2,
-          "friction_quotient": 8.5,
+          "curiosity_gap": 8.2,
+          "retail_actionability": 8.5,
+          "data_density": 8.8,
+          "friction_quotient": 8.2,
           "total": 33.7
         },
-        "critic_critique": "Good systemic perspective, but lacks the immediate punch of the exact ₹1,64,900 friction calculation present in Candidate B."
+        "critic_critique": "Strong retail utility focusing on the four banks, but frames the issue more as institutional comparison rather than immediate mathematical friction."
       }
     ]
   },
@@ -374,14 +368,14 @@
       "whitespace_score": 9.0,
       "overall_score": 9.3,
       "passed": true,
-      "critique_summary": "The typography is exceptionally clean and high-contrast, perfectly suited for rapid consumption on mobile devices. The deliberate use of the highlight box effectively guides the eye, mimicking a professional, editorial financial aesthetic.",
+      "critique_summary": "The typography is bold, high-contrast, and excellently balanced, meeting the criteria for a premium financial publication. The hierarchy is clear, and the use of the green highlight box effectively draws the eye to the key figure.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
         "line_height": "1.1",
-        "notes": "The current line-height is optimal; minor tightening could enhance the 'punchiness' of the headline if text length increases in future slides."
+        "notes": "The layout is nearly perfect; minor kerning adjustments to the word 'deposit' could improve the fit within the bounding box if the font weight were increased."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-10T10:05:06.145765+00:00"
+  "exported_at": "2026-10-11T18:37:09.856100+00:00"
 }
