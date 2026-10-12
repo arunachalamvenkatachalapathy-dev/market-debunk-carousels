@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "Sebi eases compliance norms for FPIs investing only in Gsecs - The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeWUtcEFDMmk4aVNuSWdyX193VDhMNUk3UVRDYnhxbElmRGRkU0lEZHNaSmpiZTRuRkczNTUwbmh2TkVfa2owZE50SGdVdnU3T0dqSnN0TGpORzFNa0lFak15UDNSQ0p1WmtUQnR1NS16RElfNEhvSHBNaFFzOFIyaGZDVjBEZ0V0T0xETmtyRDBWZ1Nyem9VbHFiaGZXUVNFbmU2MVBYVGJmc0VNNjgzQ1REdlPSAcIBQVVfeXFMTkVrQ2JVaGVNZnQxYkVJc2t4cFNTM3QzLTlnY0ZHeEVFMjlXMXh5eXRia19TbjBNLWdsUlZxenlaZHRRYml1d0xUVHRzUDd3a1o0bUhTWk9vT1NkV05SNWVVQTlJM0V3U3JidGJVS3F3b0luU3VxcWx0U0tHRUpmM0RWQzlNRXZOZDI4cXgxWmktOTNiOTNES2g0a3p4MzYyQUlvUzBaMXhQLXFYQzc4dW1xTzQ1STRRY3JWT05xRzlvdXc?oc=5",
-      "timestamp": "2026-09-07T16:18:53.367264+00:00"
-    },
-    {
       "title": "Manika Plastech IPO Date, Review, Price, Allotment Details - IPO Watch",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tQVRzZzFFdE40cHlSYXF3Qktuc014TmVEMjdlal9tbkJ1dmNhVkU0OUJtazdzWm85Z0J3TkZ0LThCT3RxZTY5U3dHRS1XSUtTdUE?oc=5",
       "timestamp": "2026-09-08T07:58:56.668095+00:00"
@@ -299,6 +294,11 @@
       "title": "Bank FD rates in October 2026: How pre- and post-tax fixed deposit returns differ across HDFC, ICICI, SBI and PNB",
       "url": "https://www.livemint.com/money/personal-finance/bank-fd-rates-in-october-2026-how-pre-and-post-tax-fixed-deposit-returns-differ-across-hdfc-icici-sbi-and-pnb-11791729146868.html",
       "timestamp": "2026-10-11T18:29:12.820728+00:00"
+    },
+    {
+      "title": "Mutual fund SIP inflows hit record ₹32,490 crore in September; equity inflows rise 31% - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbVZYSjFnOEh5bG9ERWJVTDRKOWtYNUxPdmhLTnFVZ0ZWcFdPWERFTG81S2lSNlZSWTFkWGNSTWFaVGFtQTRIdWh5cHVGQTk2NGdKVGRVcVFYUS1SQ2luR0QtWk9TbksxVmhDTFVsRll1Y2VLS3RuRUpqc19IbjV0UmVpR0xRUjB0Q1gtUmZINmZNRXE4MDR0WGdyeTNLWkJoc0ltb1R6ZVJ3aFJGY2t3b1Bxb3NJWXh2ajZYV2NlSzdjMzkwaXc5RmUxVGNmZ0l6QWd1eklEY3k1cHlPd3k1a3I0M3VDQdIB6wFBVV95cUxNVHpKVndRTTVmaENXaXUzMDdGRkRmVEZrRDdhRDJyVGlXVHJDbzdEaEt4MURsQW5ka0ZOY3B3SGQwdFk5WTJ3RmNEYVhwdGwzVGdqRXZSWUdsNS1lRmR3eWltcmtsTklBTUx6eVJ4WW1uMldUNFE1YkRhYjJuSUtBZG9OME9uV1BzV3ljS21NX1FkY1ZseE5BRnhjYUFHU0xMa2p4TFg4d2d3bGliRnJJWkdiek1OeWIwUUFsS2pSbDhTeDdhMkZGd0tNNy1sMC1CUFV4RmVKbDdHUTRZZHBuUVJSaFllWU5TeEdR?oc=5",
+      "timestamp": "2026-10-12T11:02:20.906100+00:00"
     }
   ],
   "used_archetypes": [
@@ -404,6 +404,7 @@
     "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvUEpLa2lfZlFGeFB2ZnktR29jMW1sNDgyT0UtWUhIYlBEYm9fTERERTd2Wi1abExncW80Z3NSZ0hsMHpTSmxYNWpReEZDcTdnMm1ncFJsOFlrYzM1REllX1JUOGV5SFhsM3pxRW9hOXlSUXI5cDV3RVJ6OU16dw?oc=5",
     "https://economictimes.indiatimes.com/wealth/spend/iphone-18-pro-credit-card-emi-vs-no-cost-emi-vs-upfront-payment-festive-offers-deals-sale/articleshow/134833787.cms",
     "https://economictimes.indiatimes.com/wealth/invest/fd-interest-maturity-fixed-deposit-calculator-how-you-can-use-fd-laddering-for-rs-10-lakh-investment-after-rbi-raises-repo-rate/articleshow/134842338.cms",
-    "https://www.livemint.com/money/personal-finance/bank-fd-rates-in-october-2026-how-pre-and-post-tax-fixed-deposit-returns-differ-across-hdfc-icici-sbi-and-pnb-11791729146868.html"
+    "https://www.livemint.com/money/personal-finance/bank-fd-rates-in-october-2026-how-pre-and-post-tax-fixed-deposit-returns-differ-across-hdfc-icici-sbi-and-pnb-11791729146868.html",
+    "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbVZYSjFnOEh5bG9ERWJVTDRKOWtYNUxPdmhLTnFVZ0ZWcFdPWERFTG81S2lSNlZSWTFkWGNSTWFaVGFtQTRIdWh5cHVGQTk2NGdKVGRVcVFYUS1SQ2luR0QtWk9TbksxVmhDTFVsRll1Y2VLS3RuRUpqc19IbjV0UmVpR0xRUjB0Q1gtUmZINmZNRXE4MDR0WGdyeTNLWkJoc0ltb1R6ZVJ3aFJGY2t3b1Bxb3NJWXh2ajZYV2NlSzdjMzkwaXc5RmUxVGNmZ0l6QWd1eklEY3k1cHlPd3k1a3I0M3VDQdIB6wFBVV95cUxNVHpKVndRTTVmaENXaXUzMDdGRkRmVEZrRDdhRDJyVGlXVHJDbzdEaEt4MURsQW5ka0ZOY3B3SGQwdFk5WTJ3RmNEYVhwdGwzVGdqRXZSWUdsNS1lRmR3eWltcmtsTklBTUx6eVJ4WW1uMldUNFE1YkRhYjJuSUtBZG9OME9uV1BzV3ljS21NX1FkY1ZseE5BRnhjYUFHU0xMa2p4TFg4d2d3bGliRnJJWkdiek1OeWIwUUFsS2pSbDhTeDdhMkZGd0tNNy1sMC1CUFV4RmVKbDdHUTRZZHBuUVJSaFllWU5TeEdR?oc=5"
   ]
 }
