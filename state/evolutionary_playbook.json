@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 33,
+  "total_cycles_recorded": 34,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.45,
     "MATHEMATICAL_FRICTION": 2.5,
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B wins by weaponizing MATHEMATICAL_FRICTION. It strips away the 'hero narrative' of high returns and replaces ",
     "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This ",
     "Candidate B is the strongest because it uses the specific Rs 2.60 lakh figure as a 'friction point'. By forcing the read",
     "Candidate B is the definitive winner because it adheres strictly to the MATHEMATICAL_FRICTION archetype. By stripping aw",
@@ -38,7 +37,8 @@
     "Candidate B adheres directly to MATHEMATICAL_FRICTION using the exact $11M figure from the source context. It establishe",
     "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the",
     "Candidate B achieves the highest score (36.5/40) by aligning directly with the prioritized MATHEMATICAL_FRICTION archety",
-    "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the hook in bot"
+    "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the hook in bot",
+    "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids f"
   ],
   "cycle_history": [
     {
@@ -337,6 +337,15 @@
       "critic_score": 9.3,
       "visual_score": 9.3,
       "key_learning": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the hook in bot"
+    },
+    {
+      "cycle": 34,
+      "timestamp": "2026-10-12T21:54:36.288473+00:00",
+      "topic": "Earning ₹50,000, ₹1 lakh or ₹2 lakh a month? Here's how much you could save in 1",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.1,
+      "visual_score": 9.3,
+      "key_learning": "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids f"
     }
   ]
 }
