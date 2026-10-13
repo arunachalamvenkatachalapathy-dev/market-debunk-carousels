@@ -1,78 +1,130 @@
 {
   "topic": {
-    "title": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine",
+    "title": "Senior citizen gets income tax notice over Rs 65.27 lakh cash deposit in bank account; his son proves source of funds and wins case in ITAT Jaipur",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
     "topic_category": "WEALTH_LEAK",
-    "viral_demand_score": 87.1,
-    "source": "BusinessLine",
-    "source_snippet": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
-    "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamp6YldvcWZzMUtrQnRxcTVkRzFTc0hPX016eEJ3MUJuRk1MenN1ekYwMnFBWldGRTU3WlJyUDlSRFA5bzRSaFNsaWU5aFgtejMwS0RWVWVDaTdvcFlhdDIyaFo0YmhMd1FFMG02Ym9lTFVwLVhyZG9paUpfUnkwZFYtOEpsYWc2clVaYU5GQzZxRy11VVRhblNPT1RNcmttdHlTOVZvbVZCaFpEZkhXWnJhbkZVN0JCdkpuZVdqcjZmYlN0Zno5cnpteEpRb03SAdYBQVVfeXFMUDBkazZwa05CMnA4QWdrR0phTXlSTjZRTnZCdm40dHMyQlZuNm5jZXZfQmRmejVlX0pXUzRxNTdWOTNjQjM1WVo5VUItdXBQRTJPMUhXUlJUNUlMbTU3bGFMUGp5aDBkTW9kTHRJQW5xdVhjaUdRMENUeEl0VmVERnN5cGl0SFZEYm1NQ0EzSS1JM1JxT2tkMVY4YjBGN0FvcFU3Y21ZNlhKbGJ5YXA2Y25yLThoUldSQ1pWU2R1enMyRlNWaVVLR2VJRnB0SkZaTzl0Z3hJZw?oc=5",
-    "raw_text": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine. Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
+    "viral_demand_score": 91.3,
+    "source": "Economic Times Wealth & Personal Finance",
+    "source_snippet": "Senior citizen sent income tax notice for Rs 65.27 lakh unexplained cash deposit, which was later proved to be pension and FD money; ITAT Jaipur order explained.",
+    "source_url": "https://economictimes.indiatimes.com/wealth/tax/senior-citizen-gets-income-tax-notice-over-rs-65-27-lakh-cash-deposit-in-bank-account-his-son-proves-source-of-funds-and-wins-case-in-itat-jaipur/articleshow/134915017.cms",
+    "raw_text": "Senior citizen gets income tax notice over Rs 65.27 lakh cash deposit in bank account; his son proves source of funds and wins case in ITAT Jaipur. Senior citizen sent income tax notice for Rs 65.27 lakh unexplained cash deposit, which was later proved to be pension and FD money; ITAT Jaipur order explained.",
     "numbers_detected": [
-      "170 points",
-      "6.5%",
-      "170 points",
-      "6.5%"
+      "65.27",
+      "65.27"
     ],
-    "published_at": "2026-10-13T04:28:52+00:00",
-    "age_hours": 6.3,
-    "retrieved_at": "2026-10-13T10:45:45.315678+00:00",
+    "published_at": "2026-10-13T16:10:33+05:30",
+    "age_hours": 9.3,
+    "retrieved_at": "2026-10-13T19:58:38.667551+00:00",
     "date": "13 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: BusinessLine | Published: 2026-10-13T04:28:52+00:00 (6.3h ago) | Headline: Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine | Context: Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine. Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
+    "evidence_snapshot": "Source: Economic Times Wealth & Personal Finance | Published: 2026-10-13T16:10:33+05:30 (9.3h ago) | Headline: Senior citizen gets income tax notice over Rs 65.27 lakh cash deposit in bank account; his son proves source of funds and wins case in ITAT Jaipur | Context: Senior citizen gets income tax notice over Rs 65.27 lakh cash deposit in bank account; his son proves source of funds and wins case in ITAT Jaipur. Senior citizen sent income tax notice for Rs 65.27 lakh unexplained cash deposit, which was later proved to be pension and FD money; ITAT Jaipur order explained.",
     "news_analysis": {
-      "headline_hook": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bi",
-      "breaking_event_summary": "The Nifty index opened with a 170-point gap up driven by gains in the IT sector, even as the KOSPI index experienced a 6.5% decline amid rising inflation concerns.",
-      "retail_illusion": "Does a strong Nifty opening mean Indian markets are immune to global inflation trends?",
-      "institutional_reality": "The source highlights a divergence where domestic IT sector performance is currently decoupling from the broader regional market volatility seen in South Korea.",
+      "headline_hook": "Your FD maturity and pension aren't 'income'—but the tax department doesn't know that yet.",
+      "breaking_event_summary": "The ITAT Jaipur ruled in favor of a senior citizen who received an income tax notice regarding a Rs 65.27 lakh cash deposit. The taxpayer successfully proved the funds originated from legitimate pension and fixed deposit sources.",
+      "retail_illusion": "Does a large cash deposit in a senior citizen's account automatically trigger a permanent tax penalty?",
+      "institutional_reality": "The Income Tax Department monitors high-value transactions, but taxpayers have the legal right to provide documentation proving the source of funds to clear unexplained cash notices.",
       "citable_metrics": [
-        "170 points",
-        "6.5%"
+        "Rs 65.27 lakh"
       ],
-      "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "Check your portfolio's exposure to IT stocks versus broader market indices to determine if your gains are concentrated in a single sector or diversified across the market.",
+      "debunk_category": "REGULATORY_SHIFT",
+      "actionable_retail_rule": "Maintain clear, dated documentation for all large cash deposits, including pension statements and fixed deposit maturity records, to respond effectively to potential tax inquiries.",
       "lead_magnet": {
-        "title": "Market Divergence Tracker",
-        "description": "A guide to understanding how domestic sector rallies interact with global macroeconomic shifts."
+        "title": "Tax Notice Defense Checklist",
+        "description": "A guide on organizing financial records to substantiate large bank deposits."
       },
       "carousel_outline": [
-        "The Nifty gap-up explained",
-        "Why the KOSPI crash matters to global sentiment",
-        "The role of IT stocks in current market momentum",
-        "How to assess your portfolio's sector concentration"
-      ]
+        "The incident: ITAT Jaipur case overview",
+        "Why the tax notice was issued",
+        "How the source of funds was verified",
+        "Three documents to keep for your bank records",
+        "Steps to take if you receive an IT notice"
+      ],
+      "highlight_word": "Rs 65.27 lakh",
+      "editorial_directive": "Focus slide copy on the dichotomy between 'legitimate savings' and 'unexplained cash'. Emphasize that the ITAT Jaipur ruling confirms that documentation of source—even for pension and FD—is the only defense against automated notices. Ensure the Rs 65.27 lakh figure is presented as a cautionary baseline for anyone closing large FDs."
     },
     "darwin_result": {
       "winning_candidate": {
-        "id": "A",
-        "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bi",
-        "highlight_word": "",
-        "core_mechanism": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine. Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
+        "id": "B",
+        "archetype": "MATHEMATICAL_FRICTION",
+        "headline_hook": "Your FD maturity and pension aren't 'income'—but the tax department doesn't know that yet.",
+        "highlight_word": "Rs 65.27 lakh",
+        "core_mechanism": "A senior citizen deposited Rs 65.27 lakh—a lifetime of pension and FD savings—only to face an IT notice demanding tax on it as 'unexplained income'. The ITAT Jaipur victory proves that having a paper trail for maturity proceeds is the only thing preventing a tax nightmare.",
         "scores": {
-          "total": 34.0
-        }
+          "curiosity_gap": 8.5,
+          "retail_actionability": 9.5,
+          "data_density": 9.5,
+          "friction_quotient": 9.0,
+          "total": 36.5
+        },
+        "critic_critique": "This hits the mathematical friction between personal savings and institutional tax algorithms perfectly. It forces the reader to consider their own FD maturity documentation."
       },
-      "critic_score": 8.5,
-      "archetype": "CONTRARIAN_TRAP",
-      "selection_rationale": "Fallback contrarian anchor."
+      "critic_score": 9.1,
+      "archetype": "MATHEMATICAL_FRICTION",
+      "selection_rationale": "Candidate B is the strongest because it highlights the friction between the user's perception of their own savings (pension/FD) and the institutional tax system's automated trigger mechanisms. It uses the exact Rs 65.27 lakh figure to ground the narrative in reality, making the stakes clear and the consequence (the IT notice) immediate.",
+      "final_editorial_directive": "Focus slide copy on the dichotomy between 'legitimate savings' and 'unexplained cash'. Emphasize that the ITAT Jaipur ruling confirms that documentation of source—even for pension and FD—is the only defense against automated notices. Ensure the Rs 65.27 lakh figure is presented as a cautionary baseline for anyone closing large FDs.",
+      "all_candidates": [
+        {
+          "id": "A",
+          "archetype": "CONTRARIAN_TRAP",
+          "headline_hook": "The IT notice that targeted a senior citizen’s Rs 65.27 lakh deposit.",
+          "highlight_word": "IT notice",
+          "core_mechanism": "The case of a senior citizen who received an unexplained income tax notice for Rs 65.27 lakh. The son proved the funds were accumulated pension and FD maturity proceeds, successfully overturning the tax department's assessment at ITAT Jaipur.",
+          "scores": {
+            "curiosity_gap": 9.0,
+            "retail_actionability": 7.5,
+            "data_density": 8.5,
+            "friction_quotient": 8.0,
+            "total": 33.0
+          },
+          "critic_critique": "Effective use of the specific figure, but lacks a direct link to a universal retail money decision like FD management or record-keeping."
+        },
+        {
+          "id": "B",
+          "archetype": "MATHEMATICAL_FRICTION",
+          "headline_hook": "Your FD maturity and pension aren't 'income'—but the tax department doesn't know that yet.",
+          "highlight_word": "Rs 65.27 lakh",
+          "core_mechanism": "A senior citizen deposited Rs 65.27 lakh—a lifetime of pension and FD savings—only to face an IT notice demanding tax on it as 'unexplained income'. The ITAT Jaipur victory proves that having a paper trail for maturity proceeds is the only thing preventing a tax nightmare.",
+          "scores": {
+            "curiosity_gap": 8.5,
+            "retail_actionability": 9.5,
+            "data_density": 9.5,
+            "friction_quotient": 9.0,
+            "total": 36.5
+          },
+          "critic_critique": "This hits the mathematical friction between personal savings and institutional tax algorithms perfectly. It forces the reader to consider their own FD maturity documentation."
+        },
+        {
+          "id": "C",
+          "archetype": "INSTITUTIONAL_DISPARITY",
+          "headline_hook": "Why your bank deposit could flag an IT investigation.",
+          "highlight_word": "Bank deposit",
+          "core_mechanism": "Large cash movements, even if they are legitimate FD maturity or pension payouts, can trigger automated IT notices. The case of the Rs 65.27 lakh deposit shows that the burden of proof lies with the taxpayer, not the tax authority.",
+          "scores": {
+            "curiosity_gap": 8.0,
+            "retail_actionability": 8.5,
+            "data_density": 8.0,
+            "friction_quotient": 8.5,
+            "total": 33.0
+          },
+          "critic_critique": "Solid, but lacks the punchy narrative tension of the specific case study found in B. Actionability is high but the hook is more generic."
+        }
+      ]
     }
   },
   "plan": {
-    "hook_headline": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bi",
-    "core_illusion": "Does a strong Nifty opening mean Indian markets are immune to global inflation trends?",
-    "hidden_reality": "The source highlights a divergence where domestic IT sector performance is currently decoupling from the broader regional market volatility seen in South Korea.",
-    "citable_metric": "170 points",
+    "hook_headline": "Your FD maturity and pension aren't 'income'—but the tax department doesn't know that yet.",
+    "core_illusion": "Does a large cash deposit in a senior citizen's account automatically trigger a permanent tax penalty?",
+    "hidden_reality": "The Income Tax Department monitors high-value transactions, but taxpayers have the legal right to provide documentation proving the source of funds to clear unexplained cash notices.",
+    "citable_metric": "Rs 65.27 lakh",
     "all_metrics": [
-      "170 points",
-      "6.5%"
+      "Rs 65.27 lakh"
     ],
-    "actionable_rule": "Check your portfolio's exposure to IT stocks versus broader market indices to determine if your gains are concentrated in a single sector or diversified across the market.",
-    "breaking_event": "The Nifty index opened with a 170-point gap up driven by gains in the IT sector, even as the KOSPI index experienced a 6.5% decline amid rising inflation concerns.",
+    "actionable_rule": "Maintain clear, dated documentation for all large cash deposits, including pension statements and fixed deposit maturity records, to respond effectively to potential tax inquiries.",
+    "breaking_event": "The ITAT Jaipur ruled in favor of a senior citizen who received an income tax notice regarding a Rs 65.27 lakh cash deposit. The taxpayer successfully proved the funds originated from legitimate pension and fixed deposit sources.",
     "lead_magnet": {
-      "title": "Market Divergence Tracker",
-      "description": "A guide to understanding how domestic sector rallies interact with global macroeconomic shifts."
+      "title": "Tax Notice Defense Checklist",
+      "description": "A guide on organizing financial records to substantiate large bank deposits."
     },
     "banned_phrases": [
       "guaranteed wealth",
@@ -82,176 +134,201 @@
     ]
   },
   "deck": {
-    "caption": "Nifty opened up 170 points this morning, but South Korea's KOSPI plunged 6.5%. Does a green opening mean Indian investors are safe from global inflation?\n\nHere is what you need to know:\n• Why heavy buying in IT stocks pushed Nifty up by 170 points\n• Why Asian markets tumbled 6.5% as inflation concerns escalated\n• How to check if your money is over-concentrated in one sector\n\nSave this post to avoid chasing opening-bell spikes, and share it with a friend who is building their portfolio.\n\nIs your portfolio diversified across different sectors, or are tech stocks doing all the heavy lifting?",
+    "caption": "A senior citizen received a tax notice for a Rs 65.27 lakh cash deposit, but won the case by proving the source. \n\nIn this post, we break down:\n• Why the tax department flags large deposits.\n• How to prove your money is legitimate.\n• Why documentation is your best defense.\n\nSave this to keep your financial records organized. \n\nIf you receive a tax notice for a large deposit, would you know exactly where to find the proof of origin for that money? \n\n#IncomeTaxIndia #FinancialLiteracy #TaxNotice #ITATJaipur #SeniorCitizenFinance",
     "slides": [
       {
         "role": "hook",
-        "title": "Nifty Gaps Up 170 Points While Asian Markets Slide",
-        "card_text": "",
+        "title": "Your FD maturity and pension aren't 'income'—but the tax department doesn't know that yet.",
+        "body": "A senior citizen recently faced a tax notice for a Rs 65.27 lakh cash deposit. Here is how they cleared their name.",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Nifty Gaps",
-          "<span class='highlight-box'>Up 170</span>",
-          "Points While"
-        ]
+          "Your FD",
+          "<span class='highlight-box'>maturity and</span>",
+          "pension aren't"
+        ],
+        "card_text": ""
       },
       {
         "role": "value_1",
-        "title": "The Indian Market Open",
-        "stat_data": {
-          "metric": "170 Points",
-          "label": "Nifty Opening Jump",
-          "context": "Nifty opened with an immediate 170-point gap up, propelled primarily by sharp gains in domestic IT stocks."
-        },
+        "type": "stat_data",
+        "title": "The Trigger: Rs 65.27 Lakh",
+        "body": "The Income Tax Department flagged a cash deposit of Rs 65.27 lakh in a senior citizen's account as 'unexplained income'. Large cash movements are automatically tracked by banking systems.",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Indian",
-          "<span class='highlight-box'>Market Open</span>"
-        ]
+          "The Trigger:",
+          "<span class='highlight-box'>Rs 65.27</span>",
+          "Lakh"
+        ],
+        "card_text": "stat_data The Income Tax Department flagged a cash deposit of Rs 65.27 lakh in a senior citizen's account as 'unexplained income'. Large cash movements are automatically tracked by banking systems."
       },
       {
         "role": "value_2",
-        "title": "The Regional Contrast",
-        "stat_data": {
-          "metric": "6.5% Drop",
-          "label": "South Korea's KOSPI Crash",
-          "context": "While Indian tech surged, South Korea's main index sank 6.5% as rising inflation pressures shook foreign investor sentiment."
-        },
+        "type": "comparison_data",
+        "title": "The Misunderstanding",
+        "body": "The tax department viewed the deposit as potential hidden earnings. In reality, the money came from legitimate sources: pension payments and matured Fixed Deposits (FDs).",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>The Regional</span>",
-          "Contrast"
-        ]
+          "<span class='highlight-box'>The Misunderstanding</span>"
+        ],
+        "card_text": "comparison_data The tax department viewed the deposit as potential hidden earnings. In reality, the money came from legitimate sources: pension payments and matured Fixed Deposits (FDs)."
       },
       {
         "role": "value_3",
-        "title": "How One Sector Moved the Index",
-        "flowchart_data": [
-          {
-            "step": "1",
-            "text": "Inflation concerns trigger a sharp 6.5% drop in South Korea's KOSPI."
-          },
-          {
-            "step": "2",
-            "text": "Indian IT stocks experience concentrated buying interest at the market open."
-          },
-          {
-            "step": "3",
-            "text": "Because IT carries high index weight, Nifty opens 170 points higher despite regional headwinds."
-          }
-        ],
+        "type": "card_text",
+        "title": "The Legal Battle",
+        "body": "The case reached the ITAT (Income Tax Appellate Tribunal) in Jaipur. The taxpayer's son stepped in to provide the necessary bank statements and maturity certificates to prove the funds were already taxed or exempt.",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How One",
-          "<span class='highlight-box'>Sector Moved</span>",
-          "the Index"
-        ]
+          "<span class='highlight-box'>The Legal</span>",
+          "Battle"
+        ],
+        "card_text": "card_text The case reached the ITAT (Income Tax Appellate Tribunal) in Jaipur. The taxpayer's son stepped in to provide the necessary bank statements and maturity certificates to prove the funds were already taxed or exempt."
       },
       {
         "role": "value_4",
-        "title": "Assumption vs Reality",
-        "comparison_data": {
-          "myth": "A 170-point jump at the open means Indian markets are completely shielded from global inflation.",
-          "reality": "A single-sector surge can lift the headline index temporarily, masking underlying global risks."
-        },
+        "type": "flowchart_data",
+        "title": "How the Case Was Won",
+        "body": "1. Notice received for unexplained cash. 2. Son gathered pension slips and FD maturity proofs. 3. Evidence presented to ITAT Jaipur. 4. Tribunal ruled in favor of the taxpayer.",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>Assumption vs</span>",
-          "Reality"
-        ]
+          "How the",
+          "<span class='highlight-box'>Case Was</span>",
+          "Won"
+        ],
+        "card_text": "flowchart_data 1. Notice received for unexplained cash. 2. Son gathered pension slips and FD maturity proofs. 3. Evidence presented to ITAT Jaipur. 4. Tribunal ruled in favor of the taxpayer."
       },
       {
         "role": "value_5",
-        "title": "A Sanity Check for Beginners",
-        "checklist_data": [
-          {
-            "item": "Check if your mutual fund or stock portfolio is heavily weighted in only IT shares.",
-            "status": "warning",
-            "text": ""
-          },
-          {
-            "item": "Rushing to buy immediately on opening spikes without checking broader market sentiment.",
-            "status": "fail",
-            "text": ""
-          },
-          {
-            "item": "Holding investments spread across multiple unrelated domestic sectors.",
-            "status": "pass",
-            "text": ""
-          }
-        ],
+        "type": "checklist_data",
+        "title": "What You Must Keep",
+        "body": "Keep these to avoid trouble: Pension statements (Pass), FD maturity receipts (Pass), Bank account statements showing the trail (Pass), Income Tax Returns filed in previous years (Pass).",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "A Sanity",
-          "<span class='highlight-box'>Check for</span>",
-          "Beginners"
-        ]
+          "What You",
+          "<span class='highlight-box'>Must Keep</span>"
+        ],
+        "card_text": "checklist_data Keep these to avoid trouble: Pension statements (Pass), FD maturity receipts (Pass), Bank account statements showing the trail (Pass), Income Tax Returns filed in previous years (Pass)."
       },
       {
         "role": "value_6",
-        "title": "What Remains Uncertain",
-        "card_text": "A strong opening does not guarantee a sustained upward trend. If global inflation continues to bite Asian peers, foreign capital flows and broader market segments can face extended volatility. Never confuse a one-day IT push with total immunity.",
+        "type": "card_text",
+        "title": "Why Documentation Matters",
+        "body": "The law allows you to explain the source of your funds. Without clear, dated records, the burden of proof becomes much harder to satisfy during an audit.",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>What Remains</span>",
-          "Uncertain"
-        ]
+          "<span class='highlight-box'>Why Documentation</span>",
+          "Matters"
+        ],
+        "card_text": "card_text The law allows you to explain the source of your funds. Without clear, dated records, the burden of proof becomes much harder to satisfy during an audit."
       },
       {
         "role": "bookmark_save",
-        "title": "Don't Let One Green Morning Mislead You",
-        "card_text": "",
-        "cta_detail": "Save this guide to review before trading on volatile opening mornings, and share with a fellow investor.",
+        "title": "Takeaway: Keep a 'Money Trail",
+        "cta_detail": "Always store your pension and FD maturity documents in a dedicated folder. Save this post to remember why your paperwork is your strongest shield. Share this with a senior citizen in your family.",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Don't Let",
-          "<span class='highlight-box'>One Green</span>",
-          "Morning Mislead You"
-        ]
+          "Takeaway: Keep",
+          "<span class='highlight-box'>a 'Money</span>",
+          "Trail"
+        ],
+        "card_text": ""
       }
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Pulse of Capital (Synthwave Focus)",
-      "artist": "Maxence Cyrin / Philip Glass",
-      "bpm": 118,
-      "vibe": "Analytical Depth & Clarity",
-      "reels_boost_tier": "Steady Evergreen",
-      "search_query": "Philip Glass Opening Piano"
+      "title": "Cornfield Chase (Interstellar Piano/Synth)",
+      "artist": "Hans Zimmer / Dorian Marko",
+      "bpm": 100,
+      "vibe": "Cinematic Tension & Focus",
+      "reels_boost_tier": "High Velocity",
+      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
     }
   },
   "audio": {
-    "title": "Pulse of Capital (Synthwave Focus)",
-    "artist": "Maxence Cyrin / Philip Glass",
-    "bpm": 118,
-    "vibe": "Analytical Depth & Clarity",
-    "reels_boost_tier": "Steady Evergreen",
-    "search_query": "Philip Glass Opening Piano"
+    "title": "Cornfield Chase (Interstellar Piano/Synth)",
+    "artist": "Hans Zimmer / Dorian Marko",
+    "bpm": 100,
+    "vibe": "Cinematic Tension & Focus",
+    "reels_boost_tier": "High Velocity",
+    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
   },
-  "run_id": "20261013_105243",
+  "run_id": "20261013_195955",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
-      "id": "A",
-      "archetype": "CONTRARIAN_TRAP",
-      "headline_hook": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bi",
-      "highlight_word": "",
-      "core_mechanism": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine. Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
+      "id": "B",
+      "archetype": "MATHEMATICAL_FRICTION",
+      "headline_hook": "Your FD maturity and pension aren't 'income'—but the tax department doesn't know that yet.",
+      "highlight_word": "Rs 65.27 lakh",
+      "core_mechanism": "A senior citizen deposited Rs 65.27 lakh—a lifetime of pension and FD savings—only to face an IT notice demanding tax on it as 'unexplained income'. The ITAT Jaipur victory proves that having a paper trail for maturity proceeds is the only thing preventing a tax nightmare.",
       "scores": {
-        "total": 34.0
-      }
+        "curiosity_gap": 8.5,
+        "retail_actionability": 9.5,
+        "data_density": 9.5,
+        "friction_quotient": 9.0,
+        "total": 36.5
+      },
+      "critic_critique": "This hits the mathematical friction between personal savings and institutional tax algorithms perfectly. It forces the reader to consider their own FD maturity documentation."
     },
-    "critic_score": 8.5,
-    "archetype": "CONTRARIAN_TRAP",
-    "selection_rationale": "Fallback contrarian anchor."
+    "critic_score": 9.1,
+    "archetype": "MATHEMATICAL_FRICTION",
+    "selection_rationale": "Candidate B is the strongest because it highlights the friction between the user's perception of their own savings (pension/FD) and the institutional tax system's automated trigger mechanisms. It uses the exact Rs 65.27 lakh figure to ground the narrative in reality, making the stakes clear and the consequence (the IT notice) immediate.",
+    "final_editorial_directive": "Focus slide copy on the dichotomy between 'legitimate savings' and 'unexplained cash'. Emphasize that the ITAT Jaipur ruling confirms that documentation of source—even for pension and FD—is the only defense against automated notices. Ensure the Rs 65.27 lakh figure is presented as a cautionary baseline for anyone closing large FDs.",
+    "all_candidates": [
+      {
+        "id": "A",
+        "archetype": "CONTRARIAN_TRAP",
+        "headline_hook": "The IT notice that targeted a senior citizen’s Rs 65.27 lakh deposit.",
+        "highlight_word": "IT notice",
+        "core_mechanism": "The case of a senior citizen who received an unexplained income tax notice for Rs 65.27 lakh. The son proved the funds were accumulated pension and FD maturity proceeds, successfully overturning the tax department's assessment at ITAT Jaipur.",
+        "scores": {
+          "curiosity_gap": 9.0,
+          "retail_actionability": 7.5,
+          "data_density": 8.5,
+          "friction_quotient": 8.0,
+          "total": 33.0
+        },
+        "critic_critique": "Effective use of the specific figure, but lacks a direct link to a universal retail money decision like FD management or record-keeping."
+      },
+      {
+        "id": "B",
+        "archetype": "MATHEMATICAL_FRICTION",
+        "headline_hook": "Your FD maturity and pension aren't 'income'—but the tax department doesn't know that yet.",
+        "highlight_word": "Rs 65.27 lakh",
+        "core_mechanism": "A senior citizen deposited Rs 65.27 lakh—a lifetime of pension and FD savings—only to face an IT notice demanding tax on it as 'unexplained income'. The ITAT Jaipur victory proves that having a paper trail for maturity proceeds is the only thing preventing a tax nightmare.",
+        "scores": {
+          "curiosity_gap": 8.5,
+          "retail_actionability": 9.5,
+          "data_density": 9.5,
+          "friction_quotient": 9.0,
+          "total": 36.5
+        },
+        "critic_critique": "This hits the mathematical friction between personal savings and institutional tax algorithms perfectly. It forces the reader to consider their own FD maturity documentation."
+      },
+      {
+        "id": "C",
+        "archetype": "INSTITUTIONAL_DISPARITY",
+        "headline_hook": "Why your bank deposit could flag an IT investigation.",
+        "highlight_word": "Bank deposit",
+        "core_mechanism": "Large cash movements, even if they are legitimate FD maturity or pension payouts, can trigger automated IT notices. The case of the Rs 65.27 lakh deposit shows that the burden of proof lies with the taxpayer, not the tax authority.",
+        "scores": {
+          "curiosity_gap": 8.0,
+          "retail_actionability": 8.5,
+          "data_density": 8.0,
+          "friction_quotient": 8.5,
+          "total": 33.0
+        },
+        "critic_critique": "Solid, but lacks the punchy narrative tension of the specific case study found in B. Actionability is high but the hook is more generic."
+      }
+    ]
   },
   "visual_audit": {
     "passed": true,
@@ -262,14 +339,14 @@
       "whitespace_score": 9.0,
       "overall_score": 9.4,
       "passed": true,
-      "critique_summary": "The design features a strong, high-contrast visual hierarchy that ensures immediate legibility and a professional, clean financial aesthetic. The balance of negative space effectively directs focus to the headline without distraction.",
+      "critique_summary": "The design achieves high-impact readability through bold, clean typography and an effective use of negative space. The highlighted 'maturity' element provides a strong visual anchor that draws the eye immediately while maintaining a professional, editorial tone.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
-        "line_height": "1.10",
-        "notes": "The current typography is well-optimized; minor tightening of line-height could further sharpen the headline's visual impact."
+        "line_height": "1.1",
+        "notes": "The current line-height is optimal; tightening slightly could further unify the text block but is not strictly necessary."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-13T10:52:58.609143+00:00"
+  "exported_at": "2026-10-13T20:00:17.599913+00:00"
 }

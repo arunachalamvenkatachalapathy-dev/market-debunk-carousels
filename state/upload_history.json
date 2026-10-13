@@ -1511,8 +1511,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 49.3
     },
     {
       "title": "Mutual fund SIP inflows hit record ₹32,490 crore in September; equity inflows rise 31% - Livemint",
@@ -1589,6 +1600,35 @@
           "success": true,
           "post_id": "1247247545146839_122122081539474347",
           "url": "https://www.facebook.com/1247247545146839_122122081539474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    },
+    {
+      "title": "Senior citizen gets income tax notice over Rs 65.27 lakh cash deposit in bank account; his son proves source of funds and wins case in ITAT Jaipur",
+      "media_id": "18168571924477380",
+      "timestamp": "2026-10-13T20:02:03.683190+00:00",
+      "topic_category": "REGULATORY_SHIFT",
+      "hook_archetype": "CONTRARIAN",
+      "hashtag_cluster": "default",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18168571924477380",
+          "permalink": "https://www.instagram.com/p/DecnnrbmDvs/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122122257393474347",
+          "url": "https://www.facebook.com/1247247545146839_122122257393474347"
         },
         "telegram": {
           "success": true
