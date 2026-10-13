@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 34,
+  "total_cycles_recorded": 35,
   "archetype_weights": {
-    "CONTRARIAN_TRAP": 1.45,
+    "CONTRARIAN_TRAP": 1.5,
     "MATHEMATICAL_FRICTION": 2.5,
     "INSTITUTIONAL_DISPARITY": 1.1
   },
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B is the winner because it forces the user to view travel expenses through the lens of 'interest costs.' This ",
     "Candidate B is the strongest because it uses the specific Rs 2.60 lakh figure as a 'friction point'. By forcing the read",
     "Candidate B is the definitive winner because it adheres strictly to the MATHEMATICAL_FRICTION archetype. By stripping aw",
     "Candidate B effectively leverages the 'MATHEMATICAL_FRICTION' archetype by framing the change as a systemic shift in how",
@@ -38,7 +37,8 @@
     "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the",
     "Candidate B achieves the highest score (36.5/40) by aligning directly with the prioritized MATHEMATICAL_FRICTION archety",
     "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the hook in bot",
-    "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids f"
+    "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids f",
+    "Fallback contrarian anchor."
   ],
   "cycle_history": [
     {
@@ -346,6 +346,15 @@
       "critic_score": 9.1,
       "visual_score": 9.3,
       "key_learning": "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids f"
+    },
+    {
+      "cycle": 35,
+      "timestamp": "2026-10-13T10:52:58.608085+00:00",
+      "topic": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - Busi",
+      "winning_archetype": "CONTRARIAN_TRAP",
+      "critic_score": 8.5,
+      "visual_score": 9.4,
+      "key_learning": "Fallback contrarian anchor."
     }
   ]
 }

@@ -1,129 +1,79 @@
 {
   "topic": {
-    "title": "Earning ₹50,000, ₹1 lakh or ₹2 lakh a month? Here's how much you could save in 10 years",
+    "title": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
     "topic_category": "WEALTH_LEAK",
-    "viral_demand_score": 75.2,
-    "source": "LiveMint",
-    "source_snippet": "A consistent monthly investment can help salaried individuals build wealth over 10 years. For those earning ₹50,000, ₹1 lakh or ₹2 lakh a month, the potential corpus depends on how much they invest, the returns they earn and how inflation affects the future purchasing power of their savings.",
-    "source_url": "https://www.livemint.com/money/personal-finance/earning-50-000-1-lakh-or-2-lakh-a-month-heres-how-much-you-could-save-in-10-years-11791825227222.html",
-    "raw_text": "Earning ₹50,000, ₹1 lakh or ₹2 lakh a month? Here's how much you could save in 10 years. A consistent monthly investment can help salaried individuals build wealth over 10 years. For those earning ₹50,000, ₹1 lakh or ₹2 lakh a month, the potential corpus depends on how much they invest, the returns they earn and how inflation affects the future purchasing power of their savings.",
+    "viral_demand_score": 87.1,
+    "source": "BusinessLine",
+    "source_snippet": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
+    "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamp6YldvcWZzMUtrQnRxcTVkRzFTc0hPX016eEJ3MUJuRk1MenN1ekYwMnFBWldGRTU3WlJyUDlSRFA5bzRSaFNsaWU5aFgtejMwS0RWVWVDaTdvcFlhdDIyaFo0YmhMd1FFMG02Ym9lTFVwLVhyZG9paUpfUnkwZFYtOEpsYWc2clVaYU5GQzZxRy11VVRhblNPT1RNcmttdHlTOVZvbVZCaFpEZkhXWnJhbkZVN0JCdkpuZVdqcjZmYlN0Zno5cnpteEpRb03SAdYBQVVfeXFMUDBkazZwa05CMnA4QWdrR0phTXlSTjZRTnZCdm40dHMyQlZuNm5jZXZfQmRmejVlX0pXUzRxNTdWOTNjQjM1WVo5VUItdXBQRTJPMUhXUlJUNUlMbTU3bGFMUGp5aDBkTW9kTHRJQW5xdVhjaUdRMENUeEl0VmVERnN5cGl0SFZEYm1NQ0EzSS1JM1JxT2tkMVY4YjBGN0FvcFU3Y21ZNlhKbGJ5YXA2Y25yLThoUldSQ1pWU2R1enMyRlNWaVVLR2VJRnB0SkZaTzl0Z3hJZw?oc=5",
+    "raw_text": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine. Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
     "numbers_detected": [
-      "₹50,000",
-      "₹1",
-      "₹2",
-      "10 years",
-      "10 years",
-      "₹50,000"
+      "170 points",
+      "6.5%",
+      "170 points",
+      "6.5%"
     ],
-    "published_at": "2026-10-12T17:41:15.284546+00:00",
-    "age_hours": 4.2,
-    "retrieved_at": "2026-10-12T21:53:15.284546+00:00",
-    "date": "12 Oct 2026",
+    "published_at": "2026-10-13T04:28:52+00:00",
+    "age_hours": 6.3,
+    "retrieved_at": "2026-10-13T10:45:45.315678+00:00",
+    "date": "13 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: LiveMint | Published: 2026-10-12T17:41:15.284546+00:00 (4.2h ago) | Headline: Earning ₹50,000, ₹1 lakh or ₹2 lakh a month? Here's how much you could save in 10 years | Context: Earning ₹50,000, ₹1 lakh or ₹2 lakh a month? Here's how much you could save in 10 years. A consistent monthly investment can help salaried individuals build wealth over 10 years. For those earning ₹50,000, ₹1 lakh or ₹2 lakh a month, the potential corpus depends on how much they invest, the returns they earn and how inflation affects the future purchasing power of their savings.",
+    "evidence_snapshot": "Source: BusinessLine | Published: 2026-10-13T04:28:52+00:00 (6.3h ago) | Headline: Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine | Context: Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine. Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
     "news_analysis": {
-      "headline_hook": "Earning ₹50k vs ₹2L: The 10-year gap isn't just your salary.",
-      "breaking_event_summary": "LiveMint highlighted how salaried individuals earning ₹50,000, ₹1 lakh, or ₹2 lakh a month can build wealth over 10 years through consistent monthly investing.",
-      "retail_illusion": "Assuming that your monthly income bracket alone defines the size and purchasing power of your future accumulated savings.",
-      "institutional_reality": "The final wealth corpus is determined by actual investible surplus, realized portfolio returns, and the impact of inflation on future purchasing power, not just income level.",
+      "headline_hook": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bi",
+      "breaking_event_summary": "The Nifty index opened with a 170-point gap up driven by gains in the IT sector, even as the KOSPI index experienced a 6.5% decline amid rising inflation concerns.",
+      "retail_illusion": "Does a strong Nifty opening mean Indian markets are immune to global inflation trends?",
+      "institutional_reality": "The source highlights a divergence where domestic IT sector performance is currently decoupling from the broader regional market volatility seen in South Korea.",
       "citable_metrics": [
-        "₹50,000",
-        "₹1 lakh",
-        "₹2 lakh",
-        "10 years"
+        "170 points",
+        "6.5%"
       ],
       "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "Calculate long-term wealth targets based on your actual monthly investment amount and net-of-inflation return projections rather than gross salary figures.",
-      "lead_magnet": {},
-      "carousel_outline": [],
-      "highlight_word": "10-year gap",
-      "editorial_directive": "Ensure slide copy strictly avoids hypothetical 'what if' scenarios. Use the exact income brackets provided (₹50k, ₹1L, ₹2L). Every mention of future value must be qualified by the impact of inflation to maintain mathematical integrity."
+      "actionable_retail_rule": "Check your portfolio's exposure to IT stocks versus broader market indices to determine if your gains are concentrated in a single sector or diversified across the market.",
+      "lead_magnet": {
+        "title": "Market Divergence Tracker",
+        "description": "A guide to understanding how domestic sector rallies interact with global macroeconomic shifts."
+      },
+      "carousel_outline": [
+        "The Nifty gap-up explained",
+        "Why the KOSPI crash matters to global sentiment",
+        "The role of IT stocks in current market momentum",
+        "How to assess your portfolio's sector concentration"
+      ]
     },
     "darwin_result": {
       "winning_candidate": {
-        "id": "B",
-        "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Earning ₹50k vs ₹2L: The 10-year gap isn't just your salary.",
-        "highlight_word": "10-year gap",
-        "core_mechanism": "Uses the mathematical friction between current monthly income and future purchasing power, emphasizing that the gap is widened by inflation and investment consistency.",
+        "id": "A",
+        "archetype": "CONTRARIAN_TRAP",
+        "headline_hook": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bi",
+        "highlight_word": "",
+        "core_mechanism": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine. Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 9.5,
-          "data_density": 9.5,
-          "friction_quotient": 9.0,
-          "total": 36.5
-        },
-        "critic_critique": "The high score is driven by the strict adherence to the MATHEMATICAL_FRICTION archetype. It forces the reader to confront how inflation erodes savings, making it the most intellectually honest approach."
-      },
-      "critic_score": 9.1,
-      "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids fluff and forces the user to engage with the reality of long-term wealth erosion, which is the core of the provided context.",
-      "final_editorial_directive": "Ensure slide copy strictly avoids hypothetical 'what if' scenarios. Use the exact income brackets provided (₹50k, ₹1L, ₹2L). Every mention of future value must be qualified by the impact of inflation to maintain mathematical integrity.",
-      "all_candidates": [
-        {
-          "id": "A",
-          "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "You think your salary is the limit? Your 10-year corpus says otherwise.",
-          "highlight_word": "10-year corpus",
-          "core_mechanism": "Contrasts the common belief that salary dictates wealth with the mathematical reality of consistent SIP-based accumulation over a decade.",
-          "scores": {
-            "curiosity_gap": 9.0,
-            "retail_actionability": 7.5,
-            "data_density": 8.0,
-            "friction_quotient": 8.5,
-            "total": 33.0
-          },
-          "critic_critique": "Strong hook, but lacks a specific named anchor as requested. Effectively challenges the 'salary-first' mindset but needs more concrete mechanics."
-        },
-        {
-          "id": "B",
-          "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "Earning ₹50k vs ₹2L: The 10-year gap isn't just your salary.",
-          "highlight_word": "10-year gap",
-          "core_mechanism": "Uses the mathematical friction between current monthly income and future purchasing power, emphasizing that the gap is widened by inflation and investment consistency.",
-          "scores": {
-            "curiosity_gap": 8.5,
-            "retail_actionability": 9.5,
-            "data_density": 9.5,
-            "friction_quotient": 9.0,
-            "total": 36.5
-          },
-          "critic_critique": "The high score is driven by the strict adherence to the MATHEMATICAL_FRICTION archetype. It forces the reader to confront how inflation erodes savings, making it the most intellectually honest approach."
-        },
-        {
-          "id": "C",
-          "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Why your bank FD won't match a 10-year SIP strategy.",
-          "highlight_word": "10-year SIP",
-          "core_mechanism": "Compares the rigid, often inflation-lagging nature of traditional savings like FDs against the compounding potential of a long-term systematic investment plan.",
-          "scores": {
-            "curiosity_gap": 9.0,
-            "retail_actionability": 8.5,
-            "data_density": 8.0,
-            "friction_quotient": 8.0,
-            "total": 33.5
-          },
-          "critic_critique": "Solid retail actionability. It directly addresses a common Indian financial instrument (FD) and provides a clear alternative. Very grounded in reality."
+          "total": 34.0
         }
-      ]
+      },
+      "critic_score": 8.5,
+      "archetype": "CONTRARIAN_TRAP",
+      "selection_rationale": "Fallback contrarian anchor."
     }
   },
   "plan": {
-    "hook_headline": "Earning ₹50k vs ₹2L: The 10-year gap isn't just your salary.",
-    "core_illusion": "Assuming that your monthly income bracket alone defines the size and purchasing power of your future accumulated savings.",
-    "hidden_reality": "The final wealth corpus is determined by actual investible surplus, realized portfolio returns, and the impact of inflation on future purchasing power, not just income level.",
-    "citable_metric": "₹50,000",
+    "hook_headline": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bi",
+    "core_illusion": "Does a strong Nifty opening mean Indian markets are immune to global inflation trends?",
+    "hidden_reality": "The source highlights a divergence where domestic IT sector performance is currently decoupling from the broader regional market volatility seen in South Korea.",
+    "citable_metric": "170 points",
     "all_metrics": [
-      "₹50,000",
-      "₹1 lakh",
-      "₹2 lakh",
-      "10 years"
+      "170 points",
+      "6.5%"
     ],
-    "actionable_rule": "Calculate long-term wealth targets based on your actual monthly investment amount and net-of-inflation return projections rather than gross salary figures.",
-    "breaking_event": "LiveMint highlighted how salaried individuals earning ₹50,000, ₹1 lakh, or ₹2 lakh a month can build wealth over 10 years through consistent monthly investing.",
-    "lead_magnet": {},
+    "actionable_rule": "Check your portfolio's exposure to IT stocks versus broader market indices to determine if your gains are concentrated in a single sector or diversified across the market.",
+    "breaking_event": "The Nifty index opened with a 170-point gap up driven by gains in the IT sector, even as the KOSPI index experienced a 6.5% decline amid rising inflation concerns.",
+    "lead_magnet": {
+      "title": "Market Divergence Tracker",
+      "description": "A guide to understanding how domestic sector rallies interact with global macroeconomic shifts."
+    },
     "banned_phrases": [
       "guaranteed wealth",
       "quick money",
@@ -132,253 +82,194 @@
     ]
   },
   "deck": {
-    "caption": "Does earning ₹2 lakh guarantee 4x more wealth than earning ₹50,000 over 10 years?\n\nHere is what really dictates your 10-year savings:\n• Why investible surplus matters far more than your gross salary\n• The three forces determining your actual accumulated corpus\n• Why inflation silently changes what your future savings can buy\n\nSave this breakdown to benchmark your monthly savings plan and share it with a friend planning their financial future.\n\nWhen projecting your 10-year savings target, do you calculate your net investible surplus or your gross salary?\n\n#PersonalFinanceIndia #SalariedLife #WealthBuilding #FinancialLiteracyIndia",
+    "caption": "Nifty opened up 170 points this morning, but South Korea's KOSPI plunged 6.5%. Does a green opening mean Indian investors are safe from global inflation?\n\nHere is what you need to know:\n• Why heavy buying in IT stocks pushed Nifty up by 170 points\n• Why Asian markets tumbled 6.5% as inflation concerns escalated\n• How to check if your money is over-concentrated in one sector\n\nSave this post to avoid chasing opening-bell spikes, and share it with a friend who is building their portfolio.\n\nIs your portfolio diversified across different sectors, or are tech stocks doing all the heavy lifting?",
     "slides": [
       {
         "role": "hook",
-        "title": "Earning ₹2 Lakh Won’t Guarantee A <span class=\"highlight-box\">Larger Corpus</span>",
-        "text": "Many believe earning four times more automatically creates four times more wealth in 10 years. But gross income is only the starting point.",
+        "title": "Nifty Gaps Up 170 Points While Asian Markets Slide",
+        "card_text": "",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Earning ₹2",
-          "Lakh Won’t",
-          "<span class='highlight-box'>Larger Corpus</span>"
-        ],
-        "card_text": ""
+          "Nifty Gaps",
+          "<span class='highlight-box'>Up 170</span>",
+          "Points While"
+        ]
       },
       {
         "role": "value_1",
-        "title": "Gross Salary Versus Real Savings",
-        "comparison_data": {
-          "myth": "A higher monthly pay bracket automatically guarantees a massive 10-year wealth pool.",
-          "reality": "Only your actual investible surplus—the money left and invested after expenses—grows your wealth."
+        "title": "The Indian Market Open",
+        "stat_data": {
+          "metric": "170 Points",
+          "label": "Nifty Opening Jump",
+          "context": "Nifty opened with an immediate 170-point gap up, propelled primarily by sharp gains in domestic IT stocks."
         },
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Gross Salary",
-          "<span class='highlight-box'>Versus Real</span>",
-          "Savings"
+          "The Indian",
+          "<span class='highlight-box'>Market Open</span>"
         ]
       },
       {
         "role": "value_2",
-        "title": "Three Drivers Of Future Growth",
-        "checklist_data": [
-          {
-            "text": "Monthly Investment: The exact surplus you invest consistently every month.",
-            "status": true
-          },
-          {
-            "text": "Portfolio Returns: The actual rate of growth your investments earn over 10 years.",
-            "status": true
-          },
-          {
-            "text": "Inflation Impact: The rise in prices that reduces what your money can buy in the future.",
-            "status": true
-          },
-          {
-            "text": "High Gross Salary Alone: Uninvested income does not compound into wealth.",
-            "status": false
-          }
-        ],
+        "title": "The Regional Contrast",
+        "stat_data": {
+          "metric": "6.5% Drop",
+          "label": "South Korea's KOSPI Crash",
+          "context": "While Indian tech surged, South Korea's main index sank 6.5% as rising inflation pressures shook foreign investor sentiment."
+        },
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Three Drivers",
-          "<span class='highlight-box'>Of Future</span>",
-          "Growth"
+          "<span class='highlight-box'>The Regional</span>",
+          "Contrast"
         ]
       },
       {
         "role": "value_3",
-        "title": "The Power Of Monthly Surplus",
-        "stat_data": {
-          "metric": "₹50,000",
-          "label": "Baseline Monthly Salary",
-          "context": "Whether earning ₹50,000, ₹1 lakh, or ₹2 lakh a month, steady monthly investing over 10 years builds wealth if living costs leave room to save."
-        },
+        "title": "How One Sector Moved the Index",
+        "flowchart_data": [
+          {
+            "step": "1",
+            "text": "Inflation concerns trigger a sharp 6.5% drop in South Korea's KOSPI."
+          },
+          {
+            "step": "2",
+            "text": "Indian IT stocks experience concentrated buying interest at the market open."
+          },
+          {
+            "step": "3",
+            "text": "Because IT carries high index weight, Nifty opens 170 points higher despite regional headwinds."
+          }
+        ],
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Power",
-          "<span class='highlight-box'>Of Monthly</span>",
-          "Surplus"
+          "How One",
+          "<span class='highlight-box'>Sector Moved</span>",
+          "the Index"
         ]
       },
       {
         "role": "value_4",
-        "title": "Compounding Through Consistent Returns",
-        "flowchart_data": [
-          "1. Receive Monthly Salary (₹50k, ₹1L, or ₹2L)",
-          "2. Allocate an Investible Surplus Before Discretionary Spending",
-          "3. Invest Consistently for 10 Straight Years",
-          "4. Evaluate Final Corpus Net of Price Inflation"
-        ],
+        "title": "Assumption vs Reality",
+        "comparison_data": {
+          "myth": "A 170-point jump at the open means Indian markets are completely shielded from global inflation.",
+          "reality": "A single-sector surge can lift the headline index temporarily, masking underlying global risks."
+        },
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Compounding Through",
-          "<span class='highlight-box'>Consistent Returns</span>"
+          "<span class='highlight-box'>Assumption vs</span>",
+          "Reality"
         ]
       },
       {
         "role": "value_5",
-        "title": "Inflation Erodes Future Purchasing Power",
-        "card_text": "A 'corpus' is your total accumulated pool of money. However, goods will cost significantly more in 10 years due to inflation (rising daily living costs). Your investment returns must outpace price increases, or your savings will buy fewer goods in the future than they do today.",
+        "title": "A Sanity Check for Beginners",
+        "checklist_data": [
+          {
+            "item": "Check if your mutual fund or stock portfolio is heavily weighted in only IT shares.",
+            "status": "warning",
+            "text": ""
+          },
+          {
+            "item": "Rushing to buy immediately on opening spikes without checking broader market sentiment.",
+            "status": "fail",
+            "text": ""
+          },
+          {
+            "item": "Holding investments spread across multiple unrelated domestic sectors.",
+            "status": "pass",
+            "text": ""
+          }
+        ],
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Inflation Erodes",
-          "<span class='highlight-box'>Future Purchasing</span>",
-          "Power"
+          "A Sanity",
+          "<span class='highlight-box'>Check for</span>",
+          "Beginners"
         ]
       },
       {
         "role": "value_6",
-        "title": "Protecting Wealth Against Real Costs",
-        "checklist_data": [
-          {
-            "text": "Base future wealth targets on actual investible surplus, not your total CTC.",
-            "status": true
-          },
-          {
-            "text": "Acknowledge that market returns fluctuate across a 10-year horizon.",
-            "status": true
-          },
-          {
-            "text": "Discount future target numbers to reflect real purchasing power.",
-            "status": true
-          }
-        ],
+        "title": "What Remains Uncertain",
+        "card_text": "A strong opening does not guarantee a sustained upward trend. If global inflation continues to bite Asian peers, foreign capital flows and broader market segments can face extended volatility. Never confuse a one-day IT push with total immunity.",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Protecting Wealth",
-          "<span class='highlight-box'>Against Real</span>",
-          "Costs"
+          "<span class='highlight-box'>What Remains</span>",
+          "Uncertain"
         ]
       },
       {
         "role": "bookmark_save",
-        "title": "Focus on Surplus, Not Just Income",
-        "cta_detail": "Save this guide to audit your actual investible surplus each month, and share it with someone starting their career journey.",
+        "title": "Don't Let One Green Morning Mislead You",
+        "card_text": "",
+        "cta_detail": "Save this guide to review before trading on volatile opening mornings, and share with a fellow investor.",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Focus on",
-          "<span class='highlight-box'>Surplus, Not</span>",
-          "Just Income"
-        ],
-        "card_text": ""
+          "Don't Let",
+          "<span class='highlight-box'>One Green</span>",
+          "Morning Mislead You"
+        ]
       }
     ],
     "fact_check_status": "verified_pass",
     "audio_recommendation": {
-      "title": "Cornfield Chase (Interstellar Piano/Synth)",
-      "artist": "Hans Zimmer / Dorian Marko",
-      "bpm": 100,
-      "vibe": "Cinematic Tension & Focus",
-      "reels_boost_tier": "High Velocity",
-      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
+      "title": "Pulse of Capital (Synthwave Focus)",
+      "artist": "Maxence Cyrin / Philip Glass",
+      "bpm": 118,
+      "vibe": "Analytical Depth & Clarity",
+      "reels_boost_tier": "Steady Evergreen",
+      "search_query": "Philip Glass Opening Piano"
     }
   },
   "audio": {
-    "title": "Cornfield Chase (Interstellar Piano/Synth)",
-    "artist": "Hans Zimmer / Dorian Marko",
-    "bpm": 100,
-    "vibe": "Cinematic Tension & Focus",
-    "reels_boost_tier": "High Velocity",
-    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
+    "title": "Pulse of Capital (Synthwave Focus)",
+    "artist": "Maxence Cyrin / Philip Glass",
+    "bpm": 118,
+    "vibe": "Analytical Depth & Clarity",
+    "reels_boost_tier": "Steady Evergreen",
+    "search_query": "Philip Glass Opening Piano"
   },
-  "run_id": "20261012_215413",
+  "run_id": "20261013_105243",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
-      "id": "B",
-      "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "Earning ₹50k vs ₹2L: The 10-year gap isn't just your salary.",
-      "highlight_word": "10-year gap",
-      "core_mechanism": "Uses the mathematical friction between current monthly income and future purchasing power, emphasizing that the gap is widened by inflation and investment consistency.",
+      "id": "A",
+      "archetype": "CONTRARIAN_TRAP",
+      "headline_hook": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bi",
+      "highlight_word": "",
+      "core_mechanism": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine. Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites&nbsp;&nbsp;BusinessLine",
       "scores": {
-        "curiosity_gap": 8.5,
-        "retail_actionability": 9.5,
-        "data_density": 9.5,
-        "friction_quotient": 9.0,
-        "total": 36.5
-      },
-      "critic_critique": "The high score is driven by the strict adherence to the MATHEMATICAL_FRICTION archetype. It forces the reader to confront how inflation erodes savings, making it the most intellectually honest approach."
-    },
-    "critic_score": 9.1,
-    "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids fluff and forces the user to engage with the reality of long-term wealth erosion, which is the core of the provided context.",
-    "final_editorial_directive": "Ensure slide copy strictly avoids hypothetical 'what if' scenarios. Use the exact income brackets provided (₹50k, ₹1L, ₹2L). Every mention of future value must be qualified by the impact of inflation to maintain mathematical integrity.",
-    "all_candidates": [
-      {
-        "id": "A",
-        "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "You think your salary is the limit? Your 10-year corpus says otherwise.",
-        "highlight_word": "10-year corpus",
-        "core_mechanism": "Contrasts the common belief that salary dictates wealth with the mathematical reality of consistent SIP-based accumulation over a decade.",
-        "scores": {
-          "curiosity_gap": 9.0,
-          "retail_actionability": 7.5,
-          "data_density": 8.0,
-          "friction_quotient": 8.5,
-          "total": 33.0
-        },
-        "critic_critique": "Strong hook, but lacks a specific named anchor as requested. Effectively challenges the 'salary-first' mindset but needs more concrete mechanics."
-      },
-      {
-        "id": "B",
-        "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Earning ₹50k vs ₹2L: The 10-year gap isn't just your salary.",
-        "highlight_word": "10-year gap",
-        "core_mechanism": "Uses the mathematical friction between current monthly income and future purchasing power, emphasizing that the gap is widened by inflation and investment consistency.",
-        "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 9.5,
-          "data_density": 9.5,
-          "friction_quotient": 9.0,
-          "total": 36.5
-        },
-        "critic_critique": "The high score is driven by the strict adherence to the MATHEMATICAL_FRICTION archetype. It forces the reader to confront how inflation erodes savings, making it the most intellectually honest approach."
-      },
-      {
-        "id": "C",
-        "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Why your bank FD won't match a 10-year SIP strategy.",
-        "highlight_word": "10-year SIP",
-        "core_mechanism": "Compares the rigid, often inflation-lagging nature of traditional savings like FDs against the compounding potential of a long-term systematic investment plan.",
-        "scores": {
-          "curiosity_gap": 9.0,
-          "retail_actionability": 8.5,
-          "data_density": 8.0,
-          "friction_quotient": 8.0,
-          "total": 33.5
-        },
-        "critic_critique": "Solid retail actionability. It directly addresses a common Indian financial instrument (FD) and provides a clear alternative. Very grounded in reality."
+        "total": 34.0
       }
-    ]
+    },
+    "critic_score": 8.5,
+    "archetype": "CONTRARIAN_TRAP",
+    "selection_rationale": "Fallback contrarian anchor."
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.3,
+    "average_score": 9.4,
     "slide_1_report": {
       "mobile_readability_score": 9.5,
-      "contrast_score": 9.5,
+      "contrast_score": 9.8,
       "whitespace_score": 9.0,
-      "overall_score": 9.3,
+      "overall_score": 9.4,
       "passed": true,
-      "critique_summary": "The typography is bold and authoritative, effectively using the green highlight block to anchor the visual focus. The composition is clean and follows high-end editorial standards, ensuring immediate legibility on mobile devices.",
+      "critique_summary": "The design features a strong, high-contrast visual hierarchy that ensures immediate legibility and a professional, clean financial aesthetic. The balance of negative space effectively directs focus to the headline without distraction.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
-        "line_height": "1.1",
-        "notes": "The current line height is solid; slight tightening of the leading on the headline text could further enhance the impact of the condensed typeface."
+        "line_height": "1.10",
+        "notes": "The current typography is well-optimized; minor tightening of line-height could further sharpen the headline's visual impact."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-12T21:54:36.289633+00:00"
+  "exported_at": "2026-10-13T10:52:58.609143+00:00"
 }

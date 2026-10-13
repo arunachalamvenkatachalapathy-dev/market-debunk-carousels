@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "NSE Set to Price India IPO at 1,700 to 1,785 Rupees a Share - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbnVmTjd1SGJNMzE2QU5Sc1JiSTRFZXNFbEEyQ1JlWERlOHZHb2hNWkcySjVraVd5TFkyQlhTTWwyNkYtUHFEZUVwbm91N2pFZHhJcXIxVkRGajgyY0FJeXZUOGFsZ0VEb0dtWFFVWWpwWUV6Ukswb1ppb3pjZ1Z6ei1NSE9xS2FWLWN5QzNXeUhMdVZtdlZ2aXY2UUl4S3FQa184ZHQ2NUN3aGdZZ000?oc=5",
-      "timestamp": "2026-09-08T17:32:35.697798+00:00"
-    },
-    {
       "title": "Battery X Metals files amended IPO registration statement with SEC By Investing.com - Investing.com India",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUlhKdy1uaEV1eThHcjVRTGp0eE5iQ01ZckJaVUxDRW5BTWpESEpUdDlIaE16ajZRb0lDMkNneTYteWNycUpiYWFIbkZfa2FxQlAtbmk4NGpWMVhLX290VG0zTWVkbnBRd1hKQlVVWTR1WWpWZ0pIdlVQNmYzYjM3NlMyam0yUVZ6N2hESjJkMjF1OHlkYzNveUd5NjlUcmhQSDNlRUhlQTAzYVpZVnJHWFRUbEpKZnlvNzBTU29pcUVPRERzYldj?oc=5",
       "timestamp": "2026-09-09T07:33:43.717969+00:00"
@@ -299,6 +294,11 @@
       "title": "Earning ₹50,000, ₹1 lakh or ₹2 lakh a month? Here's how much you could save in 10 years",
       "url": "https://www.livemint.com/money/personal-finance/earning-50-000-1-lakh-or-2-lakh-a-month-heres-how-much-you-could-save-in-10-years-11791825227222.html",
       "timestamp": "2026-10-12T21:53:19.979265+00:00"
+    },
+    {
+      "title": "Nifty gaps up 170 points on IT rally; KOSPI crashes 6.5%, inflation bites - BusinessLine",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamp6YldvcWZzMUtrQnRxcTVkRzFTc0hPX016eEJ3MUJuRk1MenN1ekYwMnFBWldGRTU3WlJyUDlSRFA5bzRSaFNsaWU5aFgtejMwS0RWVWVDaTdvcFlhdDIyaFo0YmhMd1FFMG02Ym9lTFVwLVhyZG9paUpfUnkwZFYtOEpsYWc2clVaYU5GQzZxRy11VVRhblNPT1RNcmttdHlTOVZvbVZCaFpEZkhXWnJhbkZVN0JCdkpuZVdqcjZmYlN0Zno5cnpteEpRb03SAdYBQVVfeXFMUDBkazZwa05CMnA4QWdrR0phTXlSTjZRTnZCdm40dHMyQlZuNm5jZXZfQmRmejVlX0pXUzRxNTdWOTNjQjM1WVo5VUItdXBQRTJPMUhXUlJUNUlMbTU3bGFMUGp5aDBkTW9kTHRJQW5xdVhjaUdRMENUeEl0VmVERnN5cGl0SFZEYm1NQ0EzSS1JM1JxT2tkMVY4YjBGN0FvcFU3Y21ZNlhKbGJ5YXA2Y25yLThoUldSQ1pWU2R1enMyRlNWaVVLR2VJRnB0SkZaTzl0Z3hJZw?oc=5",
+      "timestamp": "2026-10-13T10:45:51.945254+00:00"
     }
   ],
   "used_archetypes": [
@@ -406,6 +406,7 @@
     "https://economictimes.indiatimes.com/wealth/invest/fd-interest-maturity-fixed-deposit-calculator-how-you-can-use-fd-laddering-for-rs-10-lakh-investment-after-rbi-raises-repo-rate/articleshow/134842338.cms",
     "https://www.livemint.com/money/personal-finance/bank-fd-rates-in-october-2026-how-pre-and-post-tax-fixed-deposit-returns-differ-across-hdfc-icici-sbi-and-pnb-11791729146868.html",
     "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbVZYSjFnOEh5bG9ERWJVTDRKOWtYNUxPdmhLTnFVZ0ZWcFdPWERFTG81S2lSNlZSWTFkWGNSTWFaVGFtQTRIdWh5cHVGQTk2NGdKVGRVcVFYUS1SQ2luR0QtWk9TbksxVmhDTFVsRll1Y2VLS3RuRUpqc19IbjV0UmVpR0xRUjB0Q1gtUmZINmZNRXE4MDR0WGdyeTNLWkJoc0ltb1R6ZVJ3aFJGY2t3b1Bxb3NJWXh2ajZYV2NlSzdjMzkwaXc5RmUxVGNmZ0l6QWd1eklEY3k1cHlPd3k1a3I0M3VDQdIB6wFBVV95cUxNVHpKVndRTTVmaENXaXUzMDdGRkRmVEZrRDdhRDJyVGlXVHJDbzdEaEt4MURsQW5ka0ZOY3B3SGQwdFk5WTJ3RmNEYVhwdGwzVGdqRXZSWUdsNS1lRmR3eWltcmtsTklBTUx6eVJ4WW1uMldUNFE1YkRhYjJuSUtBZG9OME9uV1BzV3ljS21NX1FkY1ZseE5BRnhjYUFHU0xMa2p4TFg4d2d3bGliRnJJWkdiek1OeWIwUUFsS2pSbDhTeDdhMkZGd0tNNy1sMC1CUFV4RmVKbDdHUTRZZHBuUVJSaFllWU5TeEdR?oc=5",
-    "https://www.livemint.com/money/personal-finance/earning-50-000-1-lakh-or-2-lakh-a-month-heres-how-much-you-could-save-in-10-years-11791825227222.html"
+    "https://www.livemint.com/money/personal-finance/earning-50-000-1-lakh-or-2-lakh-a-month-heres-how-much-you-could-save-in-10-years-11791825227222.html",
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamp6YldvcWZzMUtrQnRxcTVkRzFTc0hPX016eEJ3MUJuRk1MenN1ekYwMnFBWldGRTU3WlJyUDlSRFA5bzRSaFNsaWU5aFgtejMwS0RWVWVDaTdvcFlhdDIyaFo0YmhMd1FFMG02Ym9lTFVwLVhyZG9paUpfUnkwZFYtOEpsYWc2clVaYU5GQzZxRy11VVRhblNPT1RNcmttdHlTOVZvbVZCaFpEZkhXWnJhbkZVN0JCdkpuZVdqcjZmYlN0Zno5cnpteEpRb03SAdYBQVVfeXFMUDBkazZwa05CMnA4QWdrR0phTXlSTjZRTnZCdm40dHMyQlZuNm5jZXZfQmRmejVlX0pXUzRxNTdWOTNjQjM1WVo5VUItdXBQRTJPMUhXUlJUNUlMbTU3bGFMUGp5aDBkTW9kTHRJQW5xdVhjaUdRMENUeEl0VmVERnN5cGl0SFZEYm1NQ0EzSS1JM1JxT2tkMVY4YjBGN0FvcFU3Y21ZNlhKbGJ5YXA2Y25yLThoUldSQ1pWU2R1enMyRlNWaVVLR2VJRnB0SkZaTzl0Z3hJZw?oc=5"
   ]
 }
