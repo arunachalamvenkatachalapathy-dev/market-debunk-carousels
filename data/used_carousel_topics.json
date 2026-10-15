@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "Coforge eyes industry-leading growth. Will chairman’s exit derail the story?",
-      "url": "https://www.livemint.com/market/mark-to-market/coforge-chairman-resignation-coforge-share-price-it-sector-india-nifty-it-11789024044076.html",
-      "timestamp": "2026-09-10T08:12:01.802154+00:00"
-    },
-    {
       "title": "SC sends Vedanta-linked Cairn’s ₹5.25-crore SEBI penalty case back to SAT - The Hindu",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPelV2VHVSRW9pZWl6XzBITG5COUdZTjFxOWs1YXFuWENvbUo4blYzbldaUDgxTUJMZFltamJtSHFweXZaQXU5T3Y2M0NGd1ZTY1BzRnJfSnlrZ1R2YUlvOFM4MFJUS0lTbVVSX3NnM0lxQ0JGLWJZczBBQTBua3dkWERwMkZSbkF3TnU1MmM5bnVlMkFlU3BBX1NibWJDSUxibWFnd1lCVTA3LXpnejZTTzZPUEdfdm84V1QxdElhNUg2UHRWWUJ0d9IBzwFBVV95cUxQcU9JcldIVzdTeTBmUXdoa2ItNjlzN1R3MjFIWVc0eUtzeEY2OUQtZGZQMHNSR0NNQU1NQldib0x1VlpxWlpYdDY0a2tmVk4ydkt5OFBXWjNXV2dLdHVEZVVFS21Hb2o2UU9BWHd3a0JBVmY1eXhKOTdmbU9TSkEyQ3hmYWVHZENlMklTR1ZxdklQZmRqbExheUt4XzRDeWU5NGVPOVhhdXQtNHRfTTlHb2RXbkRuOGdVZjEtUTh6aUtaczNhQjBxM2RDVGxZNlk?oc=5",
       "timestamp": "2026-09-10T17:15:42.330166+00:00"
@@ -299,6 +294,11 @@
       "title": "Planned 10% SIP step-up: Should you proceed if your mutual fund is delivering negative returns? Expert weighs in",
       "url": "https://www.livemint.com/money/personal-finance/planned-10-sip-step-up-should-you-proceed-if-your-mutual-fund-is-delivering-negative-returns-expert-weighs-in-11791963474248.html",
       "timestamp": "2026-10-14T08:50:48.589405+00:00"
+    },
+    {
+      "title": "Railway employees to get Rs 17,591 annual bonus: But why other central government employees get just Rs 6,908",
+      "url": "https://economictimes.indiatimes.com/wealth/save/indian-railway-employees-to-get-rs-17591-annual-bonus-but-why-other-central-government-employees-get-just-rs-6908/articleshow/134959611.cms",
+      "timestamp": "2026-10-15T08:25:52.813878+00:00"
     }
   ],
   "used_archetypes": [
@@ -409,6 +409,7 @@
     "https://www.livemint.com/money/personal-finance/earning-50-000-1-lakh-or-2-lakh-a-month-heres-how-much-you-could-save-in-10-years-11791825227222.html",
     "https://news.google.com/rss/articles/CBMizwFBVV95cUxOamp6YldvcWZzMUtrQnRxcTVkRzFTc0hPX016eEJ3MUJuRk1MenN1ekYwMnFBWldGRTU3WlJyUDlSRFA5bzRSaFNsaWU5aFgtejMwS0RWVWVDaTdvcFlhdDIyaFo0YmhMd1FFMG02Ym9lTFVwLVhyZG9paUpfUnkwZFYtOEpsYWc2clVaYU5GQzZxRy11VVRhblNPT1RNcmttdHlTOVZvbVZCaFpEZkhXWnJhbkZVN0JCdkpuZVdqcjZmYlN0Zno5cnpteEpRb03SAdYBQVVfeXFMUDBkazZwa05CMnA4QWdrR0phTXlSTjZRTnZCdm40dHMyQlZuNm5jZXZfQmRmejVlX0pXUzRxNTdWOTNjQjM1WVo5VUItdXBQRTJPMUhXUlJUNUlMbTU3bGFMUGp5aDBkTW9kTHRJQW5xdVhjaUdRMENUeEl0VmVERnN5cGl0SFZEYm1NQ0EzSS1JM1JxT2tkMVY4YjBGN0FvcFU3Y21ZNlhKbGJ5YXA2Y25yLThoUldSQ1pWU2R1enMyRlNWaVVLR2VJRnB0SkZaTzl0Z3hJZw?oc=5",
     "https://economictimes.indiatimes.com/wealth/tax/senior-citizen-gets-income-tax-notice-over-rs-65-27-lakh-cash-deposit-in-bank-account-his-son-proves-source-of-funds-and-wins-case-in-itat-jaipur/articleshow/134915017.cms",
-    "https://www.livemint.com/money/personal-finance/planned-10-sip-step-up-should-you-proceed-if-your-mutual-fund-is-delivering-negative-returns-expert-weighs-in-11791963474248.html"
+    "https://www.livemint.com/money/personal-finance/planned-10-sip-step-up-should-you-proceed-if-your-mutual-fund-is-delivering-negative-returns-expert-weighs-in-11791963474248.html",
+    "https://economictimes.indiatimes.com/wealth/save/indian-railway-employees-to-get-rs-17591-annual-bonus-but-why-other-central-government-employees-get-just-rs-6908/articleshow/134959611.cms"
   ]
 }
