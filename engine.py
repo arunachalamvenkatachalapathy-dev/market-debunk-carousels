@@ -2,6 +2,7 @@
 Market Debunk 7:00 PM Financial Carousel Engine
 Main Orchestrator
 """
+import time
 import argparse
 import json
 import logging
@@ -109,13 +110,21 @@ def run_pipeline(dry_run: bool = False, override_query: str = None, edition: str
         editorial_engine = EditorialEngine()
         deck = None
         last_compose_err = None
-        for _attempt in range(3):
-            try:
-                deck = editorial_engine.compose_carousel(topic_data, brief)
+        # Slot-level resilience: if a whole compose round fails (gates held, no deck),
+        # wait and run another round later in the slot. Gates are unchanged.
+        for _round_wait in (0, 900, 1500):
+            if _round_wait:
+                logger.warning('Compose round failed; waiting %ds before next round (gates unchanged)', _round_wait)
+                time.sleep(_round_wait)
+            for _attempt in range(3):
+                try:
+                    deck = editorial_engine.compose_carousel(topic_data, brief)
+                    break
+                except ValueError as compose_err:
+                    last_compose_err = compose_err
+                    logger.warning("Compose attempt %d/3 failed the source gate: %s", _attempt + 1, compose_err)
+            if deck is not None:
                 break
-            except ValueError as compose_err:
-                last_compose_err = compose_err
-                logger.warning("Compose attempt %d/3 failed the source gate: %s", _attempt + 1, compose_err)
         if deck is None:
             raise last_compose_err
         slides = deck.get("slides", [])
