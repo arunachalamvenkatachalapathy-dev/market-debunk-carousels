@@ -192,7 +192,13 @@ Return JSON ONLY:
             if m and m not in candidate_models:
                 candidate_models.append(m)
 
-        if self.client:
+        # Resilience only: when every model fails with a transient capacity error (503/UNAVAILABLE/overloaded),
+        # wait and sweep the same model list again. Content gates (numeric fact gate, source gate) are untouched.
+        import time
+        outage_waits = [20, 45, 90, 150]
+        outage_round = 0
+        while self.client:
+            transient_failures = 0
             for model_name in candidate_models:
                 try:
                     logger.info("Attempting carousel draft with model %s...", model_name)
@@ -217,10 +223,19 @@ Return JSON ONLY:
                             return data
                 except Exception as e:
                     logger.warning("Model %s draft attempt failed: %s", model_name, e)
-                    import time
                     if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
                         logger.info("Encountered 429 quota throttle on %s; cooling down 2.5s...", model_name)
                         time.sleep(2.5)
+                    if any(t in str(e) for t in ("503", "UNAVAILABLE", "overloaded", "high demand")):
+                        transient_failures += 1
+            # Retry only if every model hit a transient outage; any other failure ends the sweep as before.
+            if transient_failures == len(candidate_models) and outage_round < len(outage_waits):
+                wait = outage_waits[outage_round]
+                outage_round += 1
+                logger.warning("All draft models unavailable (transient). Waiting %ss then retrying (round %d/%d).", wait, outage_round, len(outage_waits))
+                time.sleep(wait)
+                continue
+            break
 
         raise ValueError("All draft models unavailable; refusing unrelated evergreen fallback")
 
