@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "Tata Sons faces mandatory listing after RBI rejects deregistration bid - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMTJNZGFjcUJ0YVZmTmwzaThWa1pRTUlJTkN1VFNRaWJXY2FXZy1taE1LY0IwOHRYdGxUellIbjNlV3ZKaGJfaHQwSGJaN3NuZDRmZFlkSDl6a3FKd1VsUEllb3ZHUGpwVmJramh2MWprLUt2djR6TldFRDROZ2xMd1ZpWWZFSUNKTUQzVVpZUGgzUkZUMDhpREh6aXVsdjdMV1QwVlpmWkcyMmhzZUh0SDVNZ1lfS0NqbWZ5aTVEYzhub1YyS1NZckhoMGMtYlhLVUpSd0s3RFJSZW9VTS1TMjg2TExpWkRoNWFtWdIB8gFBVV95cUxNa0dXcTNJOGZLSjd2NzE2YTB5VXFuV1hVR01PYlRhUV91VjlyRnk4RGtVaWN5ZkpubmdwZ1FrdVJjZDdTNXhuelB1WVp5eGtRWW0zXzgzQmp4NG1SRWZJNmxOUWZPZ0Q5c2xqbEtkUFBYNnpzN1BMS3ZpVWUxLWVQTW1TY21DdXJUUmNOTVJ2LVgzbGUzZG9Xa0hkeW82YzR3UXVSR3BScHFVdzR5U0FLQkR6a3RaRW1vdExwS1pNNEpiMW5BZnJIOWdEZHpMLUNOQ0M3eVF0bW5lZVpyUUM1UkpQemJxMGFxd2ctc014N2dDZw?oc=5",
-      "timestamp": "2026-09-12T16:31:42.635227+00:00"
-    },
-    {
       "title": "Nifty may rebound to 23,800; Rupak De picks Apollo, Laurus Labs and Eternal for the week - The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZk1OYmdRZEQtdkNiZ0FTaElZNklUelJFeVlZbEt5MVFJd3RLc2xjaVFsYkxnRVZ2MUN0LUpFUnVNdVhoSmlKOXJYSjNOZ2h0Z01oVk1ZVGk5eEZTdlN4QzFRMWphTWhrZ2FDa0VjNklubl9DZUx5TjQ4UEdIR3gyaU5vZFEydVNqaTVESUREdU5NeWlwZXVkU3RaXzM3bzFVR01KNTU0WWVwaDZDb0RETzIzREZ3NFZ0VUVJTDNKeWtaWGhsN3pIQlFTeGlCVTFQQ0lLRFdNdTNJZ2VsQlNRSXlYV1l3bGxFdHNfUUVwOUjSAfYBQVVfeXFMT01fRlE1aXBCZWk4REtDQkFSUTJjb2drVXhMTGlIb0wta3RUdTlsRWI5bU5saDNRZlFoNmdsQWRhMDJPRVRQcUFCb05TSzExOGlRTXNReWtNNTVjQUg5cnFQUmhETnZaVEhidzQ3UU11M0VXV0ZjR0E4bWlOc0JWRVlfbjFmNDhNQm9UclhneTZ4UzB1YW5ramF0Ukp4ZnJCaFpYTl9Gb3RtOFdCaE8xMy1xakZfbHRDbk9WSGEtTzVPOHB2RkhxTGlSeUNIQUtDSnR0M2JPYk9HaTBXU09yTjV4dlVoRndkbGxGMmVOcEVMQXo1M1BR?oc=5",
       "timestamp": "2026-09-13T08:22:19.901542+00:00"
@@ -299,6 +294,11 @@
       "title": "8th pay commission: DA merger, salary hike, fitment factor, inflation adjustment — Top 5 demands from employee groups",
       "url": "https://www.livemint.com/money/8th-pay-commission-da-merger-salary-hike-fitment-factor-inflation-adjustment-minimum-pay-top-5-demands-employee-groups-11792202557867.html",
       "timestamp": "2026-10-17T04:11:58.993614+00:00"
+    },
+    {
+      "title": "Swiggy share price: Down 50% in 1 year; can food delivery stock recover? Should you buy the dip? Check target, stop-loss",
+      "url": "https://www.livemint.com/market/stock-market-news/swiggy-share-price-down-50-in-1-year-can-food-delivery-stock-recover-should-you-buy-the-dip-check-target-stoploss-11792165643709.html",
+      "timestamp": "2026-10-17T14:38:35.459475+00:00"
     }
   ],
   "used_archetypes": [
@@ -414,6 +414,7 @@
     "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcmhySzc2R3ZIeXZMWkc4aHlQWDZIWmVTcnBldFlnMkhVUG9YUm1DWG90YzA5T0V4cmpXV0xYXzMzZG05YW1DOGwyZzVyckRyNXFMSGRCeEdaNHRsaG9scTd2bi05VV9xelJvYjhVNjN0TTZrUUtiaGtTb1Vma2NvWmprVW1ZMlNjOS1mUGNuZy1adFpxMkJMN2tBVHlSeHZObDJvVVU1TWZIS2NIb0Y2Qm9PNUlqZ3JzcXZ3TnlfTm1GZmZKaUdwR3g3T1o5Nkx2dWZreC1rV09yM0x3T0tVSDNod0hCZ9IB6wFBVV95cUxQODRETlFnOTdsaTZmaUt3STlQZjdVc0k3c0wxS2NxaURxc3kyNUEteE5NN0FmQkE0MjZPcUNNc3dQWFpYZW5YM2xTbWo3RDdWWjFjR2JLSjhraDFLaUlCTkw3VzlqSms3QV9nTlpJbFlCOFBVUkhqVHJyYTJELTBkVEF3aHR1SUVVM1pPYy1DU1EtRFBlU1k4aElwWmFMR2RZS1VzblNNWk1JR1FfLWVvNDBoTHlaU1E4T0ZuSklPQWVoeWRXaEVqVkJFalpYa0RRWU9HYWtkUkl6Ny1jZWNtT0MydlcwcnM4a1Vr?oc=5",
     "https://www.livemint.com/money/personal-finance/prim-mutual-fund-route-explained-how-the-new-pms-option-works-25-lakh-minimum-investment-and-contract-renewal-rules-11792117307421.html",
     "https://www.livemint.com/companies/company-results/urban-company-prioritizes-instahelp-growth-as-losses-widen-11792161351409.html",
-    "https://www.livemint.com/money/8th-pay-commission-da-merger-salary-hike-fitment-factor-inflation-adjustment-minimum-pay-top-5-demands-employee-groups-11792202557867.html"
+    "https://www.livemint.com/money/8th-pay-commission-da-merger-salary-hike-fitment-factor-inflation-adjustment-minimum-pay-top-5-demands-employee-groups-11792202557867.html",
+    "https://www.livemint.com/market/stock-market-news/swiggy-share-price-down-50-in-1-year-can-food-delivery-stock-recover-should-you-buy-the-dip-check-target-stoploss-11792165643709.html"
   ]
 }
