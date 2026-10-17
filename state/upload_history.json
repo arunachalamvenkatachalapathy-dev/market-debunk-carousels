@@ -1771,6 +1771,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "₹1 Crore Financial Aid Scam in Vijay Thalapathy’s Name, Elderly Man Duped of Lakhs - The420.in",
+      "media_id": "17970306123179075",
+      "timestamp": "2026-10-17T14:54:09.441100+00:00",
+      "topic_category": "FEE_EXTRACTION",
+      "hook_archetype": "CONTRARIAN",
+      "hashtag_cluster": "default",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "17970306123179075",
+          "permalink": "https://www.instagram.com/p/DemXkPOH0je/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122123664225474347",
+          "url": "https://www.facebook.com/1247247545146839_122123664225474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }
