@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "Anthropic picks Nasdaq for potential IPO, report says; October listing in focus - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMC01SmlKSlhWcmN4TW1aSFRUYWI4WmthVkdOUDJtTHdoc2JKN1FHc25PQWVxVEJKVzI3SmhBRVNROVlGR1c5SjJCN1VhUjBKVWJFTEx4c1hEcE9vbXdjNmc2dDV4UG9HRnZnN3llNVQxb042NnVZYVg0X2VhOTNmS2tsYmNmdWMteXlnbV94V2ZuY1ZnRFduRUF1emx3R2REVWN1YnIweFpPOFFMS29uQjNLeG11VnBLY2dGWXprYVNnLXdpQkVYTTJGbERTSGNsaXJN0gHYAUFVX3lxTE9HQTRnU25RQUpKMWdHMFBQT1dCUk56alRIUFlPV2E4MV9COEZXUFVpRTV4UDdjclBTanI5d2psQ2xOLUJ6RkhFVEtxeURTdklUeGhjSEJEUDhfOUpySWV1ZnA3X2U0d0R5eWUwOWlrSGpfQlN0S0JaTGJvRHJ4VmlrMG9ocU80REpQZkxVdWZxZ3JqcjFPM3l4RkNRLXpURjdlaGE2WVIyeHhCY2ZYX01JX0xWRVpBVWRoWFUwaWFSbGpBdlNGYW92ejBld2FiX1NTQ2hhR0g0NA?oc=5",
-      "timestamp": "2026-09-13T17:05:24.971614+00:00"
-    },
-    {
       "title": "Zhong Lun, DeHeng assist Enflame’s RMB6.12bn Star Market IPO - Law.asia",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxb09Fd2ZSZHAzLW5mQzhFaE4zdWpUNkxjY0t2MTl2Y3BWUUNxNU84eUhSbjYxYlN0XzNoV283c0l4U0U4aGZQZGhKMnB2enVFUWc?oc=5",
       "timestamp": "2026-09-14T08:59:25.288660+00:00"
@@ -299,6 +294,11 @@
       "title": "₹1 Crore Financial Aid Scam in Vijay Thalapathy’s Name, Elderly Man Duped of Lakhs - The420.in",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV0NfbEt6b0paRlBFQkZuQmtMel9IZzU1bjRETXEwX0NWblpxdk0tbzRPaFM5QjdPTWo5SkZWS3NEbGtqTm81cVZ0eEVMQUpGWWxmcWxQTFpYcW5sdWtlbXJOb1R0dEJmazJ1eXo4RmkxMmJ2MnhqUDVMMHhFTkdXSg?oc=5",
       "timestamp": "2026-10-17T14:50:40.625630+00:00"
+    },
+    {
+      "title": "Sealed-Box CPU Scam: Fake Ryzen 9 9950X3D2 Found With Intel Substrate - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTMlpOX3M1dFA1QTlXaF9LVlY5cUNYZDR5RUVMRF9PQzhfYlVVVFB3SVNMVmtKNGVzUENtUXZIWWc5dXZyM1BSY0c5RU0xdGR5TjJxci1QTXhjcEk2eWxERGRRNHlXNVE5Ti1ZZWQ4WUZpR0lhZ2c?oc=5",
+      "timestamp": "2026-10-18T04:12:04.025917+00:00"
     }
   ],
   "used_archetypes": [
@@ -416,6 +416,7 @@
     "https://www.livemint.com/companies/company-results/urban-company-prioritizes-instahelp-growth-as-losses-widen-11792161351409.html",
     "https://www.livemint.com/money/8th-pay-commission-da-merger-salary-hike-fitment-factor-inflation-adjustment-minimum-pay-top-5-demands-employee-groups-11792202557867.html",
     "https://www.livemint.com/market/stock-market-news/swiggy-share-price-down-50-in-1-year-can-food-delivery-stock-recover-should-you-buy-the-dip-check-target-stoploss-11792165643709.html",
-    "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV0NfbEt6b0paRlBFQkZuQmtMel9IZzU1bjRETXEwX0NWblpxdk0tbzRPaFM5QjdPTWo5SkZWS3NEbGtqTm81cVZ0eEVMQUpGWWxmcWxQTFpYcW5sdWtlbXJOb1R0dEJmazJ1eXo4RmkxMmJ2MnhqUDVMMHhFTkdXSg?oc=5"
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV0NfbEt6b0paRlBFQkZuQmtMel9IZzU1bjRETXEwX0NWblpxdk0tbzRPaFM5QjdPTWo5SkZWS3NEbGtqTm81cVZ0eEVMQUpGWWxmcWxQTFpYcW5sdWtlbXJOb1R0dEJmazJ1eXo4RmkxMmJ2MnhqUDVMMHhFTkdXSg?oc=5",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTMlpOX3M1dFA1QTlXaF9LVlY5cUNYZDR5RUVMRF9PQzhfYlVVVFB3SVNMVmtKNGVzUENtUXZIWWc5dXZyM1BSY0c5RU0xdGR5TjJxci1QTXhjcEk2eWxERGRRNHlXNVE5Ti1ZZWQ4WUZpR0lhZ2c?oc=5"
   ]
 }

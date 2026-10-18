@@ -1711,8 +1711,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 58.1
     },
     {
       "title": "PRIM mutual fund route explained: How the new PMS option works, ₹25 lakh minimum investment and contract renewal rules",
@@ -1789,6 +1800,35 @@
           "success": true,
           "post_id": "1247247545146839_122123664225474347",
           "url": "https://www.facebook.com/1247247545146839_122123664225474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
+    },
+    {
+      "title": "Sealed-Box CPU Scam: Fake Ryzen 9 9950X3D2 Found With Intel Substrate - BigGo Finance",
+      "media_id": "18356201365301883",
+      "timestamp": "2026-10-18T04:16:05.084262+00:00",
+      "topic_category": "VALUATION_MYTH",
+      "hook_archetype": "CONTRARIAN",
+      "hashtag_cluster": "default",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18356201365301883",
+          "permalink": "https://www.instagram.com/p/DenzVw7CTGR/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122123835267474347",
+          "url": "https://www.facebook.com/1247247545146839_122123835267474347"
         },
         "telegram": {
           "success": true
