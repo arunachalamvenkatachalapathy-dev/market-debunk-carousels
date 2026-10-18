@@ -96,6 +96,9 @@ jobs:
           ENABLE_LINKEDIN: ${{ secrets.ENABLE_LINKEDIN || 'false' }}
         run: |
           args=(--edition evening)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            args+=(--no-jitter)
+          fi
           if [ "$DRY_RUN" = "true" ]; then
             args+=(--dry-run)
           fi
