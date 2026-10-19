@@ -1931,6 +1931,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "Fake ATS case scam costs ITBP officer ₹7.5 lakh - The Times of India",
+      "media_id": "17886676914687464",
+      "timestamp": "2026-10-19T19:33:14.249448+00:00",
+      "topic_category": "LIQUIDITY_TRAP",
+      "hook_archetype": "CONTRARIAN",
+      "hashtag_cluster": "default",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "17886676914687464",
+          "permalink": "https://www.instagram.com/p/DesBGCCmJRM/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122124375657474347",
+          "url": "https://www.facebook.com/1247247545146839_122124375657474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }

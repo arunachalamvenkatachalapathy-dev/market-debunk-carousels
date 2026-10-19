@@ -1,125 +1,130 @@
 {
   "topic": {
-    "title": "Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze deepens",
+    "title": "Fake ATS case scam costs ITBP officer ₹7.5 lakh - The Times of India",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
     "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 100.0,
-    "source": "LiveMint",
-    "source_snippet": "Akasa Air’s revenue grew 35% in FY26 as its fleet and network expanded, but its net loss widened 37%. Foreign-exchange losses, aircraft costs and financing expenses weighed on profitability.",
-    "source_url": "https://www.livemint.com/companies/akasa-air-fy26-results-revenue-rises-loss-widens-11792338060164.html",
-    "raw_text": "Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze deepens. Akasa Air’s revenue grew 35% in FY26 as its fleet and network expanded, but its net loss widened 37%. Foreign-exchange losses, aircraft costs and financing expenses weighed on profitability.",
+    "viral_demand_score": 77.3,
+    "source": "The Times of India",
+    "source_snippet": "Fake ATS case scam costs ITBP officer ₹7.5 lakh&nbsp;&nbsp;The Times of India",
+    "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONFFBLUt0MUIyeExLS2lDbXJIeG5LS1ltcU1VWHZmYnFTR0d5RThwSllCMUttU1VjVFZVT3FMOVFxd19ISURnUmZjcHBDYU9GU201YWJLUDRuOXViVUs0OTdVYV8yRnVKQ2ZITEtJNC04aWpjTzJ5TUxBa19raGJ2ZmZWTzZ5dGNjQjlXYXNaREVKNWxhbXZOalJTWjc4YmxBZ1NVNFhSQnZfaTJTdTNSNkt5R29Kd1VpRDk1TzE5WWZtUdIBxwFBVV95cUxOdklHbTgzUWpoSzVsMmhFYW9NNmVQb3BsdWNMUjJDTVdZSzFMaU53Rk1BOFV6MmkyYm1RQ0Q4SG1jRWVXekREbi1Ielk1clIxdE9LMkVsNENqY19GNjBnRFBrWC1KemIxWXdWOTJRbzctTUd2RVExNks2QlpydlNDeHZKYjF5OGo5WGFvRVIxMG1lZHpxcGo1Q0dOSWtXOWJ3MGNHZUd4VUlkZmlJV0ZjZ1ZyamNXOE5hdGtUa2Z3YnpnUXk3c0VR?oc=5",
+    "raw_text": "Fake ATS case scam costs ITBP officer ₹7.5 lakh - The Times of India. Fake ATS case scam costs ITBP officer ₹7.5 lakh&nbsp;&nbsp;The Times of India",
     "numbers_detected": [
-      "35%",
-      "35%",
-      "26",
-      "37%"
+      "₹7.5",
+      "₹7.5"
     ],
-    "published_at": "2026-10-19T03:11:42.648102+00:00",
-    "age_hours": 1.0,
-    "retrieved_at": "2026-10-19T04:11:42.648102+00:00",
+    "published_at": "2026-10-19T18:53:00+00:00",
+    "age_hours": 0.6,
+    "retrieved_at": "2026-10-19T19:30:29.974220+00:00",
     "date": "19 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: LiveMint | Published: 2026-10-19T03:11:42.648102+00:00 (1.0h ago) | Headline: Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze deepens | Context: Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze deepens. Akasa Air’s revenue grew 35% in FY26 as its fleet and network expanded, but its net loss widened 37%. Foreign-exchange losses, aircraft costs and financing expenses weighed on profitability.",
+    "evidence_snapshot": "Source: The Times of India | Published: 2026-10-19T18:53:00+00:00 (0.6h ago) | Headline: Fake ATS case scam costs ITBP officer ₹7.5 lakh - The Times of India | Context: Fake ATS case scam costs ITBP officer ₹7.5 lakh - The Times of India. Fake ATS case scam costs ITBP officer ₹7.5 lakh&nbsp;&nbsp;The Times of India",
     "news_analysis": {
-      "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
-      "breaking_event_summary": "Akasa Air reported a 35% revenue growth for FY26 amid fleet and network expansion, but its net loss widened by 37%. Rising aircraft costs, foreign-exchange losses, and financing expenses offset top-line gains.",
-      "retail_illusion": "Does rapid revenue and fleet growth automatically signal that an airline is approaching profitability?",
-      "institutional_reality": "Top-line revenue expansion can be outpaced by escalating operational and balance-sheet burdens, such as aircraft procurement, financing charges, and foreign-exchange fluctuations.",
+      "headline_hook": "Transferring ₹7.5 Lakh to 'verify' your identity? That's not a security check, it's a total loss.",
+      "breaking_event_summary": "An ITBP officer was defrauded of ₹7.5 lakh after being targeted by scammers posing as law enforcement officials claiming the officer was involved in a criminal case.",
+      "retail_illusion": "Can law enforcement agencies legally demand immediate financial transfers over the phone to resolve criminal investigations?",
+      "institutional_reality": "Official government agencies do not conduct investigations or demand payments via digital transfers or phone calls; such processes are strictly documented and follow formal legal procedures.",
       "citable_metrics": [
-        "35%",
-        "FY26",
-        "37%"
+        "₹7.5 lakh"
       ],
-      "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "When assessing capital-intensive growth companies, check whether net margins and financing costs are stabilizing alongside sales growth rather than relying on top-line expansion alone.",
-      "lead_magnet": {},
-      "carousel_outline": [],
-      "highlight_word": "widen 37%",
-      "editorial_directive": "Slide 1 must display the exact 35% revenue growth against the 37% widening loss without introducing outside names or unverified figures. Translate this dynamic directly for everyday Indian investors: before celebrating top-line growth in an investment or business, inspect the hard line items—financing charges, foreign currency exposure, and fixed asset lease costs."
+      "debunk_category": "LIQUIDITY_TRAP",
+      "actionable_retail_rule": "Verify the identity of any official caller by visiting the local police station or official government office in person before sharing personal information or transferring funds.",
+      "lead_magnet": {
+        "title": "The Digital Safety Checklist for Financial Transactions",
+        "description": "A guide to identifying impersonation scams and protecting your bank account from unauthorized digital transfers."
+      },
+      "carousel_outline": [
+        "The anatomy of an impersonation scam",
+        "Why urgency is a red flag in financial communication",
+        "Steps to take if you receive a suspicious call from 'authorities'",
+        "How to report financial fraud to the National Cyber Crime Reporting Portal"
+      ],
+      "highlight_word": "Zero verification",
+      "editorial_directive": "Focus on the 'verification' fallacy. Ensure the copy explicitly states that no legitimate Indian institution uses money transfers to 'verify' or 'secure' a citizen's status."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
-        "highlight_word": "widen 37%",
-        "core_mechanism": "Demonstrates the exact mathematical spread between 35% revenue expansion and 37% loss widening, linking it directly to fixed financing and dollar-denominated costs overrunning inflows.",
+        "headline_hook": "Transferring ₹7.5 Lakh to 'verify' your identity? That's not a security check, it's a total loss.",
+        "highlight_word": "Zero verification",
+        "core_mechanism": "Explains the mathematical fallacy of 'security deposits' in digital fraud. If an agency demands a fund transfer to resolve a legal issue, it is a binary indicator of a scam, not a bureaucratic requirement.",
         "scores": {
-          "curiosity_gap": 9.2,
-          "retail_actionability": 8.8,
-          "data_density": 9.8,
-          "friction_quotient": 9.4,
-          "total": 37.2
+          "curiosity_gap": 8.5,
+          "retail_actionability": 9.5,
+          "data_density": 9.0,
+          "friction_quotient": 9.0,
+          "total": 36.0
         },
-        "critic_critique": "Dominates on evidence integrity and mathematical friction. Anchored exactly to the source metrics (35% revenue jump vs. 37% net loss increase) without inventing unsupported corporate plots or unmentioned founders."
+        "critic_critique": "Strongest link to actual financial behavior. It forces the reader to acknowledge that no government agency uses private transfers as a 'verification' mechanism."
       },
-      "critic_score": 9.3,
+      "critic_score": 9.0,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the entire hook to the verified numeric contradiction in the source: a 35% revenue surge counterintuitively driving a 37% widening in net losses due to financing, aircraft costs, and forex expenses.",
-      "final_editorial_directive": "Slide 1 must display the exact 35% revenue growth against the 37% widening loss without introducing outside names or unverified figures. Translate this dynamic directly for everyday Indian investors: before celebrating top-line growth in an investment or business, inspect the hard line items—financing charges, foreign currency exposure, and fixed asset lease costs.",
+      "selection_rationale": "Candidate B effectively bridges the gap between a news headline and a personal financial safety rule. By focusing on the 'verification' scam mechanism, it provides an actionable heuristic for the user: if a transfer is requested for security, it is a 100% loss.",
+      "final_editorial_directive": "Focus on the 'verification' fallacy. Ensure the copy explicitly states that no legitimate Indian institution uses money transfers to 'verify' or 'secure' a citizen's status.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "When a 35% salary hike still leaves you in deeper debt",
-          "highlight_word": "salary hike",
-          "core_mechanism": "Illustrates how top-line growth creates an illusion of financial health while fixed overheads and debt obligations grow faster.",
+          "headline_hook": "An ITBP Officer lost ₹7.5 Lakh in a single day. Here is why authority isn't an asset.",
+          "highlight_word": "Authority risk",
+          "core_mechanism": "Highlights how the victim's position as an ITBP officer was weaponized against him through a fake ATS investigation, proving that high-status individuals are prime targets for digital impersonation scams.",
           "scores": {
-            "curiosity_gap": 8.5,
-            "retail_actionability": 7.5,
+            "curiosity_gap": 9.0,
+            "retail_actionability": 7.0,
             "data_density": 8.0,
-            "friction_quotient": 8.5,
-            "total": 32.5
+            "friction_quotient": 9.0,
+            "total": 33.0
           },
-          "critic_critique": "Effective personal finance framing, but slightly abstracts the operational friction into a general lifestyle inflation comparison rather than grounding the mathematical spread."
+          "critic_critique": "High shock value, but the takeaway for the average investor is vague. It relies heavily on the specific victim's profile rather than systemic process flaws."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
-          "highlight_word": "widen 37%",
-          "core_mechanism": "Demonstrates the exact mathematical spread between 35% revenue expansion and 37% loss widening, linking it directly to fixed financing and dollar-denominated costs overrunning inflows.",
+          "headline_hook": "Transferring ₹7.5 Lakh to 'verify' your identity? That's not a security check, it's a total loss.",
+          "highlight_word": "Zero verification",
+          "core_mechanism": "Explains the mathematical fallacy of 'security deposits' in digital fraud. If an agency demands a fund transfer to resolve a legal issue, it is a binary indicator of a scam, not a bureaucratic requirement.",
           "scores": {
-            "curiosity_gap": 9.2,
-            "retail_actionability": 8.8,
-            "data_density": 9.8,
-            "friction_quotient": 9.4,
-            "total": 37.2
+            "curiosity_gap": 8.5,
+            "retail_actionability": 9.5,
+            "data_density": 9.0,
+            "friction_quotient": 9.0,
+            "total": 36.0
           },
-          "critic_critique": "Dominates on evidence integrity and mathematical friction. Anchored exactly to the source metrics (35% revenue jump vs. 37% net loss increase) without inventing unsupported corporate plots or unmentioned founders."
+          "critic_critique": "Strongest link to actual financial behavior. It forces the reader to acknowledge that no government agency uses private transfers as a 'verification' mechanism."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Why expanding your business turnover can actually accelerate bankruptcy",
-          "highlight_word": "accelerate bankruptcy",
-          "core_mechanism": "Examines how scaling capital-intensive operations before achieving unit profitability forces reliance on external financing and forex exposure.",
+          "headline_hook": "Why your bank and the ATS don't communicate via WhatsApp calls.",
+          "highlight_word": "WhatsApp fraud",
+          "core_mechanism": "Contrasts the formal, slow-moving nature of real Indian institutional processes (summons, physical notices) against the high-velocity, digital-only pressure tactics used by scammers.",
           "scores": {
-            "curiosity_gap": 8.8,
-            "retail_actionability": 8.0,
-            "data_density": 8.2,
-            "friction_quotient": 8.6,
-            "total": 33.6
+            "curiosity_gap": 8.0,
+            "retail_actionability": 8.5,
+            "data_density": 8.5,
+            "friction_quotient": 8.0,
+            "total": 33.0
           },
-          "critic_critique": "Solid conceptual breakdown of scaling pitfalls for retail entrepreneurs, but lacks the immediate quantitative punch of candidate B's side-by-side percentage divergence."
+          "critic_critique": "Provides a clear procedural checklist for the reader, though less urgent than the mathematical friction approach."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
-    "core_illusion": "Does rapid revenue and fleet growth automatically signal that an airline is approaching profitability?",
-    "hidden_reality": "Top-line revenue expansion can be outpaced by escalating operational and balance-sheet burdens, such as aircraft procurement, financing charges, and foreign-exchange fluctuations.",
-    "citable_metric": "35%",
+    "hook_headline": "Transferring ₹7.5 Lakh to 'verify' your identity? That's not a security check, it's a total loss.",
+    "core_illusion": "Can law enforcement agencies legally demand immediate financial transfers over the phone to resolve criminal investigations?",
+    "hidden_reality": "Official government agencies do not conduct investigations or demand payments via digital transfers or phone calls; such processes are strictly documented and follow formal legal procedures.",
+    "citable_metric": "₹7.5 lakh",
     "all_metrics": [
-      "35%",
-      "FY26",
-      "37%"
+      "₹7.5 lakh"
     ],
-    "actionable_rule": "When assessing capital-intensive growth companies, check whether net margins and financing costs are stabilizing alongside sales growth rather than relying on top-line expansion alone.",
-    "breaking_event": "Akasa Air reported a 35% revenue growth for FY26 amid fleet and network expansion, but its net loss widened by 37%. Rising aircraft costs, foreign-exchange losses, and financing expenses offset top-line gains.",
-    "lead_magnet": {},
+    "actionable_rule": "Verify the identity of any official caller by visiting the local police station or official government office in person before sharing personal information or transferring funds.",
+    "breaking_event": "An ITBP officer was defrauded of ₹7.5 lakh after being targeted by scammers posing as law enforcement officials claiming the officer was involved in a criminal case.",
+    "lead_magnet": {
+      "title": "The Digital Safety Checklist for Financial Transactions",
+      "description": "A guide to identifying impersonation scams and protecting your bank account from unauthorized digital transfers."
+    },
     "banned_phrases": [
       "guaranteed wealth",
       "quick money",
@@ -128,143 +133,141 @@
     ]
   },
   "deck": {
-    "caption": "Can a company sell 35% more and still lose more money than before? Akasa Air's FY26 results show why rapid business expansion does not automatically guarantee profit.\n\nHere is what every first-time investor must know:\n• Revenue grew 35% on network expansion, but net losses deepened by 37%\n• Heavy aircraft costs, financing charges, and currency swings absorbed the gains\n• Why top-line sales alone can disguise balance-sheet strain in capital-heavy sectors\n\nSave this breakdown for your next balance-sheet review and share it with someone tracking new-age growth companies.\n\nWhen evaluating high-growth firms, do you check debt and financing costs first, or focus mainly on market share expansion?\n\n#AviationIndia #AkasaAir #StockMarketIndia #FundamentalAnalysis #FinancialLiteracy",
+    "caption": "An ITBP officer recently lost ₹7.5 lakh to a sophisticated scam where callers posed as law enforcement. Here is how to spot the trap:\n\n• Why 'official' calls demanding money are always fake.\n• The legal reality of how police investigations actually work.\n• How to verify an identity without risking your savings.\n\nSave this to protect your family from digital fraud. If a caller claims you are under investigation for a crime, what is the first step you should take to verify their identity?\n\n#CyberSecurity #FraudAwareness #DigitalSafety #FinancialLiteracy #StayAlert",
     "slides": [
       {
-        "slide_number": 1,
         "role": "hook",
-        "title": "Akasa grew revenue 35%, yet losses <span class=\"highlight-box\">widened 37%</span>.",
-        "card_text": "",
+        "title": "Transferring ₹7.5 Lakh to 'verify' your identity? That's not a security check, it's a total loss.",
+        "body": "An ITBP officer was recently defrauded of ₹7.5 lakh by scammers posing as law enforcement. Here is how they do it and how you can stay safe.",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Akasa grew",
-          "revenue 35%,",
-          "<span class='highlight-box'>widened 37%</span>",
-          "."
-        ]
+          "Transferring ₹7.5",
+          "<span class='highlight-box'>Lakh to</span>",
+          "'verify' your"
+        ],
+        "card_text": ""
       },
       {
-        "slide_number": 2,
         "role": "value_1",
-        "title": "Fleet Growth Lifted <span class=\"highlight-box\">Ticket</span> Sales",
-        "stat_data": {
-          "metric": "35%",
-          "label": "FY26 Revenue Growth",
-          "context": "Akasa Air expanded its domestic and international flight network and added more aircraft to its operating fleet."
-        },
+        "title": "The 'Digital Arrest' Trap",
+        "body": "card_text",
+        "content": "Scammers call claiming you are involved in a criminal case. They use fear to keep you on the phone, demanding you stay connected until a 'verification' process is complete. This is a common tactic to isolate victims.",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Fleet Growth",
-          "<span class='highlight-box'>Lifted Ticket</span>",
-          "Sales"
-        ]
+          "The 'Digital",
+          "<span class='highlight-box'>Arrest' Trap</span>"
+        ],
+        "card_text": "card_text Scammers call claiming you are involved in a criminal case. They use fear to keep you on the phone, demanding you stay connected until a 'verification' process is complete. This is a common tactic to isolate victims."
       },
       {
-        "slide_number": 3,
         "role": "value_2",
-        "title": "Why Net Losses <span class=\"highlight-box\">Outpaced</span> Revenue",
-        "comparison_data": {
-          "myth": "A 35% jump in revenue means an airline is nearing profitability.",
-          "reality": "Akasa Air's net loss widened by 37% over the exact same period, outpacing its sales gains."
+        "title": "The Reality of Law Enforcement",
+        "body": "comparison_data",
+        "content": {
+          "Myth": "Police demand immediate digital payments to clear your name.",
+          "Reality": "Official agencies never demand money over the phone or via digital transfers to resolve investigations."
         },
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Why Net",
-          "<span class='highlight-box'>Losses Outpaced</span>",
-          "Revenue"
-        ]
+          "The Reality",
+          "<span class='highlight-box'>of Law</span>",
+          "Enforcement"
+        ],
+        "card_text": "comparison_data Police demand immediate digital payments to clear your name. Official agencies never demand money over the phone or via digital transfers to resolve investigations."
       },
       {
-        "slide_number": 4,
         "role": "value_3",
-        "title": "Financing And Forex <span class=\"highlight-box\">Drained</span> Cash",
-        "flowchart_data": [
-          {
-            "step": "1",
-            "text": "Aircraft Costs: Adding new planes to the fleet increased fixed procurement and lease expenses."
-          },
-          {
-            "step": "2",
-            "text": "Financing Expenses: Borrowing capital to support expansion drove up regular debt service costs."
-          },
-          {
-            "step": "3",
-            "text": "Forex Losses: Global aviation liabilities exposed earnings to foreign-exchange currency swings."
-          }
+        "title": "How Investigations Actually Work",
+        "body": "flowchart_data",
+        "content": [
+          "Step 1: Formal notice issued in writing.",
+          "Step 2: Official summons delivered to your residence.",
+          "Step 3: In-person appearance at a police station or court.",
+          "Step 4: Legal documentation provided for every step."
         ],
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Financing And",
-          "<span class='highlight-box'>Forex Drained</span>",
-          "Cash"
-        ]
+          "How Investigations",
+          "<span class='highlight-box'>Actually Work</span>"
+        ],
+        "card_text": "flowchart_data Step 1: Formal notice issued in writing. Step 2: Official summons delivered to your residence. Step 3: In-person appearance at a police station or court. Step 4: Legal documentation provided for every step."
       },
       {
-        "slide_number": 5,
         "role": "value_4",
-        "title": "Revenue Versus Real <span class=\"highlight-box\">Net</span> Losses",
-        "card_text": "Top-line revenue is simply the total money collected from ticket buyers. Net loss is what happens after paying aircraft leases, financing interest, and currency hits. High sales do not help if operational costs rise faster.",
+        "title": "Why the ₹7.5 Lakh Loss Happened",
+        "body": "stat_data",
+        "content": {
+          "Metric": "₹7.5 Lakh",
+          "Label": "Total amount lost",
+          "Context": "The victim was pressured into transferring funds under the guise of an 'ATS case' verification."
+        },
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Revenue Versus",
-          "<span class='highlight-box'>Real Net</span>",
-          "Losses"
-        ]
+          "Why the",
+          "<span class='highlight-box'>₹7.5 Lakh</span>",
+          "Loss Happened"
+        ],
+        "card_text": "stat_data ₹7.5 Lakh Total amount lost The victim was pressured into transferring funds under the guise of an 'ATS case' verification."
       },
       {
-        "slide_number": 6,
         "role": "value_5",
-        "title": "Aviation's Brutal <span class=\"highlight-box\">Capital</span> Squeeze",
-        "card_text": "Airlines require massive advance capital to fly. More planes mean higher financing overhead. If ticket pricing cannot offset rising dollar costs and interest payments, every additional route can temporarily increase total losses.",
+        "title": "Red Flags to Watch For",
+        "body": "checklist_data",
+        "content": [
+          {
+            "item": "Caller demands immediate money transfer",
+            "status": "FAIL"
+          },
+          {
+            "item": "Threats of 'Digital Arrest' or jail",
+            "status": "FAIL"
+          },
+          {
+            "item": "Request to keep the call private/secret",
+            "status": "FAIL"
+          },
+          {
+            "item": "Verification via official in-person visit",
+            "status": "PASS"
+          }
+        ],
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Aviation's Brutal",
-          "<span class='highlight-box'>Capital Squeeze</span>"
-        ]
+          "Red Flags",
+          "<span class='highlight-box'>to Watch</span>",
+          "For"
+        ],
+        "card_text": "checklist_data Caller demands immediate money transfer Threats of 'Digital Arrest' or jail Request to keep the call private/secret Verification via official in-person visit"
       },
       {
-        "slide_number": 7,
         "role": "value_6",
-        "title": "Evaluating Growth Beyond <span class=\"highlight-box\">Headline</span> Revenue",
-        "checklist_data": [
-          {
-            "text": "Check if net losses are shrinking alongside revenue gains",
-            "status": "pass"
-          },
-          {
-            "text": "Monitor whether financing costs and debt burdens are stabilizing",
-            "status": "pass"
-          },
-          {
-            "text": "Relying on fleet expansion or passenger volume alone",
-            "status": "fail"
-          }
-        ],
+        "title": "Your Safety Protocol",
+        "body": "card_text",
+        "content": "If you receive a suspicious call: 1. Hang up immediately. 2. Do not transfer any money. 3. Visit your local police station in person to verify if any case exists against you. Official business is never conducted through phone-based financial transactions.",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Evaluating Growth",
-          "<span class='highlight-box'>Beyond Headline</span>",
-          "Revenue"
-        ]
+          "<span class='highlight-box'>Your Safety</span>",
+          "Protocol"
+        ],
+        "card_text": "card_text If you receive a suspicious call: 1. Hang up immediately. 2. Do not transfer any money. 3. Visit your local police station in person to verify if any case exists against you. Official business is never conducted through phone-based financial transactions."
       },
       {
-        "slide_number": 8,
         "role": "bookmark_save",
-        "title": "Look Beyond Rapid Sales Growth",
-        "cta_detail": "Always check financing burdens and bottom-line stability before trusting headline revenue numbers. Save this post to guide your balance-sheet analysis, and share it with a fellow investor.",
+        "title": "Don't Let Fear Cost You",
+        "cta_detail": "Save this post to remind yourself that no government agency will ever ask for money over the phone. Share this with your family to keep their hard-earned savings safe.",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Look Beyond",
-          "<span class='highlight-box'>Rapid Sales</span>",
-          "Growth"
+          "Don't Let",
+          "<span class='highlight-box'>Fear Cost</span>",
+          "You"
         ],
         "card_text": ""
       }
@@ -287,93 +290,93 @@
     "reels_boost_tier": "Viral Editorial",
     "search_query": "M83 Solitude Felsmann Tiley"
   },
-  "run_id": "20261019_041428",
+  "run_id": "20261019_193105",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
-      "highlight_word": "widen 37%",
-      "core_mechanism": "Demonstrates the exact mathematical spread between 35% revenue expansion and 37% loss widening, linking it directly to fixed financing and dollar-denominated costs overrunning inflows.",
+      "headline_hook": "Transferring ₹7.5 Lakh to 'verify' your identity? That's not a security check, it's a total loss.",
+      "highlight_word": "Zero verification",
+      "core_mechanism": "Explains the mathematical fallacy of 'security deposits' in digital fraud. If an agency demands a fund transfer to resolve a legal issue, it is a binary indicator of a scam, not a bureaucratic requirement.",
       "scores": {
-        "curiosity_gap": 9.2,
-        "retail_actionability": 8.8,
-        "data_density": 9.8,
-        "friction_quotient": 9.4,
-        "total": 37.2
+        "curiosity_gap": 8.5,
+        "retail_actionability": 9.5,
+        "data_density": 9.0,
+        "friction_quotient": 9.0,
+        "total": 36.0
       },
-      "critic_critique": "Dominates on evidence integrity and mathematical friction. Anchored exactly to the source metrics (35% revenue jump vs. 37% net loss increase) without inventing unsupported corporate plots or unmentioned founders."
+      "critic_critique": "Strongest link to actual financial behavior. It forces the reader to acknowledge that no government agency uses private transfers as a 'verification' mechanism."
     },
-    "critic_score": 9.3,
+    "critic_score": 9.0,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the entire hook to the verified numeric contradiction in the source: a 35% revenue surge counterintuitively driving a 37% widening in net losses due to financing, aircraft costs, and forex expenses.",
-    "final_editorial_directive": "Slide 1 must display the exact 35% revenue growth against the 37% widening loss without introducing outside names or unverified figures. Translate this dynamic directly for everyday Indian investors: before celebrating top-line growth in an investment or business, inspect the hard line items—financing charges, foreign currency exposure, and fixed asset lease costs.",
+    "selection_rationale": "Candidate B effectively bridges the gap between a news headline and a personal financial safety rule. By focusing on the 'verification' scam mechanism, it provides an actionable heuristic for the user: if a transfer is requested for security, it is a 100% loss.",
+    "final_editorial_directive": "Focus on the 'verification' fallacy. Ensure the copy explicitly states that no legitimate Indian institution uses money transfers to 'verify' or 'secure' a citizen's status.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "When a 35% salary hike still leaves you in deeper debt",
-        "highlight_word": "salary hike",
-        "core_mechanism": "Illustrates how top-line growth creates an illusion of financial health while fixed overheads and debt obligations grow faster.",
+        "headline_hook": "An ITBP Officer lost ₹7.5 Lakh in a single day. Here is why authority isn't an asset.",
+        "highlight_word": "Authority risk",
+        "core_mechanism": "Highlights how the victim's position as an ITBP officer was weaponized against him through a fake ATS investigation, proving that high-status individuals are prime targets for digital impersonation scams.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 7.5,
+          "curiosity_gap": 9.0,
+          "retail_actionability": 7.0,
           "data_density": 8.0,
-          "friction_quotient": 8.5,
-          "total": 32.5
+          "friction_quotient": 9.0,
+          "total": 33.0
         },
-        "critic_critique": "Effective personal finance framing, but slightly abstracts the operational friction into a general lifestyle inflation comparison rather than grounding the mathematical spread."
+        "critic_critique": "High shock value, but the takeaway for the average investor is vague. It relies heavily on the specific victim's profile rather than systemic process flaws."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
-        "highlight_word": "widen 37%",
-        "core_mechanism": "Demonstrates the exact mathematical spread between 35% revenue expansion and 37% loss widening, linking it directly to fixed financing and dollar-denominated costs overrunning inflows.",
+        "headline_hook": "Transferring ₹7.5 Lakh to 'verify' your identity? That's not a security check, it's a total loss.",
+        "highlight_word": "Zero verification",
+        "core_mechanism": "Explains the mathematical fallacy of 'security deposits' in digital fraud. If an agency demands a fund transfer to resolve a legal issue, it is a binary indicator of a scam, not a bureaucratic requirement.",
         "scores": {
-          "curiosity_gap": 9.2,
-          "retail_actionability": 8.8,
-          "data_density": 9.8,
-          "friction_quotient": 9.4,
-          "total": 37.2
+          "curiosity_gap": 8.5,
+          "retail_actionability": 9.5,
+          "data_density": 9.0,
+          "friction_quotient": 9.0,
+          "total": 36.0
         },
-        "critic_critique": "Dominates on evidence integrity and mathematical friction. Anchored exactly to the source metrics (35% revenue jump vs. 37% net loss increase) without inventing unsupported corporate plots or unmentioned founders."
+        "critic_critique": "Strongest link to actual financial behavior. It forces the reader to acknowledge that no government agency uses private transfers as a 'verification' mechanism."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Why expanding your business turnover can actually accelerate bankruptcy",
-        "highlight_word": "accelerate bankruptcy",
-        "core_mechanism": "Examines how scaling capital-intensive operations before achieving unit profitability forces reliance on external financing and forex exposure.",
+        "headline_hook": "Why your bank and the ATS don't communicate via WhatsApp calls.",
+        "highlight_word": "WhatsApp fraud",
+        "core_mechanism": "Contrasts the formal, slow-moving nature of real Indian institutional processes (summons, physical notices) against the high-velocity, digital-only pressure tactics used by scammers.",
         "scores": {
-          "curiosity_gap": 8.8,
-          "retail_actionability": 8.0,
-          "data_density": 8.2,
-          "friction_quotient": 8.6,
-          "total": 33.6
+          "curiosity_gap": 8.0,
+          "retail_actionability": 8.5,
+          "data_density": 8.5,
+          "friction_quotient": 8.0,
+          "total": 33.0
         },
-        "critic_critique": "Solid conceptual breakdown of scaling pitfalls for retail entrepreneurs, but lacks the immediate quantitative punch of candidate B's side-by-side percentage divergence."
+        "critic_critique": "Provides a clear procedural checklist for the reader, though less urgent than the mathematical friction approach."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.3,
+    "average_score": 9.2,
     "slide_1_report": {
       "mobile_readability_score": 9.5,
-      "contrast_score": 9.8,
+      "contrast_score": 9.5,
       "whitespace_score": 9.0,
-      "overall_score": 9.4,
+      "overall_score": 9.3,
       "passed": true,
-      "critique_summary": "The design achieves high visual impact through a clean, bold typographic hierarchy that perfectly mimics a professional financial news terminal aesthetic.",
+      "critique_summary": "The typography is bold, punchy, and adheres perfectly to modern high-contrast financial design principles, ensuring immediate impact on small screens. The layout is clean and balanced, effectively leading the reader through the headline with optimal hierarchy.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
         "line_height": "1.1",
-        "notes": "The current layout is optimal; maintain strict alignment to ensure the 'widened 37%' box does not feel cramped."
+        "notes": "The current line-height is effective; a slight tightening could further emphasize the 'terminal' aesthetic if desired."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-19T04:14:37.106438+00:00"
+  "exported_at": "2026-10-19T19:31:28.628860+00:00"
 }
