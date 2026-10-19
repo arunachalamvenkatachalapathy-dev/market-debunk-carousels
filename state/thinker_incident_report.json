@@ -1,55 +1,87 @@
 {
-  "timestamp": "2026-10-18T04:13:33.507253+00:00",
+  "timestamp": "2026-10-19T14:23:18.015379+00:00",
   "phase": "EDITORIAL_FACT_CHECK",
   "severity": "RECOVERABLE",
   "error_code": "ERR_FACT_CHECK_MISMATCH",
-  "root_cause_analysis": "The deck contained unsupported metrics '17', '10', and '2026' which were incorrectly formatted as a date string in the slide content rather than being integrated as verifiable data points. The source evidence provided specific context for these numbers, which were not properly mapped to the slide schema.",
+  "root_cause_analysis": "The deck utilized an unsupported metric string '25year' which was not strictly verified against the source text. The source text contains numeric tokens '10', '20', '2026', '25', and '26.975746', where '20' and '25' represent the loan tenure years range ('20-25'). The deck metric has been corrected to strictly match the source range.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
-    "action": "AUTO_REPAIR_SUCCESS",
+    "action": "AUTO_REPAIR_PAYLOAD",
     "repaired_payload": {
-      "caption": "A sealed box isn't a guarantee of authenticity anymore. A recent discovery of a fake Ryzen 9 9950X3D2 processor—built on an Intel substrate—shows how sophisticated hardware scams have become. \n\n• Why factory seals are no longer foolproof\n• The danger of buying from unverified sources\n• How to spot a mismatch before you pay\n\nSave this to protect your next tech purchase. If you bought a high-end component online, would you know how to verify the internal hardware before opening the box? \n\n#TechSecurity #HardwareScam #Ryzen9 #ConsumerSafety #MarketDebunk",
+      "caption": "Should you clear your home loan early or invest in a Systematic Investment Plan (SIP)?\n\n- Understand how 20-25-year loan tenures impact your total interest outgoings\n- See why early payments change your overall debt burden\n- Learn how to weigh safe interest savings against market investments\n\nSave this post to review before your next financial decision. Would you choose to prepay your home loan or invest in an SIP first?\n\n#HomeLoan #InvestmentStrategy #PersonalFinance #SIP #MarketDebunk",
       "slides": [
         {
           "role": "hook",
-          "title": "The Hidden Tax on 'Too-Good-To-Be-True' Deals",
-          "body": "A sealed box for a high-end Ryzen 9 9950X3D2 was opened, only to reveal an Intel substrate inside. Even factory-sealed products are now being compromised."
+          "title": "Home loan prepayment vs SIP: Which is a better option and saves you more money? Here's the maths"
         },
         {
           "role": "value_1",
-          "title": "The Illusion of the 'Factory Seal'",
-          "comparison_data": {
-            "myth": "A sealed box means the product inside is genuine and untouched.",
-            "reality": "Packaging can be replicated or resealed, allowing fake or mismatched parts to pass as new."
-          }
+          "visual_type": "card_text",
+          "title": "The Core Dilemma",
+          "content": "When you take a home loan, you commit to paying Equated Monthly Installments (EMIs) over a long period. Choosing where to put extra cash creates a tough choice between clearing debt or growing investments."
         },
         {
           "role": "value_2",
-          "title": "Reported Scam Metrics",
-          "stat_data": {
-            "metric": "10/17/2026",
-            "label": "Incident Date",
-            "context": "The scam involving the Ryzen 9 9950X3D2 was officially documented on October 17, 2026, highlighting the 10th month of the year as a period of increased hardware fraud."
-          }
+          "visual_type": "stat_data",
+          "title": "The Tenure Factor",
+          "metric": "20-25",
+          "label": "Year Loan Tenure",
+          "context": "Home loans are commonly spread over a span of 20 to 25 years, meaning interest builds up substantially over the life of the loan."
         },
         {
           "role": "value_3",
-          "title": "How the Scam Works",
-          "card_text": "Scammers replace the internal processor with a cheaper or mismatched substrate (the base of the chip). They then reseal the box so perfectly that it looks like it came straight from the factory floor."
+          "visual_type": "flowchart_data",
+          "title": "Power of Early Action",
+          "steps": [
+            {
+              "text": "Make small extra payments"
+            },
+            {
+              "text": "Target the initial years of the loan"
+            },
+            {
+              "text": "Significantly reduce overall interest outgoings over time"
+            }
+          ]
         },
         {
           "role": "value_4",
-          "title": "Why This Matters for You",
-          "card_text": "When you buy expensive hardware, you aren't just paying for the box; you are paying for the performance inside. A mismatch means the device will either not work at all or fail to perform as promised."
+          "visual_type": "comparison_data",
+          "title": "Prepayment vs SIP Realities",
+          "left_label": "Prepayment Reality",
+          "left_text": "Guaranteed savings by lowering the principal amount and cutting future interest costs.",
+          "right_label": "SIP Reality",
+          "right_text": "Investing fixed amounts regularly into mutual funds with variable market returns."
         },
         {
           "role": "value_5",
-          "title": "The Verification Process",
-          "flowchart_data": [
-            "1. Inspect the physical substrate markings for inconsistencies.",
-            "2. Check the serial number on the chip itself.",
-            "3. Cross-reference the serial number with the official manufacturer database."
+          "visual_type": "checklist_data",
+          "title": "What Changes for Your Money",
+          "items": [
+            {
+              "text": "Lower total interest burden with early loan reductions",
+              "status": "pass"
+            },
+            {
+              "text": "Immediate liquidity reduction if cash goes to the bank",
+              "status": "fail"
+            },
+            {
+              "text": "Potential market wealth creation via SIPs instead of debt closure",
+              "status": "pass"
+            }
           ]
+        },
+        {
+          "role": "value_6",
+          "visual_type": "card_text",
+          "title": "Remaining Uncertainties",
+          "content": "Market returns from an SIP are never guaranteed, whereas loan interest rates can fluctuate. Your final choice depends on your personal comfort with risk and your specific loan terms."
+        },
+        {
+          "role": "bookmark_save",
+          "title": "Check Your Loan Terms Before Deciding",
+          "cta_detail": "Save this post to easily review the maths when you plan your next extra payment, and share it with someone managing a home loan."
         }
       ]
     }
