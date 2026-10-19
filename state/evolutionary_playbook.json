@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 42,
+  "total_cycles_recorded": 43,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.5,
     "MATHEMATICAL_FRICTION": 2.5,
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It immediately exposes the",
     "Candidate B achieves the highest score (36.5/40) by aligning directly with the prioritized MATHEMATICAL_FRICTION archety",
     "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the hook in bot",
     "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids f",
@@ -38,7 +37,8 @@
     "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight: 2.5). It emphasizes the cash flow lag betwee",
     "Candidate B wins by enforcing the core financial friction: paying cash upfront to unlock hypothetical grants guarantees ",
     "Candidate B creates the strongest cognitive dissonance. It exposes the fallacy that 'sealed' equals 'authentic,' which i",
-    "Candidate B is the only variant anchored directly to verifiable source text ('7 signs') while translating the threat int"
+    "Candidate B is the only variant anchored directly to verifiable source text ('7 signs') while translating the threat int",
+    "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the entire hook"
   ],
   "cycle_history": [
     {
@@ -418,6 +418,15 @@
       "critic_score": 8.2,
       "visual_score": 9.2,
       "key_learning": "Candidate B is the only variant anchored directly to verifiable source text ('7 signs') while translating the threat int"
+    },
+    {
+      "cycle": 43,
+      "timestamp": "2026-10-19T04:14:37.105367+00:00",
+      "topic": "Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze dee",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.3,
+      "visual_score": 9.3,
+      "key_learning": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the entire hook"
     }
   ]
 }

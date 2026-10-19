@@ -1,115 +1,124 @@
 {
   "topic": {
-    "title": "How to spot scam text messages before falling into the trap?.. 7 signs that reveal online fraud attempts - صوت الإمارات",
+    "title": "Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze deepens",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
     "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 78.1,
-    "source": "صوت الإمارات",
-    "source_snippet": "How to spot scam text messages before falling into the trap?.. 7 signs that reveal online fraud attempts&nbsp;&nbsp;صوت الإمارات",
-    "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZTFGS1UwbmJrQ3gtMkRzYXFpd3dLSVBBaEdIbWMwMi11aEpQWGxNcnlzRFhNRzFUM1ZqQVF1SFZiWUlrbXItR0Q0clIzQ0Etb0g2RFdERUxMWi1NYWZkSTFBdThqUDNVdWg1SnluMWVLVS1NMnB5T0ZxTHFIakpXNGQ3LThTUk9yMklrMENLZnQyaVZpTHJ0TkpmdjI5aGp0TlBzLWNPMTc2SU9LamszckdROW5kNW5RbUVaZWdMalA3R2RQZUZCUl9GTjJvcl9ObWpMNVMzWkZQSjhoODQ4U1NER0NYaGVUQ2tHQnZRUEE1WjdDM1NLRQ?oc=5",
-    "raw_text": "How to spot scam text messages before falling into the trap?.. 7 signs that reveal online fraud attempts - صوت الإمارات. How to spot scam text messages before falling into the trap?.. 7 signs that reveal online fraud attempts&nbsp;&nbsp;صوت الإمارات",
-    "numbers_detected": [],
-    "published_at": "2026-10-18T07:10:16+00:00",
-    "age_hours": 7.2,
-    "retrieved_at": "2026-10-18T14:25:12.822343+00:00",
-    "date": "18 Oct 2026",
+    "viral_demand_score": 100.0,
+    "source": "LiveMint",
+    "source_snippet": "Akasa Air’s revenue grew 35% in FY26 as its fleet and network expanded, but its net loss widened 37%. Foreign-exchange losses, aircraft costs and financing expenses weighed on profitability.",
+    "source_url": "https://www.livemint.com/companies/akasa-air-fy26-results-revenue-rises-loss-widens-11792338060164.html",
+    "raw_text": "Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze deepens. Akasa Air’s revenue grew 35% in FY26 as its fleet and network expanded, but its net loss widened 37%. Foreign-exchange losses, aircraft costs and financing expenses weighed on profitability.",
+    "numbers_detected": [
+      "35%",
+      "35%",
+      "26",
+      "37%"
+    ],
+    "published_at": "2026-10-19T03:11:42.648102+00:00",
+    "age_hours": 1.0,
+    "retrieved_at": "2026-10-19T04:11:42.648102+00:00",
+    "date": "19 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: صوت الإمارات | Published: 2026-10-18T07:10:16+00:00 (7.2h ago) | Headline: How to spot scam text messages before falling into the trap?.. 7 signs that reveal online fraud attempts - صوت الإمارات | Context: How to spot scam text messages before falling into the trap?.. 7 signs that reveal online fraud attempts - صوت الإمارات. How to spot scam text messages before falling into the trap?.. 7 signs that reveal online fraud attempts&nbsp;&nbsp;صوت الإمارات",
+    "evidence_snapshot": "Source: LiveMint | Published: 2026-10-19T03:11:42.648102+00:00 (1.0h ago) | Headline: Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze deepens | Context: Akasa’s 35% revenue growth fails to arrest losses as aviation’s cost squeeze deepens. Akasa Air’s revenue grew 35% in FY26 as its fleet and network expanded, but its net loss widened 37%. Foreign-exchange losses, aircraft costs and financing expenses weighed on profitability.",
     "news_analysis": {
-      "headline_hook": "The 7 structural red flags hidden in urgent SMS payment demands",
-      "breaking_event_summary": "A public advisory outlined key indicators to help consumers identify fraudulent text messages and avoid online scams.",
-      "retail_illusion": "Do official-looking text messages about bank accounts or investments require immediate action to prevent financial loss?",
-      "institutional_reality": "Urgent SMS prompts often spoof verified financial institutions; verifying details directly through official banking portals prevents unauthorized account compromise.",
+      "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
+      "breaking_event_summary": "Akasa Air reported a 35% revenue growth for FY26 amid fleet and network expansion, but its net loss widened by 37%. Rising aircraft costs, foreign-exchange losses, and financing expenses offset top-line gains.",
+      "retail_illusion": "Does rapid revenue and fleet growth automatically signal that an airline is approaching profitability?",
+      "institutional_reality": "Top-line revenue expansion can be outpaced by escalating operational and balance-sheet burdens, such as aircraft procurement, financing charges, and foreign-exchange fluctuations.",
       "citable_metrics": [
-        "7 signs"
+        "35%",
+        "FY26",
+        "37%"
       ],
-      "debunk_category": "LIQUIDITY_TRAP",
-      "actionable_retail_rule": "Never click embedded links in unsolicited SMS alerts regarding account status or transfers; verify notifications directly via your bank's official app or customer helpline.",
+      "debunk_category": "VALUATION_MYTH",
+      "actionable_retail_rule": "When assessing capital-intensive growth companies, check whether net margins and financing costs are stabilizing alongside sales growth rather than relying on top-line expansion alone.",
       "lead_magnet": {},
       "carousel_outline": [],
-      "highlight_word": "7 structural",
-      "editorial_directive": "Frame the 7 signs as an active pre-transaction filter for retail investors receiving unverified SMS payment prompts. Avoid hypothetical loss calculations or sensational fear bait."
+      "highlight_word": "widen 37%",
+      "editorial_directive": "Slide 1 must display the exact 35% revenue growth against the 37% widening loss without introducing outside names or unverified figures. Translate this dynamic directly for everyday Indian investors: before celebrating top-line growth in an investment or business, inspect the hard line items—financing charges, foreign currency exposure, and fixed asset lease costs."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "The 7 structural red flags hidden in urgent SMS payment demands",
-        "highlight_word": "7 structural",
-        "core_mechanism": "Directly links the 7 signs of fraudulent text messages from the source to immediate verification checks on unverified payment URLs before executing transfers.",
+        "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
+        "highlight_word": "widen 37%",
+        "core_mechanism": "Demonstrates the exact mathematical spread between 35% revenue expansion and 37% loss widening, linking it directly to fixed financing and dollar-denominated costs overrunning inflows.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 8.5,
-          "data_density": 8.0,
-          "friction_quotient": 8.0,
-          "total": 33.0
+          "curiosity_gap": 9.2,
+          "retail_actionability": 8.8,
+          "data_density": 9.8,
+          "friction_quotient": 9.4,
+          "total": 37.2
         },
-        "critic_critique": "Candidate B rigorously adheres to the exact numeric anchor ('7 signs') present in the context, translating general phishing signals into a structured checklist for retail banking users."
+        "critic_critique": "Dominates on evidence integrity and mathematical friction. Anchored exactly to the source metrics (35% revenue jump vs. 37% net loss increase) without inventing unsupported corporate plots or unmentioned founders."
       },
-      "critic_score": 8.2,
+      "critic_score": 9.3,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B is the only variant anchored directly to verifiable source text ('7 signs') while translating the threat into retail financial preservation. It provides clear friction against impulsive digital transactions without introducing invented figures or unsupported anecdotes.",
-      "final_editorial_directive": "Frame the 7 signs as an active pre-transaction filter for retail investors receiving unverified SMS payment prompts. Avoid hypothetical loss calculations or sensational fear bait.",
+      "selection_rationale": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the entire hook to the verified numeric contradiction in the source: a 35% revenue surge counterintuitively driving a 37% widening in net losses due to financing, aircraft costs, and forex expenses.",
+      "final_editorial_directive": "Slide 1 must display the exact 35% revenue growth against the 37% widening loss without introducing outside names or unverified figures. Translate this dynamic directly for everyday Indian investors: before celebrating top-line growth in an investment or business, inspect the hard line items—financing charges, foreign currency exposure, and fixed asset lease costs.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Why rushing to pay a flagged utility bill alert drains savings",
-          "highlight_word": "flagged utility",
-          "core_mechanism": "Fraudulent SMS alerts mimic urgent service disconnections to force hasty link clicks that compromise banking credentials.",
+          "headline_hook": "When a 35% salary hike still leaves you in deeper debt",
+          "highlight_word": "salary hike",
+          "core_mechanism": "Illustrates how top-line growth creates an illusion of financial health while fixed overheads and debt obligations grow faster.",
           "scores": {
-            "curiosity_gap": 7.5,
-            "retail_actionability": 7.0,
-            "data_density": 6.5,
-            "friction_quotient": 7.0,
-            "total": 28.0
+            "curiosity_gap": 8.5,
+            "retail_actionability": 7.5,
+            "data_density": 8.0,
+            "friction_quotient": 8.5,
+            "total": 32.5
           },
-          "critic_critique": "Lacks specific data points from the provided sparse source snippet; establishes general contrarian logic regarding urgency traps but remains generic."
+          "critic_critique": "Effective personal finance framing, but slightly abstracts the operational friction into a general lifestyle inflation comparison rather than grounding the mathematical spread."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "The 7 structural red flags hidden in urgent SMS payment demands",
-          "highlight_word": "7 structural",
-          "core_mechanism": "Directly links the 7 signs of fraudulent text messages from the source to immediate verification checks on unverified payment URLs before executing transfers.",
+          "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
+          "highlight_word": "widen 37%",
+          "core_mechanism": "Demonstrates the exact mathematical spread between 35% revenue expansion and 37% loss widening, linking it directly to fixed financing and dollar-denominated costs overrunning inflows.",
           "scores": {
-            "curiosity_gap": 8.5,
-            "retail_actionability": 8.5,
-            "data_density": 8.0,
-            "friction_quotient": 8.0,
-            "total": 33.0
+            "curiosity_gap": 9.2,
+            "retail_actionability": 8.8,
+            "data_density": 9.8,
+            "friction_quotient": 9.4,
+            "total": 37.2
           },
-          "critic_critique": "Candidate B rigorously adheres to the exact numeric anchor ('7 signs') present in the context, translating general phishing signals into a structured checklist for retail banking users."
+          "critic_critique": "Dominates on evidence integrity and mathematical friction. Anchored exactly to the source metrics (35% revenue jump vs. 37% net loss increase) without inventing unsupported corporate plots or unmentioned founders."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Official banking channels never send urgent account suspension links via SMS",
-          "highlight_word": "suspension links",
-          "core_mechanism": "Exposes the protocol gap between legitimate financial institution communication and third-party deceptive SMS links targeting card bills and savings accounts.",
+          "headline_hook": "Why expanding your business turnover can actually accelerate bankruptcy",
+          "highlight_word": "accelerate bankruptcy",
+          "core_mechanism": "Examines how scaling capital-intensive operations before achieving unit profitability forces reliance on external financing and forex exposure.",
           "scores": {
-            "curiosity_gap": 7.0,
+            "curiosity_gap": 8.8,
             "retail_actionability": 8.0,
-            "data_density": 6.0,
-            "friction_quotient": 7.0,
-            "total": 28.0
+            "data_density": 8.2,
+            "friction_quotient": 8.6,
+            "total": 33.6
           },
-          "critic_critique": "Sound financial hygiene advice, but lacks numeric density and repeats well-trodden cybersecurity tropes without specific hooks."
+          "critic_critique": "Solid conceptual breakdown of scaling pitfalls for retail entrepreneurs, but lacks the immediate quantitative punch of candidate B's side-by-side percentage divergence."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "The 7 structural red flags hidden in urgent SMS payment demands",
-    "core_illusion": "Do official-looking text messages about bank accounts or investments require immediate action to prevent financial loss?",
-    "hidden_reality": "Urgent SMS prompts often spoof verified financial institutions; verifying details directly through official banking portals prevents unauthorized account compromise.",
-    "citable_metric": "7 signs",
+    "hook_headline": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
+    "core_illusion": "Does rapid revenue and fleet growth automatically signal that an airline is approaching profitability?",
+    "hidden_reality": "Top-line revenue expansion can be outpaced by escalating operational and balance-sheet burdens, such as aircraft procurement, financing charges, and foreign-exchange fluctuations.",
+    "citable_metric": "35%",
     "all_metrics": [
-      "7 signs"
+      "35%",
+      "FY26",
+      "37%"
     ],
-    "actionable_rule": "Never click embedded links in unsolicited SMS alerts regarding account status or transfers; verify notifications directly via your bank's official app or customer helpline.",
-    "breaking_event": "A public advisory outlined key indicators to help consumers identify fraudulent text messages and avoid online scams.",
+    "actionable_rule": "When assessing capital-intensive growth companies, check whether net margins and financing costs are stabilizing alongside sales growth rather than relying on top-line expansion alone.",
+    "breaking_event": "Akasa Air reported a 35% revenue growth for FY26 amid fleet and network expansion, but its net loss widened by 37%. Rising aircraft costs, foreign-exchange losses, and financing expenses offset top-line gains.",
     "lead_magnet": {},
     "banned_phrases": [
       "guaranteed wealth",
@@ -119,146 +128,148 @@
     ]
   },
   "deck": {
-    "caption": "A text arrives saying your bank account is suspended unless you click immediately. What should you do? Most digital fraud starts with artificial panic sent directly to your phone.\n\nHere is how to spot the trap:\n• Why genuine banks never threaten immediate account closure via SMS\n• The 7 warning signs of spoofed payment requests and fake KYC alerts\n• The zero-click rule to verify your money safely\n\nSave this guide to protect your family from fraud, and share it with someone who manages money on their phone.\n\nWhen you receive an urgent SMS about your account, do you check your passbook app directly, or do you click the message link first?\n\n#OnlineFraud #BankingSafety #CyberSecurity #FinancialLiteracy",
+    "caption": "Can a company sell 35% more and still lose more money than before? Akasa Air's FY26 results show why rapid business expansion does not automatically guarantee profit.\n\nHere is what every first-time investor must know:\n• Revenue grew 35% on network expansion, but net losses deepened by 37%\n• Heavy aircraft costs, financing charges, and currency swings absorbed the gains\n• Why top-line sales alone can disguise balance-sheet strain in capital-heavy sectors\n\nSave this breakdown for your next balance-sheet review and share it with someone tracking new-age growth companies.\n\nWhen evaluating high-growth firms, do you check debt and financing costs first, or focus mainly on market share expansion?\n\n#AviationIndia #AkasaAir #StockMarketIndia #FundamentalAnalysis #FinancialLiteracy",
     "slides": [
       {
+        "slide_number": 1,
         "role": "hook",
-        "title": "The 7 structural red flags hidden in urgent SMS payment demands",
-        "highlight": "urgent SMS payment demands",
+        "title": "Akasa grew revenue 35%, yet losses <span class=\"highlight-box\">widened 37%</span>.",
+        "card_text": "",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The 7",
-          "<span class='highlight-box'>structural red</span>",
-          "flags hidden"
-        ],
-        "card_text": ""
-      },
-      {
-        "role": "value_1",
-        "headline": "The panic trap behind sudden alerts",
-        "comparison_data": [
-          {
-            "label": "Scam SMS Claim",
-            "value": "Your bank account will be blocked today unless you click immediately."
-          },
-          {
-            "label": "Banking Reality",
-            "value": "Official banks give formal advance notice and never freeze accounts through an unverified text link."
-          }
-        ],
-        "slide_index": 2,
-        "tag": "#MARKETDEBUNK",
-        "title_lines": [
-          "The panic",
-          "<span class='highlight-box'>trap behind</span>",
-          "sudden alerts"
-        ],
-        "card_text": "Scam SMS Claim Your bank account will be blocked today unless you click immediately. Banking Reality Official banks give formal advance notice and never freeze accounts through an unverified text link."
-      },
-      {
-        "role": "value_2",
-        "headline": "The danger inside embedded links",
-        "card_text": "Scam messages include links that look identical to your bank login portal. Clicking them directs you to a fake page designed to steal your account number, password, and mobile verification details.",
-        "slide_index": 3,
-        "tag": "#MARKETDEBUNK",
-        "title_lines": [
-          "The danger",
-          "<span class='highlight-box'>inside embedded</span>",
-          "links"
+          "Akasa grew",
+          "revenue 35%,",
+          "<span class='highlight-box'>widened 37%</span>",
+          "."
         ]
       },
       {
+        "slide_number": 2,
+        "role": "value_1",
+        "title": "Fleet Growth Lifted <span class=\"highlight-box\">Ticket</span> Sales",
+        "stat_data": {
+          "metric": "35%",
+          "label": "FY26 Revenue Growth",
+          "context": "Akasa Air expanded its domestic and international flight network and added more aircraft to its operating fleet."
+        },
+        "slide_index": 2,
+        "tag": "#MARKETDEBUNK",
+        "title_lines": [
+          "Fleet Growth",
+          "<span class='highlight-box'>Lifted Ticket</span>",
+          "Sales"
+        ]
+      },
+      {
+        "slide_number": 3,
+        "role": "value_2",
+        "title": "Why Net Losses <span class=\"highlight-box\">Outpaced</span> Revenue",
+        "comparison_data": {
+          "myth": "A 35% jump in revenue means an airline is nearing profitability.",
+          "reality": "Akasa Air's net loss widened by 37% over the exact same period, outpacing its sales gains."
+        },
+        "slide_index": 3,
+        "tag": "#MARKETDEBUNK",
+        "title_lines": [
+          "Why Net",
+          "<span class='highlight-box'>Losses Outpaced</span>",
+          "Revenue"
+        ]
+      },
+      {
+        "slide_number": 4,
         "role": "value_3",
-        "headline": "Checking the sender identity",
-        "checklist_data": [
+        "title": "Financing And Forex <span class=\"highlight-box\">Drained</span> Cash",
+        "flowchart_data": [
           {
-            "text": "Message comes from an ordinary 10-digit personal phone number",
-            "passed": false
+            "step": "1",
+            "text": "Aircraft Costs: Adding new planes to the fleet increased fixed procurement and lease expenses."
           },
           {
-            "text": "Sender name contains spelling mistakes or strange extra symbols",
-            "passed": false
+            "step": "2",
+            "text": "Financing Expenses: Borrowing capital to support expansion drove up regular debt service costs."
           },
           {
-            "text": "Official bank alerts use recognized registered business headers",
-            "passed": true
+            "step": "3",
+            "text": "Forex Losses: Global aviation liabilities exposed earnings to foreign-exchange currency swings."
           }
         ],
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Checking the",
-          "<span class='highlight-box'>sender identity</span>"
+          "Financing And",
+          "<span class='highlight-box'>Forex Drained</span>",
+          "Cash"
         ]
       },
       {
+        "slide_number": 5,
         "role": "value_4",
-        "headline": "Demands genuine institutions never make",
-        "card_text": "No legitimate bank or payment officer will ask for your secret PIN, UPI password, or OTP (One-Time Password) over text or a web form to keep your account active.",
+        "title": "Revenue Versus Real <span class=\"highlight-box\">Net</span> Losses",
+        "card_text": "Top-line revenue is simply the total money collected from ticket buyers. Net loss is what happens after paying aircraft leases, financing interest, and currency hits. High sales do not help if operational costs rise faster.",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Demands genuine",
-          "<span class='highlight-box'>institutions never</span>",
-          "make"
+          "Revenue Versus",
+          "<span class='highlight-box'>Real Net</span>",
+          "Losses"
         ]
       },
       {
+        "slide_number": 6,
         "role": "value_5",
-        "headline": "Key advisory indicators",
-        "stat_data": {
-          "metric": "7 signs",
-          "label": "Key indicators identified in fraud advisories",
-          "context": "Watch for sudden urgency, unknown sender numbers, embedded links, OTP requests, fake KYC warnings, suspicious attachments, and false prize offers."
-        },
+        "title": "Aviation's Brutal <span class=\"highlight-box\">Capital</span> Squeeze",
+        "card_text": "Airlines require massive advance capital to fly. More planes mean higher financing overhead. If ticket pricing cannot offset rising dollar costs and interest payments, every additional route can temporarily increase total losses.",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>Key advisory</span>",
-          "indicators"
+          "Aviation's Brutal",
+          "<span class='highlight-box'>Capital Squeeze</span>"
         ]
       },
       {
+        "slide_number": 7,
         "role": "value_6",
-        "headline": "The 3-step safety verification rule",
-        "flowchart_data": [
+        "title": "Evaluating Growth Beyond <span class=\"highlight-box\">Headline</span> Revenue",
+        "checklist_data": [
           {
-            "step": "1",
-            "text": "Close the SMS without tapping any links or calling sender numbers"
+            "text": "Check if net losses are shrinking alongside revenue gains",
+            "status": "pass"
           },
           {
-            "step": "2",
-            "text": "Open your official banking app independently on your phone"
+            "text": "Monitor whether financing costs and debt burdens are stabilizing",
+            "status": "pass"
           },
           {
-            "step": "3",
-            "text": "Call the verified helpline number printed on your physical bank card or passbook"
+            "text": "Relying on fleet expansion or passenger volume alone",
+            "status": "fail"
           }
         ],
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The 3-step",
-          "<span class='highlight-box'>safety verification</span>",
-          "rule"
+          "Evaluating Growth",
+          "<span class='highlight-box'>Beyond Headline</span>",
+          "Revenue"
         ]
       },
       {
+        "slide_number": 8,
         "role": "bookmark_save",
-        "title": "Never let an urgent SMS dictate your financial decisions",
-        "cta_detail": "Save this checklist for the next time you get a suspicious alert, and verify all account status changes directly through your official banking portal.",
+        "title": "Look Beyond Rapid Sales Growth",
+        "cta_detail": "Always check financing burdens and bottom-line stability before trusting headline revenue numbers. Save this post to guide your balance-sheet analysis, and share it with a fellow investor.",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Never let",
-          "<span class='highlight-box'>an urgent</span>",
-          "SMS dictate your financial decisions"
+          "Look Beyond",
+          "<span class='highlight-box'>Rapid Sales</span>",
+          "Growth"
         ],
         "card_text": ""
       }
     ],
-    "fact_check_status": "verified_after_repair",
+    "fact_check_status": "verified_pass",
     "audio_recommendation": {
       "title": "Solitude (Dark Academic Finance)",
       "artist": "M83 / Felsmann + Tiley",
@@ -276,93 +287,93 @@
     "reels_boost_tier": "Viral Editorial",
     "search_query": "M83 Solitude Felsmann Tiley"
   },
-  "run_id": "20261018_142622",
+  "run_id": "20261019_041428",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "The 7 structural red flags hidden in urgent SMS payment demands",
-      "highlight_word": "7 structural",
-      "core_mechanism": "Directly links the 7 signs of fraudulent text messages from the source to immediate verification checks on unverified payment URLs before executing transfers.",
+      "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
+      "highlight_word": "widen 37%",
+      "core_mechanism": "Demonstrates the exact mathematical spread between 35% revenue expansion and 37% loss widening, linking it directly to fixed financing and dollar-denominated costs overrunning inflows.",
       "scores": {
-        "curiosity_gap": 8.5,
-        "retail_actionability": 8.5,
-        "data_density": 8.0,
-        "friction_quotient": 8.0,
-        "total": 33.0
+        "curiosity_gap": 9.2,
+        "retail_actionability": 8.8,
+        "data_density": 9.8,
+        "friction_quotient": 9.4,
+        "total": 37.2
       },
-      "critic_critique": "Candidate B rigorously adheres to the exact numeric anchor ('7 signs') present in the context, translating general phishing signals into a structured checklist for retail banking users."
+      "critic_critique": "Dominates on evidence integrity and mathematical friction. Anchored exactly to the source metrics (35% revenue jump vs. 37% net loss increase) without inventing unsupported corporate plots or unmentioned founders."
     },
-    "critic_score": 8.2,
+    "critic_score": 9.3,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B is the only variant anchored directly to verifiable source text ('7 signs') while translating the threat into retail financial preservation. It provides clear friction against impulsive digital transactions without introducing invented figures or unsupported anecdotes.",
-    "final_editorial_directive": "Frame the 7 signs as an active pre-transaction filter for retail investors receiving unverified SMS payment prompts. Avoid hypothetical loss calculations or sensational fear bait.",
+    "selection_rationale": "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the entire hook to the verified numeric contradiction in the source: a 35% revenue surge counterintuitively driving a 37% widening in net losses due to financing, aircraft costs, and forex expenses.",
+    "final_editorial_directive": "Slide 1 must display the exact 35% revenue growth against the 37% widening loss without introducing outside names or unverified figures. Translate this dynamic directly for everyday Indian investors: before celebrating top-line growth in an investment or business, inspect the hard line items—financing charges, foreign currency exposure, and fixed asset lease costs.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Why rushing to pay a flagged utility bill alert drains savings",
-        "highlight_word": "flagged utility",
-        "core_mechanism": "Fraudulent SMS alerts mimic urgent service disconnections to force hasty link clicks that compromise banking credentials.",
+        "headline_hook": "When a 35% salary hike still leaves you in deeper debt",
+        "highlight_word": "salary hike",
+        "core_mechanism": "Illustrates how top-line growth creates an illusion of financial health while fixed overheads and debt obligations grow faster.",
         "scores": {
-          "curiosity_gap": 7.5,
-          "retail_actionability": 7.0,
-          "data_density": 6.5,
-          "friction_quotient": 7.0,
-          "total": 28.0
+          "curiosity_gap": 8.5,
+          "retail_actionability": 7.5,
+          "data_density": 8.0,
+          "friction_quotient": 8.5,
+          "total": 32.5
         },
-        "critic_critique": "Lacks specific data points from the provided sparse source snippet; establishes general contrarian logic regarding urgency traps but remains generic."
+        "critic_critique": "Effective personal finance framing, but slightly abstracts the operational friction into a general lifestyle inflation comparison rather than grounding the mathematical spread."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "The 7 structural red flags hidden in urgent SMS payment demands",
-        "highlight_word": "7 structural",
-        "core_mechanism": "Directly links the 7 signs of fraudulent text messages from the source to immediate verification checks on unverified payment URLs before executing transfers.",
+        "headline_hook": "Revenue up 35%, but net losses widen 37%: the operational debt trap",
+        "highlight_word": "widen 37%",
+        "core_mechanism": "Demonstrates the exact mathematical spread between 35% revenue expansion and 37% loss widening, linking it directly to fixed financing and dollar-denominated costs overrunning inflows.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 8.5,
-          "data_density": 8.0,
-          "friction_quotient": 8.0,
-          "total": 33.0
+          "curiosity_gap": 9.2,
+          "retail_actionability": 8.8,
+          "data_density": 9.8,
+          "friction_quotient": 9.4,
+          "total": 37.2
         },
-        "critic_critique": "Candidate B rigorously adheres to the exact numeric anchor ('7 signs') present in the context, translating general phishing signals into a structured checklist for retail banking users."
+        "critic_critique": "Dominates on evidence integrity and mathematical friction. Anchored exactly to the source metrics (35% revenue jump vs. 37% net loss increase) without inventing unsupported corporate plots or unmentioned founders."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Official banking channels never send urgent account suspension links via SMS",
-        "highlight_word": "suspension links",
-        "core_mechanism": "Exposes the protocol gap between legitimate financial institution communication and third-party deceptive SMS links targeting card bills and savings accounts.",
+        "headline_hook": "Why expanding your business turnover can actually accelerate bankruptcy",
+        "highlight_word": "accelerate bankruptcy",
+        "core_mechanism": "Examines how scaling capital-intensive operations before achieving unit profitability forces reliance on external financing and forex exposure.",
         "scores": {
-          "curiosity_gap": 7.0,
+          "curiosity_gap": 8.8,
           "retail_actionability": 8.0,
-          "data_density": 6.0,
-          "friction_quotient": 7.0,
-          "total": 28.0
+          "data_density": 8.2,
+          "friction_quotient": 8.6,
+          "total": 33.6
         },
-        "critic_critique": "Sound financial hygiene advice, but lacks numeric density and repeats well-trodden cybersecurity tropes without specific hooks."
+        "critic_critique": "Solid conceptual breakdown of scaling pitfalls for retail entrepreneurs, but lacks the immediate quantitative punch of candidate B's side-by-side percentage divergence."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.2,
+    "average_score": 9.3,
     "slide_1_report": {
       "mobile_readability_score": 9.5,
-      "contrast_score": 9.5,
+      "contrast_score": 9.8,
       "whitespace_score": 9.0,
-      "overall_score": 9.3,
+      "overall_score": 9.4,
       "passed": true,
-      "critique_summary": "The design utilizes a highly effective, punchy layout that commands immediate attention with excellent use of negative space. The high-contrast green highlight box creates a strong visual anchor that aligns perfectly with a professional, minimalist editorial aesthetic.",
+      "critique_summary": "The design achieves high visual impact through a clean, bold typographic hierarchy that perfectly mimics a professional financial news terminal aesthetic.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
         "line_height": "1.1",
-        "notes": "The current typography is already optimal for mobile consumption; keeping line-height tight maintains the 'Bloomberg/FT' aesthetic."
+        "notes": "The current layout is optimal; maintain strict alignment to ensure the 'widened 37%' box does not feel cramped."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-18T14:26:31.222433+00:00"
+  "exported_at": "2026-10-19T04:14:37.106438+00:00"
 }
