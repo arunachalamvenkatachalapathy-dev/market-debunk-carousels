@@ -1,93 +1,17 @@
 {
-  "timestamp": "2026-10-19T14:23:18.015379+00:00",
-  "phase": "EDITORIAL_FACT_CHECK",
-  "severity": "RECOVERABLE",
-  "error_code": "ERR_FACT_CHECK_MISMATCH",
-  "root_cause_analysis": "The deck utilized an unsupported metric string '25year' which was not strictly verified against the source text. The source text contains numeric tokens '10', '20', '2026', '25', and '26.975746', where '20' and '25' represent the loan tenure years range ('20-25'). The deck metric has been corrected to strictly match the source range.",
+  "timestamp": "2026-10-19T16:40:09.319643+00:00",
+  "phase": "PIPELINE_ORCHESTRATION",
+  "severity": "CRITICAL",
+  "error_code": "ERR_PIPELINE_HALT",
+  "root_cause_analysis": "The carousel generation pipeline was halted because the visual inspection/audit phase failed completely or was unavailable, resulting in a score of 0.0 across 2 audited slides. This triggers an explicit ValueError exception in engine.py line 181 to prevent malformed or unverified visual assets from progressing downstream.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
-    "action": "AUTO_REPAIR_PAYLOAD",
-    "repaired_payload": {
-      "caption": "Should you clear your home loan early or invest in a Systematic Investment Plan (SIP)?\n\n- Understand how 20-25-year loan tenures impact your total interest outgoings\n- See why early payments change your overall debt burden\n- Learn how to weigh safe interest savings against market investments\n\nSave this post to review before your next financial decision. Would you choose to prepay your home loan or invest in an SIP first?\n\n#HomeLoan #InvestmentStrategy #PersonalFinance #SIP #MarketDebunk",
-      "slides": [
-        {
-          "role": "hook",
-          "title": "Home loan prepayment vs SIP: Which is a better option and saves you more money? Here's the maths"
-        },
-        {
-          "role": "value_1",
-          "visual_type": "card_text",
-          "title": "The Core Dilemma",
-          "content": "When you take a home loan, you commit to paying Equated Monthly Installments (EMIs) over a long period. Choosing where to put extra cash creates a tough choice between clearing debt or growing investments."
-        },
-        {
-          "role": "value_2",
-          "visual_type": "stat_data",
-          "title": "The Tenure Factor",
-          "metric": "20-25",
-          "label": "Year Loan Tenure",
-          "context": "Home loans are commonly spread over a span of 20 to 25 years, meaning interest builds up substantially over the life of the loan."
-        },
-        {
-          "role": "value_3",
-          "visual_type": "flowchart_data",
-          "title": "Power of Early Action",
-          "steps": [
-            {
-              "text": "Make small extra payments"
-            },
-            {
-              "text": "Target the initial years of the loan"
-            },
-            {
-              "text": "Significantly reduce overall interest outgoings over time"
-            }
-          ]
-        },
-        {
-          "role": "value_4",
-          "visual_type": "comparison_data",
-          "title": "Prepayment vs SIP Realities",
-          "left_label": "Prepayment Reality",
-          "left_text": "Guaranteed savings by lowering the principal amount and cutting future interest costs.",
-          "right_label": "SIP Reality",
-          "right_text": "Investing fixed amounts regularly into mutual funds with variable market returns."
-        },
-        {
-          "role": "value_5",
-          "visual_type": "checklist_data",
-          "title": "What Changes for Your Money",
-          "items": [
-            {
-              "text": "Lower total interest burden with early loan reductions",
-              "status": "pass"
-            },
-            {
-              "text": "Immediate liquidity reduction if cash goes to the bank",
-              "status": "fail"
-            },
-            {
-              "text": "Potential market wealth creation via SIPs instead of debt closure",
-              "status": "pass"
-            }
-          ]
-        },
-        {
-          "role": "value_6",
-          "visual_type": "card_text",
-          "title": "Remaining Uncertainties",
-          "content": "Market returns from an SIP are never guaranteed, whereas loan interest rates can fluctuate. Your final choice depends on your personal comfort with risk and your specific loan terms."
-        },
-        {
-          "role": "bookmark_save",
-          "title": "Check Your Loan Terms Before Deciding",
-          "cta_detail": "Save this post to easily review the maths when you plan your next extra payment, and share it with someone managing a home loan."
-        }
-      ]
-    }
+    "action": "SAFE_SHUTDOWN",
+    "repaired_payload": null
   },
-  "operator_action_required": false,
+  "operator_action_required": true,
   "actionable_instructions": [
-    "Automated repair applied to match source evidence numbers."
+    "Verify that the visual rendering service or headless browser dependency is operational and accessible.",
+    "Check the logs preceding slide generation for rendering errors or missing font/asset dependencies."
   ]
 }

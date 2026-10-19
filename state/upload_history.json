@@ -1831,8 +1831,19 @@
           "status": "skipped"
         }
       },
-      "insights_fetched_48h": false,
-      "insights": {}
+      "insights_fetched_48h": true,
+      "insights": {
+        "saves": 0,
+        "shares": 0,
+        "impressions": 0,
+        "reach": 0,
+        "total_interactions": 0,
+        "fb_reach": 0,
+        "fb_engaged_users": 0,
+        "save_to_reach_pct": 0.0,
+        "status": "api_error: (#10) Application does not have permission for this action"
+      },
+      "age_at_audit_hours": 49.7
     },
     {
       "title": "Sealed-Box CPU Scam: Fake Ryzen 9 9950X3D2 Found With Intel Substrate - BigGo Finance",
