@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "Why Is Stock Market Falling Today? Sensex, Nifty Tumble Over 1%; Rs 4 Lakh Crore Wiped Out, 5 Key Factors Here - Goodreturns",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcUtfdE5pajlZNFZvODNfN0FoUjAycGxxaXIzTEN5TWtySTQzVFgxbUNrTjFDZmhLa2YtU0RjVVQwMVoycWxpamJoV2drY3VQLUlvcmJHNmlUV3VCemdwcktUNU1HQl9aci1NaFFaUzBzbjlsNUtzd1YzSzV5ZmZ4bWMzbFpMbXltZ1NQWkhLeENUV2lvdWZodHhIM0lpLTA3TE5WUktKRWZTUkFyRk1UUGhZZEFfbG9KR2JCQ3c0TU5QVVVQSDIwV2Y5c0lWeG9KTlp3RjQ5WQ?oc=5",
-      "timestamp": "2026-09-24T08:31:24.395590+00:00"
-    },
-    {
       "title": "₹85,000 crore gone! PB Fintech to HDFC Bank — these 5 financial stocks witness highest wealth erosion on IRDAI's move",
       "url": "https://www.livemint.com/market/stock-market-news/rs-85-000-crore-gone-pb-fintech-to-hdfc-bank-these-5-financial-stocks-witness-highest-wealth-erosion-on-irdais-move-11790233480906.html",
       "timestamp": "2026-09-24T17:59:12.911118+00:00"
@@ -299,6 +294,11 @@
       "title": "Fake ATS case scam costs ITBP officer ₹7.5 lakh - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONFFBLUt0MUIyeExLS2lDbXJIeG5LS1ltcU1VWHZmYnFTR0d5RThwSllCMUttU1VjVFZVT3FMOVFxd19ISURnUmZjcHBDYU9GU201YWJLUDRuOXViVUs0OTdVYV8yRnVKQ2ZITEtJNC04aWpjTzJ5TUxBa19raGJ2ZmZWTzZ5dGNjQjlXYXNaREVKNWxhbXZOalJTWjc4YmxBZ1NVNFhSQnZfaTJTdTNSNkt5R29Kd1VpRDk1TzE5WWZtUdIBxwFBVV95cUxOdklHbTgzUWpoSzVsMmhFYW9NNmVQb3BsdWNMUjJDTVdZSzFMaU53Rk1BOFV6MmkyYm1RQ0Q4SG1jRWVXekREbi1Ielk1clIxdE9LMkVsNENqY19GNjBnRFBrWC1KemIxWXdWOTJRbzctTUd2RVExNks2QlpydlNDeHZKYjF5OGo5WGFvRVIxMG1lZHpxcGo1Q0dOSWtXOWJ3MGNHZUd4VUlkZmlJV0ZjZ1ZyamNXOE5hdGtUa2Z3YnpnUXk3c0VR?oc=5",
       "timestamp": "2026-10-19T19:30:37.912940+00:00"
+    },
+    {
+      "title": "ED freezes Rs 200 crore in trading accounts during raids at 29 premises in Maharashtra, Gujarat in alleged \"pump and dump\" share manipulation scam - ANI News",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQY1p1elJmWndyeTRWWDZQOTIwU21vbDNOU1RseEMyS05hWHc2dzltamxIVDlib1AzZ2JLMDBxeEd5a3ZYZzFUQVRuLXdXQWJ5LVdiNXNJVGxfMVhldU1pMEE1R2ZqckVaY0hpcmpnaEZyMXRhMEFQS0hqbThMbm43YTNhbG5GMXFFMDNXakJGSFo5RE4zV0tNWHVqa3NFaE5KWmpRNjZWYUlXckVpVmlvNE5QbGpnLWREQmcxUFBMRXJGcU11cktWN3NYR2tkM0o1VjhuenNNZFBhWmpxV3h4RXoxbFpfWXdwazVPTTJwT3RFTlo5d2MzN1RBeXlob2lDUm9zbHRrXy1ZX2ViamNFMHV5WHFNdTJaRmRfa2xRU3lPdFhvRjk2NjZCU0R6Z3BO?oc=5",
+      "timestamp": "2026-10-20T03:37:07.259961+00:00"
     }
   ],
   "used_archetypes": [
@@ -424,6 +424,7 @@
     "https://economictimes.indiatimes.com/wealth/invest/96-ipos-raise-rs-1-1-lakh-crore-in-2026-even-as-the-nifty-corrects/articleshow/135047923.cms",
     "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQm1ZRmdTdnpfYVB5Y3BBY0x4WHpoclJvcHM3VklZR04wWVZVM3U3bmNuYWpJLUNTZzQySXZfUkVTYWhYY1hoSllaeEFBRVpRUFpYY05ack1Ca2p1T3FiVzhrNW4wZUVTUW5pcjZpcFAzTTd1cEVqUUdCcEZFLTJSR2lqOE1mQnFIUkZfcFNvcEtOWm81b0tYdWYyR1Ztd19fOG5mM2pnSDItRERPb2ozUjQ5cFVjUW9wTHVvUHhwZ1ZPWWVRWmpST2pWZUpUTjdQZ0cxQXJWYlRSSFp2QkV3aEtvMzJHUnlXUkVtWkgxejk2Xzg1cDNLNnpTN1lzZ9IBgwJBVV95cUxNSDVZOXZMZDAxS19wUGMxZWRiNW1rVWYtdE5VYlRPU3UyRmtiaFVNNGV6SmgwV3JxMDgyQTE3azVkNi1EenpkMWpXc1RmcW8wcTVORDZ4VUVBY3U1dGN1Snk4SUVwU2pGV1U5dC01SzdxdVc0c2N1T2hpSFhFRzYzRlhvMnExN0NHVExyM1J6UkV3NGJNRWUxLWQ1aG1MQW9HWVVvMWVkZHJBenF2RFg5d1Z0NXN5SHJmeHVBai1GN1hJYVlseU8zWFNOYmE3cUs2OXZJU21idGpFZngxcEZRcTh6SWRqdkNnLTdidnlOY3pYLXRKY1l1SXphNjRiMmV2RXlB?oc=5",
     "https://www.livemint.com/money/personal-finance/home-loan-borrowers-pay-higher-emi-every-month-or-extend-your-loan-tenure-how-to-choose-after-a-rate-hike-11792428663124.html",
-    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONFFBLUt0MUIyeExLS2lDbXJIeG5LS1ltcU1VWHZmYnFTR0d5RThwSllCMUttU1VjVFZVT3FMOVFxd19ISURnUmZjcHBDYU9GU201YWJLUDRuOXViVUs0OTdVYV8yRnVKQ2ZITEtJNC04aWpjTzJ5TUxBa19raGJ2ZmZWTzZ5dGNjQjlXYXNaREVKNWxhbXZOalJTWjc4YmxBZ1NVNFhSQnZfaTJTdTNSNkt5R29Kd1VpRDk1TzE5WWZtUdIBxwFBVV95cUxOdklHbTgzUWpoSzVsMmhFYW9NNmVQb3BsdWNMUjJDTVdZSzFMaU53Rk1BOFV6MmkyYm1RQ0Q4SG1jRWVXekREbi1Ielk1clIxdE9LMkVsNENqY19GNjBnRFBrWC1KemIxWXdWOTJRbzctTUd2RVExNks2QlpydlNDeHZKYjF5OGo5WGFvRVIxMG1lZHpxcGo1Q0dOSWtXOWJ3MGNHZUd4VUlkZmlJV0ZjZ1ZyamNXOE5hdGtUa2Z3YnpnUXk3c0VR?oc=5"
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONFFBLUt0MUIyeExLS2lDbXJIeG5LS1ltcU1VWHZmYnFTR0d5RThwSllCMUttU1VjVFZVT3FMOVFxd19ISURnUmZjcHBDYU9GU201YWJLUDRuOXViVUs0OTdVYV8yRnVKQ2ZITEtJNC04aWpjTzJ5TUxBa19raGJ2ZmZWTzZ5dGNjQjlXYXNaREVKNWxhbXZOalJTWjc4YmxBZ1NVNFhSQnZfaTJTdTNSNkt5R29Kd1VpRDk1TzE5WWZtUdIBxwFBVV95cUxOdklHbTgzUWpoSzVsMmhFYW9NNmVQb3BsdWNMUjJDTVdZSzFMaU53Rk1BOFV6MmkyYm1RQ0Q4SG1jRWVXekREbi1Ielk1clIxdE9LMkVsNENqY19GNjBnRFBrWC1KemIxWXdWOTJRbzctTUd2RVExNks2QlpydlNDeHZKYjF5OGo5WGFvRVIxMG1lZHpxcGo1Q0dOSWtXOWJ3MGNHZUd4VUlkZmlJV0ZjZ1ZyamNXOE5hdGtUa2Z3YnpnUXk3c0VR?oc=5",
+    "https://news.google.com/rss/articles/CBMisAJBVV95cUxQY1p1elJmWndyeTRWWDZQOTIwU21vbDNOU1RseEMyS05hWHc2dzltamxIVDlib1AzZ2JLMDBxeEd5a3ZYZzFUQVRuLXdXQWJ5LVdiNXNJVGxfMVhldU1pMEE1R2ZqckVaY0hpcmpnaEZyMXRhMEFQS0hqbThMbm43YTNhbG5GMXFFMDNXakJGSFo5RE4zV0tNWHVqa3NFaE5KWmpRNjZWYUlXckVpVmlvNE5QbGpnLWREQmcxUFBMRXJGcU11cktWN3NYR2tkM0o1VjhuenNNZFBhWmpxV3h4RXoxbFpfWXdwazVPTTJwT3RFTlo5d2MzN1RBeXlob2lDUm9zbHRrXy1ZX2ViamNFMHV5WHFNdTJaRmRfa2xRU3lPdFhvRjk2NjZCU0R6Z3BO?oc=5"
   ]
 }

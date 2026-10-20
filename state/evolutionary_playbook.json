@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 44,
+  "total_cycles_recorded": 45,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.5,
     "MATHEMATICAL_FRICTION": 2.5,
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the hook in bot",
     "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids f",
     "Fallback contrarian anchor.",
     "Candidate B is the strongest because it highlights the friction between the user's perception of their own savings (pens",
@@ -38,7 +37,8 @@
     "Candidate B creates the strongest cognitive dissonance. It exposes the fallacy that 'sealed' equals 'authentic,' which i",
     "Candidate B is the only variant anchored directly to verifiable source text ('7 signs') while translating the threat int",
     "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the entire hook",
-    "Candidate B effectively bridges the gap between a news headline and a personal financial safety rule. By focusing on the"
+    "Candidate B effectively bridges the gap between a news headline and a personal financial safety rule. By focusing on the",
+    "Candidate B maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It strictly integrates source numbe"
   ],
   "cycle_history": [
     {
@@ -436,6 +436,15 @@
       "critic_score": 9.0,
       "visual_score": 9.2,
       "key_learning": "Candidate B effectively bridges the gap between a news headline and a personal financial safety rule. By focusing on the"
+    },
+    {
+      "cycle": 45,
+      "timestamp": "2026-10-20T03:40:42.456002+00:00",
+      "topic": "ED freezes Rs 200 crore in trading accounts during raids at 29 premises in Mahar",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.2,
+      "visual_score": 8.9,
+      "key_learning": "Candidate B maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It strictly integrates source numbe"
     }
   ]
 }

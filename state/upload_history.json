@@ -1960,6 +1960,35 @@
       },
       "insights_fetched_48h": false,
       "insights": {}
+    },
+    {
+      "title": "ED freezes Rs 200 crore in trading accounts during raids at 29 premises in Maharashtra, Gujarat in alleged \"pump and dump\" share manipulation scam - ANI News",
+      "media_id": "18097483268650563",
+      "timestamp": "2026-10-20T03:42:09.880892+00:00",
+      "topic_category": "REGULATORY_SHIFT",
+      "hook_archetype": "CONTRARIAN",
+      "hashtag_cluster": "default",
+      "publish_results": {
+        "instagram": {
+          "success": true,
+          "media_id": "18097483268650563",
+          "permalink": "https://www.instagram.com/p/Des5C_ijMgm/"
+        },
+        "facebook": {
+          "success": true,
+          "post_id": "1247247545146839_122124470703474347",
+          "url": "https://www.facebook.com/1247247545146839_122124470703474347"
+        },
+        "telegram": {
+          "success": true
+        },
+        "linkedin": {
+          "success": false,
+          "status": "skipped"
+        }
+      },
+      "insights_fetched_48h": false,
+      "insights": {}
     }
   ]
 }
