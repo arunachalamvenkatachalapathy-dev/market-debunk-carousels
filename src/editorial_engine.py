@@ -195,7 +195,7 @@ Return JSON ONLY:
         # Resilience only: when every model fails with a transient capacity error (503/UNAVAILABLE/overloaded),
         # wait and sweep the same model list again. Content gates (numeric fact gate, source gate) are untouched.
         import time
-        outage_waits = [20, 45, 90, 150]
+        outage_waits = [20]  # cap: one retry round, then fail (approved 2026-10-20)
         outage_round = 0
         while self.client:
             transient_failures = 0

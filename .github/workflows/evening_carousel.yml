@@ -24,7 +24,7 @@ permissions:
 jobs:
   run-carousel-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10  # hard cap: fail fast instead of burning minutes on retry storms
 
     steps:
       - name: Checkout Repository
