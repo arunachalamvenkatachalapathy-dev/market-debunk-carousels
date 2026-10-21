@@ -1,17 +1,54 @@
 {
-  "timestamp": "2026-10-19T16:40:09.319643+00:00",
-  "phase": "PIPELINE_ORCHESTRATION",
-  "severity": "CRITICAL",
-  "error_code": "ERR_PIPELINE_HALT",
-  "root_cause_analysis": "The carousel generation pipeline was halted because the visual inspection/audit phase failed completely or was unavailable, resulting in a score of 0.0 across 2 audited slides. This triggers an explicit ValueError exception in engine.py line 181 to prevent malformed or unverified visual assets from progressing downstream.",
+  "timestamp": "2026-10-21T03:40:28.764329+00:00",
+  "phase": "EDITORIAL_FACT_CHECK",
+  "severity": "RECOVERABLE",
+  "error_code": "ERR_FACT_CHECK_MISMATCH",
+  "root_cause_analysis": "The failing deck introduced an unsupported metric ('100%') in slide 3 ('it is 100% a fraud') that was not verified by the source evidence context. The source context contains valid metrics ['10', '2026', '27']. The unsupported percentage was removed to align deck metrics with source evidence.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
-    "action": "SAFE_SHUTDOWN",
-    "repaired_payload": null
+    "action": "AUTO_REPAIR_SUCCESS",
+    "repaired_payload": {
+      "caption": "A video of the Prime Minister promising money sounds like a dream, but it is becoming a digital nightmare. Scammers are using 'deepfakes'—AI-generated videos that look and sound exactly like real people—to trick you into giving away your hard-earned savings.\n\nIn this post, we break down:\n• How to spot a fake video.\n• Why 'processing fees' are a major red flag.\n• The only place to verify government schemes.\n\nSave this post to protect your family from financial fraud.\n\n#CyberSecurity #DigitalSafety #FinancialLiteracy #DeepfakeAwareness #StayAlert",
+      "slides": [
+        {
+          "role": "hook",
+          "title": "If a 'free' government payout asks for an upfront fee, you are being scammed.",
+          "body": "Recent reports warn that scammers are using AI-generated deepfake videos of Prime Minister Narendra Modi to promote fake welfare schemes. If it looks too good to be true, it is."
+        },
+        {
+          "role": "value_1",
+          "title": "What is a Deepfake?",
+          "body": "card_text",
+          "content": "A deepfake is a video where Artificial Intelligence (AI) is used to make a person say things they never said. Scammers use these to make it look like the Prime Minister is personally announcing a new cash benefit for you."
+        },
+        {
+          "role": "value_2",
+          "title": "The 'Processing Fee' Trap",
+          "body": "comparison_data",
+          "content": "Reality: Real government welfare schemes never ask you to pay money to receive money. If a video asks for an 'advance processing fee' or 'registration charge' to unlock a benefit, it is a fraud."
+        },
+        {
+          "role": "value_3",
+          "title": "How Scammers Lure You",
+          "body": "flowchart_data",
+          "content": "1. You see a video of a leader on social media. 2. The video promises quick cash or a new scheme. 3. You are directed to an external link. 4. You are asked to pay a fee or share bank details. 5. Your money is stolen."
+        },
+        {
+          "role": "value_4",
+          "title": "Checklist: Is it Official?",
+          "body": "checklist_data",
+          "content": "Official Government Site? (Ends in .gov.in or .nic.in) [PASS/FAIL]. Does it ask for money upfront? [PASS/FAIL]. Is the video from a verified social media handle? [PASS/FAIL]."
+        },
+        {
+          "role": "bookmark_save",
+          "title": "Protect Your Savings",
+          "cta_detail": "Government schemes are announced through official gazettes and verified news channels, not through viral social media clips. Save this post to remind your family to verify before they click."
+        }
+      ]
+    }
   },
-  "operator_action_required": true,
+  "operator_action_required": false,
   "actionable_instructions": [
-    "Verify that the visual rendering service or headless browser dependency is operational and accessible.",
-    "Check the logs preceding slide generation for rendering errors or missing font/asset dependencies."
+    "Automated repair applied to match source evidence numbers."
   ]
 }

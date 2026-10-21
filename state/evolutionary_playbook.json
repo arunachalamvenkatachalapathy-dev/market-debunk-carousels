@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 45,
+  "total_cycles_recorded": 46,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.5,
     "MATHEMATICAL_FRICTION": 2.5,
@@ -445,6 +445,15 @@
       "critic_score": 9.2,
       "visual_score": 8.9,
       "key_learning": "Candidate B maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It strictly integrates source numbe"
+    },
+    {
+      "cycle": 46,
+      "timestamp": "2026-10-21T03:45:33.702612+00:00",
+      "topic": "Beware! Don’t fall for PM Modi's deepfake videos about welfare schemes; it can b",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 8.9,
+      "visual_score": 9.3,
+      "key_learning": "Candidate B wins by enforcing the core financial friction: paying cash upfront to unlock hypothetical grants guarantees "
     }
   ]
 }
