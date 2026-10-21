@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "Four-day upper circuit streak drives this small-cap stock up 74%; here’s the key trigger behind the jump",
-      "url": "https://www.livemint.com/market/stock-market-news/fourday-upper-circuit-streak-drives-this-small-cap-stock-up-74-here-s-the-key-trigger-behind-the-jump-11790331573614.html",
-      "timestamp": "2026-09-25T18:06:10.091887+00:00"
-    },
-    {
       "title": "Gold price outlook: MCX gold slips for the week as US Fed rate hike bets rise; what’s next for the yellow metal?",
       "url": "https://www.livemint.com/market/stock-market-news/gold-price-outlook-mcx-gold-slips-for-the-week-as-us-fed-rate-hike-bets-rise-what-s-next-for-the-yellow-metal-11790354545598.html",
       "timestamp": "2026-09-26T08:39:06.810752+00:00"
@@ -299,6 +294,11 @@
       "title": "Income Tax Rules 2026: CBDT notifies Form 173A to claim exemption on interest, capital gains from government securities",
       "url": "https://economictimes.indiatimes.com/wealth/tax/income-tax-rules-2026-cbdt-notifies-form-173a-to-claim-exemption-on-interest-capital-gains-from-government-securities/articleshow/135084890.cms",
       "timestamp": "2026-10-21T08:41:58.321500+00:00"
+    },
+    {
+      "title": "Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZHZDMVc3Wk9DakZXdm10QWk3NlNUWDd2TUVaMGtxcXNjUWpzdjQ0QjJPSzJuOGY5RGRFT3RfajZUdWEyX0hfY0daZFlVcTN4OVp4ejJmamhrMVJ6dHM4MVkzRXJaMzE4VFpWVXJVTzlScHNFaWJEYmNhT2dIck5FWHhvMHZQUWN6VGRDdmxONTZuVXF0bk1ESHMxb0UxVGM1VWl3YzhnVzdhUklQUTFKVnowNzNjenBRaTgzb3BzNEFNZ29rRzJIZVFuN0RaT05zOTFtdkY0aWFJVTdlelNidG9Maw?oc=5",
+      "timestamp": "2026-10-21T14:03:57.491596+00:00"
     }
   ],
   "used_archetypes": [
@@ -427,6 +427,7 @@
     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONFFBLUt0MUIyeExLS2lDbXJIeG5LS1ltcU1VWHZmYnFTR0d5RThwSllCMUttU1VjVFZVT3FMOVFxd19ISURnUmZjcHBDYU9GU201YWJLUDRuOXViVUs0OTdVYV8yRnVKQ2ZITEtJNC04aWpjTzJ5TUxBa19raGJ2ZmZWTzZ5dGNjQjlXYXNaREVKNWxhbXZOalJTWjc4YmxBZ1NVNFhSQnZfaTJTdTNSNkt5R29Kd1VpRDk1TzE5WWZtUdIBxwFBVV95cUxOdklHbTgzUWpoSzVsMmhFYW9NNmVQb3BsdWNMUjJDTVdZSzFMaU53Rk1BOFV6MmkyYm1RQ0Q4SG1jRWVXekREbi1Ielk1clIxdE9LMkVsNENqY19GNjBnRFBrWC1KemIxWXdWOTJRbzctTUd2RVExNks2QlpydlNDeHZKYjF5OGo5WGFvRVIxMG1lZHpxcGo1Q0dOSWtXOWJ3MGNHZUd4VUlkZmlJV0ZjZ1ZyamNXOE5hdGtUa2Z3YnpnUXk3c0VR?oc=5",
     "https://news.google.com/rss/articles/CBMisAJBVV95cUxQY1p1elJmWndyeTRWWDZQOTIwU21vbDNOU1RseEMyS05hWHc2dzltamxIVDlib1AzZ2JLMDBxeEd5a3ZYZzFUQVRuLXdXQWJ5LVdiNXNJVGxfMVhldU1pMEE1R2ZqckVaY0hpcmpnaEZyMXRhMEFQS0hqbThMbm43YTNhbG5GMXFFMDNXakJGSFo5RE4zV0tNWHVqa3NFaE5KWmpRNjZWYUlXckVpVmlvNE5QbGpnLWREQmcxUFBMRXJGcU11cktWN3NYR2tkM0o1VjhuenNNZFBhWmpxV3h4RXoxbFpfWXdwazVPTTJwT3RFTlo5d2MzN1RBeXlob2lDUm9zbHRrXy1ZX2ViamNFMHV5WHFNdTJaRmRfa2xRU3lPdFhvRjk2NjZCU0R6Z3BO?oc=5",
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3VXUTN4MTk2Q2Y0VGFtZlhtcTY1NDU2UzQzM0lRNFVDVzQtT0QzMVVkVk55ZGxMNE5Pa2t6SkY2ZWQzZ3I1T0FBaHVvVkNobV8xTFNYc0tvNkRndmpuZWZQcmFfSzI4MFhNTGpyTU1FU3lqbjBKd01jTUNXcUQwS3VEbzJtMmx3bkRtbW10RDVGNGM1eDZXLUhJdXlnbHBXREFfTjNLTF9QSkpKSTZTSG9lZ19UR3VJ?oc=5",
-    "https://economictimes.indiatimes.com/wealth/tax/income-tax-rules-2026-cbdt-notifies-form-173a-to-claim-exemption-on-interest-capital-gains-from-government-securities/articleshow/135084890.cms"
+    "https://economictimes.indiatimes.com/wealth/tax/income-tax-rules-2026-cbdt-notifies-form-173a-to-claim-exemption-on-interest-capital-gains-from-government-securities/articleshow/135084890.cms",
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZHZDMVc3Wk9DakZXdm10QWk3NlNUWDd2TUVaMGtxcXNjUWpzdjQ0QjJPSzJuOGY5RGRFT3RfajZUdWEyX0hfY0daZFlVcTN4OVp4ejJmamhrMVJ6dHM4MVkzRXJaMzE4VFpWVXJVTzlScHNFaWJEYmNhT2dIck5FWHhvMHZQUWN6VGRDdmxONTZuVXF0bk1ESHMxb0UxVGM1VWl3YzhnVzdhUklQUTFKVnowNzNjenBRaTgzb3BzNEFNZ29rRzJIZVFuN0RaT05zOTFtdkY0aWFJVTdlelNidG9Maw?oc=5"
   ]
 }

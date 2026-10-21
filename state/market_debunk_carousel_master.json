@@ -1,111 +1,118 @@
 {
   "topic": {
-    "title": "Beware! Don’t fall for PM Modi's deepfake videos about welfare schemes; it can be scam - NewsMeter",
+    "title": "Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
     "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 92.4,
-    "source": "NewsMeter",
-    "source_snippet": "Beware! Don’t fall for PM Modi's deepfake videos about welfare schemes; it can be scam&nbsp;&nbsp;NewsMeter",
-    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3VXUTN4MTk2Q2Y0VGFtZlhtcTY1NDU2UzQzM0lRNFVDVzQtT0QzMVVkVk55ZGxMNE5Pa2t6SkY2ZWQzZ3I1T0FBaHVvVkNobV8xTFNYc0tvNkRndmpuZWZQcmFfSzI4MFhNTGpyTU1FU3lqbjBKd01jTUNXcUQwS3VEbzJtMmx3bkRtbW10RDVGNGM1eDZXLUhJdXlnbHBXREFfTjNLTF9QSkpKSTZTSG9lZ19UR3VJ?oc=5",
-    "raw_text": "Beware! Don’t fall for PM Modi's deepfake videos about welfare schemes; it can be scam - NewsMeter. Beware! Don’t fall for PM Modi's deepfake videos about welfare schemes; it can be scam&nbsp;&nbsp;NewsMeter",
-    "numbers_detected": [],
-    "published_at": "2026-10-21T03:10:27+00:00",
-    "age_hours": 0.5,
-    "retrieved_at": "2026-10-21T03:37:33.494504+00:00",
+    "viral_demand_score": 92.1,
+    "source": "Moneylife",
+    "source_snippet": "Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report&nbsp;&nbsp;Moneylife",
+    "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZHZDMVc3Wk9DakZXdm10QWk3NlNUWDd2TUVaMGtxcXNjUWpzdjQ0QjJPSzJuOGY5RGRFT3RfajZUdWEyX0hfY0daZFlVcTN4OVp4ejJmamhrMVJ6dHM4MVkzRXJaMzE4VFpWVXJVTzlScHNFaWJEYmNhT2dIck5FWHhvMHZQUWN6VGRDdmxONTZuVXF0bk1ESHMxb0UxVGM1VWl3YzhnVzdhUklQUTFKVnowNzNjenBRaTgzb3BzNEFNZ29rRzJIZVFuN0RaT05zOTFtdkY0aWFJVTdlelNidG9Maw?oc=5",
+    "raw_text": "Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife. Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report&nbsp;&nbsp;Moneylife",
+    "numbers_detected": [
+      "$110",
+      "$110"
+    ],
+    "published_at": "2026-10-21T12:30:23+00:00",
+    "age_hours": 1.6,
+    "retrieved_at": "2026-10-21T14:03:50.212528+00:00",
     "date": "21 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: NewsMeter | Published: 2026-10-21T03:10:27+00:00 (0.5h ago) | Headline: Beware! Don’t fall for PM Modi's deepfake videos about welfare schemes; it can be scam - NewsMeter | Context: Beware! Don’t fall for PM Modi's deepfake videos about welfare schemes; it can be scam - NewsMeter. Beware! Don’t fall for PM Modi's deepfake videos about welfare schemes; it can be scam&nbsp;&nbsp;NewsMeter",
+    "evidence_snapshot": "Source: Moneylife | Published: 2026-10-21T12:30:23+00:00 (1.6h ago) | Headline: Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife | Context: Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife. Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report&nbsp;&nbsp;Moneylife",
     "news_analysis": {
-      "headline_hook": "If receiving a 'free' welfare payout requires paying an upfront processing fee, your guaranteed return is exactly minus 100%.",
-      "breaking_event_summary": "Reports caution the public against falling for deepfake videos featuring Prime Minister Narendra Modi that fraudulently promote welfare schemes designed to scam individuals.",
-      "retail_illusion": "Viewers may assume video endorsements by national leadership confirm the legitimacy of announced welfare payouts or investment schemes.",
-      "institutional_reality": "Manipulated media and deepfakes can impersonate official authorities to direct retail participants toward unverified external links or fraudulent financial schemes.",
-      "citable_metrics": [],
-      "debunk_category": "LIQUIDITY_TRAP",
-      "actionable_retail_rule": "Verify any government welfare initiative directly on official government portals (.gov.in or .nic.in) before submitting personal information or transferring funds.",
+      "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
+      "breaking_event_summary": "Indian benchmark indices Nifty and Sensex extended their losses as crude oil rose above $110, triggering sharp declines across small-cap and microcap segments.",
+      "retail_illusion": "Do domestic small and microcap stocks remain insulated from global commodity price spikes like rising crude oil?",
+      "institutional_reality": "Surging crude increases macro input costs and import bills, with selling pressure and volatility often hitting lower-liquidity small and microcap segments much harder than frontline indices.",
+      "citable_metrics": [
+        "$110"
+      ],
+      "debunk_category": "VALUATION_MYTH",
+      "actionable_retail_rule": "Review your portfolio allocation across market capitalizations and check company-level sensitivity to sustained energy and transport input costs.",
       "lead_magnet": {},
       "carousel_outline": [],
-      "highlight_word": "minus 100%",
-      "editorial_directive": "Slide 1 must highlight the rule of DBT schemes: any video or link demanding an upfront registration fee, OTP, or debit card detail to disburse government funds is an immediate scam. Instruct users to verify all schemes exclusively on official .gov.in domains."
+      "highlight_word": "$110 crude shock",
+      "editorial_directive": "Slide 1 must prominently display the '$110 crude' figure and focus on the widening divergence between frontline indices and small/micro-caps. Explain plainly how crude input shocks squeeze smaller firms' profit margins and impact retail fund balances, prompting a disciplined portfolio allocation review rather than panic selling."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "If receiving a 'free' welfare payout requires paying an upfront processing fee, your guaranteed return is exactly minus 100%.",
-        "highlight_word": "minus 100%",
-        "core_mechanism": "Legitimate central welfare schemes credit money directly via DBT (Direct Benefit Transfer) without requiring upfront registration fees. Deepfake scam funnels invert this math: they extract an upfront 'processing fee' or card payment to unlock fictitious subsidies.",
+        "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
+        "highlight_word": "$110 crude shock",
+        "core_mechanism": "Oil exceeding $110 per barrel creates an immediate raw material and transportation friction, hitting micro-cap balance sheets far harder than large benchmarks and impacting retail monthly SIP values.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 9.0,
-          "data_density": 8.5,
-          "friction_quotient": 9.5,
-          "total": 35.5
+          "curiosity_gap": 8.8,
+          "retail_actionability": 8.9,
+          "data_density": 9.2,
+          "friction_quotient": 9.1,
+          "total": 36.0
         },
-        "critic_critique": "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the deepfake threat in simple cash-flow reality: real government payouts never require citizens to pay an upfront fee to claim subsidies."
+        "critic_critique": "Strictly adheres to the provided data points ($110 crude, Nifty/Sensex losses, small/micro-cap plunge) while tying the macro impact directly to retail equity SIP allocations."
       },
-      "critic_score": 8.9,
+      "critic_score": 9.0,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B wins by enforcing the core financial friction: paying cash upfront to unlock hypothetical grants guarantees a 100% loss. This directly addresses the mechanics of deepfake welfare scams while strictly avoiding unsupported numbers or invented personal narratives.",
-      "final_editorial_directive": "Slide 1 must highlight the rule of DBT schemes: any video or link demanding an upfront registration fee, OTP, or debit card detail to disburse government funds is an immediate scam. Instruct users to verify all schemes exclusively on official .gov.in domains.",
+      "selection_rationale": "Candidate B aligns with the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors cleanly to the exact factual metric ($110 crude) and directly connects the macro shock and small/micro-cap drop to a real retail decision (evaluating equity SIP risk/exposure) without inventing facts or anecdotes.",
+      "final_editorial_directive": "Slide 1 must prominently display the '$110 crude' figure and focus on the widening divergence between frontline indices and small/micro-caps. Explain plainly how crude input shocks squeeze smaller firms' profit margins and impact retail fund balances, prompting a disciplined portfolio allocation review rather than panic selling.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Seeing a Prime Minister's video announcing a direct grant does not mean your bank account is about to be credited.",
-          "highlight_word": "direct grant",
-          "core_mechanism": "Fraudulent deepfake videos simulate high-office endorsements to trick users into trusting fake welfare links. Clicking malicious registration portals typically leads to phishing traps that compromise retail bank accounts rather than delivering official government aid.",
+          "headline_hook": "Crude crosses $110 while your mid and small-cap SIPs bleed: Why broad indices mask the real portfolio damage",
+          "highlight_word": "Crude tops $110",
+          "core_mechanism": "Headline Nifty and Sensex dips hide disproportionate drawdowns in small-cap and micro-cap holdings when crude surges past $110, straining input costs and small-firm margins.",
           "scores": {
-            "curiosity_gap": 7.5,
-            "retail_actionability": 7.0,
-            "data_density": 6.0,
-            "friction_quotient": 7.5,
-            "total": 28.0
+            "curiosity_gap": 7.8,
+            "retail_actionability": 7.5,
+            "data_density": 8.0,
+            "friction_quotient": 7.9,
+            "total": 31.2
           },
-          "critic_critique": "Candidate A exposes the cognitive dissonance between video authority and reality. However, it lacks specific mechanical friction regarding how household money is actually extracted by the scam."
+          "critic_critique": "Solid grounding in the source's market levels, but broad index versus mid/small cap divergence is framed somewhat generically."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "If receiving a 'free' welfare payout requires paying an upfront processing fee, your guaranteed return is exactly minus 100%.",
-          "highlight_word": "minus 100%",
-          "core_mechanism": "Legitimate central welfare schemes credit money directly via DBT (Direct Benefit Transfer) without requiring upfront registration fees. Deepfake scam funnels invert this math: they extract an upfront 'processing fee' or card payment to unlock fictitious subsidies.",
+          "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
+          "highlight_word": "$110 crude shock",
+          "core_mechanism": "Oil exceeding $110 per barrel creates an immediate raw material and transportation friction, hitting micro-cap balance sheets far harder than large benchmarks and impacting retail monthly SIP values.",
           "scores": {
-            "curiosity_gap": 8.5,
-            "retail_actionability": 9.0,
-            "data_density": 8.5,
-            "friction_quotient": 9.5,
-            "total": 35.5
+            "curiosity_gap": 8.8,
+            "retail_actionability": 8.9,
+            "data_density": 9.2,
+            "friction_quotient": 9.1,
+            "total": 36.0
           },
-          "critic_critique": "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the deepfake threat in simple cash-flow reality: real government payouts never require citizens to pay an upfront fee to claim subsidies."
+          "critic_critique": "Strictly adheres to the provided data points ($110 crude, Nifty/Sensex losses, small/micro-cap plunge) while tying the macro impact directly to retail equity SIP allocations."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Official government welfare runs strictly on official portals, not instant viral download links.",
-          "highlight_word": "official portals",
-          "core_mechanism": "Scammers deploy AI-altered video clips of state leadership across social media to bypass institutional verification. The user is redirected to unverified third-party APKs or phishing pages instead of authentic '.gov.in' platforms.",
+          "headline_hook": "Nifty extends losses at $110 crude, but micro-caps bear the brunt: The hidden volatility test for retail fund investors",
+          "highlight_word": "Micro-cap drawdown",
+          "core_mechanism": "Institutional benchmark resilience often buffers frontline indices, whereas illiquid micro-caps experience steeper drawdowns during global crude shocks.",
           "scores": {
-            "curiosity_gap": 7.0,
-            "retail_actionability": 8.0,
-            "data_density": 7.0,
-            "friction_quotient": 7.0,
-            "total": 29.0
+            "curiosity_gap": 8.0,
+            "retail_actionability": 7.9,
+            "data_density": 8.1,
+            "friction_quotient": 8.0,
+            "total": 32.0
           },
-          "critic_critique": "Candidate C provides a solid sanity check regarding URL domains, but lacks the immediate personal financial friction seen in Candidate B."
+          "critic_critique": "Good friction and accurate reflection of source data, though slightly less direct on personal portfolio actionability compared to Candidate B."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "If receiving a 'free' welfare payout requires paying an upfront processing fee, your guaranteed return is exactly minus 100%.",
-    "core_illusion": "Viewers may assume video endorsements by national leadership confirm the legitimacy of announced welfare payouts or investment schemes.",
-    "hidden_reality": "Manipulated media and deepfakes can impersonate official authorities to direct retail participants toward unverified external links or fraudulent financial schemes.",
-    "citable_metric": "",
-    "all_metrics": [],
-    "actionable_rule": "Verify any government welfare initiative directly on official government portals (.gov.in or .nic.in) before submitting personal information or transferring funds.",
-    "breaking_event": "Reports caution the public against falling for deepfake videos featuring Prime Minister Narendra Modi that fraudulently promote welfare schemes designed to scam individuals.",
+    "hook_headline": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
+    "core_illusion": "Do domestic small and microcap stocks remain insulated from global commodity price spikes like rising crude oil?",
+    "hidden_reality": "Surging crude increases macro input costs and import bills, with selling pressure and volatility often hitting lower-liquidity small and microcap segments much harder than frontline indices.",
+    "citable_metric": "$110",
+    "all_metrics": [
+      "$110"
+    ],
+    "actionable_rule": "Review your portfolio allocation across market capitalizations and check company-level sensitivity to sustained energy and transport input costs.",
+    "breaking_event": "Indian benchmark indices Nifty and Sensex extended their losses as crude oil rose above $110, triggering sharp declines across small-cap and microcap segments.",
     "lead_magnet": {},
     "banned_phrases": [
       "guaranteed wealth",
@@ -115,148 +122,176 @@
     ]
   },
   "deck": {
-    "caption": "A video appearing to show Prime Minister Narendra Modi announcing cash payouts can easily fool anyone on social media. But manipulated deepfake videos are now actively being used to lure citizens into financial scams.\n\nHere is how to protect your hard-earned money:\n• How scammers use deepfakes to clone leadership voices and visuals\n• The golden rule: genuine welfare programs never demand upfront processing fees\n• The exact way to verify scheme announcements on official portals\n\nSave this guide to protect your family and share it to stop fraudulent forwards.\n\nWhen you encounter an urgent welfare scheme link on WhatsApp or social media, do you verify the website domain before clicking?\n\n#DeepfakeScam #CyberSafety #FinancialAwareness #WelfareSchemes #FactCheck",
+    "caption": "Crude oil has crossed $110 per barrel, sending Indian stock indices lower—with small and micro-cap stocks taking the deepest hits.\n\nHere is what this market swing means for everyday investors:\n• Why costlier transport and fuel directly compress small business earnings\n• How large companies absorb raw material spikes better than smaller peers\n• Practical portfolio allocation checks to perform during commodity shocks\n\nSave this guide to review during market pullbacks and share with a fellow investor.\n\nHas this crude spike made you review your small-cap allocation, or are you holding your SIPs unchanged?\n\n#StockMarketIndia #CrudeOil #Nifty #SmallCap #IndianEconomy",
     "slides": [
       {
+        "slide_number": 1,
         "role": "hook",
-        "title": "PM Modi deepfakes are pushing <span class=\"highlight-box\">fake welfare</span> schemes",
-        "highlighted_text": "no longer means a scheme is real",
-        "card_text": "",
+        "headline": "Crude crosses $110: Why did small-cap stocks take the hardest hit?",
+        "highlight": "small-cap stocks take the hardest hit",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "PM Modi",
-          "deepfakes are",
-          "<span class='highlight-box'>fake welfare</span>",
-          "schemes"
-        ]
+          "Crude crosses",
+          "<span class='highlight-box'>$110: Why</span>",
+          "did small-cap"
+        ],
+        "card_text": ""
       },
       {
+        "slide_number": 2,
         "role": "value_1",
-        "title": "How The Scam Operates",
-        "flowchart_data": [
-          {
-            "step": "1",
-            "text": "Scammers publish an AI-generated video showing PM Modi promising cash aid"
-          },
-          {
-            "step": "2",
-            "text": "The post attaches an unverified external link promising immediate enrollment"
-          },
-          {
-            "step": "3",
-            "text": "The page asks for personal bank details or an upfront processing charge"
-          }
-        ],
+        "headline": "The Global Trigger",
+        "stat_data": {
+          "metric": "$110",
+          "label": "Crude oil price per barrel",
+          "context": "Oil surged past this level, driving broad losses across Nifty, Sensex, and smaller domestic stocks."
+        },
+        "highlight": "Crude oil price",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How The",
-          "<span class='highlight-box'>Scam Operates</span>"
+          "<span class='highlight-box'>The Global</span>",
+          "Trigger"
         ]
       },
       {
+        "slide_number": 3,
         "role": "value_2",
-        "title": "How Voice Cloning Works",
-        "highlighted_text": "Deepfakes clone voices and lip movements",
-        "card_text": "Deepfakes clone voices and lip movements using computer software to make someone appear to say words they never spoke. Just because a video looks authentic on a phone screen does not mean the announcement is genuine.",
+        "headline": "How Costlier Oil Hurts Local Firms",
+        "flowchart_data": [
+          {
+            "step": 1,
+            "text": "Global crude oil price crosses $110"
+          },
+          {
+            "step": 2,
+            "text": "Diesel, power, and transport costs rise across India"
+          },
+          {
+            "step": 3,
+            "text": "Small businesses struggle to pass higher costs to consumers"
+          },
+          {
+            "step": 4,
+            "text": "Profit margins shrink, leading investors to sell down shares"
+          }
+        ],
+        "highlight": "Profit margins shrink",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How Voice",
-          "<span class='highlight-box'>Cloning Works</span>"
+          "How Costlier",
+          "<span class='highlight-box'>Oil Hurts</span>",
+          "Local Firms"
         ]
       },
       {
+        "slide_number": 4,
         "role": "value_3",
-        "title": "Official Portals Versus Phishing",
+        "headline": "Large Giants vs Smaller Companies",
         "comparison_data": {
-          "myth": "A video endorsement proves you must pay a nominal fee to unlock your government payout.",
-          "reality": "Genuine government welfare initiatives never demand that citizens pay money upfront to receive direct benefits."
+          "left_column": {
+            "title": "Frontline Stocks (Sensex & Nifty)",
+            "points": [
+              "Larger cash cushions to absorb sudden expenses",
+              "Better bargaining power with transport and suppliers",
+              "Losses extended, but decline was relatively cushioned"
+            ]
+          },
+          "right_column": {
+            "title": "Small & Micro-Cap Stocks",
+            "points": [
+              "Tighter operational budgets and thin margins",
+              "Lower trading volumes mean selling pushes prices down fast",
+              "Fell sharply as risk-averse investors stepped away"
+            ]
+          },
+          "myth": "",
+          "reality": ""
         },
+        "highlight": "Large Giants vs Smaller Companies",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Official Portals",
-          "<span class='highlight-box'>Versus Phishing</span>"
+          "Large Giants",
+          "<span class='highlight-box'>vs Smaller</span>",
+          "Companies"
         ]
       },
       {
+        "slide_number": 5,
         "role": "value_4",
-        "title": "Red Flags Before Clicking",
-        "checklist_data": [
-          {
-            "text": "Portal domain ends strictly in .gov.in or .nic.in",
-            "status": "pass"
-          },
-          {
-            "text": "Page requires an upfront payment or processing fee",
-            "status": "fail"
-          },
-          {
-            "text": "Scheme is only promoted through forwarded social media links",
-            "status": "fail"
-          }
-        ],
+        "headline": "The Thin Market Liquidity Effect",
+        "card_text": "In micro-cap stocks, fewer buyers exist on regular days. When high oil prices create fear, even modest selling orders cause outsized drops in market price compared to giant companies.",
+        "highlight": "outsized drops in market price",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Red Flags",
-          "<span class='highlight-box'>Before Clicking</span>"
+          "The Thin",
+          "<span class='highlight-box'>Market Liquidity</span>",
+          "Effect"
         ]
       },
       {
+        "slide_number": 6,
         "role": "value_5",
-        "title": "Why Visual Glitches Vanish",
-        "highlighted_text": "cross-check the scheme name directly",
-        "card_text": "As video alteration tools improve, visual glitches become harder to detect with the naked eye. Instead of trusting video clarity, cross-check the scheme name directly on official ministry portals.",
+        "headline": "Portfolio Reality Check",
+        "checklist_data": [
+          {
+            "item": "Check what percentage of your portfolio sits in small and micro-caps",
+            "status": "Check",
+            "text": ""
+          },
+          {
+            "item": "Identify if holdings depend heavily on high freight or petroleum inputs",
+            "status": "Check",
+            "text": ""
+          },
+          {
+            "item": "Avoid stopping diversified monthly investments solely due to daily headlines",
+            "status": "Keep",
+            "text": ""
+          }
+        ],
+        "highlight": "Portfolio Reality Check",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Why Visual",
-          "<span class='highlight-box'>Glitches Vanish</span>"
+          "<span class='highlight-box'>Portfolio Reality</span>",
+          "Check"
         ]
       },
       {
+        "slide_number": 7,
         "role": "value_6",
-        "title": "Reporting Fraudulent Welfare Clips",
-        "flowchart_data": [
-          {
-            "step": "1",
-            "text": "Do not submit your phone number, Aadhaar, or bank details"
-          },
-          {
-            "step": "2",
-            "text": "Report the suspicious web address to the cybercrime authorities"
-          },
-          {
-            "step": "3",
-            "text": "Alert village and family groups before the forward spreads further"
-          }
-        ],
+        "headline": "What Stays Uncertain",
+        "card_text": "Nobody knows whether crude will remain above $110 or cool down quickly. Making hasty exits based on temporary commodity spikes often locks in losses before markets stabilize.",
+        "highlight": "locks in losses",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Reporting Fraudulent",
-          "<span class='highlight-box'>Welfare Clips</span>"
+          "<span class='highlight-box'>What Stays</span>",
+          "Uncertain"
         ]
       },
       {
+        "slide_number": 8,
         "role": "bookmark_save",
-        "title": "Real government aid never charges a fee",
-        "highlighted_text": "never charges a fee",
-        "card_text": "",
-        "cta_detail": "Save this slide for quick reference and share it with elders and first-time smartphone users in your family.",
+        "headline": "Balance Your Allocation Before Shocks Hit",
+        "cta_detail": "Keep high-risk small caps within a planned limit so oil spikes do not derail your core savings. Save this breakdown and share it with someone investing in small-cap funds.",
+        "highlight": "Balance Your Allocation",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Real government",
-          "<span class='highlight-box'>aid never</span>",
-          "charges a fee"
-        ]
+          "Check this",
+          "<span class='highlight-box'>before your</span>",
+          "next money decision"
+        ],
+        "card_text": ""
       }
     ],
-    "fact_check_status": "verified_after_repair",
+    "fact_check_status": "verified_pass",
     "audio_recommendation": {
       "title": "Time (Institutional Minimalist Mix)",
       "artist": "Hans Zimmer",
@@ -274,73 +309,73 @@
     "reels_boost_tier": "Top Tier",
     "search_query": "Hans Zimmer Time Inception"
   },
-  "run_id": "20261021_034437",
+  "run_id": "20261021_140452",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "If receiving a 'free' welfare payout requires paying an upfront processing fee, your guaranteed return is exactly minus 100%.",
-      "highlight_word": "minus 100%",
-      "core_mechanism": "Legitimate central welfare schemes credit money directly via DBT (Direct Benefit Transfer) without requiring upfront registration fees. Deepfake scam funnels invert this math: they extract an upfront 'processing fee' or card payment to unlock fictitious subsidies.",
+      "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
+      "highlight_word": "$110 crude shock",
+      "core_mechanism": "Oil exceeding $110 per barrel creates an immediate raw material and transportation friction, hitting micro-cap balance sheets far harder than large benchmarks and impacting retail monthly SIP values.",
       "scores": {
-        "curiosity_gap": 8.5,
-        "retail_actionability": 9.0,
-        "data_density": 8.5,
-        "friction_quotient": 9.5,
-        "total": 35.5
+        "curiosity_gap": 8.8,
+        "retail_actionability": 8.9,
+        "data_density": 9.2,
+        "friction_quotient": 9.1,
+        "total": 36.0
       },
-      "critic_critique": "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the deepfake threat in simple cash-flow reality: real government payouts never require citizens to pay an upfront fee to claim subsidies."
+      "critic_critique": "Strictly adheres to the provided data points ($110 crude, Nifty/Sensex losses, small/micro-cap plunge) while tying the macro impact directly to retail equity SIP allocations."
     },
-    "critic_score": 8.9,
+    "critic_score": 9.0,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B wins by enforcing the core financial friction: paying cash upfront to unlock hypothetical grants guarantees a 100% loss. This directly addresses the mechanics of deepfake welfare scams while strictly avoiding unsupported numbers or invented personal narratives.",
-    "final_editorial_directive": "Slide 1 must highlight the rule of DBT schemes: any video or link demanding an upfront registration fee, OTP, or debit card detail to disburse government funds is an immediate scam. Instruct users to verify all schemes exclusively on official .gov.in domains.",
+    "selection_rationale": "Candidate B aligns with the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors cleanly to the exact factual metric ($110 crude) and directly connects the macro shock and small/micro-cap drop to a real retail decision (evaluating equity SIP risk/exposure) without inventing facts or anecdotes.",
+    "final_editorial_directive": "Slide 1 must prominently display the '$110 crude' figure and focus on the widening divergence between frontline indices and small/micro-caps. Explain plainly how crude input shocks squeeze smaller firms' profit margins and impact retail fund balances, prompting a disciplined portfolio allocation review rather than panic selling.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Seeing a Prime Minister's video announcing a direct grant does not mean your bank account is about to be credited.",
-        "highlight_word": "direct grant",
-        "core_mechanism": "Fraudulent deepfake videos simulate high-office endorsements to trick users into trusting fake welfare links. Clicking malicious registration portals typically leads to phishing traps that compromise retail bank accounts rather than delivering official government aid.",
+        "headline_hook": "Crude crosses $110 while your mid and small-cap SIPs bleed: Why broad indices mask the real portfolio damage",
+        "highlight_word": "Crude tops $110",
+        "core_mechanism": "Headline Nifty and Sensex dips hide disproportionate drawdowns in small-cap and micro-cap holdings when crude surges past $110, straining input costs and small-firm margins.",
         "scores": {
-          "curiosity_gap": 7.5,
-          "retail_actionability": 7.0,
-          "data_density": 6.0,
-          "friction_quotient": 7.5,
-          "total": 28.0
+          "curiosity_gap": 7.8,
+          "retail_actionability": 7.5,
+          "data_density": 8.0,
+          "friction_quotient": 7.9,
+          "total": 31.2
         },
-        "critic_critique": "Candidate A exposes the cognitive dissonance between video authority and reality. However, it lacks specific mechanical friction regarding how household money is actually extracted by the scam."
+        "critic_critique": "Solid grounding in the source's market levels, but broad index versus mid/small cap divergence is framed somewhat generically."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "If receiving a 'free' welfare payout requires paying an upfront processing fee, your guaranteed return is exactly minus 100%.",
-        "highlight_word": "minus 100%",
-        "core_mechanism": "Legitimate central welfare schemes credit money directly via DBT (Direct Benefit Transfer) without requiring upfront registration fees. Deepfake scam funnels invert this math: they extract an upfront 'processing fee' or card payment to unlock fictitious subsidies.",
+        "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
+        "highlight_word": "$110 crude shock",
+        "core_mechanism": "Oil exceeding $110 per barrel creates an immediate raw material and transportation friction, hitting micro-cap balance sheets far harder than large benchmarks and impacting retail monthly SIP values.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "retail_actionability": 9.0,
-          "data_density": 8.5,
-          "friction_quotient": 9.5,
-          "total": 35.5
+          "curiosity_gap": 8.8,
+          "retail_actionability": 8.9,
+          "data_density": 9.2,
+          "friction_quotient": 9.1,
+          "total": 36.0
         },
-        "critic_critique": "Candidate B strictly maximizes the MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the deepfake threat in simple cash-flow reality: real government payouts never require citizens to pay an upfront fee to claim subsidies."
+        "critic_critique": "Strictly adheres to the provided data points ($110 crude, Nifty/Sensex losses, small/micro-cap plunge) while tying the macro impact directly to retail equity SIP allocations."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Official government welfare runs strictly on official portals, not instant viral download links.",
-        "highlight_word": "official portals",
-        "core_mechanism": "Scammers deploy AI-altered video clips of state leadership across social media to bypass institutional verification. The user is redirected to unverified third-party APKs or phishing pages instead of authentic '.gov.in' platforms.",
+        "headline_hook": "Nifty extends losses at $110 crude, but micro-caps bear the brunt: The hidden volatility test for retail fund investors",
+        "highlight_word": "Micro-cap drawdown",
+        "core_mechanism": "Institutional benchmark resilience often buffers frontline indices, whereas illiquid micro-caps experience steeper drawdowns during global crude shocks.",
         "scores": {
-          "curiosity_gap": 7.0,
-          "retail_actionability": 8.0,
-          "data_density": 7.0,
-          "friction_quotient": 7.0,
-          "total": 29.0
+          "curiosity_gap": 8.0,
+          "retail_actionability": 7.9,
+          "data_density": 8.1,
+          "friction_quotient": 8.0,
+          "total": 32.0
         },
-        "critic_critique": "Candidate C provides a solid sanity check regarding URL domains, but lacks the immediate personal financial friction seen in Candidate B."
+        "critic_critique": "Good friction and accurate reflection of source data, though slightly less direct on personal portfolio actionability compared to Candidate B."
       }
     ]
   },
@@ -353,14 +388,14 @@
       "whitespace_score": 9.0,
       "overall_score": 9.3,
       "passed": true,
-      "critique_summary": "The typography is bold, punchy, and highly effective for mobile viewing, successfully leveraging a high-contrast color scheme to drive the message instantly. The hierarchy is clear, though the negative space could be optimized slightly to avoid the feeling of a heavy top-center bias.",
+      "critique_summary": "The slide features excellent typography hierarchy and instant mobile legibility using a high-contrast green highlight box. The layout is clean with balanced whitespace, perfectly matching a premium financial media style.",
       "suggested_css_adjustments": {
-        "font_size_modifier_pct": -5,
-        "line_height": "1.2",
-        "notes": "Reduce the font size slightly to provide more breathing room at the edges, preventing the text from feeling too 'crowded' on smaller smartphone displays."
+        "font_size_modifier_pct": 0,
+        "line_height": "1.1",
+        "notes": "Typography, padding, and alignment are already optimized for mobile feed viewing."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-21T03:45:33.703723+00:00"
+  "exported_at": "2026-10-21T14:05:46.725225+00:00"
 }

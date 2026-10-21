@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "total_cycles_recorded": 46,
+  "total_cycles_recorded": 47,
   "archetype_weights": {
     "CONTRARIAN_TRAP": 1.5,
     "MATHEMATICAL_FRICTION": 2.5,
@@ -27,7 +27,6 @@
     }
   ],
   "learned_rules": [
-    "Candidate B wins by prioritizing the mathematical tension between nominal savings and real purchasing power. It avoids f",
     "Fallback contrarian anchor.",
     "Candidate B is the strongest because it highlights the friction between the user's perception of their own savings (pens",
     "Candidate B is the definitive winner because it prioritizes the cognitive dissonance between the perception of governmen",
@@ -38,7 +37,8 @@
     "Candidate B is the only variant anchored directly to verifiable source text ('7 signs') while translating the threat int",
     "Candidate B strictly maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors the entire hook",
     "Candidate B effectively bridges the gap between a news headline and a personal financial safety rule. By focusing on the",
-    "Candidate B maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It strictly integrates source numbe"
+    "Candidate B maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It strictly integrates source numbe",
+    "Candidate B aligns with the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors cleanly to the exact f"
   ],
   "cycle_history": [
     {
@@ -454,6 +454,15 @@
       "critic_score": 8.9,
       "visual_score": 9.3,
       "key_learning": "Candidate B wins by enforcing the core financial friction: paying cash upfront to unlock hypothetical grants guarantees "
+    },
+    {
+      "cycle": 47,
+      "timestamp": "2026-10-21T14:05:46.724048+00:00",
+      "topic": "Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall shar",
+      "winning_archetype": "MATHEMATICAL_FRICTION",
+      "critic_score": 9.0,
+      "visual_score": 9.3,
+      "key_learning": "Candidate B aligns with the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors cleanly to the exact f"
     }
   ]
 }
