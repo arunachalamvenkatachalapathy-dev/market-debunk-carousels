@@ -1,54 +1,19 @@
 {
-  "timestamp": "2026-10-21T03:40:28.764329+00:00",
-  "phase": "EDITORIAL_FACT_CHECK",
-  "severity": "RECOVERABLE",
-  "error_code": "ERR_FACT_CHECK_MISMATCH",
-  "root_cause_analysis": "The failing deck introduced an unsupported metric ('100%') in slide 3 ('it is 100% a fraud') that was not verified by the source evidence context. The source context contains valid metrics ['10', '2026', '27']. The unsupported percentage was removed to align deck metrics with source evidence.",
+  "timestamp": "2026-10-22T08:45:25.989995+00:00",
+  "phase": "PIPELINE_ORCHESTRATION",
+  "severity": "CRITICAL",
+  "error_code": "ERR_PIPELINE_HALT",
+  "root_cause_analysis": "The final deck fact-verification stage failed due to an ungrounded or truncated numeric metric. The generated deck includes the metric '$1', which does not match any of the extracted source metrics (['$1.6billion', '10', '2026', '27', '43']). This hallucination or parsing truncation triggered an intentional ValueError in engine.py at line 151 during the strict numeric validation check.",
   "reproducibility": "DETERMINISTIC",
   "automated_remediation": {
-    "action": "AUTO_REPAIR_SUCCESS",
-    "repaired_payload": {
-      "caption": "A video of the Prime Minister promising money sounds like a dream, but it is becoming a digital nightmare. Scammers are using 'deepfakes'—AI-generated videos that look and sound exactly like real people—to trick you into giving away your hard-earned savings.\n\nIn this post, we break down:\n• How to spot a fake video.\n• Why 'processing fees' are a major red flag.\n• The only place to verify government schemes.\n\nSave this post to protect your family from financial fraud.\n\n#CyberSecurity #DigitalSafety #FinancialLiteracy #DeepfakeAwareness #StayAlert",
-      "slides": [
-        {
-          "role": "hook",
-          "title": "If a 'free' government payout asks for an upfront fee, you are being scammed.",
-          "body": "Recent reports warn that scammers are using AI-generated deepfake videos of Prime Minister Narendra Modi to promote fake welfare schemes. If it looks too good to be true, it is."
-        },
-        {
-          "role": "value_1",
-          "title": "What is a Deepfake?",
-          "body": "card_text",
-          "content": "A deepfake is a video where Artificial Intelligence (AI) is used to make a person say things they never said. Scammers use these to make it look like the Prime Minister is personally announcing a new cash benefit for you."
-        },
-        {
-          "role": "value_2",
-          "title": "The 'Processing Fee' Trap",
-          "body": "comparison_data",
-          "content": "Reality: Real government welfare schemes never ask you to pay money to receive money. If a video asks for an 'advance processing fee' or 'registration charge' to unlock a benefit, it is a fraud."
-        },
-        {
-          "role": "value_3",
-          "title": "How Scammers Lure You",
-          "body": "flowchart_data",
-          "content": "1. You see a video of a leader on social media. 2. The video promises quick cash or a new scheme. 3. You are directed to an external link. 4. You are asked to pay a fee or share bank details. 5. Your money is stolen."
-        },
-        {
-          "role": "value_4",
-          "title": "Checklist: Is it Official?",
-          "body": "checklist_data",
-          "content": "Official Government Site? (Ends in .gov.in or .nic.in) [PASS/FAIL]. Does it ask for money upfront? [PASS/FAIL]. Is the video from a verified social media handle? [PASS/FAIL]."
-        },
-        {
-          "role": "bookmark_save",
-          "title": "Protect Your Savings",
-          "cta_detail": "Government schemes are announced through official gazettes and verified news channels, not through viral social media clips. Save this post to remind your family to verify before they click."
-        }
-      ]
-    }
+    "action": "SAFE_SHUTDOWN",
+    "repaired_payload": null
   },
-  "operator_action_required": false,
+  "operator_action_required": true,
   "actionable_instructions": [
-    "Automated repair applied to match source evidence numbers."
+    "Inspect the LLM prompt and regex extraction patterns responsible for parsing financial metrics to prevent metric truncation (e.g., parsing '$1.6billion' as '$1').",
+    "Review generated carousel deck slides to locate where '$1' was injected into the content.",
+    "Update source metric normalization or adjust strictness on strict-match numeric assertions in engine.py.",
+    "Re-run the pipeline with updated extraction logic or a manual query override."
   ]
 }
