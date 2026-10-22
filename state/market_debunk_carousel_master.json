@@ -1,118 +1,128 @@
 {
   "topic": {
-    "title": "Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife",
+    "title": "EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to 1% a month",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "topic_category": "MARKET_TRAP",
-    "viral_demand_score": 92.1,
-    "source": "Moneylife",
-    "source_snippet": "Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report&nbsp;&nbsp;Moneylife",
-    "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZHZDMVc3Wk9DakZXdm10QWk3NlNUWDd2TUVaMGtxcXNjUWpzdjQ0QjJPSzJuOGY5RGRFT3RfajZUdWEyX0hfY0daZFlVcTN4OVp4ejJmamhrMVJ6dHM4MVkzRXJaMzE4VFpWVXJVTzlScHNFaWJEYmNhT2dIck5FWHhvMHZQUWN6VGRDdmxONTZuVXF0bk1ESHMxb0UxVGM1VWl3YzhnVzdhUklQUTFKVnowNzNjenBRaTgzb3BzNEFNZ29rRzJIZVFuN0RaT05zOTFtdkY0aWFJVTdlelNidG9Maw?oc=5",
-    "raw_text": "Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife. Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report&nbsp;&nbsp;Moneylife",
+    "topic_category": "WEALTH_LEAK",
+    "viral_demand_score": 92.0,
+    "source": "Economic Times Wealth & Personal Finance",
+    "source_snippet": "Under the EPFO's VISHWAS, 2026 scheme, employers can settle delayed PF contribution penalties at reduced rates. This scheme allows penalties to be lowered from 37% per year to 1% per month based on the delay.",
+    "source_url": "https://economictimes.indiatimes.com/wealth/save/epfo-vishwas-2026-scheme-how-penalty-on-employer-for-late-pf-contributions-can-be-cut-from-37-a-year-to-1-a-month/articleshow/135118163.cms",
+    "raw_text": "EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to 1% a month. Under the EPFO's VISHWAS, 2026 scheme, employers can settle delayed PF contribution penalties at reduced rates. This scheme allows penalties to be lowered from 37% per year to 1% per month based on the delay.",
     "numbers_detected": [
-      "$110",
-      "$110"
+      "2026",
+      "37%",
+      "1%",
+      "2026",
+      "37%",
+      "1%"
     ],
-    "published_at": "2026-10-21T12:30:23+00:00",
-    "age_hours": 1.6,
-    "retrieved_at": "2026-10-21T14:03:50.212528+00:00",
-    "date": "21 Oct 2026",
+    "published_at": "2026-10-22T17:38:13+05:30",
+    "age_hours": 2.1,
+    "retrieved_at": "2026-10-22T14:15:20.956361+00:00",
+    "date": "22 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Moneylife | Published: 2026-10-21T12:30:23+00:00 (1.6h ago) | Headline: Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife | Context: Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report - Moneylife. Nifty, Sensex Extend Losses as Crude Tops $110, Small Cap and Microcap fall sharply – Wednesday Closing Report&nbsp;&nbsp;Moneylife",
+    "evidence_snapshot": "Source: Economic Times Wealth & Personal Finance | Published: 2026-10-22T17:38:13+05:30 (2.1h ago) | Headline: EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to 1% a month | Context: EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to 1% a month. Under the EPFO's VISHWAS, 2026 scheme, employers can settle delayed PF contribution penalties at reduced rates. This scheme allows penalties to be lowered from 37% per year to 1% per month based on the delay.",
     "news_analysis": {
-      "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
-      "breaking_event_summary": "Indian benchmark indices Nifty and Sensex extended their losses as crude oil rose above $110, triggering sharp declines across small-cap and microcap segments.",
-      "retail_illusion": "Do domestic small and microcap stocks remain insulated from global commodity price spikes like rising crude oil?",
-      "institutional_reality": "Surging crude increases macro input costs and import bills, with selling pressure and volatility often hitting lower-liquidity small and microcap segments much harder than frontline indices.",
+      "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
+      "breaking_event_summary": "Under the EPFO's VISHWAS 2026 scheme, employers can settle penalties for delayed provident fund contributions at reduced rates. The penalty is lowered from 37% per year to 1% per month based on the duration of delay.",
+      "retail_illusion": "Employees might wonder whether this penalty cut for employers compromises their own PF dues or credited interest.",
+      "institutional_reality": "The reduction applies specifically to the damages and penalties charged by EPFO to defaulting employers, not the mandatory contribution amounts owed to employees.",
       "citable_metrics": [
-        "$110"
+        "37% a year",
+        "1% a month",
+        "37% per year",
+        "1% per month"
       ],
-      "debunk_category": "VALUATION_MYTH",
-      "actionable_retail_rule": "Review your portfolio allocation across market capitalizations and check company-level sensitivity to sustained energy and transport input costs.",
+      "debunk_category": "REGULATORY_SHIFT",
+      "actionable_retail_rule": "Review your EPFO digital passbook periodically to confirm that your employer is depositing PF contributions every month without unaddressed backlogs.",
       "lead_magnet": {},
       "carousel_outline": [],
-      "highlight_word": "$110 crude shock",
-      "editorial_directive": "Slide 1 must prominently display the '$110 crude' figure and focus on the widening divergence between frontline indices and small/micro-caps. Explain plainly how crude input shocks squeeze smaller firms' profit margins and impact retail fund balances, prompting a disciplined portfolio allocation review rather than panic selling."
+      "highlight_word": "37% yearly",
+      "editorial_directive": "Lead directly with the mathematical shift (37% per year down to 1% per month) in the first 2 seconds. Follow up on Slide 2 with explicit steps for salaried employees to audit their EPF passbook online via the Member Portal to confirm delayed employer contributions and interest credits."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
-        "highlight_word": "$110 crude shock",
-        "core_mechanism": "Oil exceeding $110 per barrel creates an immediate raw material and transportation friction, hitting micro-cap balance sheets far harder than large benchmarks and impacting retail monthly SIP values.",
+        "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
+        "highlight_word": "37% yearly",
+        "core_mechanism": "Under EPFO's VISHWAS 2026 scheme, late payment damages that used to compound up to 37% per year are now capped at 1% per month. Salaried individuals should cross-check their monthly EPF passbook to ensure delayed deposits are credited before employer settlements.",
         "scores": {
-          "curiosity_gap": 8.8,
-          "retail_actionability": 8.9,
-          "data_density": 9.2,
-          "friction_quotient": 9.1,
-          "total": 36.0
+          "curiosity_gap": 9.0,
+          "evidence_integrity": 10.0,
+          "retail_actionability": 9.0,
+          "friction_quotient": 9.5,
+          "total": 37.5
         },
-        "critic_critique": "Strictly adheres to the provided data points ($110 crude, Nifty/Sensex losses, small/micro-cap plunge) while tying the macro impact directly to retail equity SIP allocations."
+        "critic_critique": "Maximizes the prioritized MATHEMATICAL_FRICTION archetype. Strictly anchors to the exact 37% per year vs 1% per month figures in the source while linking the change to a tangible employee passbook checking action."
       },
-      "critic_score": 9.0,
+      "critic_score": 9.4,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B aligns with the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors cleanly to the exact factual metric ($110 crude) and directly connects the macro shock and small/micro-cap drop to a real retail decision (evaluating equity SIP risk/exposure) without inventing facts or anecdotes.",
-      "final_editorial_directive": "Slide 1 must prominently display the '$110 crude' figure and focus on the widening divergence between frontline indices and small/micro-caps. Explain plainly how crude input shocks squeeze smaller firms' profit margins and impact retail fund balances, prompting a disciplined portfolio allocation review rather than panic selling.",
+      "selection_rationale": "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight 2.5). It integrates the exact source numbers (37% per year vs 1% per month) without inventing anecdotal fluff or unverified figures, creating an immediate numerical curiosity gap while maintaining flawless evidence integrity.",
+      "final_editorial_directive": "Lead directly with the mathematical shift (37% per year down to 1% per month) in the first 2 seconds. Follow up on Slide 2 with explicit steps for salaried employees to audit their EPF passbook online via the Member Portal to confirm delayed employer contributions and interest credits.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Crude crosses $110 while your mid and small-cap SIPs bleed: Why broad indices mask the real portfolio damage",
-          "highlight_word": "Crude tops $110",
-          "core_mechanism": "Headline Nifty and Sensex dips hide disproportionate drawdowns in small-cap and micro-cap holdings when crude surges past $110, straining input costs and small-firm margins.",
+          "headline_hook": "Think late PF penalties force 37% annual interest? EPFO Vishwas 2026 rewrites the rules.",
+          "highlight_word": "37% annual",
+          "core_mechanism": "Employers previously faced up to 37% annual penalty rates on delayed employee provident fund deposits. The newly announced EPFO VISHWAS 2026 scheme permits companies to settle historical default damages at a slashed rate of 1% per month depending on the delay duration.",
           "scores": {
-            "curiosity_gap": 7.8,
+            "curiosity_gap": 8.0,
+            "evidence_integrity": 10.0,
             "retail_actionability": 7.5,
-            "data_density": 8.0,
-            "friction_quotient": 7.9,
-            "total": 31.2
+            "friction_quotient": 8.0,
+            "total": 33.5
           },
-          "critic_critique": "Solid grounding in the source's market levels, but broad index versus mid/small cap divergence is framed somewhat generically."
+          "critic_critique": "Solid structural hook that addresses common employer assumptions, but focuses heavily on corporate penalty relief rather than the direct personal finance verification angle for salaried workers."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
-          "highlight_word": "$110 crude shock",
-          "core_mechanism": "Oil exceeding $110 per barrel creates an immediate raw material and transportation friction, hitting micro-cap balance sheets far harder than large benchmarks and impacting retail monthly SIP values.",
+          "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
+          "highlight_word": "37% yearly",
+          "core_mechanism": "Under EPFO's VISHWAS 2026 scheme, late payment damages that used to compound up to 37% per year are now capped at 1% per month. Salaried individuals should cross-check their monthly EPF passbook to ensure delayed deposits are credited before employer settlements.",
           "scores": {
-            "curiosity_gap": 8.8,
-            "retail_actionability": 8.9,
-            "data_density": 9.2,
-            "friction_quotient": 9.1,
-            "total": 36.0
+            "curiosity_gap": 9.0,
+            "evidence_integrity": 10.0,
+            "retail_actionability": 9.0,
+            "friction_quotient": 9.5,
+            "total": 37.5
           },
-          "critic_critique": "Strictly adheres to the provided data points ($110 crude, Nifty/Sensex losses, small/micro-cap plunge) while tying the macro impact directly to retail equity SIP allocations."
+          "critic_critique": "Maximizes the prioritized MATHEMATICAL_FRICTION archetype. Strictly anchors to the exact 37% per year vs 1% per month figures in the source while linking the change to a tangible employee passbook checking action."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "Nifty extends losses at $110 crude, but micro-caps bear the brunt: The hidden volatility test for retail fund investors",
-          "highlight_word": "Micro-cap drawdown",
-          "core_mechanism": "Institutional benchmark resilience often buffers frontline indices, whereas illiquid micro-caps experience steeper drawdowns during global crude shocks.",
+          "headline_hook": "While employers get PF penalty relief from 37% to 1%, check your passbook updates.",
+          "highlight_word": "PF penalty",
+          "core_mechanism": "The VISHWAS 2026 scheme offers employers a pathway to resolve delayed PF contribution fines at 1% per month instead of 37% yearly. Salaried employees must audit their monthly EPF passbook to verify actual deposit timing against salary slip deductions.",
           "scores": {
-            "curiosity_gap": 8.0,
-            "retail_actionability": 7.9,
-            "data_density": 8.1,
-            "friction_quotient": 8.0,
-            "total": 32.0
+            "curiosity_gap": 8.5,
+            "evidence_integrity": 10.0,
+            "retail_actionability": 8.5,
+            "friction_quotient": 8.5,
+            "total": 35.5
           },
-          "critic_critique": "Good friction and accurate reflection of source data, though slightly less direct on personal portfolio actionability compared to Candidate B."
+          "critic_critique": "Good contrast between regulatory relief for firms and employee passbook auditing. Slightly less punchy on the mathematical delta compared to Candidate B."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
-    "core_illusion": "Do domestic small and microcap stocks remain insulated from global commodity price spikes like rising crude oil?",
-    "hidden_reality": "Surging crude increases macro input costs and import bills, with selling pressure and volatility often hitting lower-liquidity small and microcap segments much harder than frontline indices.",
-    "citable_metric": "$110",
+    "hook_headline": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
+    "core_illusion": "Employees might wonder whether this penalty cut for employers compromises their own PF dues or credited interest.",
+    "hidden_reality": "The reduction applies specifically to the damages and penalties charged by EPFO to defaulting employers, not the mandatory contribution amounts owed to employees.",
+    "citable_metric": "37% a year",
     "all_metrics": [
-      "$110"
+      "37% a year",
+      "1% a month",
+      "37% per year",
+      "1% per month"
     ],
-    "actionable_rule": "Review your portfolio allocation across market capitalizations and check company-level sensitivity to sustained energy and transport input costs.",
-    "breaking_event": "Indian benchmark indices Nifty and Sensex extended their losses as crude oil rose above $110, triggering sharp declines across small-cap and microcap segments.",
+    "actionable_rule": "Review your EPFO digital passbook periodically to confirm that your employer is depositing PF contributions every month without unaddressed backlogs.",
+    "breaking_event": "Under the EPFO's VISHWAS 2026 scheme, employers can settle penalties for delayed provident fund contributions at reduced rates. The penalty is lowered from 37% per year to 1% per month based on the duration of delay.",
     "lead_magnet": {},
     "banned_phrases": [
       "guaranteed wealth",
@@ -122,260 +132,232 @@
     ]
   },
   "deck": {
-    "caption": "Crude oil has crossed $110 per barrel, sending Indian stock indices lower—with small and micro-cap stocks taking the deepest hits.\n\nHere is what this market swing means for everyday investors:\n• Why costlier transport and fuel directly compress small business earnings\n• How large companies absorb raw material spikes better than smaller peers\n• Practical portfolio allocation checks to perform during commodity shocks\n\nSave this guide to review during market pullbacks and share with a fellow investor.\n\nHas this crude spike made you review your small-cap allocation, or are you holding your SIPs unchanged?\n\n#StockMarketIndia #CrudeOil #Nifty #SmallCap #IndianEconomy",
+    "caption": "Did your employer miss depositing your PF money on time? The new EPFO Vishwas 2026 scheme lets companies clear past delayed penalties at a much lower rate instead of the old heavy burden.\n\n• Understand how late payment penalties are being reduced from 37% a year to 1% a month\n• Learn what this relief scheme covers and what it means for your workplace savings\n• Discover a simple way to check your own digital passbook for any missing company deposits\n\nSave this post if you want to keep track of your employee benefits, and share it with someone who has a salaried job.\n\nDo you check your PF passbook every month or only when changing jobs?\n\n#EPFO #ProvidentFund #PersonalFinance #EmployeeRights #MarketDebunk",
     "slides": [
       {
-        "slide_number": 1,
         "role": "hook",
-        "headline": "Crude crosses $110: Why did small-cap stocks take the hardest hit?",
-        "highlight": "small-cap stocks take the hardest hit",
+        "title": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Crude crosses",
-          "<span class='highlight-box'>$110: Why</span>",
-          "did small-cap"
+          "EPFO slashes",
+          "<span class='highlight-box'>late PF</span>",
+          "contribution penalties"
         ],
         "card_text": ""
       },
       {
-        "slide_number": 2,
         "role": "value_1",
-        "headline": "The Global Trigger",
-        "stat_data": {
-          "metric": "$110",
-          "label": "Crude oil price per barrel",
-          "context": "Oil surged past this level, driving broad losses across Nifty, Sensex, and smaller domestic stocks."
+        "visual_body": {
+          "type": "stat_data",
+          "metric": "37%",
+          "label": "Old Yearly Penalty Rate",
+          "context": "Previous maximum penalty charged yearly to employers for delayed provident fund contributions."
         },
-        "highlight": "Crude oil price",
+        "title": "Heavy Penalties on Employers",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>The Global</span>",
-          "Trigger"
-        ]
+          "Heavy Penalties",
+          "<span class='highlight-box'>on Employers</span>"
+        ],
+        "card_text": "stat_data 37% Old Yearly Penalty Rate Previous maximum penalty charged yearly to employers for delayed provident fund contributions."
       },
       {
-        "slide_number": 3,
         "role": "value_2",
-        "headline": "How Costlier Oil Hurts Local Firms",
-        "flowchart_data": [
-          {
-            "step": 1,
-            "text": "Global crude oil price crosses $110"
-          },
-          {
-            "step": 2,
-            "text": "Diesel, power, and transport costs rise across India"
-          },
-          {
-            "step": 3,
-            "text": "Small businesses struggle to pass higher costs to consumers"
-          },
-          {
-            "step": 4,
-            "text": "Profit margins shrink, leading investors to sell down shares"
-          }
-        ],
-        "highlight": "Profit margins shrink",
+        "visual_body": {
+          "type": "stat_data",
+          "metric": "1%",
+          "label": "New Monthly Penalty Rate",
+          "context": "Under the VISHWAS 2026 scheme, penalties can now be settled at this reduced monthly rate based on the delay."
+        },
+        "title": "The Vishwas 2026 Relief",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "How Costlier",
-          "<span class='highlight-box'>Oil Hurts</span>",
-          "Local Firms"
-        ]
+          "<span class='highlight-box'>The Vishwas</span>",
+          "Relief"
+        ],
+        "card_text": "stat_data 1% New Monthly Penalty Rate Under the VISHWAS 2026 scheme, penalties can now be settled at this reduced monthly rate based on the delay."
       },
       {
-        "slide_number": 4,
         "role": "value_3",
-        "headline": "Large Giants vs Smaller Companies",
-        "comparison_data": {
-          "left_column": {
-            "title": "Frontline Stocks (Sensex & Nifty)",
-            "points": [
-              "Larger cash cushions to absorb sudden expenses",
-              "Better bargaining power with transport and suppliers",
-              "Losses extended, but decline was relatively cushioned"
-            ]
-          },
-          "right_column": {
-            "title": "Small & Micro-Cap Stocks",
-            "points": [
-              "Tighter operational budgets and thin margins",
-              "Lower trading volumes mean selling pushes prices down fast",
-              "Fell sharply as risk-averse investors stepped away"
-            ]
-          },
-          "myth": "",
-          "reality": ""
+        "visual_body": {
+          "type": "comparison_data",
+          "myth": "The scheme reduces the actual principal money your employer owes to your retirement account.",
+          "reality": "The reduction applies specifically to the damages and penalties charged by EPFO, not the mandatory contribution amounts owed."
         },
-        "highlight": "Large Giants vs Smaller Companies",
+        "title": "What Changes and What Doesn't",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Large Giants",
-          "<span class='highlight-box'>vs Smaller</span>",
-          "Companies"
-        ]
+          "What Changes",
+          "<span class='highlight-box'>and What</span>",
+          "Doesn't"
+        ],
+        "card_text": "comparison_data The scheme reduces the actual principal money your employer owes to your retirement account. The reduction applies specifically to the damages and penalties charged by EPFO, not the mandatory contribution amounts owed."
       },
       {
-        "slide_number": 5,
         "role": "value_4",
-        "headline": "The Thin Market Liquidity Effect",
-        "card_text": "In micro-cap stocks, fewer buyers exist on regular days. When high oil prices create fear, even modest selling orders cause outsized drops in market price compared to giant companies.",
-        "highlight": "outsized drops in market price",
+        "visual_body": {
+          "type": "card_text",
+          "body": "The Employees' Provident Fund Organisation introduced this window so defaulting businesses can clear long-pending dues without facing crippling financial collapse from accumulated penalties."
+        },
+        "title": "Why the Scheme Was Introduced",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "The Thin",
-          "<span class='highlight-box'>Market Liquidity</span>",
-          "Effect"
-        ]
+          "Why the",
+          "<span class='highlight-box'>Scheme Was</span>",
+          "Introduced"
+        ],
+        "card_text": "card_text The Employees' Provident Fund Organisation introduced this window so defaulting businesses can clear long-pending dues without facing crippling financial collapse from accumulated penalties."
       },
       {
-        "slide_number": 6,
         "role": "value_5",
-        "headline": "Portfolio Reality Check",
-        "checklist_data": [
-          {
-            "item": "Check what percentage of your portfolio sits in small and micro-caps",
-            "status": "Check",
-            "text": ""
-          },
-          {
-            "item": "Identify if holdings depend heavily on high freight or petroleum inputs",
-            "status": "Check",
-            "text": ""
-          },
-          {
-            "item": "Avoid stopping diversified monthly investments solely due to daily headlines",
-            "status": "Keep",
-            "text": ""
-          }
-        ],
-        "highlight": "Portfolio Reality Check",
+        "visual_body": {
+          "type": "flowchart_data",
+          "steps": [
+            "Employer applies to settle past delays under VISHWAS 2026",
+            "Authorities calculate reduced penalty at 1% per month",
+            "Company clears outstanding dues and settled penalties"
+          ]
+        },
+        "title": "How the Settlement Works",
         "slide_index": 6,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>Portfolio Reality</span>",
-          "Check"
-        ]
+          "How the",
+          "<span class='highlight-box'>Settlement Works</span>"
+        ],
+        "card_text": "flowchart_data Employer applies to settle past delays under VISHWAS 2026 Authorities calculate reduced penalty at 1% per month Company clears outstanding dues and settled penalties"
       },
       {
-        "slide_number": 7,
         "role": "value_6",
-        "headline": "What Stays Uncertain",
-        "card_text": "Nobody knows whether crude will remain above $110 or cool down quickly. Making hasty exits based on temporary commodity spikes often locks in losses before markets stabilize.",
-        "highlight": "locks in losses",
+        "visual_body": {
+          "type": "checklist_data",
+          "items": [
+            {
+              "text": "Log into your EPFO member portal regularly",
+              "status": "pass"
+            },
+            {
+              "text": "Download your digital passbook to verify monthly credits",
+              "status": "pass"
+            },
+            {
+              "text": "Check if your employer has left any unaddressed backlogs",
+              "status": "pass"
+            }
+          ]
+        },
+        "title": "Protecting Your Own Dues",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>What Stays</span>",
-          "Uncertain"
-        ]
+          "Protecting Your",
+          "<span class='highlight-box'>Own Dues</span>"
+        ],
+        "card_text": "checklist_data Log into your EPFO member portal regularly Download your digital passbook to verify monthly credits Check if your employer has left any unaddressed backlogs"
       },
       {
-        "slide_number": 8,
         "role": "bookmark_save",
-        "headline": "Balance Your Allocation Before Shocks Hit",
-        "cta_detail": "Keep high-risk small caps within a planned limit so oil spikes do not derail your core savings. Save this breakdown and share it with someone investing in small-cap funds.",
-        "highlight": "Balance Your Allocation",
+        "title": "Verify Your Passbook Today",
+        "cta_detail": "Save this post to remember how to check your PF statements, and share it with a colleague.",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Check this",
-          "<span class='highlight-box'>before your</span>",
-          "next money decision"
+          "Verify Your",
+          "<span class='highlight-box'>Passbook Today</span>"
         ],
         "card_text": ""
       }
     ],
-    "fact_check_status": "verified_pass",
+    "fact_check_status": "verified_after_repair",
     "audio_recommendation": {
-      "title": "Time (Institutional Minimalist Mix)",
-      "artist": "Hans Zimmer",
-      "bpm": 124,
-      "vibe": "Deep Mathematical Compounding",
-      "reels_boost_tier": "Top Tier",
-      "search_query": "Hans Zimmer Time Inception"
+      "title": "Cornfield Chase (Interstellar Piano/Synth)",
+      "artist": "Hans Zimmer / Dorian Marko",
+      "bpm": 100,
+      "vibe": "Cinematic Tension & Focus",
+      "reels_boost_tier": "High Velocity",
+      "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
     }
   },
   "audio": {
-    "title": "Time (Institutional Minimalist Mix)",
-    "artist": "Hans Zimmer",
-    "bpm": 124,
-    "vibe": "Deep Mathematical Compounding",
-    "reels_boost_tier": "Top Tier",
-    "search_query": "Hans Zimmer Time Inception"
+    "title": "Cornfield Chase (Interstellar Piano/Synth)",
+    "artist": "Hans Zimmer / Dorian Marko",
+    "bpm": 100,
+    "vibe": "Cinematic Tension & Focus",
+    "reels_boost_tier": "High Velocity",
+    "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
   },
-  "run_id": "20261021_140452",
+  "run_id": "20261022_141801",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
-      "highlight_word": "$110 crude shock",
-      "core_mechanism": "Oil exceeding $110 per barrel creates an immediate raw material and transportation friction, hitting micro-cap balance sheets far harder than large benchmarks and impacting retail monthly SIP values.",
+      "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
+      "highlight_word": "37% yearly",
+      "core_mechanism": "Under EPFO's VISHWAS 2026 scheme, late payment damages that used to compound up to 37% per year are now capped at 1% per month. Salaried individuals should cross-check their monthly EPF passbook to ensure delayed deposits are credited before employer settlements.",
       "scores": {
-        "curiosity_gap": 8.8,
-        "retail_actionability": 8.9,
-        "data_density": 9.2,
-        "friction_quotient": 9.1,
-        "total": 36.0
+        "curiosity_gap": 9.0,
+        "evidence_integrity": 10.0,
+        "retail_actionability": 9.0,
+        "friction_quotient": 9.5,
+        "total": 37.5
       },
-      "critic_critique": "Strictly adheres to the provided data points ($110 crude, Nifty/Sensex losses, small/micro-cap plunge) while tying the macro impact directly to retail equity SIP allocations."
+      "critic_critique": "Maximizes the prioritized MATHEMATICAL_FRICTION archetype. Strictly anchors to the exact 37% per year vs 1% per month figures in the source while linking the change to a tangible employee passbook checking action."
     },
-    "critic_score": 9.0,
+    "critic_score": 9.4,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B aligns with the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors cleanly to the exact factual metric ($110 crude) and directly connects the macro shock and small/micro-cap drop to a real retail decision (evaluating equity SIP risk/exposure) without inventing facts or anecdotes.",
-    "final_editorial_directive": "Slide 1 must prominently display the '$110 crude' figure and focus on the widening divergence between frontline indices and small/micro-caps. Explain plainly how crude input shocks squeeze smaller firms' profit margins and impact retail fund balances, prompting a disciplined portfolio allocation review rather than panic selling.",
+    "selection_rationale": "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight 2.5). It integrates the exact source numbers (37% per year vs 1% per month) without inventing anecdotal fluff or unverified figures, creating an immediate numerical curiosity gap while maintaining flawless evidence integrity.",
+    "final_editorial_directive": "Lead directly with the mathematical shift (37% per year down to 1% per month) in the first 2 seconds. Follow up on Slide 2 with explicit steps for salaried employees to audit their EPF passbook online via the Member Portal to confirm delayed employer contributions and interest credits.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Crude crosses $110 while your mid and small-cap SIPs bleed: Why broad indices mask the real portfolio damage",
-        "highlight_word": "Crude tops $110",
-        "core_mechanism": "Headline Nifty and Sensex dips hide disproportionate drawdowns in small-cap and micro-cap holdings when crude surges past $110, straining input costs and small-firm margins.",
+        "headline_hook": "Think late PF penalties force 37% annual interest? EPFO Vishwas 2026 rewrites the rules.",
+        "highlight_word": "37% annual",
+        "core_mechanism": "Employers previously faced up to 37% annual penalty rates on delayed employee provident fund deposits. The newly announced EPFO VISHWAS 2026 scheme permits companies to settle historical default damages at a slashed rate of 1% per month depending on the delay duration.",
         "scores": {
-          "curiosity_gap": 7.8,
+          "curiosity_gap": 8.0,
+          "evidence_integrity": 10.0,
           "retail_actionability": 7.5,
-          "data_density": 8.0,
-          "friction_quotient": 7.9,
-          "total": 31.2
+          "friction_quotient": 8.0,
+          "total": 33.5
         },
-        "critic_critique": "Solid grounding in the source's market levels, but broad index versus mid/small cap divergence is framed somewhat generically."
+        "critic_critique": "Solid structural hook that addresses common employer assumptions, but focuses heavily on corporate penalty relief rather than the direct personal finance verification angle for salaried workers."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "When crude breaches $110, small and micro-cap stocks fall sharply: What this margin squeeze means for your equity SIP portfolio",
-        "highlight_word": "$110 crude shock",
-        "core_mechanism": "Oil exceeding $110 per barrel creates an immediate raw material and transportation friction, hitting micro-cap balance sheets far harder than large benchmarks and impacting retail monthly SIP values.",
+        "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
+        "highlight_word": "37% yearly",
+        "core_mechanism": "Under EPFO's VISHWAS 2026 scheme, late payment damages that used to compound up to 37% per year are now capped at 1% per month. Salaried individuals should cross-check their monthly EPF passbook to ensure delayed deposits are credited before employer settlements.",
         "scores": {
-          "curiosity_gap": 8.8,
-          "retail_actionability": 8.9,
-          "data_density": 9.2,
-          "friction_quotient": 9.1,
-          "total": 36.0
+          "curiosity_gap": 9.0,
+          "evidence_integrity": 10.0,
+          "retail_actionability": 9.0,
+          "friction_quotient": 9.5,
+          "total": 37.5
         },
-        "critic_critique": "Strictly adheres to the provided data points ($110 crude, Nifty/Sensex losses, small/micro-cap plunge) while tying the macro impact directly to retail equity SIP allocations."
+        "critic_critique": "Maximizes the prioritized MATHEMATICAL_FRICTION archetype. Strictly anchors to the exact 37% per year vs 1% per month figures in the source while linking the change to a tangible employee passbook checking action."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "Nifty extends losses at $110 crude, but micro-caps bear the brunt: The hidden volatility test for retail fund investors",
-        "highlight_word": "Micro-cap drawdown",
-        "core_mechanism": "Institutional benchmark resilience often buffers frontline indices, whereas illiquid micro-caps experience steeper drawdowns during global crude shocks.",
+        "headline_hook": "While employers get PF penalty relief from 37% to 1%, check your passbook updates.",
+        "highlight_word": "PF penalty",
+        "core_mechanism": "The VISHWAS 2026 scheme offers employers a pathway to resolve delayed PF contribution fines at 1% per month instead of 37% yearly. Salaried employees must audit their monthly EPF passbook to verify actual deposit timing against salary slip deductions.",
         "scores": {
-          "curiosity_gap": 8.0,
-          "retail_actionability": 7.9,
-          "data_density": 8.1,
-          "friction_quotient": 8.0,
-          "total": 32.0
+          "curiosity_gap": 8.5,
+          "evidence_integrity": 10.0,
+          "retail_actionability": 8.5,
+          "friction_quotient": 8.5,
+          "total": 35.5
         },
-        "critic_critique": "Good friction and accurate reflection of source data, though slightly less direct on personal portfolio actionability compared to Candidate B."
+        "critic_critique": "Good contrast between regulatory relief for firms and employee passbook auditing. Slightly less punchy on the mathematical delta compared to Candidate B."
       }
     ]
   },
@@ -384,18 +366,18 @@
     "average_score": 9.3,
     "slide_1_report": {
       "mobile_readability_score": 9.5,
-      "contrast_score": 9.5,
+      "contrast_score": 9.2,
       "whitespace_score": 9.0,
-      "overall_score": 9.3,
+      "overall_score": 9.2,
       "passed": true,
-      "critique_summary": "The slide features excellent typography hierarchy and instant mobile legibility using a high-contrast green highlight box. The layout is clean with balanced whitespace, perfectly matching a premium financial media style.",
+      "critique_summary": "The typography is bold, punchy, and highly effective for social feed consumption. The green highlight box provides an excellent focal point, though a slight adjustment to the vertical tracking could further improve the balance of the three-line stack.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
-        "line_height": "1.1",
-        "notes": "Typography, padding, and alignment are already optimized for mobile feed viewing."
+        "line_height": "1.15",
+        "notes": "The current layout is very strong; no major changes are required, but a minor increase in letter-spacing for the green highlight text could enhance legibility."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-21T14:05:46.725225+00:00"
+  "exported_at": "2026-10-22T14:18:18.499426+00:00"
 }
