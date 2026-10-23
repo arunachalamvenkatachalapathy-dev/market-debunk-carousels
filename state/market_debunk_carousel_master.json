@@ -1,129 +1,152 @@
 {
   "topic": {
-    "title": "EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to 1% a month",
+    "title": "Nifty trims early losses to 91 points by noon; broad market bleeds as 432 stocks hit 52-week lows - TradingView",
     "archetype": "market_breaking_news",
     "archetype_name": "Breaking Financial News Debunk",
-    "topic_category": "WEALTH_LEAK",
-    "viral_demand_score": 92.0,
-    "source": "Economic Times Wealth & Personal Finance",
-    "source_snippet": "Under the EPFO's VISHWAS, 2026 scheme, employers can settle delayed PF contribution penalties at reduced rates. This scheme allows penalties to be lowered from 37% per year to 1% per month based on the delay.",
-    "source_url": "https://economictimes.indiatimes.com/wealth/save/epfo-vishwas-2026-scheme-how-penalty-on-employer-for-late-pf-contributions-can-be-cut-from-37-a-year-to-1-a-month/articleshow/135118163.cms",
-    "raw_text": "EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to 1% a month. Under the EPFO's VISHWAS, 2026 scheme, employers can settle delayed PF contribution penalties at reduced rates. This scheme allows penalties to be lowered from 37% per year to 1% per month based on the delay.",
+    "topic_category": "MARKET_TRAP",
+    "viral_demand_score": 85.5,
+    "source": "TradingView",
+    "source_snippet": "Nifty trims early losses to 91 points by noon; broad market bleeds as 432 stocks hit 52-week lows&nbsp;&nbsp;TradingView",
+    "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOV0EwZWpoV1dmTXV5X2hWcFZjZC1lcTFlZWhSQTRhMElwRnRhZUJZeDZGX3JMSEJxeTA0dThJV2NnWXlvczNVdzJNTVM2aW9pZzltUkZLdVdvU3k4Tm5mQmtvVjVvdkR4ejdzaEl5NzVGSF9vb2xDRC1fUmNkSzE2bkZ3bW1ycjd5RE41OHN6UzBVb2Nlb1FqNHBlYS1UWTMzWGVDUVEwVi1kS2tLUjUwVXBTQjJ4WTZvSF9UR3Zla1BaUlViU3F4NTh0WnlzWElPTEVRaG9LYVBQTVJLQWg3TmY3bmYxY2lH?oc=5",
+    "raw_text": "Nifty trims early losses to 91 points by noon; broad market bleeds as 432 stocks hit 52-week lows - TradingView. Nifty trims early losses to 91 points by noon; broad market bleeds as 432 stocks hit 52-week lows&nbsp;&nbsp;TradingView",
     "numbers_detected": [
-      "2026",
-      "37%",
-      "1%",
-      "2026",
-      "37%",
-      "1%"
+      "91 points",
+      "432",
+      "52",
+      "91 points",
+      "432",
+      "52"
     ],
-    "published_at": "2026-10-22T17:38:13+05:30",
-    "age_hours": 2.1,
-    "retrieved_at": "2026-10-22T14:15:20.956361+00:00",
-    "date": "22 Oct 2026",
+    "published_at": "2026-10-22T10:23:30+00:00",
+    "age_hours": 17.3,
+    "retrieved_at": "2026-10-23T03:41:24.436900+00:00",
+    "date": "23 Oct 2026",
     "from_live_api": true,
-    "evidence_snapshot": "Source: Economic Times Wealth & Personal Finance | Published: 2026-10-22T17:38:13+05:30 (2.1h ago) | Headline: EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to 1% a month | Context: EPFO Vishwas 2026 scheme: How penalty on employer for late PF contributions can be cut from 37% a year to 1% a month. Under the EPFO's VISHWAS, 2026 scheme, employers can settle delayed PF contribution penalties at reduced rates. This scheme allows penalties to be lowered from 37% per year to 1% per month based on the delay.",
+    "evidence_snapshot": "Source: TradingView | Published: 2026-10-22T10:23:30+00:00 (17.3h ago) | Headline: Nifty trims early losses to 91 points by noon; broad market bleeds as 432 stocks hit 52-week lows - TradingView | Context: Nifty trims early losses to 91 points by noon; broad market bleeds as 432 stocks hit 52-week lows - TradingView. Nifty trims early losses to 91 points by noon; broad market bleeds as 432 stocks hit 52-week lows&nbsp;&nbsp;TradingView",
     "news_analysis": {
-      "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
-      "breaking_event_summary": "Under the EPFO's VISHWAS 2026 scheme, employers can settle penalties for delayed provident fund contributions at reduced rates. The penalty is lowered from 37% per year to 1% per month based on the duration of delay.",
-      "retail_illusion": "Employees might wonder whether this penalty cut for employers compromises their own PF dues or credited interest.",
-      "institutional_reality": "The reduction applies specifically to the damages and penalties charged by EPFO to defaulting employers, not the mandatory contribution amounts owed to employees.",
+      "headline_hook": "Nifty trimmed losses to 91 points, yet 432 stocks hit 52-week lows: why your direct equity portfolio is bleeding worse than the headline.",
+      "breaking_event_summary": "During midday trade, the Nifty trimmed early session losses to down 91 points, while broad-market selling pushed 432 stocks to their 52-week lows.",
+      "retail_illusion": "Assuming that a modest decline in the headline benchmark index means individual mid-cap and small-cap holdings are equally stable.",
+      "institutional_reality": "Headline indices like the Nifty are market-cap weighted and can be cushioned by a few large-cap heavyweights, obscuring widespread weakness and liquidity drops across the broader market.",
       "citable_metrics": [
-        "37% a year",
-        "1% a month",
-        "37% per year",
-        "1% per month"
+        "91 points",
+        "432 stocks"
       ],
-      "debunk_category": "REGULATORY_SHIFT",
-      "actionable_retail_rule": "Review your EPFO digital passbook periodically to confirm that your employer is depositing PF contributions every month without unaddressed backlogs.",
-      "lead_magnet": {},
-      "carousel_outline": [],
-      "highlight_word": "37% yearly",
-      "editorial_directive": "Lead directly with the mathematical shift (37% per year down to 1% per month) in the first 2 seconds. Follow up on Slide 2 with explicit steps for salaried employees to audit their EPF passbook online via the Member Portal to confirm delayed employer contributions and interest credits."
+      "debunk_category": "VALUATION_MYTH",
+      "actionable_retail_rule": "Assess portfolio health by checking broad-market breadth indicators and individual stock support levels rather than relying solely on headline index movements.",
+      "lead_magnet": {
+        "title": "Market Breadth Diagnostic Checklist",
+        "description": "A quick reference guide to track advance-decline ratios and 52-week low counts before taking index-based portfolio decisions."
+      },
+      "carousel_outline": [
+        {
+          "slide_number": 1,
+          "slide_title": "The Headline vs. The Reality",
+          "takeaway": "Nifty showed a manageable loss of 91 points, but broad market selling hit hard."
+        },
+        {
+          "slide_number": 2,
+          "slide_title": "The 52-Week Low Surge",
+          "takeaway": "432 stocks touched 52-week lows despite the index trimming its morning losses."
+        },
+        {
+          "slide_number": 3,
+          "slide_title": "How Index Weighting Masks Pain",
+          "takeaway": "Large-cap stocks can stabilize the headline number while non-index stocks face heavy selling pressure."
+        },
+        {
+          "slide_number": 4,
+          "slide_title": "What Retail Investors Should Check",
+          "takeaway": "Monitor market breadth and specific stock fundamentals rather than broad index movements alone."
+        }
+      ],
+      "highlight_word": "432 stocks",
+      "editorial_directive": "Slide 1 must highlight '432 stocks' in the highlight box. Frame the distinction between weighted index recovery and broad market destruction without inventing rupee figures, macro conspiracies, or ungrounded panic."
     },
     "darwin_result": {
       "winning_candidate": {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
-        "highlight_word": "37% yearly",
-        "core_mechanism": "Under EPFO's VISHWAS 2026 scheme, late payment damages that used to compound up to 37% per year are now capped at 1% per month. Salaried individuals should cross-check their monthly EPF passbook to ensure delayed deposits are credited before employer settlements.",
+        "headline_hook": "Nifty trimmed losses to 91 points, yet 432 stocks hit 52-week lows: why your direct equity portfolio is bleeding worse than the headline.",
+        "highlight_word": "432 stocks",
+        "core_mechanism": "Translating the mathematical gap between a mild 91-point Nifty decline and 432 stocks at annual lows into a portfolio reality check for retail stock pickers.",
         "scores": {
-          "curiosity_gap": 9.0,
-          "evidence_integrity": 10.0,
-          "retail_actionability": 9.0,
-          "friction_quotient": 9.5,
+          "curiosity_gap": 9.2,
+          "retail_actionability": 9.1,
+          "data_density": 9.8,
+          "friction_quotient": 9.4,
           "total": 37.5
         },
-        "critic_critique": "Maximizes the prioritized MATHEMATICAL_FRICTION archetype. Strictly anchors to the exact 37% per year vs 1% per month figures in the source while linking the change to a tangible employee passbook checking action."
+        "critic_critique": "Candidate B perfectly integrates the exact source numbers ('91 points' and '432 stocks hitting 52-week lows') to challenge the retail illusion that a mild index dip means your portfolio is safe. Zero invented facts, pure mathematical divergence."
       },
       "critic_score": 9.4,
       "archetype": "MATHEMATICAL_FRICTION",
-      "selection_rationale": "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight 2.5). It integrates the exact source numbers (37% per year vs 1% per month) without inventing anecdotal fluff or unverified figures, creating an immediate numerical curiosity gap while maintaining flawless evidence integrity.",
-      "final_editorial_directive": "Lead directly with the mathematical shift (37% per year down to 1% per month) in the first 2 seconds. Follow up on Slide 2 with explicit steps for salaried employees to audit their EPF passbook online via the Member Portal to confirm delayed employer contributions and interest credits.",
+      "selection_rationale": "Candidate B maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors cleanly to the exact factual metrics from the source (91 points vs 432 stocks hitting 52-week lows) and instantly demonstrates why a retail investor's demat account may be in deep distress even when the benchmark appears calm.",
+      "final_editorial_directive": "Slide 1 must highlight '432 stocks' in the highlight box. Frame the distinction between weighted index recovery and broad market destruction without inventing rupee figures, macro conspiracies, or ungrounded panic.",
       "all_candidates": [
         {
           "id": "A",
           "archetype": "CONTRARIAN_TRAP",
-          "headline_hook": "Think late PF penalties force 37% annual interest? EPFO Vishwas 2026 rewrites the rules.",
-          "highlight_word": "37% annual",
-          "core_mechanism": "Employers previously faced up to 37% annual penalty rates on delayed employee provident fund deposits. The newly announced EPFO VISHWAS 2026 scheme permits companies to settle historical default damages at a slashed rate of 1% per month depending on the delay duration.",
+          "headline_hook": "Your index tracker shows down just 91 points, but 432 individual stocks collapsed to 52-week lows.",
+          "highlight_word": "91 points",
+          "core_mechanism": "Index-level resilience masks internal breadth decay, luring retail equity SIP investors into believing small and mid caps are stable.",
           "scores": {
-            "curiosity_gap": 8.0,
-            "evidence_integrity": 10.0,
-            "retail_actionability": 7.5,
-            "friction_quotient": 8.0,
-            "total": 33.5
+            "curiosity_gap": 8.4,
+            "retail_actionability": 7.9,
+            "data_density": 8.5,
+            "friction_quotient": 8.6,
+            "total": 33.4
           },
-          "critic_critique": "Solid structural hook that addresses common employer assumptions, but focuses heavily on corporate penalty relief rather than the direct personal finance verification angle for salaried workers."
+          "critic_critique": "Solid headline contrast between headline index trimming and underlying broad market damage. However, it leans slightly observational rather than delivering immediate tactical math on household portfolio allocation."
         },
         {
           "id": "B",
           "archetype": "MATHEMATICAL_FRICTION",
-          "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
-          "highlight_word": "37% yearly",
-          "core_mechanism": "Under EPFO's VISHWAS 2026 scheme, late payment damages that used to compound up to 37% per year are now capped at 1% per month. Salaried individuals should cross-check their monthly EPF passbook to ensure delayed deposits are credited before employer settlements.",
+          "headline_hook": "Nifty trimmed losses to 91 points, yet 432 stocks hit 52-week lows: why your direct equity portfolio is bleeding worse than the headline.",
+          "highlight_word": "432 stocks",
+          "core_mechanism": "Translating the mathematical gap between a mild 91-point Nifty decline and 432 stocks at annual lows into a portfolio reality check for retail stock pickers.",
           "scores": {
-            "curiosity_gap": 9.0,
-            "evidence_integrity": 10.0,
-            "retail_actionability": 9.0,
-            "friction_quotient": 9.5,
+            "curiosity_gap": 9.2,
+            "retail_actionability": 9.1,
+            "data_density": 9.8,
+            "friction_quotient": 9.4,
             "total": 37.5
           },
-          "critic_critique": "Maximizes the prioritized MATHEMATICAL_FRICTION archetype. Strictly anchors to the exact 37% per year vs 1% per month figures in the source while linking the change to a tangible employee passbook checking action."
+          "critic_critique": "Candidate B perfectly integrates the exact source numbers ('91 points' and '432 stocks hitting 52-week lows') to challenge the retail illusion that a mild index dip means your portfolio is safe. Zero invented facts, pure mathematical divergence."
         },
         {
           "id": "C",
           "archetype": "INSTITUTIONAL_DISPARITY",
-          "headline_hook": "While employers get PF penalty relief from 37% to 1%, check your passbook updates.",
-          "highlight_word": "PF penalty",
-          "core_mechanism": "The VISHWAS 2026 scheme offers employers a pathway to resolve delayed PF contribution fines at 1% per month instead of 37% yearly. Salaried employees must audit their monthly EPF passbook to verify actual deposit timing against salary slip deductions.",
+          "headline_hook": "The benchmark recovered to a 91-point deficit while 432 stocks fell to 52-week lows, exposing what headline indices conceal from small investors.",
+          "highlight_word": "52-week lows",
+          "core_mechanism": "Demonstrating how heavyweight stocks cushion the headline index while broader retail-heavy holdings experience acute drawdowns.",
           "scores": {
-            "curiosity_gap": 8.5,
-            "evidence_integrity": 10.0,
-            "retail_actionability": 8.5,
-            "friction_quotient": 8.5,
-            "total": 35.5
+            "curiosity_gap": 8.1,
+            "retail_actionability": 8.2,
+            "data_density": 8.6,
+            "friction_quotient": 8.3,
+            "total": 33.2
           },
-          "critic_critique": "Good contrast between regulatory relief for firms and employee passbook auditing. Slightly less punchy on the mathematical delta compared to Candidate B."
+          "critic_critique": "Accurate and disciplined to the source context, but softer on immediate consumer friction than Candidate B's direct portfolio confrontation."
         }
       ]
     }
   },
   "plan": {
-    "hook_headline": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
-    "core_illusion": "Employees might wonder whether this penalty cut for employers compromises their own PF dues or credited interest.",
-    "hidden_reality": "The reduction applies specifically to the damages and penalties charged by EPFO to defaulting employers, not the mandatory contribution amounts owed to employees.",
-    "citable_metric": "37% a year",
+    "hook_headline": "Nifty trimmed losses to 91 points, yet 432 stocks hit 52-week lows: why your direct equity portfolio is bleeding worse than the headline.",
+    "core_illusion": "Assuming that a modest decline in the headline benchmark index means individual mid-cap and small-cap holdings are equally stable.",
+    "hidden_reality": "Headline indices like the Nifty are market-cap weighted and can be cushioned by a few large-cap heavyweights, obscuring widespread weakness and liquidity drops across the broader market.",
+    "citable_metric": "91 points",
     "all_metrics": [
-      "37% a year",
-      "1% a month",
-      "37% per year",
-      "1% per month"
+      "91 points",
+      "432 stocks"
     ],
-    "actionable_rule": "Review your EPFO digital passbook periodically to confirm that your employer is depositing PF contributions every month without unaddressed backlogs.",
-    "breaking_event": "Under the EPFO's VISHWAS 2026 scheme, employers can settle penalties for delayed provident fund contributions at reduced rates. The penalty is lowered from 37% per year to 1% per month based on the duration of delay.",
-    "lead_magnet": {},
+    "actionable_rule": "Assess portfolio health by checking broad-market breadth indicators and individual stock support levels rather than relying solely on headline index movements.",
+    "breaking_event": "During midday trade, the Nifty trimmed early session losses to down 91 points, while broad-market selling pushed 432 stocks to their 52-week lows.",
+    "lead_magnet": {
+      "title": "Market Breadth Diagnostic Checklist",
+      "description": "A quick reference guide to track advance-decline ratios and 52-week low counts before taking index-based portfolio decisions."
+    },
     "banned_phrases": [
       "guaranteed wealth",
       "quick money",
@@ -132,148 +155,133 @@
     ]
   },
   "deck": {
-    "caption": "Did your employer miss depositing your PF money on time? The new EPFO Vishwas 2026 scheme lets companies clear past delayed penalties at a much lower rate instead of the old heavy burden.\n\n• Understand how late payment penalties are being reduced from 37% a year to 1% a month\n• Learn what this relief scheme covers and what it means for your workplace savings\n• Discover a simple way to check your own digital passbook for any missing company deposits\n\nSave this post if you want to keep track of your employee benefits, and share it with someone who has a salaried job.\n\nDo you check your PF passbook every month or only when changing jobs?\n\n#EPFO #ProvidentFund #PersonalFinance #EmployeeRights #MarketDebunk",
+    "caption": "Is your stock portfolio taking a beating even when Nifty looks fine? By noon today, Nifty trimmed its loss to just 91 points, but 432 stocks crashed to their 52-week lows.\n\nHere is what you need to know:\n• Why giant companies mask broad market weakness\n• How 432 stocks hit 1-year lows while Nifty recovered\n• How to check your actual portfolio safety today\n\nSave this post to stay sharp on market movements! Do you check broad market indicators before buying, or do you only look at the Nifty index?\n\n#Nifty50 #IndianStockMarket #ShareMarketIndia #InvestingTips #MarketDebunk",
     "slides": [
       {
         "role": "hook",
-        "title": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
+        "title": "Why is your stock portfolio bleeding when Nifty dropped only <highlight>91 points</highlight>?",
+        "card_text": "",
         "slide_index": 1,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "EPFO slashes",
-          "<span class='highlight-box'>late PF</span>",
-          "contribution penalties"
-        ],
-        "card_text": ""
+          "Why is",
+          "<span class='highlight-box'>your stock</span>",
+          "portfolio bleeding"
+        ]
       },
       {
         "role": "value_1",
-        "visual_body": {
-          "type": "stat_data",
-          "metric": "37%",
-          "label": "Old Yearly Penalty Rate",
-          "context": "Previous maximum penalty charged yearly to employers for delayed provident fund contributions."
+        "title": "Headline Index vs Real Stocks",
+        "comparison_data": {
+          "myth": "If Nifty falls only 91 points, my individual stocks must be safe.",
+          "reality": "432 stocks hit <highlight>52-week lows</highlight> because small and mid-sized companies faced severe selling."
         },
-        "title": "Heavy Penalties on Employers",
         "slide_index": 2,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Heavy Penalties",
-          "<span class='highlight-box'>on Employers</span>"
-        ],
-        "card_text": "stat_data 37% Old Yearly Penalty Rate Previous maximum penalty charged yearly to employers for delayed provident fund contributions."
+          "Headline Index",
+          "<span class='highlight-box'>vs Real</span>",
+          "Stocks"
+        ]
       },
       {
         "role": "value_2",
-        "visual_body": {
-          "type": "stat_data",
-          "metric": "1%",
-          "label": "New Monthly Penalty Rate",
-          "context": "Under the VISHWAS 2026 scheme, penalties can now be settled at this reduced monthly rate based on the delay."
-        },
-        "title": "The Vishwas 2026 Relief",
+        "title": "Why the Main Index Hides Loss",
+        "card_text": "{'body': 'Main indices like Nifty give huge weight to a few giant companies. If those top giants stay steady, the Nifty index looks stable even while smaller company stocks suffer massive price drops.'}",
         "slide_index": 3,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "<span class='highlight-box'>The Vishwas</span>",
-          "Relief"
-        ],
-        "card_text": "stat_data 1% New Monthly Penalty Rate Under the VISHWAS 2026 scheme, penalties can now be settled at this reduced monthly rate based on the delay."
+          "Why the",
+          "<span class='highlight-box'>Main Index</span>",
+          "Hides Loss"
+        ]
       },
       {
         "role": "value_3",
-        "visual_body": {
-          "type": "comparison_data",
-          "myth": "The scheme reduces the actual principal money your employer owes to your retirement account.",
-          "reality": "The reduction applies specifically to the damages and penalties charged by EPFO, not the mandatory contribution amounts owed."
+        "title": "Midday Market Damage Report",
+        "stat_data": {
+          "metric": "432",
+          "label": "Stocks at 52-Week Lows",
+          "context": "Even as Nifty trimmed its loss to just <highlight>91 points</highlight> by noon."
         },
-        "title": "What Changes and What Doesn't",
         "slide_index": 4,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "What Changes",
-          "<span class='highlight-box'>and What</span>",
-          "Doesn't"
-        ],
-        "card_text": "comparison_data The scheme reduces the actual principal money your employer owes to your retirement account. The reduction applies specifically to the damages and penalties charged by EPFO, not the mandatory contribution amounts owed."
+          "Midday Market",
+          "<span class='highlight-box'>Damage Report</span>"
+        ]
       },
       {
         "role": "value_4",
-        "visual_body": {
-          "type": "card_text",
-          "body": "The Employees' Provident Fund Organisation introduced this window so defaulting businesses can clear long-pending dues without facing crippling financial collapse from accumulated penalties."
+        "title": "How Broad Selling Happens",
+        "flowchart_data": {
+          "steps": [
+            "Heavy selling begins in broad market stocks",
+            "Fewer buyers lead to steep price falls",
+            "432 stocks crash to 52-week lows",
+            "Giant companies cushion Nifty headline drop"
+          ]
         },
-        "title": "Why the Scheme Was Introduced",
         "slide_index": 5,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Why the",
-          "<span class='highlight-box'>Scheme Was</span>",
-          "Introduced"
+          "How Broad",
+          "<span class='highlight-box'>Selling Happens</span>"
         ],
-        "card_text": "card_text The Employees' Provident Fund Organisation introduced this window so defaulting businesses can clear long-pending dues without facing crippling financial collapse from accumulated penalties."
+        "card_text": "Heavy selling begins in broad market stocks Fewer buyers lead to steep price falls 432 stocks crash to 52-week lows Giant companies cushion Nifty headline drop"
       },
       {
         "role": "value_5",
-        "visual_body": {
-          "type": "flowchart_data",
-          "steps": [
-            "Employer applies to settle past delays under VISHWAS 2026",
-            "Authorities calculate reduced penalty at 1% per month",
-            "Company clears outstanding dues and settled penalties"
-          ]
-        },
-        "title": "How the Settlement Works",
-        "slide_index": 6,
-        "tag": "#MARKETDEBUNK",
-        "title_lines": [
-          "How the",
-          "<span class='highlight-box'>Settlement Works</span>"
-        ],
-        "card_text": "flowchart_data Employer applies to settle past delays under VISHWAS 2026 Authorities calculate reduced penalty at 1% per month Company clears outstanding dues and settled penalties"
-      },
-      {
-        "role": "value_6",
-        "visual_body": {
-          "type": "checklist_data",
+        "title": "Portfolio Health Checklist",
+        "checklist_data": {
           "items": [
             {
-              "text": "Log into your EPFO member portal regularly",
+              "text": "Check broad market indicators, not just Nifty",
               "status": "pass"
             },
             {
-              "text": "Download your digital passbook to verify monthly credits",
+              "text": "Monitor individual stock support levels",
               "status": "pass"
             },
             {
-              "text": "Check if your employer has left any unaddressed backlogs",
-              "status": "pass"
+              "text": "Assume small caps are safe because Nifty is down only 91 pts",
+              "status": "fail"
             }
           ]
         },
-        "title": "Protecting Your Own Dues",
+        "slide_index": 6,
+        "tag": "#MARKETDEBUNK",
+        "title_lines": [
+          "<span class='highlight-box'>Portfolio Health</span>",
+          "Checklist"
+        ],
+        "card_text": "Check broad market indicators, not just Nifty Monitor individual stock support levels Assume small caps are safe because Nifty is down only 91 pts"
+      },
+      {
+        "role": "value_6",
+        "title": "What Remains Uncertain",
+        "card_text": "{'body': 'It is uncertain whether large companies will eventually fall or if small stocks will recover. Avoid panic selling, but do not buy blindly just because prices look cheap.'}",
         "slide_index": 7,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Protecting Your",
-          "<span class='highlight-box'>Own Dues</span>"
-        ],
-        "card_text": "checklist_data Log into your EPFO member portal regularly Download your digital passbook to verify monthly credits Check if your employer has left any unaddressed backlogs"
+          "<span class='highlight-box'>What Remains</span>",
+          "Uncertain"
+        ]
       },
       {
         "role": "bookmark_save",
-        "title": "Verify Your Passbook Today",
-        "cta_detail": "Save this post to remember how to check your PF statements, and share it with a colleague.",
+        "title": "Look Beyond Headline Numbers",
+        "card_text": "",
+        "cta_detail": "Save this slide as a reminder to check broad market health before making trade decisions!",
         "slide_index": 8,
         "tag": "#MARKETDEBUNK",
         "title_lines": [
-          "Verify Your",
-          "<span class='highlight-box'>Passbook Today</span>"
-        ],
-        "card_text": ""
+          "Look Beyond",
+          "<span class='highlight-box'>Headline Numbers</span>"
+        ]
       }
     ],
-    "fact_check_status": "verified_after_repair",
+    "fact_check_status": "verified_pass",
     "audio_recommendation": {
       "title": "Cornfield Chase (Interstellar Piano/Synth)",
       "artist": "Hans Zimmer / Dorian Marko",
@@ -291,93 +299,93 @@
     "reels_boost_tier": "High Velocity",
     "search_query": "Hans Zimmer Cornfield Chase Dorian Marko"
   },
-  "run_id": "20261022_141801",
+  "run_id": "20261023_034442",
   "slide_count": 8,
   "darwin_result": {
     "winning_candidate": {
       "id": "B",
       "archetype": "MATHEMATICAL_FRICTION",
-      "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
-      "highlight_word": "37% yearly",
-      "core_mechanism": "Under EPFO's VISHWAS 2026 scheme, late payment damages that used to compound up to 37% per year are now capped at 1% per month. Salaried individuals should cross-check their monthly EPF passbook to ensure delayed deposits are credited before employer settlements.",
+      "headline_hook": "Nifty trimmed losses to 91 points, yet 432 stocks hit 52-week lows: why your direct equity portfolio is bleeding worse than the headline.",
+      "highlight_word": "432 stocks",
+      "core_mechanism": "Translating the mathematical gap between a mild 91-point Nifty decline and 432 stocks at annual lows into a portfolio reality check for retail stock pickers.",
       "scores": {
-        "curiosity_gap": 9.0,
-        "evidence_integrity": 10.0,
-        "retail_actionability": 9.0,
-        "friction_quotient": 9.5,
+        "curiosity_gap": 9.2,
+        "retail_actionability": 9.1,
+        "data_density": 9.8,
+        "friction_quotient": 9.4,
         "total": 37.5
       },
-      "critic_critique": "Maximizes the prioritized MATHEMATICAL_FRICTION archetype. Strictly anchors to the exact 37% per year vs 1% per month figures in the source while linking the change to a tangible employee passbook checking action."
+      "critic_critique": "Candidate B perfectly integrates the exact source numbers ('91 points' and '432 stocks hitting 52-week lows') to challenge the retail illusion that a mild index dip means your portfolio is safe. Zero invented facts, pure mathematical divergence."
     },
     "critic_score": 9.4,
     "archetype": "MATHEMATICAL_FRICTION",
-    "selection_rationale": "Candidate B perfectly satisfies the prioritized MATHEMATICAL_FRICTION archetype (weight 2.5). It integrates the exact source numbers (37% per year vs 1% per month) without inventing anecdotal fluff or unverified figures, creating an immediate numerical curiosity gap while maintaining flawless evidence integrity.",
-    "final_editorial_directive": "Lead directly with the mathematical shift (37% per year down to 1% per month) in the first 2 seconds. Follow up on Slide 2 with explicit steps for salaried employees to audit their EPF passbook online via the Member Portal to confirm delayed employer contributions and interest credits.",
+    "selection_rationale": "Candidate B maximizes the prioritized MATHEMATICAL_FRICTION archetype (weight: 2.5). It anchors cleanly to the exact factual metrics from the source (91 points vs 432 stocks hitting 52-week lows) and instantly demonstrates why a retail investor's demat account may be in deep distress even when the benchmark appears calm.",
+    "final_editorial_directive": "Slide 1 must highlight '432 stocks' in the highlight box. Frame the distinction between weighted index recovery and broad market destruction without inventing rupee figures, macro conspiracies, or ungrounded panic.",
     "all_candidates": [
       {
         "id": "A",
         "archetype": "CONTRARIAN_TRAP",
-        "headline_hook": "Think late PF penalties force 37% annual interest? EPFO Vishwas 2026 rewrites the rules.",
-        "highlight_word": "37% annual",
-        "core_mechanism": "Employers previously faced up to 37% annual penalty rates on delayed employee provident fund deposits. The newly announced EPFO VISHWAS 2026 scheme permits companies to settle historical default damages at a slashed rate of 1% per month depending on the delay duration.",
+        "headline_hook": "Your index tracker shows down just 91 points, but 432 individual stocks collapsed to 52-week lows.",
+        "highlight_word": "91 points",
+        "core_mechanism": "Index-level resilience masks internal breadth decay, luring retail equity SIP investors into believing small and mid caps are stable.",
         "scores": {
-          "curiosity_gap": 8.0,
-          "evidence_integrity": 10.0,
-          "retail_actionability": 7.5,
-          "friction_quotient": 8.0,
-          "total": 33.5
+          "curiosity_gap": 8.4,
+          "retail_actionability": 7.9,
+          "data_density": 8.5,
+          "friction_quotient": 8.6,
+          "total": 33.4
         },
-        "critic_critique": "Solid structural hook that addresses common employer assumptions, but focuses heavily on corporate penalty relief rather than the direct personal finance verification angle for salaried workers."
+        "critic_critique": "Solid headline contrast between headline index trimming and underlying broad market damage. However, it leans slightly observational rather than delivering immediate tactical math on household portfolio allocation."
       },
       {
         "id": "B",
         "archetype": "MATHEMATICAL_FRICTION",
-        "headline_hook": "EPFO slashes late PF contribution penalties from 37% yearly to 1% monthly.",
-        "highlight_word": "37% yearly",
-        "core_mechanism": "Under EPFO's VISHWAS 2026 scheme, late payment damages that used to compound up to 37% per year are now capped at 1% per month. Salaried individuals should cross-check their monthly EPF passbook to ensure delayed deposits are credited before employer settlements.",
+        "headline_hook": "Nifty trimmed losses to 91 points, yet 432 stocks hit 52-week lows: why your direct equity portfolio is bleeding worse than the headline.",
+        "highlight_word": "432 stocks",
+        "core_mechanism": "Translating the mathematical gap between a mild 91-point Nifty decline and 432 stocks at annual lows into a portfolio reality check for retail stock pickers.",
         "scores": {
-          "curiosity_gap": 9.0,
-          "evidence_integrity": 10.0,
-          "retail_actionability": 9.0,
-          "friction_quotient": 9.5,
+          "curiosity_gap": 9.2,
+          "retail_actionability": 9.1,
+          "data_density": 9.8,
+          "friction_quotient": 9.4,
           "total": 37.5
         },
-        "critic_critique": "Maximizes the prioritized MATHEMATICAL_FRICTION archetype. Strictly anchors to the exact 37% per year vs 1% per month figures in the source while linking the change to a tangible employee passbook checking action."
+        "critic_critique": "Candidate B perfectly integrates the exact source numbers ('91 points' and '432 stocks hitting 52-week lows') to challenge the retail illusion that a mild index dip means your portfolio is safe. Zero invented facts, pure mathematical divergence."
       },
       {
         "id": "C",
         "archetype": "INSTITUTIONAL_DISPARITY",
-        "headline_hook": "While employers get PF penalty relief from 37% to 1%, check your passbook updates.",
-        "highlight_word": "PF penalty",
-        "core_mechanism": "The VISHWAS 2026 scheme offers employers a pathway to resolve delayed PF contribution fines at 1% per month instead of 37% yearly. Salaried employees must audit their monthly EPF passbook to verify actual deposit timing against salary slip deductions.",
+        "headline_hook": "The benchmark recovered to a 91-point deficit while 432 stocks fell to 52-week lows, exposing what headline indices conceal from small investors.",
+        "highlight_word": "52-week lows",
+        "core_mechanism": "Demonstrating how heavyweight stocks cushion the headline index while broader retail-heavy holdings experience acute drawdowns.",
         "scores": {
-          "curiosity_gap": 8.5,
-          "evidence_integrity": 10.0,
-          "retail_actionability": 8.5,
-          "friction_quotient": 8.5,
-          "total": 35.5
+          "curiosity_gap": 8.1,
+          "retail_actionability": 8.2,
+          "data_density": 8.6,
+          "friction_quotient": 8.3,
+          "total": 33.2
         },
-        "critic_critique": "Good contrast between regulatory relief for firms and employee passbook auditing. Slightly less punchy on the mathematical delta compared to Candidate B."
+        "critic_critique": "Accurate and disciplined to the source context, but softer on immediate consumer friction than Candidate B's direct portfolio confrontation."
       }
     ]
   },
   "visual_audit": {
     "passed": true,
-    "average_score": 9.3,
+    "average_score": 9.2,
     "slide_1_report": {
       "mobile_readability_score": 9.5,
-      "contrast_score": 9.2,
+      "contrast_score": 9.5,
       "whitespace_score": 9.0,
-      "overall_score": 9.2,
+      "overall_score": 9.3,
       "passed": true,
-      "critique_summary": "The typography is bold, punchy, and highly effective for social feed consumption. The green highlight box provides an excellent focal point, though a slight adjustment to the vertical tracking could further improve the balance of the three-line stack.",
+      "critique_summary": "The typography is bold and instantly legible, effectively utilizing high-contrast weight and generous negative space to command attention. It successfully mirrors a modern financial publication's clean, authoritative aesthetic.",
       "suggested_css_adjustments": {
         "font_size_modifier_pct": 0,
-        "line_height": "1.15",
-        "notes": "The current layout is very strong; no major changes are required, but a minor increase in letter-spacing for the green highlight text could enhance legibility."
+        "line_height": "1.1",
+        "notes": "The current hierarchy is excellent; tightening the leading slightly on the headline would further unify the visual block for a more premium editorial feel."
       }
     },
     "slide_count_audited": 2
   },
-  "exported_at": "2026-10-22T14:18:18.499426+00:00"
+  "exported_at": "2026-10-23T03:44:51.738307+00:00"
 }
